@@ -12,10 +12,9 @@ MongoDB 控制台未提供账号管理功能，我如何创建账号？
 
 > db.createUser(user, writeConcern)
 
-> user文档格式如下
-> { user: "<name>",
-
+user文档格式如下
 ```
+ { user: "<name>",
    pwd: "<cleartext password>",
    customData: { <any information> },
    roles: [
