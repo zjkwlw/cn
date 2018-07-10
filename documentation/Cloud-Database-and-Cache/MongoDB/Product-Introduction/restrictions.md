@@ -5,7 +5,7 @@
 ## 存储引擎
 存储引擎默认为WiredTiger，不支持修改。
 ## 副本集
-系统自动搭建三节点的副本集，角色分别为primary、secondary、hidden，其中primary节点、secondary节点对用户可见，Hidden节点对用户不可见，用户不可自行搭建节点。
+系统自动搭建三节点的副本集，角色分别为primary、secondary、hidden，其中primary节点、secondary节点对用户可见，hidden节点对用户不可见，用户不可自行搭建节点。
 ## oplog大小
 oplog默认为存储空间的5%，不可修改。
 ## 连接数限制
