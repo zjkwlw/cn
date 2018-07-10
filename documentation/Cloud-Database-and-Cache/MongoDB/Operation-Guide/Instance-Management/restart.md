@@ -5,7 +5,7 @@
 ## 注意事项
 
 - 重启实例会造成连接中断，请操作前请您务必确认已做好业务安排。
-- 重启可能会导致主从切换，请务必确保应用使用Connection String URI的方式连接MongoDB服务。
+- 重启实例可能会导致主从切换，请务必确保应用使用Connection String URI的方式连接 MongoDB 实例。
 
 ## 前提条件
 
