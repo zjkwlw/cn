@@ -33,19 +33,19 @@
 		
 		mongo shell是MongoDB发行版的一部分，您需要先安装MongoDB，然后再使用mongo shell 连接至您的MongoDB实例。
 		
-		MongoDB发行版下载地址请参见：MongoDB Download Center 。
+		MongoDB发行版下载地址请参见：[MongoDB Download Center](https://www.mongodb.com/download-center#community) 。
 		
 		请使用 mongo shell 3.2及以上版本的 client 连接 MongoDB 实例 ，否则可能无法鉴权成功。
 		
 		在云主机上使用 mongo 命令进行连接，命令样例如下：
 
-		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
+		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
 		
-		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
+		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
 		
 		或者
 		
-		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx
+		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx
 		
 		>（****部分替换为为root密码）
 		
