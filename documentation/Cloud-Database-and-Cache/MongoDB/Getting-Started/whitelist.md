@@ -14,6 +14,7 @@ MongoDB 实例创建完成后，默认会将 0.0.0.0/0 加入白名单，即对�
 1. 登录 MongoDB 控制台。
 2. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
 3. 在实例详情页面，点击数据安全性，进入白名单设置页面。
+
    ![白名单](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-008.png)
 4. 点击“设置白名单”，打开设置弹窗。	
 
