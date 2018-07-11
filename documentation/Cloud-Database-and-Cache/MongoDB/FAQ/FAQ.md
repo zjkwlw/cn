@@ -10,7 +10,7 @@ A：出于安全考虑，云数据库 MongoDB 目前仅提供内网连接，暂�
 A：云数据库 MongoDB目前支持3.2版，即将推出3.4版和3.6版。
 
 
-**Q：目前云数据库 MongoDB 支持哪些协议？**
+**Q：云数据库 MongoDB 支持哪些协议？**
 
 A：京东云云数据库MongoDB完全兼容MongoDB官方协议，使用方法可参考：[MongoDB官方文档](https://docs.mongodb.com/v3.2/introduction/)。
 
