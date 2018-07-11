@@ -1,12 +1,12 @@
-# 如何创建账号
+# 如何创建 MongoDB 数据库账号
 
 ## 问题描述
 
-MongoDB 控制台未提供账号管理功能，我如何创建账号？
+MongoDB 控制台未提供账号管理功能，我如何创建 MongoDB 数据库账号？
 
 ## 问题处理
 
-云数据库 MongoDB默认为您提供root账号，拥有MongoDB的root权限，您可以使用root账号登录数据库后，创建其他账号。
+云数据库 MongoDB 默认为您提供了root账号，拥有MongoDB的root权限，您可以使用root账号登录数据库后，创建其他账号。
 
 ### 创建账号命令
 
