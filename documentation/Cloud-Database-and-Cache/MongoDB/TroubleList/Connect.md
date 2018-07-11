@@ -12,12 +12,12 @@
 1. 确认云主机的安全组规则是否做了限制？如出站规则未开通27017端口，请添加
    - 类型：自定义TCP
    - 目的端口：27017
-   - 目的IP：0.0.0.0/0，因MongoDB 实例在自动容灾切换或扩容是IP可能会变化，请开通全部IP。
+   - 目的IP：0.0.0.0/0，因MongoDB 实例在自动容灾切换或扩容时IP可能会变化，请开通全部IP。
 	![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-028.png)
 	
 1. 云主机与MongoDB所在子网的ACL规则是否做了限制？在出站规则与入站规则中，开通27017端口，请添加：
    - 类型：自定义TCP
    - 目的端口：27017
-   - 目的IP：0.0.0.0/0，因MongoDB 实例在自动容灾切换或扩容是IP可能会变化，请开通全部IP。
+   - 目的IP：0.0.0.0/0，因MongoDB 实例在自动容灾切换或扩容时IP可能会变化，请开通全部IP。
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-029.png)
 
