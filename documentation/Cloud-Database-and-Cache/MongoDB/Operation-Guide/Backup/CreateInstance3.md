@@ -15,5 +15,8 @@ MongoDB 控制台提供了根据时间点创建实例的功能，您可以根据
 3. 在实例详情页面，点击右侧操作项中“根据时间点创建”，打开创建实例页面。
 4. 选择要使用的备份，在操作项中点击“根据备份创建”，进入根据备份创建实例页面。
 
+   ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-036.png)
 
-5. 在创建实例页面，选择计费类型、实例规格配置等信息，完成实例创建。创建过程同创建实例 。
+5. 在创建实例页面，选择计费类型、实例规格配置等信息，完成实例创建。创建过程同 [创建实例 ](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)。
+
+   ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-036.png)
