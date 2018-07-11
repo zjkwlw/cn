@@ -2,6 +2,7 @@
 
 ## 问题描述
 我在mongodb实例创建了账号，登录数据库时，账号密码输入都正确，提示鉴权失败。
+![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-030.png)
 
 
 ## 问题排查
