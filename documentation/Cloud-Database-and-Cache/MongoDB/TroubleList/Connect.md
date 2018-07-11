@@ -1,7 +1,7 @@
 # 无法连接云数据库 MongoDB
 
 ## 问题描述
-使用云主机连接数据库报错，具体参考下图。
+使用云主机连接数据库报错，出现：exception: connect failed，具体参考下图。
 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-027.png)
 
 
