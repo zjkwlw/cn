@@ -63,10 +63,10 @@
 前提条件：一台Linux系统的云主机，绑定公网IP，并与云数据库MongoDB在同一VPC。
 
 1. 登录云主机。
-1. 安装socat.
+1. 安装socat。
    > yum install -y socat
 
-2. 添加代理规则：
+2. 添加代理规则。
    > socat TCP-LISTEN:27019,fork TCP:jmongo-hb1-prod-mongo-xxxx.jmiss.jcloud.com:27017
 
    - TCP-LISTEN:填写监听端口，如上文的27019。
