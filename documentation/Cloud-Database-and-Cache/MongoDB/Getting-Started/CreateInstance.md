@@ -8,7 +8,7 @@
 - 如计费类型选择按配置计费，请确认您的账户余额（包括代金券）不小于50元。
 
 ## 操作步骤
-1. 登录 MongoDB 控制台。a
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 2. 在实例列表页面，点击“创建”，进入创建页面。
 
     ![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
@@ -59,7 +59,9 @@
 	- 如计费类型为包年包月，请点击“立即支付”，进入支付页，完成支付流程。
 7. 支付流程流程完成后，页面会自动跳转到 MongoDB 实例列表页面，等待实例创建完成。
 
-# #相关参考
+## 相关参考
 
-- 连接实例
-- 修改密码
+- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Whitelist.md)
+- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/DatabaseConnection.md)
+- [修改密码](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Account/ResetPassword.md)
+- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
