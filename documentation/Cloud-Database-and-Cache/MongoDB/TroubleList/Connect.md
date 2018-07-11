@@ -1,11 +1,12 @@
 # 无法连接云数据库 MongoDB
 
-## 问题描述
+## 现象描述
 使用云主机连接数据库报错，出现：exception: connect failed，具体参考下图。
 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-027.png)
 
+## 原因分析
 
-## 问题排查
+## 处理步骤
 
 1. 确认用于连接的云主机是否与云数据库在同一个VPC内？如处于不同VPC内则网络不通。
 1. 确认 MongoDB 实例的白名单是否限制了云主机的IP？如云主机IP受限，请添加IP至白名单。
