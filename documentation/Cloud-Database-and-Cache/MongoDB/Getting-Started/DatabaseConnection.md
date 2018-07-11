@@ -12,7 +12,7 @@
 
 ## 操作步骤
 1. 获取 MongoDB 实例的连接信息。
-   1. 登录 MongoDB 控制台。
+   1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
    1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
    1. 在实例详情页面，查看资源信息，获取连接 MongoDB 实例的信息。
    
