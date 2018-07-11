@@ -7,7 +7,7 @@
 
 ## 问题排查
 
-MongoDB登录时需输入账号对应的鉴权库，鉴权库未正确输入则会提示鉴权失败。如果您账号坐在的库为test，可使用以下命令登录：
+MongoDB登录时需输入账号对应的鉴权库，鉴权库未正确输入则会提示鉴权失败。如果您账号的授权库为test，可使用以下命令登录：
 
 > mongo --host xxxx.jdcloud.com:27017 --authenticationDatabase test -u <username> -p <password>
 
