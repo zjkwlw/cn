@@ -16,3 +16,8 @@
 	
 1. 点击“确定”，完成密码修改。
 1. 修改完成后，新密码即时生效，请试用新密码连接 MongoDB 实例。
+
+## 相关参考
+
+- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Whitelist.md)
+- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/DatabaseConnection.md)

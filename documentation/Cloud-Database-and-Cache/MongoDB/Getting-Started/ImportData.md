@@ -16,3 +16,7 @@
 	根据上一步导出生成的备份文件，执行 mongostore 命令将数据全部导入至云数据库MongoDB。例如，执行以下语句将数据库全部导入。
 
 	> mongorestore --host dds-xxx:3717 --authenticationDatabase  admin -u root -p xxx dump(文件路径)
+
+
+## 相关参考 
+- [导出数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ExportData.md)

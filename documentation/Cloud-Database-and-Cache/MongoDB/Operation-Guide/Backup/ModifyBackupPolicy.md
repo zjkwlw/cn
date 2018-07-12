@@ -8,7 +8,7 @@
 - 如当天已执行自动备份，修改自动备份时间在当前时间之后，仍会创建备份。
 
 ## 操作步骤
-1. 登录 MongoDB 控制台。
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
 1. 在实例详情页面，依次点击备份与恢复 > 备份策略，进入备份策略页面。
    
@@ -21,3 +21,13 @@
 1. 在修改策略弹窗，重新选择期望的自动备份时间。
 	
 1. 点击“确定”，保存修改。
+
+## 相关参考
+
+- [手动创建备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateBackup.md)
+- [下载备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/DownloadBckup.md)
+- [数据恢复](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/RestoreInstance.md)
+- [根据备份创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance2.md)
+- [根据时间点创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance3.md)
+
+

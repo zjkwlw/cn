@@ -43,7 +43,11 @@ MongoDB 实例创建完成后，默认会将 0.0.0.0/0 加入白名单，即对�
 6. 白名单设置完成后，在1分钟内生效，您可在白名单设置页面查看当前设置的IP，并可根据业务变化随时调整设置。
 		
 		
-		
+## 相关参考
+- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/DatabaseConnection.md)
+- [修改密码](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Account/ResetPassword.md)
+- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
+- [变更实例配置](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
 	
 	，
 	

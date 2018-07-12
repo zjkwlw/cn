@@ -19,3 +19,9 @@ oplog默认为存储空间的5%，不可修改。
 |mongo.s1.xlarge	|8核16G|	4000|
 |mongo.s2.2xlarge	|8核32G|	8000|
 |mongo.s2.4xlarge	|16核64G|	16000|
+
+## 相关参考
+
+- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
+- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
+- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)

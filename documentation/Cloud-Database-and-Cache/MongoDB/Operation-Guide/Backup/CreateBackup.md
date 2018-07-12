@@ -9,7 +9,7 @@
 
 ## 操作步骤
 
-1. 登录 MongoDB 控制台。
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
 1. 在实例详情页面，依次点击备份与恢复 > 备份数据，进入备份数据页面。
 
@@ -18,3 +18,10 @@
 1. 在备份数据页面，点击"创建备份"，打开创建备份确认弹窗。
 1. 点击“确定”，确认执行创建备份。
 1. 您可以在备份列表中查看备份状态。
+
+## 相关参考
+
+- [下载备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/DownloadBckup.md)
+- [数据恢复](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/RestoreInstance.md)
+- [根据备份创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance2.md)
+- [根据时间点创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance3.md)

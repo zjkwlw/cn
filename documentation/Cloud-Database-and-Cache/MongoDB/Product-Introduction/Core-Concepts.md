@@ -16,3 +16,9 @@
 | IOPS | 以4KB为单位，每秒进行块设备读写操作的次数上限。|
 | 存储空间 | 实例的每个节点被分配的磁盘容量。|
 
+## 相关参考
+
+- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
+- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
+- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
+

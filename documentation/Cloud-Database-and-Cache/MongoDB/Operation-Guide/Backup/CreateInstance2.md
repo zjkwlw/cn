@@ -9,7 +9,7 @@ MongoDB 控制台提供了根据备份创建实例的功能，您可以根据某
 
 ## 操作步骤
 
-1. 登录 MongoDB 控制台。
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
 1. 在实例详情页面，点击备份与恢复， 查看备份数据。
 1. 选择要使用的备份，在操作项中点击“根据备份创建”，进入根据备份创建实例页面。
@@ -22,3 +22,8 @@ MongoDB 控制台提供了根据备份创建实例的功能，您可以根据某
    注意：地域与源实例所在地域一致，不可修改。
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-023.png)
+
+## 相关参考
+
+- [手动创建备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateBackup.md)
+- [根据时间点创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance3.md)

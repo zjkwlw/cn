@@ -16,7 +16,11 @@
 |日志收集|收集MongoDB日志信息。|
 |数据迁移|当主从实例都不可用的时候，或者需要克隆在线运行的实例时生成实例。|
 
-## 业务流程
+## 相关参考
+
+- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
+- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
+- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
 
 
 

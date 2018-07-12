@@ -23,3 +23,8 @@
 ## 运维方便
 控制台提供丰富的可视化监控数据指标，各项数据一目了然。您也可以设置自动报警规则，随时随地掌握实例健康情况。
 
+## 相关参考
+
+- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
+- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
+- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
