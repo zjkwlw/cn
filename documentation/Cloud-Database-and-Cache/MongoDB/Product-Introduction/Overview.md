@@ -7,22 +7,21 @@
 ## 常用操作
 
 - 快速上手
-	- 创建云数据 MongoDB 实例
-	- 设置白名单
-	- 连接实例
+	- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
+	- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Whitelist.md)
+	- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/DatabaseConnection.md)
 - 数据迁移
-	- 将数据导入到云
-	- 从云导出数据
+	- [将数据导入到云](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
+	- [从云导出数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ExportData.md)
 - 扩容升级
-	- 变更实例规格
-	- 变更计费方式
+	- [变更实例规格](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
 - 备份与恢复
-	- 设置自动备份策略
-	- 查看备份
-	- 使用备份创建新实例
+	- [设置自动备份策略](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/ModifyBackupPolicy.md)
+	- [手动创建备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateBackup.md)
+	- [数据恢复](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/RestoreInstance.md)
 - 运维管理
-	- 查看监控信息
-	- 设置自动报警
+	- [查看监控信息](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Monitoring/Monitoring.md)
+	- [设置自动报警](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Monitoring/AlarmRules.md)
 
 ## 计费
 云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见：计费说明。
