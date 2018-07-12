@@ -5,7 +5,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-030.png)
 
 
-## 问题排查
+## 问题处理
 
 MongoDB登录时需输入账号对应的鉴权库，鉴权库未正确输入则会提示鉴权失败。如果您账号的授权库为test，可使用以下命令登录：
 
