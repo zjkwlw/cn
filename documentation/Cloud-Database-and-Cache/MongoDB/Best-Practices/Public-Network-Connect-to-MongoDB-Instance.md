@@ -24,11 +24,11 @@
 
    - 选择“SSH2”，填写作为代理的主机信息。
    
-      Hostname，填写云主机的公网IP。
+      Hostname：填写云主机的公网IP。
 
       Port：可默认22。
       
-      Username，填写云主机的登录用户名，默认为“root”。
+      Username：填写云主机的登录用户名，默认为“root”。
       
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-032.png)
 
@@ -38,9 +38,9 @@
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-033.png)
 
    - 填写端口转发相关信息。
-      Name，填写名称
+      Name：填写名称
 
-      Port，填写本地的监听端口，大于1024小于65535即可，如填写27019。
+      Port：填写本地的监听端口，大于1024小于65535即可，如填写27019。
       
       填写云数据库MongoDB的域名(可在实例详情页查看)。
       
@@ -53,7 +53,7 @@
 
    连接地址：填localhost或127.0.0.1。
    
-   端口：监听的本地端口，如上文的27019
+   端口：监听的本地端口，如上文的27019。
    
    账号、密码：云数据库MongoDB设置的账号密码信息。
 
@@ -78,4 +78,4 @@
 1. 本地连接本地连接云数据库MongoDB实例。
    - 连接地址：填云主机的公网IP。
    - 端口：监听端口，如上文的27019。
-   - 账号、密码：云数据库MongoBD设置的账号密码信息。
+   - 账号、密码：云数据库MongoDB设置的账号密码信息。
