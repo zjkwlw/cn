@@ -1,5 +1,13 @@
 # 产品功能
 
+## 轻松使用
+
+### 快速创建
+通过 MongoDB 控制台，几分钟内即可创建完成。
+
+### 弹性扩容
+支持扩容缩容，可根据业务情况按需升级或降级实例配置，提高资源利用率，降低使用成本。
+
 ## 服务可用性
 
 ### 三节点副本集
@@ -15,15 +23,13 @@
 支持多可用区部署，用户可指定主从节点与隐藏节点部署的可用区，可以提供跨机房的高可用。
 
 ## 安全保障
-
+ 
 ### VPC私有网络
 实例部署在用户自定义的VPC私有网络内，在TCP层直接进行网络隔离保护，确保数据安全性。
 
 ### IP白名单
 支持用户自定义IP白名单，从访问源进行安全控制。
 
-## 弹性扩容
-支持扩容缩容，可根据业务情况按需升级或降级实例配置，提高资源利用率，降低使用成本。
 
 ## 备份与恢复
 
@@ -49,3 +55,5 @@ MongoDB 控制台提供丰富的监控信息，包括CPU、内存、存储空间
 - [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
 - [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
 - [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
+
+
