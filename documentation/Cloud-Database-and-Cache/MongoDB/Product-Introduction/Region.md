@@ -12,11 +12,11 @@
 
 ## 云数据库 MongoDB 目前支持的地域与可用区
 
-地域 | 可用区 | 所在城市
---- | --- | ---
-华北-北京 cn-north-1 | 可用区A cn-north-1a | 北京
-- |可用区B cn-north-1b | 北京
-华东-上海 cn-east-2 | 可用区A cn-east-2a | 上海
--  | 可用区B cn-east-2b | 上海
+|地域 | 可用区 | 所在城市|
+|--- | --- | ---|
+|华北-北京 cn-north-1 | 可用区A cn-north-1a | 北京 |
+| |可用区B cn-north-1b | 北京|
+|华东-上海 cn-east-2 | 可用区A cn-east-2a | 上海|
+| | 可用区B cn-east-2b | 上海|
 
 
