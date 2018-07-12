@@ -2,7 +2,7 @@
 
 **Q：云数据库 MongoDB 支持外网访问吗？**
 
-A：出于安全考虑，云数据库 MongoDB 目前仅提供内网连接，暂不提供公网连接。如果您需要本地直接连接 MongoDB 实例，可以通过代理转发的方式实现，操作方式请参靠： [公网连接 MongoDB 实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/BestPractice/AccessOutside.md)。
+A：出于安全考虑，云数据库 MongoDB 目前仅提供内网连接，暂不提供公网连接。如果您需要本地直接连接 MongoDB 实例，可以通过代理转发的方式实现，操作方式请参考： [公网连接 MongoDB 实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/BestPractice/AccessOutside.md)。
 
 
 **Q：云数据库 MongoDB 哪些版本？**
