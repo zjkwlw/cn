@@ -1,12 +1,13 @@
 # 云主机无法连接 MongoDB 实例
 
-## 问题描述
+## 现象描述
 使用云主机连接 MongoDB 数据库时报错，无法连接，提示：exception: connect failed，具体提示参考下图。
 
 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-027.png)
 
+## 可能原因
 
-## 问题排查
+## 处理步骤
 
 1. 确认 MongoDB 实例的连接地址是否正确。
 
@@ -36,5 +37,7 @@
    - 目的IP：0.0.0.0/0，因MongoDB 实例在自动容灾切换或扩容时IP可能会变化，请开通全部IP。
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-029.png)
 
-   如通过以上步骤排查仍未解决问题，请 [提交工单](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) 或 致电客服 400-615-1212
+  ## 后续处理
+  如通过以上步骤排查仍未解决问题，请 [提交工单](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) 或 致电客服 400-615-1212
+
 
