@@ -7,5 +7,6 @@
 2. 选择“产品>云数据库 MongoDB”，具体见下图。
 ![MongoDB](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/productpage.png)
 
-
+3.弹出MongoDB的产品介绍页，点击**立即购买**。
+![MongoDB-buy](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/product-buy.png)
 ## 通过控制台
