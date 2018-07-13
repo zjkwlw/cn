@@ -20,3 +20,7 @@
 1. 确认无误，点击“去支付”，完成支付流程。
 
 1. 续费完成后，您可以在实例列表页或实例详情页查看实例的最新到期时间。
+
+## 相关参考
+* [计费概述](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Overview.md)
+* [购买实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Purchase-Process.md)
