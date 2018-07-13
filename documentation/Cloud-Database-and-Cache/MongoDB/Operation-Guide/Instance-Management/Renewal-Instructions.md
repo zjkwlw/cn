@@ -23,4 +23,5 @@
 
 ## 相关参考
 * [计费概述](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Overview.md)
+* [计费类型](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Rules.md)
 * [购买实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Purchase-Process.md)
