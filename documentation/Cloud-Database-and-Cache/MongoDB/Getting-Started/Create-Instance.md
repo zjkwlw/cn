@@ -6,7 +6,14 @@
 ## 前提条件
 - 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)，或 [实名认证](https://uc.jdcloud.com/account/certify)。
 - 如计费类型选择按配置计费，请确认您的账户余额（包括代金券）不小于50元。
-
+## 参数说明
+|参数名称|说明|
+|-|-|
+|地域|京东云的机房分布在全球多个位置，这些位置称为地域。云数据库 MongoDB 目前支持华北-北京、华东-上海，后续将支持更多地域。
+	   说明：
+	   - 处在同一地域的云服务产品之间通过内网互通，但不同账户的资源内网完全隔离；
+	   - 处在不同地域的云服务产品之间内网不能互通；
+	   - 购买云服务时建议选择最靠近您客户的地域，可降低访问时延；|
 ## 操作步骤
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 2. 在实例列表页面，点击“创建”，进入创建页面。
