@@ -4,7 +4,7 @@
 
 MongoDB 实例创建完成后，默认会将 0.0.0.0/0 加入白名单，即对访问IP无限制。为了数据库的安全，您可以在创建实例后将访问源的IP地址或者IP段加入到白名单
 
-## 注意事项
+## 使用限制
 - 每个 MongoDB 实例目前允许最多添加45个IP地址或IP段。
 
 ## 前提条件
@@ -44,9 +44,9 @@ MongoDB 实例创建完成后，默认会将 0.0.0.0/0 加入白名单，即对�
 		
 		
 ## 相关参考
-- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/DatabaseConnection.md)
+- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Connect-Instance.md)
 - [修改密码](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Account/ResetPassword.md)
-- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
+- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Import-Data.md)
 - [变更实例配置](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
 	
 	，
