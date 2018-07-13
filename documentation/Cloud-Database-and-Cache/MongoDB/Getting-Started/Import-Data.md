@@ -1,4 +1,4 @@
-# 数据导入
+# 导入数据
 
 通过MongoDB自带的mongodump和mongorestore命令，您可以将自建 MongoDB 数据库的数据导入到云数据库 MongoDB 实例 。
 
