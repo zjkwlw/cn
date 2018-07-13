@@ -8,7 +8,7 @@
 
 ## 操作步骤
 
-1. 登录 MongoDB 控制台。
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 1. 进入实例列表页面，选择目标实例，在操作项中点击“续费”，打开续费页面。
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-037.png)
