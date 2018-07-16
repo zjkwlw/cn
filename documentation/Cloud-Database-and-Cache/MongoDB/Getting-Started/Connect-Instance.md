@@ -62,7 +62,7 @@
 		
 ## 相关参考
 
-- [公网连接 MongoDB 实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/BestPractice/AccessOutside.md)
-- [问题处理：无法连接云数据库 MongoDB](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/TroubleList/Connection.md)
-- [问题处理：登录数据库提示无权限](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/TroubleList/Authentication.md)
+- [公网连接 MongoDB 实例](../../Best-Practices/AccessOutside.md)
+- [问题处理：无法连接云数据库 MongoDB](../../Troubleshooting/Connect-failed.md)
+- [问题处理：登录数据库提示无权限](../../Troubleshooting/Authentication.md)
 		
