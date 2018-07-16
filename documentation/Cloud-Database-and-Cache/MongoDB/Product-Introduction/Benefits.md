@@ -2,7 +2,7 @@
 
 ## 简单易用
 
-通过京东云控制台或简单的API调用，您可以在几分钟内完成创建云数据库 MongoDB 实例，可快速投入到业务应用中，缩短业务等待时间。
+通过京东云控制台或简单的API调用，您可以在几分钟内完成创建 MongoDB 实例，可快速投入到业务应用中，缩短业务等待时间。
 
 ## 服务高可用
 
@@ -21,10 +21,14 @@
 支持弹性扩容缩容，您可以根据业务情况按需调整实例配置，提高资源利用率高，降低使用成本，配置变更过程不影响业务运行。
 
 ## 运维方便
-控制台提供丰富的可视化监控数据指标，各项数据一目了然。您也可以设置自动报警规则，随时随地掌握实例健康情况。
+控制台提供丰富的可视化监控数据指标，各项数据一目了然。您也可以设置自动报警规则，随时随地掌握实例运行情况。
 
 ## 相关参考
 
-- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
-- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
+- [产品概述](../Product-Introduction/Overview.md)
+- [产品规格](../Product-Introduction/Specification.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
+- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
+- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
+- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
