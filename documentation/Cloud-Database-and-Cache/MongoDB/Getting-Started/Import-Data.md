@@ -19,4 +19,4 @@
 
 
 ## 相关参考 
-- [导出数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ExportData.md)
+- [导出数据](Export-Data.md)
