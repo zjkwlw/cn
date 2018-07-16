@@ -1,15 +1,10 @@
 # 如何创建 MongoDB 数据库账号
 
-## 问题描述
-
-MongoDB 控制台未提供账号管理功能，我如何创建 MongoDB 数据库账号？
-
-## 问题处理
 
 MongoDB 实例的账号不通过 MongoDB 控制台管理。
 在创建实例时，系统已为您创建了 root 账号，拥有 MongoDB 的 root 权限，您可以使用此账号登录数据库后，创建其他账号。
 
-### 创建账号命令
+## 创建账号命令
 
 > db.createUser(user, writeConcern)
 
@@ -25,9 +20,9 @@ user文档格式如下
  }
 ```
 
-### 示例
+## 示例
 
-#### 创建管理员账号
+### 创建管理员账号
 
 ```
 use admin
@@ -41,7 +36,7 @@ db.createUser(
 ```  
 
 
-#### 创建数据库用户
+### 创建数据库用户
 
 指定数据库创建用户，该用户只能访问该数据库。
 ```
@@ -55,7 +50,7 @@ db.createUser(
  ) 
 ```
 
-### 常用角色
+## 常用角色
 
 - 数据库用户角色：read，readWrite
 - 数据库管理员角色：dbAdmin，dbOwner，userAdmin
