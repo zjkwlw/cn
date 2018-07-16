@@ -1,7 +1,8 @@
 # 创建实例
 
 您可以通过 MongoDB 控制台或 API 快速创建 MongoDB 实例。
-关于实例的计费说明请参见“[价格总览](../Pricing/Pricing.md)”、“[计费说明](../Pricing/billing-instructions.md)”。
+
+关于实例的计费说明请参见“[价格总览](../Pricing/Price-Overview.md)”、“[计费规则](../Pricing/Billing-Rules.md)”。
 
 本文介绍通过控制台创建 MongoDB 实例。
 
