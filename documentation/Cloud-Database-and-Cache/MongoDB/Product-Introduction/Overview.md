@@ -13,8 +13,8 @@
 ## 常用操作
 
 - 快速上手
-	- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
-	- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Set-Whitelist.md)
+	- [创建实例](../Getting-Started/Create-Instance.md)
+	- [设置白名单](../Getting-Started/Set-Whitelist.md)
 	- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
 - 数据迁移
 	- [将数据导入到云](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
