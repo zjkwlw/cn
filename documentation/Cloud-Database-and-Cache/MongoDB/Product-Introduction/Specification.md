@@ -16,6 +16,7 @@
 
 ## 相关参考
 
-- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
-- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
+
+- [价格总览](../Pricing/Price-Overview.md)
+- [计费规则](../Pricing/Billing-Rules.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
