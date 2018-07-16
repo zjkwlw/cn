@@ -11,7 +11,7 @@
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 2. 在实例列表页面，点击“创建”，进入创建页面。
 
-    ![创建实例](../../../image/mongodb/mongo-003.png)
+    ![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
     
 3. 选择计费类型，可选择：包年包月或按配置。
 
