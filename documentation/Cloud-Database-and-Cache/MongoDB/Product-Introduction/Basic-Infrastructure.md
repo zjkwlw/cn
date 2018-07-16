@@ -1,7 +1,6 @@
 # 基础架构
 ## 概述
 云数据库 MongoDB 支持副本集模式，自动搭建3节点的副本集供用户使用，用户可以直接操作 Primary 和一个 Secondary 节点。
-[业务架构][业务架构]
 ## 业务架构
 业务架构如下图：
 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-000.jpg)
