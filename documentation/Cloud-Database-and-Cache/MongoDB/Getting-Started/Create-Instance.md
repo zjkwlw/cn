@@ -1,7 +1,9 @@
 # 创建实例
 
-您可以通过 MongoDB 控制台快速创建 MongoDB 实例。
-关于实例的计费说明请参见：[价格总览](../../Pricing/Pricing.md)、[计费说明](../../Pricing/billing-instructions.md)，本文介绍通过控制台创建 MongoDB 实例。
+您可以通过 MongoDB 控制台或 API 快速创建 MongoDB 实例。
+关于实例的计费说明请参见“[价格总览](../Pricing/Pricing.md)”、“[计费说明](../Pricing/billing-instructions.md)”。
+
+本文介绍通过控制台创建 MongoDB 实例。
 
 ## 前提条件
 - 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)，或 [实名认证](https://uc.jdcloud.com/account/certify)。
@@ -9,11 +11,11 @@
 
 ## 操作步骤
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
-2. 在实例列表页面，点击“创建”，进入创建页面。
+2. 在“实例列表”页面，点击 **创建** ，进入“创建实例”页面。
 
     ![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
     
-3. 选择计费类型，可选择：包年包月或按配置。
+3. 在“创建实例”页面，选择计费类型，可选择：包年包月或按配置。
 
 	![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
 	
@@ -53,11 +55,11 @@
 	
 	   计费类型选择包年包月时，需指定购买时长。云数据库 MongoDB 支持1个月至3年。通常购买时长越长，折合单价越便宜，具体优惠信息可在创建实例页面的时长选择处查看。
 	
-5. 点击“立即购买”，进入订单确认页面。
-6. 在订单确认页面，确认实例信息，并阅读《云数据库 MongoDB 服务条款》。
-	- 如计费类型为按配置，请点击“立即开通”。
-	- 如计费类型为包年包月，请点击“立即支付”，进入支付页，完成支付流程。
-7. 支付流程流程完成后，页面会自动跳转到 MongoDB 实例列表页面，等待实例创建完成。
+5. 点击 **立即购买** ，进入“订单确认”页面。
+6. 在“订单确认”页面，确认实例信息，并阅读《云数据库 MongoDB 服务条款》。
+	- 如计费类型为按配置，请点击 **立即开通** 。
+	- 如计费类型为包年包月，请点击 **立即支付** ，进入“订单支付”页面，完成支付流程。
+7. 支付流程流程完成后，页面会自动跳转到 MongoDB “实例列表”页面，等待实例创建完成，您可以在“实例列表”页面查看新创建的实例。
 
 ## 相关参考
 
