@@ -62,7 +62,7 @@
 		
 ## 相关参考
 
-- [公网连接 MongoDB 实例](../../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
+- [公网连接 MongoDB 实例](../../../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
 - [问题处理：无法连接云数据库 MongoDB](../../Troubleshooting/Connect-Failed.md)
 - [问题处理：登录数据库提示无权限](../../Troubleshooting/Authentication.md)
 		
