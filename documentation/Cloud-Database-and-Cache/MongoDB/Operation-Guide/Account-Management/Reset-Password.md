@@ -2,6 +2,10 @@
 
 如果您忘记密码，或者需要重新设置密码，或者创建时未设置密码，您可以通过控制台修改密码。
 
+# 使用说明
+
+MongoDB 控制台提供的修改密码为修改 root 账号密码。
+
 ## 操作步骤
 
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02)。
