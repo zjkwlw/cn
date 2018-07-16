@@ -3,7 +3,7 @@
 
 云数据库 MongoDB 是京东云基于全球广受欢迎的 MongoDB 提供的高性能 NoSQL 数据库服务，完全兼容 MongoDB 协议，默认提供三节点副本集的高可用架构，支持容灾切换，故障迁移自动完成，确保业务可用性，并支持在线扩容、备份恢复、监控报警等功能，降低管理维护成本，使您能专注于应用开发和业务发展。
 
-云数据库 MongoDB 主要具备以下特性：
+云数据库 MongoDB 具备以下特性：
 
 * 自动搭建三节点副本集的高可用架构，支持自动容灾切换。
 * 提供便捷的数据库备份与恢复功能，用户可在控制台一键备份及数据库回溯。
@@ -13,12 +13,12 @@
 ## 常用操作
 
 - 快速上手
-	- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
-	- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Set-Whitelist.md)
-	- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
+	- [创建实例](../Getting-Started/Create-Instance.md)
+	- [设置白名单](../Getting-Started/Set-Whitelist.md)
+	- [连接实例](../Getting-Started/Create-Instance.md)
 - 数据迁移
-	- [将数据导入到云](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
-	- [从云导出数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ExportData.md)
+	- [将数据导入到云](../Getting-Started/ImportData.md)
+	- [从云导出数据](../Getting-Started/ExportData.md)
 - 扩容升级
 	- [变更实例规格](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
 - 备份与恢复
