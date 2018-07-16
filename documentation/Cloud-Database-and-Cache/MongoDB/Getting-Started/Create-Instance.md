@@ -61,7 +61,7 @@
 
 ## 相关参考
 
-- [设置白名单](/Whitelist.md)
+- [设置白名单](Whitelist.md)
 - [连接实例](DatabaseConnection.md)
 - [修改密码](../../Operation-Guide/Account/ResetPassword.md)
 - [导入数据](Import-Data.md)
