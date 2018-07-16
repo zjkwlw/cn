@@ -6,7 +6,7 @@
 
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02)。
 1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
-1. 在实例详情页面右上角操作项中，点击“修改密码”，打开修改密码弹窗。
+1. 在实例详情页面右上角操作项中，点击**修改密码**，打开“修改密码”弹窗。
 
 	![重启实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-015.png)
 
