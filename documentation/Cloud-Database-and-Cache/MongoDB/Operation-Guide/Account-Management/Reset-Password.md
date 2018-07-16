@@ -19,9 +19,11 @@ MongoDB 控制台提供的修改密码为修改 root 账号密码。
 	![重启实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-016.png)
 	
 1. 点击 **确定**，完成密码修改。
-1. 修改完成后，新密码即时生效，请试用新密码连接 MongoDB 实例。
+1. 修改完成后，新密码即时生效，请使用新密码连接 MongoDB 实例。
 
 ## 相关参考
 
 - [设置白名单](../../Getting-Started/Set-Whitelist.md)
 - [连接实例](../../Getting-Started/Connect-Instance.md)
+- [修改密码](Create-MongoDB-Account.md)
+
