@@ -1,11 +1,11 @@
 # 核心概念
 以下是云数据库 MongoDB 帮助文档中使用到的概念及其解释，请参考。
 
-| 术语名称 | 解释 |
+| 概念 | 解释 |
 | :- | :- |
-| 地域 | 京东云的机房分布在全球多个位置，这些位置称为地域。京东云不同地域之间完全隔离，保证不同地域间最大程度的稳定性和容错性。建议用户选择最靠近您或您客户的地域，可降低访问时延、提高下载速度。注意：不同地域内网互不连通。|
+| 地域 | 京东云的机房分布在全球多个位置，这些位置称为地域。京东云不同地域之间完全隔离，保证不同地域间最大程度的稳定性和容错性。建议用户选择最靠近您或您客户的地域，可降低访问时延、提高下载速度。<br />**注意**：不同地域的内网互不连通。|
 | 可用区 | 可用区是指在同一地域下，电力、网络等基础设施互相独立的物理区域。一个地域包含一个或多个可用区，同一地域下的多个可用区可以彼此连通。 |
-| 私有网络（VPC） | 用户在京东公有云上自定义的逻辑隔离的网络空间，此私有网络空间由用户完全掌控，支持自定义网段划分、路由策略等。用户可以在VPC内创建和管理多种云产品，如云主机、负载均衡等，同时可配置网络内的资源连接Internet。 |
+| 私有网络（VPC） | 用户在京东云上自定义的逻辑隔离的网络空间，此私有网络空间由用户完全掌控，支持自定义网段划分、路由策略等。用户可以在VPC内创建和管理多种云产品，如云主机、负载均衡等，同时可配置网络内的资源连接Internet。 |
 | 子网 | 子网是所属私有网络（VPC） IP地址范围内的 IP 地址块，子网在VPC下。创建 VPC后，用户可以在VPC下添加子网。相同VPC下子网的IP地址块不可以重叠，不同VPC下子网的IP地址块可以重叠。 |
 | 副本集 | MongoDB副本集是一组维护相同数据集的mongod进程，副本集提供冗余和高可用性，是所有生产部署的基础。|
 | MongoDB 实例 | MongoDB 实例，简称“实例”，是用户购买 MongoDB 服务的基本单位。京东云目前默认提供3节点副本集模式的 MongoDB实例，每个实例包含3个物理节点，角色分别为Primary、Secondary、Hidden。| 
@@ -18,7 +18,7 @@
 
 ## 相关参考
 
-- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
-- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
-
+- [产品概述](../Product-Introduction/Overview.md)
+- [产品规格](../Product-Introduction/Specification.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
