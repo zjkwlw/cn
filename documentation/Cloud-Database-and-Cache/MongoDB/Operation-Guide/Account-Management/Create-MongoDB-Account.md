@@ -28,11 +28,11 @@ user文档格式如下
 use admin
 db.createUser(
      {
-       user: "<name>"
-         pwd:"<cleartext password>",
+       user: "<name>"，
+       pwd:"<cleartext password>",
        roles:[{role:"root",db:"admin"}]
      }
-  )
+)
 ```  
 
 
