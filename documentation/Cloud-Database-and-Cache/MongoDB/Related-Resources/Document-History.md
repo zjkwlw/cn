@@ -6,8 +6,17 @@
 |-|-|-|
 |2018年7月|创建实例|按时间点创建实例功能上线。|
 |2018年6月|重启实例|提供重启实例功能。|
-|2018年5月|IP白名单|提供IP白名单功能。|
-|2018年4月|正式发布|云数据库 MongoDB 正式版上线。|
-|2017年11月|增加地域“华东-上海”|增加支持地域“华东-上海”。|
-|2017年10月|支持跨可用区|	MongoDB 实例支持跨可用区部署。|
+|2018年5月|白名单|提供IP白名单功能。|
+|2018年4月|正式版发布|云数据库 MongoDB 正式版上线。|
+|2017年11月|支持地域“华东-上海”|增加支持地域“华东-上海”。|
+|2017年10月|支持多可用区部署|	MongoDB 实例支持多可用区部署。|
 |2017年4月|公测|云数据库 MongoDB 公测版上线。|
+
+
+## 相关参考
+
+- [产品概述](../Product-Introduction/Overview.md)
+- [核心概念](../Product-Introduction/Core-Concepts.md)
+- [产品功能](../Product-Introduction/Functions.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
+- [设置白名单](..//Getting-Started/Set-Whitelist.md)
