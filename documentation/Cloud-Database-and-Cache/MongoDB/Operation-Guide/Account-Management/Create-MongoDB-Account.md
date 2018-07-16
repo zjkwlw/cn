@@ -10,13 +10,13 @@ MongoDB 实例的账号不通过 MongoDB 控制台管理。
 
 user文档格式如下
 ```
- { user: "<name>",
-   pwd: "<cleartext password>",
-   customData: { <any information> },
-   roles: [
-     { role: "<role>", db: "<database>" } | "<role>",
-     ...
-   ]
+{ user: "<name>",
+  pwd: "<cleartext password>",
+  customData: { <any information> },
+  roles: [
+    { role: "<role>", db: "<database>" } | "<role>",
+    ...
+  ]
  }
 ```
 
@@ -40,14 +40,14 @@ db.createUser(
 
 指定数据库创建用户，该用户只能访问该数据库。
 ```
- use test
- db.createUser(
-    {
-      user: "<name>",
-      pwd: "<cleartext password>",
-      roles: ["readWrite", "dbAdmin"]
-    }
- ) 
+use test
+db.createUser(
+   {
+     user: "<name>",
+     pwd: "<cleartext password>",
+     roles: ["readWrite", "dbAdmin"]
+   }
+) 
 ```
 
 ## 常用角色
