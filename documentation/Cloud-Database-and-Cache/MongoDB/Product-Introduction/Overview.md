@@ -30,4 +30,4 @@
 	- [设置自动报警](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## 计费
-云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参考：[计费规则](../Pricing/Billing-Rules.md)
+云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见“[计费规则](../Pricing/Billing-Rules.md)”。
