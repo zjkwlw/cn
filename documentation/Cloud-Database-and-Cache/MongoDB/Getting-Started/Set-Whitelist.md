@@ -44,11 +44,7 @@ MongoDB 实例创建完成后，默认会将 0.0.0.0/0 加入白名单，即对�
 		
 		
 ## 相关参考
-- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Connect-Instance.md)
-- [修改密码](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Account/ResetPassword.md)
-- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Import-Data.md)
-- [变更实例配置](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
-	
-	，
-	
-
+- [连接实例](Connect-Instance.md)
+- [修改密码](../../Operation-Guide/Account-Management/Reset-Password.md)
+- [导入数据](Import-Data.md)
+- [变更实例配置](../../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
