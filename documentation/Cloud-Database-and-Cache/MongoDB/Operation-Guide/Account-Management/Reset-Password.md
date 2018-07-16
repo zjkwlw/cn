@@ -25,5 +25,5 @@ MongoDB 控制台提供的修改密码为修改 root 账号密码。
 
 - [设置白名单](../../Getting-Started/Set-Whitelist.md)
 - [连接实例](../../Getting-Started/Connect-Instance.md)
-- [修改密码](Create-MongoDB-Account.md)
+- [创建账号](Create-MongoDB-Account.md)
 
