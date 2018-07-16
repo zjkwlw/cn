@@ -1,4 +1,4 @@
-# 创建 MongoDB 账号
+# 创建账号
 
 
 MongoDB 实例的账号不通过 MongoDB 控制台管理。
