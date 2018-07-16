@@ -1,7 +1,7 @@
 # 创建实例
 
 您可以通过 MongoDB 控制台快速创建 MongoDB 实例。
-关于实例的计费说明请参见：[价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)、[计费说明](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/billing-instructions.md)，本文介绍通过控制台创建 MongoDB 实例。
+关于实例的计费说明请参见：[价格总览](../../Pricing/Pricing.md)、[计费说明](../../Pricing/billing-instructions.md)，本文介绍通过控制台创建 MongoDB 实例。
 
 ## 前提条件
 - 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)，或 [实名认证](https://uc.jdcloud.com/account/certify)。
@@ -11,7 +11,7 @@
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 2. 在实例列表页面，点击“创建”，进入创建页面。
 
-    ![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
+    ![创建实例](../../../image/mongodb/mongo-003.png)
     
 3. 选择计费类型，可选择：包年包月或按配置。
 
@@ -61,8 +61,8 @@
 
 ## 相关参考
 
-- [设置白名单](Whitelist.md)
-- [连接实例](DatabaseConnection.md)
+- [设置白名单](Set-Whitelist.md)
+- [连接实例](Connect-Database.md)
 - [修改密码](../../Operation-Guide/Account/ResetPassword.md)
 - [导入数据](Import-Data.md)
 - [变更实例配置](../../Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
