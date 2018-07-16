@@ -5,12 +5,12 @@
 ## 操作步骤
 
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02)。
-1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
-1. 在实例详情页面右上角操作项中，点击 **修改密码**，打开“修改密码”弹窗。
+1. 在实例列表页面，选择目标实例，点击实例名称，进入“实例详情”页面。
+1. 在“实例详情”页面右上角操作项中，点击 **修改密码**，打开“修改密码”弹窗。
 
 	![重启实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-015.png)
 
-1. 在修改密码弹窗中，填写新密码，并再次确认密码，密码要求：必须包含且只支持大小写字母及数字，不少于8字符不超过16字符。
+1. 在“修改密码”弹窗中，填写新密码，并再次确认密码，密码要求：必须包含且只支持大小写字母及数字，不少于8字符不超过16字符。
 	
 	![重启实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-016.png)
 	
