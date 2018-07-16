@@ -49,5 +49,5 @@ MongoDB 实例支持变更项，包括：
 
 ## 相关参考
 
-- 创建实例
--  API的相关链接
+- [创建实例](../../Getting-Started/Create-Instance.md)
+- [删除实例](Delete-Instance.md)
