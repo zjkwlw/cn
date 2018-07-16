@@ -47,7 +47,7 @@
 		
 		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx
 		
-		>（****部分替换为为root密码）
+		>（****部分替换为root密码）
 		
    - 使用Connection String URI连接实例
    
@@ -57,7 +57,7 @@
 
 	   > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx
 	   
-	   > （****部分替换为为root密码）
+	   > （****部分替换为root密码）
 		
 		
 ## 相关参考
