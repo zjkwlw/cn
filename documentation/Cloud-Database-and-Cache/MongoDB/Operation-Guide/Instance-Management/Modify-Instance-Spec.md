@@ -18,7 +18,7 @@ MongoDB 实例支持变更项，包括：
 	
 ## 操作步骤
 
-1. 登录 MongoDB 控制台。
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02)。
 1. 在实例列表页面，选择目标实例，在操作项中，点击“变更配置”，打开变更配置弹窗。
    
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-011.png)
