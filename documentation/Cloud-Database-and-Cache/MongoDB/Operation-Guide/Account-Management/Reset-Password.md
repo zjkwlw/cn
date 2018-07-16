@@ -19,5 +19,5 @@
 
 ## 相关参考
 
-- [设置白名单](../../../Getting-Started/Whitelist.md)
-- [连接实例](../../../Getting-Started/DatabaseConnection.md)
+- [设置白名单](../../../Getting-Started/Set-Whitelist.md)
+- [连接实例](../../../Getting-Started/Connect-Instance.md)
