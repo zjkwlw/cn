@@ -3,7 +3,7 @@
 ## 轻松使用
 
 ### 快速创建
-通过 MongoDB 控制台，几分钟内即可创建完成。
+通过 MongoDB 控制台或简单的 API 调用，几分钟内即可创建 MongoDB 实例。
 
 ### 弹性扩容
 支持扩容缩容，可根据业务情况按需升级或降级实例配置，提高资源利用率，降低使用成本。
@@ -12,7 +12,7 @@
 
 ### 三节点副本集
 
-自动搭建三节点副本集，默认Primary和Secondary节点提供服务，当Primay节点出现故障，系统自动选举新的Primary节点。 Secondary节点不可用时，由备用节点接管服务，多重保障服务可用性。
+自动搭建三节点副本集，默认 Primary 和 Secondary 节点提供服务，当 Primay 节点出现故障时，系统自动选举新的 Primary 节点；当 Secondary 节点不可用时，由备用节点接管服务，多重保障机制确保服务可用性。
 
 ### 单可用区部署
 
@@ -20,14 +20,14 @@
 
 ### 多可用区部署
 
-支持多可用区部署，用户可指定主从节点与隐藏节点部署的可用区，可以提供跨机房的高可用。
+支持多可用区部署，您可指定主从节点与隐藏节点部署的可用区，可以提供跨机房的高可用。
 
 ## 安全保障
  
-### VPC私有网络
-实例部署在用户自定义的VPC私有网络内，在TCP层直接进行网络隔离保护，确保数据安全性。
+### VPC 私有网络
+实例部署在用户自定义的 VPC 私有网络内，在 TCP 层直接进行网络隔离保护，确保数据安全性。
 
-### IP白名单
+### 白名单
 支持用户自定义IP白名单，从访问源进行安全控制。
 
 
@@ -40,7 +40,7 @@
 支持即时手动创建备份，备份数据长期保存。
 
 ### 数据恢复
-支持一键恢复备份数据至当前实例；此外基于增量备份，支持根据七天内任意时间点的数据创建新的数据库实例。
+支持一键恢复备份数据至当前实例；此外，基于增量备份，支持根据七天内任意时间点的数据创建新的数据库实例。
 
 ## 监控报警
 
@@ -52,8 +52,12 @@ MongoDB 控制台提供丰富的监控信息，包括CPU、内存、存储空间
 
 ## 相关参考
 
-- [价格总览](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Pricing.md)
-- [计费规则](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/BillingRules.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md)
+- [产品概述](../Product-Introduction/Overview.md)
+- [产品规格](../Product-Introduction/Specification.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
+- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
+- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
+- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 
