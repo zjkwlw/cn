@@ -22,3 +22,11 @@
 2. 重启完成后，实例状态将变更为“运行”。
 
     说明：实例重启服务会依次重启三个物理节点，通常在数分钟内完成。
+
+## 相关参考
+
+- [创建实例](../../Getting-Started/Create-Instance.md)
+- [变更配置](Modify-Instance-Spec.md)
+- [续费实例](Renewal-Instructions.md)
+
+
