@@ -2,6 +2,7 @@
 云主机是京东云提供的一种基础计算服务单元，提供处理能力可弹性伸缩的计算服务。云主机涉及多种资源，如下图所示，包括实例规格（vCPU及内存）、操作系统、磁盘、网络、安全等，每种资源都提供多种配置选择，您可以根据实际需要选择。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/vm/Product-Introduction-Overview.png)
+ceshi 
 
 ![](../image/vm/Product-Introduction-Overview.png)
 
