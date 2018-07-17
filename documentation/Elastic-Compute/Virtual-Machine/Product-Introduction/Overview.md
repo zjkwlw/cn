@@ -4,7 +4,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/vm/Product-Introduction-Overview.png)
 ceshi 
 
-![](/blob/edit/image/vm/Product-Introduction-Overview.png)
+![](/cn/blob/edit/image/vm/Product-Introduction-Overview.png)
 测试
 ![](/edit/image/vm/Product-Introduction-Overview.png)
 
