@@ -1,6 +1,6 @@
 # 删除实例
 
-如您不再需要使用某个 MongoDB 实例，你可以删除该实例。
+如您不再需要使用某个 MongoDB 实例，您可以删除该实例。
 
 ## 注意事项
 - 计费类型为按配置的实例，您可以随时删除。
@@ -14,5 +14,15 @@
  
    ![删除实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-014.png)
 
-3. 在确认弹窗中，点击 **确定**。
-4. 等待实例删除完成。
+3. 在确认弹窗中，点击 **确定**，等待实例删除完成。
+4. 实例删除后，列表中将不再有该实例的信息。
+
+## 相关参考
+
+- [创建实例](../../Getting-Started/Create-Instance.md)
+- [变更配置](Modify-Instance-Spec.md)
+- [续费实例](Renewal-Instructions.md)
+- [重启实例](Restart-Instance.md)
+- [删除实例](Delete-Instance.md)
+
+
