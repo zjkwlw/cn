@@ -15,7 +15,7 @@
    ![删除实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-014.png)
 
 3. 在确认弹窗中，点击 **确定**，等待实例删除完成。
-4. 实例删除后，列表中将不再有该实例的信息。
+4. 实例删除后，"实例列表"中将不再有该实例的信息。
 
 ## 相关参考
 
