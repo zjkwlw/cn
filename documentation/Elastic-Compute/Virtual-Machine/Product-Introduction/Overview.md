@@ -3,10 +3,7 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/vm/Product-Introduction-Overview.png)
 ceshi 
-
-![](/cn/blob/edit/image/vm/Product-Introduction-Overview.png)
-测试
-![](../image/vm/Product-Introduction-Overview.png)
+![](../../../../image/vm/Product-Introduction-Overview.png)
 
 云主机管理方式比物理服务器更简单高效,您可根据实际需要对这些资源进行灵活的组合，您可通过控制台或OpenAPI随时创建指定数量的云主机，在使用过程中可以根据业务规模随时调整实例规格，对于过剩或闲置的资源也可以进行释放以便节约投入成本。京东云云主机为您快速部署应用提供稳定可靠的基础能力，使您更专注于核心业务创新。
 
