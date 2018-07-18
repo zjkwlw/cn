@@ -1,3 +1,12 @@
+# 云数据库 MongoDB 限制了哪些命令？
+
+## 问题描述
+
+云数据库 MongoDB 限制了哪些命令?
+
+## 问题处理
+云数据库 MongoDB 支持与限制的命令情况如下：
+
 |命令	|支持	|不支持|
 |---|---|---|
 |Aggregates Commands|aggregate<br />distinct<br />count<br />group<br />mapReduce<br />| |
