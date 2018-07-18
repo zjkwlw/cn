@@ -35,3 +35,6 @@ db.cappedCollection.find().sort( { $natural: -1 } )
 - 固定集合中没有默认索引。
 - 在插入新文档时，MongoDB不需要在磁盘上实际寻找一个容纳新文档的位置。它可以随便地将新文档插入集合的尾部。这样就使得在固定集合中的插入操作非常快。
 - 在读取文档的同时，MongoDB按照磁盘上存储的顺序返回文档。这样使读取操作非常快。
+
+
+详细说明，请参见"[MongoDB官方文档](https://docs.mongodb.com/v3.2/core/capped-collections/)"。
