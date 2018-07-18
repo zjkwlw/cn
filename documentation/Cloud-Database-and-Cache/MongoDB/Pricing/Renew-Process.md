@@ -7,7 +7,7 @@
 1. 进入[京东云控制台]()。
 2. 通过页头导航，依次点击 **产品** >  **MongoDB**,打开“实例列表”页面；也可以通过左侧菜单，依次点击 **数据库与缓存** > **MongoDB**,打开“实例列表”页面。
 
-   ![](../../image/mongodb/mongo-039.png)
+   ![](../../../image/mongodb/mongo-039.png)
 
 
 3. 在操作项中点击 **续费**，进入“续费页面”，续费步骤请参见“[续费实例](../Operation-Guide/Instance-Management/Renewal-Instructions.md)”
