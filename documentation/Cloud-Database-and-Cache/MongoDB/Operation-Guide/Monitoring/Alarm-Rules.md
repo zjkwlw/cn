@@ -9,13 +9,17 @@
 
 ## 操作步骤
 
-1. 登录 MongoDB 控制台。
-1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
-1. 在实例详情页面，点击监控，进入监控信息页面。
-1. 点击页面右侧“设置报警规则”，进入报警规则页面。
+1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02)。
+1. 在"实例列表"页面，选择目标实例，点击 **实例名称**，进入"实例详情"页面。
+1. 在"实例详情"页面，点击 **监控**，进入"监控信息"页面。
+1. 点击页面右侧 **设置报警规**，进入"报警规则"页面。
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-025.png)
 
-1. 在报警规格页面，点击“新增报警规则”，进入设置报警规则页面，按页面提示添加新规则。
+1. 在“报警规则”页面，点击 **新增报警规则**，进入”设置报警规则“页面，按页面提示添加新规则。
  
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-026.png)
+
+## 相关参考
+
+- [查看监控信息](Monitoring.md)
