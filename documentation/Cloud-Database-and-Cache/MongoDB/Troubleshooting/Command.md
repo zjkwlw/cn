@@ -10,8 +10,8 @@
 |命令	|支持	|不支持|
 |---|---|---|
 |Aggregates Commands|aggregate<br />distinct<br />count<br />group<br />mapReduce<br />| |
-|Authentication|	logout<br />authenticate<br />br />getnonce<br />authSchemaUpgrade<br />copydbgetnonce<br /> | |
-|Diagnostic Commands	| explain<br />listDatabases<br />dbHash<br />listCommands<br />availableQueryOptions<br />buildInfo<br />collStats<br />dbStats<br />cursorInfo<br />dataSize<br />ping<br />profile<br />top<br />whatsmyuri<br />serverStatus<br />features<br />isSelf<br />validate<br />| |
+|Authentication|	logout<br />authenticate<br />getnonce<br />authSchemaUpgrade<br />copydbgetnonce<br /> | |
+|Diagnostic Commands	| explain<br />listDatabases<br />dbHash<br />listCommands<br /availableQueryOptions<br />buildInfo<br />collStats<br />dbStats<br />cursorInfo<br />dataSize<br />ping<br />profile<br />top<br />whatsmyuri<br />serverStatus<br />features<br />isSelf<br />validate<br />| |
 |Geospatial Commands	|geoNear<br />geoSearch<br />| |
 |Instance Administration Commands	|renameCollection<br />dropDatabase<br />listCollections<br />drop<br />create<br />cloneCollection<br />cloneCollectionAsCapped<br />convertToCapped<br />filemd5<br />createIndexes<br />listIndexes<br />dropIndexes<br />fsync<br />connectionStatus<br />collMod<br />reIndex<br />touch<br />getParameter<br />compact<br />copydb<br />clone<br />clean<br />shutdown<br />logRotate<br />repairDatabase<br />repairCursor<br />setParameter<br />connPoolSync<br />setReadonly<br />cloneCollection<br />| |
 |Query and Write Operation Commands	 |insert<br />update<br />delete<br />findAndModify<br />getLastError<br />getPrevError<br />resetError<br />parallelCollectionScan<br />eval<br />| |
