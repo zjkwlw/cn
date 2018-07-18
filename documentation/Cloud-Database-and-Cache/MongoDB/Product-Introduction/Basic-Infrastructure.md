@@ -1,5 +1,4 @@
 # 基础架构
-## 概述
 
 云数据库 MongoDB 默认提供3节点的副本集架构，其中 Primary 和 Secondary 节点对用户可见，Hidden节点用户不可见。
 

@@ -9,19 +9,20 @@
 ## 操作步骤
 
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
-1. 进入实例列表页面，选择目标实例，在操作项中点击“续费”，打开续费页面。
+1. 进入“实例列表”页面，选择目标实例，在操作项中点击 **续费**，打开“续费”页面。
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-037.png)
 
-1. 在续费页面，选择您要续费的时长，并阅读确认《云数据库 MongoDB 服务条款》。
+1. 在“续费”页面，选择您要续费的时长，并阅读确认《云数据库 MongoDB 服务条款》。
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-038.png)
 
-1. 确认无误，点击“去支付”，完成支付流程。
+1. 确认无误，点击 **去支付**，完成支付流程。
 
-1. 续费完成后，您可以在实例列表页或实例详情页查看实例的最新到期时间。
+1. 续费完成后，您可以在“实例列表”页或“实例详情”页面查看该实例的最新到期时间。
 
 ## 相关参考
-* [计费概述](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Overview.md)
-* [计费类型](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Rules.md)
-* [购买实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Purchase-Process.md)
+* [计费概述](../../Pricing/Billing-Overview.md)
+* [计费规则](../../Pricing/Billing-Rules.md)
+* [删除实例](../../Operation-Guide/Instance-Management/Delete-Instance.md)
+* [变更配置](../../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

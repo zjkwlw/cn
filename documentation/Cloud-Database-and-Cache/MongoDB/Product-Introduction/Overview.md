@@ -15,7 +15,7 @@
 - 快速上手
 	- [创建实例](../Getting-Started/Create-Instance.md)
 	- [设置白名单](../Getting-Started/Set-Whitelist.md)
-	- [连接实例](../Getting-Started/Create-Instance.md)
+	- [连接实例](../Getting-Started/Connect-Instance.md)
 - 数据迁移
 	- [将数据导入到云](../Getting-Started/Import-Data.md)
 	- [从云导出数据](../Getting-Started/Export-Data.md)
@@ -27,7 +27,7 @@
 	- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
 - 运维管理
 	- [查看监控信息](../Operation-Guide/Monitoring/Monitoring.md)
-	- [设置自动报警](../Operation-Guide/Monitoring/Alarm-Rules.md)
+	- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## 计费
 云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见“[计费规则](../Pricing/Billing-Rules.md)”。
