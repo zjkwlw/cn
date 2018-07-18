@@ -5,7 +5,7 @@ MongoDB 控制台提供了丰富的性能监控数据，您可以随时查看实
 ## 操作步骤
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 1. 在“实例列表”页面，选择目标实例，点击 **实例名称**，进入”实例详情“页面。
-1. 在”实例详情“页面，点击监控，查看监控信息。
+1. 在”实例详情“页面，点击 **监控**，查看监控信息。
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-024.png)
 
