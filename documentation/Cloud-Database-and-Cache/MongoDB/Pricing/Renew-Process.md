@@ -1,6 +1,6 @@
 # 续费流程
 
-本文档介绍 MongoDB 实例的续费入口。
+本文介绍 MongoDB 实例的续费入口。
 
 
 ## 入口1：[MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)
