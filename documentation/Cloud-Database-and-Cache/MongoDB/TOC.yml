@@ -2,16 +2,43 @@
   href: index.yml
 - name: 产品简介
   items:
-    - name: 关于 API 管理
+    - name: MongoDB概述
       href: api-management-key-concepts.md
-- name: 快速入门
+    - name: 核心概念
+      href: api-management-key-concepts.md
+    - name: 基础架构
+      href: api-management-key-concepts.md
+    - name: 产品优势
+      href: api-management-key-concepts.md
+    - name: 产品功能
+      href: api-management-key-concepts.md
+    - name: 产品规格
+      href: api-management-key-concepts.md
+    - name: 限制说明
+      href: api-management-key-concepts.md
+    - name: 应用场景
+      href: api-management-key-concepts.md   
+- name: 产品定价
+  items:
+    - name: 计费概述
+      href: api-management-key-concepts.md
+    - name: 计费规则
+      href: api-management-key-concepts.md
+    - name: 价格总览
+      href: api-management-key-concepts.md
+    - name: 购买流程
+      href: api-management-key-concepts.md
+    - name: 续费流程
+      href: api-management-key-concepts.md
+- name: 入门指南
   expanded: true
   items:
     - name: 创建实例 - 门户
       href: get-started-create-service-instance.md
     - name: 创建实例 - PowerShell
       href: powershell-create-service-instance.md
-- name: 教程
+      status:0
+- name: 操作指南
   items:
     - name: 1 - 导入第一个 API
       href: import-and-publish.md
@@ -31,29 +58,23 @@
       href: api-management-get-started-publish-versions.md
     - name: 9 - 自定义开发人员门户
       href: api-management-customize-styles.md
-- name: 示例
+- name: 最佳实践
   items:
     - name: 策略
       href: policy-samples.md
     - name: Azure PowerShell
       href: powershell-samples.md
-- name: 概念
+- name: 问题排查
   items:
     - name: 术语
       href: api-management-terminology.md
-    - name: 策略
-      items:
-        - name: 概述
-          href: api-management-howto-policies.md
-        - name: 策略参考索引
-          href: api-management-policies.md
     - name: 使用自动化进行管理
       href: automation-manage-api-management.md
     - name: 错误处理。
       href: api-management-error-handling-policies.md
     - name: API 导入限制
       href: api-management-api-import-restrictions.md
-- name: 操作指南
+- name: API参考
   items:
     - name: '定义 API '
       items:
