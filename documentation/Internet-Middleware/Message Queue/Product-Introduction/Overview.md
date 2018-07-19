@@ -5,4 +5,4 @@
 ## 常用操作
 
 ## 计费
-消息队列 JCQ支持按流量计费后付费的计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/edit/documentation/Internet-Middleware/Message-Queue/Pricing/Billing-Rules.md)。
+消息队列 JCQ支持按流量计费后付费的计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/edit/documentation/Internet-Middleware/Message%20Queue/Pricing/Billing-Rules.md)。
