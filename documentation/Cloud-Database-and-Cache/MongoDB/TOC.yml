@@ -72,6 +72,12 @@
           herf: Operation-Guide/Backup/Create-Instance2.md      
         - name: 根据时间点创建实例          
           herf: Operation-Guide/Backup/Create-Instance3.md      
+    - name: 跨地域备份同步服务
+      items:
+        - name: 创建跨地域备份同步服务
+          herf: Operation-Guide/Across-Region-Backup-Sync/Create-Backup-Sync.md  
+        - name: 根据备份数据创建实例
+          herf: Operation-Guide/Across-Region-Backup-Sync/Create-Instance4.md
      - name: 监控报警
        items:
         - name: 查看监控信息
