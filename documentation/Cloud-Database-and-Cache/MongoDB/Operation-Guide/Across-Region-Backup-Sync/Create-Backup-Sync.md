@@ -24,11 +24,11 @@
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
 1. 进入“跨地域备份同步服务”页，点击按钮 **创建同步服务** ，打开“创建弹窗”。
 
-   ![创建同步服务](../../../../image/mongodb/mongo-043.png)
+   ![创建同步服务](../../../../../image/mongodb/mongo-043.png)
 
 1. 在“创建弹窗”中填写服务信息。
 
-   ![创建同步服务](../../../../image/mongodb/mongo-044.png)
+   ![创建同步服务](../../../../../image/mongodb/mongo-044.png)
 
    - 源实例所在地域：选择实例所在的地域。
    - 源实例ID：选择要创建备份同步服务的实例，当前已存在备份同步服务的实例将不在此展示。
