@@ -16,14 +16,14 @@
       herf: Product-Introduction/Restrictions.md
     - name: 应用场景 
       herf: Product-Introduction/Application-Scenarios.md    
-- name: 购买须知
+- name: 产品定价
   items:
     - name: 计费概述
       herf: Pricing/Billing-Overview.md
-    - name: 价格总览
-      herf: Pricing/Price-Overview.md
     - name: 计费规则
       herf: Pricing/Billing-Rules.md
+    - name: 价格总览
+      herf: Pricing/Price-Overview.md
     - name: 购买流程
       herf: Pricing/Purchase-Process.md 
     - name: 续费流程
@@ -36,9 +36,9 @@
       herf: Getting-Started/Set-Whitelist.md
     - name: 连接实例
       herf: Getting-Started/Connect-Instance.md
-    - name: 数据导入
+    - name: 导入数据
       herf: Getting-Started/Import-Data.md
-    - name: 数据导出
+    - name: 导出数据
       herf: Getting-Started/Export-Data.md
 - name: 操作指南
   items:
@@ -66,7 +66,7 @@
           herf: Operation-Guide/Backup/Create-Backup.md       
         - name: 下载备份文件
           herf: Operation-Guide/Backup/Download-Bckup.md    
-        - name: 数据恢复
+        - name: 恢复数据
           herf: Operation-Guide/Backup/Restore-Instance.md       
         - name: 根据备份创建实例
           herf: Operation-Guide/Backup/Create-Instance2.md      
@@ -92,7 +92,7 @@
     herf: Best-Practices/MongoDB-Profile.md
   - name: 公网连接MongoDB实例
     herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
-- name:运维问题
+- name: 问题排查
   items:
   - name: 云主机无法连接MongoDB实例？
     herf: Troubleshooting/Connect-Failed.md
