@@ -29,7 +29,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fcpu%E5%8D%A0%E7%94%A8%E9%AB%98%E6%8E%92%E6%9F%A502.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fcpu%E5%8D%A0%E7%94%A8%E9%AB%98%E6%8E%92%E6%9F%A503.png)
 
-***windows2012系统查看方式：***
+**windows2012系统查看方式：**
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fcpu%E5%8D%A0%E7%94%A8%E9%AB%98%E6%8E%92%E6%9F%A504.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fcpu%E5%8D%A0%E7%94%A8%E9%AB%98%E6%8E%92%E6%9F%A505.png)
