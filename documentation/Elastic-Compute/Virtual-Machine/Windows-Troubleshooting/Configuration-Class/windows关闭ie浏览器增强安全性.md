@@ -1,4 +1,4 @@
-# windows关闭ie浏览器增强安全性
+# Windows关闭ie浏览器增强安全性
 由于为了服务器操作系统的安全性，当在Windows Sever2008 & 2012 中运行IE的时候会发现默认情况下IE启用了增强的安全配置，导致访问网站会提示如下信息：
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows%E5%85%B3%E9%97%ADie%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A2%9E%E5%BC%BA%E5%AE%89%E5%85%A8%E6%80%A701.png)
 
