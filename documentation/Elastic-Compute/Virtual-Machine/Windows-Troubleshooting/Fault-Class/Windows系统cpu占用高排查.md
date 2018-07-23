@@ -35,7 +35,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fcpu%E5%8D%A0%E7%94%A8%E9%AB%98%E6%8E%92%E6%9F%A505.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fcpu%E5%8D%A0%E7%94%A8%E9%AB%98%E6%8E%92%E6%9F%A506.png)
 
-通过Process Explorer工具查看方式：
+**通过Process Explorer工具查看方式：**
 
 微软官方sysinternals工具，下载链接：https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx
 
