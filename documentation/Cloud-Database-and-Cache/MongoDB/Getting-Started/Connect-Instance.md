@@ -2,7 +2,7 @@
 
 出于安全考虑，云数据库 MongoDB 目前仅提供内网连接，暂不提供公网连接。
 
-如果您需要本地直接连接云数据库 MongoDB 实例，可以通过代理转发的方式实现，操作方式请参考 公网连接。
+如果您需要本地直接连接云数据库 MongoDB 实例，可以通过代理转发的方式实现，操作方式请参考 [公网连接 MongoDB 实例](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)。
 
 
 
@@ -13,8 +13,8 @@
 ## 操作步骤
 1. 获取 MongoDB 实例的连接信息。
    1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
-   1. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
-   1. 在实例详情页面，查看资源信息，获取连接 MongoDB 实例的信息。
+   1. 在“实例列表”页面，选择目标实例，点击 **实例名称** ，进入“实例详情”页面。
+   1. 在“实例详情”页面，查看资源信息，获取 MongoDB 实例的连接信息。
    
 		![查看连接](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-006.png)
 
@@ -47,7 +47,7 @@
 		
 		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx
 		
-		>（****部分替换为为root密码）
+		>（****部分替换为root密码）
 		
    - 使用Connection String URI连接实例
    
@@ -57,12 +57,12 @@
 
 	   > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx
 	   
-	   > （****部分替换为为root密码）
+	   > （****部分替换为root密码）
 		
 		
 ## 相关参考
 
-- [公网连接 MongoDB 实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/BestPractice/AccessOutside.md)
-- [问题处理：无法连接云数据库 MongoDB](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/TroubleList/Connection.md)
-- [问题处理：登录数据库提示无权限](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/TroubleList/Authentication.md)
+- [公网连接 MongoDB 实例](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
+- [问题处理：云主机无法连接 MongoDB 实例](../Troubleshooting/Connect-Failed.md)
+- [问题处理：登录数据库提示无权限](../Troubleshooting/Authentication.md)
 		

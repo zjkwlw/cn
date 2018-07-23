@@ -4,12 +4,12 @@
 
 ## 操作步骤
 1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
-2. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
-3. 在实例详情页面，点击备份与恢复，查看备份数据。
+2. 在“实例列表”页面，选择目标实例，点击 **实例名称** ，进入“实例详情”页面。
+3. 在“实例详情”页面，点击 **备份与恢复** ，查看备份数据。
 
    ![查看备份](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-010.png)
    
-4. 选择要下载的备份，在操作项中，点击“下载”，打开下载弹窗。
+4. 选择要下载的备份，在操作项中，点击 **下载** ，打开下载弹窗。
 
    ![查看备份](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-009.png)
 	
@@ -26,4 +26,4 @@
 
 ## 相关参考
 
-- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
+- [导入数据](Import-Data.md)
