@@ -7,3 +7,8 @@ IP高防是针对互联网服务器在遭受大流量的DDoS攻击后导致服�
 图1示范了未接入IP高防时，所有正常、非正常的访问都会直接到达源站。一旦发现DDoS攻击，源站很容易就被打瘫。
 
 ![IP高防架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20002.png)
+                                         图1 防护前
+
+图2示范了接入IP高防业务后，所有对源站的访问流量，均会经过IP高防的实时检测。IP高防拥有强大的防护机制，经过高防机房的流量清洗，过滤掉了四层和七层的攻击，只将清洗后的干净流量回注到源站。
+![IP高防架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20001.png)
+                                         图2 防护后
