@@ -85,6 +85,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A132.png)
 
 6.选择允许其他应用，浏览。
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A133.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A134.png)
 
