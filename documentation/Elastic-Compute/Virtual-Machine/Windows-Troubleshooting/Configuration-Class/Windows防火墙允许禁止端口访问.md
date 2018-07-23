@@ -21,3 +21,5 @@
 
 6.为此规则填写名称，配置完成。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E9%98%B2%E7%81%AB%E5%A2%99%E5%85%81%E8%AE%B8%E7%A6%81%E6%AD%A2%E7%AB%AF%E5%8F%A3%E8%AE%BF%E9%97%AE09.png)
+
+如无法解决您的问题，请向我们提工单。
