@@ -10,7 +10,7 @@
 
 **操作步骤**
 
-1.点击运行，输入命令：mstsc， 打开远程桌面连接对话框。
+1.点击运行，输入命令：***mstsc***，打开远程桌面连接对话框。
 
 2.点击【显示选项】，弹出“远程桌面连接”对话框。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E9%80%9A%E8%BF%87%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B601.png)
