@@ -1,5 +1,5 @@
 - name: 云数据库 MongoDB
-  href: TOC.yml
+  href: 
 - name: 产品简介
   items:
     - name: 产品概述
@@ -96,7 +96,7 @@
     herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
 - name: 教程
   items:
-  status 0
+  status: 0
 - name: 问题排查
   items:
   - name: 云主机无法连接MongoDB实例？
@@ -117,15 +117,15 @@
     herf: Related-Resources/Document-History.md     
   - name: 服务条款
     herf: Related-Resources/Service-Terms.md           
-    status 0      
+    status: 0      
   - name: SLA
     herf: Related-Resources/SLA.md           
-    status 0       
+    status: 0       
   - name: 备案
     herf: Related-Resources/Filing.md           
-    status 0        
+    status: 0        
   - name: 词汇表
     herf: Related-Resources/Glossary.md           
-    status 0          
+    status: 0          
           
           
