@@ -21,7 +21,7 @@
 
 ## 相关参考
 
-- [下载备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/DownloadBckup.md)
-- [数据恢复](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/RestoreInstance.md)
-- [根据备份创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance2.md)
-- [根据时间点创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateInstance3.md)
+- [下载备份](../Operation-Guide/Backup/DownloadBckup.md)
+- [数据恢复](../Operation-Guide/Backup/RestoreInstance.md)
+- [根据备份创建实例](../Operation-Guide/Backup/CreateInstance2.md)
+- [根据时间点创建实例](../Operation-Guide/Backup/CreateInstance3.md)
