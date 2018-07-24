@@ -1,20 +1,18 @@
-# 规格性能
-## 规格能力
+# 规格
 
 ·        主从版
 
-规格|最大连接数（个）|内网带宽上限（MB/s）|CPU处理能力|规格代码|说明
----|:--:|:--:|:--:|:--:|---:
-1G主从版|10000|48|单核|redis.m1.micro.basic|主从实例，可选
-2G主从版|10000	|48	|单核|redis.m1.small.basic	|主从实例，可选
-4G主从版|10000	|48|	单核	|redis.m1.medium.basic|	主从实例，可选
-8G主从版|10000|	48	|单核|	redis.m1.large.basic	|主从实例，可选
-16G主从版|10000	|48|	单核	|redis.m1.xlarge.basic|	主从实例，可选
-32G主从版|10000	|48|	单核	|redis.m1.2xlarge.basic|	主从实例，可选
-64G主从版|10000	|48|	单核|	redis.m1.4xlarge.basic	|主从实例，可选
+规格|规格代码|说明
+---|:--:|---:
+1G主从版|redis.m1.micro.basic|主从实例，可选
+2G主从版|redis.m1.small.basic	|主从实例，可选
+4G主从版|redis.m1.medium.basic|	主从实例，可选
+8G主从版|redis.m1.large.basic	|主从实例，可选
+16G主从版|redis.m1.xlarge.basic|	主从实例，可选
+32G主从版|redis.m1.2xlarge.basic|	主从实例，可选
+64G主从版|redis.m1.4xlarge.basic	|主从实例，可选
 
 ·        集群版
-
 
 集群版规格|Proxy 个数|分片服务器个数|单个分片服务器内存大小(GB)
 ---|:--:|:--:|---:
@@ -26,11 +24,11 @@
 512G集群版|16|32|16
 
 
-集群版规格|最大连接数（个）|内网带宽上限（MB/s）|CPU处理能力|规格代码|说明
----|:--:|:--:|:--:|:--:|---:
-16G集群版|80000|384|8核|redis.c1.small.basic|高性能集群实例，可选
-32G集群版|80000|384|8核|redis.c1.medium.basic|高性能集群实例，可选
-64G集群版|80000|384|8核|redis.c1.large.basic|高性能集群实例，可选
-128G集群版|160000|768|16核|redis.c1.xlarge.basic|高性能集群实例，可选
-256G集群版|160000|768|16核|redis.c1.2xlarge.basic|高性能集群实例，可选
-512G集群版|320000|1536|32核|redis.c1.4xlarge.basic|高性能集群实例，可选 ，提工单申请
+集群版规格|规格代码|说明
+---|:--:|---:
+16G集群版|redis.c1.small.basic|高性能集群实例，可选
+32G集群版|redis.c1.medium.basic|高性能集群实例，可选
+64G集群版|redis.c1.large.basic|高性能集群实例，可选
+128G集群版|redis.c1.xlarge.basic|高性能集群实例，可选
+256G集群版|redis.c1.2xlarge.basic|高性能集群实例，可选
+512G集群版|redis.c1.4xlarge.basic|高性能集群实例，可选 ，提工单申请
