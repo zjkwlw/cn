@@ -9,7 +9,7 @@
 ![](../../../../image/Advanced%20Anti-DDoS/price01.png)
 
 
-3. 在操作项中点击 **续费**，进入“续费页面”，续费步骤请参见“[续费实例](../Operation-Guide/Instance-Management/Renewal-Instructions.md)”
+3. 在操作项中点击 **续费**，进入“续费页面”，进行续费操作
 
    ![](../../../../image/Advanced%20Anti-DDoS/price02.png)
    
@@ -20,6 +20,6 @@
    ![](../../../../image/Advanced%20Anti-DDoS/price03.png)
    
 3. 在“续费管理”页面，点击 **IP高防**，查看 IP高防 实例。
-4. 在操作项中点击 **续费**，进入“续费页面”
+4. 在操作项中点击 **续费**，进入“续费页面”，进行续费操作
 
    ![](../../../../image/Advanced%20Anti-DDoS/price04.png)
