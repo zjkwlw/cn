@@ -6,6 +6,7 @@
 1.右键左下角开始，选择磁盘管理。选择MBR（主启动记录），确认。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%9601.png)
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%9602.png)
 
 2.在空白分区上，右键选择【新建简单卷】。
