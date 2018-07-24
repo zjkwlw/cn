@@ -34,7 +34,7 @@ Windows系统内名为【svchost.exe】的进程，CPU或内存资源使用率�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fsvchost.exe%E8%BF%9B%E7%A8%8B%E5%8D%A0%E7%94%A8cpu%EF%BC%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%E9%AB%98%E7%9A%84%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%9504.png)
 
-执行成功后重启服务器, 执行命令***tasklist /svc | findstr /I /C:wuau***，发现Windows Update服务已经成功独立。
+执行成功后重启服务器, 执行命令***tasklist /svc | findstr /I /C:wuau，***发现Windows Update服务已经成功独立。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fsvchost.exe%E8%BF%9B%E7%A8%8B%E5%8D%A0%E7%94%A8cpu%EF%BC%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%E9%AB%98%E7%9A%84%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%9505.png)
 
@@ -42,7 +42,7 @@ Windows系统内名为【svchost.exe】的进程，CPU或内存资源使用率�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fsvchost.exe%E8%BF%9B%E7%A8%8B%E5%8D%A0%E7%94%A8cpu%EF%BC%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%E9%AB%98%E7%9A%84%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%9506.png)
 
-如果恢复该服务与其它服务一起驻存到相同svchost中，请执行如下命令sc config wuauserv type= share，重启服务器生效。
+如果恢复该服务与其它服务一起驻存到相同svchost中，请执行如下命令***sc config wuauserv type= share，***重启服务器生效。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Fsvchost.exe%E8%BF%9B%E7%A8%8B%E5%8D%A0%E7%94%A8cpu%EF%BC%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%E9%AB%98%E7%9A%84%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%9507.png)
 
