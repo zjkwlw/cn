@@ -5,7 +5,7 @@ Windows服务器鼠标右键点击文件或者文件夹属性的时候，没有�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7%E6%B2%A1%E6%9C%89%E5%AE%89%E5%85%A8%E9%80%89%E9%A1%B9%E5%8D%A101.png)
 
-解决办法：
+**解决办法：**
 
 1.点击开始-运行-输入*gpedit.msc*打开组策略。
 
