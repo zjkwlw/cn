@@ -1,27 +1,30 @@
-# 限制说明
+# 使用限制
 
-您可以快速创建并使用云数据库 MongoDB，但使用中有部分约束条件需要注意。
+在使用弹性网卡之前，请了解弹性网卡以下使用限制。
 
-## 存储引擎
-存储引擎默认为WiredTiger，不支持修改。
-## 副本集
-系统自动搭建三节点的副本集，角色分别为primary、secondary、hidden，其中primary节点、secondary节点对用户可见，hidden节点对用户不可见，用户不可自行搭建节点。
-## oplog大小
-oplog默认为存储空间的5%，不可修改。
-## 连接数限制
-连接数与您购买实例的规格相关，以下是各规格的最大连接数说明:
+## 地域配额
+每个京东云账户支持每个地域创建100块辅助网卡。部分资源创建时会占用弹性网卡配额，如Kubernetes集群。
 
-| 规格代码	| 规格	| 最大连接数 |
-| :- | :- | :- |
-|mongo.s1.small	|1核2G	|500|
-|mongo.s1.medium	|2核4G	|1000|
-|mongo.s1.large	|4核8G	|2000|
-|mongo.s1.xlarge	|8核16G|	4000|
-|mongo.s2.2xlarge	|8核32G|	8000|
-|mongo.s2.4xlarge	|16核64G|	16000|
+## 内网IP
+每块弹性网卡支持分配1个主IP地址，20个辅助IP地址，该限制无法修改。
 
-## 相关参考
+## 安全组
+每块弹性网卡支持绑定1个至5个安全组，该限制无法修改。
 
-- [产品概述](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Product-Introduction/Overview.md)
-- [产品规格](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Product-Introduction/Specification.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
+## 可用区
+弹性网卡可与私有网络属性相同的云主机进行绑定，不受可用区限制。
+
+## 弹性公网IP
+不支持辅助网卡关联“可用区A”属性的弹性公网IP。
+
+## 其他
+弹性网卡列表页仅支持展示与操作辅助网卡，主网卡相关操作请进入云主机详情页进行操作。
+
+## 云主机网卡配额
+
+| 云主机配置	| 弹性网卡数	|
+| :- | :- |
+|CPU：1核-2核	|2	|
+|CPU：4核-8核	|4	|
+|CPU：大于8核	|8	|
+
