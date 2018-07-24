@@ -12,6 +12,7 @@
 3.在“更改**的驱动器号和路径”对话框里点击“更改”按钮，若发现下拉菜单中没有想要的盘符，请检查一下系统中是否有其他磁盘、光驱使用了盘符。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E4%BF%AE%E6%94%B9%E7%A3%81%E7%9B%98%E7%9B%98%E7%AC%A603.png)
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E4%BF%AE%E6%94%B9%E7%A3%81%E7%9B%98%E7%9B%98%E7%AC%A604.png)
 
 4.若更改的磁盘正在被系统使用，那么修改需要重启服务器后才能生效，您可以在业务低峰时期重启服务器使得配置生效。
@@ -29,6 +30,7 @@
 3.在“更改**的驱动器号和路径”对话框里点击“更改”按钮，若发现下拉菜单中没有想要的盘符，请检查一下系统中是否有其他磁盘、光驱使用了盘符。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E4%BF%AE%E6%94%B9%E7%A3%81%E7%9B%98%E7%9B%98%E7%AC%A603.png)
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E4%BF%AE%E6%94%B9%E7%A3%81%E7%9B%98%E7%9B%98%E7%AC%A604.png)
 
 4.若更改的磁盘正在被系统使用，那么修改需要重启服务器后才能生效，您可以在业务低峰时期重启服务器使得配置生效。
