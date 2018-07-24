@@ -1,29 +1,22 @@
-# 导出数据
+# 添加安全组
 
-云数据库 MongoDB 提供自动备份与手动备份功能。如需导出数据，您可以下载备份文件后导出到本地数据库。
+京东云弹性网卡（包括主网卡、辅助网卡）支持关联最少1个，最多5个安全组。
 
 ## 操作步骤
-1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
-2. 在实例列表页面，选择目标实例，点击实例名称，进入实例详情页面。
-3. 在实例详情页面，点击备份与恢复，查看备份数据。
+步骤1：登录京东云控制台，进入控制台导航页面。
 
-   ![查看备份](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-010.png)
-   
-4. 选择要下载的备份，在操作项中，点击“下载”，打开下载弹窗。
+步骤2：在控制台左侧导航栏，选择网络-私有网络-弹性网卡，进入弹性网卡列表页。
 
-   ![查看备份](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-009.png)
-	
-5. 下载备份文件到本地。
-	
-	说明
-	- 内网地址和外网地址有效期为24小时；
-	- 使用wget下载时需要对URL添加英文引号；
-	- 若云主机与云数据库在同一地域，建议您采用内网地址下载；
-		
-6. 将备份文件导入到本地数据库。
+步骤3：定位到需要配置安全组的弹性网卡，点击该弹性网卡ID进入弹性网卡详情页。
 
-   > mongorestore --host xxx --port=27017 --authenticationDatabase admin --archive=xxx(文件路径)  --gzip -u root -p xxx
+步骤4：选择安全组管理标签，进入安全组管理页面。
+
+步骤5：点击添加按键，进入添加安全组弹窗。
+
+步骤6：在添加安全组弹窗，选定需要添加的安全组。
+
+步骤7：点击确定按键，完成添加安全组操作。返回安全组管理页面，查看安全组添加情况。
 
 ## 相关参考
 
-- [导入数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
+- [使用限制](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Product-Introduction/Restrictions.md)
