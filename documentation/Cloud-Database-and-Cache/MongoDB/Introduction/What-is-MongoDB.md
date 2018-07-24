@@ -18,21 +18,21 @@
 ## 常用操作
 
 - 快速上手
-	- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
-	- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Set-Whitelist.md)
-	- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
+	- [创建实例](../Getting-Started/Create-Instance.md)
+	- [设置白名单](../Getting-Started/Set-Whitelist.md)
+	- [连接实例](../Getting-Started/Create-Instance.md)
 - 数据迁移
-	- [将数据导入到云](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
-	- [从云导出数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ExportData.md)
+	- [将数据导入到云](../Getting-Started/ImportData.md)
+	- [从云导出数据](../Getting-Started/ExportData.md)
 - 扩容升级
-	- [变更实例规格](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
+	- [变更实例规格](../Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
 - 备份与恢复
-	- [设置自动备份策略](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/ModifyBackupPolicy.md)
-	- [手动创建备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateBackup.md)
-	- [数据恢复](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/RestoreInstance.md)
+	- [设置自动备份策略](../Operation-Guide/Backup/ModifyBackupPolicy.md)
+	- [手动创建备份](../Operation-Guide/Backup/CreateBackup.md)
+	- [数据恢复](../Operation-Guide/Backup/RestoreInstance.md)
 - 运维管理
-	- [查看监控信息](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Monitoring/Monitoring.md)
-	- [设置自动报警](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Monitoring/AlarmRules.md)
+	- [查看监控信息](../Operation-Guide/Monitoring/Monitoring.md)
+	- [设置自动报警](../Operation-Guide/Monitoring/AlarmRules.md)
 
 ## 计费
-云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Types.md)。
+云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见：[计费说明](../Pricing/Billing-Types.md)。
