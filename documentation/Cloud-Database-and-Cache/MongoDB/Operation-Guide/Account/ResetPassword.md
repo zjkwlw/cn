@@ -19,5 +19,5 @@
 
 ## 相关参考
 
-- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Whitelist.md)
-- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/DatabaseConnection.md)
+- [设置白名单](../Getting-Started/Whitelist.md)
+- [连接实例](../Getting-Started/DatabaseConnection.md)
