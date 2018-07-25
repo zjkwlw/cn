@@ -1,9 +1,19 @@
 # 产品功能
 
+<<<<<<< HEAD
 ## 轻松使用
 
 ### 快速创建
 通过 MongoDB 控制台或简单的 API 调用，几分钟内即可创建 MongoDB 实例。
+=======
+## API分组
+
+分组是API网关最基础的
+
+### 创建分组
+通过 MongoDB 控制台或简单的 API 调用，几分钟内即可创建 MongoDB 实例。
+分组
+>>>>>>> cd616ffba6e6a195ec8dc26c5320cf4f7fad3ccb
 
 ### 弹性扩容
 支持扩容缩容，可根据业务情况按需升级或降级实例配置，提高资源利用率，降低使用成本。
@@ -52,6 +62,7 @@ MongoDB 控制台提供丰富的监控信息，包括CPU、内存、存储空间
 
 ## 相关参考
 
+<<<<<<< HEAD
 - [产品概述](../Product-Introduction/Overview.md)
 - [产品规格](../Product-Introduction/Specification.md)
 - [价格总览](../Pricing/Price-Overview.md)
@@ -59,5 +70,8 @@ MongoDB 控制台提供丰富的监控信息，包括CPU、内存、存储空间
 - [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
 - [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
 - [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
+=======
+
+>>>>>>> cd616ffba6e6a195ec8dc26c5320cf4f7fad3ccb
 
 

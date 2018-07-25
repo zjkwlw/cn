@@ -1,38 +1,33 @@
 # 产品概述
 
+弹性公网IP是可以独立申请的公网IP地址，支持与云主机、容器、负载均衡、NFV实例等资源进行动态绑定和解绑。弹性公网IP的主要作用是屏蔽实例故障，通过手动配置的方式，当实例出现故障时弹性公网IP可以漂移到冗余实例上，从而达到快速响应故障的目的。
 
-弹性公网IP是京东云基于全球广受欢迎的 MongoDB 提供的高性能NoSQL数据库服务，完全兼容MongoDB协议，默认提供三节点副本集的高可用架构，支持容灾切换，故障迁移自动完成，确保业务可用性，并支持在线扩容、备份恢复、监控报警等功能，降低管理维护成本，使您能专注于应用开发和业务发展。
+弹性公网IP主要具备以下特性：
 
-云数据库 MongoDB 主要具备以下特性：
+* 完全弹性：京东云提供的公网IP全部为弹性公网IP。无论您是独立购买弹性公网IP，或是在购买云主机等其它资源时一并购入弹性公网IP，均可以随时更改弹性公网IP与云资源的绑定关系。
 
-* 自动搭建三节点副本集的高可用架构，支持自动容灾切换。
+* 支持多种资源绑定：弹性公网IP支持与云主机、容器、负载均衡、NFV实例等云资源进行绑定，为云资源提供公网访问能力。
 
-* 完全兼容MongoDB协议，既可适用于传统表结构的场景，也适用于缓存、非关系型数据的业务场景。
+* 支持多种计费类型：弹性公网IP支持包年包月、按配置和按用量三种计费类型，用户可根据实际业务需求选择合适的计费类型。
 
-* 提供便捷的数据库备份与恢复功能，用户可在控制台一键备份及数据库回溯。
-
-* 支持弹性扩容，按需升级，提供资源利用率高，降低使用成本。
-
-* 提供详尽的性能指标监控及报警功能，方便用户运维。
+* 带宽灵活调整：弹性公网IP支持带宽调整，用户可根据业务流量需求变化随时更改带宽，修改即时生效。
 
 ## 常用操作
 
-- 快速上手
-	- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
-	- [设置白名单](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Set-Whitelist.md)
-	- [连接实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
-- 数据迁移
-	- [将数据导入到云](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ImportData.md)
-	- [从云导出数据](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/ExportData.md)
-- 扩容升级
-	- [变更实例规格](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
-- 备份与恢复
-	- [设置自动备份策略](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/ModifyBackupPolicy.md)
-	- [手动创建备份](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/CreateBackup.md)
-	- [数据恢复](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Backup/RestoreInstance.md)
-- 运维管理
-	- [查看监控信息](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Monitoring/Monitoring.md)
-	- [设置自动报警](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Operation-Guide/Monitoring/AlarmRules.md)
+- 弹性公网IP管理
+	- [创建弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Create-Elastic-IP.md)
+	- [删除弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Delete-Elastic-IP.md)
+	- [绑定弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Associate-Elastic-IP.md)
+	- [解绑弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Disassociate-Elastic-IP.md)
+	- [修改弹性公网IP带宽](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Modify-Elastic-IP.md)
+- 弹性公网IP资源信息查看
+	- [弹性公网IP资源信息查看](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/View-Elastic-IP-Detail.md)
+- 弹性公网IP监控信息查看
+	- [弹性公网IP监控信息查看](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/View-Elastic-IP-Monitoring.md)
+- 弹性公网IP计费信息查看
+	- [弹性公网IP计费信息查看](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/View-Elastic-IP-Billing.md)
+- 导出弹性公网IP列表
+	- [导出弹性公网IP列表](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Export-Elastic-IP-List.md)
 
 ## 计费
-云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Pricing/Billing-Types.md)。
+弹性公网IP支持包年包月、按配置和按用量计费三种计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Pricing/Billing-Types.md)。
