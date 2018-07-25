@@ -5,7 +5,7 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%202012%E4%BF%AE%E6%94%B9%E6%A1%8C%E9%9D%A2%E8%83%8C%E6%99%AF01.png)
 
-解决方法：
+**解决方法：**
 
 1.关闭目前的远程桌面连接。
 
