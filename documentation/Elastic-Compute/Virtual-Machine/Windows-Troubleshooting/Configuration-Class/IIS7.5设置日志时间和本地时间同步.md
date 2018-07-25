@@ -12,6 +12,7 @@ IIS服务中的web日志和ftp日志记录的时间点和服务器系统时间�
 
 
 **解决办法：**
+
 打开IIS管理器，点击ftp站点，右侧点击ftp日志。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/iis7.5%E8%AE%BE%E7%BD%AE%E6%97%A5%E5%BF%97%E6%97%B6%E9%97%B4%E5%92%8C%E6%9C%AC%E5%9C%B0%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A502.png)
