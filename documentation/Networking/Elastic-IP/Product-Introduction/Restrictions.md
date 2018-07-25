@@ -1,27 +1,18 @@
-# 限制说明
+# 使用限制
 
-您可以快速创建并使用云数据库 MongoDB，但使用中有部分约束条件需要注意。
+您在使用弹性公网IP时请注意以下使用限制。
 
-## 存储引擎
-存储引擎默认为WiredTiger，不支持修改。
-## 副本集
-系统自动搭建三节点的副本集，角色分别为primary、secondary、hidden，其中primary节点、secondary节点对用户可见，hidden节点对用户不可见，用户不可自行搭建节点。
-## oplog大小
-oplog默认为存储空间的5%，不可修改。
-## 连接数限制
-连接数与您购买实例的规格相关，以下是各规格的最大连接数说明:
+- 目前每个京东云账户支持每个地域（region）最多申请10个弹性公网IP，如需更多配额请提交工单申请。
 
-| 规格代码	| 规格	| 最大连接数 |
-| :- | :- | :- |
-|mongo.s1.small	|1核2G	|500|
-|mongo.s1.medium	|2核4G	|1000|
-|mongo.s1.large	|4核8G	|2000|
-|mongo.s1.xlarge	|8核16G|	4000|
-|mongo.s2.2xlarge	|8核32G|	8000|
-|mongo.s2.4xlarge	|16核64G|	16000|
+- 弹性公网IP仅可与同地域资源（包括云主机、负载均衡、NFV实例等）进行绑定。
 
-## 相关参考
+- 私有网络下的弹性公网IP仅支持与云主机或负载均衡进行1:1绑定。
 
-- [产品概述](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Product-Introduction/Overview.md)
-- [产品规格](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Product-Introduction/Specification.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/Create-Instance.md)
+- 申请弹性公网IP时设置的带宽为上行带宽，即从京东云访问公网的带宽。
+
+- 单个弹性公网IP可以在一天之内进行多次绑定/解绑操作。如果需要为已绑定弹性公网IP的资源更换IP，必须先将资源与当前的IP解绑，之后再进行新IP的绑定。
+
+- 计费模式为包年包月、按配置、按用量的弹性公网IP，均支持上调或下调带宽上限。其中计费模式为包年包月的弹性公网IP，下调带宽前后的金额差值转为调整后弹性公网IP配置的使用时长。
+
+- IP可用区属性为“可用区A”的弹性公网IP仅可绑定可用区A下的云主机、容器、负载均衡（不包括同时属于可用区A与可用区B的负载均衡）、NFV实例等云资源。
+
