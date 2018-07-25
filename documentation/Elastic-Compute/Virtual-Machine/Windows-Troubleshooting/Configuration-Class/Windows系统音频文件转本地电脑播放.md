@@ -14,7 +14,7 @@ windows系统远程连接后，右下角的声音显示红叉，无法播放远�
 
 1 远程连接后，点击开始-管理工具-远程桌面服务-远程桌面会话主机；
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9F%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E8%BD%AC%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E6%92%AD%E6%94%BE02png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9F%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E8%BD%AC%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E6%92%AD%E6%94%BE02.png)
 
 2 双击rdp-tcp，选择客户端设置，将音频和视频播放的勾选取消；
 
