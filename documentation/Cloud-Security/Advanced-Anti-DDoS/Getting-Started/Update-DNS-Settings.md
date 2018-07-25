@@ -12,12 +12,12 @@
 以非网站转发规则为例，如下找到红框处待复制的cname：
 ![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2001.png)。
 3. 在域名提供商处，需要修改域名解析配置让域名解析到高防IP上。
-以京东云“云解析”为例，在控制台–》“域名服务”–》“云解析”，进入京东云解析的页面。京东云[云解析控制台](https://dns-console.jdcloud.com/list)。
-![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2002.png)。
+以京东云“云解析”为例，在**控制台**–》**域名服务**–》**云解析**，进入京东云[云解析控制台](https://dns-console.jdcloud.com/list)。<Br/>
+![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2002.png)<Br/>
 找到待解析的域名，如下：
-![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2003.png)。
+![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2003.png)<Br/>
 单击进入解析配置：
-![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2004.png)。
+![修改DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2004.png)<Br/>
 将记录值，改为IP高防的cname地址即可。
 
 
