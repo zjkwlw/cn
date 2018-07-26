@@ -1,1 +1,4 @@
+使用购买Redis服务的账号进行登录  [Redis 控制台](https://redis-console.jdcloud.com/redis) 后，系统显示Redis实例列表界面，如下图所示：
 
+
+可以在这里对所列实例进行操作管理。
