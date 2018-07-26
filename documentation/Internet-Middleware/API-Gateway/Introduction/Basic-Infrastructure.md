@@ -1,15 +1,27 @@
 # 基础架构
+API网关提供API定义者服务和API调用者服务。API定义者通过管理和部署API分组，提供API的调用;API调用者，通过访问密钥和API定义者的授权访问，使用API。
 
-IP高防是针对互联网服务器在遭受大流量的DDoS攻击后导致服务不可用的情况下，推出的付费增值服务。
+## 业务架构
+业务架构如下图：
+![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-000.jpg)
 
-用户开通IP高防服务，配置将用户访问的IP地址引流到高防服务提供的IP地址上，经过IP高防服务对所有异常流量的实时检测和清洗，确保仅正常流量可回源到用户服务器，从而保证了源站的稳定可靠。
 
-## 未接入IP高防
-未接入IP高防时，所有正常、非正常的访问都会直接到达源站。一旦发生DDoS攻击，源站很容易就被打瘫。
+|名称|描述|
+| - | - | 
+|控制服务| 支持 MongoDB 实例的多种管理控制任务，包括创建、删除、查询、配置变更、容灾切换、备份与恢复等任务。|
+|监控服务|收集 MongoDB 实例信息（资源使用和数据库键统计信息等）和物理机信息（资源使用信息和评分等），前者供用户和控制台展现，后者用于系统管理。|
+|Sentinel| Sentinel 监控 MongoDB 实例是否存活，多个哨兵同时工作，当发现节点不可用时，发送 failover 任务，自动创建新节点，并同步数据。|
+|备份服务| 自动定时备份，以及支持用户手动创建备份。|
+|日志收集| 收集 MongoDB 实例的运行情况的日志信息。|
+|数据迁移| 当主从节点都不可用的时候，或者需要克隆在线运行的实例时，在线迁移系统负责实例重新搭建及数据迁移任务，保证业务不受影响。|
 
-![IP高防架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20002.png)
+## 相关参考
 
-## 接入IP高防后
-接入IP高防业务后，所有对源站的访问流量，均会经过IP高防的实时检测。IP高防拥有强大的防护机制，经过高防机房的流量清洗，过滤掉了四层和七层的攻击，只将清洗后的干净流量回注到源站。
-![IP高防架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20001.png)
+- [产品优势](../Introduction/Benefits.md)
+- [产品功能](../Introduction/Functions.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [计费规则](../Pricing/Billing-Rules.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
+
+
 
