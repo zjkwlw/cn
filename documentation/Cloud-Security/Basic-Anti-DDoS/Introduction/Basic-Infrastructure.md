@@ -7,3 +7,8 @@
 
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Infrastructure01.png)
 
+备注：1、镜像流量到检测设备 2、检测设备检测到攻击，向管理中心通告攻击信息
+      3、管理中心收到攻击信息后通知清洗设备开启清洗
+      4、引流到清洗设备进行流量清洗，并回注清洗后的干净流量
+      5、正常流量
+      
