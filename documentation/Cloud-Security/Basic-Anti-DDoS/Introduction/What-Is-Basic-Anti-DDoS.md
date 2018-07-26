@@ -5,7 +5,7 @@ DDoS基础防护是为京东云用户针对常见的DDoS攻击推出的免费服
 
 ## 基础防护的产品特性如下
 
-**1：支持多种DDoS攻击防御**：对流量特征紧张精确识别，能够有效抵御SYN Flood、UDP Flood、ACK Flood、ICMP Flood等各种常见DDoS
+**1：支持多种DDoS攻击防御**：对流量特征进行精确识别，能够有效抵御SYN Flood、UDP Flood、ACK Flood、ICMP Flood等各种常见DDoS
 攻击。并且最大支持2G的基础防护能力。
 
 **2：免费使用**：如果您是京东云的用户，可以免费使用京东云为您推出的基础防护功能，对您的业务进行基本的防护。
