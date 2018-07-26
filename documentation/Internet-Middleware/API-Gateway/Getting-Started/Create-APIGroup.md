@@ -43,7 +43,7 @@
 ![新建API](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
 
 
-3. 新建成功后，再点击新增的API进入API详情页，并进行高级选项配置。该项目可选是否配置，但当需要进行实际发布时该信息项需要配置。
+3. 新建成功后，再点击新增的API进入API详情页，并进行高级选项配置。该项目可选配，但当需要进行实际发布时该信息项需要配置。
 
 ![高级配置](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi-advane.png)
   
