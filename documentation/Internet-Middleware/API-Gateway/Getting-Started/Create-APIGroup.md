@@ -8,8 +8,10 @@
 - 如计费类型选择按配置计费，请确认您的账户余额（包括代金券）不小于50元。
 
 ## 操作步骤
-1. 登录 [MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)。
-2. 在“实例列表”页面，点击 **创建** ，进入“创建实例”页面。
+1. 登录 [API网关 控制台](https://apigateway-console.jdcloud.com/apiGroupList)。
+ ![API分组管理](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
+ 
+2. 在“API分组管理”页面，点击 **创建分组** ，进入“创建实例”页面。
 
-    ![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
+    ![创建分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
     
