@@ -35,3 +35,18 @@
 
 
 
+### STEP2:创建分组下的API
+1.找到分组，点击该分组行的操作 **管理API**，进入“API列表”页
+ ![API列表](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
+
+2. 在“API列表”页面，点击 **新建API** ，进入创建API页面。
+![新建API](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
+
+3. 新建成功后，再点击新增的API进入API详情页，并进行高级选项配置。当使用Mock后端进行发布时该信息项可暂不配置，当进行实际发布时该信息项需要配置。
+![高级配置](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi-advane.png)
+  
+4.填写API信息后，点击保存，即新建完成。
+
+### STEP3:给分组绑定域名、配置流控策略、后端签名
+
+
