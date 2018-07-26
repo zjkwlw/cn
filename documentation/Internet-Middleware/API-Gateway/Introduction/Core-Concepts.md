@@ -1,10 +1,14 @@
 # 核心概念
-以下是IP高防帮助文档中使用到的概念及其解释，请参考。
+以下是API网关帮助文档中使用到的概念及其解释，请参考。
 
-- **DoS（Denial of Service）**：即拒绝服务攻击。该攻击是利用目标系统网络服务功能缺陷或者直接消耗其系统资源，目的是使该目标客户的系统不可用，无法提供正常的服务。
+| 概念 | 解释 |
+| :- | :- |
+| AK/SK | Access Key/Access Key Secret京东云用户的密钥.通常为API提供者使用，用于校验网关与API提供者服务器的通信。|
+| APIKey/APISecret | API调用者的密钥用于API提供者使用API时，网关校验API调用者的访问时使用。 |
 
-- **DDoS（Distributed Denial of Service attack)**：即分布式拒绝服务攻击。是指借助于黑客技术，将多个计算机联合起来变为“僵尸主机”，联合起来对一个或多个目标发动DDoS攻击，以成倍地拒绝服务攻击威力，使受害者无法提供网络服务。
+## 相关参考
 
-- **CNAME**：别名记录。即实现将一个域名解析到另外的一个域名，CNAME可将多个主机名指向一个别名，从而实现快速地变更IP地址。
-
-- **黑洞**：黑洞是指服务器所受攻击流量超过用户购买高防的套餐防护上限时，京东云IP高防将屏蔽服务器的外网访问
+- [产品概述](../Introduction/Overview.md)
+- [产品规格](../Introduction/Specification.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
