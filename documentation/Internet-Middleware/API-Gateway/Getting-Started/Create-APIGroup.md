@@ -1,4 +1,4 @@
-# 开放API
+# API的开放和调用
 
 您可以通过创建和部署API分组，实现服务的对外开放。
 本文将快速引导您通过控制台开放API。
@@ -105,9 +105,9 @@
 
 ![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
 
-![发布](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-fb.png)
-
 选择需要发布的环境（测试、预发、线上），选择要发布的版本，配置后端地址，然后点击发布，即可将分组发布到环境中。
+
+![发布](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-fb.png)
 
 
 ### STEP5：给API调用者授权访问
