@@ -23,3 +23,15 @@
 ![创建分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
     
 3.填写分组信息后，点击保存，即新建分组。当首次新建时，系统会自动将其保存为版本号为0.0.1的版本。后续可在版本管理中进行多版本维护。
+
+### STEP2:创建分组下的API
+1.找到分组，点击该分组行的操作 **管理API**，进入“API列表”页
+ ![API列表](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
+
+2. 在“API列表”页面，点击 **新建API** ，进入创建API页面。
+![创建分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
+    
+3.填写API信息后，点击保存，即新建完成。
+
+
+
