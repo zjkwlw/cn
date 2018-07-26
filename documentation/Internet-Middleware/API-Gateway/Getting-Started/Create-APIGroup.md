@@ -17,10 +17,12 @@
 ## 操作步骤
 ### STEP1:创建API分组
 1. 登录 [API网关 控制台](https://apigateway-console.jdcloud.com/apiGroupList)。
+
  ![API分组管理](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
  
  
 2. 在“API分组管理”页面，点击 **新建API分组** ，进入“创建”页面。
+
 ![创建分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
     
     
@@ -30,15 +32,19 @@
 
 
 ### STEP2:创建分组下的API
+
 1.找到分组，点击该分组行的操作 **管理API**，进入“API列表”页
+
  ![API列表](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
 
 
 2. 在“API列表”页面，点击 **新建API** ，进入创建API页面。
+
 ![新建API](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
 
 
 3. 新建成功后，再点击新增的API进入API详情页，并进行高级选项配置。该项目可选是否配置，但当需要进行实际发布时该信息项需要配置。
+
 ![高级配置](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi-advane.png)
   
   
@@ -49,35 +55,89 @@
 
 ### STEP3:给分组绑定域名、配置流控策略、后端签名
 1.找到分组，点击该分组行的操作 **绑定域名**，进行绑定
+
 ![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
+
 选择需要映射的域名并进行绑定。如果没有可用域名，可在自定义域名页面中新增自定义域名，然后再来绑定域名。
+
 ![绑定域名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-bdym.png)
 
 
+
 2.点击左侧 **流控策略**，进行流控策略配置和绑定
+
 （1）流控策略列表页
+
 ![流控策略列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/lkcl-list.png)
 
 
 （2）新增流控策略
+
 ![新增策略](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/lkcl-add.png)
 
 
 （3）给分组绑定策略
+
 ![绑定策略](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/lkcl-bd.png)
 
 
 3.点击左侧 **后端签名**，进行后端签名的配置和绑定
+
 （1）后端签名列表页
+
 ![后端签名列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-list.png)
 
 
 （2）新增后端签名
+
 ![新增后端签名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-add.png)
 
 
 （3）给分组绑定签名
+
 ![绑定策略](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-bd.png)
 
 
 
+### STEP4：发布API分组到环境上
+
+在 **API分组管理**页，点击操作中的 **发布**
+
+![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
+
+![发布](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-fb.png)
+
+选择需要发布的环境（测试、预发、线上），选择要发布的版本，配置后端地址，然后点击发布，即可将分组发布到环境中。
+
+
+### STEP5：给API调用者授权访问
+
+（1）API调用者创建访问密钥
+
+在 **访问密钥**页，进行创建密钥
+
+![访问密钥列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-list.png)
+
+点击 **创建访问密钥**
+
+![创建访问密钥](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-add.png)
+
+密钥创建成功后，系统会自动生成访问密钥ID、APIKey、APISecret。API调用者将 **APIKey** 告知API提供者，由API提供者进行访问授权。
+
+
+（2）API提供者进行访问授权
+
+API提供者在 **访问授权**页，给API调用者进行授权绑定
+
+![访问授权页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-list.png)
+
+点击 **创建授权**
+
+![创建授权](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-add.png)
+
+在授权中，填入API调用者的访问密钥。
+
+
+密钥创建成功后，点击 **绑定**进行授权分组的绑定关系。
+
+![授权绑定](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-bd.png)
