@@ -12,13 +12,3 @@ API 网关用户可通过多种方式进行管理：通过管理控制台进行�
 - 提供了基本的防DDos/CC等安全防护功能，如果需要更高安全性，可以搭配京东云安全产品。
 
 
-
-## 相关参考
-
-- [产品概述](../Introduction/Overview.md)
-- [产品规格](../Introduction/Specification.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
-- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
-- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
