@@ -4,7 +4,7 @@
 
 
 ## API开放
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/%E5%9C%BA%E6%99%AF-API%E7%94%9F%E6%80%81.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/%E5%9C%BA%E6%99%AF-API%E7%94%9F%E6%80%81.png)
 通过API网关，可以很方便的管理对外开放的API。利用API网关提供的授权、流控、签名等功能，可以保证开放的API不被非法调用。同时，还可以将API上架到API市场，实现API的变现。
 
 
