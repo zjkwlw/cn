@@ -34,3 +34,4 @@ DDoS基础防护会对所有流量进行实时检测，第一时间发现其中�
 - [价格总览](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Pricing/Billing-Overview.md)
 - [计费规则](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Pricing/Billing-Overview.md)
 - [创建实例](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Getting-Started/Basic-Anti-DDos-Started.md)
+- [应用场景](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
