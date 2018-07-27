@@ -36,5 +36,5 @@ requestId：用以标识错误请求的唯一UUID，在无法解决问题时候�
 ||processing error|理解错误|400|
 ||can't get response json|无法得到结果json|400|
 ||can't encode image|无法编码图片|400|
-||can't copy image||无法复制图片|400|
+||can't copy image|无法复制图片|400|
 ||release error|清除资源错误|400|
