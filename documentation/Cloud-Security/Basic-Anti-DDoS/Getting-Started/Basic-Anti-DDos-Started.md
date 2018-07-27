@@ -11,3 +11,5 @@
 
 2、切换到云安全菜单下的DDos基础防护，刚才您购买的公网IP已经自动加入基础防护。
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Instance02.png)
+
+**注意**：基础防护是默认开启的，无法关闭。
