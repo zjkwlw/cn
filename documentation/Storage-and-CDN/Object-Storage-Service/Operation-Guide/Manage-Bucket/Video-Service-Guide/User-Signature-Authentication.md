@@ -93,6 +93,7 @@ AccessKey是”qbS5QXpLORrvdrmb”，
 
 AccessKeySecret是”1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
 
+|-----|-----|-----|
 |请求|PUT /sign.txt   HTTP/1.1
   <br>Content-Type: text/plain
   <br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d
@@ -114,13 +115,12 @@ AccessKeySecret是”1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
 <br>Thu, 13 Jul 2017 02:37:31   GMT\n
 <br>x-jss-server-side-encryption:false\n
 <br>/oss-test/sign.txt|
-|-----|-----|-----|
 
 可用以下方法计算签名(Signature):
 
 JAVA示例代码:
 
-<code>
+```
 import javax.crypto.Mac;
   
 import javax.crypto.spec.SecretKeySpec;
@@ -141,11 +141,11 @@ mac.init(signingKey);
 byte[] rawHmac = mac.doFinal(signString.getBytes("UTF-8"));
 
 String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
-<code>
+```
 
 签名(Signature)计算结果应该为xvj2Iv7WcSwnN26XYnTq/c2YBQs=，因为
 Authorization = “jingdong “ + AccessKey + “:” + Signature所以最后Authorization为 “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=”然后加上Authorization头来组成最后需要发送的消息：
-
+```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain
   Content-MD5: 0c791a8c18017c7ad1675936d12bae5d
@@ -154,6 +154,7 @@ PUT /sign.txt   HTTP/1.1
   Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=
   Content-Length: 20
   Host: s-bj.jcloud.com
+```
 细节分析:
 
 1.如果传入的AccessKey不存在或inactive，返回403 Forbidden。错误码：InvalidAccessKey。
