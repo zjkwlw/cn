@@ -6,6 +6,7 @@ API网关基于 API分组，来绑定域名。API网关通过域名来定位到�
 
 
 ## 绑定过程 
+### 操作步骤：
 1.找到需要进行绑定域名的分组：
 ![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
 
@@ -15,6 +16,7 @@ API网关基于 API分组，来绑定域名。API网关通过域名来定位到�
 
 
 ## 新增自定义域名过程
+### 操作步骤：
 1.进入API分组的详情页，点击 自定义域名   **tab签** 。
 
 ![域名list](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/zdyym-list.png)
