@@ -33,13 +33,8 @@ authorization | String | 是 | 鉴权信息，由签名算法生成，具体签�
 部分API接口中有使用一些特殊的请求参数，如云主机的describeInstances接口使用了filters参数，其使用方式如下：
 参数名|使用场景|作用|示例
 :---|:---|:---|:---
-filters.N | 用在列表请求中，作为过滤条件 | 查询条件，用于查询接口，   格式为：Filters.N.查询条件，每个条件必含name,values,选填operator，默认eq，可选lt,   le, gt, gt, ne, in, like（API若无特殊说明，operator不用填写，都是默认eq） | 如根据名称、CIDR及cpus搜索：
-filters.1.name=name&filters.1.values.1=aaa
-&filters.2.name=CIDR&filters.2.values.1=192.168.1.0/24
-&filters.3.name=cpus&filters.3.operator=in
-&filters.3.values.1=2&filters.3.values.2=4；
-Sorts.N | 用在列表请求中，作为排序条件  | 排序参数，格式为sorts.N | sorts.1.name=az&sorts.1.direction=asc
-&sorts.2.name=status&sorts.2.direction=desc；
+filters.N | 用在列表请求中，作为过滤条件 | 查询条件，用于查询接口，   格式为：Filters.N.查询条件，每个条件必含name,values,选填operator，默认eq，可选lt,   le, gt, gt, ne, in, like（API若无特殊说明，operator不用填写，都是默认eq） | 如根据名称、CIDR及cpus搜索：filters.1.name=name&filters.1.values.1=aaa&filters.2.name=CIDR&filters.2.values.1=192.168.1.0/24&filters.3.name=cpus&filters.3.operator=in&filters.3.values.1=2&filters.3.values.2=4；
+Sorts.N | 用在列表请求中，作为排序条件  | 排序参数，格式为sorts.N | sorts.1.name=az&sorts.1.direction=asc&sorts.2.name=status&sorts.2.direction=desc；
 
 
 
