@@ -19,48 +19,18 @@ KEYS*   |               	GET      |      	HINCRBYFLOAT   |         	LPUSHX   |  
 PERSIST    |        	GETBIT        |    	HKEYS         |   	LRANGE       |     	SREM     |ZRANK            
 PEXPIRE   |         	GETRANGE      |      	HLEN        |    	LREM        |    	SSCAN      | ZREM            
 PEXPIREAT         |   	GETSET        |    	HMGET       |     	LSET         |   	|ZREMRANGEBYRANK            
-PTTL            	INCR            	HMSET            	LTRIM            	
-ZREMRANGEBYSCORE            
-RESTORE            	INCRBY            	HSET            	RPOP            	
-ZREVRANGE            
-SORT            	INCRBYFLOAT            	HSETNX            	RPUSH            	
-ZREVRANGEBYSCORE            
-TTL            	MGET            	HVALS            	RPUSHX            	
-ZREVRANK            
-TYPE            	MSET            	HSCAN            	       	
-ZSCORE            
- SCAN	PSETEX            	
-
-
-ZSCAN            
-            	SET            	
-
-
-ZRANGEBYLEX            
-
-SETBIT            	
-
-
-ZLEXCOUNT            
-
-SETEX            	
-
-
-ZREMRANGEBYLEX            
-
-SETNX            	
-
-
-
-
-SETRANGE            	
-
-
-
-
-STRLEN            	
-
-
+PTTL|INCR|HMSET|LTRIM ||        	ZREMRANGEBYSCORE            
+RESTORE|INCRBY|HSET|RPOP      ||      	ZREVRANGE            
+SORT|INCRBYFLOAT|HSETNX|RPUSH  ||          	ZREVRANGEBYSCORE            
+TTL|MGET|HVALS|RPUSHX     ||       	ZREVRANK            
+TYPE|MSET|HSCAN|||       	       	ZSCORE            
+SCAN|PSETEX| |||ZSCAN            
+||SET   ||  |       	|ZRANGEBYLEX            
+||SETBIT      |||   |   	ZLEXCOUNT            
+||SETEX       |||    | 	ZREMRANGEBYLEX            
+||SETNX|||||            	
+||SETRANGE   ||||         	
+||STRLEN    ||||        	
 
 以及
 
