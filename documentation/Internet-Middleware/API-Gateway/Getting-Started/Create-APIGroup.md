@@ -54,11 +54,11 @@
 
 
 ### STEP3:给分组绑定域名、配置流控策略、后端签名
-1.找到分组，点击该分组行的操作 **绑定域名**，进行绑定
+1.API网关基于 API分组，来绑定域名。API网关通过域名来定位到一个唯一的 API分组，再通过Path+HTTPMethod 确定唯一的 API。
 
 ![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
 
-选择需要映射的域名并进行绑定。如果没有可用域名，可在自定义域名页面中新增自定义域名，然后再来绑定域名。
+找到分组，点击该分组行的操作 **绑定域名**，选择需要映射的域名并进行绑定。如果没有可用域名，可在自定义域名页面中新增自定义域名，然后再来绑定域名。
 
 ![绑定域名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-bdym.png)
 
