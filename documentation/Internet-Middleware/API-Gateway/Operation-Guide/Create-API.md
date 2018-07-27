@@ -4,7 +4,11 @@
 本文将快速引导您通过控制台开放API。
 
 
-1.找到分组，点击该分组行的操作 **管理API**，进入“API列表”页
+1.在API分组列表页中，找到需要创建API的分组
+
+ ![API分组管理](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
+ 
+点击该分组行的操作 **管理API**，进入“API列表”页
 
  ![API列表](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
 
