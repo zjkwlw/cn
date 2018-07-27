@@ -18,6 +18,6 @@
 
 
 ## 查看告警通知
-1.进入消息中心，-->消息设置页(https://uc.jdcloud.com/message/mine)
-2.在我的消息–>安全消息中，可以查看所有高防的安全消息告警。
+1.登录 [消息中心](https://uc.jdcloud.com/message/mine)。
+2. 在我的消息–>安全消息中，可以查看所有高防的安全消息告警。
 ![消息中心](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/message%2003.png)
