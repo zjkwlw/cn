@@ -15,7 +15,7 @@ URL白名单，支持泛域名 * 的配置，不支持正则表达式和通配�
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2004.png)
 2. 单击URL白名单旁的**编辑**按钮，在如下弹窗中进行白名单编辑
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2005.png)
-3. 编辑完成后开启URL白名单的按钮，则规则生效。
+3. 编辑完成后开启URL白名单的按钮，则规则生效。</BR>
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2006.png)
 
 ## 配置CC防护
