@@ -10,7 +10,7 @@
 |图片顺时针旋转角度|Rotation|r/n|r图片顺时针旋转角度<br>取值范围[0,360]|n=0时按exif自动旋转<br>n=360时不做任何旋转，返回原图方向|
 
 示例：将图片顺时针旋转角度60°
-、、、
+```
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/r/60
-、、、
+```
 example旋转.jpg
