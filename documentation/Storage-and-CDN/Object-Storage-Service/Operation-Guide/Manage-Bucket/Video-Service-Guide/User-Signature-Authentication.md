@@ -93,28 +93,10 @@ AccessKey是”qbS5QXpLORrvdrmb”，
 
 AccessKeySecret是”1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
 
-|-----|-----|-----|
-|请求|PUT /sign.txt   HTTP/1.1
-  <br>Content-Type: text/plain
-  <br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d
-  <br>x-jss-server-side-encryption: false
-  <br>Date: Thu, 13 Jul 2017 02:37:31 GMT
-  <br>Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=
-  <br>Content-Length: 20
-  <br>Host: s-bj.jcloud.com|
-|签名字符串计算公式|Signature =   base64(hmac-sha1(AccessKeySecret,
-  <br>HTTP-Verb + “\n” 
-  <br>+ Content-MD5 + “\n”
-  <br>+ Content-Type + “\n” 
-  <br>+ Date + “\n”
-  <br>+ CanonicalizedHeaders
-  <br>+ CanonicalizedResource))
-|签名字符串|PUT\n
-<br>0c791a8c18017c7ad1675936d12bae5d\n
-<br>text/plain\n
-<br>Thu, 13 Jul 2017 02:37:31   GMT\n
-<br>x-jss-server-side-encryption:false\n
-<br>/oss-test/sign.txt|
+|-----|-----|
+|请求|PUT /sign.txt   HTTP/1.1<br>Content-Type: text/plain<br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d<br>x-jss-server-side-encryption: false<br>Date: Thu, 13 Jul 2017 02:37:31 GMT<br>Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=<br>Content-Length: 20<br>Host: s-bj.jcloud.com|
+|签名字符串计算公式|Signature =   base64(hmac-sha1(AccessKeySecret,<br>HTTP-Verb + “\n” <br>+ Content-MD5 + “\n”<br>+ Content-Type + “\n” <br>+ Date + “\n”<br>+ CanonicalizedHeaders<br>+ CanonicalizedResource))
+|签名字符串|PUT\n<br>0c791a8c18017c7ad1675936d12bae5d\n<br>text/plain\n<br>Thu, 13 Jul 2017 02:37:31   GMT\n<br>x-jss-server-side-encryption:false\n<br>/oss-test/sign.txt|
 
 可用以下方法计算签名(Signature):
 
