@@ -26,4 +26,4 @@
 4.填写API信息后，点击保存，即新建完成。
 
 5.目前系统支持API导入功能，点击API列表页的 **导入API**  ,导入即可。注意，导入文件需要符合swagger 2.0规范。具体规范请参照：
-![swagger 2.0规范](http://editor.swagger.io/)
+![swagger 2.0规范](http://editor.swagger.io/)  （http://editor.swagger.io/）
