@@ -28,3 +28,5 @@ DDoS(分布式拒绝服务)攻击是一种针对目标系统的恶意网络攻�
 
 5、选择合适的安全方案。京东云为您提供了免费的DDoS基础防护。同时也提供了[Ip高仿](https://ip-anti-console.jdcloud.com/instancelist)等商业
    的安全防御方案。
+
+### 1、缩小暴露面
