@@ -14,7 +14,6 @@
 
 在开始调用京东云OpenAPI之前，需提前在京东云用户中心账户管理下的AccessKey管理页面申请AccessKey和SecretKey密钥对（简称AK/SK）。AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。AK/SK密钥对允许启用、禁用，启用后可用其调用OpenAPI，禁用后不能用其调用OpenAPI。
 
-目前暂不支持子账号访问OpenAPI。 
 
  
 
