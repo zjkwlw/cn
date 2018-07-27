@@ -20,7 +20,7 @@ StringToSign =HTTP-Verb + "\n"
 
 2.您的AccessKey和AccessKeySecret可以登录到京东云的控制台，在【AccessKey管理】中查看。AccessKeySecret表示签名所需要的秘钥
 
-3. HTTP-Verb表示HTTP 请求的Method，主要有PUT，GET，POST，HEAD，DELETE等
+3.HTTP-Verb表示HTTP 请求的Method，主要有PUT，GET，POST，HEAD，DELETE等
 
 4.\n表示换行符
 
