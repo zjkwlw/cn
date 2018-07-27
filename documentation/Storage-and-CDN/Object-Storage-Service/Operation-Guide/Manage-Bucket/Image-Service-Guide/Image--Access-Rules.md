@@ -69,23 +69,31 @@ http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=imgalias/sty
 图片处理含以下关键词imgalias,img,imginfo,imgexif,x-oss-process=imgalias,x-oss-process=img,x-oss-process=imginfo,x-oss-process=imgexif
 
 * 在参数图片处理参数合法情况下，上述关键字只能出现一个
-
-    例如：oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style&img/s/100/200    (非法)
-
-          oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style&x-oss-process=imgalias/style2   (非法)
-
-          oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style   (合法)
-
+       
+     例如：
+      
+     oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style&img/s/100/200    (非法)
+       
+     oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style&x-oss-process=imgalias/style2   (非法)
+       
+     oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style   (合法)
+       
 * imgalias, img, x-oss-process=imgalias, x-oss-process=img参数必须跟有具体参数
 
-    例如：oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/   （非法）
+    例如：
+    
+    oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/   （非法）
 
 * RequestQuery 的KV没有明确顺序
 
-    例如：oss.cn-north-1.jcloudcs/bucket/key.jpg?aaa=bb&imgalias/style    (合法)
+    例如：
+    
+    oss.cn-north-1.jcloudcs/bucket/key.jpg?aaa=bb&imgalias/style    (合法)
 
 * RequestQuery 大小写敏感（KV都大小写敏感）
 
-    例如：oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style    (合法)
+    例如：
+    
+    oss.cn-north-1.jcloudcs/bucket/key.jpg?imgalias/style    (合法)
 
-          oss.cn-north-1.jcloudcs/bucket/key.jpg?Imgalias/style    (正常访问原图)
+    oss.cn-north-1.jcloudcs/bucket/key.jpg?Imgalias/style    (正常访问原图)
