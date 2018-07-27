@@ -114,22 +114,32 @@ AccessKeySecret是”1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
 <br>Thu, 13 Jul 2017 02:37:31   GMT\n
 <br>x-jss-server-side-encryption:false\n
 <br>/oss-test/sign.txt|
+|-----|-----|-----|
 
 可用以下方法计算签名(Signature):
 
 JAVA示例代码:
+
 <code>
 import javax.crypto.Mac;
+  
 import javax.crypto.spec.SecretKeySpec;
+
 import org.apache.commons.codec.binary.Base64;
  
 String secretKey = "1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ";
+
 String signString = "PUT\n0c791a8c18017c7ad1675936d12bae5d\ntext/plain\nThu, 13 Jul 2017 02:37:31 GMT\n 
                      x-jss-server-side-encryption:false\n/oss-test/sign.txt";
+
 SecretKeySpec signingKey = new SecretKeySpec(secretKey.getBytes("UTF-8"),"HmacSHA1");
+
 Mac mac = Mac.getInstance("HmacSHA1");
+
 mac.init(signingKey);
+
 byte[] rawHmac = mac.doFinal(signString.getBytes("UTF-8"));
+
 String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 <code>
 
