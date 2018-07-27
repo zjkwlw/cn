@@ -1,5 +1,5 @@
 # 变更配置
-在Redis实例列表页中，选择需要扩容的实例：点击【变更配置】按钮；或者进入详情页，点击右上角【操作】下拉变更配置
+在[Redis 控制台](https://redis-console.jdcloud.com/redis)Redis实例列表页中，选择需要扩容的实例：点击【变更配置】按钮；或者进入详情页，点击右上角【操作】下拉变更配置
 ![变更配置](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/change-conf1.png)
 ![变更配置2](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/change-conf2.png)
 
