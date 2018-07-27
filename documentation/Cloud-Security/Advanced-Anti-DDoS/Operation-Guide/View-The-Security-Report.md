@@ -13,15 +13,15 @@ IP高防提供丰富的安全报表，帮助您了解接入高防后的防护效
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2002.png)
 
 ## 报表类型
-IP高防的报表分为三类，DDoS攻击防护、转发流量和CC防护。默认展示当天的报表，可选择7天、30天。最大可查看30天内的报表情况，报表粒度最小为5分钟。
+IP高防的报表分为三类，DDoS攻击防护、转发流量和CC防护。默认展示当天的报表，可选择7天、30天。最大可查看30天内的报表情况，报表粒度最小为5分钟。报表下发是攻击日志的显示。
 1. DDoS攻击防护报表</BR>
-包括防护前的流量和防护后的流量对比。单击图例上的小圆圈可切仅查看防护前的流量或防护后的流量。鼠标移到到图上可展示该线条的流量数据。
+包括防护前的流量和防护后的流量对比。单击图例，可只查看防护前或防护后的流量。鼠标移到到图上可展示该线条的流量数据。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2003.png)
 2. 转发流量报表</BR>
 从IP高防转发回源站的流量，可在转发流量报表里查看。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2004.png)
 3. CC防护报表
-IP高防防御的CC攻击，会生成CC防护报表。CC报表支持切换不同的域名
+IP高防防御的CC攻击，会生成CC防护报表，CC报表支持切换不同的域名。</BR>
 因为CC防护仅对网站类生效，所有CC防护报表中，只能展示网站类转发规则产生的CC防护流量。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2005.png)
 
