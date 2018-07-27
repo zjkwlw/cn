@@ -15,3 +15,6 @@
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Instance02.png)
 
 **注意**：基础防护是默认开启的，无法关闭。
+
+# 相关参考
+[什么是DDoS基础防护](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
