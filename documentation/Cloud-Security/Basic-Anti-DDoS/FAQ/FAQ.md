@@ -31,3 +31,9 @@ A: 黑洞默认时间是60分钟。如果一个用户频繁的遭受攻击，京
    有明确的黑洞解除时间限制，所以一般情况下黑洞是不能立即取消的。
 
 如果上述不能解决您的问题，请咨询产品售后：[售后咨询](https://ticket.jdcloud.com/myorder/form?cateId=2&questionId=13)
+
+# 相关文档
+
+- [什么是基础防护？](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
+- [基础防护架构](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Basic-Infrastructure.md)
+- [快速入门](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Getting-Started/Basic-Anti-DDos-Started.md)
