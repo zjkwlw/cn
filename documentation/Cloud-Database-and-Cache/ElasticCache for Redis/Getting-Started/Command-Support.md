@@ -34,205 +34,68 @@ SCAN|PSETEX| |||ZSCAN
 
 以及
 
+Connection（连接）|Server（服务器）|Scripting(脚本)     
+---|:--:|---:
+AUTH|INFO*|EVAL            
+PING|CONFIG GET*|SCRIPT EXISTS            
+QUIT|FLUSHDB|EVALSHA            
+ECHO||SCRIPT FLUSH            
+|||SCRIPT KILL            
+|||SCRIPT LOAD  
 
-
-
-AUTH            	INFO*            	EVAL            
-PING            	CONFIG GET*            	SCRIPT EXISTS            
-QUIT            	FLUSHDB            	EVALSHA            
-ECHO	   	SCRIPT FLUSH            
-
-      	SCRIPT KILL            
-
-           	SCRIPT LOAD            
 说明：
 
-KEYS命令，只能在VPC网络下使用，属于危险的命令，可能造成性能问题，请确保在key很少的情况下使用。如果需要从一个大数据集中查找特定的 key ，推荐使用 Redis 的集合结构(set)
+- KEYS命令，只能在VPC网络下使用，属于危险的命令，可能造成性能问题，请确保在key很少的情况下使用。如果需要从一个大数据集中查找特定的 key ，推荐使用 Redis 的集合结构(set)
 
-INFO命令，在集群版中使用受限：不支持 info cpu/replication/persistence
+- INFO命令，在集群版中使用受限：不支持 info cpu/replication/persistence
 
-CONFIG GET命令，在集群版中返回参数暂时未进行叠加
+- CONFIG GET命令，在集群版中返回参数暂时未进行叠加
 
 暂未开放的命令
 
+Key(键)|String(字符串)|List（列表）|Set（集合）|SortedSet（有序集合） |Connection（连接）|Server（服务器）
+---|:--:|:--:|:--:|:--:|:--:|---:
+RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|SELECT|FLUSHALL            
+RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE||DBSIZE
+RENAMENX||BRPOPLPUSH  |SINTER|||TIME            
+OBJECT|| RPOPLPUSH|SINTERSTORE|||MONITOR            
+MIGRATE ||| SMOVE ||| SLOWLOG            
+||||SUNION |||BGREWRITEAOF            
+||||SUNIONSTORE|||BGSAVE            
+|||||||CONFIG REWRITE            
+|||||||CONFIG SET            
+|||||||CONFIG RESETSTAT            
+|||||||COMMAND            
+|||||||COMMAND COUNT            
+|||||||COMMAND GETKEYS            
+|||||||COMMAND INFO            
+|||||||DEBUG OBJECT            
+|||||||DEBUG SEGFAULT            
+|||||||LASTSAVE            
+|||||||ROLE            
+|||||||SAVE            
+|||||||SHUTDOWN            
+|||||||SLAVEOF            
+|||||||SYNC            
+|||||||PSYNC  
 
-
-
-
-
-
-
-
-
-
-
-
-
-RANDOMKEY            	BITOP            	BLPOP            	SDIFF            	ZUNIONSTORE            	SELECT            	FLUSHALL            
-RENAME            	MSETNX            	BRPOP            	SDIFFSTORE            	ZINTERSTORE            	           	DBSIZE            
-RENAMENX            	
-BRPOPLPUSH            	SINTER            	
-
-TIME            
-OBJECT            	
-RPOPLPUSH            	SINTERSTORE            	
-
-MONITOR            
-MIGRATE           	
-
-SMOVE            	
-
-SLOWLOG            
-            	
-
-SUNION            	
-
-BGREWRITEAOF            
-
-
-
-SUNIONSTORE            	
-
-BGSAVE            
-
-
-
-
-
-
-CONFIG REWRITE            
-
-
-
-
-
-
-CONFIG SET            
-
-
-
-
-
-
-CONFIG RESETSTAT            
-
-
-
-
-
-
-COMMAND            
-
-
-
-
-
-
-COMMAND COUNT            
-
-
-
-
-
-
-COMMAND GETKEYS            
-
-
-
-
-
-
-COMMAND INFO            
-
-
-
-
-
-
-DEBUG OBJECT            
-
-
-
-
-
-
-DEBUG SEGFAULT            
-
-
-
-
-
-
-LASTSAVE            
-
-
-
-
-
-
-ROLE            
-
-
-
-
-
-
-SAVE            
-
-
-
-
-
-
-SHUTDOWN            
-
-
-
-
-
-
-SLAVEOF            
-
-
-
-
-
-
-SYNC            
-
-
-
-
-
-
-PSYNC            
 以及
 
+HyperLog|LogPub/Sub（发布/订阅）|Transaction（事务）| Geo(地理位置)      
+---|:--:|:--:|---:
+PFADD|PSUBSCRIBE|DISCARD|GEOADD            
+PFCOUNT|PUBLISH|EXEC|GEOHASH            
+PFMERGE|PUBSUB|MULTI|GEOPOS            
+||PUNSUBSCRIBE|UNWATCH|GEODIST            
+||SUBSCRIBE|WATCH|GEORADIUS            
+||UNSUBSCRIBE||GEORADIUSBYMEMBER  
 
-
-
-
-PFADD            	PSUBSCRIBE            	DISCARD            	GEOADD            
-PFCOUNT            	PUBLISH            	EXEC            	GEOHASH            
-PFMERGE            	PUBSUB            	MULTI            	GEOPOS            
-
-PUNSUBSCRIBE            	UNWATCH            	GEODIST            
-
-SUBSCRIBE            	WATCH            	GEORADIUS            
-
-UNSUBSCRIBE            	
-GEORADIUSBYMEMBER            
 集群实例不支持的命令
 
-
-
-ECHO            	CLIENT KILL            	EVALSHA            
-
-CLIENT LIST            	SCRIPT EXISTS            
-
-CLIENT GETNAME            	SCRIPT FLUSH            
-
-CLIENT SETNAME            	SCRIPT KILL            
-
-
-SCRIPT LOAD            
+Connection（连接）|Server（服务器）|Scripting(脚本)
+---|:--:|---:
+ECHO|CLIENT KILL|EVALSHA            
+||CLIENT LIST|SCRIPT EXISTS            
+||CLIENT GETNAME|SCRIPT FLUSH            
+||CLIENT SETNAME|SCRIPT KILL
+|||SCRIPT LOAD            
