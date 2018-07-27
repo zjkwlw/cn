@@ -32,7 +32,14 @@
 
 
 ### STEP2:创建分组下的API
+API 分组创建完成您就可以创建 API 了，创建 API 是定义 API 请求的过程。您需要在创建中依次定义以下内容：
+- API 的基本信息：分组、API 名称、API 类型、API 认证方式、描述。
+- API 请求：协议、Method、Path、入参。
+- API 服务：后端服务协议、后端服务 Method、后端服务地址、后端服务 Path、服务超时时间、参数映射、系统参数、常量参数。
+- API 返回结果：返回类型及示例，目前网关对于返回结果不做处理，直接透传给请求者。后续会支持用户定制化、格式化的定义返回信息。
 
+操作步骤如下：
+    
 1.找到分组，点击该分组行的操作 **管理API**，进入“API列表”页
 
  ![API列表](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
@@ -42,13 +49,12 @@
 
 ![新建API](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
 
-
 3. 新建成功后，再点击新增的API进入API详情页，并进行高级选项配置。该项目可选配，但当需要进行实际发布时该信息项需要配置。
 
 ![高级配置](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi-advane.png)
   
   
-4.填写API信息后，点击保存，即新建完成。
+4.填写API信息后，点击保存，即新建完成。至此完成 API 的创建，并且具备开放的条件。
 
 
 
