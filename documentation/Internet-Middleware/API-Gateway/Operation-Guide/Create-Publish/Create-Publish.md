@@ -7,11 +7,13 @@ API分组信息创建完成后，您可以通过在测试、预发、线上环�
 
 1.调试
 
-您可以把 API 发布到测试环境进行调试，然后在 API 网关控制台的调试页面上调试 API。在 **API分组管理**页，点击操作中的 **发布**：
+您可以把 API 发布到测试环境进行调试，然后在 API 网关控制台的调试页面上调试 API。
+
+首先，在 **API分组管理**页，点击操作中的 **发布**：
 
 ![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
 
-选择需要发布的环境（如，测试），选择要发布的版本，配置后端地址，然后点击发布，即可将分组发布到环境中。
+然后，选择需要发布的环境（如，测试），选择要发布的版本，配置后端地址，然后点击发布，即可将分组发布到环境中。
 
 ![发布](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-fb.png)
 
