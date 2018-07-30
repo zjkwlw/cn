@@ -4,7 +4,7 @@
 
 注意：即使Bucket的访问权限为public，也不允许匿名使用此操作，需要指定Authorization。
 
-***请求语法***
+**请求语法**
 ```
 GET / HTTP/1.1
 Host: BucketName. s.jcloud.com
@@ -12,7 +12,7 @@ Date: GMT   Date
 Authorization:   signatureValue#请参照“访问控制”
 ```
 
-***请求参数*** 
+**请求参数**
 
 ListObject时可以通过prefix，marker，delimiter和maxKeys对list做限定，返回部分结果。 
 
@@ -23,7 +23,7 @@ ListObject时可以通过prefix，marker，delimiter和maxKeys对list做限定�
 |maxKeys|限定此次返回object的最大数，如果不设定，默认为1000<br>数据类型：字符串<br>默认值：1000|
 |prefix|限定返回的object key必须以prefix作为前缀。注意使用prefix查询时，返回的key中仍会包含prefix。<br>数据类型：字符串<br>默认值：无|
 
-***响应元素***
+**响应元素**
 
 |名称|描述|
 |-|-|
@@ -55,14 +55,14 @@ ListObject时可以通过prefix，marker，delimiter和maxKeys对list做限定�
 
 5.marker 为以字典序排序的 Object 信息的起始标志，结果中不包含 marker，可以设定marker 为本次列表最后一个 Key，来获取其他的本次操作未返回的 Object 信息，通常与 maxKeys 一起使用来实现分页 
 
-***请求示例***
+**请求示例**
 ```
 GET / HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   07:54:41 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
 ```
-***返回示例***
+**返回示例**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -118,14 +118,14 @@ X-Trace: 200-1499759681772-0-0-19-42-42
 }
 ```
 
-***请求示例(含Prefix参数) 
+**请求示例(含Prefix参数)**
 ```
 GET   /?prefix=jingdong%2F HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   08:01:09 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:FQZNWlNAraOLgreEflrurbNojJE= 
 ```
-***返回示例(含Prefix参数)***
+**返回示例(含Prefix参数)**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -181,7 +181,7 @@ Date: Tue, 11 Jul 2017   08:05:13 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:jXw8QQvs6IS+JJ2EpiFMUGtgNEM=
 ```
 
-***返回示例(含prefix和delimiter参数)***
+**返回示例(含prefix和delimiter参数)**
 ```
 HTTP/1.1 200 OK
 Server: nginx
