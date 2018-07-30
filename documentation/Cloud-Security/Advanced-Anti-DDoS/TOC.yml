@@ -38,8 +38,8 @@
       herf: Getting-Started/Create-Instance.md
     - name: 非网站类转发规则
       herf: Non-Web-Service-Forwarding-Rule.md
-    - name: Web-Service-Forwarding-Rule.md
-      herf: 网站类转发规则
+    - name: 网站类转发规则
+      herf: Web-Service-Forwarding-Rule.md
     - name: 放行回源IP
       herf: Whitelist-local-IP-subnet.md
     - name: 验证配置生效
