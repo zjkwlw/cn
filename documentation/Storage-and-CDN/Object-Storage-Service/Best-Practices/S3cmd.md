@@ -334,10 +334,5 @@ Commands：
   <td height=19 class=xl69 width=249 style='height:14.5pt;width:187pt'>s3://BUCKET/OBJECT
   &lt;expiry_epoch|+expiry_offset&gt;</td>
  </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=69 style='width:52pt'></td>
-  <td width=249 style='width:187pt'></td>
- </tr>
  <![endif]>
 </table>
