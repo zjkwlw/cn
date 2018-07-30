@@ -10,7 +10,7 @@ A：IP高防支持TCP、UDP、HTTP、HTTPS协议的转发配置，并支持webso
 
 **Q：非网站类转发和网站类转发的区别？**
 
-A：
+A：两种转发配置对应不同的应用场景和使用协议，具体区别如下：
 - 非网站类：主要应用于游戏、电商、金融、APP等业务场景；支持协议：TCP协议，UDP协议。
 
 提供3到4层SYN Flood、ACK Flood、ICMP Flood、UDP Flood、NTP Flood 、SSDP Flood等攻击防护。不支持应用层的DDoS防护。
