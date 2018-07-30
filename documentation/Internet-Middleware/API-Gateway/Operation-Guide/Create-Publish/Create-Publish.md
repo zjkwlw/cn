@@ -25,7 +25,9 @@ API分组信息创建完成后，需要通过发布才能使用。目前京东�
 
 ![发布](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-fb.png)
 
-注意：
+
+说明：
+
 
 
 1) 选择要发布的版本。API网关支持分组的版本管理功能，因此在发布时，注意选择您需要发布的版本。后续还可在环境管理中切换或者下线不同的版本。
