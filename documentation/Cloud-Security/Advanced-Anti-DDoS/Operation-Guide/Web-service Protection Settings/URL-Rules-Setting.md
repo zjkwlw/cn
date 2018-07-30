@@ -18,16 +18,6 @@ URL白名单，支持泛域名 * 的配置，不支持正则表达式和通配�
 3. 编辑完成后开启URL白名单的按钮，则规则生效。</BR>
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2006.png)
 
-## 配置CC防护
-### 操作步骤
-- 。
-- 。
-
-
-## 配置限速和观察模式
-- 。
-- 。
 
 
 
-   ![创建同步服务](../../../../../image/mongodb/mongo-045.png)
