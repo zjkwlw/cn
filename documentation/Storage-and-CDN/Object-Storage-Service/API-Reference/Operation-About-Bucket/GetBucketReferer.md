@@ -2,14 +2,14 @@
 
 Get Bucket Referer操作用于查看Bucket防盗链的Referer相关配置。 
 
-***请求语法***
+**请求语法**
 ```
 GET   /?bucketReferer HTTP/1.1
 Host: BucketName.s-bj.jcloud.com
 Date: GMT Date
 Authorization: signatureValue
 ```
-***响应元素***
+**响应元素**
 
 |名称|描述|
 |Effect|黑白名单设置<br>类型：枚举字符串<br>有效值：DENIED或ALLOW<br>ALLOW：白名单，DENIED：黑名单|
@@ -23,7 +23,7 @@ Authorization: signatureValue
 
 3.如果Bucket未进行Referer相关配置，OSS会返回默认的AllowNull值和空的Value。
 
-***请求示例***
+**请求示例**
 ```
 GET   /?bucketReferer HTTP/1.1
 Date: Tue, 11 Jul 2017   09:12:11 GMT
@@ -32,7 +32,7 @@ Host: oss-test.s-bj.jcloud.com
 Connection: Keep-Alive
 ```
 
-***已设置Referer规则的返回示例***
+**已设置Referer规则的返回示例**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -44,7 +44,7 @@ x-jss-request-id:   A84C875C916A1E24
 {"AllowNull":false,"Effect":"ALLOW","Value":["www.abc.com","www.*.com"]}
 ```
 
-***未设置Referer规则的返回示例***
+**未设置Referer规则的返回示例**
 ```
 HTTP/1.1 204 No   Content
 Server: nginx
