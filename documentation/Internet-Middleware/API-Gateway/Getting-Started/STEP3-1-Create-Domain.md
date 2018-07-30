@@ -8,6 +8,6 @@ API网关提供基于 API分组的域名绑定。API网关通过域名来定位�
 - 域名合法并且是顶级域名为京东云域名（.jcloud.com,.jdcloud.com，jcloudcs.com）
 
 
-##  操作步骤：
+##  相关参考：
 
-- [自定义域名步骤说明](../Operation-Guide/Create-Domain/Create-Domain.md)
+- [配置自定义域名步骤说明](../Operation-Guide/Create-Domain/Create-Domain.md)
