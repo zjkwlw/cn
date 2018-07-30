@@ -46,8 +46,9 @@ s3fs：手动挂载命令，其中bucketname为bucket名称、/new是本地挂�
 **5.查看挂载结果**
 ```
 df -h
-1.png
 ```
+1.png
+
 
 **6.进入目录可以查看到object文件**
 
