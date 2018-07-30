@@ -24,29 +24,24 @@
 
 打开京东云主页，进入域名服务界面：
 
-1.png
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/moban1.png)
 
 点击此处创建一个新的信息模板
 
-2.png
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/moban2.png)
 
 按照提示填写信息即可。
 
-3.png
-
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/moban3.png)
  
-
 已有信息模板需要修改，选择已有信息模板，点击编辑，即可修改。
 
- 4.png
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/moban4.png)
 
- 
 
 温馨提示：
 
 1.若您的域名需要备案，请务必将信息模板完成实名认证，且实名认证信息需与备案主办单位信息一致。
-
- 
 
 2.域名英文所有者信息应如何填写？
 
