@@ -46,6 +46,7 @@ Authorization:  signatureValue#请参照"访问控制"
 |UploadId|唯一标示此次Multipart Upload事件的ID。<br>类型：字符串| 
 
 细节分析
+
 1.该操作计算认证签名的时候，需要加"?uploads"到CanonicalizedResource中。
 
 2.初始化Multipart Upload请求，并不会影响已经存在的同名object。
