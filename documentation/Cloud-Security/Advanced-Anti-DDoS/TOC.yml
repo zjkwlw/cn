@@ -65,10 +65,12 @@
                  
 - name: 最佳实践
   items:
-  - name: IP高防结合WAF
+  - name: IP高防结合Web应用防火墙方案说明
     herf: Advanced-Anti-DDoS + WAF.md
-  - name: 本地防护+高防
+  - name: 本地防护+高防方案说明
     herf: Local Basic-Anti-DDoS + Advanced-Anti-DDoS.md
+  - name: IP高防结合应用安全网关方案说明
+    herf: Advanced-Anti-DDoS + Application Security Gateway.md
 - name: 教程
   items:
   status: 0    
