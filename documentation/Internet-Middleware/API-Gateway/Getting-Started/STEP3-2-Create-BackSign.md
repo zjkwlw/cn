@@ -10,22 +10,6 @@
 
 ## 操作步骤
 
-点击左侧 **后端签名**，进行后端签名的配置和绑定
-
-1.进入后端签名列表页
-
-![后端签名列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-list.png)
-
-
-2.新增后端签名
-
-![新增后端签名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-add.png)
-
-
-3.给分组绑定签名
-
-![绑定签名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-bd.png)
-
-
+- [配置后端签名步骤说明](../Operation-Guide/Create-BackSign/Create-BackSign.md)
 
   
