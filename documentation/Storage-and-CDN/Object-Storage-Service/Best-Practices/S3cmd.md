@@ -135,3 +135,215 @@ S3命令测试.png
 以下是目前S3cmd所支持京东云OSS的命令：
 
 Commands：
+
+<table border=0 cellpadding=0 cellspacing=0 width=318 style='border-collapse:
+ collapse;table-layout:fixed;width:239pt'>
+ <col width=69 style='width:52pt'>
+ <col width=249 style='mso-width-source:userset;mso-width-alt:7978;width:187pt'>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 width=69 style='height:14.5pt;width:52pt'>¹¦ÄÜÀàÐÍ</td>
+  <td class=xl66 width=249 style='width:187pt'>¹¦ÄÜÃüÁî</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=24 height=456 class=xl71 width=69 style='border-bottom:1.0pt solid black;
+  height:342.0pt;border-top:none;width:52pt'>¹ÜÀíBucket</td>
+  <td class=xl67 width=249 style='width:187pt'>Make bucket</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd mb
+  s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Remove
+  bucket</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd rb
+  s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>List
+  objects or buckets</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd ls
+  [s3://BUCKET[/PREFIX]]</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Disk
+  usage by buckets</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd du
+  [s3://BUCKET[/PREFIX]]</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Modify
+  Access control list for Bucket or Files</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  setacl s3://BUCKET[/OBJECT]</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Modify
+  Bucket Policy</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  setpolicy FILE s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Delete
+  Bucket Policy</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  delpolicy s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Modify
+  Bucket CORS</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  setcors FILE s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Delete
+  Bucket CORS</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  delcors s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Create
+  Website from bucket</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  ws-create s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Delete
+  Website</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  ws-delete s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Info
+  about Website</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  ws-info s3://BUCKET</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=14 height=266 class=xl74 width=69 style='border-bottom:1.0pt solid black;
+  height:199.5pt;border-top:none;width:52pt'>¹ÜÀíObject</td>
+  <td class=xl67 width=249 style='width:187pt'>Put file into bucket</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl69 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  put FILE [FILE...]s3://BUCKET[/PREFIX]</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Get file
+  from bucket</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  get s3://BUCKET/OBJECT LOCAL_FILE</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Delete
+  file from bucket</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  del s3://BUCKET/OBJECT</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Delete
+  file from bucket (alias for del)</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd rm
+  s3://BUCKET/OBJECT</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Show
+  multipart uploads</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  multipart s3://BUCKET [Id]</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Abort a
+  multipart upload</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  abortmp s3://BUCKET/OBJECT Id</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>List
+  parts of a multipart upload</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  listmp s3://BUCKET/OBJECT Id</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=10 height=253 class=xl74 width=69 style='border-bottom:1.0pt solid black;
+  height:189.5pt;border-top:none;width:52pt'>ÆäËû¹¦ÄÜ</td>
+  <td class=xl67 width=249 style='width:187pt'>Sign arbitrary string using the
+  secret &nbsp; key</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>s3cmd
+  sign STRING-TO-SIGN</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>Get
+  various information about Buckets or &nbsp; Files</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>s3cmd
+  info s3://BUCKET[/OBJECT]</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>×¢£º²»Ö§³ÖÏÔÊ¾bucketµÄÐÅÏ¢£¬ÏÔÊ¾objectµÄÐÅÏ¢²»ÍêÈ«</td>
+ </tr>
+ <tr height=46 style='height:34.5pt'>
+  <td height=46 class=xl67 width=249 style='height:34.5pt;width:187pt'>Synchronize
+  a directory tree to S3 (checks files freshness using size and md5 checksum,
+  unless overridden by options, see below)</td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td height=31 class=xl70 width=249 style='height:23.0pt;width:187pt'>s3cmd
+  sync LOCAL_DIR s3://BUCKET[/PREFIX] or s3://BUCKET[/PREFIX] LOCAL_DIR</td>
+ </tr>
+ <tr height=31 style='height:23.5pt'>
+  <td height=31 class=xl68 width=249 style='height:23.5pt;width:187pt'>×¢£º²»»á×Ô¶¯Í¬²½£¬ÐèÒª×Ô¼ºÊäÈëÕâÌõÃüÁîÀ´Í¬²½Ò»¸öÄ¿Â¼¡£</td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td height=31 class=xl70 width=249 style='height:23.0pt;width:187pt'>Sign an
+  S3 URL to provide limited public access with expiry s3cmd signurl
+  &nbsp;&nbsp;</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl69 width=249 style='height:14.5pt;width:187pt'>s3://BUCKET/OBJECT
+  &lt;expiry_epoch|+expiry_offset&gt;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=69 style='width:52pt'></td>
+  <td width=249 style='width:187pt'></td>
+ </tr>
+ <![endif]>
+</table>
