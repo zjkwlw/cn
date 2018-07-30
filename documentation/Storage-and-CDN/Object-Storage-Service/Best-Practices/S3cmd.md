@@ -141,12 +141,12 @@ Commands：
  <col width=69 style='width:52pt'>
  <col width=249 style='mso-width-source:userset;mso-width-alt:7978;width:187pt'>
  <tr height=19 style='height:14.5pt'>
-  <td height=19 class=xl65 width=69 style='height:14.5pt;width:52pt'>¹¦ÄÜÀàÐÍ</td>
-  <td class=xl66 width=249 style='width:187pt'>¹¦ÄÜÃüÁî</td>
+  <td height=19 class=xl65 width=69 style='height:14.5pt;width:52pt'>功能类型</td>
+  <td class=xl66 width=249 style='width:187pt'>功能命令</td>
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td rowspan=24 height=456 class=xl71 width=69 style='border-bottom:1.0pt solid black;
-  height:342.0pt;border-top:none;width:52pt'>¹ÜÀíBucket</td>
+  height:342.0pt;border-top:none;width:52pt'>管理Bucket</td>
   <td class=xl67 width=249 style='width:187pt'>Make bucket</td>
  </tr>
  <tr height=19 style='height:14.5pt'>
@@ -243,7 +243,7 @@ Commands：
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td rowspan=14 height=266 class=xl74 width=69 style='border-bottom:1.0pt solid black;
-  height:199.5pt;border-top:none;width:52pt'>¹ÜÀíObject</td>
+  height:199.5pt;border-top:none;width:52pt'>管理Object</td>
   <td class=xl67 width=249 style='width:187pt'>Put file into bucket</td>
  </tr>
  <tr height=19 style='height:14.5pt'>
@@ -300,7 +300,7 @@ Commands：
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td rowspan=10 height=253 class=xl74 width=69 style='border-bottom:1.0pt solid black;
-  height:189.5pt;border-top:none;width:52pt'>ÆäËû¹¦ÄÜ</td>
+  height:189.5pt;border-top:none;width:52pt'>其他功能</td>
   <td class=xl67 width=249 style='width:187pt'>Sign arbitrary string using the
   secret &nbsp; key</td>
  </tr>
@@ -317,7 +317,7 @@ Commands：
   info s3://BUCKET[/OBJECT]</td>
  </tr>
  <tr height=19 style='height:14.5pt'>
-  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>×¢£º²»Ö§³ÖÏÔÊ¾bucketµÄÐÅÏ¢£¬ÏÔÊ¾objectµÄÐÅÏ¢²»ÍêÈ«</td>
+  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>注：不支持显示bucket的信息，显示object的信息不完全</td>
  </tr>
  <tr height=46 style='height:34.5pt'>
   <td height=46 class=xl67 width=249 style='height:34.5pt;width:187pt'>Synchronize
@@ -329,7 +329,7 @@ Commands：
   sync LOCAL_DIR s3://BUCKET[/PREFIX] or s3://BUCKET[/PREFIX] LOCAL_DIR</td>
  </tr>
  <tr height=31 style='height:23.5pt'>
-  <td height=31 class=xl68 width=249 style='height:23.5pt;width:187pt'>×¢£º²»»á×Ô¶¯Í¬²½£¬ÐèÒª×Ô¼ºÊäÈëÕâÌõÃüÁîÀ´Í¬²½Ò»¸öÄ¿Â¼¡£</td>
+  <td height=31 class=xl68 width=249 style='height:23.5pt;width:187pt'>注：不会自动同步，需要自己输入这条命令来同步一个目录。</td>
  </tr>
  <tr height=31 style='height:23.0pt'>
   <td height=31 class=xl70 width=249 style='height:23.0pt;width:187pt'>Sign an
