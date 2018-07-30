@@ -1,4 +1,4 @@
-# 域名注册购买图文流程
+# 一、域名注册购买图文流程
 
 1、域名查询：域名具有全球唯一性，注册之前需要查询您的域名是否可注册。
 
@@ -20,7 +20,7 @@
 温馨提示：如果您注册的是.cn等国内域名，注册成功后还需要提交与域名注册信息相同的资料，进行实名制认证，成功后域名才能正常使用；如果在注册过程中，选择已实名认证的信息模板，则可以省略此步骤。
 
 
-# 域名信息模版
+# 二、域名信息模版
 
 1、打开京东云主页，进入域名服务界面：
 
@@ -51,7 +51,7 @@
 
 
 
-# 域名解析设置方法
+# 三、域名解析设置方法
 域名注册后，客户只拥有了这个域名的使用权，但无法通过域名直接访问您的网站，或作为电子邮箱后缀进行邮件收发。“域名解析”是使用域名访问您的网站或邮箱的必备环节。
 
 一、准备域名、网站（或邮箱）
@@ -88,7 +88,7 @@
 
 
 
-# 安全设置
+# 四、安全设置
 
 1、域名禁止转移：域名到期前不可转移注册商，处于此状态下的域名的注册信息（即whois信息，包括域名联系人信息、地址、电话、电子邮箱、DNS信息等）可以修改，域名也可正常使用、管理及续费，处于此状态下的域名到期前可以被删除。
 
@@ -98,7 +98,7 @@
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/anquan1.png)
 
 
-# 域名状态
+# 五、域名状态
 
 1.域名预注册状态
 
@@ -155,7 +155,7 @@ D、REGISTRAR/REGISTRY LOCK是注册商/局域名锁定状态，过期后防止�
 
 
 
-# 域名转出
+# 六、域名转出
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/zhuanchu1.png)
 
@@ -171,41 +171,109 @@ D、REGISTRAR/REGISTRY LOCK是注册商/局域名锁定状态，过期后防止�
 
 
 
+# 七、域名转入
+
+一、转入条件
+
+1、真实存在的域名才可进行域名转入；
+
+2、域名注册60天后才可进行域名转入；
+
+3、域名到期前15天不能转入；
+
+4、域名状态为禁止转移的不能转入；
+
+5、域名刚完成转移60天内的不能转入；
+
+6、域名处于纠纷、仲裁中或法院限制转出的不能转入。
+
+二、注意事项
+
+1、京东云与新网合作，您的域名将转入新网，但京东云将为您提供后续的域名服务；
+
+2、域名转入是免费的，但根据注册局规定，转入时需在原期限上续费1年，即域名转入新网的同时为您的域名续期一年，您需支付域名续期1年的费用；
+
+3、如果您的域名已达最长购买年限 10 年，转入时只扣除续费 1 年的费用，年限不增加；
+
+4、域名转入前，请确认域名未开启注册信息保护服务；
+
+5、如域名是您在原注册商过期后进行的续费，建议您在续费操作45天后再做转入，否则根据注册局的规定，此类情况下的域名转入将无法增加一年。
+
+三、转入流程
+
+1、输入域名和域名转移密码，转移密码需要在域名注册商索取；
+
+2、操作域名转入，域名转入本身免费，但是需要在我司续费一年操作，具体域名续费见官网；
+
+3、域名邮件确认，操作完转入续费之后您将收到域名转入确认邮件，点击确认转入后开始转入，如果五天未进行任何操作则转入失败；
+
+4、邮件确认域名进入状态，转入需要3-5个工作日，如果域名转移密码错误将导致转入失败；
+
+5、域名转入成功之后需要操作过户，域名过户到已经实名认证的信息模板之后才可以正常使用。
+
+
+
+# 八、域名过户
+
+1、什么是域名过户？
+
+域名过户（更改注册人）是指域名的当前注册人将域名转让给其他个人或团体，即转移此域名所有权的行为。
+
+2、域名过户流程
+
+第一步：创建模板
+
+登录京东云会员帐号—域名服务—信息模板
+
+
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu1.jpg)
+
+ 
+
+填写新的模板信息：
+
+
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu2.jpg)
+
+
+第二步：选择过户域名
+
+域名服务—域名管理—管理
+
+
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu3.jpg)
+
+
+选择后点击“管理”进入页面后选择“过户”
+
+
+
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu4.jpg)
+
+
+
+点击“使用模板”，选择需要过户的模板后点击“下一步”
+
+
+
+
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu5.jpg)
+ 
+
+
+
+上传认证资料-等待审核，审核时间（2-3个工作日内）
 
 
 
 
 
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu6.jpg)
+ 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+审核通过后完成过户操作。
 
 
 
