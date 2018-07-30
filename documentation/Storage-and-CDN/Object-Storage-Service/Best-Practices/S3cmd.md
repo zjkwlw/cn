@@ -137,7 +137,7 @@ S3命令测试.png
 Commands：
 
 <table border=0 cellpadding=0 cellspacing=0 width=318 style='border-collapse:
- collapse;table-layout:fixed;width:239pt'>
+ collapse;table-layout:fixed;width:500pt'>
  <col width=69 style='width:52pt'>
  <col width=249 style='mso-width-source:userset;mso-width-alt:7978;width:187pt'>
  <tr height=19 style='height:14.5pt'>
