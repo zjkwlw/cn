@@ -41,6 +41,7 @@ API 网关支持对测试/线上的 API 做版本管理，您可以发布 API、
 ![切换版本](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/bslb-qhbb.png)
 
 如需下线，可直接点击下线操作。
+
 ![下线](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/bslb-xx.png)
 
 
