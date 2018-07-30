@@ -75,7 +75,6 @@
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi3.jpg)
 
-
 2、DNS 检查
 
 域名解析服务默认为新网DNS服务，但凡修改默认DNS服务，或者使用其他第三方商家的DNS服务后，域名解析将不再本控制台操作。
