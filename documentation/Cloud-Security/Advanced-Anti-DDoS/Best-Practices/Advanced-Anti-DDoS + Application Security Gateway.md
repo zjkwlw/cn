@@ -3,7 +3,7 @@
 IP高防+应用安全网关在不增加额外性能开销的情况下，为京东云用户提供全面的安全防护。
 
 # 部署架构
-![部署架构](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Best-Practice03.png)<Br/>
+![部署架构](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Best-Practice02.png)<Br/>
 IP高防+应用安全网关的最佳部署架构如下：
 - 京东云的安全调度中心，通过DNS解析，将用户域名解析到IP高防CNAME。
 - 用户正常访问流量和DDoS攻击流量经过IP高防清洗，回源至京东云私有网络负载均衡集群。
