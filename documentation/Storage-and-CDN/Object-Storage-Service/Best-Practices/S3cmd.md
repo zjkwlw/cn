@@ -314,10 +314,7 @@ Commands：
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td height=19 class=xl67 width=249 style='height:14.0pt;width:187pt'>s3cmd
-  info s3://BUCKET[/OBJECT]</td>
- </tr>
- <tr height=19 style='height:14.5pt'>
-  <td height=19 class=xl68 width=249 style='height:14.5pt;width:187pt'>注：不支持显示bucket的信息，显示object的信息不完全</td>
+  info s3://BUCKET[/OBJECT] 注：不支持显示bucket的信息，显示object的信息不完全</td>
  </tr>
  <tr height=46 style='height:34.5pt'>
   <td height=46 class=xl67 width=249 style='height:34.5pt;width:187pt'>Synchronize
@@ -326,10 +323,7 @@ Commands：
  </tr>
  <tr height=31 style='height:23.0pt'>
   <td height=31 class=xl70 width=249 style='height:23.0pt;width:187pt'>s3cmd
-  sync LOCAL_DIR s3://BUCKET[/PREFIX] or s3://BUCKET[/PREFIX] LOCAL_DIR</td>
- </tr>
- <tr height=31 style='height:23.5pt'>
-  <td height=31 class=xl68 width=249 style='height:23.5pt;width:187pt'>注：不会自动同步，需要自己输入这条命令来同步一个目录。</td>
+  sync LOCAL_DIR s3://BUCKET[/PREFIX] or s3://BUCKET[/PREFIX] LOCAL_DIR 注：不会自动同步，需要自己输入这条命令来同步一个目录。</td>
  </tr>
  <tr height=31 style='height:23.0pt'>
   <td height=31 class=xl70 width=249 style='height:23.0pt;width:187pt'>Sign an
