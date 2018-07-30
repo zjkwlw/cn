@@ -10,4 +10,6 @@
 
 5、域名的注册遵循先申请先注册为原则，管理认证机构对申请企业提出的域名是否违反了第三方的权利不进行任何实质性审查。在ICANN每一个域名的注册都是独一无二、不可重复的。
 
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/cms_5b39fb69-f597-4597-af4b-63b8bdf5c21220170808211111.png)
+
 查询域名-加入购物清单-填写信息-确认订单-支付完成
