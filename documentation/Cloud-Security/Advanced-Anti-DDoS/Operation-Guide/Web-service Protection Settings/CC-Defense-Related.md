@@ -1,4 +1,4 @@
-# 配置CC防护规则
+# CC防护规则相关配置
 CC防护规则属于网站类防护的规则，需要先切换网站类转发配置。</BR>
 步骤如下：
 - 首先需要登录 [IP高防 控制台](https://ip-anti-console.jdcloud.com/instancelist)。
