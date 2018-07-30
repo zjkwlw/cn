@@ -1,6 +1,7 @@
 # OSS术语表
 
 |英文|中文|
+|-|-|
 |Bucket|存储空间|
 |Object|对象或者文件|
 |Endpoint|OSS 访问域名|
