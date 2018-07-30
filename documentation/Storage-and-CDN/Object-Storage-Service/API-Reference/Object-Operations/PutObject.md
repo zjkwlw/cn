@@ -17,6 +17,7 @@ Authorization: signatureValue#请参照"访问控制"
 **请求Header**
 
 |名称|描述|
+|-|-|
 |Content-MD5|上传数据的MD5值，用于校验传输过程中，用户的数据是否被修改<br>类型：字符串<br>默认值：无|
 |x-jss-server-side-encryption|指定jss创建object时的服务器端是否加密<br>类型：boolean<br>合法值：true,false|
 |x-jss-storage-class|Object的存储类型，默认值是"STANDARD"（标准存储）。<br>支持"STANDARD"（标准存储）和"REDUCED_REDUNDANCY"（低频访问型）两种存储类型<br>注意：目前"REDUCED_REDUNDANCY"（低频访问型）仅华北机房支持<br>类型：字符串<br>默认值："STANDARD"（标准存储）|
