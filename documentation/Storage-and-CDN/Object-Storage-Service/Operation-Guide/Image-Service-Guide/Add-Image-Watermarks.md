@@ -5,6 +5,7 @@
 使用方式：每个wmi触发一次打图片水印操作，后面跟下面列表中w开头参数设置各参数值，当出现第一个不是列表中参数的控制符或无后续参数时，触发实际打水印操作，未设置的可选参数使用默认值，每次打水印后各参数初始化为默认值。
 
 |操作方式|指令含义|参数格式|参数说明|结果说明|
+|-|-|-|-|-|
 |开启图片水印操作|Watermark image|wmi|必选参数<br>每打一张水印图，对应一组命令|开启打一张图片水印操作处理|
 |指定水印图片文件key|Watermark key|wk/str64|必选参数<br>str64=base64(bucket:object)|水印图片本地key，读取已上传到公有云的水印图片|
 |指定水印位置|Watermark position|wp/n|可选参数<br>N水印在图片的位置<br>取值范围[1,9] ，默认1|位置对应关系, 左上角到右下角按行依次排列<br>1 2 3<br>4 5 6<br>7 8 9|
@@ -19,4 +20,4 @@
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/wmi/wk/ZG93bmxvYWRzOmxvZ28ucG5n/ws/100
 
-example图片水印.jpg
+![图片水印](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-061.jpg)
