@@ -1,6 +1,4 @@
-# 配置类问题
-
-## 如何将不带www的根域名跳转到带www的主域名上
+# 如何将不带www的根域名跳转到带www的主域名上
 
 1、将jdcloud.com解析到与www.jdcloud.com相同的ip；
 
