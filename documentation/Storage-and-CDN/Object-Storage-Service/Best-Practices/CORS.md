@@ -83,7 +83,7 @@ function loadXMLDoc() {
 ```
 3.访问网页
 
-在Chrome浏览器中输入“http://47.104.98.151/cors-test.html”进入测试网页，点击“请求数据”按钮，出现以下错误。错误提示：无权限访问，原因是没有找到 Access-Control-Allow-Origin 这个 Header。
+在Chrome浏览器中输入“http://47.104.98.151/cors-test.html ”进入测试网页，点击“请求数据”按钮，出现以下错误。错误提示：无权限访问，原因是没有找到 Access-Control-Allow-Origin 这个 Header。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-085.jpg)
 
@@ -97,7 +97,7 @@ function loadXMLDoc() {
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-087.jpg)
 
-在配置页面中使用最宽松的配置：来源Origin为http://47.104.98.151，操作Methods为GET，Allow-Headers为*，缓存Max Age为0。如下图
+在配置页面中使用最宽松的配置：来源Origin为http://47.104.98.151 ，操作Methods为GET，Allow-Headers为*，缓存Max Age为0。如下图
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-088.jpg)
 
