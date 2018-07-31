@@ -10,7 +10,7 @@
 
 4.单击新建视频截图按钮。
 
-1525329976(1).jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-007.png)
 
 5.在新建视频截图弹框中，分别点击选择源Bucket,目标Bucket,截图文件格式和截图方式。点击选择源视频文件或者输入文件名检索。 输入截图文件前缀，文件格式，截图宽度，截图高度，截图数量。单击确定按钮提交视频截图任务。
 
@@ -26,6 +26,8 @@
 
   i.查看任务列表及截图的状态
 
-e4f880b0aa60e6c8a2a892629c8d9cc.png ii.单击 TaskId 可查看任务详情
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-008.png)
 
-fe9bdbc2c035a36885ef91812b5b769.png
+  ii.单击 TaskId 可查看任务详情
+
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-009.png)
