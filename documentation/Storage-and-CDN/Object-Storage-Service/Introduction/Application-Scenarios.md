@@ -6,7 +6,7 @@
 
 用户存储数据可以通过的跨区域复制功能实时同步到指定区域，实现数据异地容灾，从容应对极端灾难保证业务流畅，为重要数据加上多重保险。
 
-![跨区域复制容灾]（https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-001.jpg ）
+![跨区域复制容灾](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-001.jpg)
 
 ## 数据加速分发
 
@@ -18,4 +18,4 @@
 
 上传文件到京东云对象存储后，您可以配合音视频转码服务，图片处理服务（缩放、裁剪、旋转、水印等），图像识别服务（鉴黄、人脸识别等）充分挖掘您数据的价值。
 
-![云端数据处理]（ https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-003.jpg）
+![云端数据处理](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-003.jpg)
