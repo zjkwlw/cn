@@ -5,7 +5,7 @@
 ![实例恢复1](../../../../../image/RDS/Restore-Instance-1.png)
 
 ## 2. 选择恢复方式
-**备注：仅SQL Server支持该操作，其他数据库可跳过该步骤**
+**备注：仅SQL Server支持该操作，其他数据库可跳过该步骤**<br>
 1）如果该备份的备份粒度为“实例”，且备份类型为“全量”，则可以选择“实例恢复”还是“单库恢复”
 ![实例恢复2](../../../../../image/RDS/Restore-Instance-2.png)
 
@@ -17,11 +17,13 @@
 
 ## 4. 恢复确认
 根据选择恢复的类型不同，会弹出下对话框。点击【确认】后，开始恢复。
-- SQL Server的确认对话框
+- **SQL Server的确认对话框**
+  - 实例恢复
 ![实例恢复5](../../../../../image/RDS/Restore-Instance-5.png)
+  - 单库恢复
 ![实例恢复6](../../../../../image/RDS/Restore-Instance-6.png)
 
-- MySQL 的确认对话框
+- **MySQL 的确认对话框**
 ![实例恢复9](../../../../../image/RDS/Restore-Instance-9.png)
 
 ## 5. 实例状态
