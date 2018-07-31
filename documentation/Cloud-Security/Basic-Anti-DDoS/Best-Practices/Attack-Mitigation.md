@@ -109,9 +109,9 @@ DDoS(分布式拒绝服务)攻击是一种针对目标系统的恶意网络攻�
 
 ### 5、商用安全方案
 
-由于基础防护只能防御小流量的基本攻击。如果需要针对大流量的攻击防御，建议您使用京东云为您提供的IP高仿服务。
+由于基础防护只能防御小流量的基本攻击。如果需要针对大流量的攻击防御，建议您使用京东云为您提供的IP高防服务。
 
-关于IP高仿，请参见：[IP高防](https://ip-anti-console.jdcloud.com/instancelist)
+关于IP高防，请参见：[IP高防](https://ip-anti-console.jdcloud.com/instancelist)
 
 ## 应对避免的事项
 
