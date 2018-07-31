@@ -1,4 +1,4 @@
-图片鉴黄
+## 图片鉴黄
 
 对图片进行鉴黄识别：
 
@@ -15,7 +15,7 @@
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg
 
-example.jpg
+![识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-065.jpg)
 
 鉴黄处理：
 
