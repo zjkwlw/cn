@@ -18,6 +18,6 @@
 
 
 
- 3.  支持scan命令
+ 3.  支持scan命令集
 
-3.0版本已开放scan命令。
+3.0版本已开放scan、hscan、sscan、zscan命令集。
