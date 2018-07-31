@@ -87,7 +87,7 @@ SAS、SATA、SSD，3种硬盘合理搭配集成于云物理服务器，给用户
 ## 虚拟化
 企业可利用在OpenStack上构建虚拟化（例如：KVM，Docker等）私有云平台，把IT基础架构向资源共享方向发展，解决共享资源环境下业务高峰期的性能瓶颈问题，提高企业或组织IT基础架构业务支撑灵活度，降低系统管理复杂性。云物理服务器给虚拟化平台提供最大自由，是云端搭建专有云虚拟化平台的最佳选择。
 
-![虚拟化场景](https://github.com/jdcloudcom/cn/tree/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/应用场景02.png)
+![虚拟化场景](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS002.PNG)
 
 ## 政企
 政企核心数据库对性能和安全有极高的要求。京东云的云物理服务器满足用户独享、安全、高性能的需求，使企业用户可轻松部署自己的核心数据库服务。
