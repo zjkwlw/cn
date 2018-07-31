@@ -13,15 +13,15 @@
 
 1. 在控制台创建Bucket时，您需要指定一个Bucket的ACL，效果如下：
 
-image.png
+![创建Bucket-访问权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-030.png)
 
 2. 也可以在已创建好的Bucket中进行修改和高级权限配置(即自定义权限)，进入某个空间的空间管理页面后，点击空间设置->权限设置，效果如下：
 
-0d5d5dea4a7d9e84417601de089c86b.png
+![权限设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-031.png)
 
 若您设置了当前Bucket的权限为自定义权限，则可以为该Bucket创建对应的Bucket Policy, Bucket Policy中定义了该Bucket允许哪些用户对Bucket内哪些资源可以进行哪些类型的操作，效果如下：
 
-Bucket Policy3.png
+![添加自定义权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-032.png)
 
 细节说明：
 
@@ -31,9 +31,9 @@ Bucket Policy3.png
 
 a. 用户授权：定义了该Bucket Policy所影响到的用户，默认值为*，语义是对全部用户生效，若需要只针对部分用户生效，请点击“自定义用户”，并在文本框中输入对应用户的用户ID（注：用户ID不同为用户Pin，您的用户ID可以到用户管理中去查询，效果如下图），每行一个用户ID，即通过换行符间隔多个用户ID。
 
-image.png
+![用户授权1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-033.png)
 
-image.png
+![用户授权2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-034.png)
 
 b. 涉及操作：定义了对该Bucket可以进行的操作，可进行单选也可进行全选，但至少要勾选一项，每项操作定义如下：
 
@@ -51,7 +51,7 @@ d. Referer白名单：由于京东云对象存储是按用量收费，为避免�
 
 （3）除了通过表单来创建Bucket Policy之外，您也可以通过自定义权限编辑器进行Policy设置（注：编辑器中会展示出当前Bucket下全部的Policy，编辑器中无法添加注释，且最多允许输入16KB），效果如下：
 
-Bucket Policy4.png
+![自定义权限编辑器](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-035.png)
 
 （4）若您是通过API或SDK创建的Bucket，并且在创建时并未指定Bucket的权限，则系统会为该Bucket赋予默认的私有读写（Private）权限，即只有Bucket Owner可对该Bucket下的资源进行操作和访问，全部其他用户的所有请求都会被拒绝，若要允许某些用户对于该Bucket下的资源进行访问和操作，请在Bucket Policy中进行授权或将Bucket的权限改为公有读或公有读写（Public-Read或Public-Read-Write）。
 
@@ -65,7 +65,7 @@ Bucket Policy4.png
 
 * 空Referer的定义为：一个HTTP请求中不包含Referer头部或Referer头部的内容为空；
 
-* Referer白名单支持域名或IP地址（若无域名，必须将IP加入白名单中），可以设置多个，使用换行符（回车）来分隔，不区分大小写，域名前不需要写http://或https://；
+* Referer白名单支持域名或IP地址（若无域名，必须将IP加入白名单中），可以设置多个，使用换行符（回车）来分隔，不区分大小写，域名前不需要写 http:// 或https:// ；
 
 * 防盗链输入内容最多可输 500 条或总字节数不超过16384字节（即16KB）；
 
@@ -85,4 +85,4 @@ Referer白名单语义解释：
 
 参考效果如下：
 
-Bucket Policy5.png
+![Referer白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-036.png)
