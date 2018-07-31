@@ -10,15 +10,15 @@
 
 登录直播控制台，进入“域名管理”页面，选择要查看播放地址的一组域名，点击右侧的“管理”进入域名配置页，点击“录制配置”切换到录制模板管理页面
 
-![](media/674ae615ca68ecdb43d529d1f10062d3.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E9%A1%B5%E9%9D%A2%E5%88%87%E6%8D%A2.png)
 
 在录制配置页面，点击“新建模板”，在弹出的窗口中填写对应的参数信息，点“确定”完成录制模板的添加。
 
-![](media/c7192c657cb62099210da19389d3576b.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E6%96%B0%E5%BB%BA%E6%A8%A1%E6%9D%BF%E6%8C%89%E9%92%AE.png)
 
 模板参数说明如下：
 
-![](media/cdbbca5c9938bf58ba2d71107659bca5.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E6%96%B0%E5%BB%BA%E6%A8%A1%E6%9D%BF.png)
 
 **App
 Name**：要进行直播录制的应用名称，目前仅支持英文，数字，“-”，"_","长度需要在1-50字符之间
@@ -50,4 +50,4 @@ record/{Date}/{DomainName}/{AppName}/{StreamName}/{StartTime}_{EndTime}.flv
 
 登录直播控制台，进入“录制配置”页面，在想要删除的录制模板右侧点击“删除”，在弹出的窗口中点“确认”完成删除操作。
 
-![](media/b48e1d8cd14ddd446872253b8667edd1.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E6%A8%A1%E6%9D%BF%E5%88%A0%E9%99%A4.png)

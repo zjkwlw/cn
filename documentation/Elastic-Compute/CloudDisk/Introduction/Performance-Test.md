@@ -14,9 +14,33 @@ fio作者Jens Axboe是linux内核IO部分的maintainer，支持Linux下所有的
 ## 磁盘性能测试方法
 
 - 随机写
+
+```
+fio -ioengine=libaio -numjobs=64 -bs=4k -direct=1 -rw=randwrite -size=20G -filename=/root/randwrite_20G -name=test -iodepth=32 -runtime=120 --group_reporting --output=/root/fio_test/hdd_randwrite_4k
+```
+
 - 随机读
+
+
+```
+fio -ioengine=libaio -numjobs=64 -bs=4k -direct=1 -rw=randread -size=20G -filename=/root/randread_20G -name=test -iodepth=32 -runtime=120 --group_reporting --output=/root/fio_test/hdd_randread_4k
+```
+
 - 顺序读
+
+
+```
+fio -ioengine=libaio -numjobs=64 -bs=1M -direct=1 -rw=read -size=10G -filename=/root/read_10G -name=test -iodepth=32 -runtime=120 --group_reporting --output=/root/fio_test/read_1M
+```
+
 - 顺序写
+
+
+```
+fio -ioengine=libaio -numjobs=64 -bs=1M -direct=1 -rw=write -size=10G -filename=/root/write_10G -name=test -iodepth=32 -runtime=120 --group_reporting --output=/root/fio_test/write_1
+```
+
+
 
 生成的group_report数据项说明：
 
