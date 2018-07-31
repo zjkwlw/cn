@@ -4,11 +4,11 @@
 
 登录直播控制台，进入“域名管理”页面，选择要查看推流地址的一组域名，点击右侧的“管理”进入域名“基本信息”页面
 
-![](media/34feadde3b6ffa5e90703653d0946f1d.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%8E%A8%E6%B5%81%E5%9C%B0%E5%9D%80-%E8%8E%B7%E5%8F%96%E6%8E%A8%E6%B5%81%E5%9C%B0%E5%9D%80.png)
 
 在“推流信息”一栏可以查看和复制推流地址，推流地址是按一定规则拼接，其中应用名“APPName”和流名“StreamName”用户可以自定义，应用名（APPName）、流名（StreamName）目前仅支持英文、数字、“-”、"_",长度需要在1-50字符之间，客户需要根据自己定义按规则拼接出推流地址
 
-![](media/8cd47f0e765927971e0267671bfc98ea.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%8E%A8%E6%B5%81%E5%9C%B0%E5%9D%80-%E8%8E%B7%E5%8F%96%E6%8E%A8%E6%B5%81%E5%9C%B0%E5%9D%80-%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E9%A1%B5%E9%9D%A2.png)
 
 ## **2.推流地址说明**
 
