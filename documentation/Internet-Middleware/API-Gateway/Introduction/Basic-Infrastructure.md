@@ -1,15 +1,29 @@
 # 基础架构
+API网关提供API定义者服务和API调用者服务。API定义者通过管理和部署API分组，提供API的调用；API调用者，通过访问密钥和API定义者的授权访问，使用API。
 
-IP高防是针对互联网服务器在遭受大流量的DDoS攻击后导致服务不可用的情况下，推出的付费增值服务。
+## 业务架构
+业务架构如下图：
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84.png)
 
-用户开通IP高防服务，配置将用户访问的IP地址引流到高防服务提供的IP地址上，经过IP高防服务对所有异常流量的实时检测和清洗，确保仅正常流量可回源到用户服务器，从而保证了源站的稳定可靠。
+| 概念 | 解释 |
+| :- | :- |
+|  访问密钥  |  用户需要创建访问密钥, 作为调用 API 时的身份 。 |	
+|   API 分组 |  API 服务方管理 API 的单元。创建 API 需要先创建分组 。 |
+| 流控策略  | 用于 API 服务方对 API 、用户、 APP 按天、小时进行流量限制。|
+| 访问授权   | 授予某个API分组的调用者，调用某个 API分组 的权限，由 API 提供方完成。  |
+| 后端签名   | 网关访问API提供方时，通过添加后端签名进行访问 。 |
+| 版本修订   | 每个API分组可以维护多个版本。每个环境下可指定版本进行发布  。 |
+| 部署列表   | 服务发布部署。在 API分组 配置完成后，进行发布到具体环境后才可对外提供服务。现有环境包括：测试、预发、线上 。 |
 
-## 未接入IP高防
-未接入IP高防时，所有正常、非正常的访问都会直接到达源站。一旦发生DDoS攻击，源站很容易就被打瘫。
 
-![IP高防架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20002.png)
 
-## 接入IP高防后
-接入IP高防业务后，所有对源站的访问流量，均会经过IP高防的实时检测。IP高防拥有强大的防护机制，经过高防机房的流量清洗，过滤掉了四层和七层的攻击，只将清洗后的干净流量回注到源站。
-![IP高防架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20001.png)
+## 相关参考
+
+- [产品优势](../Introduction/Benefits.md)
+- [产品功能](../Introduction/Functions.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [计费规则](../Pricing/Billing-Rules.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
+
+
 
