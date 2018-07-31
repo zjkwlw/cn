@@ -125,15 +125,6 @@
   * 每万次请求单价</td>
   <td class=xl74 width=69 style='border-top:none;border-left:none;width:52pt'>目前免费</td>
  </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=110 style='width:83pt'></td>
-  <td width=106 style='width:80pt'></td>
-  <td width=216 style='width:162pt'></td>
-  <td width=339 style='width:255pt'></td>
-  <td width=69 style='width:52pt'></td>
- </tr>
- <![endif]>
 </table>
 
 ## 计费案例
