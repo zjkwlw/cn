@@ -17,13 +17,14 @@
 
 ## 4. 恢复确认
 根据选择恢复的类型不同，会弹出下对话框。点击【确认】后，开始恢复。
-- **SQL Server的确认对话框**
-<br>实例恢复
+### SQL Server的确认对话框
+**实例恢复**<br>
 ![实例恢复5](../../../../../image/RDS/Restore-Instance-5.png)
-<br>单库恢复
+
+**单库恢复**<br>
 ![实例恢复6](../../../../../image/RDS/Restore-Instance-6.png)
 
-- **MySQL 的确认对话框**
+### MySQL 的确认对话框
 ![实例恢复9](../../../../../image/RDS/Restore-Instance-9.png)
 
 ## 5. 实例状态
