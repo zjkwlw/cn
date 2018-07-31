@@ -4,8 +4,10 @@
 
 1. 登录京东云对象存储控制台，点击左侧菜单栏的音视频处理，进入音视频工作流列表页：
 
-image.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-068.jpg)
 
 2. 点击新建音视频工作流，输入音视频工作流的各项参数和处理规则，输入完成后点击确定即可：image.png
+
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-069.jpg)
 
 注：输入格式支持目前绝大部分主流的音视频格式，如mp4、flv、avi、rmvb、wmv、hls等，输出格式主要支持mp4、flv和hls。
