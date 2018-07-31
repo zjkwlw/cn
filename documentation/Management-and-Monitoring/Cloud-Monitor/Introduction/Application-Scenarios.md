@@ -1,22 +1,21 @@
-# 应用场景
+## 应用场景
 
-以下说明云数据库 MongoDB 的适用场景。
+云监控为您提供丰富的使用场景：
 
-## 同城容灾
-云数据库 MongoDB 支持多可用区部署模式，您可以将实例的主从节点与隐藏节点分别部署在不同的可用区，以提供同城容灾能力。当因不可抗力导致某一可用区不能提供服务时，MongoDB 服务可快速切换到另一可用区，确保服务的可用性。
+### 日常业务监控管理
+用户需要对自身的业务进行监控，可以通过所购云服务详情页的监控页面和云监控模块的监控页面对资源的运行状态和使用情况进行监控，同时可以根据云资源的特性设置报警规则，当资源的监控指标达到了用户设置的报警阈值，则会触发报警，根据用户选择的联系人信息发送短信和邮件报警。
+![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/1.%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.png)
 
-![同城容灾场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mogno-001.png)
+### 处理异常
+![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/2.%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.png)
+**定位异常**
+用户可以通过云监控的概览页、dashboard监控面板、云资源的监控页面对资源的使用及运行情况实时观察，准确的发现异常的原因。
 
+**发现异常**
+用户发现异常的途径主要有三种
+1.在日常巡视的过程中发现问题；
+2.通过设置报警规则，当监控指标达到预设的阈值时，则会向用户设置的手机号发送短信告警；
+3.通过设置报警规则，当监控指标达到预设的阈值时，则会向用户设置的电子邮箱中发送邮件告警。
 
-## 分服应用
-依托云数据库 MongoDB 完善的备份机制和根据时间点创建实例的能力，您可以快速基于某一实例的数据创建新的 MongoDB 实例，以满足游戏等分区服务类应用的快速滚服和合服的需求。
-
-![分服应用场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-002.png)
-
-## 相关参考
-
-- [产品优势](../Product-Introduction/Benefits.md)
-- [产品功能](../Product-Introduction/Functions.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [计费规则](../Pricing/Billing-Rules.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
+**查询异常**
+用户可通过查看报警管理中的报警历史发生的时间，进入云产品的监控页或云监控页面，根据时间查询异常。
