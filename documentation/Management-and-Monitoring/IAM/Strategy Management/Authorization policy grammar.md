@@ -50,7 +50,9 @@ Policy 的版本，目前仅允许值为 2。
 
 # Policy 的语法结构
 Policy 的语法结构如下图所示。
+
 ![语法结构](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/policy%E8%AF%AD%E6%B3%95%E7%BB%93%E6%9E%84.png)
+
 Policy 的语法应符合 JSON 格式。如果您创建的授权策略不符合 JSON 语法，将无法保存成功。很多在线 JSON 格式检查工具都可以检查策略的格式错误。
 
 # Policy 的语法描述：
