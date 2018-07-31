@@ -16,11 +16,13 @@
 
 此外，用户还可以设置当遇到HTTP 4XX错误时，可以将访问以302重定向的方式将请求发到用户指定的源站，一旦用户配置了错误重定向的功能，遇到对应的错误时将优先跳转到重定向的地址，而不再展示配置过的自定义错误页。
 
-4. Bucket开启了静态网站托管规则前，访问Bucket下的文件夹（即格式为http://bucketname.s3.cn-north-1.jcloudcs.com/test/）时,会对访问目标进行下载操作，即将test/作为一个对象下载到本地；而开启静态网站托管规则后，使用兼容S3服务域名或自定义域名访问文件夹时，将不会执行下载操作，会按照静态网站托管的处理逻辑进行处理；若要在开启静态网站托管规则后下载文件夹，必须通过在S3服务域名或自定义域名后的URL后面加上?x-oss-process=download来进行强制下载（例：http://bucketname.s3.cn-north-1.jcloudcs.com/test/?x-oss-process=download）
+4. Bucket开启了静态网站托管规则前，访问Bucket下的文件夹（即格式为http://bucketname.s3.cn-north-1.jcloudcs.com/test/ ）时,会对访问目标进行下载操作，即将test/作为一个对象下载到本地；而开启静态网站托管规则后，使用兼容S3服务域名或自定义域名访问文件夹时，将不会执行下载操作，会按照静态网站托管的处理逻辑进行处理；若要在开启静态网站托管规则后下载文件夹，必须通过在S3服务域名或自定义域名后的URL后面加上?x-oss-process=download来进行强制下载（例：http://bucketname.s3.cn-north-1.jcloudcs.com/test/?x-oss-process=download ）
 
-控制台相关操作：
+## 控制台相关操作：
 
-1. 登入控制台->云存储->空间管理->进入某个Bucket->空间设置，点击“静态网站托管”：blob.png
+1. 登入控制台->云存储->空间管理->进入某个Bucket->空间设置，点击“静态网站托管”：
+
+![静态网站托管](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-040.png)
 
 2. 点击“静态网站托管”Tab签之后，下方是相关配置项，各配置项说明如下：
 
@@ -52,11 +54,11 @@ c.访问重定向配置：用户配置的当访问Bucket遇到4XX错误时所重
 
 最大输入长度理论不超过1022个字节（即必须符合对象存储的文件命名规范）。
 
-只允许输入完整的域名或IP格式（需要做输入格式检查）如https://www.test.com或http://192.168.1.10:8080，可带端口号（端口号非必须），不支持通配符*。
+只允许输入完整的域名或IP格式（需要做输入格式检查）如https://www.test.com 或http://192.168.1.10:8080 ，可带端口号（端口号非必须），不支持通配符*。
 
-除了标准的域名格式，也支持指向域名下的某子目录，如http://www.test.com/img/或http://www.test.com/img
+除了标准的域名格式，也支持指向域名下的某子目录，如http://www.test.com/img/ 或http://www.test.com/img
 
-若URL中含有Query请求参数，则重定向到用户源站时，Query内容会随着URL一并重定向到源站，但若用户源站无法识别解析Query内容，则之前Query中的附带功能不会在用户源站生效。如：http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/s/200/300，在访问时遇到404错误，example.jpg后面跟的图片样式会跟着URL重定向回用户源站，但用户源站若无法识别该图片样式，则返回内容由用户源站的行为决定。
+若URL中含有Query请求参数，则重定向到用户源站时，Query内容会随着URL一并重定向到源站，但若用户源站无法识别解析Query内容，则之前Query中的附带功能不会在用户源站生效。如：http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/s/200/300 ，在访问时遇到404错误，example.jpg后面跟的图片样式会跟着URL重定向回用户源站，但用户源站若无法识别该图片样式，则返回内容由用户源站的行为决定。
 
 
 3. 当修改了静态网站托管中的配置内容，并点击“保存设置”后，若提交的变更内容中有一项不为空，即视为启用了静态网站托管的功能；若提交的变更内容由非空变为全空，即视为静态网站托管的功能从启用变为停用；未做任何修改时，“保存设置”按钮不可点击。
