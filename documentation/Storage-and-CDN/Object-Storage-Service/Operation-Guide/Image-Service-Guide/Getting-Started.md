@@ -14,7 +14,7 @@
 
 4.点击新建样式，在该页面可以新建您需要的图片样式，如下图所示：
 
-![新建图片样式](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-055.png)
+![新建图片样式](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-056.jpg)
 
 
 规则说明：
