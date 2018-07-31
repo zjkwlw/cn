@@ -128,7 +128,7 @@ Linux shell环境下输入s3cmd并回车，如下所示即可使用：
 
 如下以Make bucket为例，测试S3cmd是否可用：
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-092.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-093.png)
 
 ## 支持功能
 
