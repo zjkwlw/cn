@@ -98,4 +98,4 @@ SAS、SATA、SSD，3种硬盘合理搭配集成于云物理服务器，给用户
 ## 游戏
 MMORPG（大型多人在线角色扮演游戏）大规模跨服活动会吸引众多玩家的加入，对接入服务器负载、稳定性和网络都有着极高的要求。 游戏应用生命周期短，运营高峰时可依靠京东云庞大的资源池实现快速扩容；生命周期未端则面临裁撤和贬值等问题，利用按需购买、按量付费的特性，可降低企业的TCO（总体拥有成本）。
 
-![游戏场景](https://github.com/jdcloudcom/cn/tree/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS004.png)
+![游戏场景](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS004.PNG)
