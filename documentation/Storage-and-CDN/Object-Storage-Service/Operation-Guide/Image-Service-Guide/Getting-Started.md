@@ -10,11 +10,13 @@
 
 3.在概览页点击图片处理进入图片处理页面
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-054.png)
+![图片处理](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-054.jpg)
 
 4.点击新建样式，在该页面可以新建您需要的图片样式，如下图所示：
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-055.png)
+![新建图片样式1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-055.png)
+
+![新建图片样式2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-056.jpg)
 
 规则说明：
 
@@ -64,4 +66,4 @@ img-style-example样式：缩放80%、旋转60°
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgalias/img-style-example
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-056.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-057.jpg)
