@@ -40,9 +40,83 @@ A：**以Centos 操作系统为例，挂载步骤参考下方说明：**
 
 fdisk -l
 
-![aa](E:/JDcloudInternationalizationDocument/cn/image/Elastic-Compute/CloudDisk/faq_mount_001.png)
+![faq_mount_001](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_001.png)
 
-![avatar](.//..//CloudDisk/faq_mount_001.png)
+
+2）您可以通过如下命令完成分区，/dev/vdb请您修改为您需要分区的磁盘
+
+fdisk   /dev/vdb
+
+![faq_mount_002](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_002.png)
+
+输入命令后，依次输入 n, p, 1, 以及 两次回车，然后是 wq，完成保存。 这样再次通过 fdisk -l 查看时，你可以看到新建的分区/dev/vdb1
+
+注：如您创建的硬盘容量大于2T，请不要使用分区，或参考如下步骤使用parted分区：
+
+![faq_mount_003](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_003.png)
+
+![faq_mount_004](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_004.png)
+
+3）之后您需要对分区后的硬盘进行格式化，命令如下
+
+mkfs -t ext4 /dev/vdb1
+
+![faq_mount_005](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_005.png)
+
+
+4）在mnt目录下创建vdb1目录，并将磁盘挂在到该目录下，方便管理
+
+mkdir -p /mnt/vdb1 && mount -t ext4 /dev/vdb1 /mnt/vdb1
+
+5）查看磁盘的UUID
+
+blkid /dev/vdb1
+
+![faq_mount_006](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_006.png)
+
+写入/etc/fstab文件实现云硬盘自动挂载
+
+请注意，若系统为Centos 7以上，写入fstab时必须使用nofail参数。
+
+以Windows Server 2012 R2 标准版操作系统为例，加载步骤参考下方说明：
+
+以Windows Server 2012 R2 标准版操作系统为例，分区、格式化和创建文件系统步骤参考下方说明：
+
+1）登录Windows主机后，右键点击左下角的“开始”按钮，在弹出的菜单中选择“磁盘管理”，弹出磁盘管理窗口，选择磁盘分区形式后，单击确定按钮；
+
+![faq_mount_007](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_007.png)
+
+2）选择未分配的磁盘，右键单击“新建简单卷”；
+
+![faq_mount_008](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_008.png)
+
+3）在弹出的“新建简单卷向导”弹窗上点击“下一步”；
+
+![faq_mount_009](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_009.png)
+
+4）指定卷大小；
+
+![faq_mount_010](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_010.png)
+
+5）设置磁盘驱动器号；
+
+![faq_mount_011](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_011.png)
+
+
+6）格式化磁盘分区；
+
+![faq_mount_012](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_012.png)
+
+7）确认已选配置后，点击“完成”按钮，完成新建卷向导；或点击上一步返回修改已选设置。
+
+
+![faq_mount_013](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_013.png)
+
+8）完成以上设置后，即可在“我的电脑”页面查看新添加的云硬盘；
+
+![faq_mount_014](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_014.png)
+
+
 
 
 
