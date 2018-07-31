@@ -6,13 +6,13 @@
 
 所谓同源是指域名相同、协议相同且端口相同。举例如下：
 
-不同域名：http://www.jd.com与http://www.jd.cn为不同源；
+不同域名：http://www.jd.com 与http://www.jd.cn 为不同源；
 
-不同协议：http://www.jd.com与https://www.jd.com为不同源；
+不同协议：http://www.jd.com 与https://www.jd.com 为不同源；
 
-不同端口：http://www.jd.com:80与http://www.jd.com:81为不同源；
+不同端口：http://www.jd.com:80 与http://www.jd.com:81 为不同源；
 
-其它：http://www.jd.com/a与http://www.jd.com/b为同源，因为域名协议和端口都相同。
+其它：http://www.jd.com/a 与http://www.jd.com/b 为同源，因为域名协议和端口都相同。
 
 ## 跨域访问
 
@@ -26,11 +26,11 @@
 
 **准备条件**
 
-1.在test-cors存储桶中上传文件cors.html，文件内容为“请求成功”。 点击“获取地址”，可以看到cors.html这个object的访问地址: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html。
+1.在test-cors存储桶中上传文件cors.html，文件内容为“请求成功”。 点击“获取地址”，可以看到cors.html这个object的访问地址: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html 。
 
 2.关闭浏览器cache功能，防止因为浏览器缓存了服务器上次返回的header内容导致和CORS的要求不匹配，影响请求结果，这里我们以chrome浏览器为例, 打开“开发者工具”，勾选“Disable cache”。
 
-1.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-083.jpg)
 
 **跨域请求实践**
 
@@ -40,7 +40,7 @@
 ```
 curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 ```
-2.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-084.jpg)
 
 2.使用AJAX访问文件
 
@@ -85,24 +85,24 @@ function loadXMLDoc() {
 
 在Chrome浏览器中输入“http://47.104.98.151/cors-test.html”进入测试网页，点击“请求数据”按钮，出现以下错误。错误提示：无权限访问，原因是没有找到 Access-Control-Allow-Origin 这个 Header。
 
-3.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-085.jpg)
 
 再进入Header页面检查请求，可见浏览器发送了带 Origin 的 Request，因此是一个跨域请求。所以该错误是因为服务器没有配置CORS。
 
-4.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-086.jpg)
 
 4.设置CORS
 
 登入控制台->云存储->空间管理->进入存储桶test-cors->空间设置->跨域访问设置，点击CORS规则配置进入配置页面。
 
-5.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-087.jpg)
 
 在配置页面中使用最宽松的配置：来源Origin为http://47.104.98.151，操作Methods为GET，Allow-Headers为*，缓存Max Age为0。如下图
 
-6.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-088.jpg)
 
 5.验证结果
 
 配置完成后，重新尝试访问cors.html文件。结果如下，成功跨域访问。
 
-7.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-089.jpg)
