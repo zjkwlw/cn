@@ -155,7 +155,7 @@
 
 ----------
 
-![faq_mount_012](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/region-zone/region_zone_001)
+![faq_mount_012](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/region-zone/region_zone_001.png)
 
 
 **资源的位置**
