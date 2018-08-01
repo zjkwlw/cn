@@ -114,9 +114,9 @@ IPTABLES -A OUTPUT -o lo -p all -j ACCEPT
 </table>
 
 多了 num 这一列， 这样我们就可以 看到刚才的规则对应的是 编号2。那么我们就可以进行删除了。
-
+```
 [root@jd ~]# iptables -D INPUT 2
-
+```
 删除INPUT链编号为2的规则。
 
 再 iptables -L -n 查看一下 已经被清除了。
