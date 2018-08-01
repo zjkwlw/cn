@@ -17,4 +17,6 @@ IP高防，通过以下几个简单步骤进行配置，即可使用高防服务
 - [非网站类规则](Non-Web-Service-Forwarding-Rule.md)
 - [网站类规则](Web-Service-Forwarding-Rule.md)
 - [放行回源IP](Whitelist-local-IP-subnet.md)
+- [修改DNS解析](Update-DNS-Settings.md)
 - [计费规则](../../Pricing/Billing-Rules.md)
+
