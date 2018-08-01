@@ -1,81 +1,39 @@
-# 创建账号
+# 删除快照
 
-在创建 MongoDB 实例时，系统已为您创建了 root 账号，拥有 MongoDB 的 root 权限，您可以使用此账号登录数据库后，创建其他账号。
+当您不再需要某个快照、或者快照个数超出额度的时候，您可以删除快照。
 
-## 创建账号命令
+## 操作指南
 
-> db.createUser(user, writeConcern)
+### 方案一： 在云硬盘详情页删除快照
 
-user文档格式如下
-```
-{ user: "<name>",
-  pwd: "<cleartext password>",
-  customData: { <any information> },
-  roles: [
-    { role: "<role>", db: "<database>" } | "<role>",
-    ...
-  ]
- }
-```
+1、打开京东云控制台，选择【弹性计算】-【云主机】-【云硬盘】；
 
-## 示例
+2、进入云硬盘列表页后找到需要删除快照的云硬盘，点击云硬盘名称跳转到其详情页面；
 
-### 创建管理员账号
+3、选择【快照】Tab页，点击操作列的【删除】按钮，弹出【删除快照】确认弹窗，点击【确定】确认删除快照。
 
-```
-use admin
-db.createUser(
-     {
-       user: "<name>"，
-       pwd:"<cleartext password>",
-       roles:[{role:"root",db:"admin"}]
-     }
-)
-```  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-005.jpg)
 
 
-### 创建数据库用户
+### 方案二： 在云硬盘快照列表页删除快照
 
-指定数据库创建用户，该用户只能访问该数据库。
-```
-use test
-db.createUser(
-   {
-     user: "<name>",
-     pwd: "<cleartext password>",
-     roles: ["readWrite", "dbAdmin"]
-   }
-) 
-```
+1、打开[京东云控制台](https://console.jdcloud.com/)，选择【弹性计算】-【云主机】-【云硬盘快照】，进入云硬盘快照列表页；
 
-## 常用角色
-
-- 数据库用户角色：read，readWrite
-- 数据库管理员角色：dbAdmin，dbOwner，userAdmin
-- 集群管理员角色：clusterAdmin，clusterManager，clusterMonitor，hostManager
-- 备份恢复角色：backup，restore
-- 所有库角色：readAnyDatabase，readWriteAnyDatabase,userAdminAnyDatabase,dbAdminAnyDatabase
-- 超级管理员角色：root 
+2、选择需要进行删除的快照，点击操作列【删除】按钮，弹出【删除快照】确认弹窗，点击【确定】确认删除快照。
 
 
-关于MongoDB创建用户的详情说明请参见“ [MongoDB官方文档](https://docs.mongodb.com/v3.2/reference/method/db.createUser/#local-database)”。
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-006.jpg)
+
+
+注：
 
 
 
-## 相关参考
-
-- [修改密码](Reset-Password.md)
+- 快照独立于云硬盘生命周期，删除快照不会对创建快照的云硬盘有任何影响；
 
 
 
-	
+- 快照删除后不可恢复，请谨慎操作；
 
-	
-
-
-
-
-	
-	
 
 

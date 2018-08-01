@@ -1,75 +1,38 @@
-# 创建账号
+# 恢复云硬盘
 
-在创建 MongoDB 实例时，系统已为您创建了 root 账号，拥有 MongoDB 的 root 权限，您可以使用此账号登录数据库后，创建其他账号。
+## 操作说明
+<br>
 
-## 创建账号命令
-
-> db.createUser(user, writeConcern)
-
-user文档格式如下
-```
-{ user: "<name>",
-  pwd: "<cleartext password>",
-  customData: { <any information> },
-  roles: [
-    { role: "<role>", db: "<database>" } | "<role>",
-    ...
-  ]
- }
-```
-
-## 示例
-
-### 创建管理员账号
-
-```
-use admin
-db.createUser(
-     {
-       user: "<name>"，
-       pwd:"<cleartext password>",
-       roles:[{role:"root",db:"admin"}]
-     }
-)
-```  
-
-
-### 创建数据库用户
-
-指定数据库创建用户，该用户只能访问该数据库。
-```
-use test
-db.createUser(
-   {
-     user: "<name>",
-     pwd: "<cleartext password>",
-     roles: ["readWrite", "dbAdmin"]
-   }
-) 
-```
-
-## 常用角色
-
-- 数据库用户角色：read，readWrite
-- 数据库管理员角色：dbAdmin，dbOwner，userAdmin
-- 集群管理员角色：clusterAdmin，clusterManager，clusterMonitor，hostManager
-- 备份恢复角色：backup，restore
-- 所有库角色：readAnyDatabase，readWriteAnyDatabase,userAdminAnyDatabase,dbAdminAnyDatabase
-- 超级管理员角色：root 
-
-
-关于MongoDB创建用户的详情说明请参见“ [MongoDB官方文档](https://docs.mongodb.com/v3.2/reference/method/db.createUser/#local-database)”。
+使用快照数据恢复云硬盘，可以使云硬盘的数据恢复到创建快照时的状态。
 
 
 
-## 相关参考
-
-- [修改密码](Reset-Password.md)
+- 仅可对制作快照的源硬盘进行数据恢复操作；
 
 
 
-	
+- 仅源硬盘处于可用状态时才能使用快照进行数据恢复操作；
 
+
+
+- 云硬盘恢复后，当前数据将被清除，请您谨慎操作。
+
+
+
+## 操作指南
+<br>
+
+1、打开[京东云控制台](https://console.jdcloud.com/)，选择【弹性计算】-【云主机】-【云硬盘】；
+
+2、点击需要执行恢复操作的云硬盘名称，进入云硬盘详情页；或者选择【弹性计算】-【云主机】-【云硬盘快照】，点击源硬盘名称进入云硬盘详情页；
+
+3、选择【快照】Tab页，点击操作列中的【恢复】按钮，基于指定快照恢复云硬盘（如云硬盘已处于已挂载状态，则云硬盘不可恢复）；
+
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/recover-snapshot-004.jpg)
+
+
+
+4、恢复完成，则相关信息更新。
 	
 
 
