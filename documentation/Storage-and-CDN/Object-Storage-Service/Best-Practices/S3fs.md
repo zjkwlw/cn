@@ -47,12 +47,12 @@ s3fs：手动挂载命令，其中bucketname为bucket名称、/new是本地挂�
 ```
 df -h
 ```
-1.png
 
+![查看挂载结果](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-072.png)
 
 **6.进入目录可以查看到object文件**
 
-2.png
+![查看object文件](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-073.png)
 
 **Tips：**
 

@@ -4,6 +4,8 @@
 
 1. 进入对象存储控制台，进入空间管理，在空间列表中单击您要访问的存储空间，进入后点击Object管理页签：
 
-2. 找到待删除的文件，点击“删除”按钮：image.png
+2. 找到待删除的文件，点击“删除”按钮：
+
+![删除Object](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-051.png)
 
 3. 点击“删除”按钮后会提示是否确定删除，点击“确定”则删除成功，文件删除后不可恢复。

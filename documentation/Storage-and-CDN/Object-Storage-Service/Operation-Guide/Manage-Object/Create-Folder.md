@@ -8,5 +8,8 @@
 
 1. 进入对象存储控制台，进入空间管理，在空间列表中单击任一的存储空间，并点击Object管理，进入Object管理列表页，点击新建文件夹：
 
+![新建文件夹](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-043.png)
+
 2. 在弹出的新建文件夹对话框中，按照提示文案的命名规则来输入文件夹名称，并单击确定完成创建：
 
+![完成创建](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-044.png)
