@@ -22,7 +22,7 @@
 2、选择需要进行删除的快照，点击操作列【删除】按钮，弹出【删除快照】确认弹窗，点击【确定】确认删除快照。
 
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-006.g)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-006.png)
 
 
 注：
