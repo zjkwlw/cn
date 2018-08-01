@@ -27,4 +27,5 @@
 
 - [创建实例](Create-Instance.md)
 - [计费规则](../../Pricing/Billing-Rules.md)
-- [常见问题](../../FAQ/FAQ.md)
+- [常见问题](../FAQ/FAQ.md)
+
