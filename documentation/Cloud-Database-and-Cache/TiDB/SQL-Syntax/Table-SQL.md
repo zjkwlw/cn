@@ -1,6 +1,6 @@
 # 表操作
 
-- ** 创建、查看和删除表 **
+## 创建、查看和删除表
 ```
 CREATE TABLE table_name column_name data_type constraint;
 ```
@@ -21,8 +21,7 @@ CREATE TABLE IF NOT EXISTS person (
 );
 ```
 
-<br>
-- ** 查看所有表 **
+## 查看所有表
 ```
 SHOW TABLES from db_name
 ```
@@ -31,7 +30,8 @@ SHOW TABLES from db_name
 SHOW TABLES FROM testdb;
 ```
 <br>
-- ** 查看建表语句 **
+
+## 查看建表语句
 ```
 SHOW CREATE TABLE table_name;
 ```
@@ -40,17 +40,13 @@ SHOW CREATE TABLE table_name;
 SHOW CREATE table person;
 ```
 
-<br>
-- 
-** 查看表的列 **
+## 查看表的列
 ```
 SHOW FULL COLUMNS table_name;
 例如：
 SHOW FULL COLUMNS FROM person;
 ```
-<br>
-- 
-** 删除表 **
+## 删除表
 ```
 DROP TABLE table_name;
 ```
