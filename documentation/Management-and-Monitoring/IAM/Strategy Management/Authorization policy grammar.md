@@ -57,58 +57,59 @@ Policy 的语法应符合 JSON 格式。如果您创建的授权策略不符合 
 
 # Policy 的语法描述：
 
-<policy> =
-{
-          <content>,
-          <version>
-}
+	<policy> =
+		{
+		          <content>,
+		          <version>
+		}
+		
+		其中 Content 的描述可以包含一组或多组 Permission 和 Resource 对：
+		
+		<content> = 
+		"content":[
+		          {
+		                    <permission>,
+		                    <resource>
+		          },
+		          {
+		                    <permission>,
+		                    <resource>
+		          }
+		]
+		
+		Permission 为（以管理员权限为例）：
+		
+		<permission> = 
+		"permission" : "R|M|D"
+		
+		Resource 中需要指定资源的类型和 IDs：
+		
+		<resource> =
+		"resource":[
+		          {
+		                    <ids>,
+		                    <type>
+		          }
+		]
+		
+		IDs 指定一个或多个资源（以指定资源 ID 为例）：
+		
+		<ids> = 
+		"ids":[
+		          "resource-id1",
+		          "resource-id2"
+		]
+		
+		Type 指定该资源的类型（"resource-type" 请参考 附表-1）：
+		
+		<type>  = 
+		"type":"resource-type"
+		
+		Policy 中的 Version 元素固定值为 2：
+		
+		<version> = 
+		"version":"2"
 
-其中 Content 的描述可以包含一组或多组 Permission 和 Resource 对：
-
-<content> = 
-"content":[
-          {
-                    <permission>,
-                    <resource>
-          },
-          {
-                    <permission>,
-                    <resource>
-          }
-]
-
-Permission 为（以管理员权限为例）：
-
-<permission> = 
-"permission" : "R|M|D"
-
-Resource 中需要指定资源的类型和 IDs：
-
-<resource> =
-"resource":[
-          {
-                    <ids>,
-                    <type>
-          }
-]
-
-IDs 指定一个或多个资源（以指定资源 ID 为例）：
-
-<ids> = 
-"ids":[
-          "resource-id1",
-          "resource-id2"
-]
-
-Type 指定该资源的类型（"resource-type" 请参考 附表-1）：
-
-<type>  = 
-"type":"resource-type"
-
-Policy 中的 Version 元素固定值为 2：
-
-<version> = 
-"version":"2"
 
 # Policy 示例
 下述 Policy 策略描述了如下授权场景：
@@ -121,37 +122,37 @@ Policy 中的 Version 元素固定值为 2：
 
 全部镜像资源的管理员权限
 
-{
-          "content":[{
-                    "permission":"M",
-                    "resource":[{
-                              "ids":["vpc-3dodmrqvz0"],
-                              "type":"vpc"
-                    }]
-          },
-          {
-                    "permission":"M|D",
-                    "resource":[{
-                              "ids":["mysql-hgrgehgage",
-                                       "mysql-grigg0k7w8",
-                                       "mysql-x53es4bxer"],
-                              "type":"database"
-                    }]
-          }, 
-          {
-                    "permission":"R",
-                    "resource":[{
-                              "ids":["i-p26ionqsok",
-                                       "i-37dotxi75d"],
-                              "type":"server"
-                    }]
-          },
-          {
-                    "permission":"M|D",
-                    "resource":[{
-                              "ids":["*"],
-                              "type":"image"
-                    }]
-          }],
-          "version":"2"
-}
+		{
+		          "content":[{
+		                    "permission":"M",
+		                    "resource":[{
+		                              "ids":["vpc-3dodmrqvz0"],
+		                              "type":"vpc"
+		                    }]
+		          },
+		          {
+		                    "permission":"M|D",
+		                    "resource":[{
+		                              "ids":["mysql-hgrgehgage",
+		                                       "mysql-grigg0k7w8",
+		                                       "mysql-x53es4bxer"],
+		                              "type":"database"
+		                    }]
+		          }, 
+		          {
+		                    "permission":"R",
+		                    "resource":[{
+		                              "ids":["i-p26ionqsok",
+		                                       "i-37dotxi75d"],
+		                              "type":"server"
+		                    }]
+		          },
+		          {
+		                    "permission":"M|D",
+		                    "resource":[{
+		                              "ids":["*"],
+		                              "type":"image"
+		                    }]
+		          }],
+		          "version":"2"
+		}
