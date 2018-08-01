@@ -18,15 +18,15 @@ CloudBerry下载地址：http://www.cloudberrylab.com/download-thanks.aspx?prod=
 
 步骤 1 在右侧的 Source 下拉菜单中点击“New Storage Account”，在弹框中选择S3 Compatible
 
-1.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-079.jpg)
 
 步骤 2 在弹出的对话框中，填写相应参数：
 
-2.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-080.jpg)
 
 Display name：显示名称，一般填自己的用户名即可。
 
-Service point：填写京东云兼容S3的服务域名。（兼容S3服务域名详见https://www.jdcloud.com/help/detail/1902/isCatalog/1）
+Service point：填写京东云兼容S3的服务域名。（兼容S3服务域名详见https://www.jdcloud.com/help/detail/1902/isCatalog/1 ）
 
 Access key、Secret key：接入 OSS 服务的 AK、SK。
 
@@ -38,8 +38,8 @@ Signature version：选择4
 
 步骤 3 单击“Test Connection”，测试是否能连接成功，或者直接单击“OK”进行连接。
 
-3.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-081.jpg)
 
 连接成功之后，将看到账户（如 jcloud）下面对应的Bucket列表，如下图所示。
 
-4.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-082.jpg)

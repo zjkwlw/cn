@@ -6,17 +6,17 @@
 
 2.进入【媒体处理服务】 >> 【全局设置】。
 
-eac89da04495d1f60b137081c068b29.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-009.png)
 
 3.在【选择地域】下，选中需要设置的地域后，为此地域设置回调规则。
 
 4.单击回调设置开关，显示回调设置内容，输入回调URL，勾选回调事件。
 
-2ca7a74b52bb05bef9897c91205fb2e.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-010.png)
 
 5.点击【保存设置】按钮，弹出提示弹框，单击确定，设置完成。
 
-2cf5f1a59da836a0b2667aa5b0aed54.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-011.png)
 
 6.回调规则查看与修改
 
@@ -26,6 +26,6 @@ eac89da04495d1f60b137081c068b29.png
 
   iii.关闭回调通知，需要单击回调设置开关按钮为灰色状态，点击保存设置。出现二次提示确认弹框后，提示：“当前回调通知功能将变为未配置状态，请确认是否保存设置？”点击确定，关闭成功。
 
-3d9f3fd8e52358ec4f1bdedc8957f3b.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-012.png)
 
-a42bdba2a45cca2183fd6ffac7d34d1.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-013.png)

@@ -13,4 +13,4 @@
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/r/60
 
-example旋转.jpg
+![旋转](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-059.jpg)

@@ -112,16 +112,18 @@
   herf:
 - name: SDK参考
   herf:
+- name: 用户协议
+  items:
+  - name: 服务条款
+    herf: User-Agreements/Service-Terms.md           
+    status: 0      
+  - name: SLA
+    herf: User-Agreements/SLA.md           
+    status: 0       
 - name: 相关资源
   items:
   - name: 文档历史记录
     herf: Related-Resources/Document-History.md     
-  - name: 服务条款
-    herf: Related-Resources/Service-Terms.md           
-    status: 0      
-  - name: SLA
-    herf: Related-Resources/SLA.md           
-    status: 0       
   - name: 备案
     herf: Related-Resources/Filing.md           
     status: 0        
