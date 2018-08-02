@@ -1,22 +1,12 @@
 # 应用场景
+## 企业ERP/移动办公
+适合企业ERP核心应用及移动办公的需求。成熟的企业级数据库SQL Server满足您处理复杂业务逻辑和对数据高一致性要求的场景；基于多可用区的主备架构给企业数据和业务提供了最大程度的高可靠保障；易于维护的特性能让您无须关注运维，专注于企业业务的发展。
+![企业ERP](https://img1.jcloudcs.com/cms/a479f226-05b3-41a8-8e8d-56c4ca327ea820170822180321.jpg)
 
-以下说明云数据库 MongoDB 的适用场景。
+## 电商/O2O
+面向电商交易及O2O场景，企业级数据库SQL Server解决电商中对交易数据及财务数据强一致性的苛刻要求，满足电商高并发的海量交易对性能的需求。 建议同时搭配云数据库MySQL用于存储商品数据，用户数据等，云缓存Redis集群用于缓存网站数据。
+![电商](https://img1.jcloudcs.com/cms/c928b175-bc75-4f7a-9a9d-0c0e9f87841820170822180330.jpg)
 
-## 同城容灾
-云数据库 MongoDB 支持多可用区部署模式，您可以将实例的主从节点与隐藏节点分别部署在不同的可用区，以提供同城容灾能力。当因不可抗力导致某一可用区不能提供服务时，MongoDB 服务可快速切换到另一可用区，确保服务的可用性。
-
-![同城容灾场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mogno-001.png)
-
-
-## 分服应用
-依托云数据库 MongoDB 完善的备份机制和根据时间点创建实例的能力，您可以快速基于某一实例的数据创建新的 MongoDB 实例，以满足游戏等分区服务类应用的快速滚服和合服的需求。
-
-![分服应用场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-002.png)
-
-## 相关参考
-
-- [产品优势](../Product-Introduction/Benefits.md)
-- [产品功能](../Product-Introduction/Functions.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [计费规则](../Pricing/Billing-Rules.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
+## 政府公众服务平台
+SQL Server丰富的功能可以满足政府公众服务平台的对数据库的各种需求；多可用区的主备架构可为政府公众服务平台提供稳定高效，安全可靠的数据服务，满足政府高可靠，高性能，高安全，低成本，易于维护的要求。
+![政府公众服务平台](https://img1.jcloudcs.com/cms/f7653bd5-64f6-4330-84fa-202a6462a87d20170822180339.jpg)
