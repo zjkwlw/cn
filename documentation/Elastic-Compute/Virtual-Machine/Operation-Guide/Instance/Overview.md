@@ -22,7 +22,7 @@
 
 ## 常用操作
 * [创建实例](Create-Instance.md)
-* [连接实例](Connect-To-Instance.md)
+* [连接实例](Connect-to-Instance.md)
 * [重置密码](Reset-Password.md)
 * [启动实例](Start-Instance.md)
 * [查看实例](Query-Instance-Info.md)
@@ -33,6 +33,6 @@
 * [删除实例](Delete-Instance)
 * [调整配置](Risize-Instance)
 * [重置系统](Rebuild-Instance)
-* [按配置计费实例转包年包月计费]()
+* [按配置计费实例转包年包月计费](Switch-from-Postpaid-to-Prepaid.md)
 * [搜索实例](Search-Instance.md)
-* [导出实例]()
+* [导出实例](Export-Instance.md)
