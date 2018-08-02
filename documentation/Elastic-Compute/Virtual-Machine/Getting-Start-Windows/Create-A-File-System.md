@@ -3,9 +3,9 @@
 下文以Windows Server 2012 R2 标准版操作系统为例，介绍具体操作步骤：
 1. 登录Windows实例后，右键点击左下角的【开始】按钮，在弹出的菜单中选择“磁盘管理”，弹出磁盘管理窗口，选择磁盘及对应的分区形式后，单击确定按钮；
 ![enter description here][1]
-2. 选择未分配的磁盘，右键单击“新建简单卷”；
+2. 选择未分配的磁盘，右键单击【新建简单卷】；
 ![enter description here][2]
-3. 在弹出的“新建简单卷向导”弹窗上点击“下一步”；
+3. 在弹出的“新建简单卷向导”弹窗上点击【下一步】；
 ![enter description here][3]
 4. 指定卷大小；
 ![enter description here][4]
@@ -13,7 +13,7 @@
 ![enter description here][5]
 6. 格式化磁盘分区；
 ![enter description here][6]
-7. 确认已选配置后，点击“完成”按钮，完成新建卷向导；或点击上一步返回修改已选设置。
+7. 确认已选配置后，点击【完成】按钮，完成新建卷向导；或点击上一步返回修改已选设置。
 ![enter description here][7]
 8. 完成以上设置后，即可在“我的电脑”页面查看新添加的云硬盘；
 ![enter description here][8]
