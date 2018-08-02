@@ -1,74 +1,41 @@
-# 创建云硬盘快照
+# Windows分区、格式化和创建文件系统
 
 <br>
+以Windows Server 2012 R2 标准版操作系统为例，分区、格式化和创建文件系统步骤参考下方说明：
 
-##  操作说明
-
-快照是京东云提供的数据备份方式。快照保留了某个指定时间点之前云硬盘上的所有数据，且不占用用户的存储空间。
-
+【第一步】登录Windows主机后，右键点击左下角的“开始”按钮，在弹出的菜单中选择“磁盘管理”，弹出磁盘管理窗口，选择磁盘分区形式后，单击确定按钮；
 
 
-- 同一地域下单用户快照的配额为15块；
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_001.jpg)
+
+【第二步】选择未分配的磁盘，右键单击“新建简单卷”；
+
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_002.jpg)
+
+【第三步】在弹出的“新建简单卷向导”弹窗上点击“下一步”；
+
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_003.png)
+
+【第四步】 指定卷大小；
 
 
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_004.jpg)
 
-- 为保证数据完整性，请您在创建快照之前，停止对云硬盘进行写入操作，以保证快照数据的完整性；
+【第五步】 设置磁盘驱动器号；
 
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_005.jpg)
 
-
-- 在执行创建快照前，建议您对云硬盘进行卸载操作，创建快照后再重新挂载到云主机上；
-
-
-
-- 手动快照的生命周期独立于云硬盘，请您及时删除不需要的快照；
+【第六步】 格式化磁盘分区；
 
 
-
-- 创建快照所需时间取决于云硬盘容量的大小，云硬盘容量越大耗时越长；
-
-<br>
-
-##  操作指南
-
-### 方法一：在云硬盘列表页创建快照
-
-1、打开[京东云控制台](https://console.jdcloud.com/)，选择【弹性计算】-【云主机】-【云硬盘】；
-
-2、进入京东云控制台云硬盘列表页，选择需要制作快照的云硬盘，点击操作列【制作快照】按钮，在弹出的制作快照窗口，输入快照名称、描述，点击【确认】后开始创建快照。
-
-3、快照制作完成，则相关信息更新。
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-001.jpg)
-<br>
-### 方法二：在云硬盘详情页创建快照
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_006.jpg)
 
 
-1、打开[京东云控制台](https://console.jdcloud.com/)，选择【弹性计算】-【云主机】-【云硬盘】；
+【第七步】确认已选配置后，点击“完成”按钮，完成新建卷向导；或点击上一步返回修改已选设置。
 
-2、进入云硬盘列表页后找到需要制作快照的云硬盘，点击对应云硬盘名称跳转到其详情页面；
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_007.jpg)
 
-3、点击右上角【操作】-【制作快照】按钮，弹出制作快照窗口；
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-002.jpg)
-
-4、输入快照名称、描述，点击【确认】后开始为云硬盘创建快照；
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Create-CloudDisk-SnapShot/create-snapshot-003.jpg)
-
-5、快照制作完成，则相关信息更新。
+【第八步】完成以上设置后，即可在“我的电脑”页面查看新添加的云硬盘；
 
 
-
-
-
-	
-
-	
-
-
-
-
-	
-	
-
-
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_008.png)
