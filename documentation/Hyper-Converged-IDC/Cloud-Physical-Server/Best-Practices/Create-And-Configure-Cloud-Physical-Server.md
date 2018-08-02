@@ -55,7 +55,7 @@
 ![配置服务器](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS018.png)
 
 **7、 配置购买时长**
-购买时长1-9个月、1、2、3年。
+购买时长1-9个月、1、2、3年。长期购买有优惠，详情参见购买页面。
 
 ![配置购买时长](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS019.png)
 
