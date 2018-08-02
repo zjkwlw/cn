@@ -17,4 +17,4 @@
 
 http://oss.cn-north-1.jcloudcs.com/downloads/face.jpg?x-oss-process=img/analyse/f/2
 
-example人脸识别.jpg
+![人脸识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-064.jpg)

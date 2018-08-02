@@ -26,10 +26,10 @@ c.原图保护支持图片处理新老接口，也同样支持OSS域名及兼容
 
 2.进入图片处理页面，该页面可查看当前Bucket所建图片样式并进行设置。
 
-原图1.jpg
+![原图1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-066.jpg)
 
 3.点击 “原图保护设置”进入设置页面，可选择开启原图保护，并设置保护后缀。
 
-原图2.jpg
+![原图2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-067.jpg)
 
 4.设置好您所需的选项后，点击确定完成当前Bucket原图保护的设置。

@@ -31,7 +31,7 @@ git clone https://github.com/s3tools/s3cmd.git
 
 文件目录：s3cmd/S3/S3.py，其中第254行修改为：self.endpoint_requires_signature_v4 = True
 
-S3CMD修改.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-091.png)
 
 **S3cmd安装**
 ```
@@ -124,11 +124,11 @@ website_index = index.html
 
 Linux shell环境下输入s3cmd并回车，如下所示即可使用：
 
-检验S3cmd命令是否可用.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-092.png)
 
 如下以Make bucket为例，测试S3cmd是否可用：
 
-S3命令测试.png
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-093.png)
 
 ## 支持功能
 

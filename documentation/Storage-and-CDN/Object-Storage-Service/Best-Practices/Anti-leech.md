@@ -22,11 +22,11 @@ Referer是HTTP请求表头的一个参数，不同场景下HTTP请求表头的Re
 
 进入京东云对象存储页面，进入某一Bucket下空间设置-权限设置页面，如下图所示：
 
-1.jpg
+![权限设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-075.jpg)
 
 将该Bucket的读写权限设置为自定义权限后，点击添加自定义权限，如下图所示：
 
-2.jpg
+![自定义权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-076.jpg)
 
 勾选“设置”Referer白名单，即可设置Referer白名单及设置是否允许Referer为空。
 
@@ -35,30 +35,30 @@ Referer是HTTP请求表头的一个参数，不同场景下HTTP请求表头的Re
 
 下面将介绍不同设置对应的不同结果：
 
-假设源站为http://jd.com/，盗链网站为http://jd-steal.com/
+假设源站为http://jd.com/ ，盗链网站为http://jd-steal.com/
 
 1.设置Referer白名单，且不允许referer为空，能实现防盗链功能
 
-3.jpg
+![白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-077.jpg)
 
 访问结果如下：
 
 |访问类型|说明|结果|
 |-|-|-|
-|http://test-refer.oss.cn-east-1.jcloudcs.com/example.jpg|直接访问，Referer为空|不允许Referer为空的请求，返回403|
+|http://test-refer.oss.cn-east-1.jcloudcs.com/example.jpg |直接访问，Referer为空|不允许Referer为空的请求，返回403|
 |http://jd.com/|请求来自于与源站|访问成功|
 |http://jd-steal.com/|请求来自于盗链网站|返回403|
 
 2.设置Referer白名单，且允许referer为空，能实现防盗链功能
 
-4.jpg
+![白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-078.jpg)
 
 访问结果如下：
 
 |访问类型|说明|结果|
 |-|-|-|
-|http://test-refer.oss.cn-east-1.jcloudcs.com/example.jpg|直接访问，Referer为空|允许Referer为空的请求，访问成功|
-|http://jd.com/|请求来自于与源站|访问成功|
-|http://jd-steal.com/|请求来自于盗链网站|返回403|
+|http://test-refer.oss.cn-east-1.jcloudcs.com/example.jpg |直接访问，Referer为空|允许Referer为空的请求，访问成功|
+|http://jd.com/ |请求来自于与源站|访问成功|
+|http://jd-steal.com/ |请求来自于盗链网站|返回403|
 
 3.设置Referer白名单为空，若HTTP请求中若带有Referer，OSS将拒绝所有网站发起的请求，包括信任网站，所以不推荐使用该配置。若您需要实现防盗链功能，请使用前两种配置方案。

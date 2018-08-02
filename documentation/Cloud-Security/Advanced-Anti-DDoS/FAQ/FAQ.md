@@ -105,5 +105,6 @@ A：支持。IP高防支持自定义端口，满足非标端口的网站类业�
 
 A：如下图所示，开启HTTP回源之后，经IP高防回源到服务器时，会转换为HTTP的协议回源。默认使用的回源端口为80。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/HTTP%20rule%2001.png)
+
 如果HTTP自定义了端口，则使用自定义的端口回源。
 

@@ -110,7 +110,7 @@ linux下使用crobtab如下：
 
 命令crontab -e，然后添加定时任务，每隔一天执行一次：
 
-1.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-090.jpg)
 
 注意：如果上一个定时任务没有完成，新的迁移任务是不会启动的，这样做是为了保证迁移过程中数据一致。
 

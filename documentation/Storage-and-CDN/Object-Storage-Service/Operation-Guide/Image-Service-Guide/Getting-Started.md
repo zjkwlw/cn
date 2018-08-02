@@ -10,11 +10,12 @@
 
 3.在概览页点击图片处理进入图片处理页面
 
-111.jpg
+![图片处理](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-054.jpg)
 
 4.点击新建样式，在该页面可以新建您需要的图片样式，如下图所示：
 
-11111.png11231.jpg
+![新建图片样式](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-056.jpg)
+
 
 规则说明：
 
@@ -22,25 +23,25 @@
 
 （2）缩放类型：选择缩放类型，可选等比例缩放、指定宽高居中裁剪、指定宽高长边优先
 
-        选择等比例缩放，需输入缩放百分比
+   * 选择等比例缩放，需输入缩放百分
 
-        选择指定宽高居中裁剪，需输入宽高尺寸
+   * 选择指定宽高居中裁剪，需输入宽高尺寸
 
 （3）选择指定宽高长边优先，需输入宽高尺寸（“长边”是指原尺寸与目标尺寸的比值大的那条边）
 
-        输出格式：可选与原图一致、jpg、png、gif
+   * 输出格式：可选与原图一致、jpg、png、gif
 
-        输出质量：可选择图片质量范围1-100%
+   * 输出质量：可选择图片质量范围1-100%
 
 （4）水印：可选择无水印、图片水印
 
-        选择图片水印后需指定水印图片，需输入当前空间下文件名称或本地上传图片
+   * 选择图片水印后需指定水印图片，需输入当前空间下文件名称或本地上传图片
 
 （5）图片渐进：在网速较慢时提供由模糊到清晰的渐进显示功能
 
 （6）图片旋转：选择图片旋转类型，可选择不开启旋转、自定义角度旋转、根据exif旋转。
 
-        选择自定义角度旋转需输入旋转角度，将对图片进行顺时针旋转
+   * 选择自定义角度旋转需输入旋转角度，将对图片进行顺时针旋转
 
 5. 编辑好图片样式后单击确定保存样式。
 
@@ -64,4 +65,4 @@ img-style-example样式：缩放80%、旋转60°
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgalias/img-style-example
 
-example样式.jpg
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-057.jpg)
