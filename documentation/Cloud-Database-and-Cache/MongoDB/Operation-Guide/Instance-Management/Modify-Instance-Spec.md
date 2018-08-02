@@ -49,8 +49,8 @@ MongoDB 实例支持变更的配置项，包括：
 
 ## 相关参考
 
-- [创建实例](../../Getting-Started/Create-Instance.md)
-- [连接实例](../../Getting-Started/Connect-Instance.md)
+- [创建实例](../../../Getting-Started/Create-Instance.md)
+- [连接实例](../../../Getting-Started/Connect-Instance.md)
 - [续费实例](Renewal-Instructions.md)
 - [重启实例](Restart-Instance.md)
 - [删除实例](Delete-Instance.md)
