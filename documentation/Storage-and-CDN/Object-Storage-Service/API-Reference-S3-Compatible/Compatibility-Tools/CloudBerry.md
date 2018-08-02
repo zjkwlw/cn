@@ -16,7 +16,7 @@ CloudBerry是一个在windows下使用的用来操作云存储的工具，该工
 
 安装完成后选择File->New S3 Compatible Account->S3 Compatible,弹出如下界面：
 
-cd1.jpg
+![S3 Compatible](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-070.jpg)
 
 注意：不要勾选SSL，签名版本使用4
 
@@ -26,4 +26,4 @@ cd1.jpg
 
 回到程序主界面，选择刚才创建的账户test-cloudberry，结果如下图，下面您就可以操作数据了。
 
-CD2.jpg
+![管理页面](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-071.jpg)

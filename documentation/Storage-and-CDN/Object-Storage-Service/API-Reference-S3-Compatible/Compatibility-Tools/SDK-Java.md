@@ -1,6 +1,6 @@
 # SDK-Java
 
-1.安装
+## 安装
 
 如果您创建了maven项目，只要在pom.xml中添加依赖包就可以了：
 ```
@@ -11,7 +11,7 @@
 </dependency>
 ```
 
-2.创建client
+## 创建client
 
 下面是一个创建client的例子，更多信息请参考：http://docs.aws.amazon.com/zh_cn/sdk-for-java/v1/developer-guide/examples-s3.html   
 ```

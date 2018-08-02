@@ -6,7 +6,7 @@
 
 在此次功能升级之后，控制台中原有的防盗链Referer设置必须在“自定义权限”的Bucket Policy中进行设置，具体内容可参考下图：
 
-图片.png
+![Policy](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-074.png)
 
 为保障已经设置了Bucket ACL和防盗链Referer的Bucket在上线前后系统行为一致（规则语义不变），若您之前设置了防盗链Referer，则对权限策略进行平滑迁移，各种情况下的鉴权逻辑如下：
 
