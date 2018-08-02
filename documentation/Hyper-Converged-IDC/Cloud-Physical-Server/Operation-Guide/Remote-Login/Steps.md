@@ -10,7 +10,8 @@
 
 **3、远程登陆**
 
-下载远程链接软件Putty，参考下载地址：https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html.打开Putty客户端，在PuTTY Configuration 窗口中输入以下内容：
+下载远程链接软件Putty，参考下载地址：https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html.
+打开Putty客户端，在PuTTY Configuration 窗口中输入以下内容：
 - Host  Name：服务器的外网IP地址
 -	Port：服务器的端口，必须填22。
 -	Connect type：选择“SSH”。
