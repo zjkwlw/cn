@@ -74,44 +74,13 @@ IPTABLES -A OUTPUT -o lo -p all -j ACCEPT
 [root@jd ~]# iptables -L -n --line-number
 ```
 
-<table border="0">
-<tr>
-  <td>num</td>
-  <td>target</td>
-  <td>prot</td>
-  <td>opt</td>
-  <td>source</td>
-  <td>destination</td>
-  <td>&nbsp;</td>
-</tr>
-<tr>
-  <td>1</td>
-  <td>DROP</td>
-  <td>tcp</td>
-  <td>--</td>
-  <td>0.0.0.0/0</td>
-  <td>0.0.0.0/0</td>
-  <td>tcp dpt:3306</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td>DROP</td>
-  <td>tcp</td>
-  <td>--</td>
-  <td>0.0.0.0/0</td>
-  <td>0.0.0.0/0</td>
-  <td>tcp dpt:21</td>
-</tr>
-<tr>
-  <td>1</td>
-  <td>DROP</td>
-  <td>tcp</td>
-  <td>--</td>
-  <td>0.0.0.0/0</td>
-  <td>0.0.0.0/0</td>
-  <td>tcp dpt:80</td>
-</tr>
-</table>
+```
+num target     prot opt source               destination
+1    DROP       tcp -- 0.0.0.0/0            0.0.0.0/0           tcp dpt:3306
+2    DROP       tcp -- 0.0.0.0/0            0.0.0.0/0           tcp dpt:21
+3    DROP       tcp -- 0.0.0.0/0            0.0.0.0/0           tcp dpt:80
+```
+ 
 
 多了 num 这一列， 这样我们就可以 看到刚才的规则对应的是 编号2。那么我们就可以进行删除了。
 ```
