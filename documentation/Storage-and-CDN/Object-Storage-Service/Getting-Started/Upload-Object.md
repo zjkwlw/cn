@@ -5,12 +5,15 @@
 1. 进入对象存储控制台，进入空间管理，在空间列表中单击您要向其中上传文件的存储空间。
 
 2. 单击后进入到该空间的文件管理列表页，点击“上传”按钮：
-ad97d029a9e41ac51af13b6fe8dee0e.png
+
+![上传](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-012.png)
 
 3. 点击后出现如下弹窗,支持批量上传。
-ba82a6612e39e541d5ad6c7c02e0256.png
+
+![批量上传](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-013.png)
 
 4. 单击弹窗中的“文件上传”按钮，选择待上传的文件后，单击“确定上传”按钮后开始上传：
-26214ab29dd00a60098caeb12ba3a61.png
+
+![文件上传](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-014.png)
 
 5. 上传完成后单击“关闭”按钮关闭弹窗。

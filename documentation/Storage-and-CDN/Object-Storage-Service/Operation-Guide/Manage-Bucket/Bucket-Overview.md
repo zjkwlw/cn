@@ -6,7 +6,7 @@
 
 若要访问并查看某个存储空间，在登录京东云控制台后选择对象存储->空间管理，进入空间管理页面后，单击待访问的存储空间，会进入到该存储空间的概览页，效果如下图：
 
-image.png
+![空间概览](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-026.png)
 
 在本页中展示的内容相关说明如下：
 

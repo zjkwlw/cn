@@ -1,13 +1,18 @@
 # SDK-Python
 
-1.安装boto3
+## 概述
 
+若您需要使用Python来访问京东云的对象存储服务，我们可以使用第三方的boto3接口。它可以看作是符合AWS S3 API标准的Python SDK。关于如何使用boto3，请参考https://boto3.readthedocs.io/en/latest/
+
+## 安装pip和boto3
+
+pip的安装：https://pip.pypa.io/en/stable/installing/
 使用aws sdk-python前，您需要先安装boto3包，命令如下（请确定pip已经安装）：
 ```
 pip install boto3
 ```
 
-2.创建client
+## 创建client
 
 下面我们给出了一个创建client的例子，更多信息请参考：http://boto3.readthedocs.io/en/latest/reference/services/s3.html
 ```

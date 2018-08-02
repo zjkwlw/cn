@@ -1,6 +1,12 @@
 # SDK-Android
 
-1.由于SDK-Android存在兼容问题，为了正常使用SDK-Android，请您进行如下操作。
+# 概述
+
+您可以使用Android SDK管理京东云对象存储，可从https://github.com/aws/aws-sdk-android 下载Android Source Code
+
+#  操作
+
+由于android sdk用chunk 方式进行传输，并且把chunk-signature放置在body中，oss不支持这种case；sdk中支持的参数 S3ClientOptions.builder.disableChunkedEncoding在判断的时候并没有采用，因而需要更深层次的hack，需要继承AWSS3V4Signer.java并且覆盖原始的processRequestPayload（计算payload的签名并放在body的开头）和calculateContentHash（长度包含签名部分），代码如下：
 ```
 package com.amazonaws.demo.s3transferutility;
  import com.amazonaws.AmazonClientException;
@@ -89,6 +95,6 @@ SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class);
          .build();
  sS3Client.setS3ClientOptions(options);
 ```
-2.查看完整demo
+## Demo下载
 
 下载地址：http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/android-sdk/s3-android-demo.zip
