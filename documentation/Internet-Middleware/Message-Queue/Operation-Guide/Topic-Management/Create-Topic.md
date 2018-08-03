@@ -8,7 +8,7 @@
 
 ### 2.填写完Topic信息，点击“创建”按钮
 页面刷新，完成新topic的创建
- ![创建topic步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/创建topic-02.png)
+ ![创建topic步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/创建topic-02.png)  
 topic名称可以按照提示信息输入，不可修改。  
 消息类型分为无序消息和全局顺序消息：  
 - 无序消息：不保证先入先出（FIFO）的顺序消费，包含普通消息和延时消息。
