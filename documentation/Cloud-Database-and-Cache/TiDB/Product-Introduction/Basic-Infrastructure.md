@@ -11,4 +11,4 @@ TiKV Server 负责存储数据，从外部看 TiKV 是一个分布式的提供�
 Placement Driver (简称 PD) 是整个集群的管理模块，负责存储集群的元信息，对 TiKV 集群进行调度和负载均衡，并分配全局唯一且递增的事务 ID。
 
 **架构图**
-![基础架构](../../../../../image/TiDB/Basic-Infrastructure.png)
+![基础架构](../../../../image/TiDB/Basic-Infrastructure.png)
