@@ -22,3 +22,6 @@
 [云主机计费规则](../Pricing/Billing-Rules.md)
 
 [价格计算器][1]
+
+
+  [1]: https://www.jdcloud.com/calculator/calHost

@@ -25,6 +25,7 @@
    * 共享镜像：由其他京东云用户通过镜像共享功能所分享而来的用户自定义镜像。共享镜像仅可在相同地域下用于创建云主机，不可进行基本信息修改、删除等操作，若发起共享的用户取消了共享，则该镜像会从列表中自动删除。
    * 镜像市场镜像：由入驻云市场的服务商所提供的镜像，集成了针对不同业务场景的运行环境或软件，方便用户快速部署业务，所有用户均可以使用。       
 * 规格：
+  
   提供**通用**、**计算**、**内存优化**、**高频计算**四类实例规格，从最小规格1C1GB（如g.s1.micro）到最大规格72C288GB（如g.n2.18xlarge），您可根据不同应用量级选择最优CPU内存比例的实例规格，详见[实例规格](../Introduction/Instance-Type-Family.md)。
 * 存储：
   
@@ -53,22 +54,35 @@
     * 密码设置：密码同时用于远程登录和控制台VNC登录，可以选择“立即设置”密码，也可以选择“暂不设置”（系统会以短信和邮件方式发送默认密码），实例创建后支持修改。
     * 密钥设置：对于Linux系统，可以选择SSH密钥登录，若希望采用密钥登录形式须先创建或导入密钥，详见[创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md) 。
 * 购买量：
+    
     在完成全部配置选择后，需要确定购买实例的数量，购买数量受限该地域您云主机、云硬盘、公网IP限额以及所选子网剩余IP数量，若限额不够，可通过[提交工单][1]提升限额。 
 
     了解以上配置项如何设置之后，可参考下篇文档在控制台创建一台Linux云主机实例。
 
+## 相关参考
+
 [计费规则](../Pricing/Billing-Rules.md)
+
 [地域与可用区]
+
 [实例模板](../Operation-Guide/Instance-Template/Overview.md)
+
 [高可用组]
+
 [实例规格](../Introduction/Instance-Type-Family.md)
+
 [云硬盘类型]
+
 [私有网络](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md)
-[子网](../../..//Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md)
+
+[子网](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md)
+
 [安全组概述](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md)
+
 [弹性公网IP计费规则](../../../Networking/Elastic-IP/Pricing/Billing-Rules.md)
+
 [创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)
-[提交工单][1]
+
 
 
   [1]: https://ticket.jdcloud.com/myorder/submit
