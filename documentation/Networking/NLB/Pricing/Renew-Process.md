@@ -1,9 +1,9 @@
 # 续费流程
 
-本文介绍 MongoDB 实例的续费入口。
+本文介绍网络负载均衡的续费入口。
 
 
-## 入口1：[MongoDB 控制台](https://mongodb-console.jdcloud.com/mongodb)
+## 入口1：[网络负载均衡控制台](https://cns-console.jdcloud.com/host/loadBalance/list)
 1. 进入[京东云控制台]()。
 2. 通过页头导航，依次点击 **产品** >  **MongoDB**,打开“实例列表”页面；也可以通过左侧菜单，依次点击 **数据库与缓存** > **MongoDB**,打开“实例列表”页面。
 
