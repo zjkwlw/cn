@@ -2,7 +2,7 @@
 
 1. 通过菜单-网络-负载均衡进入负载均衡列表页。
 
- 	![ALB列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-015.png)
+ 	![ALB列表页](../../../image/Networking/NLB/ALB-015.png)
 
 1. 点击“创建”新建一个负载均衡实例。
 
