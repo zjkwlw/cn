@@ -9,7 +9,7 @@
    <tr>
       <td> Wndows </td>
       <td> VNC 登录<br>远程登录软件登录<br>密码登录  </td>
-      <td colspan="3"> VNC登录 </td>
+      <td rowspan="3"> VNC登录 </td>
    </tr>
    <tr>     
       <td> Linux </td>
