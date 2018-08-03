@@ -4,7 +4,7 @@
 2. 在云主机列表中，点击操作列下的【移除】按钮即可将该云主机与所选安全组解绑。
 
 3. 如果当前安全组是云主机所绑定的唯一安全组，在则在为云主机绑定其他安全组之前，无法移除当前安全组。
-![](../../../../image/vm/Operation-Guide-SG-unbind1.png)
+![](../../../../../image/vm/Operation-Guide-SG-unbind1.png)
 
 
   [1]: https://cns-console.jdcloud.com/host/netSecurity/list

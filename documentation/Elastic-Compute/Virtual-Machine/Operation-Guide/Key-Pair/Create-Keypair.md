@@ -7,7 +7,7 @@
    B. 使用已有公钥：将您本地的公钥文件上传到京东云，以此种方式创建时请确保您本地保存有与公钥配对的私钥。
 5. 创建成功后，可以在密钥的详情页内查看公钥明文信息。
 注意：若选择创建新密钥对，创建后控制台会提供下载私钥界面，请用户务必需要保存好对应的私钥，并确保私钥不在Internet上传播。京东云不会保存您的私钥，下载私钥的链接只在10分钟内有效，请及时下载。
-![](../../../../image/vm/Operation-Guide-keypair-create1.png)
+![](../../../../../image/vm/Operation-Guide-keypair-create1.png)
 
 
   [1]: https://cns-console.jdcloud.com/host/ssh/list

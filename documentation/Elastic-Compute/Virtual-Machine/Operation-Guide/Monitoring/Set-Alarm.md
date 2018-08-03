@@ -5,11 +5,11 @@
 2. 找到您所需要查看监控数据的实例，点击操作项内“监控表”进入监控详情页
 3. 点击【报警规则标签】切换至报警规则选项，点击新增报警。
 4. 支持针对多个实例同时设置报警规则。
-![](../../../../image/vm/Operation-Guide-Monitor-1.png)
+![](../../../../../image/vm/Operation-Guide-Monitor-1.png)
 5. 可选择使用当前已有报警规则模板或新建报警规则，也可将配置后的规则设置成新的报警规则模板以方便下次使用。
-![](../../../../image/vm/Operation-Guide-Monitor-2.png)
+![](../../../../../image/vm/Operation-Guide-Monitor-2.png)
 6. 若选择新建报警规则，需要配置监控项、统计周期、统计方法、计算方式、阈值及持续周期。
-![](../../../../image/vm/Operation-Guide-Monitor-3.png)
+![](../../../../../image/vm/Operation-Guide-Monitor-3.png)
 针对实例，以上各项支持情况如下：
 
 | **监控项**   | CPU使用率、内存使用率、磁盘读流量、磁盘写流量、网络进流量及网络出流量 |
@@ -20,7 +20,7 @@
 |  **阈值**   |   根据不同监控项不同，若为使用率则最小值为0%，最大值为100%  |
 |  **持续周期**   | 1、2、3及5，默认为1，统计周期内监控项的值持续超过阈值则计数加1，否则则清零，若该计数超过设置值则触发报警    |
 7. 设置报警通知联系人，支持设置联系人或联系人组，完成配置后即可正常监测实例运行状况。
-![](../../../../image/vm/Operation-Guide-Monitor-4.png)
+![](../../../../../image/vm/Operation-Guide-Monitor-4.png)
 
 
   [1]: ./images/Operation-Guide-Monitor-1.png "Operation-Guide-Monitor-1.png"
