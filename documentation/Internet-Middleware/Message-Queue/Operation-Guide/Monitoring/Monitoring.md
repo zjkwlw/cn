@@ -23,7 +23,7 @@ Topic | 生产的TPS（条/秒）| 每秒钟生产的消息数量|
 Topic| 已发布消息的数量(个)|生产者发送消息到主题的消息数量|
 Topic|已发布消息的请求量(次)|生产者发送消息到主题的请求数量|
 Topic| 已发布消息的大小(byte)|生产者发送消息到主题的消息大小|
-Consumer Group||消费的TPS（条/秒）|每秒钟消费的消息数|
+Consumer Group| 消费的TPS（条/秒）|每秒钟消费的消息数|
 Consumer Group| 堆积消息数量（个）|
 Consumer Group| 接收消息请求量(次)|
 Consumer Group|接收的消息数量（个）|消费者从CGID拉取消息的消息数量|
