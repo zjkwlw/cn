@@ -35,12 +35,12 @@ VNC登陆的场景至少包括以下几种：
 * 无法通过远程登录软件或密钥登录时，通过 VNC 登陆来登录实例。
 
 1. 在实例列表的操作列，点击【远程连接】即可通过 VNC 连接至Linux实例。
-![connect-console][1]
+![](../../../../image/vm/Getting-Start-Linux-Connect-console.png)
 
 2. 点击VNC之后进入到登录页面
 * 默认用户名：root        
 * 密码：为您创建实例时设置的实例密码 
-![connect-vnc][2]
+![](../../../../image/vm/Getting-Start-Linux-Connect-vnc.png)
 
 请注意：
 * 同一浏览器下，同一时间只支持使用VNC登录一台实例。
@@ -63,25 +63,25 @@ VNC登陆的场景至少包括以下几种：
 * 协议：SSH
 * 主机：实例所绑定的公网IP，可在实例列表查询
 * 端口号：22
-![connect-xshell][3]
+![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell.png)
 
 3.选择用户身份认证
 * 密码登录
   * 方法：选择Password
   * 用户名：默认用户名为root
-![connect-xshell1][4]
+![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell1.png)
   * 点击确定，连接实例，如下图：
-![connect-xshell2][5]
+![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell2.png)
 * 密钥登录
   *  方法：选择Public Key
   *  用户名：默认用户名为root
   *  用户密钥：点击【浏览】-->【导入】，打开弹窗后找到本地保存的私钥，点击【打开】，返回用户密钥配置窗口。
-![connect-xshell3][6] 
+![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell3.png)
   * 选中导入的密钥后，点击【确定】，可以看到该密钥显示在“用户密钥”处。再次点击【确定】。
   * 在会话连接确认窗口中，选择【连接】，选择以何种方式接受实例密钥。
-![connect-xshell4][7]
+![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell4.png)
   * 若连接成功，显示如下图，若连接失败，请确认公网IP地址是否输入正确，并查看安全组和网络ACL配置。
-![connect-xshell5][8]
+![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell5.png)
 
 ## 本地为Linux/Mac OS，使用SSH登录Linux实例
 Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终端（Terminal）后运行以下命令，随后输入该实例root用户的密码，输入正确即可连接实例。

@@ -35,7 +35,7 @@ sh auto_fdisk.sh /dev/vdb jddata1 ext4
 ```
 fdisk -l
 ```
-![mount1][2]
+![](../../../../image/vm/Getting-Start-Linux-mount.png)
 
 2. 您可以通过如下命令完成分区，/dev/vdb请您修改为需要分区的设备名
 
@@ -43,25 +43,25 @@ fdisk -l
 fdisk /dev/vdb
 ```
 输入命令后，依次输入 n, p, 1, 以及 两次回车，然后是 wq，完成保存。 这样再次通过 fdisk -l 查看时，你可以看到新建的分区/dev/vdb1
-![enter description here][3]
+![](../../../../image/vm/Getting-Start-Linux-mount1.png)
 
 注：如您创建的硬盘容量大于2T，请不要使用分区或参考如下步骤使用parted分区：
 
 1）创建分区表，选择GPT格式：
-![enter description here][4]
+![](../../../../image/vm/Getting-Start-Linux-mount2.png)
 
 2）创建分区
-![enter description here][5]
+![](../../../../image/vm/Getting-Start-Linux-mount3.png)
 
 3）再次运行fdisk -l命令，确认分区
-![enter description here][6]
+![](../../../../image/vm/Getting-Start-Linux-mount4.png)
 
 3. 之后您需要对分区后的硬盘进行格式化，命令如下：
 
 ```
 mkfs -t ext4 /dev/vdb1
 ```
-![enter description here][7]
+![](../../../../image/vm/Getting-Start-Linux-mount5.png)
 
 备注：本示例创建了ext4格式的文件系统，您也可以选择创建其他文件系统。为了从文件系统层面保证数据的完整性和可用性，不建议使用ext2等不提供jounral机制的格式。
 
@@ -78,7 +78,8 @@ blkid /dev/vdb1
 ```
 
 6. 写入/etc/fstab文件实现云硬盘挂载
-![enter description here][8]
+
+![](../../../../image/vm/Getting-Start-Linux-mount6.png)
 
 **请注意，若系统为Centos 7以上，写入fstab时必须使用nofail参数，否则若对当前云主机制作私有镜像，基于该私有镜像创建的新云主机将无法正常启动。**
 

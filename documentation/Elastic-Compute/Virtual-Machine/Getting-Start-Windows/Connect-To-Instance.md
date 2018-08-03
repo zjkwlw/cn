@@ -35,12 +35,12 @@ VNC登陆的场景至少包括以下几种：
 * 无法通过客户端 SSH 或 mstsc 登录时，通过 VNC 登陆来登录实例
 
 1. 在实例列表的操作列，点击【远程连接】即可通过 VNC 连接至 Windows 实例。
-![enter description here][1]
+![](../../../../image/vm/Getting-Start-Linux-Connect-console.png)
 
 2. 通过在左上角点击 Ctrl+Alt+Del 命令进入系统登录界面：
 * 默认用户名：root        
 * 密码：为您创建实例时设置的实例密码 
-![enter description here][2]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-VNC.png)
 
 请注意：
 * 同一浏览器下，同一时间只支持使用VNC登录一台实例。
@@ -51,18 +51,18 @@ VNC登陆的场景至少包括以下几种：
 ## 本地为Windows，使用远程桌面登录Windows实例
 使用MSTSC 远程桌面连接Window实例，须先确保实例绑定公网IP，并且安全组和网络ACL规则中允许通过此类访问。可在京东云控制台创建Windows系统实例，获得公网IP：XXX.XXX.XXX.XXX
 1. 点击电脑【开始】按钮，找到“运行”
-![enter description here][3]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-menu.png)
 2. 在运行中输入mstsc命令，点击确定，即可打开远程桌面连接对话框。
-![enter description here][4]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc.png)
 3. 根据创建实例时绑定的公网IP，连接实例，输入用户名：Administrator，勾选“允许我保存凭据”。
-![enter description here][5]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc1.png)
 4. 点击【连接】后，输入密码，连接到实例。
-![enter description here][6]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc2.png)
 5. 勾选“不再询问我是否连接到此计算机”，点击【是】。
-![enter description here][7]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc3.png)
 6. 成功连接到您在京东云创建的Windows实例
 如果登录失败，请确认公网IP地址是否输入正确，并查看实例关联[安全组](../Operation-Guide/Security-Group/Overview.md)及所在子网的[网络ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md)配置，确认实例是否允许3389端口的入流量。
-![enter description here][8]
+![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc4.png)
 
 ## 本地为Linux，使用rdesktop登录Windows实例
 本地系统为Linux，需要远程登录Window实例时，需要安装相应的远程桌面连接程序，通常使用rdesktop客户端。
