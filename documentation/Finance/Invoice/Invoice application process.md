@@ -1,9 +1,11 @@
 # 发票申请流程
 索取发票只需要三步：（1）填写或启用发票信息（2）选择开票单据（3）选择寄送地址
+
 1、请登录控制台-进入【费用管理】-【发票管理】-【发票信息管理】页面填写或启用发票信息；
 1）如您曾保存过企业类型发票模板，系统初始化时需要您启用一条；如果您想创建新发票模板，可以点击“添加新发票信息”，增值税专用发票需要1-2个工作日审核
 2） 如您从未设置过发票信息，需要在发票信息管理功能下设置；企业类型增值税专用发票信息审核需要1-2个工作日完成，若有审核中的发票则不能创建其他的发票模板。
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
+
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A81.png)
 
 目前发票类型分为三种：个人增值税普通发票，企业增值税普通发票，企业增值税专用发票。
 
@@ -19,9 +21,11 @@
 增值税专用发票 有 180 天抵扣期限的限定，从发票开具日算起 180 天之后，发票将无法冲红。
 
 2、进入【费用管理】-【发票管理】-发票列表，点击“申请发票”进入申请开票页面；
+
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A82.jpg)
 
 在开票页面，勾选要开票的单据，单击 索取发票 按钮。根据订单类型和购买渠道选择开票信息
+
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A83.jpg)
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A84.jpg)
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A85.png)
@@ -30,4 +34,5 @@
 
 ## 查看历史信息
 已经申请开票的历史记录，可以在发票列表中查看，确认发票开具状态，并可以在详情中查看当次开票的具体信息。
+
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A86.jpg)
