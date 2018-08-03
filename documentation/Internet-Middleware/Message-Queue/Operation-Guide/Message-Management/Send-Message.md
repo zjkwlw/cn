@@ -4,7 +4,7 @@
 ### 1. 在topic列表，选择想要发送消息topic所在行的“发送消息”按钮
 ![发送消息步骤1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-01.png)
 ### 2.填写完发送消息的内容，点击“发送”按钮
-![发送消息步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-02.png)
+![发送消息步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-02.png)  
 I. 输入Message Body和tag，并且如果想要发送延时消息可以设置消息延迟时间。  
 II. 消息发送成功，会返回消息发送成功通知和消息的Message ID，点击消息详情可以进行查看。  
 III. 说明：
