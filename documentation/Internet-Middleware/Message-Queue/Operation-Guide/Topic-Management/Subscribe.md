@@ -1,7 +1,7 @@
 # 订阅topic
 
 ## 操作步骤
-###1. 在topic列表，选择像订阅topic所在行的“订阅”按钮
+### 1. 在topic列表，选择想要订阅topic所在行的“订阅”按钮
 
 ![订阅步骤1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/订阅-01.png)
 
