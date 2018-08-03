@@ -1,10 +1,11 @@
 ## 如何充值付款
 1.请登录[控制台](https://console.jdcloud.com/)-进入费用管理-[资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)页面点击[充值](https://uc.jdcloud.com/cost/capital/recharge)，开始充值。
 
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E5%85%85%E5%80%BC1.png)
 
 2.输入所需的金额，选择充值方式，根据页面提示进行支付。
 
-充值流程_meitu_4.jpg
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E5%85%85%E5%80%BC2.jpg)
 
  
 
@@ -34,6 +35,6 @@
 
 通过汇款识别码汇款，确保汇款识别码填写正确的情况下无需提交汇款底单信息，汇款成功后，自动充值到您的京东云账号。
 
-如果通过非汇款识别码方式汇款或汇款后系统未在有效期内自动核销充值到账，您可以在完成银行汇款后，在【线下汇款单管理】页面，通过提交汇款底单实现款项核销充值；
+如果通过非汇款识别码方式汇款或汇款后系统未在有效期内自动核销充值到账，您可以在完成银行汇款后，在【线下汇款单管理】页面，通过提交汇款底单实现款项核销充值.
 
-线下汇款_meitu_5.jpg
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E5%85%85%E5%80%BC3.jpg)
