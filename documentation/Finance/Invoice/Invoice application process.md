@@ -19,15 +19,15 @@
 增值税专用发票 有 180 天抵扣期限的限定，从发票开具日算起 180 天之后，发票将无法冲红。
 
 2、进入【费用管理】-【发票管理】-发票列表，点击“申请发票”进入申请开票页面；
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A82.jpg)
 
 在开票页面，勾选要开票的单据，单击 索取发票 按钮。根据订单类型和购买渠道选择开票信息
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A83.jpg)
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A84.jpg)
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A85.png)
 
 发票会在开具后3-5个工作日内寄出，收到发票包裹后，请仔细检查核对后再签收，如有问题请及时拒收。
 
 ## 查看历史信息
 已经申请开票的历史记录，可以在发票列表中查看，确认发票开具状态，并可以在详情中查看当次开票的具体信息。
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A86.jpg)
