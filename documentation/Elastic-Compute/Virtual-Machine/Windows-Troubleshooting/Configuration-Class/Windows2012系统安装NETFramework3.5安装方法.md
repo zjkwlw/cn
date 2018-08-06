@@ -1,4 +1,4 @@
-#Windows2012系统安装NETFramework3.5安装方法#
+# Windows2012系统安装NETFramework3.5安装方法
 
 远程登陆到服务器，点击左下角“服务器管理器”的添加角色和功能：
 
