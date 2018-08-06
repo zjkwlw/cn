@@ -19,20 +19,15 @@
 
 - 创建NLB实例
 	- [创建实例](../Getting-Started/Create-Instance.md)
-	- [设置白名单](../Getting-Started/Set-Whitelist.md)
-	- [连接实例](../Getting-Started/Connect-Instance.md)
 - 创建服务实例资源（AG/虚拟服务器组）
-	- [变更实例规格](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
+	- [创建虚拟服务器组](../Operation-Guide/TargetGroup-Management.md)
 - 配置侦听策略（包括listener、backend）
-	- [将数据导入到云](../Getting-Started/Import-Data.md)
-	- [从云导出数据](../Getting-Started/Export-Data.md)
+	- [配置侦听策略](../Operation-Guide/Listener-Management.md)
 - 查看服务实例健康状态
-	- [设置自动备份策略](../Operation-Guide/Backup/Modify-Backup-Policy.md)
-	- [手动创建备份](../Operation-Guide/Backup/Create-Backup.md)
-	- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
+	- [服务实例健康状态查看](../Operation-Guide/Backend-Management.md)
 - 运维管理
-	- [查看监控信息](../Operation-Guide/Monitoring/Monitoring.md)
-	- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
+	- [查看监控信息](../Operation-Guide/Monitoring.md)
+	- [设置报警规则](../Operation-Guide/Monitoring.md)
 
 ## 计费
 网络负载均衡支持按流量计费类型。详细说明请参见“[计费规则](../Pricing/Billing-Rules.md)”。

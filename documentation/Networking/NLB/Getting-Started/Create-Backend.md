@@ -20,7 +20,7 @@
 
 	- 会话保持：会话保持开关，打开后时间为1440s；
 	
-	- 连接耗尽：设置连接耗尽时间；
+	- 连接耗尽：设置连接耗尽时间，范围为【0，3600】秒，缺省为300秒；
 
  	![ALB后端服务设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-028.png)
 

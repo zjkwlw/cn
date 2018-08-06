@@ -28,7 +28,7 @@
 	
 	- 会话保持：默认关闭，打开支持基于TCP的会话保持；	
 	
-	- 连接耗尽：配置连接耗尽超时时间；
+	- 连接耗尽：配置连接耗尽超时时间，范围为【0，3600】秒，缺省为300秒；
 
  	![ALB后端转发配置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-023.png)	
 
