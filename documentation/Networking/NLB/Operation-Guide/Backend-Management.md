@@ -12,21 +12,17 @@
 	
 	- 名称：定义后端服务名称；
 	
-	- 后端协议：可选http、tcp；
+	- 后端协议：可选tcp；
 
-		注意：监听器只能与对应协议类型的后端服务绑定，后端协议为http时，只能绑定监听协议为http、https类型的监听器，后端协议为tcp时，只能绑定监听协议为tcp的监听器；
+		注意：后端协议为tcp时，只能绑定监听协议为tcp的监听器；
 
 	- 端口：输入范围1~65535，不同后端服务的端口可以重复；
 
 	- 调度算法：支持加权轮询、加权最小连接数和源IP；
 
-	- 会话保持：仅后端协议为http时支持配置，支持基于cookie植入方式的会话保持；
+	- 会话保持：默认关闭，打开支持基于TCP的会话保持；
 
-	- cookie超时时间：输入范围0~86400；
-
-	- 获取真实IP：后端协议为http时默认开启不可关闭，后端协议为tcp时支持proxyprotocol协议方式透传客户端IP，注意tcp协议时开启会话保持需要在服务端单独设置；
-
-	- 获取HTTP头字段：支持X-Forwarded-Proto、XForwarded-Por、 X-Forwarded-LBIP 、X-Forwarded-Host多项，用于透传客户端http请求的相关信息；
+	- 连接耗尽：配置连接耗尽超时时间；
 
  	![ALB后端服务设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-028.png)
 

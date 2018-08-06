@@ -24,7 +24,7 @@
 
 	![ALB选择地域设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-068.png)
 
-1. 选择私有网络、子网、安全组，绑定公网IP并选择计费方式、带宽。
+1. 选择私有网络、子网，绑定公网IP并选择计费方式、带宽。
 
 	![ALB网络设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-069.png)
 
