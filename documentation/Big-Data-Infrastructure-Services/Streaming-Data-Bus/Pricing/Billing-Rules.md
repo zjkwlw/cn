@@ -1,8 +1,8 @@
 ## 计费规则<br>
 <table>
-     <tr align="center" >
-        <td>产品名称</td>
-        <td>费项</td>
+     <tr align="center">
+        <td width="300">产品名称</td>
+        <td width="300">费项</td>
      </tr>
       <tr>
          <td rowspan="3" align="center">流数据总线</td>
