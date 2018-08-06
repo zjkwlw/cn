@@ -74,8 +74,9 @@
 - [产品规格](../Product-Introduction/Specification.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
-- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
-- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
+- [创建虚拟服务器组](../Operation-Guide/TargetGroup-Management.md)
+- [配置侦听策略](../Operation-Guide/Listener-Management.md)
+- [后端服务管理与服务实例健康状态查看](../Operation-Guide/Backend-Management.md)
+- [查看监控信息](../Operation-Guide/Monitoring.md)
 
 
