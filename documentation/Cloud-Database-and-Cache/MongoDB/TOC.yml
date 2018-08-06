@@ -116,7 +116,7 @@
     status: 0
     items:
     - name: 服务条款
-      href: User-Agreements/Service-Terms.md           
+      href: User-Agreements/Product-Terms-of-Service.md           
       status: 0      
     - name: SLA
       href: User-Agreements/SLA.md           
