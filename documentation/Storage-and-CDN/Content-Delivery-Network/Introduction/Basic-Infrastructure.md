@@ -13,7 +13,7 @@
 ## 业务架构
 业务架构如下图：
 
-
+![基础架构](https://github.com/jdcloudcom/cn/blob/edit/image/CDN/CDN-BI.png)
 
 
 
