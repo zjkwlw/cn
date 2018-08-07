@@ -2,8 +2,6 @@
 ## 创建主题<br>
 1. 准备工作<br>
 在使用流数据总线服务之前，首先需要注册京东云账号。<br>
-<br>
-<br>
 2. 创建主题<br>
 第一步：登录WEB控制台，进入流数据总线的“主题管理”页面，点击“新建主题”。<br>
 ![创建主题](https://github.com/jdcloudcom/cn/blob/edit/image/DataBus/db-004.png?raw=true)<br>
