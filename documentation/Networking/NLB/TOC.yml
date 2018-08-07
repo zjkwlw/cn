@@ -68,19 +68,19 @@
   - name: 最佳实践
     items:
     - name: 利用网络负载均衡部署源IP透传TCP服务
-      href: Best-Practices/Deploy TCP Service with NLB.md
+      href: Best-Practices/Deploy-TCP-Service-with-NLB.md
     - name: 利用网络负载均衡部署多端口业务、服务器复用服务
-      href: Best-Practices/Deploy Multiple Listener single backend NLB.md
+      href: Best-Practices/Deploy-Multiple-Listener-single-backend-NLB.md
     - name: 利用网络负载均衡部署高可用业务
-      href: Best-Practices/Deploy High Availability  Service with NLB.md
+      href: Best-Practices/Deploy-High-Availability -Service-with-NLB.md
     - name: 利用网络负载均衡部署会话保持业务
-      href: Best-Practices/Session-Sticky with NLB.md
+      href: Best-Practices/Session-Sticky-with-NLB.md
     - name: 利用网络负载均衡保证服务实例优雅退出
-      href: Best-Practices/Connection-Draining with NLB.md
+      href: Best-Practices/Connection-Draining-with-NLB.md
     - name: 利用网络负载均衡部署基于虚机与容器的服务
-      href: Best-Practices/Distribute service to vm and container with NLB.md
+      href: Best-Practices/Distribute-service-to-vm-and-container-with-NLB.md
     - name: 利用网络负载均衡部署服务端可弹性伸缩的业务
-      href: Best-Practices/AG as backend server.md
+      href: Best-Practices/AG-as-backend-server.md
   - name: 问题排查
     items:
     - name: 网络负载均衡业务接入失败？
