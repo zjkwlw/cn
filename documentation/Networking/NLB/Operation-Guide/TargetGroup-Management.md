@@ -4,7 +4,7 @@
 
 1. 通过负载均衡-详情-虚拟服务器组进入虚拟服务器组列表页。
 
-	![虚拟服务器组列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-034.png)
+	![虚拟服务器组列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-VSList.png)
 
 1. 点击 **新建虚拟服务器组** 创建一个新的虚拟服务器组；
 
@@ -14,7 +14,7 @@
 
 1. 设置端口和权重：为选中的服务器设置端口和权重，端口输入范围1~65535，权重输入范围1~100，同一虚拟服务器组内同一服务器端口不可重复，权重越高的服务器被转发到请求的概率越大，如端口为空则默认使用后端服务的端口进行转发。	
 
-	![设置端口和权重](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-035.png)
+	![设置端口和权重](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-TGAddTargets.png)
 
 ## 管理虚拟服务器组
 
@@ -24,9 +24,9 @@
 
 1. 点击虚拟服务器组名称可查看后端服务器信息。
 
-	![管理虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-037.png)
+	![管理虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-TGDetailEntrance.png)
 
-	![查看虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-036.png)
+	![查看虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-TGDetail.png)
 		
 ## 编辑虚拟服务器组
 
@@ -34,5 +34,7 @@
 
 1. 可修改服务器组名称，添加、删除虚拟服务器组内的云主机、容器资源。
 
-	![修改虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-096.png)
+    ![修改虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-TGEditEntrance.png)
+
+	![修改虚拟服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-TGEdit.png)
 		
