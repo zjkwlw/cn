@@ -8,7 +8,7 @@
 
 1. 如您需要对监控指标设置报警规则，可点击“设置报警规则”前往云监控页面进行设置。
 
-	![ALB监控管理](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-038.png)
+	![NLB监控管理](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-Monitor.png)
 
 
 | 监控指标	| 说明	|

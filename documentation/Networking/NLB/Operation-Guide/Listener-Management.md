@@ -14,7 +14,7 @@
 		注：同一负载均衡下的监听端口不可重复，监听器创建后，监听协议、端口不允许修改；	
 	- 空闲连接超时：输入范围1~86400秒，默认1800秒；
 
- 	![ALB前端监听配置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-022.png)
+ 	![NLB前端监听配置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-022.png)
 
 	**后端转发配置：**
 
@@ -32,7 +32,7 @@
 	
 	- 连接耗尽：配置连接耗尽超时时间，范围为【0，3600】秒，缺省为300秒；	
 	
- 	![ALB后端转发配置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-023.png)	
+ 	![NLB后端转发配置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-023.png)	
 
 	**健康检查设置：**
 
@@ -52,7 +52,7 @@
 	
 	- 检查路径：仅健康检查方式为HTTP时填写，必须以“/”开头、最多支持5级目录，不得超过100字符。
 
- 	![ALB健康检查设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-024.png)
+ 	![NLB健康检查设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-024.png)
 
 	**添加服务器组：**
 
@@ -64,7 +64,7 @@
 
 	- 高可用组：系统会自动筛选出当前可以绑定的高可用组，如没有可用的高可用组，请前往高可用组页面进行创建；注：可选高可用组中的后端实例必须与负载均衡处于相同地域、私有网络、可用区下。
 
- 	![ALB添加服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-025.png)
+ 	![NLB添加服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-025.png)
 
 
 ## 管理监听器
@@ -77,11 +77,10 @@
 
 4. 删除监听器：通过监听器列表页-操作栏，可删除监听器。
 
-![ALB管理监听器](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-026.png)
+![NLB管理监听器](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-Listener-Mgm.png)
 	
 ## 编辑监听器
 
-1. 证书：如监听器有绑定的证书，可修改；
 
 2. 空闲连接超时：可修改；
 
@@ -89,7 +88,7 @@
 
 4. 其他参数项不支持修改。
 
-![ALB编辑监听器](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-027.png)
+![NLB编辑监听器](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-Listener-Edit.png)
 	
 
 

@@ -27,7 +27,7 @@
 
 	2、空闲连接超时：设置空闲连接超时时间；
 
-	![ALB前端监听设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Listener.png)
+	![NLB前端监听设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Listener.png)
 
 - 后端转发配置：
 	
@@ -45,15 +45,15 @@
 
 	7、连接耗尽：连接耗尽超时时间设置；
 
-	![ALB后端转发设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Backend.png)
+	![NLB后端转发设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Backend.png)
 
 - 配置健康检查：选择健康检查方式为：TCP
 
-	![ALB健康检查设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Health.png)
+	![NLB健康检查设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Health.png)
 
 - 添加服务器组：根据业务需要选择虚拟服务器组、高可用组。
 
-	![ALB服务器组设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-TG.png)
+	![NLB服务器组设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-TG.png)
 
 - 如没有可用的虚拟服务器组，点击 **新建虚拟服务器组** 创建一个新的虚拟服务器组，可选云主机、容器，定义实例的端口、权重。
 	
@@ -63,11 +63,11 @@
 
 - 至此，已创建完成基于TCP协议的监听器，可在监听器列表查看。
 
-	![ALB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Listenerlist.png)
+	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Listenerlist.png)
 
 - 此时，在后端服务列表中已同步创建了一个名为“testback”的资源。
 
-	![ALB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Backlist.png)
+	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Backlist.png)
 
 ## 复用后端服务创建另一个TCP监听器
 
@@ -77,7 +77,7 @@
 
 	2、设置空闲连接超时时间；
 
-	![ALB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Listener2.png)
+	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Listener2.png)
 
 - 后端服务转发：
 
@@ -85,12 +85,12 @@
 	
 	注：直接使用已经存在的backend相关信息，与之前TCP监听复用同一后端服务配置、健康检查、服务器组。
 
-	![ALB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Backend2.png)
+	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-Backend2.png)
 
-	![ALB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-TG2.png)
+	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-TG2.png)
 
 - 通过这种方式，可以快速创建复用相同后端服务的多个监听器。
 
 	注意：请确认业务场景可以复用后端服务的所有配置，如相同的后端转发端口等。
 
-	![ALB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-List.png)
+	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-ML-List.png)
