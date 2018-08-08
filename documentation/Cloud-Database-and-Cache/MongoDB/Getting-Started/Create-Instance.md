@@ -64,7 +64,13 @@
 
 - [设置白名单](Set-Whitelist.md)
 - [连接实例](Connect-Instance.md)
+<<<<<<< HEAD
 - [修改密码](../Operation-Guide/Account/ResetPassword.md)
 - [导入数据](Import-Data.md)
 - [变更实例配置](../Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
+=======
+- [修改密码](../Operation-Guide/Account-Management/Reset-Password.md)
+- [导入数据](Import-Data.md)
+- [变更实例配置](../../Operation-Guide/Instance-Management/ModifyInstanceSpec.md)
+>>>>>>> c166c890783711e05edecdb24daafecabfb4b919
 - [计费规则](../Pricing/Billing-Rules.md)
