@@ -42,7 +42,7 @@
 
 	- 检查路径：仅健康检查方式为HTTP时填写，必须以“/”开头、最多支持5级目录，不得超过100字符。
 
-		![NLB健康检查设置](../../../../image/Networking/NLB/NLB-029.png)	
+		![NLB健康检查设置](../../../../image/Networking/NLB/NLB-BackHealth.png)	
 
 	**添加服务器组：**
 
@@ -56,6 +56,6 @@
 
 		注：可选高可用组中的后端实例必须与负载均衡处于相同地域、私有网络，可用区不受限制。
 
-		![NLB添加服务器组](../../../../image/Networking/NLB/NLB-030.png)
+		![NLB添加服务器组](../../../../image/Networking/NLB/NLB-BackVS.png)
 
 
