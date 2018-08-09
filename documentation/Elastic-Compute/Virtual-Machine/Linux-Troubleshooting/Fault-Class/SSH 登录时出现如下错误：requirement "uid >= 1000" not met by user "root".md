@@ -29,11 +29,11 @@ PAM 相关模块策略配置，禁止了 UID 小于 1000 的用户进行登录�
 
 文件	功能说明
 
-/etc/pam.d/login	控制台（vnc）对应配置文件
+*/etc/pam.d/login*	控制台（vnc）对应配置文件
 
-/etc/pam.d/sshd	登录对应配置文件
+*/etc/pam.d/sshd*	登录对应配置文件
 
-/etc/pam.d/system-auth	系统全局配置文件
+*/etc/pam.d/system-auth*	系统全局配置文件
 
 注意：每个启用了 PAM 的应用程序，在 /etc/pam.d 目录中都有对应的同名配置文件。例如，login 命令的配置文件是 /etc/pam.d/login，可以在相应配置文件中配置具体的策略。
 
