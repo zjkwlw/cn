@@ -33,8 +33,9 @@
 2.通过 cat 等指令查看 /etc/ssh/sshd_config中是否包含类似如下配置：
 
 
-cat /etc/ssh/sshd_config
-PasswordAuthentication no
+*cat /etc/ssh/sshd_config*
+
+*PasswordAuthentication no*
 
 说明：该参数默认启用，默认值为 yes。
 
@@ -45,11 +46,13 @@ PasswordAuthentication no
 4.使用 vi 等编辑器，将参数值设置为 yes，或者整个删除或注释（在最开头添加 # 号）整行配置：
 
 
-# PasswordAuthentication no
+*# PasswordAuthentication no*
+
 5.使用如下指令重启 SSH 服务：
 
 
-service sshd restart
+*service sshd restart*
+
 6.再次尝试登录服务器。
 
 
