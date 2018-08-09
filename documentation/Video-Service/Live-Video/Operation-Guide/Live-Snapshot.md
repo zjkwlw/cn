@@ -10,15 +10,15 @@
 
 登录直播控制台，进入“域名管理”页面，选择要查看播放地址的一组域名，点击右侧的“管理”进入域名配置页，点击“截图配置”切换到截图模板管理页面
 
-![](media/f0b426a1b7759aaf313fb0bce574038c.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E6%88%AA%E5%9B%BE-%E9%A1%B5%E9%9D%A2%E5%88%87%E6%8D%A2.png)
 
 在截图配置页面，点击“新建模板”，在弹出的窗口中填写对应的参数信息，点“确定”完成截图模板的添加。
 
-![](media/da849ffd89c86b176941d6212b0af1f3.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E6%88%AA%E5%9B%BE-%E6%96%B0%E7%89%88%E6%A8%A1%E6%9D%BF%E6%8C%89%E9%92%AE.png)
 
 模板参数说明如下：
 
-![](media/d478934c2af23eaa65b1c3b371c1fa1c.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E6%96%B0%E5%BB%BA%E6%88%AA%E5%9B%BE%E6%A8%A1%E6%9D%BF%E6%9B%B4%E6%96%B0.png)
 
 **App
 Name**：要进行直播截图的应用名称，目前仅支持英文，数字，“-”，"_",长度需要在1-50字符之间
@@ -53,4 +53,4 @@ Sequence}）保留所有截图文件
 
 登录直播控制台，进入“截图配置”页面，在想要删除的录制模板右侧点击“删除”，在弹出的窗口中点“确认”完成删除操作。
 
-![](media/56b5ebe22c96f3439b6d12e3cf11231e.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E6%88%AA%E5%9B%BE-%E6%A8%A1%E6%9D%BF%E5%88%A0%E9%99%A4.png)
