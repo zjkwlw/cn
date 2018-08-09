@@ -8,7 +8,7 @@ Elasticsearch数据源提供了读取Elasticsearch的能力，您可以配置同
 
 2.        选择数据源类型‘Elasticsearch’；
 
-![img](file:////Users/zhoulei5/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+![es数据源连接](../../../../../image/Data-Integration/es-connection.png)
 
 配置项说明：
 

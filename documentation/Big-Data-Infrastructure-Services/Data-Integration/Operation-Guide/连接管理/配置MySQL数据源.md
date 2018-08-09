@@ -8,7 +8,7 @@ MySQL关系型数据库数据源提供了读取Mysql的能力，可以配置同�
 
 2.        选择数据源类型‘MYSQL’；
 
-![img](file:////Users/zhoulei5/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+![MySQL数据源连接](../../../../../image/Data-Integration/mysql-connection.png)
 
 配置项说明：
 

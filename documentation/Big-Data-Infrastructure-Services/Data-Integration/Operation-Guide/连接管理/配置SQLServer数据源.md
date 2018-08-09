@@ -8,7 +8,7 @@ SqlServer关系型数据库数据源提供了读取SqlServer的能力，可以�
 
 2.        选择数据源类型‘SQLSERVER；
 
-![img](file:////Users/zhoulei5/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+![SQLServer数据源连接](../../../../../image/Data-Integration/SQLServer-connection.png)
 
 配置项说明：
 

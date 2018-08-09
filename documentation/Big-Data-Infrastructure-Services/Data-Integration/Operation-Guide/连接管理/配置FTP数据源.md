@@ -8,7 +8,7 @@ FTP数据源提供了读取FTP的能力，您可以配置同步任务。
 
 2.        选择数据源类型‘FTP；
 
-![img](file:////Users/zhoulei5/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+![ftp数据源连接](../../../../../image/Data-Integration/ftp-connection.png)
 
 配置项说明：
 

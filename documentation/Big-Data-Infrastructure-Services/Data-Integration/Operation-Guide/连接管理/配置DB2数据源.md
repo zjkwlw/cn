@@ -8,7 +8,7 @@ DB2关系型数据库数据源提供了读取DB2的能力，您可以配置同�
 
 2.        选择数据源类型‘DB2’；
 
-![img](file:////Users/zhoulei5/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)
+![db2数据源连接](../../../../../image/Data-Integration/db2-connection.png)
 
 配置项说明：
 
