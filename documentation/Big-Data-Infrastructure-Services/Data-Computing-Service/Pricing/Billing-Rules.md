@@ -43,15 +43,15 @@
 列筛选：例如：用户提交的SQL语句为select name from class; 只计算class表中name这一列的数据量，其他列不会参与计费。</br>
 SQL = Join + Group By + Order By + Distinct + window函数 + max(insert into-1, 1)</br>
 SQL复杂度计算：</br>
-      SQL 关键字个数<= 3，复杂度为 1。
-      SQL 关键字个数<= 6，且>= 4，复杂度为 1.5。
-      SQL 关键字个数<= 19，且>= 7，复杂度为 2。
-      SQL 关键字个数>= 20，复杂度为 4。
-示例：
-用户输入的SQL语句是：
-SELECT DISTINCT total1 FROM
-(SELECT id1, COUNT(f1) AS total1 FROM in1 GROUP BYid1) tmp1 ORDER BY total1 DESC LIMIT 100;
-其中，SQL关键字个数是4，而SQL复杂度是1.5，若用户实际扫描数据为100GB，则所需费用=100*1.5*0.3=45元。
-账单出账时间在计算任务结束后的首个出账周期内，最长不超过12个小时。
+      SQL 关键字个数<= 3，复杂度为 1。</br>
+      SQL 关键字个数<= 6，且>= 4，复杂度为 1.5。</br>
+      SQL 关键字个数<= 19，且>= 7，复杂度为 2。</br>
+      SQL 关键字个数>= 20，复杂度为 4。</br>
+示例：</br>
+用户输入的SQL语句是：</br>
+SELECT DISTINCT total1 FROM</br>
+(SELECT id1, COUNT(f1) AS total1 FROM in1 GROUP BYid1) tmp1 ORDER BY total1 DESC LIMIT 100;</br>
+其中，SQL关键字个数是4，而SQL复杂度是1.5，若用户实际扫描数据为100GB，则所需费用=100*1.5*0.3=45元。</br>
+账单出账时间在计算任务结束后的首个出账周期内，最长不超过12个小时。</br>
 在计算任务成功结束后，系统会统计该计算任务读取的数据量和SQL复杂度，账单生成后会自动从您的账户余额中扣除费用以结算账单。没有成功的计算任务，业务错误，正常收费；资源级错误，不收费。
 
