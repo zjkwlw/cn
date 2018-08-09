@@ -84,13 +84,13 @@
 
 	根据业务需要配置相关参数：
 
-	![NLB健康检查设置](../../../../image/Networking/NLB/NLB-024.png)
+	![NLB健康检查设置](../../../../image/Networking/NLB/NLB-029.png)
 
 - 添加服务器组：
 
 	根据业务需要选择虚拟服务器组、高可用组。
 
-	![NLB添加服务器组设置](../../../../image/Networking/NLB/NLB-025.png)
+	![NLB添加服务器组设置](../../../../image/Networking/NLB/NLB-030.png)
 
 - 虚拟服务器组添加服务器：
 

@@ -32,13 +32,13 @@
 
 	配置健康检查参数，点击下一步
 
-	![NLB健康检查设置](../../../../image/Networking/NLB/NLB-024.png)
+	![NLB健康检查设置](../../../../image/Networking/NLB/NLB-029.png)
 
 - 新建服务器组：
 
 	选择虚拟服务器组类型，点击新建一个服务器组。
 
-	![NLB新建服务器组设置](../../../../image/Networking/NLB/NLB-025.png)
+	![NLB新建服务器组设置](../../../../image/Networking/NLB/NLB-030.png)
 
 - 虚拟服务器组添加主机、容器类型资源。
 	
