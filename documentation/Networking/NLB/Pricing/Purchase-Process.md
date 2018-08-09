@@ -6,7 +6,7 @@
 1. 登录京东云官网[https://www.jdcloud.com/](https://www.jdcloud.com/)。
 2. 选择“产品>网络>网络负载均衡”，具体见下图。
 
- ![NLB产品入口](../../../../image/Networking/NLB/NLB-011.png)
+ ![NLB产品入口](../../../../image/Networking/NLB/NLB-Menu.png)
 
 3.弹出网络负载均衡的产品介绍页，点击**立即购买**。
 
