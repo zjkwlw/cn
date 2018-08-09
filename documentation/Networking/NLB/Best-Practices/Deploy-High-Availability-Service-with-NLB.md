@@ -19,6 +19,8 @@
 
 	![NLB创建实例设置](../../../../image/Networking/NLB/NLB-Create.png)
 
+1. 选择负载均衡类型：选择网络负载均衡。
+    ![NLB类型选择](../../../../image/Networking/NLB/NLB-ChooseLB.png)
 
 1. 选择相应的地域：华北-北京，可用区：可用区A、可用区B。
 
@@ -38,7 +40,7 @@
 
 - 确认订单信息并完成支付，创建负载均衡实例。
 
-	![NLB支付设置](../../../../image/Networking/NLB/NLB-Confirm.png)
+	![NLB支付设置](../../../../image/Networking/NLB/NLB-BuyConfirm.png)
 
 - 刷新负载均衡列表，查看新创建的负载均衡实例。
 
