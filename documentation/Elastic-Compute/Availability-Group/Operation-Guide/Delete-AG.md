@@ -15,4 +15,6 @@
 
 ## 相关参考
 
-[创建实例模板](../../Virtual-Machine/Operation-Guide/Instance-Template/Create-Instance-Template.md)
+[删除实例](../../Virtual-Machine/Operation-Guide/Instance/Delete-Instance.md)
+
+[移除实例](../../Virtual-Machine/Operation-Guide/Instance-Template/Create-Instance-Template.md)。

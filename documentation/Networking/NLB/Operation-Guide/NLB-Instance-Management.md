@@ -14,7 +14,7 @@
 
 	注：启动、删除、绑定公网ip等也可以通过资源详情页右上角菜单进行操作。
 
-  ![NLB列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-List.png)
+  ![NLB列表页](../../../../image/Networking/NLB/NLB-List.png)
 
-  ![NLB详情](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-InstanceDetail.png)
+  ![NLB详情](../../../../image/Networking/NLB/NLB-InstanceDetail.png)
 

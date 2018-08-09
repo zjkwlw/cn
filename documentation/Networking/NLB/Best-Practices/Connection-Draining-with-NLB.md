@@ -22,35 +22,35 @@
 	
 	点击 **添加** 创建一个监听器：选择TCP协议，配置监听端口、空闲连接超时。
 
-	![NLB前端监听设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-022.png)
+	![NLB前端监听设置](../../../../image/Networking/NLB/NLB-022.png)
 
 - 后端转发配置：可以新建或者选择已有的后端服务，注意只能选择后端协议为TCP类型的后端服务。
 	
 	这里新建一个后端服务：配置后端服务名称、协议（TCP）、端口为80、调度算法选择加权轮询、会话保持开关。
 
-    另外重点注意连接耗尽（connection draining）超时时间设置。当一个服务器从“虚拟服务器组”或者高可用组（AG）中摘除时，只有已建立的TCP连接报文会继续向该服务器转发、直到连接耗尽时间超时为止，新建立的TCP连接将不会向该服务器转发。
+    **另外重点注意连接耗尽（connection draining）超时时间设置。当一个服务器从“虚拟服务器组”或者高可用组（AG）中摘除时，只有已建立的TCP连接报文会继续向该服务器转发、直到连接耗尽时间超时为止，新建立的TCP连接将不会向该服务器转发。**
 
-	![NLB后端转发设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-023.png)
+	![NLB后端转发设置](../../../../image/Networking/NLB/NLB-023.png)
 
 - 配置健康检查：设置健康检查相关参数，这里使用TCP方式。
 
-	![NLB健康检查设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-024.png)
+	![NLB健康检查设置](../../../../image/Networking/NLB/NLB-029.png)
 
 - 添加服务器组：根据业务需要选择虚拟服务器组、高可用组。
 
 	根据业务需要选择虚拟服务器组、高可用组。
 
-	![NLB服务器组设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-025.png)
+	![NLB服务器组设置](../../../../image/Networking/NLB/NLB-030.png)
 
 - 如没有可用的虚拟服务器组，点击 **新建虚拟服务器组** 创建一个新的虚拟服务器组，可选云主机、容器，定义实例的端口、权重。
 	
 	注：只能选择与负载均衡同私有网络下的云主机、容器资源。
 
-	![NLB虚拟服务器组设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-079.png)
+	![NLB虚拟服务器组设置](../../../../image/Networking/NLB/NLB-079.png)
 
 - 至此，已创建完成基于TCP协议的监听器，可在监听器列表查看。
 
-	![NLB监听器列表页](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-057.png)
+	![NLB监听器列表页](../../../../image/Networking/NLB/NLB-057.png)
 
 # 修改配置支持连接耗尽的TCP监听器策略
 
@@ -59,8 +59,8 @@
 - 进入负载均衡实例的后端服务
 
 	从负载均衡实例->具体实例名称->后端服务->编辑
-   
-    ![NLB后端服务编辑](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-BackEditEntrance.png)
+  
+    ![NLB后端服务编辑](../../../../image/Networking/NLB/NLB-BackEditEntrance.png)
 
 - 修改后端服务配置
 
@@ -68,4 +68,4 @@
 
     如果不需要连接耗尽功能，可以把时长设置为0。
 
-    ![NLB连接耗尽修改](https://github.com/jdcloudcom/cn/blob/master/image/Networking/NLB/NLB-BackConnection.png)
+    ![NLB连接耗尽修改](../../../../image/Networking/NLB/NLB-BackConnection.png)
