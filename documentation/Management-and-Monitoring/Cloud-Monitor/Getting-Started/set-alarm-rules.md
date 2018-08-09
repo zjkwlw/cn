@@ -4,11 +4,11 @@
  
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/4.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
 
-2. 输入监控项、统计周期、统计方法、计算方式、阈值、持续周期，根据业务需求也可设置分级报警（分为一般、严重、紧急），点击“下一步”添加报警规则及联系人，
+2. 输入监控项、统计周期、统计方法、计算方式、阈值、持续周期，根据业务需求也可设置分级报警（分为一般、严重、紧急），点击“下一步”添加报警规则及联系人，点击“下一步”，点击“完成”即可。
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E8%AE%BE%E7%BD%AE%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
-3.  添加成功后，可在报警规则列表中，查看到刚设置的规则信息。
+3.  添加成功后，可在报警规则列表中，可查看到设置的规则信息。
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E5%AE%9E%E4%BE%8B%E8%AF%A6%E6%83%85_%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
 ### 修改/删除/禁用报警规则
