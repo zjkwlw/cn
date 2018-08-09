@@ -37,12 +37,12 @@
 | SQL价格（元/GB） | 0.3元 | 
 
 说明：
-计算实际处理数据大小，指一个SQL查询任务实际扫描的数据量。
-(注：大部分SQL语句都会进行分区过滤和列筛选，所以一般情况下这个值会远小于原本数据大小)
-分区过滤：例如：SQL语句中含有where userid<"200000"，userid是分区列，则计费的数据量只会包括实际读取的分区，不会包括其他分区的数据。
-列筛选：例如：用户提交的SQL语句为select name from class; 只计算class表中name这一列的数据量，其他列不会参与计费。
-SQL = Join + Group By + Order By + Distinct + window函数 + max(insert into-1, 1)
-SQL复杂度计算：
+计算实际处理数据大小，指一个SQL查询任务实际扫描的数据量。</br>
+(注：大部分SQL语句都会进行分区过滤和列筛选，所以一般情况下这个值会远小于原本数据大小)</br>
+分区过滤：例如：SQL语句中含有where userid<"200000"，userid是分区列，则计费的数据量只会包括实际读取的分区，不会包括其他分区的数据。</br>
+列筛选：例如：用户提交的SQL语句为select name from class; 只计算class表中name这一列的数据量，其他列不会参与计费。</br>
+SQL = Join + Group By + Order By + Distinct + window函数 + max(insert into-1, 1)</br>
+SQL复杂度计算：</br>
       SQL 关键字个数<= 3，复杂度为 1。
       SQL 关键字个数<= 6，且>= 4，复杂度为 1.5。
       SQL 关键字个数<= 19，且>= 7，复杂度为 2。
