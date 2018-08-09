@@ -109,7 +109,8 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
+    href: 
+    status: 0
   - name: SDK参考
     href:
   - name: 用户协议
@@ -129,5 +130,5 @@
       href:           
       status: 0        
     - name: 词汇表
-      href:        
+      href:          
       status: 0

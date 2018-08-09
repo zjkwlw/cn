@@ -24,7 +24,7 @@
 
 	- 连接耗尽：配置连接耗尽超时时间，范围为【0，3600】秒，缺省为300秒；
 
- 	![ALB后端服务设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-028.png)
+		![NLB后端服务设置](../../../../image/Networking/NLB/NLB-028.png)
 
 	**健康检查设置：**
 
@@ -44,7 +44,7 @@
 
 	- 检查路径：仅健康检查方式为HTTP时填写，必须以“/”开头、最多支持5级目录，不得超过100字符。
 
- 	![ALB健康检查设置](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-029.png)	
+		![NLB健康检查设置](../../../../image/Networking/NLB/NLB-BackHealth.png)	
 
 	**添加服务器组：**
 
@@ -58,20 +58,20 @@
 
 		注：可选高可用组中的后端实例必须与负载均衡处于相同地域、私有网络、可用区下。
 
- 	![ALB添加服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-030.png)
+		![NLB添加服务器组](../../../../image/Networking/NLB/NLB-BackVS.png)
 
 
 ## 管理后端服务
 
 1. 查看后端服务详情：点击后端服务名称进入后端服务详情页，可查看后端服务配置信息、更换绑定的后端服务器组（见下文）；
 
-1. 查看绑定的服务器组：列表页点击服务器组（虚拟服务器组、高可用组）名称，查看服务器组信息和健康状态；
+1. 查看绑定的服务器组：列表页点击后端服务名称，查看后端服务关联的服务器组信息和健康状态；
 
 1. 编辑后端服务：编辑后端服务器组相关配置信息（见下文）；
 
 1. 删除后端服务：删除成功后后端服务将与绑定的服务器组自动解除关联，已关联监听器的后端服务不可删除；
 
-![ALB管理后端服务](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-031.png)
+![NLB管理后端服务](../../../../image/Networking/NLB/NLB-Back-Mgm.png)
 	
 ## 更换后端服务绑定的服务器组
 
@@ -79,7 +79,7 @@
 
 1. 通过负载均衡-详情-后端服务-编辑打开后端服务编辑页，更换绑定的服务器组；
 
-![ALB更换后端绑定的服务器组](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-032.png)
+![NLB更换后端绑定的服务器组](../../../../image/Networking/NLB/NLB-BackDetail.png)
 	
 ## 编辑后端服务
 
@@ -87,7 +87,7 @@
 
 1. 编辑后端服务配置项，其中后端协议、端口不可编辑，其余项均可编辑证书：如监听器有绑定的证书，可修改；
 
-![ALB编辑后端服务](https://github.com/jdcloudcom/cn/blob/master/image/Networking/ALB/ALB-033.png)
+![NLB编辑后端服务](../../../../image/Networking/NLB/NLB-BackEdit.png)
 	
 
 
