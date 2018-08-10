@@ -53,7 +53,7 @@ SSH 服务会对相关密钥文件的权限进行检查。比如，私钥文件�
 
 *chmod 600 ssh_host_**
 
-*chmod 644* *.pub
+*chmod 644* *.pub*
 
 
 操作示意如下：
@@ -63,7 +63,7 @@ SSH 服务会对相关密钥文件的权限进行检查。比如，私钥文件�
 
 *[root@centos]# chmod 600 ssh_host_**
 
-*[root@centos]# chmod 644* *.pub
+*[root@centos]# chmod 644* *.pub*
 
 *[root@centos]# ll*
 
