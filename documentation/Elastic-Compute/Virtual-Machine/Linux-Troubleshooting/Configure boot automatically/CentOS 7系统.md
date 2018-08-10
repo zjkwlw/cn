@@ -5,6 +5,7 @@
 Red Hat Enterprise Linux 7（RHEL 7）已经将服务管理工具从SysVinit和Upstart迁移到了systemd上，相应的服务脚本也需要改变。前面的版本里，所有的启动脚本都是放在/etc/rc.d/init.d/ 目录下。这些脚本都是bash脚本，可以让系统管理员控制这些服务的状态，通常，这些脚本中包含了start，stop，restart这些方法，以提供系统自动调用这些方法。但是在RHEL 7中当中已经完全摒弃了这种方法，而采用了一种叫unit的配置文件来管理服务
 
 **Systemd下的unit文件**
+
 Unit文件专门用于systemd下控制资源，这些资源包括服务(service)、套接字(socket)、设备(device)、挂载点(mount point)、自动挂载点(automount point)、交换文件或分区(a swap file or partition)…
 
 所有的unit文件都应该配置[Unit]或者[Install]段.由于通用的信息在[Unit]和[Install]中描述，每一个unit应该有一个指定类型段，例如[Service]来对应后台服务类型unit.
