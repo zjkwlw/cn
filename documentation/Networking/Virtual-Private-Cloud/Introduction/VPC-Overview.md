@@ -8,7 +8,7 @@
 
 ### 私有网络整体结构
 
-![](../Image/VPC_ Overall_Infrastrucure.png)
+![](/image/Networking/Virtual-Private-Cloud/VPC_ Overall_Infrastrucure.png)
 
 
 
