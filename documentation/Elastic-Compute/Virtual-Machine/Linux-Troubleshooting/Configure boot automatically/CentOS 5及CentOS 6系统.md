@@ -49,6 +49,7 @@ K开头的脚本文件代表运行级别加载时需要关闭的，S开头的代
 注： --list选项可查看指定服务的启动状态，chkconfig不带任何选项则查看所有服务状态
 
 **方法3：ntsysv 伪图形**
+
 ntsysv在chkconfig基础上加上了图形界面。启动ntsysv有两种方式，一是直接在命令行中输入ntsysv，二是使用setup命令，然后选择系统服务。
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/CentOS%205%E5%8F%8ACentOS%206%E7%B3%BB%E7%BB%9F06.png)
