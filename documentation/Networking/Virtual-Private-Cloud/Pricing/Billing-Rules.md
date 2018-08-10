@@ -18,8 +18,10 @@ VPC、子网、路由表、安全组、网络ACL均免费，无需用户支付�
 - 镜像价格见[云市场](https://market.jdcloud.com/)相应镜像说明，如[深信服WOC_Cloud加速IPsec_VPN镜像](https://market.jdcloud.com/520009.html)。
 - 镜像缺省可免费试用1个月，试用镜像限制为：仅支持10M带宽规格。
 
-#### NAT实例
 
-使用云主机创建的NAT网关目前只收取云主机和公网IP的费用。
+
+#### NAT实例网关
+
+使用云主机创建的NAT实例网关目前只收取云主机和公网IP的费用。
 
 详见：[云主机价格](https://www.jdcloud.com/help/detail/859/isCatalog/1)、[公网IP价格](https://www.jdcloud.com/help/detail/868/isCatalog/1)。
