@@ -68,11 +68,11 @@
   - name: 最佳实践
     items:
     - name: 利用网络负载均衡部署源IP透传TCP服务
-      href: Best-Practices/Deploy-TCP-Service-with-NLB.md
+      href: Best-Practices/Deploy-TCP-Service-with-Original-Client-IP-Passthrough.md
     - name: 利用网络负载均衡部署多端口业务、服务器复用服务
       href: Best-Practices/Deploy-Multiple-Listener-single-backend-NLB.md
     - name: 利用网络负载均衡部署高可用业务
-      href: Best-Practices/Deploy-High-Availability -Service-with-NLB.md
+      href: Best-Practices/Deploy-High-Availability-Service-with-NLB.md
     - name: 利用网络负载均衡部署会话保持业务
       href: Best-Practices/Session-Sticky-with-NLB.md
     - name: 利用网络负载均衡保证服务实例优雅退出
@@ -84,7 +84,7 @@
   - name: 问题排查
     items:
     - name: 网络负载均衡业务接入失败？
-      href: Troubleshooting/Access NLB Service-Failed.md       
+      href: Troubleshooting/Access-NLB-Service-Failed.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
