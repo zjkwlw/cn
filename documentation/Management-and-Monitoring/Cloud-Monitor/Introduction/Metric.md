@@ -134,6 +134,13 @@ MySQL_COMDML   Insert_Select	|个|	1分钟
 MySQL_COMDML   Replace	|个|	1分钟
 MySQL_COMDML   Replace_Select	|个|	1分钟
 
+## DRDS监控指标
+监控指标 | 单位 |最小监控粒度
+---|---|---
+CPU使用率	|%|	1分钟
+平均每秒网络流入量	|byte|	1分钟
+平均每秒网络流出量	|byte|	1分钟
+当前连接数	|个|	1分钟
 
 ## 负载均衡监控指标
 **应用负载均衡**
@@ -200,13 +207,6 @@ wt_bytes_written_from_cache|byte|1分钟
 wt_max_bytes_config|byte|1分钟
 
 
-## DRDS监控指标
-监控指标 | 单位 |最小监控粒度
----|---|---
-CPU使用率	|%|	1分钟
-平均每秒网络流入量	|byte|	1分钟
-平均每秒网络流出量	|byte|	1分钟
-当前连接数	|个|	1分钟
 
 ## 原生容器监控指标
 监控指标 | 单位 |最小监控粒度
