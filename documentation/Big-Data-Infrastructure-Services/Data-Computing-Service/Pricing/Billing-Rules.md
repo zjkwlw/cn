@@ -10,8 +10,8 @@
 
 <table>
   <tr>
-    <th width=12%, bgcolor=yellow >计费类型</th>
-    <th width=33%, bgcolor=yellow>价格</th>
+    <th width=10%, bgcolor=yellow >计费类型</th>
+    <th width=35%, bgcolor=yellow>价格</th>
     <th width="30%", bgcolor=yellow>说明</th>
     <th width="25%", bgcolor=yellow>辅助举例</th>
   </tr>
