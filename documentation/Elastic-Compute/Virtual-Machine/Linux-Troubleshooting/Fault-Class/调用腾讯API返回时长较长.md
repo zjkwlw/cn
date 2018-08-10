@@ -8,7 +8,7 @@
 
 可通过修改DNS服务器优先级配置优化调用返回时间，方法如下：
 
-vi /etc/resolv.conf 可以看到公用DNS服务器8.8.8.8的优先级最低，如图：
+*vi /etc/resolv.conf* 可以看到公用DNS服务器8.8.8.8的优先级最低，如图：
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/%E8%B0%83%E7%94%A8%E8%85%BE%E8%AE%AFAPI%E8%BF%94%E5%9B%9E%E6%97%B6%E9%95%BF%E8%BE%83%E9%95%BF02.png)
 
