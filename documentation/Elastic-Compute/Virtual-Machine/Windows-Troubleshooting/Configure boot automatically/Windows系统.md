@@ -3,11 +3,11 @@
 sc命令
 sc命令是Windows原生的服务控制命令，通过它可以方便地添加、删除标准的Windows服务程序：
 
- # 添加服务
+#添加服务
 
 *sc create ServiceName binpath= "D:\services\xxx.exe"*
 
- # 移除服务
+#移除服务
 
 *sc delete ServiceName*
 
