@@ -19,32 +19,20 @@
 
 <table>
   <tr>
-    <th width=20%, bgcolor=yellow >参数</th>
-    <th width=30%, bgcolor=yellow>详细解释</th>
-    <th width="30%", bgcolor=yellow>备注</th>
-    <th width="20%", bgcolor=yellow>备注</th>
+    <th width=20%, bgcolor=yellow >计费类型</th>
+    <th width=30%, bgcolor=yellow>价格</th>
+    <th width="30%", bgcolor=yellow>说明</th>
+    <th width="20%", bgcolor=yellow>辅助举例</th>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee> -l </td>
-    <td> use a long listing format  </td>
+    <td bgcolor=#eeeeee> 张三 </td>
+    <td> 0GB~100GB：0.0192元/GB/天</br>
+100GB~1TB：0.0096元/GB/天(5折)</br>
+1TB~10TB：0.0084元/GB/天(4.375折)</br>
+10TB~100TB：0.0072元/GB/天(3.75折)</br>
+100TB~1PB：0.006元/GB/天(3.125折)</br>
+1PB以上：请通过工单联系我们  </td>
     <td> 以长列表方式显示（显示出文件/文件夹详细信息）  </td>
-    <td> 以长列表方式显示（显示出文件/文件夹详细信息）  </td>
-  </tr>
-  <tr>
-    <td bgcolor=#00FF00>-t </td>
-    <td> sort by modification time </td>
-    <td> 按照修改时间排序（默认最近被修改的文件/文件夹排在最前面） </td>
-    <td> 以长列表方式显示（显示出文件/文件夹详细信息）  </td>
-  <tr>
-    <td bgcolor=rgb(0,10,0)>-r </td>
-    <td> reverse order while sorting </td>
-    <td>  逆序排列 </td>
-    <td> 以长列表方式显示（显示出文件/文件夹详细信息）  </td>
-  </tr>
-    <tr>
-    <td bgcolor=rgb(0,10,0)>-r </td>
-    <td> reverse order while sorting </td>
-    <td>  逆序排列 </td>
     <td> 以长列表方式显示（显示出文件/文件夹详细信息）  </td>
   </tr>
 </table>
