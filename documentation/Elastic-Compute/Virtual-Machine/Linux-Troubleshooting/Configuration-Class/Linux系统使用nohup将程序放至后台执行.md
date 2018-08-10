@@ -13,7 +13,7 @@ Nohup的作用顾名思义，它使得后面的命令不会响应挂断（SIGHUP
 
 使用举例：
 
-1、正常的执行命令为*“bash hello.sh”* ，执行结果为每秒输出一行的小程序：
+1、正常的执行命令为*bash hello.sh*，执行结果为每秒输出一行的小程序：
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8nohup%E5%B0%86%E7%A8%8B%E5%BA%8F%E6%94%BE%E8%87%B3%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8C01.png)
 
