@@ -19,10 +19,10 @@
 
 <table>
   <tr>
-    <th width=10%, bgcolor=yellow >参数</th>
-    <th width=40%, bgcolor=yellow>详细解释</th>
-    <th width="50%", bgcolor=yellow>备注</th>
-    <th width="50%", bgcolor=yellow>备注</th>
+    <th width=20%, bgcolor=yellow >参数</th>
+    <th width=30%, bgcolor=yellow>详细解释</th>
+    <th width="30%", bgcolor=yellow>备注</th>
+    <th width="20%", bgcolor=yellow>备注</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee> -l </td>
