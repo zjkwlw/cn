@@ -3,35 +3,30 @@
 # 应用场景
 - 对跨地域、跨产品的监控指标大盘盯屏展示；
 - 对大量实例的监控数据进行汇总和聚合展示；
-- 对相同云产品在不同时间内的监控数据进行对比分析；
+- 对相同云产品在不同时间内的监控数据进行对比分析。
 
 # 我关注的面板
 用户可根据自身业务需要，将自己最关心的监控面板（dashboard）设置为关注的面板。用户可在监控大盘列表中设置关注面板，当前版本只支持设置一个监控面板为关注面板。设置完成之后，用户在"dashboard->我关注的面板: 中可快速查看。
 # 管理监控面板
 ## 添加监控面板
-1.登录京东云云监控控制台，点击“管理->云监控->dashboard->监控面板”，进入监控面板列表页面。
-
-2.点击左上角的“创建面板”按钮。
+1.登录京东云云监控控制台，点击“管理->云监控->dashboard->监控面板”，进入监控面板列表页面。点击左上角的“创建面板”按钮。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%9B%E5%BB%BA%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF3.png)
 
-3.在打开的创建监控面板页面，填写监控面板名称，点击确定完成创建。
+2.在打开的创建监控面板页面，填写监控面板名称，点击确定完成创建。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%9B%E5%BB%BA%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF4.png)
 
 ## 删除监控面版
 1.点击监控面板列表操作栏中的“更多操作”，选择“删除”。
-
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%A0%E9%99%A4%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF1.png)
 
 2.弹出弹框提示，选择“确定”成功删除监控面板。
-
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%A0%E9%99%A4%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF2.png)
 
 ## 关注监控面板
-点击监控面板列表操作栏中的“关注“，即可关注当前选择的监控面板。
+点击监控面板列表操作栏中的“关注“，即可关注当前选择的监控面板。  
 注：当前版本只支持设置一个关注面板，如果其他监控面板已经被设置为“关注”，则会被自动取消关注。
-
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/我关注的面板2.png)
 
 # 管理监控图表
@@ -69,7 +64,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%A0%E9%99%A4%E7%9B%91%E6%8E%A7%E5%9B%BE%E8%A1%A8-%E7%A1%AE%E8%AE%A4.png)
 
 ## 复制监控图表
-点击图表中的“复制”，打开添加监控图页面，复制打开的添加监控图页面与原监控图表各项配置及监控资源完全相同的监控图表，可以对图表的配置及监控资源进行调整，点击确定，生成一张新的监控图表。
+点击图表中的“复制”选项，即可快速打开添加监控图页面。复制打开的添加监控图页面与原监控图表各项配置及监控资源完全相同的监控图表，可以对图表的配置及监控资源进行调整，点击确定，生成一张新的监控图表。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%A4%8D%E5%88%B6%E7%9B%91%E6%8E%A7%E5%9B%BE%E8%A1%A8.png)
 
@@ -90,7 +85,7 @@
 4.点击“取消对比”即可取消数据对比。
 
 ## 导出数据
-1.小图点击导出数据的图标或在方大图点击“导出”图标。
+1.在小图点击导出数据选项或在放大图中点击“导出”图标。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE.png)
 
