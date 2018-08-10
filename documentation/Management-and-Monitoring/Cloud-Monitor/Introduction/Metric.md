@@ -36,7 +36,7 @@ CPU使用率 | % |1分钟
 公网网络出流量|Mbytes|1分钟
 每秒请求数|Count|1分钟
 
-## MySQL监控指标
+## MySQL/Percona/MariaDB 监控指标
 监控指标 | 单位 |最小监控粒度
 ---|---|---
 CPU使用率	|%|	1分钟
@@ -97,42 +97,6 @@ CPU使用率	|%|	1分钟
 网络入速率|kbps|	1分钟
 网络出熟虑|kbps|	1分钟
 磁盘队列长度|个| 1分钟
-
-## Percona监控指标
-
-监控指标 | 单位 |最小监控粒度
----|---|---
-CPU使用率	|%|	1分钟
-内存使用率	|%|	1分钟
-硬盘空间总使用量|MB|1分钟
-用户数据使用量|MB|1分钟
-系统数据使用量|MB|1分钟
-日志文件使用量|MB|1分钟
-网络接收流量|bps|	1分钟
-网络发送流量|bps|	1分钟
-实例每秒入流量|bps|	1分钟
-实例每秒入流量|bps|	1分钟
-每秒SQL语句执行次数	|次|1分钟
-每秒事务数	|个|	1分钟
-临时表数量	|个|1分钟
-当前总连接数	|个|	1分钟
-当前活跃连接数	|个|	1分钟
-InnoDB每秒读取量	|B|	1分钟
-InnoDB每秒写入量	|B|	1分钟
-InnoDB缓存池读命中率	|%|	1分钟
-InnoDB缓存池利用率	|%|	1分钟
-InnoDB缓存池脏块率	|%|	1分钟
-InnoDB每秒向缓冲池的读次数	|次|	1分钟
-InnoDB每秒向缓冲池的写次数	|次|	1分钟
-InnoDB日志每秒物理写次数	|次|	1分钟
-InnoDB日志每秒完成的fsync写数量	|个|	1分钟
-MySQL_COMDML   Delete	|个|	1分钟
-MySQL_COMDML   Insert	|个|	1分钟
-MySQL_COMDML   Select	|个|	1分钟
-MySQL_COMDML   Update	|个|	1分钟
-MySQL_COMDML   Insert_Select	|个|	1分钟
-MySQL_COMDML   Replace	|个|	1分钟
-MySQL_COMDML   Replace_Select	|个|	1分钟
 
 ## DRDS监控指标
 监控指标 | 单位 |最小监控粒度
