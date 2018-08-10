@@ -209,7 +209,7 @@ Step4：将my-demo.service注册到系统当中并设置开机自启动执行命
 
 这里举个设置SSHD开机自启动的例子：
 
- # 查看SSHD服务是否启动
+#查看SSHD服务是否启动
 
 *systemctl status sshd*
 
