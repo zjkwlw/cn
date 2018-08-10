@@ -10,10 +10,10 @@
 
 <table>
   <tr>
-    <th width=20%, bgcolor=yellow >计费类型</th>
+    <th width=15%, bgcolor=yellow >计费类型</th>
     <th width=30%, bgcolor=yellow>价格</th>
     <th width="30%", bgcolor=yellow>说明</th>
-    <th width="20%", bgcolor=yellow>辅助举例</th>
+    <th width="25%", bgcolor=yellow>辅助举例</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee> 张三 </td>
