@@ -5,60 +5,70 @@
 
 1. 接口名称：putMetricData
 
-2. 上报域名：
+2. 公网域名：
 
 地域 | 域名
 ---|---
-华北-北京 |custommetric-put-cn-north-1.monitor.jdcloudcs.com
-华南-广州 |custommetric-put-cn-south-1.monitor.jdcloudcs.com
-华东-宿迁 |custommetric-put-cn-east-1.monitor.jdcloudcs.com
-华东-上海 |custommetric-put-cn-east-2.monitor.jdcloudcs.com
+华北-北京 |monitor.cn-north-1.jdcloud-api.com
+华南-广州 |monitor.cn-south-1.jdcloud-api.com
+华东-宿迁 |monitor.cn-east-1.jdcloud-api.com
+华东-上海 |monitor.cn-east-2.jdcloud-api.com
+
 3. 支持批量上报方式。单次请求最多包含 50 个数据点；数据大小不超过 256k。
 
+注：OpenAPI入门使用请参看公共说明
+
+### 请求方式
+
+POST   https://{公网域名}/v1/customMetrics
+
+例如： POST    https://monitor.cn-north-1.jdcloud-api.com/v1/customMetrics
 
 ### 请求参数
 
-名称 | 必选 | 类型 | 说明
+名称 | 类型 | 是否必选 | 描述
 ---|---|---|---
-namespace|是|String|命名空间名称。长度不超过255字节，只允许英文、数字、中文、下划线_、点。
-metric|是|String|监控指标，长度不超过255字节。
-dimensions|是|Map|维度,维度至少一个，最多五个 ，按照dimensionName：dimensionValue;dimensionName：dimensionValue 的格式， 只允许英文、数字、中文、下划线_、点。
-timestamp|是|Long|监控数据的时间戳，不能写入过去30天的时间。
-type|是|int|上报数值的类型，1为原始值，2为聚合数据。当上报聚合数据时，建议为60s的周期时进行上报、否则无法正常查询。
-values|是|Map|指标值集合，key为数据类型，value为数据值，当type=1时，key只能为”value”，上报的是原始值，当type=2时，K的值可以为"avg","sum","last","max","min","count"，只支持以上类型，否则会报错，value最大值为9223372036854775807，count只支持>=0的数
+metricDataList|	MetricDataCm[] |	False |	数据参数   
 
-### 返回参数
+### MetricDataCm
 
-名称|	类型|	描述  
+名称 | 类型 | 是否必选 | 描述
+---|---|---|---
+dimensions|Object |True|数据维度，数据类型为map类型，支持最少一个，最多五个标签，总长度不大于255字节，只允许英文、数字、下划线_、点., [0-9][a-z] [A-Z] [. _ ]，  其它会返回err
+metric|	String |True |	监控指标名称，长度不超过255字节，只允许英文、数字、下划线_、点.,  [0-9][a-z] [A-Z] [. _ ]， 其它会返回err               
+namespace |	String|	True|命名空间 ，长度不超过255字节，只允许英文、数字、下划线_、点., [0-9][a-z] [A-Z] [. _ ]，  其它会返回err               
+timestamp|Integer|True|上报数据点的时间戳,只支持10位，秒级时间戳，不能写入过去30天的时间                              
+type |Integer|True |数据上报类型，1为原始值，2为聚合数据。当上报聚合数据时，建议为60s的周期时行上报、否则无法正常查询                           
+values |	Object |	True |指标值集合，数据类型必须为map类型，key为数据类型，value为数据值，当type=1时，key只能为”value”，上报的是原始值，当type=2时，K的值可以为"avg","sum","last","max","min","count"，只支持以上类型，否则会报错，value内容为整型或浮点型数字，最大值为9223372036854775807，count只支持>=0的数  
+
+### 返回参数  
+
+名称 | 类型 | 是否必选 
 ---|---|---
-success|bool|	全部成功则返回true，否则false。     
-metricDataList|ErrorMetricData[ ]|上报失败的数据        
-error|error|错误信息  
- 
-### ErrorMetricData[ ]
-
-名称|类型|描述   
+error |Object| 错误信息 。     
+requestId|String |请求的标识id                        
+result |Result |                
+                      
+### Result
+名称 | 类型 | 是否必选 
 ---|---|---
-data|	metricData[ ]	|写入失败的原始数据 ，该数据为用户上报的数据数据格式
-errDetail|	string  |写入失败的原因   
+errMetricDataList|MetricDataList[]|
+success|Boolean  |全部写入成功为true，否则为false   
 
-### error
-
-名称|类型|描述   
+### MetricDataList
+名称 | 类型 | 是否必选 
 ---|---|---
-code|int|错误码。当有多个数据点写入失败时，该code为最后一个error的code。
-message|string|错误信息
-status|string|字符串错误码
-detail|string|详细信息 
+errDetail|string	| 错误数据描述
+errMetricData |string |错误数据              
 
-### 错误码 
-
-返回码|描述   
+### 返回码  
+名称 | 类型 
 ---|---
-400	|参数无效
-403	|权限不足
-429	|配额不足
-500	|服务器内部错误
+200	|OK
+400	|invalid parameter
+500 |internal server error
+429	|quota exceed
+
 
 ### 示例代码
 
@@ -123,10 +133,8 @@ detail|string|详细信息 
 ]
 ```
 
-### 返回代码
 
 返回示例
-
 
 ```
 success：
