@@ -29,7 +29,7 @@ wget -c http://devops.oss-internal.cn-south-1.jcloudcs.com/ifrit/ifrit-agent-ext
 
 在第三方主机（物理机or虚机）中，安装Agent的方法如下：
 ```
-wget -c http://devops-hb.oss.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer -- -t $tenant -r $region -v $vpc /export/servers/ifrit $vpc && rm -f installer
+wget -c http://devops-hb.oss.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer -- -t $tenant -r $region -v $vpc /export/servers/ifrit && rm -f installer
     -t tenant #devops中的租户名
     -v vpc    #由用户编写，将作为服务器的vpc名称
     -r region #由用户编写，将作为服务器的region名称
