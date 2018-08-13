@@ -69,9 +69,9 @@
 - name: 最佳实践
   items:
     - name: 批量资源监控
-      href: Best-Practices/批量资源监控.md
-    - name: 日常业务监控管理
-      href: Best-Practices/日常业务监控管理.md
+      href: Best-Practices/bulk-resource-monitoring.md
+    - name: 日常业务监控
+      href: Best-Practices/business-monitoring.md
 - name: 教程
   items:
   status: 0
