@@ -48,7 +48,7 @@ b.后台启动容器，验证配置是否正确
 docker run -d {镜像名/ID}
 docker ps
 c.登录镜像仓库
-docker login -u{用户名} -p{密码} hub-ark-hn.jdcloud.com
+docker login -u{用户名} -p{密码} *.jdcloud.com   #具体域名详见页面提示
 返回「Login Succeded」即为登录成功。
 d.标记本地镜像
 docker tag {镜像名/ID} hub-ark-hn.jdcloud.com/{用户名}/{镜像名}:{版本}
@@ -58,7 +58,7 @@ docker push hub-ark-hn.jdcloud.com/{用户名}/{镜像名}:{版本}
 
 提示：
 
-a.	默认为基础+私有镜像，如果需要开发，请登录镜像广场- 我的镜像下进行更改，并可以更改镜像的类型 基础镜像、编译镜像
+a.	默认为基础+私有镜像，如果需要更改，请登录镜像广场更改镜像的类型 基础镜像、编译镜像
 
 b.	关于镜像类型区分镜像总分为两类镜像，分别：
 
@@ -73,7 +73,7 @@ a.公开镜像
 docker pull hub-ark-hn.jdcloud.com/{用户名}/{标签名}:{版本}
 b.私有镜像
 # 登录镜像广场
-docker login -u{用户名} -p{密码} hub-ark-hn.jdcloud.com
+docker login -u{用户名} -p{密码} *.jdcloud.com   #具体域名详见页面提示
 # 拉取镜像
 docker pull hub-ark-hn.jdcloud.com/{用户名}/{标签名}:{版本}
 ```
