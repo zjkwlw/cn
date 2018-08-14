@@ -6,7 +6,7 @@
 
 网络ACL可用于对跨子网的东西向访问流量或者进出互联网的南北向访问流量进行过滤。具有相同网络流量控制的子网可以关联同一个网络 ACL，通过设置出站和入站允许规则，对进出子网的流量进行精确控制。
 
-![](../../Image/Network-ACL-Basic.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Network-ACL-Basic.jpg)
 
 
 
