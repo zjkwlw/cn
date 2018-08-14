@@ -66,5 +66,5 @@
 - [连接实例](Connect-Instance.md)
 - [修改密码](../Operation-Guide/Account-Management/Reset-Password.md)
 - [导入数据](Import-Data.md)
-- [变更实例配置](../../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
+- [变更实例配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
 - [计费规则](../Pricing/Billing-Rules.md)
