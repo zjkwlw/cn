@@ -1,33 +1,3 @@
 # 应用场景
 
-以下说明大数据基础服务 JMR 的适用场景。
-
-## 离线数据处理
-云数据库 MongoDB 支持多可用区部署模式，您可以将实例的主从节点与隐藏节点分别部署在不同的可用区，以提供同城容灾能力。当因不可抗力导致某一可用区不能提供服务时，MongoDB 服务可快速切换到另一可用区，确保服务的可用性。
-
-![同城容灾场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mogno-001.png)
-
-
-## 实时数据处理
-依托云数据库 MongoDB 完善的备份机制和根据时间点创建实例的能力，您可以快速基于某一实例的数据创建新的 MongoDB 实例，以满足游戏等分区服务类应用的快速滚服和合服的需求。
-
-![分服应用场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-002.png)
-
-## Ad hoc数据分析
-云数据库 MongoDB 支持多可用区部署模式，您可以将实例的主从节点与隐藏节点分别部署在不同的可用区，以提供同城容灾能力。当因不可抗力导致某一可用区不能提供服务时，MongoDB 服务可快速切换到另一可用区，确保服务的可用性。
-
-![同城容灾场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mogno-001.png)
-
-
-## 海量数据在线服务
-依托云数据库 MongoDB 完善的备份机制和根据时间点创建实例的能力，您可以快速基于某一实例的数据创建新的 MongoDB 实例，以满足游戏等分区服务类应用的快速滚服和合服的需求。
-
-![分服应用场景](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-002.png)
-
-## 相关参考
-
-- [产品优势](../Introduction/Benefits.md)
-- [产品功能](../Introduction/Functions.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [计费规则](../Pricing/Billing-Rules.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
+JMR的应用场景非常广泛，可应用于数据仓库、日志分析、ETL处理、临时性处理分析、即席查询分析、流式实时计算、数据对外服务等多个场景，从而为用户提供全面、实用、便捷的服务，能够有效解决企业数据来源和类型较为复杂、工作负载差异较大等问题。

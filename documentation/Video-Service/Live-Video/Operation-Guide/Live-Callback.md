@@ -8,27 +8,27 @@
 
 登录直播控制台，进入“域名管理”页面，选择要查看播放地址的一组域名，点击右侧的“管理”进入“基本信息”页面
 
-![](media/34feadde3b6ffa5e90703653d0946f1d.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E5%9F%9F%E5%90%8D%E7%AE%A1%E7%90%86-%E7%AE%A1%E7%90%86%E6%8C%89%E9%92%AE.jpg)
 
 在页面下方的“直播信息”栏滑动滑钮打开推流或者录制回调
 
-![](media/8b0c8a43451a0bc0b922be01edf61cfc.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E5%9B%9E%E8%B0%83-%E5%9B%9E%E8%B0%83%E5%BC%80%E5%90%AF.png)
 
 点击推流或录制回调后的“编辑”按钮填写接收信息的回调地址，点击“确定”完成设置
 
-![](media/330d9f1dd0f92e9523c0072b42e5413d.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E5%9B%9E%E8%B0%83-%E5%9B%9E%E8%B0%83%E5%9C%B0%E5%9D%80%E7%BC%96%E8%BE%91.png)
 
-![](media/e5456a7cf56657050f41fe820f1d7131.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E5%9B%9E%E8%B0%83-%E9%85%8D%E7%BD%AE%E7%A1%AE%E5%AE%9A.png)
 
 ## 2.关闭回调
 
 登录直播控制台，进入“域名管理”页面，选择要查看播放地址的一组域名，点击右侧的“管理”进入“基本信息”页面
 
-![](media/34feadde3b6ffa5e90703653d0946f1d.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E5%9F%9F%E5%90%8D%E7%AE%A1%E7%90%86-%E7%AE%A1%E7%90%86%E6%8C%89%E9%92%AE.jpg)
 
 在页面下方的“直播信息”栏滑动滑钮关闭推流或者录制回调
 
-![](media/7063bdd81bea0d0dc77605e496a28f9a.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E5%9B%9E%E8%B0%83-%E5%85%B3%E9%97%AD%E5%9B%9E%E8%B0%83.jpg)
 
 ## 3.回调说明
 
