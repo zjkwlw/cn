@@ -15,8 +15,8 @@
 
 ## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [核心概念](../Product-Introduction/Core-Concepts.md)
-- [产品功能](../Product-Introduction/Functions.md)
+- [产品概述](../Introduction/What-Is-MongoDB.md)
+- [核心概念](../Introduction/Core-Concepts.md)
+- [产品功能](../Introduction/Functions.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
 - [设置白名单](..//Getting-Started/Set-Whitelist.md)
