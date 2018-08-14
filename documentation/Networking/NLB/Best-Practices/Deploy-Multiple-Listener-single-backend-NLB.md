@@ -50,7 +50,7 @@
 
 	![NLB健康检查设置](../../../../image/Networking/NLB/NLB-ML-Health.png)
 
-3.添加服务器组
+3.添加服务器组：
 
 - 根据业务需要选择虚拟服务器组、高可用组。
 
@@ -60,7 +60,9 @@
 
 ![ALB虚拟服务器组设置](../../../../image/Networking/NLB/NLB-084.png)
 
-4. 监听器策略已创建完成。基于TCP协议的监听器，可在监听器列表查看。
+4. 监听器策略已创建完成：
+
+- 基于TCP协议的监听器，可在监听器列表查看。
 
 	![NLB监听器列表页](../../../../image/Networking/NLB/NLB-ML-Listenerlist.png)
 
