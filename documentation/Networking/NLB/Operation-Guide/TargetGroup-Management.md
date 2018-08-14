@@ -18,21 +18,21 @@
 
 1. 编辑虚拟服务器组：通过虚拟服务器组列表页-操作栏，可编辑虚拟服务器组。
 
-1. 删除虚拟服务器组：通过虚拟服务器组列表页-操作栏，可删除虚拟服务器组。
+2. 删除虚拟服务器组：通过虚拟服务器组列表页-操作栏，可删除虚拟服务器组。
 
-1. 点击虚拟服务器组名称可查看后端服务器信息。
+3. 点击虚拟服务器组名称可查看后端服务器信息。
 
-	![管理虚拟服务器组](../../../../image/Networking/NLB/NLB-TGDetailEntrance.png)
+![管理虚拟服务器组](../../../../image/Networking/NLB/NLB-TGDetailEntrance.png)
 
-	![查看虚拟服务器组](../../../../image/Networking/NLB/NLB-TGDetail.png)
+![查看虚拟服务器组](../../../../image/Networking/NLB/NLB-TGDetail.png)
 		
 ## 编辑虚拟服务器组
 
 1. 通过负载均衡-详情-虚拟服务器组-编辑打开虚拟服务器组编辑页；
 
-1. 可修改服务器组名称，添加、删除虚拟服务器组内的云主机、容器资源。
+2. 可修改服务器组名称，添加、删除虚拟服务器组内的云主机、容器资源。
 
-    ![修改虚拟服务器组](../../../../image/Networking/NLB/NLB-TGEditEntrance.png)
+![修改虚拟服务器组](../../../../image/Networking/NLB/NLB-TGEditEntrance.png)
 
-	![修改虚拟服务器组](../../../../image/Networking/NLB/NLB-TGEdit.png)
+![修改虚拟服务器组](../../../../image/Networking/NLB/NLB-TGEdit.png)
 		
