@@ -34,7 +34,7 @@ db.createUser( { user: "accountAdmin01",
 ```
 
 
-1. 创建带角色的用户
+2. 创建带角色的用户
 
    以下操作在products库创建账号accountUser，并给账号赋予readWrite、dbAdmin角色。
 ```
@@ -47,7 +47,7 @@ db.createUser(
    }
 )
 ```
-1. 创建不带角色的用户
+3. 创建不带角色的用户
 
    以下操作在admin库创建账号reportsUser，但未赋予角色。
 ```
@@ -61,7 +61,7 @@ db.createUser(
 )
 ```
 
-1. 创建带角色的管理员账号
+4. 创建带角色的管理员账号
 
    下面的操作在admin库中创建appAdmin账号，并给账号赋予config库的readWrite角色。
 ```
