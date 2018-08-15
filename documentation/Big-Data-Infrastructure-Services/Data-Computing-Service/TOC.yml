@@ -1,4 +1,4 @@
-- name: 云数据库 MongoDB
+- name: 数据计算服务 Data Computing Service
   href: 
 - name: 产品简介
   items:
@@ -30,18 +30,6 @@
       herf: Pricing/Purchase-Process.md 
     - name: 续费流程
       herf: Pricing/Renew-Process.md
-- name: 入门指南
-  items:
-    - name: 创建实例
-      herf: Getting-Started/Create-Instance.md
-    - name: 设置白名单
-      herf: Getting-Started/Set-Whitelist.md
-    - name: 连接实例
-      herf: Getting-Started/Connect-Instance.md
-    - name: 导入数据
-      herf: Getting-Started/Import-Data.md
-    - name: 导出数据
-      herf: Getting-Started/Export-Data.md
 - name: 操作指南
   items:
     - name: 实例管理
@@ -85,26 +73,7 @@
         - name: 查看监控信息
           herf: Operation-Guide/Monitoring/Monitoring.md
         - name: 设置报警规则
-          herf: Operation-Guide/Monitoring/Alarm-Rules.md              
-- name: 最佳实践
-  items:
-  - name: 使用MongoDB的固定集合
-    herf: Best-Practices/Capped-Collections.md
-  - name: MongoDB 开启慢日志分析
-    herf: Best-Practices/MongoDB-Profile.md
-  - name: 公网连接MongoDB实例
-    herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
-- name: 教程
-  items:
-  status: 0
-- name: 问题排查
-  items:
-  - name: 云主机无法连接MongoDB实例？
-    herf: Troubleshooting/Connect-Failed.md
-  - name: 云数据库 MongoDB 不支持哪些命令？
-    herf: Troubleshooting/Command.md
-  - name: 账号密码正确，连接提示无权限？
-    herf: Troubleshooting/Authentication.md        
+          herf: Operation-Guide/Monitoring/Alarm-Rules.md             
 - name: 常见问题
   herf: FAQ/FAQ.md
 - name: API参考
