@@ -14,7 +14,7 @@
 
 4.购买的具体操作，请参考[创建实例](../../../../documentation/Networking/ALB/Getting-Started/Create-ALB-Instance.md)。
 
-## 入口2：[ALB 控制台](https://console.jdcloud.com/host/loadBalance/list)
+## 入口2：[LB 控制台](https://console.jdcloud.com/host/loadBalance/list)
 
 1. 登录京东云官网[https://www.jdcloud.com/](https://www.jdcloud.com/)。
 2. 选择“控制台”，具体见下图。
