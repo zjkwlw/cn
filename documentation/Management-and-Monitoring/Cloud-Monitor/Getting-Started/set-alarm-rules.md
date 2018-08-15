@@ -1,35 +1,16 @@
-# 资源监控
-资源监控是对用户名下的所有资源的各项指标进行监控。用户可在各类云资源列表中查看对应资源的监控与告警详情。用户可根据各类资源的特性设置报警规则和联系人，当资源的监控项数据触发了报警，则向设定的报警联系人发送短信和邮件通知。
-## 查看资源监控图表
-云资源的监控图表可通过两种方式进行查看，一种是在云监控页面进行查看，一种是在资源内查看。
-### 云监控页面查看
-1. 进入京东云控制台-云监控菜单，可看到各资源的监控列表。
-
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/1.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
-
-2. 点击各实例的操作列的“监控表”，即可看到该实例各指标的监控数据。
-
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/2.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
-
-### 资源内查看
-1. 进入京东云控制台，可进入云监控支持的云产品管理页，点击某一资源查看详情。
-
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/3.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
-
-2. 点击“监控”进入该资源的监控页面，即可看到该实例各指标的监控数据。
-
-
-## 对资源设置监控报警
+## 设置报警规则
 ### 增加报警规则
 1. 进入京东云控制台-云监控菜单，可看到各资源的监控列表，点击各实例的操作列的“报警规则”。点击“新增报警规则”，可以创建报警规则。
  
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/4.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
 
-2. 输入监控项、统计周期、统计方法、计算方式、阈值、持续周期，添加报警规则及联系人，点击“确定”。 
+2. 输入监控项、统计周期、统计方法、计算方式、阈值、持续周期，根据业务需求也可设置分级报警（分为一般、严重、紧急），点击“下一步”添加报警规则及联系人，点击“下一步”，点击“完成”即可。
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/5.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E8%AE%BE%E7%BD%AE%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
-3. 创建成功，则相关信息更新；若创建失败，则出现提示框，如果多次创建失败，请联系客服。
+3. 添加成功后，可在报警规则列表中，可查看到设置的规则信息。
+
+![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E5%AE%9E%E4%BE%8B%E8%AF%A6%E6%83%85_%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
 ### 修改/删除/禁用报警规则
 1. 进入京东云控制台-云监控菜单，找到需要进行修改的报警规则实例，点击“报警规则”；
