@@ -1,11 +1,11 @@
 # 产品优势
 
 ## 高性能
-京东云网络负载均衡NLB提供千万级并发连接、？新增连接的四层业务高性能服务能力
+京东云网络负载均衡NLB能提供过亿并发连接、每秒百万级新建连接的高性能的四层业务高性能服务能力
 
 ## 自动弹性伸缩
 
-京东云NLB能够监控业务流量的情况，当用户访问量快速提升时，能够自动扩展NLB服务实例、增大扩展到千万级并发请求的处理能力；当用户访问量下降时，能够自动收缩NLB服务实例、降低资源的耗费。整个伸缩过程自动、平滑，提供无感知、顺畅的用户服务。
+京东云NLB能够监控业务流量的情况，当用户访问量快速提升时，能够自动扩展NLB服务实例、增大扩展到过亿级并发请求的处理能力；当用户访问量下降时，能够自动收缩NLB服务实例、降低资源的耗费。整个伸缩过程自动、平滑，提供无感知、顺畅的用户服务。
 
 ## 服务高可用
 
@@ -49,8 +49,8 @@ NLB可完整透传用户源IP地址，便于服务端感知或者统计真实源
 
 ## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [产品规格](../Product-Introduction/Specification.md)
+- [产品概述](../Introduction/Overview.md)
+- [产品规格](../Introduction/Specification.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
 - [创建虚拟服务器组](../Operation-Guide/TargetGroup-Management.md)
