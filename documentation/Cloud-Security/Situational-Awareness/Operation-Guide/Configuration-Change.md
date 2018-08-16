@@ -26,7 +26,7 @@
 
     ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-5.png)
 
-    ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-6.png)
+    ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-6.jpg)
 
 #### 功能说明
 为了让用户快速获取威胁事件告警，通过邮件、短信报警的方式通知用户。
