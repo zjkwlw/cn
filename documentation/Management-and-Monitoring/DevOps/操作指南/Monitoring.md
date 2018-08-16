@@ -36,17 +36,17 @@
 
  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E7%BB%84.png)
 
-5.每个产品线、每个系统节点都可以创建一个值班组，与报警组的区别是：值班组的人员负责夜间的报警。
+5.每个产品线、每个系统节点都可以创建一个值班组，方便值班人员轮询接收报警。
 
  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E5%80%BC%E7%8F%AD%E7%BB%84.png)
 
 **报警管理**
 
-1.报警历史。报警历史中可以查看触发报警规则的所有事件，有统计面板和列表。
+1.报警历史。报警历史中可以查看触发报警规则的所有事件，有统计面板和列表，支持报警历史分享和下载功能。
 
  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E5%8E%86%E5%8F%B2.png)
 
-2.报警屏蔽。对于现实中一些情况，比如一个机器下线，不需要收到这个机器的任何报警，可以通过报警屏蔽功能，设置一段屏蔽时间，在这段时间内，将不会再收到这个机器的任何报警。超出这段时间后，报警重新生效。同时，支持按报警配置屏蔽报警。
+2.报警屏蔽。对于已知故障和处理中的故障，可设置屏蔽，在屏蔽时间段内不会收到报警，避免干扰，屏蔽时间到后自动开启报警。支持按报警规则和单个，多个ns屏蔽报警。
 
  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E5%B1%8F%E8%94%BD.png)
 
@@ -56,7 +56,7 @@
 
  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E4%BB%AA%E8%A1%A8%E7%9B%98.png)
 
-2.趋势图。在趋势图上方勾选NS和监控指标，就能查看趋势图数据，支持统计值的切换、单位的切换，并有自动刷新的功能。
+2.趋势图。在趋势图上方勾选NS和监控指标，就能查看趋势图数据，支持统计值的切换、单位的切换，并支持分享，大图等功能。
 
  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E8%B6%8B%E5%8A%BF%E5%9B%BE.png)
 
