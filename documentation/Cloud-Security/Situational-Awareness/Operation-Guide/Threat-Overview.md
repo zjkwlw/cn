@@ -2,7 +2,7 @@
 
 - 界面
 
-  ![20180810130656.png](https://img1.jcloudcs.com/cms/545c6b05-3346-42ad-8e90-a363f73532ca20180810130808.png)
+  ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/to-1.png)
 
 - 名词解释
 
