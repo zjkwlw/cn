@@ -12,7 +12,6 @@
 
 #### 功能说明
 本期由于引入主机相关的威胁事件，态势感知资产的概念也扩充到外网IP和内网IP的组合。提供基于内外网IP查询。以及网络检测引擎开放和关闭功能。
-![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-4.png)
 
 #### 操作步骤
 关闭全部网络检测引擎，点击“开通状态”按钮，会关闭所有态势感知监控的IP。
@@ -23,10 +22,8 @@
 
 ### 事件告警
 #### 界面
-
-    ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-5.png)
-
-    ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-6.jpg)
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-4.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-5.jpg)
 
 #### 功能说明
 为了让用户快速获取威胁事件告警，通过邮件、短信报警的方式通知用户。
