@@ -3,8 +3,8 @@
 您可以通过创建和部署API分组，实现服务的对外开放。
 本文将快速引导您通过控制台开放API。
 您需要依次完成以下步骤才能成功开放API服务：
-- STEP1:创建API分组
-- STEP2:创建分组下的API
+- STEP1: 创建API分组
+- STEP2: 创建分组下的API
 - STEP3：给分组绑定域名、配置流控策略、后端签名
 - STEP4：发布API分组到环境上
 - STEP5：给API调用者授权访问
@@ -26,7 +26,7 @@
 ![创建分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
     
     
-3.填写分组信息后，点击保存，即新建分组。当首次新建时，系统会自动将其保存为版本号为0.0.1的版本。后续可在版本管理中进行多版本维护。
+3.填写分组信息后，点击确定，即新建分组。当首次新建时，系统会自动将其保存为版本号为0.0.1的版本。后续可在版本管理中进行多版本维护。
 
 
 
@@ -54,7 +54,7 @@ API 分组创建完成您就可以创建 API 了，创建 API 是定义 API 请�
 ![高级配置](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi-advane.png)
   
   
-4.填写API信息后，点击保存，即新建完成。至此完成 API 的创建，并且具备开放的条件。
+4.填写API信息后，点击确定，即新建完成。至此完成 API 的创建，并且具备开放的条件。
 
 
 

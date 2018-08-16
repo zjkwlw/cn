@@ -1,4 +1,4 @@
-  name: 负载均衡
+  name: 网络负载均衡
   href: 
   items:
   - name: 产品简介
@@ -62,17 +62,15 @@
       - name: 虚拟服务器组管理
         href: Operation-Guide/TargetGroup-Management.md
       - name: 监控服务
-        href: Operation-Guide/Monitoring.md
-      - name: 使用限制
-        href: Operation-Guide/Restrictions.md                
+        href: Operation-Guide/Monitoring.md             
   - name: 最佳实践
     items:
     - name: 利用网络负载均衡部署源IP透传TCP服务
-      href: Best-Practices/Deploy-TCP-Service-with-NLB.md
+      href: Best-Practices/Deploy-TCP-Service-with-Original-Client-IP-Passthrough.md
     - name: 利用网络负载均衡部署多端口业务、服务器复用服务
       href: Best-Practices/Deploy-Multiple-Listener-single-backend-NLB.md
     - name: 利用网络负载均衡部署高可用业务
-      href: Best-Practices/Deploy-High-Availability -Service-with-NLB.md
+      href: Best-Practices/Deploy-High-Availability-Service-with-NLB.md
     - name: 利用网络负载均衡部署会话保持业务
       href: Best-Practices/Session-Sticky-with-NLB.md
     - name: 利用网络负载均衡保证服务实例优雅退出
@@ -84,22 +82,19 @@
   - name: 问题排查
     items:
     - name: 网络负载均衡业务接入失败？
-      href: Troubleshooting/Access NLB Service-Failed.md       
+      href: Troubleshooting/Access-NLB-Service-Failed.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
+    status: 0      
   - name: SDK参考
-    href:
+    status: 0      
   - name: 用户协议
-    status: 0
     items:
     - name: 服务条款
-      href: User-Agreements/Product-Terms-of-Service.md           
-      status: 0      
+      href: User-Agreements/Product-Terms-of-Service.md               
     - name: SLA
       href: User-Agreements/SLA.md           
-      status: 0       
   - name: 相关资源
     items:
     - name: 文档历史记录
