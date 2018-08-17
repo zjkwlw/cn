@@ -1,131 +1,46 @@
-- name: 云数据库 MongoDB
-  href: 
-- name: 产品简介
-  items:
-    - name: 产品概述
-      herf: Introduction/What-Is-MongoDB.md
-    - name: 核心概念
-      herf: Introduction/Core-Concepts.md
-    - name: 基础架构
-      herf: Introduction/Basic-Infrastructure.md
-    - name: 产品优势
-      herf: Introduction/Benefits.md
-    - name: 产品功能
-      herf: Introduction/Functions.md
-    - name: 产品规格
-      herf: Introduction/Specification.md
-    - name: 限制说明
-      herf: Introduction/Restrictions.md
-    - name: 应用场景 
-      herf: Introduction/Application-Scenarios.md    
-- name: 产品定价
-  items:
-    - name: 计费概述
-      herf: Pricing/Billing-Overview.md
-    - name: 计费规则
-      herf: Pricing/Billing-Rules.md
-    - name: 价格总览
-      herf: Pricing/Price-Overview.md
-    - name: 购买流程
-      herf: Pricing/Purchase-Process.md 
-    - name: 续费流程
-      herf: Pricing/Renew-Process.md
-- name: 入门指南
-  items:
-    - name: 创建实例
-      herf: Getting-Started/Create-Instance.md
-    - name: 设置白名单
-      herf: Getting-Started/Set-Whitelist.md
-    - name: 连接实例
-      herf: Getting-Started/Connect-Instance.md
-    - name: 导入数据
-      herf: Getting-Started/Import-Data.md
-    - name: 导出数据
-      herf: Getting-Started/Export-Data.md
-- name: 操作指南
-  items:
-    - name: 实例管理
-      items:
-        - name: 变更配置
-          herf: Operation-Guide/Instance-Management/Modify-Instance-Spec.md
-        - name: 重启实例
-          herf: Operation-Guide/Instance-Management/Restart-Instance.md
-        - name: 续费实例
-          herf: Operation-Guide/Instance-Management/Renewal-Instructions.md      
-        - name: 删除实例
-          herf: Operation-Guide/Instance-Management/Delete-Instance.md
-    - name: 账号管理
-      items:
-        - name: 创建账号
-          herf: Operation-Guide/Account-Management/Create-MongoDB-Account.md
-        - name: 修改密码
-          herf: Operation-Guide/Account-Management/Reset-Password.md
-    - name: 备份管理
-      items:
-        - name: 设置自动备份
-          herf: Operation-Guide/Backup/Modify-Backup-Policy.md        
-        - name: 手动创建备份
-          herf: Operation-Guide/Backup/Create-Backup.md       
-        - name: 下载备份文件
-          herf: Operation-Guide/Backup/Download-Bckup.md    
-        - name: 恢复数据
-          herf: Operation-Guide/Backup/Restore-Instance.md       
-        - name: 根据备份创建实例
-          herf: Operation-Guide/Backup/Create-Instance2.md      
-        - name: 根据时间点创建实例          
-          herf: Operation-Guide/Backup/Create-Instance3.md      
-    - name: 跨地域备份同步服务
-      items:
-        - name: 创建跨地域备份同步服务
-          herf: Operation-Guide/Across-Region-Backup-Sync/Create-Backup-Sync.md  
-        - name: 根据备份数据创建实例
-          herf: Operation-Guide/Across-Region-Backup-Sync/Create-Instance4.md
-     - name: 监控报警
-       items:
-        - name: 查看监控信息
-          herf: Operation-Guide/Monitoring/Monitoring.md
-        - name: 设置报警规则
-          herf: Operation-Guide/Monitoring/Alarm-Rules.md              
-- name: 最佳实践
-  items:
-  - name: 使用MongoDB的固定集合
-    herf: Best-Practices/Capped-Collections.md
-  - name: MongoDB 开启慢日志分析
-    herf: Best-Practices/MongoDB-Profile.md
-  - name: 公网连接MongoDB实例
-    herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
-- name: 教程
-  items:
-  status: 0
-- name: 问题排查
-  items:
-  - name: 云主机无法连接MongoDB实例？
-    herf: Troubleshooting/Connect-Failed.md
-  - name: 云数据库 MongoDB 不支持哪些命令？
-    herf: Troubleshooting/Command.md
-  - name: 账号密码正确，连接提示无权限？
-    herf: Troubleshooting/Authentication.md        
-- name: 常见问题
-  herf: FAQ/FAQ.md
-- name: API参考
-  herf:
-- name: SDK参考
-  herf:
-- name: 相关资源
-  items:
-  - name: 文档历史记录
-    herf: Related-Resources/Document-History.md     
-  - name: 服务条款
-    herf: Related-Resources/Service-Terms.md           
-    status: 0      
-  - name: SLA
-    herf: Related-Resources/SLA.md           
-    status: 0       
-  - name: 备案
-    herf: Related-Resources/Filing.md           
-    status: 0        
-  - name: 词汇表
-    herf: Related-Resources/Glossary.md           
-    status: 0          
-          
-          
+name: ������
+href: 
+items:
+- name: ��Ʒ���
+    items:
+      - name: ��Ʒ����
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Overview.md
+      - name: ʲô��������
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/what-is-stream-compute.md
+      - name: ����������������Ա�
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/compare.md
+      - name: ϵͳ�ṹ
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Basic-Infrastructure.md
+      - name: ��Ʒ����
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Benefits.md
+      - name: ���Ĺ���
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Functions.md
+      - name: Ӧ�ó���
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Application-Scenarios.md
+- name: ����ָ��
+    items:
+      - name: ����ָ��
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Getting-Started/Getting-Started.md
+- name: ����ָ��
+    items:
+      - name: ����Ӧ��
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/create.md
+    items:
+      - name: ��������
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/data-input.md
+    items:
+      - name: �������
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/data-output.md
+    items:
+      - name: ��ҵ����
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/task-develop.md
+- name: ��Ʒ����
+    items:
+      - name: ������֪
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Pricing/Billing-Overview.md
+    items:
+      - name: Ƿ�ѹ���
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Pricing/Billing-Rules.md
+    items:
+      - name: �۸�����
+        href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Pricing/Price-Overview.md
