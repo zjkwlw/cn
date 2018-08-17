@@ -7,7 +7,7 @@
 - 实例详情页面右上方的【操作】菜单下的【重启】
 - 实例详情页面中，如下所示
 
-![重启实例2](../../../../../../image/RDS/Reboot-Instance-SQLServer-1.png)
+![重启实例2](../../../../image/RDS/Reboot-Instance-SQLServer-1.png)
 
 ## 2. 选择要重启的节点
 可以分别单独重启主节点或备节点，也可以同时重启主备节点。缺省情况下
@@ -24,4 +24,4 @@
 
 备份的开始时间可进入备份管理的备份策略页面进行查看。 如果不得不在备份进行时操作，建议操作完成后手工自行一次全量备份。
 
-![重启实例4](../../../../../../image/RDS/Reboot-Instance-SQLServer-2.png)
+![重启实例4](../../../../image/RDS/Reboot-Instance-SQLServer-2.png)
