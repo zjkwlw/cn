@@ -19,19 +19,19 @@
 ## 常用操作
 
 - 弹性公网IP管理
-	- [创建弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
-	- [删除弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Elastic-IP-Management/Delete-Elastic-IP.md)
-	- [绑定弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md)
-	- [解绑弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)
-	- [修改弹性公网IP带宽](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Elastic-IP-Management/Modify-Elastic-IP.md)
+	- [创建弹性公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
+	- [删除弹性公网IP](../Operation-Guide/Elastic-IP-Management/Delete-Elastic-IP.md)
+	- [绑定弹性公网IP](../Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md)
+	- [解绑弹性公网IP](../Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)
+	- [修改弹性公网IP带宽](../Operation-Guide/Elastic-IP-Management/Modify-Elastic-IP.md)
 - 弹性公网IP资源信息查看
-	- [弹性公网IP资源信息查看](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/View-Elastic-IP-Detail/View-Elastic-IP-Detail.md)
+	- [弹性公网IP资源信息查看](../Operation-Guide/View-Elastic-IP-Detail/View-Elastic-IP-Detail.md)
 - 弹性公网IP监控信息查看
-	- [弹性公网IP监控信息查看](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/View-Elastic-IP-Monitoring/View-Elastic-IP-Monitoring.md)
+	- [弹性公网IP监控信息查看](../Operation-Guide/View-Elastic-IP-Monitoring/View-Elastic-IP-Monitoring.md)
 - 弹性公网IP计费信息查看
-	- [弹性公网IP计费信息查看](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/View-Elastic-IP-Billing/View-Elastic-IP-Billing.md)
+	- [弹性公网IP计费信息查看](../Operation-Guide/View-Elastic-IP-Billing/View-Elastic-IP-Billing.md)
 - 导出弹性公网IP列表
-	- [导出弹性公网IP列表](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md)
+	- [导出弹性公网IP列表](../Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md)
 
 ## 计费
-弹性公网IP支持包年包月、按配置和按用量计费三种计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Pricing/Billing-Types.md)。
+弹性公网IP支持包年包月、按配置和按用量计费三种计费类型。详细说明请参见：[计费说明](../Pricing/Billing-Overview.md)。

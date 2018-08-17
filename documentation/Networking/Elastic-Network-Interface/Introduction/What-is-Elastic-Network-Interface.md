@@ -15,23 +15,23 @@
 ## 常用操作
 
 - 弹性网卡管理
-	- [创建弹性网卡](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md)
-	- [删除弹性网卡](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md)
-	- [绑定弹性网卡](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md)
-	- [解绑弹性网卡](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md)
-	- [启用随实例删除](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
-	- [取消随实例删除](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Disable-Delete-with-VM.md)
+	- [创建弹性网卡](../Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md)
+	- [删除弹性网卡](../Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md)
+	- [绑定弹性网卡](../Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md)
+	- [解绑弹性网卡](../Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md)
+	- [启用随实例删除](../Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
+	- [取消随实例删除](../Operation-Guide/Elastic-Network-Interface-Management/Disable-Delete-with-VM.md)
 - 内网IP管理
-	- [分配内网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md)
-	- [释放内网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Unassign-Secondary-IP.md)
-	- [绑定公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Associate-Elastic-IP.md)
-	- [解绑公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Disassociate-Elastic-IP.md)
+	- [分配内网IP](../Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md)
+	- [释放内网IP](../Operation-Guide/Private-IP-Management/Unassign-Secondary-IP.md)
+	- [绑定公网IP](../Operation-Guide/Private-IP-Management/Associate-Elastic-IP.md)
+	- [解绑公网IP](../Operation-Guide/Private-IP-Management/Disassociate-Elastic-IP.md)
 - 安全组管理
-	- [添加安全组](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Security-Group-Management/Associate-Security-Group.md)
-	- [移除安全组](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Security-Group-Management/Disassociate-Security-Group.md)
+	- [添加安全组](../Operation-Guide/Security-Group-Management/Associate-Security-Group.md)
+	- [移除安全组](../Operation-Guide/Security-Group-Management/Disassociate-Security-Group.md)
 - 云主机配置
-	- [Linux系统临时配置](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md)
-	- [Linux系统永久配置](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md)
+	- [Linux系统临时配置](../Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md)
+	- [Linux系统永久配置](../Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md)
 
 ## 计费
-弹性网卡服务免费，弹性网卡关联的弹性公网IP独立计费。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Pricing/Billing-Types.md)。
+弹性网卡服务免费，弹性网卡关联的弹性公网IP独立计费。详细说明请参见：[计费说明](../Pricing/Billing-Overview.md)。
