@@ -22,7 +22,7 @@
 	- [启用随实例删除](../Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
 	- [取消随实例删除](../Operation-Guide/Elastic-Network-Interface-Management/Disable-Delete-with-VM.md)
 - 内网IP管理
-	- [分配内网IP](..Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md)
+	- [分配内网IP](../Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md)
 	- [释放内网IP](../Operation-Guide/Private-IP-Management/Unassign-Secondary-IP.md)
 	- [绑定公网IP](../Operation-Guide/Private-IP-Management/Associate-Elastic-IP.md)
 	- [解绑公网IP](../Operation-Guide/Private-IP-Management/Disassociate-Elastic-IP.md)
