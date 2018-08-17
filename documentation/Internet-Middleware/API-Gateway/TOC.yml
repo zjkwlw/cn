@@ -33,16 +33,22 @@
       status: 0 
 - name: 入门指南
   items:
-    - name: 创建实例
-      herf: Getting-Started/Create-Instance.md
-    - name: 设置白名单
-      herf: Getting-Started/Set-Whitelist.md
-    - name: 连接实例
-      herf: Getting-Started/Connect-Instance.md
-    - name: 导入数据
-      herf: Getting-Started/Import-Data.md
-    - name: 导出数据
-      herf: Getting-Started/Export-Data.md
+    - name: 概述
+      herf: Getting-Started/Overview.md
+    - name: 创建API分组
+      herf: Getting-Started/STEP1-Create -APIGroup.md
+    - name: 创建API
+      herf: Getting-Started/STEP2-Create-API.md
+    - name: 自定义域名
+      herf: Getting-Started/STEP3-1-Create-Domain.md
+    - name: 后端签名
+      herf: Getting-Started/STEP3-2-Create-BackSign.md
+      - name: 流控策略
+      herf: Getting-Started/STEP3-3-Create-Stream.md
+      - name: 发布API分组
+      herf: Getting-Started/STEP4-Create-Publish.md  
+      - name: API的访问授权
+      herf: Getting-Started/STEP5-Create-Auth.md
 - name: 操作指南
   items:
     - name: 实例管理
