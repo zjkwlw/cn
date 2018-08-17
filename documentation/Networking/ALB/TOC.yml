@@ -60,9 +60,7 @@
       - name: 虚拟服务器组管理
         href: Operation-Guide/TargetGroup-Management.md
       - name: 监控服务
-        href: Operation-Guide/Monitoring.md
-      - name: 使用限制
-        href: Operation-Guide/Restrictions.md                
+        href: Operation-Guide/Monitoring.md           
   - name: 最佳实践
     items:
     - name: 利用应用负载均衡部署HTTP服务
