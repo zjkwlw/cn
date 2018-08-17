@@ -141,7 +141,7 @@ main $@
 
 在模块分页中，可支持用户创建模块、手动上传程序包至模块、版本管理。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%A8%A1%E5%9D%97%E7%AE%A1%E7%90%86.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide12.png)
 
 
 **应用部署**
@@ -156,7 +156,7 @@ main $@
 
 其中，配置文件可支持新增、上传、克隆。
  
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E5%88%86%E7%BB%84%E9%85%8D%E7%BD%AE.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide13.png)
 
 3.上线
 
@@ -168,7 +168,7 @@ main $@
 
 可对实例维度，支持重启、启动、停止、开启或关闭流量、缩容(弹性部署)批量操作
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E5%AE%9E%E4%BE%8B%E7%AE%A1%E7%90%86.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide14.png)
  
 在代码根目录下 bin/增加control 脚本，用来启动、停止、服务健康检查 
 
@@ -295,11 +295,11 @@ esac
 
 5.1 现场日志：选中要查看日志的应用，选择菜单“持续交付”-“线上发布”，在“日志服务-现场日志”页，即可查看各实例对应的日志，日志查看支持关键字高亮，与反向查询，整词匹配等，点击某行日志，还可查看上下文日志。
  
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E7%8E%B0%E5%9C%BA%E6%97%A5%E5%BF%97.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide15.png)
  
 5.2 日志订阅与历史日志：选中要查看日志的应用，选择菜单“持续交付”-“线上发布”，在“日志服务-日志订阅”页，点击“新增订阅”设置日志路径并保存，即可在下次上线动作后从历史日志页查看订阅的分组及实例的日志。
  
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%97%A5%E5%BF%97%E8%AE%A2%E9%98%85.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide16.png)
 
 **编排上线**
 
