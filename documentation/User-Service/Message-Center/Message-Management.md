@@ -22,7 +22,7 @@
 
 全部：集中显示以上所有消息。
 
-![cmd-markdown-logo](https://github.com/jdcloudcom/cn/blob/edit/image/Message-Center/%E5%9B%BD%E9%99%85%E5%8C%961.png)
+![cmd-markdown-logo](https://github.com/jdcloudcom/cn/blob/cn-messagecenter/image/Message-Center/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180817110449.png)
 
 ## 消息设置
 “消息设置” 页面显示了向您发送短信、邮件通知的消息类型。
