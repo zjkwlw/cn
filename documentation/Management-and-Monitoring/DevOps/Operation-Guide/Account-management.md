@@ -15,7 +15,7 @@
 对租户下的用户进行管理，支持新建、编辑、删除操作。
 
 创建用户，需要填写以下信息：
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide28.png)
  
 其中，角色：普通用户/租户管理员/租户全局只读。租户管理员拥有用户管理页面的编辑权限。
 
