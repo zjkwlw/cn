@@ -43,11 +43,11 @@
       herf: Getting-Started/STEP3-1-Create-Domain.md
     - name: 后端签名
       herf: Getting-Started/STEP3-2-Create-BackSign.md
-      - name: 流控策略
+    - name: 流控策略
       herf: Getting-Started/STEP3-3-Create-Stream.md
-      - name: 发布API分组
+    - name: 发布API分组
       herf: Getting-Started/STEP4-Create-Publish.md  
-      - name: API的访问授权
+    - name: API的访问授权
       herf: Getting-Started/STEP5-Create-Auth.md
 - name: 操作指南
   items:
@@ -82,12 +82,9 @@
     
 - name: 最佳实践
   items:
-  - name: 使用MongoDB的固定集合
-    herf: Best-Practices/Capped-Collections.md
-  - name: MongoDB 开启慢日志分析
-    herf: Best-Practices/MongoDB-Profile.md
-  - name: 公网连接MongoDB实例
-    herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
+  - name: 最佳实践
+    herf: Best-Practices/BestPractices.md
+ 
 - name: 教程
   items:
   status: 0
@@ -103,11 +100,13 @@
     herf: Troubleshooting/Authentication.md    
     status: 0 
 - name: 常见问题
-  herf: FAQ/FAQ.md
+  herf: FAQ/faq.md
 - name: API参考
   herf:
+  status: 0 
 - name: SDK参考
   herf:
+  status: 0 
 - name: 相关资源
   items:
   - name: 文档历史记录
