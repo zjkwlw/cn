@@ -24,7 +24,7 @@
 
 设置完成后，点击“执行脚本”即可，在脚本执行页面，点击单台主机可以看到详细的日志输出。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%89%A7%E8%A1%8C%E8%84%9A%E6%9C%AC.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide26.png)
  
 
 **新建文件分发任务**
@@ -37,7 +37,7 @@
 
 设置完成后，点击执行即可以打开详细的执行页面，点击单台主机可以看到详细的日志输出。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E5%88%86%E5%8F%91%E4%BB%BB%E5%8A%A1.png )
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide27.png)
 
 **镜像广场**
 
