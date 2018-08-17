@@ -4,7 +4,7 @@ JMR在京东云IAAS的基础服务之上，构建了大数据基础服务平台�
 
 ## 业务架构
 业务架构如下图：
-![](https://github.com/jdcloudcom/cn/blob/master/image/jmr/basic-infra.png)
+![](https://github.com/jdcloudcom/cn/blob/jmr-mengfei/image/jmr/basic-infra.png)
 
 
 

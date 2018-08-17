@@ -8,15 +8,15 @@ URL（包含权限验证信息），用户使用加密后的 URL 向服务器发
 
 登录直播控制台，进入“域名管理”页面，选择要查看播放地址的一组域名，点击右侧的“管理”进入域名配置页，点击“鉴权配置”切换到鉴权配置页面
 
-![](media/5fdfc4b314962c5c673fdbcd30ba1769.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E9%A1%B5%E9%9D%A2%E5%88%87%E6%8D%A2.png)
 
 滑动推流鉴权右侧的滑钮打开鉴权功能，目前只支持推流鉴权
 
-![](media/ff0fd38f31e622832fbd4d9460d50cdd.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E9%89%B4%E6%9D%83-%E9%89%B4%E6%9D%83%E5%BC%80%E5%90%AF.png)
 
 填写对应的参数信息，点击“确定”完成鉴权配置
 
-![](media/02e10eb79a3dc85a80ac6059adc38063.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E9%89%B4%E6%9D%83-%E9%89%B4%E6%9D%83%E4%BF%A1%E6%81%AF%E6%A8%A1%E6%9D%BF%E9%A1%B5.png)
 
 ## 2.鉴权说明
 

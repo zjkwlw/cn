@@ -2,10 +2,11 @@
 
 ----------
 
+网络负载均衡NLB是京东云自主研发、专注四层业务服务的负载均衡产品，支持过亿并发连接和每秒百万级新建连接的高性能、低延时、会话保持等能力。NLB可自动弹性伸缩、免除用户业务规划与手动扩容的繁琐；NLB支持跨多可用区部署、并且与高可用组AG紧密配合，满足业务高可用部署需求。
 
-负载均衡可将大并发流量分发到多台后端实例，调整资源利用情况，消除由于单台设备故障对系统的影响，提高系统可用性、扩展系统服务能力。
+网络负载均衡可将大并发流量分发到多台后端实例，调整资源利用情况，消除由于单台设备故障对系统的影响，提高系统可用性、扩展系统服务能力。
 
-京东云私有网络部署：https://www.jdcloud.com/help/detail/3528/isCatalog/1。
+![京东云私有网络业务架构](../../../../image/Networking/NLB/NLB-VPC-Arch.png)
 
 ## 提供多重保障的高可用服务
 
@@ -26,12 +27,15 @@
 
 负载均衡可绑定高可用组，根据业务流量和设备负载情况动态调整服务器数量，实现资源的合理分配，保证业务正常运行。
 
+NLB高可用架构如下图：
+![NLB高可用架构](../../../../image/Networking/NLB/NLB-HA.png)
+
 # 业务架构
 
 ----------
 
-业务架构如下图：
-![](https://www.jdcloud.com/help/detail/3529/isCatalog/1)
+NLB产品结构如下图：
+![NLB产品结构](../../../../image/Networking/NLB/NLB-Arch.png)
 
 
 
@@ -70,7 +74,7 @@
 
 ## 高复用架构说明
 
-一个负载均衡实例下可以设置多个不同协议类型（HTTP/HTTPS/TCP）的监听器，也可以设置多个协议类型相同、但是不同服务端口号的监听器；
+一个负载均衡实例下可以设置多个协议类型相同、但是不同服务端口号的监听器；
 
 同一负载均衡下的多个监听器可以复用绑定同一个后端服务；
 
@@ -100,21 +104,24 @@
 
 会话保持又称粘滞会话(Sticky Sessions、Session affinity)。会话保持是指负载均衡器上的一种功能机制，在进行数据分发的同时保证来自同一客户端相关连的访问请求会分配到同一台服务器上。
 
+![NLB会话保持原理](../../../../image/Networking/NLB/NLB-SessionSticky-Therory.png)
 
 ## 连接耗尽原理
 
 连接耗尽（Connection Draining）是负载均衡注册实例优雅退出服务的一种方式。当后端实例（虚机或者容器）从后端服务取消注册时，负载均衡将停止向退出的实例发送新的连接请求，并且保持已建立连接的服务状态、直到连接耗尽定时器超时。
+![NLB连接耗尽原理](../../../../image/Networking/NLB/NLB-ConnectionDraining1-Therory.png)
+![NLB连接耗尽原理](../../../../image/Networking/NLB/NLB-ConnectionDraining2-Therory.png)
 
 ## 相关参考
 
-- [产品优势](../Product-Introduction/Benefits.md)
-- [产品功能](../Product-Introduction/Functions.md)
+- [产品优势](../Introduction/Benefits.md)
+- [产品功能](../Introduction/Functions.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [计费规则](../Pricing/Billing-Rules.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
 - [创建虚拟服务器组](../Operation-Guide/TargetGroup-Management.md)
 - [配置侦听策略](../Operation-Guide/Listener-Management.md)
-- [后端服务管理与服务实例健康状态查看](../Operation-Guide/Backend-Management.md)
+- [管理后端服务与查看服务实例健康状态](../Operation-Guide/Backend-Management.md)
 - [查看监控信息](../Operation-Guide/Monitoring.md)
 
 

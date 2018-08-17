@@ -4,12 +4,12 @@
 
 登录直播控制台，进入“统计分析”页面，选择要查看数据的域名
 
-![](media/5e0ae5f968493d443a0ad63439b756c8.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%BB%9F%E8%AE%A1%E6%9F%A5%E8%AF%A2-%E9%80%89%E6%8B%A9%E5%9F%9F%E5%90%8D.png)
 
 选择要查询的数据指标，目前支持查询带宽、流量、在线人数三个数据
 
-![](media/d375491e067c05f6f407a75d86200901.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%BB%9F%E8%AE%A1%E6%9F%A5%E8%AF%A2-%E9%80%89%E6%8B%A9%E6%8C%87%E6%A0%87.png)
 
 选择要查询的时间段，可分别查询今天、昨天、7天、30天或者自定义设置查询时间段，选择完成后数据会实时刷新出来
 
-![](media/ad143abd4ef07e7128b5abf1f7b4333f.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%BB%9F%E8%AE%A1%E6%9F%A5%E8%AF%A2-%E9%80%89%E6%8B%A9%E6%97%B6%E9%97%B4%E6%AE%B5.png)

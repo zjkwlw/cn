@@ -1,11 +1,12 @@
 # 产品优势
 
 ## 高性能
-京东云网络负载均衡NLB提供千万级并发连接、？新增连接的四层业务高性能服务能力
+
+京东云网络负载均衡NLB能提供过亿并发连接、每秒百万级新建连接的高性能的四层业务高性能服务能力
 
 ## 自动弹性伸缩
 
-京东云NLB能够监控业务流量的情况，当用户访问量快速提升时，能够自动扩展NLB服务实例、增大扩展到千万级并发请求的处理能力；当用户访问量下降时，能够自动收缩NLB服务实例、降低资源的耗费。整个伸缩过程自动、平滑，提供无感知、顺畅的用户服务。
+京东云NLB能够监控业务流量的情况，当用户访问量快速提升时，能够自动扩展NLB服务实例、增大扩展到过亿级并发请求的处理能力；当用户访问量下降时，能够自动收缩NLB服务实例、降低资源的耗费。整个伸缩过程自动、平滑，提供无感知、顺畅的用户服务。
 
 ## 服务高可用
 
@@ -35,7 +36,6 @@ NLB可完整透传用户源IP地址，便于服务端感知或者统计真实源
 
 京东云提供基于公网IP的DDoS防护，保障业务安全；针对非DDOS的其他攻击，NLB会自动丢弃非侦听端口的请求报文，避免NLB的服务器受到服务端口外的报文攻击。
 
-
 ## 节约成本
 
 采用虚拟NLB，无需采购硬件设备，同时NLB采用最小基础实例保留费加上实际流量费，以便根据业务实际使用情况进行灵活计费，大幅降低服务使用成本。
@@ -49,12 +49,12 @@ NLB可完整透传用户源IP地址，便于服务端感知或者统计真实源
 
 ## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [产品规格](../Product-Introduction/Specification.md)
+- [产品概述](../Introduction/Overview.md)
+- [产品规格](../Introduction/Specification.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
 - [创建虚拟服务器组](../Operation-Guide/TargetGroup-Management.md)
 - [配置侦听策略](../Operation-Guide/Listener-Management.md)
-- [后端服务管理与服务实例健康状态查看](../Operation-Guide/Backend-Management.md)
+- [管理后端服务与查看服务实例健康状态](../Operation-Guide/Backend-Management.md)
 - [查看监控信息](../Operation-Guide/Monitoring.md)
 
