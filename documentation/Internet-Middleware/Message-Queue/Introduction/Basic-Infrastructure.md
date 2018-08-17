@@ -19,7 +19,7 @@
 
 - [产品优势](../Introduction/Benefits.md)
 - [产品功能](../Introduction/Functions.md)
-- [价格总览](../Pricing/Price-Overview.md)
+- [价格总览](../Pricing/Overview.md)
 - [计费规则](../Pricing/Billing-Rules.md)
 
 
