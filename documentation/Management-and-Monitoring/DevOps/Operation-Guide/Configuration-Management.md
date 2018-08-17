@@ -45,7 +45,7 @@
 
 方法二：批量导入，服务树中选择需要导入的产品线，根据提供的导入模板正确填写主机信息点击确定即可。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%861.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide4.png)
 
 5.维护分组和实例
 
@@ -53,11 +53,11 @@
 
 选择相应的应用，即可在右侧编辑分组和实例，删除分组时须先删除分组下的实例。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%862.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide5.png)
 
 具体来说，新增分组： 
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%863.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide6.png)
 
 需要填写以下信息：
 
@@ -84,7 +84,7 @@
   
   若选择“选择已有主机”，那么：
   
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%864.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide7.png)
  
    需要填写以下信息：
     - Tags：
@@ -92,7 +92,7 @@
     之后进入到编辑实例页面，选择分组，可添加控制台中已创建好的云主机。
     
 若选择“根据您实例模块创建主机”，那么：
-  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%865.png)
+  ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide8.png)
 需要填写以下信息：
   - 实例模板：选择在菜单栏-配置管理-规格模板 中，定义好的规格模板
   - 高可用组：否/是
@@ -114,7 +114,7 @@ i.方法一：快速导入，在服务树中选择需要导入的产品线，点
 
 ii.方法二：批量导入，服务树中选择需要导入的产品线，根据提供的导入模板正确填写主机信息点击确定即可。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%866.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide9.png)
 
 
 7.规格模板
@@ -124,7 +124,7 @@ ii.方法二：批量导入，服务树中选择需要导入的产品线，根�
 支持实例模板、伸缩模板
 
 实例模板如下：
-  ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%867.png)
+  ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide10.png)
 
 - 地域：建议您根据所在地理位置选择靠近的地域。可降低访问延迟，提高下载速度
 - 镜像：选择京东云控制台中已经存在的镜像
@@ -140,7 +140,7 @@ ii.方法二：批量导入，服务树中选择需要导入的产品线，根�
 
 
 伸缩模板如下：
-   ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%868.png)
+   ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide11.png)
  
 - 伸缩策略名称：用于标示这个伸缩策略组。
 - 最小伸缩组：指定伸缩组中最少的实例数量
