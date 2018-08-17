@@ -34,4 +34,4 @@
 	- [导出弹性公网IP列表](../Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md)
 
 ## 计费
-弹性公网IP支持包年包月、按配置和按用量计费三种计费类型。详细说明请参见：[计费说明](../Pricing/Billing-Types.md)。
+弹性公网IP支持包年包月、按配置和按用量计费三种计费类型。详细说明请参见：[计费说明](../Pricing/Billing-Overview.md)。
