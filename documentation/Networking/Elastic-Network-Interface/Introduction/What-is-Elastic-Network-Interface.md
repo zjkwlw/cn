@@ -34,4 +34,4 @@
 	- [Linux系统永久配置](../Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md)
 
 ## 计费
-弹性网卡服务免费，弹性网卡关联的弹性公网IP独立计费。详细说明请参见：[计费说明](../Pricing/Billing-Types.md)。
+弹性网卡服务免费，弹性网卡关联的弹性公网IP独立计费。详细说明请参见：[计费说明](../Pricing/Billing-Overview.md)。
