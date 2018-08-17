@@ -24,42 +24,42 @@
 
 1.采集配置。除了基础监控项不需要配采集配置，其他类型的监控都需要配置采集配置，支持的监控类型包括进程监控、端口监控、日志监控和自定义监控。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E9%87%87%E9%9B%86%E9%85%8D%E7%BD%AE.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide17.png)
  
 2.聚合配置。聚合配置分一次聚合与二次聚合。一次聚合是在应用节点范围内计算聚合值；二次聚合是在一次聚合的前提上，在系统范围内计算聚合值，并且可以对这些聚合值做四则运算。
 
 3.报警配置。报警配置中可以为监控项配置报警规则、报警联系人组和报警方式。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E9%85%8D%E7%BD%AE.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide18.png)
 
 4.创建好服务树后，默认会根据服务树中的角色，创建系统运维、系统测试和应用研发报警组。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E7%BB%84.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide19.png)
 
 5.每个产品线、每个系统节点都可以创建一个值班组，方便值班人员轮询接收报警。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E5%80%BC%E7%8F%AD%E7%BB%84.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide20.png)
 
 **报警管理**
 
 1.报警历史。报警历史中可以查看触发报警规则的所有事件，有统计面板和列表，支持报警历史分享和下载功能。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E5%8E%86%E5%8F%B2.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide21.png)
 
 2.报警屏蔽。对于已知故障和处理中的故障，可设置屏蔽，在屏蔽时间段内不会收到报警，避免干扰，屏蔽时间到后自动开启报警。支持按报警规则和单个，多个ns屏蔽报警。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%8A%A5%E8%AD%A6%E5%B1%8F%E8%94%BD.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide22.png)
 
 **数据可视化**
 
 1.仪表盘。可以将日常需要看的图表配置在仪表盘中，随时都可以查看。并且仪表盘支持阈值筛选，即仅显示满足阈值条件的监控项数据，可以更加快捷地发现异常和故障。目前仪表盘支持趋势图和列表两种组件。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E4%BB%AA%E8%A1%A8%E7%9B%98.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide23.png)
 
 2.趋势图。在趋势图上方勾选NS和监控指标，就能查看趋势图数据，支持统计值的切换、单位的切换，并支持分享，大图等功能。
 
- ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E8%B6%8B%E5%8A%BF%E5%9B%BE.png)
+ ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide24.png)
 
 3.单IP搜图。当仅想查看某一个IP的监控项时，或者要查询的IP不在权限范围内的服务树上，可以通过单IP搜图查到这个IP的监控数据。但仅限机器和实例的监控指标。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E5%8D%95IP%E6%90%9C%E7%B4%A2.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide25.png)
