@@ -1,6 +1,6 @@
 # 服务商入驻流程
 服务商入驻流程概览：
-image.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B.png)
 
 服务商入驻详细步骤：
 一、注册账户
