@@ -52,7 +52,7 @@
           herf: Service-Related/Website-Help.md
         - name: 服务商咚咚添加操作指导
           herf: Service-Related/IM-Operation-Manual.md
-        - name:短信服务
+        - name: 短信服务
           items:
           - name: 京东云短信优势
             herf: Messaging-Service/Message-Advantage.md
