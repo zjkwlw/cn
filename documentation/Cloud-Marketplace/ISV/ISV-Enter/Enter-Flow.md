@@ -7,7 +7,7 @@
 
 访问京东云云市场官网，点击注册，完成用户注册或激活。
 
-image.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E6%B3%A8%E5%86%8C%E8%B4%A6%E6%88%B7.png)
 
 二、企业认证
 
@@ -19,13 +19,13 @@ image.png
 
 注:如未完成企业实名认证，申请入驻时会跳出需要企业实名认证的窗口，请完成企业实名认证再继续下面的步骤。
 
-blob.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81.png)
 
  
 
 2.加入京东云合作伙伴，完善联系人信息（业务简介请写明将要发布的类目与服务类型）。
 
-blob.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%AE%8C%E5%96%84%E4%BF%A1%E6%81%AF.png)
 
  
 
@@ -37,7 +37,7 @@ blob.png
 
 
 
-blob.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E7%99%BB%E5%BD%95.png)
 
  
 
@@ -45,7 +45,7 @@ blob.png
 
 2.1选择信息管理-->基础信息填写服务商客服信息，填写完成后点击“提交”，信息将展示在产品展示页面左侧，请保证联系方式有效畅通。
 
-image.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%A1%AB%E5%86%99%E6%9C%8D%E5%8A%A1%E5%95%86%E4%BF%A1%E6%81%AF.png)
 
 注：请填写有效的客户服务电话、客户服务邮箱并绑定客服咚咚，咨询组ID请根据《客服咚咚开通帮助文档》下载获取。
 
@@ -57,7 +57,7 @@ image.png
 
 
 
-image.png
+![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E6%9C%8D%E5%8A%A1%E5%95%86%E7%BB%93%E7%AE%97%E4%BF%A1%E6%81%AF.png)
 
  
 
