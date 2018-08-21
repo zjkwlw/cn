@@ -1,10 +1,10 @@
-  name: 列式存储
+  name: Elasticsearch
   href: 
   items:
   - name: 产品简介
     items:
     - name: 产品概述
-      herf: Introduction/What-Is-CBS.md
+      herf: Introduction/What-Is-ES.md
     - name: 核心概念
       herf: Introduction/Core-Concepts.md
     - name: 基础架构
