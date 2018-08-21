@@ -19,7 +19,6 @@
 如果您使用Gradle来管理项目，只需在项目的build.gradle文件加入相应的依赖项即可，如下所示：
 
     //对应产品线的SDK
-    classpath 'com.jdcloud.sdk:vm:1.0.3
     implementation 'com.jdcloud.sdk:vm:1.0.3'
 
 您还可以下载sdk源代码自行使用，源代码地址为：[Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java)。
