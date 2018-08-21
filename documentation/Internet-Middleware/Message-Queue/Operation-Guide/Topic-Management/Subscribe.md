@@ -1,4 +1,11 @@
 # 订阅topic
+## 前提条件
+- 已经创建好topic
+
+## 注意事项
+- 对于某个topic的订阅Consumer Group数量没有限制。
+- 可以选择已有的Consumer Group，也可选择新建Consumer Group。
+
 
 ## 操作步骤
 ### 1. 在topic列表，选择想要订阅topic所在行的“订阅”按钮
