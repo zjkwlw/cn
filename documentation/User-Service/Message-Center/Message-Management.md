@@ -35,4 +35,4 @@
 
 在设置某项消息的接收人时，您可以选择一个或多个联系人（默认消息接收人为账号联系人，即您本人），或者选择一个或多个联系组。联系人和联系组，不能被同时选择。
 
-![cmd-markdown-logo](https://github.com/jdcloudcom/cn/blob/edit/image/Message-Center/%E5%9B%BD%E9%99%85%E5%8C%963.png)
+![cmd-markdown-logo](../../../image/Message-Center/%E5%9B%BD%E9%99%85%E5%8C%963.png)
