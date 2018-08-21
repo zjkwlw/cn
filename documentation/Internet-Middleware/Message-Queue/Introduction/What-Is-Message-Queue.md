@@ -14,7 +14,7 @@
 - 消息订阅
 	- [发送消息](../Operation-Guide/Message-Management/Send-Message.md)
 	- [查询消息](../Operation-Guide/Message-Management/Query-Message.md)
-	- [死信队列](../Operation-Guide/Backup/Message-Management/Dead-Letter-Queue.md)
+	- [重试消息](../Operation-Guide/Message-Management/Redrive-Message.md)
 - 运维管理
 	- [查看监控信息](../Operation-Guide/Monitoring/Monitoring.md)
 	- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
