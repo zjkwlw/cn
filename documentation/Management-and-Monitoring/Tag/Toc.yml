@@ -1,31 +1,31 @@
-  name: ±êÇ©¹ÜÀí Tag Service
+  name: æ ‡ç­¾ç®¡ç† Tag Service
   href: 
   items:
-  - name: ²úÆ·¼ò½é
+  - name: äº§å“ç®€ä»‹
     items:
-      - name: ²úÆ·¸ÅÊö
+      - name: äº§å“æ¦‚è¿°
         href: Introduction/What-Is-Tag.md
-      - name: ºËĞÄ¸ÅÄî
+      - name: æ ¸å¿ƒæ¦‚å¿µ
         href: Introduction/Core-Concepts.md
-      - name: ²úÆ·ÓÅÊÆ
+      - name: äº§å“ä¼˜åŠ¿
         href: Introduction/Benefits.md
-      - name: ²úÆ·¹¦ÄÜ
+      - name: äº§å“åŠŸèƒ½
         href: Introduction/Functions.md
-      - name: ÏŞÖÆËµÃ÷
+      - name: é™åˆ¶è¯´æ˜
         href: Introduction/Restrictions.md
-      - name: Ó¦ÓÃ³¡¾° 
+      - name: åº”ç”¨åœºæ™¯ 
         href: Introduction/Application-Scenarios.md    
-  - name: ²úÆ·¶¨¼Û
+  - name: äº§å“å®šä»·
     items:
-      - name: ²úÆ·¶¨¼Û
+      - name: äº§å“å®šä»·
         href: Pricing/Pricing.md
-  - name: ²Ù×÷Ö¸ÄÏ
+  - name: æ“ä½œæŒ‡å—
     items:
-      - name: ±êÇ©ÁĞ±í
+      - name: æ ‡ç­¾åˆ—è¡¨
         href: Operation-Guide/Operating-Tag-List.md
-      - name: ±êÇ©×ÊÔ´
+      - name: æ ‡ç­¾èµ„æº
         href: Operation-Guide/Operating-Tag-Resource.md
-  - name: Ïà¹ØÎÄµµ
+  - name: ç›¸å…³æ–‡æ¡£
     items:
-      - name: ÎÄµµÀúÊ·¼ÇÂ¼
+      - name: æ–‡æ¡£å†å²è®°å½•
         href: Related-Resources/Document-History.md
