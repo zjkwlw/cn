@@ -1,5 +1,9 @@
 # 删除和管理topic
 
+## 注意事项
+- 对于topic的拥有着，具有topic的管理权限和删除权限
+- 对于被授权的topic，被授权使用者只有删除的权限，但不是真正删除topic，只是删除了授权
+
 ## 操作步骤
 ### 1.Topic管理页面的topic列表，选择想要删除topic所在行的“更多”按钮，选取“删除”
 ![删除和管理步骤1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/删除暂停-01.png)
