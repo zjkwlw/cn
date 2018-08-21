@@ -8,9 +8,9 @@
 
 # 环境准备 #
 
-1.     京东云Java SDK适用于jdk7及以上版本，以及Android 5.0及以上版本。
+1. 京东云Java SDK适用于jdk7及以上版本，以及Android 5.0及以上版本。
 
-2.     在开始调用京东云open API之前，需提前在京东云用户中心账户管理下的AccessKey管理页面申请accesskey和secretKey密钥对（简称AK/SK）。AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。
+2. 在开始调用京东云open API之前，需提前在京东云用户中心账户管理下的AccessKey管理页面申请accesskey和secretKey密钥对（简称AK/SK）。AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。
 
 
 
@@ -19,10 +19,9 @@
 如果您使用Gradle来管理项目，只需在项目的build.gradle文件加入相应的依赖项即可，如下所示：
 
     //对应产品线的SDK
-    classpath 'com.jdcloud.sdk:vm:1.0.3
     implementation 'com.jdcloud.sdk:vm:1.0.3'
 
-您还可以下载sdk源代码自行使用，源代码地址为：[Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java)。
+您还可以下载SDK源代码自行使用，源代码地址为：[Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java)。
 
 SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页面](https://github.com/jdcloud-api/jdcloud-sdk-java/issues)交流。
 
@@ -34,13 +33,13 @@ SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页�
 
 Java SDK的调用主要分为4步：
 
- 1.设置accessKey和secretKey
+- STEP1：设置accessKey和secretKey
 
- 2.创建Client
+- STEP2：创建Client
 
- 3.设置请求参数
+- STEP3：设置请求参数
 
- 4.执行请求得到响应
+- STEP4：执行请求得到响应
 
 以下是查询单个云主机实例详情的调用示例
 
