@@ -82,7 +82,7 @@
        - name: NFV配置
          items:
           - name: NAT实例网关配置
-            href: Operation-Guide/NFV-Configuration/NAT-Mirror-Gateway-Configuration.md
+            href: Operation-Guide/NFV-Configuration/NAT-Instance-Gateway-Configuration.md
           - name: VPN镜像网关配置
             href: Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration.md
        - name: VPC对等连接
