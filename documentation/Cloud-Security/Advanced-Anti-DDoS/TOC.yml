@@ -76,3 +76,5 @@
     status: 0    
   - name: 常见问题
   herf: FAQ/FAQ.md
+  - name: 文档历史记录
+  href: Related-Resources/Document-History.md
