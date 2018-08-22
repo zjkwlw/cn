@@ -22,25 +22,25 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String|请求ID|
+|**result**|[Result](##Result)|返回结果集合|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---| 
-|**buckets**|[Bucket[]](##Bucket)||
-|**owner**|[User](##User)||
+|**buckets**|[Bucket[]](##Bucket)|所有bucket信息集合|
+|**owner**|[User](##User)|拥有者信息|
 ### <a name="Bucket">Bucket</a>
 |名称|类型|描述|
 |---|---|---|
-|**creationDate**|String||
-|**name**|String||
+|**creationDate**|String|创建时间|
+|**name**|String|bucket名称|
 ### <a name="User">User</a>
 |名称|类型|描述|
 |---|---|---|
-|**displayName**|String||
-|**id**|String||
+|**displayName**|String|拥有者名称|
+|**id**|String|拥有者ID|
 
 ## 返回码
 |返回码|描述|
