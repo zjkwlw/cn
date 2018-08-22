@@ -28,4 +28,4 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 |**200**|OK|
 |**400**|Invalid Argument|
 |**403**|Access Denied|
-|**409**|The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.|
+|**409**|The requested bucket name is not available. The bucket namespace is shared by all users of the system.<br>Please select a different name and try again.|
