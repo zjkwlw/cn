@@ -32,7 +32,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 ## 示例
 ### 请求示例
 ```
-PUT /v1/regions/cn-east-2/buckets/openapi1111 HTTP/1.1
+PUT /v1/regions/cn-east-2/buckets/openapi-test HTTP/1.1
 Accept-Encoding: gzip
 Authorization: signatureValue
 Content-Type: application/json
@@ -43,7 +43,7 @@ Content-Length: 51
 Host: oss.jdcloud-api.com
 Connection: Keep-Alive
 
-{"regionId":"cn-east-2","bucketname":"openapi1111"}
+{"regionId":"cn-east-2","bucketname":"openapi-test"}
 ```
 ### 响应示例
 ```
