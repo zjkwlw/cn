@@ -4,8 +4,8 @@
 京东云Kubernetes集群服务集成了京东云云硬盘，您可以在集群中使用京东云云硬盘作为持久化存储；
 
 一、使用京东云云硬盘定义静态存储
-
-    1. 创建PV
+    
+   1. 创建PV
 
 
 kind: PersistentVolume
@@ -96,12 +96,8 @@ spec:
         - mountPath: "/usr/share/mybusybox/"
           name: pv-static
 查看pod状态
-
-1.jpg
-
 查看volume的挂载状态
 
-2.jpg
 
 
 
@@ -123,15 +119,11 @@ spec:
   resources:
     requests:
       storage: 20Gi
+
 查看集群的PVC
-
-3.jpg
-
-
 
 查看集群的PV
 
-4.jpg
 
 基于StorageClass jdcloud-ssd，为PVC创建了卷。一旦 PV 和 PVC 绑定后，PersistentVolumeClaim 绑定是排他性的，不管它们是如何绑定的。 PVC 跟 PV 绑定是一对一的映射。
 

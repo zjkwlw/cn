@@ -7,7 +7,6 @@
 
 $ kubectl create -f https://kubernetes.io/docs/user-guide/nginx-deployment.yaml --record
 
-部署示例.jpg
 
 将kubectl的 --record 的 flag 设置为 true可以在 annotation 中记录当前命令创建或者升级了该资源。这在未来会很有用，例如，查看在每个 Deployment revision 中执行了哪些命令。
 
@@ -15,7 +14,6 @@ $ kubectl create -f https://kubernetes.io/docs/user-guide/nginx-deployment.yaml 
 
 $ kubectl get deployments
 
-getdeployment.png
 
 输出结果表明我们希望的repalica数是3（根据deployment中的.spec.replicas配置）当前replica数（ .status.replicas）是0, 最新的replica数（.status.updatedReplicas）是0，可用的replica数（.status.availableReplicas）是0。
 
@@ -23,19 +21,17 @@ getdeployment.png
 
 $ kubectl get deployments
 
-getdeploymentallready.png
+
 
 我们可以看到Deployment已经创建了3个 replica，所有的 replica 都已经是最新的了（包含最新的pod template），可用的（根据Deployment中的.spec.minReadySeconds声明，处于已就绪状态的pod的最少个数）。执行kubectl get rs和kubectl get pods会显示Replica Set（RS）和Pod已创建。
 
 $ kubectl get rs
 
-getrs.png
 
 您可能会注意到 ReplicaSet 的名字总是<Deployment的名字>-<pod template的hash值>。
 
 $ kubectl get pods --show-labels
 
-getlabels.png
 
 刚创建的Replica Set将保证总是有3个 nginx 的 pod 存在。
 

@@ -3,9 +3,9 @@
 
 StorageClass为Kubernetes集群提供了描述存储类别（class）的方法，包含provisioner、parameters 和 reclaimPolicy等字段，当 class 需要动态分配持久化存储时会使用到。
 
-京东云为Kubernetes集群提供了自定义卷插件kubernetes.io/jdcloud-ebs，将provisioner定义为京东云自定义卷插件，可以使用京东云云硬盘为Kubernetes集群提供持久化存储。目前，在Kubernetes集群服务中，提供三种storageclass，详情参考下图：
+京东云为Kubernetes集群提供了自定义卷插件kubernetes.io/jdcloud-ebs，将provisioner定义为京东云自定义卷插件，可以使用京东云云硬盘为Kubernetes集群提供持久化存储。目前，在Kubernetes集群服务中，提供三种storageclass，详情参考下图:
 
-storageclass.jpg
+
 
 
 
@@ -22,7 +22,7 @@ parameters:
 reclaimPolicy: Retain
 参数说明：
 
-provisioner：设置参数值为kubernetes.io/jdcloud-ebs，且不可修改，标识使用京东云云硬盘Provisioner插件创建。例如：
+provisioner：设置参数值为kubernetes.io/jdcloud-ebs，且不可修改，标识使用京东云云硬盘Provisioner插件创建。例如:
 
 type：设置参数值为ssd或premium-hdd，分别对应京东云的SSD云盘和高效云盘；
 
@@ -35,9 +35,6 @@ zone：设置云硬盘所在的可用区；
 在支持多可用区的地域，您可以选择某一可用区或选择全部可用区（参数值之间使用","分隔），例如：zones=cn-north-1a, cn-north-1b，选择全部可用区时，新建的云硬盘将根据名称hash算法，被随机分配到某一可用区；
 
 地域与可用区的对应关系参考下表：
-
-
-
 
 华北-北京	可用区A	cn-north-1a
 华北-北京	可用区B	cn-north-1b

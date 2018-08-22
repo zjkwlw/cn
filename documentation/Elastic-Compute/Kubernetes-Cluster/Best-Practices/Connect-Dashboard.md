@@ -7,11 +7,8 @@
 
 1、查看分配的NodePort
 
-dashboard clusterip.jpg
-
 2、检查controller
 
-k8s.png
 
 二、访问dashboard
 
@@ -22,11 +19,11 @@ k8s.png
 1）获取客户端证书，进行base64转码后保存到kubecfg.crt
 
 grep 'client-certificate-data' ~/.kube/config | head -n 1 | awk '{print $2}' | base64 -d > kubecfg.crt
+
 2）获取客户端公钥，进行base64转码后保存到kubecfg.key
-
 grep 'client-key-data' ~/.kube/config | head -n 1 | awk '{print $2}' | base64 -d > kubecfg.key
-3）提取kubecfg.crt和kubecfg.key文件内容，生成P12安全证书，并保存到kubecfg.p12文件
 
+3）提取kubecfg.crt和kubecfg.key文件内容，生成P12安全证书，并保存到kubecfg.p12文件
 openssl pkcs12 -export -clcerts -inkey kubecfg.key -in kubecfg.crt -out kubecfg.p12 -name "kubernetes-client"
      说明：生成安全证书时，需要设置提取密码，您可以设置自定义密码或设置密码为空；
 
@@ -34,23 +31,18 @@ openssl pkcs12 -export -clcerts -inkey kubecfg.key -in kubecfg.crt -out kubecfg.
 
 双击证书文件，弹出证书导入向导对话框；
 
-installcert1.jpg
-
 确定要导入的证书文件
 
-installcert2.jpg
 
 输入生成安全证书时设置的自定义密码
 
-installcert3.jpg
 
 设置证书保存位置
 
-installcert4.jpg
 
 完成证书导入
 
-installcert5.jpg
+
 
 5）在浏览器中输入https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/，其中****请使用k8s集群详情页查询到的服务端点替换，即可访问dashboard；
 
@@ -85,16 +77,17 @@ kubectl get services -n kube-system
 
 在dashboad中查看集群的资源信息，需要通过用户身份认证：
 
-dashboard.jpg
 
 以获取admin服务账户的令牌为例，具体操作方法如下：
 
 1、查看kube-system命名空间中的所有secret：
 
 kubectl get secret -n kube-system
+
 2、查看admin服务账户对应的secret详情，****请使用具体的secret名称替换：
 
 kubectl describe secret **** -n kube-system
+
 3、将Data 项中对应的token信息拷贝到dashboard窗口令牌输入框中，点击确定即可；
 
 4、您也可以将token信息添加到config文件user项目中，之后，您即可选择Kubeconfig方式进行身份认证。

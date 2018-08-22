@@ -1,5 +1,4 @@
-
-name: 原生容器
+  name: 原生容器
   href: 
   items:
   - name: 产品简介
@@ -15,25 +14,29 @@ name: 原生容器
       - name: 限制说明
         href: Introduction/Limits.md
       - name: 应用场景 
-        href: Introduction/Scenarios.md    
+        href: Introduction/Scenarios.md
+      - name: 与云主机对比
+        href: Introduction/Comparison.md
   - name: 产品定价
     items:
-      - name: 计费规则
-        href: Pricing/Billing-Rules.md
-      - name: 购买流程
-        href: Pricing/Purchase-Process.md
       - name: 计费概述
         href: Pricing/Overview.md
-	 - name: 续费流程
-	   href: Pricing/Renew-Proces.md
+      - name: 计费规则
+        href: Pricing/Billing-Rules.md
+      - name: 价格总览
+        href: Pricing/Pricing.md
+      - name: 购买流程
+        href: Pricing/Purchase-Process.md
+      - name: 续费流程
+        href: Pricing/Renew-Proces.md
   - name: 入门指南
-      items:
-      - - name: 入门指南概述
+    items:
+      - name: 入门指南概述
         href: Getting-Started/Overview.md
       - name: 制作容器镜像
         href: Getting-Started/Create-Images.md
       - name: 创建容器实例
-        href: Getting-Started/Overview.md
+        href: Getting-Started/Create-Instance.md
   - name: 操作指南
     items:
       - name: 容器实例
@@ -50,17 +53,17 @@ name: 原生容器
             href: Operation-Guide/Instance/Login-Instance.md
           - name: 启动实例
             href: Operation-Guide/Instance/Start-Instance.md
-			-name: 停止实例
-			  href: Operation-Guide/Instance/Stop-Instance.md
-			-name: 删除实例
-			  href: Operation-Guide/Instance/Delete-Instance.md
-			-name: 日志
-			  href: Operation-Guide/Instance/Log.md
+          - name: 停止实例
+            href: Operation-Guide/Instance/Stop-Instance.md
+          - name: 删除实例
+            href: Operation-Guide/Instance/Delete-Instance.md
+          - name: 日志
+            href: Operation-Guide/Instance/Log.md
       - name: 网络
         href: Operation-Guide/Networking.md
-	 - name: 安全组
+      - name: 安全组
         href: Operation-Guide/Security-Group.md	
-	- name: 镜像仓库认证信息
+      - name: 镜像仓库认证信息
         items:
           - name: 创建仓库认证信息
             href: Operation-Guide/Create-Repository.md
@@ -75,29 +78,22 @@ name: 原生容器
           - name: 获取实例监控数据
             href: Operation-Guide/Monitoring-Alarm/Retrieve-Data.md
   - name: 最佳实践
-	item
-	-  name: 制作带SSH的镜像
+    items:
+    - name: 制作带SSH的镜像
       href: Best-Practices/Create-SSH-Image.md
-	- name: 部署私有镜像仓库
+    - name: 部署私有镜像仓库
       href: Best-Practices/Create-Repository.md
   - name: 问题排查
     items:
-	- name: 容器实例创建失败
-      href: Troubleshoot/Fault-Problem.md
-  - name: 常见问题  
+    - name: 容器实例创建失败
+      href: Troubleshoot/Fault-Problem.md  
   - name: 常见问题
     href: Common-Problem.md
   - name: API参考
-    href:
-    status: 0      
+    href: API.md      
   - name: SDK参考
-    href:
-    status: 0      
-  - name: 用户协议
-    items:
-    status: 0        
+    href: SDK.md          
   - name: 相关资源
     items:
     - name: 文档历史记录
-      href: Related-Resources/Release-History.md  
-ui 
+      href: Related-Resources/Release-History.md

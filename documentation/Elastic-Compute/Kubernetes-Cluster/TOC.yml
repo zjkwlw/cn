@@ -1,5 +1,5 @@
-
-name: Kuberenetes集群
+﻿
+  name: Kuberenetes集群
   href: 
   items:
   - name: 产品简介
@@ -20,16 +20,16 @@ name: Kuberenetes集群
         href: Introduction/Scenarios.md    
   - name: 产品定价
     items:
-      - name: 购买流程
-        href: Pricing/Purchase-Process.md
       - name: 计费概述
         href: Pricing/Overview.md
+      - name: 购买流程
+        href: Pricing/Purchase-Process.md
   - name: 入门指南
-      items:
-      - - name: 创建集群
-        href: Getting-Started/Connect-to-Cluster.md
-      - name: 连接集群
+    items:
+      - name: 创建集群
         href: Getting-Started/Create-Cluster.md
+      - name: 连接集群
+        href: Getting-Started/Connect-to-Cluster.md
   - name: 操作指南
     items:
       - name: 集群
@@ -39,10 +39,10 @@ name: Kuberenetes集群
           - name: 创建集群
             href: Operation-Guide/Cluster/Create-Cluster.md
           - name: 连接集群
-            href: Operation-Guide/Cluster/Delete-Cluster.md
+            href: Operation-Guide/Cluster/Connect-Cluster.md
           - name: 删除集群
-            href: Operation-Guide/Cluster/Create-Instance.md
-	- name: 工作节点组
+            href: Operation-Guide/Cluster/Delete-Cluster.md
+      - name: 工作节点组
         items:
           - name: 工作节点组概述
             href: Operation-Guide/NodeGroup/Overview.md
@@ -53,33 +53,20 @@ name: Kuberenetes集群
           - name: 删除工作节点组
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
   - name: 最佳实践
-	- name: 部署应用
-	  items:
-	     -  name: 部署Deployment
+    items:
+     - name: 部署应用
+       items:
+         -  name: 部署Deployment
             href: Best-Practices/Deploy-Applications/Deploy-Deployment.md
-	     -  name: 部署StorageClass
+         -  name: 部署StorageClass
             href: Best-Practices/Deploy-Applications/Deploy-StorageClass.md
-	     -  name: 部署持久化存储
+         -  name: 部署持久化存储
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
-	     -  name: 部署Service
+         -  name: 部署Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
-  - name: 问题排查
-    items:
-	status: 0
   - name: 常见问题  
-  - name: 常见问题
-    href: Common-Problem.md
-  - name: API参考
-    href:
-    status: 0      
-  - name: SDK参考
-    href:
-    status: 0      
-  - name: 用户协议
-    items:
-    status: 0        
+    href: Common-Problem.md    
   - name: 相关资源
     items:
     - name: 文档历史记录
-      href: Related-Resources/Release-History.md  
-ui 
+      href: Related-Resources/Release-History.md 
