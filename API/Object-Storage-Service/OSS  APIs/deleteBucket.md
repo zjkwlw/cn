@@ -29,3 +29,34 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 |**400**|Invalid Argument|
 |**403**|Access Denied|
 |**404**|The specified bucket does not exist.|
+
+## 示例
+### 请求示例
+```
+DELETE /v1/regions/cn-east-2/buckets/openapi-test HTTP/1.1
+Accept-Encoding: gzip
+Authorization: JDCLOUD2-HMAC-SHA256 Credential=59E6DC72927457BDEBF36A56EE616B07/20180822/cn-east-2/oss/jdcloud2_request, SignedHeaders=content-type;host;x-jdcloud-date;x-jdcloud-nonce, Signature=9ae21e65017a744e6e4ed7a7a6f0cd27f0f2ba22b73e54c681b91a7038c118f1
+Content-Type: application/json
+User-Agent: JdcloudSdkJava/0.9.2 oss/v1 Google-HTTP-Java-Client/1.22.0 (gzip)
+x-jdcloud-nonce: b0ce87ca-e4fa-4879-b6ca-85ff8056dc0a
+x-jdcloud-date: 20180822T114015Z
+Host: oss.jdcloud-api.com
+Connection: Keep-Alive
+```
+
+### 响应示例
+```
+HTTP/1.1 204 No Content
+Date: Wed, 22 Aug 2018 11:40:19 GMT
+Content-Type: text/xml;charset=UTF-8
+Connection: close
+x-jdcloud-limit-minute: 1000
+x-jdcloud-remaining-minute: 999
+Server: JDCloudOSS
+x-req-id: 9C4F665D15F1FA0D
+x-jss-service: DELETE.bucket
+x-jdcloud-request-id: bdvko8r7f7tn13b8npv6aricggquu47j
+x-jdcloud-upstream-latency: 545
+x-jdcloud-proxy-latency: 37
+x-jdcloud-via: jdcloud
+```
