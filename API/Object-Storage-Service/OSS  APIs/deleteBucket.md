@@ -2,7 +2,7 @@
 
 
 ## 描述
-删除一个bucket
+该操作可删除指定Bucket。删除Bucket前需将其中的所有Object删除。
 
 
 ## 请求方式
