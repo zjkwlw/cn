@@ -2,7 +2,7 @@
 
 
 ## 描述
-列出当前用户的所有bucket
+列出当前用户的所有bucket。
 
 
 ## 请求方式
@@ -28,7 +28,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
-|---|---|---|
+|---|---|---| 
 |**buckets**|[Bucket[]](##Bucket)||
 |**owner**|[User](##User)||
 ### <a name="Bucket">Bucket</a>
