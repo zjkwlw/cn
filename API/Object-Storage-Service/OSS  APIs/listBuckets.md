@@ -13,7 +13,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID，例如：cn-north-1|
+|**regionId**|String|True|无|Region ID，例如：cn-north-1|
 
 ## 请求参数
 无
