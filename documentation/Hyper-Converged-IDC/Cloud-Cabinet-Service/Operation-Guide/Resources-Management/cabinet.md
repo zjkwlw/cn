@@ -49,16 +49,16 @@
      
      - 设备类型：指设备的类型，包括服务器、存储设备、网络设备、其他设备等
      
-   5.点击“刷新”按钮，您可以对机柜列表进行刷新操作。
+ 5.点击“刷新”按钮，您可以对机柜列表进行刷新操作。
    ![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
    
-   6.在搜索框中输入“机柜编号”，然后单击搜索图标即可查询符合搜索条件的结果。  
+ 6.在搜索框中输入“机柜编号”，然后单击搜索图标即可查询符合搜索条件的结果。  
     ![机柜列表搜索框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
     
-    7.点击“自定义列表字段项”按钮，可选择要显示的字段，“机柜编码”字段不可取消，最多勾选8个字段，包括的字段如下：机柜编码、房间号、机柜空间、机柜类型、机柜状态、机柜电源、起租时间、到期时间。
+ 7.点击“自定义列表字段项”按钮，可选择要显示的字段，“机柜编码”字段不可取消，最多勾选8个字段，包括的字段如下：机柜编码、房间号、机柜空间、机柜类型、机柜状态、机柜电源、起租时间、到期时间。
    ![机柜列表自定义按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
     ![机柜列表自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
     
-     8.点击“导出”按钮，可以导出全部列表的内容。
+ 8.点击“导出”按钮，可以导出全部列表的内容。
    ![机柜列表导出查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
    
