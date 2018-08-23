@@ -1,40 +1,40 @@
 		if (LangUtils.EN.equals(lang)) {
-			sb.append("ÊµÀıÃèÊö:");
+			sb.append("å®ä¾‹æè¿°:");
 		}
 
 		if (LangUtils.EN.equals(lang)) {
-			columnsTitle.add(new String[] { "count", "¹ºÂòÊıÁ¿" });
-			columnsTitle.add(new String[] { "price", "¼Û¸ñ£¨Ôª£©" });
+			columnsTitle.add(new String[] { "count", "è´­ä¹°æ•°é‡" });
+			columnsTitle.add(new String[] { "price", "ä»·æ ¼ï¼ˆå…ƒï¼‰" });
 		}
 
         if (LangUtils.EN.equals(lang)) {
-            totalCell.setCellValue("²Î¿¼ºÏ¼Æ(Ôª):"+totalInfo);
+            totalCell.setCellValue("å‚è€ƒåˆè®¡(å…ƒ):"+totalInfo);
         }
 
             } else if (s.equals("cpu")) {
-                returnString = "CPU ¸öÊı";//
+                returnString = "CPU ä¸ªæ•°";//
             } else if (s.equals("memory")) {
-                returnString = ÄÚ´æ ´óĞ¡(µ¥Î»G)";//
+                returnString = å†…å­˜ å¤§å°(å•ä½G)";//
             } else if (s.equals("disk")) {
-                returnString = "Ó²ÅÌ ´óĞ¡ (µ¥Î»G)";//
+                returnString = "ç¡¬ç›˜ å¤§å° (å•ä½G)";//
             } else if (s.equals("master")) {
-                returnString = "Ö÷´Ó°æ";
+                returnString = "ä¸»ä»ç‰ˆ";
             } else if (s.equals("cluster")) {
-                returnString = "¼¯Èº°æ";
+                returnString = "é›†ç¾¤ç‰ˆ";
             } else if (s.equals("bootVolumeType")) {
-                returnString = "ÏµÍ³ÅÌÀàĞÍ";
+                returnString = "ç³»ç»Ÿç›˜ç±»å‹";
             } else if (s.equals("nbd_sata")) {
-                returnString = "ÈİÁ¿ĞÍSATA";
+                returnString = "å®¹é‡å‹SATA";
             } else if (s.equals("provider")) {
-                returnString = "·şÎñÌá¹©ÉÌ";
+                returnString = "æœåŠ¡æä¾›å•†";
             } else if (s.equals("rate")) {
-                returnString = "´ø¿íËÙÂÊ(µ¥Î»Mbps)";
+                returnString = "å¸¦å®½é€Ÿç‡(å•ä½Mbps)";
             } else if (s.equals("ipFeeType")) {
-                returnString = "¿í´ø¼Æ·ÑÀàĞÍ";
+                returnString = "å®½å¸¦è®¡è´¹ç±»å‹";
             } else if (s.equals("volumeType")) {
-                returnString = "ÔÆÓ²ÅÌÀàĞÍ";
+                returnString = "äº‘ç¡¬ç›˜ç±»å‹";
             } else if (s.equals("capacity")) {
-                returnString = "ÔÆÓ²ÅÌÈİÁ¿´óĞ¡ (µ¥Î»G)";
+                returnString = "äº‘ç¡¬ç›˜å®¹é‡å¤§å° (å•ä½G)";
             } else {
                 returnString = "";
             }
@@ -43,20 +43,20 @@
 
 
 				if (s.equals("type")) {
-                returnString = "´æ´¢ÀàĞÍ";
+                returnString = "å­˜å‚¨ç±»å‹";
             } else if (s.equals("standard")) {
-                returnString = "±ê×¼´æ´¢";
+                returnString = "æ ‡å‡†å­˜å‚¨";
             } else if (s.equals("low")) {
-                returnString = "µÍÆµ´æ´¢";
+                returnString = "ä½é¢‘å­˜å‚¨";
             } else if (s.equals("storageAmount")) {
-                returnString = "Ô¤¼Æ´æ´¢Á¿";
+                returnString = "é¢„è®¡å­˜å‚¨é‡";
             } else if (s.equals("downloadAmount")) {
-                returnString = "¹«ÍøÏÂÔØÁ÷Á¿";
+                returnString = "å…¬ç½‘ä¸‹è½½æµé‡";
 				else if (s.equals("CDNAmount")) {
-                returnString = "CDN»ØÔ´Á÷Á¿";
+                returnString = "CDNå›æºæµé‡";
 			}
 
 
 		else if (number.equals(2)) {
-                returnString = "°´¿í´ø";
+                returnString = "æŒ‰å¸¦å®½";
             } 
