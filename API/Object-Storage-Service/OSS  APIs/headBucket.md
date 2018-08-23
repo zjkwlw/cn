@@ -35,7 +35,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 ```
 HEAD /v1/regions/cn-east-2/buckets/openapi-test HTTP/1.1
 Accept-Encoding: gzip
-Authorization: JDCLOUD2-HMAC-SHA256 Credential=59E6DC72927457BDEBF36A56EE616B07/20180822/cn-east-2/oss/jdcloud2_request, SignedHeaders=content-type;host;x-jdcloud-date;x-jdcloud-nonce, Signature=df342d16c4554a834ae383aab9e530eb97a9f675e01ec6635826b1f2dbfadff9
+Authorization: signatureValue
 Content-Type: application/json
 User-Agent: JdcloudSdkJava/0.9.2 oss/v1 Google-HTTP-Java-Client/1.22.0 (gzip)
 x-jdcloud-nonce: ebc08611-c700-45cb-b830-c7706c17b933
