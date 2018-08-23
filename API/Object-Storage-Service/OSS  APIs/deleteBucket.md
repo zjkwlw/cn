@@ -35,7 +35,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 ```
 DELETE /v1/regions/cn-east-2/buckets/openapi-test HTTP/1.1
 Accept-Encoding: gzip
-Authorization: JDCLOUD2-HMAC-SHA256 Credential=59E6DC72927457BDEBF36A56EE616B07/20180822/cn-east-2/oss/jdcloud2_request, SignedHeaders=content-type;host;x-jdcloud-date;x-jdcloud-nonce, Signature=9ae21e65017a744e6e4ed7a7a6f0cd27f0f2ba22b73e54c681b91a7038c118f1
+Authorization: signatureValue
 Content-Type: application/json
 User-Agent: JdcloudSdkJava/0.9.2 oss/v1 Google-HTTP-Java-Client/1.22.0 (gzip)
 x-jdcloud-nonce: b0ce87ca-e4fa-4879-b6ca-85ff8056dc0a
