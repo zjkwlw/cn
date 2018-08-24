@@ -66,11 +66,11 @@
       - name: 镜像仓库认证信息
         items:
           - name: 创建仓库认证信息
-            href: Operation-Guide/Create-Repository.md
+            href: Operation-Guide/Certified-Repository/Create-Repository.md
           - name: 查看仓库认证信息详情
-            href: Operation-Guide/Describe-Repository.md
+            href: Operation-Guide/Certified-Repository/Describe-Repository.md
           - name: 删除仓库认证信息
-            href: Operation-Guide/Delete-Repository.md
+            href: Operation-Guide/Certified-Repository/Delete-Repository.md
       - name: 监控预报警
         items:
           - name: 监控与报警概述
