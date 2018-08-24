@@ -7,9 +7,9 @@
       - name: 产品概述
         href: Introduction/What-Is-CloudDisk.md
       - name: 地域和可用区
-        href: Introduction/region-zone.md       
+        href: Introduction/Regionzone.md       
       - name: 产品功能
-        href: Introduction/Functions.md
+        href: Introduction/Function.md
       - name: 产品优势
         href: Introduction/Benefits.md
       - name: 应用场景
@@ -26,66 +26,66 @@
     - name: 计费模式说明
       items:
           - name: 计费规则
-            href: Pricing/计费模式说明/Billing-Rules.md
+            href: Pricing/Billing-Mode-Instructions/Billing-Rules.md
           - name: 续费规则
-            href: Pricing/计费模式说明/Renew-Rules.md
+            href: Pricing/Billing-Mode-Instructions/Renew-Rules.md
           - name: 到期&欠费规则
-            href: Pricing/计费模式说明/owe-rules.md
+            href: Pricing/Billing-Mode-Instructions/Owe-Rules.md
           - name: 到期&欠费提醒
-            href: Pricing/计费模式说明/owe-remind.md
+            href: Pricing/Billing-Mode-Instructions/Owe-Remind.md
     - name: 价格总览
-      href: Pricing/价格总览.md
+      href: Pricing/Price-Overview.md
     - name:  购买渠道
       items:
           - name: 官网购买
-            href: Pricing/购买渠道/buy-on-website.md      
+            href: Pricing/Purchase-Channel/Buy-on-Website.md      
         
   - name: 云硬盘
     items:
        - name: 创建云硬盘
-         href: Getting-Started/云硬盘/创建云硬盘.md
+         href: Getting-Started/Cloud-Disk/Create-Cloud-Disk.md
        - name: 使用快照创建
-         href: Getting-Started/云硬盘/使用快照创建.md
+         href: Getting-Started/Cloud-Disk/Create-Disk-by-Snapshot.md
        - name: 挂载云硬盘
-         href: Getting-Started/云硬盘/挂载云硬盘.md
+         href: Getting-Started/Cloud-Disk/Attach-Cloud-Disk.md
        - name: 云硬盘分区、格式化、联机及创建文件系统
          items:
             - name: Linux分区、格式化和创建文件系统
-              href: Getting-Started/云硬盘/parted-format/Linux分区.md
+              href: Getting-Started/Cloud-Disk/Parted-Format/Linux-Partition.md
             - name: Windows分区、格式化和创建文件系统
-              href: Getting-Started/云硬盘/parted-format/windows分区.md
+              href: Getting-Started/Cloud-Disk/Parted-Format/Windows-Partition.md
          
        - name: 云硬盘升级容量
-         href: Getting-Started/云硬盘/云硬盘升级容量.md
+         href: Getting-Started/Cloud-Disk/Disk-Expand.md
        - name: 扩容文件系统
          items:
             - name: 云硬盘扩容概述
-              href: Getting-Started/云硬盘/expand-filesystem/云硬盘扩容概述.md
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Cloud-Disk-Expansion-Overview.md
 
             - name: 扩容文件系统（Windows）
-              href: Getting-Started/云硬盘/expand-filesystem/扩容文件系统windows.md
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Windows.md
             - name: 扩容文件系统（Linux）
-              href: Getting-Started/云硬盘/expand-filesystem/扩容文件系统linux.md
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Linux.md
             - name: 扩容裸盘文件系统（Linux）
-              href: Getting-Started/云硬盘/expand-filesystem/扩容裸盘文件系统.md
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-Raw-Disk-File-System.md
             - name: 扩容文件系统（多分区）
-              href: Getting-Started/云硬盘/expand-filesystem/扩容文件系统-多分区.md
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Multi-Partition.md
 
        - name: 卸载云硬盘
-         href: Getting-Started/云硬盘/卸载云硬盘.md
+         href: Getting-Started/Cloud-Disk/Detach-Cloud-Disk.md
        - name: 删除云硬盘
-         href: Getting-Started/云硬盘/删除云硬盘.md
+         href: Getting-Started/Cloud-Disk/Delete-Cloud-Disk.md
        - name: 云硬盘监控
-         href: Getting-Started/云硬盘/云硬盘监控.md
+         href: Getting-Started/Cloud-Disk/CDS-Monitoring.md
           
   - name: 云硬盘快照
     items:
        - name: 创建云硬盘快照
-         href: Operation-Guide/云硬盘快照/Create-CloudDisk-SnapShot.md
+         href: Operation-Guide/Cloud-Disk-Snapshot/Create-CloudDisk-SnapShot.md
        - name: 恢复云硬盘
-         href: Operation-Guide/云硬盘快照/recover-CloudDisk.md
+         href: Operation-Guide/Cloud-Disk-Snapshot/Recover-CloudDisk.md
        - name: 删除快照
-         href: Operation-Guide/云硬盘快照/Deletion-Snapshot.md
+         href: Operation-Guide/Cloud-Disk-Snapshot/Deletion-Snapshot.md
 
 
   - name: 最佳实践
