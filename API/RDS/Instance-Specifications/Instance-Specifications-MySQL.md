@@ -1,3 +1,5 @@
+# MySQL Specifications
+
 |	instanceClass	|	CPU(核)	|	内存(GB)	|	磁盘(GB)	|
 |:-|:-|:-|:-|
 |	db.mysql.s1.micro	|	1	|	1	|	20	|
