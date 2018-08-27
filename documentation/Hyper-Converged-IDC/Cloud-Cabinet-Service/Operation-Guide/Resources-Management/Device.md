@@ -48,7 +48,7 @@
   - 网卡带宽：指设备的网卡带宽
   
 5. 点击“刷新”按钮，您可以对设备列表进行刷新操作。
-![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS009.png)
+![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS007.png)
 
 6. 在搜索框中输入“SN号”，然后单击搜索图标即可查询符合搜索条件的结果。
 ![设备搜索框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS014.png)
