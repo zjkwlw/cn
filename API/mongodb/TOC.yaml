@@ -33,6 +33,15 @@
         href: Instance APIs/restartInstance.md
       - name: restoreInstance
         href: Instance APIs/restoreInstance.md
+      - name: deleteMongoDbs
+        status: 0
+        href: Instance APIs/deleteMongoDbs.md
+      - name: describeTopology
+        status: 0
+        href: Instance APIs/describeTopology.md
+      - name: describeUserQuota
+        status: 0
+        href: Instance APIs/describeUserQuota.md
         
     - name: 备份管理
       items:
