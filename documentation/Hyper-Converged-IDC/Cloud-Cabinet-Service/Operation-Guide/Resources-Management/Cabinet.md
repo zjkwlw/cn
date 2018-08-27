@@ -56,8 +56,8 @@
  
  7.点击“自定义列表字段项”按钮，可选择要显示的字段，“机柜编码”字段不可取消，最多勾选8个字段，包括的字段如下：机柜编码、房间号、机柜空间、机柜类型、机柜状态、机柜电源、起租时间、到期时间。
  ![机柜列表自定义按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS009.png)
- ![机柜列表自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS10.png)
+ ![机柜列表自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS010.png)
  
  8.点击“导出”按钮，可以导出全部列表的内容。
- ![机柜列表导出查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS11.png)
+ ![机柜列表导出查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS011.png)
    
