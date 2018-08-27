@@ -29,7 +29,7 @@
 
 7. 点击“自定义列表字段项”按钮，，可选择要显示的字段，“关联的公网IP”字段不可取消，最多勾选4个字段，包括的字段：关联的公网IP、线路类型、带宽、状态。
 ![自定义按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS009.png)
-![自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS22.png)
+![自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS022.png)
 
 8. 点击“导出”按钮，可以导出全部列表的内容。
 ![导出按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS011.png)
