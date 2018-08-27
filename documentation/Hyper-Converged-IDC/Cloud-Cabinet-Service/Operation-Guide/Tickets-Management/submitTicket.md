@@ -1,12 +1,12 @@
 # 提交工单
 
 1. 打开控制台，选择超融合数据中心->云托管服务->工单管理->提交工单，进入提交工单页面，展示需要申请的工单类型，目前支持机柜初装类型，如下图：
-![提交工单页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+![提交工单页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS023.png)
 
 2. 提交工单
 
 - “机柜初装”工单模板，点击“机柜初装“，跳转到提交工单页面，需要客户填写信息，如下图：
-![提交工单填写页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+![提交工单填写页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS024.png)
 
 - 工单模板信息如下：
   - 工单类型：默认显示选择的工单类型，不需要填写
