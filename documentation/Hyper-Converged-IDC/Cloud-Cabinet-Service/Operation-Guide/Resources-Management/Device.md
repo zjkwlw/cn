@@ -23,7 +23,7 @@
 4. 设备详情，点击“SN号”，跳转到设备详情，设备详情展示3部分，包括基本信息、所属信息和配置信息，如下图：
 ![设备详情查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS013.png)
 
-- 基本信息：展示设备的详细信息
+- 基本信息：展示设备的详细信息。
 
   - 品牌：指该设备的品牌
   
@@ -31,7 +31,7 @@
   
   - 其余字段说明详见[设备列表]()
   
-- 所属信息：
+- 所属信息
 
   - 所属机房：指该设备所属的托管机房
   
