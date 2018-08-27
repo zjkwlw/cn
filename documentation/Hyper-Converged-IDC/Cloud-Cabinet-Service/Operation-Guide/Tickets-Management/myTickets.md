@@ -1,7 +1,7 @@
 # 我的工单
 
 1. 打开控制台，选择超融合数据中心->云托管服务->工单管理->工单列表，进入工单列表页，您可以查看提交的所有工单； 您提交工单后，京东云会通过邮件和短信的方式通知您，方便您及查看工单进度。如下图：
-![我的工单页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+![我的工单页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS025.png)
 
 2. 工单列表，主要包括工单分类和工单列表2部分。
 
@@ -52,7 +52,7 @@
 ![关单弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
 
 4. 工单详情，您可以查看工单的详细信息，如下图：
-![工单详情查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+![工单详情查看连接](![我的工单页面查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS025.png))
 
 - 工单操作，进入工单详情页，点击右上角按钮可以对工单进行操作，与列表中的操作一致，根据工单的不同状态，显示不同的操作。
 
