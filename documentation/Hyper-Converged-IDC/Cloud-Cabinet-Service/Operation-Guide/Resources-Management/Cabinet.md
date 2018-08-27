@@ -1,10 +1,10 @@
 # 机柜
 
 1. 打开控制台，选择超融合数据中心->云托管服务->资源管理->机柜，进入机柜列表页，展示京东云为客户分配的机柜信息，如下图：
-![机柜列表查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+![机柜列表查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS004.png)
 
 2. 机房：默认选择某一个机房，如果有多个机房，支持不同机房类型切换选择，切换后列表显示不同机柜信息；
- ![地域区查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+ ![地域区查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS005.png)
  
 3. 机柜列表，字段如下：
  - 机柜编码：指机柜的编码，是机柜的唯一标识
@@ -24,7 +24,7 @@
  - 到期时间：指机柜的到期时间 
  
  4.  机柜详情，点击“机柜编码”，跳转到机柜详情，机柜详情展示2部分，包括基本信息和设备列表，如下图：
- ![机柜详情页查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+ ![机柜详情页查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS006.png)
  
  - 基本信息：展示机柜的详细信息。
  
@@ -49,15 +49,15 @@
   - 设备类型：指设备的类型，包括服务器、存储设备、网络设备、其他设备等<br />
   
  5.点击“刷新”按钮，您可以对机柜列表进行刷新操作。
- ![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+ ![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS007.png)
  
  6.在搜索框中输入“机柜编号”，然后单击搜索图标即可查询符合搜索条件的结果。
- ![机柜列表搜索框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+ ![机柜列表搜索框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS008.png)
  
  7.点击“自定义列表字段项”按钮，可选择要显示的字段，“机柜编码”字段不可取消，最多勾选8个字段，包括的字段如下：机柜编码、房间号、机柜空间、机柜类型、机柜状态、机柜电源、起租时间、到期时间。
- ![机柜列表自定义按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
- ![机柜列表自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+ ![机柜列表自定义按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS009.png)
+ ![机柜列表自定义弹框查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS10.png)
  
  8.点击“导出”按钮，可以导出全部列表的内容。
- ![机柜列表导出查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS001.png)
+ ![机柜列表导出查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS11.png)
    
