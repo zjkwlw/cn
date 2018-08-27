@@ -65,7 +65,7 @@
 - 附件信息，展示客户提交的工单模板和我们交付的一些附件，您可点击附件信息下载并查看附件详细信息。
 
 5. 点击“搜索框”，支持根据创建时间筛选工单。
-![时间筛选查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS030.png)
+![时间筛选查看连接]()
 
 6. 点击“刷新”按钮，您可以对列表进行刷新操作。
 ![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS007.png)
