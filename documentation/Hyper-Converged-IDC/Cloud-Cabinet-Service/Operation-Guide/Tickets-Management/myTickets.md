@@ -70,7 +70,7 @@
 6. 点击“刷新”按钮，您可以对列表进行刷新操作。
 ![刷新按钮查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS007.png)
 
-7. 在搜索框中输入“单号”或“备注内容”，然后单击搜索图标即可查询符合搜索条件的结果。
+7. 在搜索框中输入“单号”或“备注”，然后单击搜索图标即可查询符合搜索条件的结果。
 ![搜索框下拉筛选查看连接](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS028.png)
 
 8. 点击“自定义列表字段项”按钮，可选择要显示的字段，“单号”、“操作”字段不可取消，最多勾选8个字段，包括的字段：单号、工单名称、工单类型、状态、备注、创建时间、关闭时间、操作。
