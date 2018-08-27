@@ -71,25 +71,19 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
     status: 0
   - name: SDK参考
-    href:
     status: 0
     items:
-    - name: 服务条款
-      href:       
+    - name: 服务条款      
       status: 0      
-    - name: SLA
-      href:       
+    - name: SLA      
       status: 0       
   - name: 相关资源
     items:
     - name: 文档历史记录
       href: Related-Resources/Document-History.md   
-    - name: 备案
-      href:            
+    - name: 备案       
       status: 0        
-    - name: 词汇表
-      href:       
+    - name: 词汇表      
       status: 0
