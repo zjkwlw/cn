@@ -1,26 +1,25 @@
-# deleteDisk
+# modifySnpAttribute
 
 
 ## 描述
--   删除一块按配置计费的云硬盘，云盘类型包括高效云盘和SSD云盘。
--   删除云盘时，云盘的状态必须为 待挂载（Available）。
--   云盘被删除后，云硬盘快照可以被保留。
--   如果指定 ID 的云硬盘不存在，请求将被忽略。
-
+修改快照的名字或描述信息
 
 ## 请求方式
-DELETE
+PATCH
 
 ## 请求地址
-https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
+https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**diskId**|String|True||云硬盘ID|
 |**regionId**|String|True||地域ID|
+|**snapshotId**|String|True||快照ID|
 
 ## 请求参数
-无
+|名称|类型|是否必需|默认值|描述|
+|---|---|---|---|---|
+|**description**|String|False||快照描述，name和description必须要指定一个|
+|**name**|String|False||快照名称|
 
 
 ## 返回参数
