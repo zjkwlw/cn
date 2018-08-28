@@ -11,4 +11,5 @@
 3)   提升网络应用的健壮性和安全性，实现多点容灾备份，有效防御外来攻击和威胁。
 
 ## 业务架构
-![CDN原理图-精修.png](https://img1.jcloudcs.com/cms/0a208de7-157c-4579-a512-c31eb724628020180111182614.png)
+
+![CDN原理图](https://github.com/jdcloudcom/cn/blob/edit/image/CDN/CDN-BI.png)
