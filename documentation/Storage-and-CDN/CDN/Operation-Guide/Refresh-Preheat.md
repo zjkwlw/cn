@@ -2,7 +2,7 @@
 
 **1、控制台—位置说明**
 
-登录 [**CDN****控制台**](https://cdn-console.jdcloud.com/task/new) ，选择左侧菜单栏的【刷新缓存】                                              
+登录CDN控制台，选择左侧菜单栏的【刷新缓存】                                              
 
  ![image.png](https://img1.jcloudcs.com/cms/b4021e8c-827e-4331-9617-301ea758423020180117163325.png)
 
