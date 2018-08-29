@@ -1,6 +1,5 @@
-name: API
+name: 公共说明
 href: 
-- name: 公共说明
   items:
     - name: 简介
       herf: Introduction.md
