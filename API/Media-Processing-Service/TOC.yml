@@ -9,13 +9,13 @@ items:
       - name: 截图
         items:
           - name: createThumbnailTask
-            href: Media-Processing-APIs/Create-Thumbnail-Task.md
+            href: Media-Processing-APIs/createThumbnailTask.md
           - name: getNotification
-            href: Media-Processing-APIs/Get-MPS-Notification.md
+            href: Media-Processing-APIs/getNotification.md
           - name: getThumbnailTask
-            href: Media-Processing-APIs/Get-Thumbnail-Task.md
+            href: Media-Processing-APIs/getThumbnailTask.md
           - name: listThumbnailTask
-            href: Media-Processing-APIs/List-Thumbnail-Task.md
+            href: Media-Processing-APIs/listThumbnailTask.md
           - name: setNotification
-            href: Media-Processing-APIs/Set-MPS-Notification.md
+            href: Media-Processing-APIs/setNotification.md
   
