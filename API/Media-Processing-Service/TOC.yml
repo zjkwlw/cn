@@ -3,7 +3,7 @@ items:
   - name: 接口概览
     href: overview.md
   - name: 更新历史
-    href: changelog.md
+    href: ChangeLog.md
   - name: 媒体处理相关接口
     items:
       - name: 截图
