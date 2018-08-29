@@ -9,49 +9,49 @@
       - name: 云主机
         items:
           - name: 云主机绑定弹性IP
-            href: Virtual Machine/associateElasticIp.md
+            href: Virtual-Machine/associateElasticIp.md
           - name: 云主机挂载云硬盘
-            href: Virtual Machine/attachDisk.md
+            href: Virtual-Machine/attachDisk.md
           - name: 云主机挂载弹性网卡
-            href: Virtual Machine/attachNetworkInterface.md
+            href: Virtual-Machine/attachNetworkInterface.md
           - name: 创建私有镜像
-            href: Virtual Machine/createImage.md
+            href: Virtual-Machine/createImage.md
           - name: 创建云主机
-            href: Virtual Machine/createInstances.md
+            href: Virtual-Machine/createInstances.md
           - name: 删除云主机
-            href: Virtual Machine/deleteInstance.md
+            href: Virtual-Machine/deleteInstance.md
           - name: 查询云主机详情
-            href: Virtual Machine/describeInstance.md
+            href: Virtual-Machine/describeInstance.md
           - name: 查询云主机状态
-            href: Virtual Machine/describeInstanceStatus.md
+            href: Virtual-Machine/describeInstanceStatus.md
           - name: 查询云主机Web管理终端地址
-            href: Virtual Machine/describeInstanceVncUrl.md
+            href: Virtual-Machine/describeInstanceVncUrl.md
           - name: 查询云主机列表
-            href: Virtual Machine/describeInstances.md
+            href: Virtual-Machine/describeInstances.md
           - name: 云主机缷载云硬盘
-            href: Virtual Machine/detachDisk.md
+            href: Virtual-Machine/detachDisk.md
           - name: 云主机缷载弹性网卡
-            href: Virtual Machine/detachNetworkInterface.md
+            href: Virtual-Machine/detachNetworkInterface.md
           - name: 云主机解绑弹性IP
-            href: Virtual Machine/disassociateElasticIp.md
+            href: Virtual-Machine/disassociateElasticIp.md
           - name: 修改云主机属性
-            href: Virtual Machine/modifyInstanceAttribute.md
+            href: Virtual-Machine/modifyInstanceAttribute.md
           - name: 修改云主机中云硬盘属性
-            href: Virtual Machine/modifyInstanceDiskAttribute.md
+            href: Virtual-Machine/modifyInstanceDiskAttribute.md
           - name: 修改云主机中弹性网卡属性
-            href: Virtual Machine/modifyInstanceNetworkAttribute.md
+            href: Virtual-Machine/modifyInstanceNetworkAttribute.md
           - name: 修改云主机密码
-            href: Virtual Machine/modifyInstancePassword.md
+            href: Virtual-Machine/modifyInstancePassword.md
           - name: 重新启动云主机
-            href: Virtual Machine/rebootInstance.md
+            href: Virtual-Machine/rebootInstance.md
           - name: 使用指定镜像重置云主机镜像
-            href: Virtual Machine/rebuildInstance.md
+            href: Virtual-Machine/rebuildInstance.md
           - name: 使用指定规格类型变更云主机配置
-            href: Virtual Machine/resizeInstance.md
+            href: Virtual-Machine/resizeInstance.md
           - name: 启动云主机
-            href: Virtual Machine/startInstance.md
+            href: Virtual-Machine/startInstance.md
           - name: 停止云主机
-            href: Virtual Machine/stopInstance.md
+            href: Virtual-Machine/stopInstance.md
       - name: 镜像
         items:
           - name: 跨区复制私有镜像
@@ -77,7 +77,7 @@
       - name: 规格类型
         items:
           - name: 查询规格类型信息
-            href: Specification Type/describeInstanceTypes.md
+            href: Specification-Type/describeInstanceTypes.md
       - name: 配额
         items:
           - name: 查询云主机相关配额
