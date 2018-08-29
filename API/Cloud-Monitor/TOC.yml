@@ -9,31 +9,31 @@ items:
     items:
       - name: 监控项自定义监控
         items:
-          - name: 自定义监控数据上报
+          - name: putMetricData
             href: Monitor-Item-Customized-Monitoring-APIs/putMetricData.md
       - name: 云监控规则
         items:
-          - name: 创建报警规则
+          - name: createAlarm
             href: Cloud-Monitoring-Rules-APIs/createAlarm.md
-          - name: 删除报警规则
+          - name: deleteAlarms
             href: Cloud-Monitoring-Rules-APIs/deleteAlarms.md
-          - name: 查询报警历史
+          - name: describeAlarmHistory
             href: Cloud-Monitoring-Rules-APIs/describeAlarmHistory.md
-          - name: 查询监控规则列表
+          - name: describeAlarms
             href: Cloud-Monitoring-Rules-APIs/describeAlarms.md
-          - name: 查询监控规则详情
+          - name: describeAlarmsByID
             href: Cloud-Monitoring-Rules-APIs/describeAlarmsByID.md
-          - name: 禁用报警规则
+          - name: disableAlarm
             href: Cloud-Monitoring-Rules-APIs/disableAlarm.md
-          - name: 启用报警规则
+          - name: enableAlarm
             href: Cloud-Monitoring-Rules-APIs/enableAlarm.md
-          - name: 修改报警规则
+          - name: updateAlarm
             href: Cloud-Monitoring-Rules-APIs/updateAlarm.md
       - name: 监控项数据
         items:
-          - name: 查询监控数据
+          - name: describeMetricData
             href: Monitoring-Items-APIs/describeMetricData.md
-          - name: 查询可用监控项列表
+          - name: describeMetrics
             href: Monitoring-Items-APIs/describeMetrics.md
-          - name: 查询可创建规则的监控项信息
+          - name: describeMetricsForCreateAlarm
             href: Monitoring-Items-APIs/describeMetricsForCreateAlarm.md
