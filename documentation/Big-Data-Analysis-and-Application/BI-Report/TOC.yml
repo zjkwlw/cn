@@ -1,6 +1,7 @@
-- name: BI报表
+  name: BI报表
   href: 
-- name: 产品简介
+  items:
+  - name: 产品简介
   items:
     - name: 产品概述
       herf: Introduction/What-Is-MongoDB.md
@@ -10,10 +11,10 @@
       herf: Introduction/Functions.md
     - name: 应用场景 
       herf: Introduction/Application-Scenarios.md    
-- name: 产品定价
-  herf: Pricing/Overview.md   
-- name: 操作指南
-  items:
+  - name: 产品定价
+    herf: Pricing/Overview.md   
+  - name: 操作指南
+   items:
     - name: 创建数据集    
       herf: Operation-Guide/createdataset.md
     - name: 创建报告
