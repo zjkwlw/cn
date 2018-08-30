@@ -113,3 +113,19 @@
         items:
           - name: describeWhiteList
             herf: White-List/describeWhiteList.md
+            
+  - name: 实例规格
+    items:
+      - name: MySQL 实例规格
+        href: Instance-Specifications/Instance-Specifications-MySQL.md
+      - name: SQL Server 实例规格
+        href: Instance-Specifications/Instance-Specifications-MySQL.md
+
+  - name: 枚举参数说明
+    items:
+      - name: 枚举类型定义
+        href: Enum-Definitions/Enum-Definitions.md
+      - name: 地域及可用区列表
+        href: Enum-Definitions/Regions-AZ.md
+      - name: 版本号
+        href: Enum-Definitions/apiVersion.md
