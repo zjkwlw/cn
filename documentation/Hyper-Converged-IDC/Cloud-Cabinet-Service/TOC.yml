@@ -43,6 +43,10 @@
         href: Getting-Started/Overview.md
   - name: 操作指南
     items:
+     - name: 使用须知
+        items:
+          - name: 使用须知
+            href: Operation-Guide/Operation-Instruction/Operation-Instruction.md
       - name: 资源管理
         items:
           - name: 机柜
