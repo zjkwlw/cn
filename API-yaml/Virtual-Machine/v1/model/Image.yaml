@@ -17,7 +17,7 @@ definitions:
         description: 镜像的操作系统版本。
       architecture:
         type: string
-        description: 镜像架构。聚会：i386,x86_64
+        description: 镜像架构。取值：i386,x86_64
       systemDiskSizeGB:
         type: integer
         description: 镜像系统盘大小
