@@ -9,7 +9,7 @@ basePath: /regions/{regionId}
 paths:
   /ipResources:
     get:
-      description: "查询区域下的公网Ip资源列表"
+      description: "查询区域下的公网IP资源列表"
       operationId: describeIpResources
       parameters:
         - name: ip
@@ -34,7 +34,7 @@ paths:
                 type: string
   /ipResources/{ip}:
     get:
-      description: "查询公网Ip基本信息"
+      description: "查询公网IP基本信息"
       operationId: describeIpResourceInfo
       responses:
         200:
@@ -52,7 +52,7 @@ paths:
 
   /ipResources/{ip}:setCleanThreshold:
     post:
-      description: "设置公网Ip的清洗阈值"
+      description: "设置公网IP的清洗阈值"
       operationId: setCleanThreshold
       parameters:
         - name: cleanThresholdSpec
@@ -73,7 +73,7 @@ paths:
 
   /ipResources/{ip}/protectInfo:
     get:
-      description: "查询公网Ip的防护明细"
+      description: "查询公网IP的防护明细"
       operationId: describeIpResourceProtectInfo
       parameters:
         - name: start
@@ -104,7 +104,7 @@ paths:
 
   /ipResources/{ip}/monitorFlow:
     get:
-      description: "查询公网Ip的监控流量"
+      description: "查询公网IP的监控流量"
       operationId: describeIpResourceFlow
       parameters:
         - name: endTime
@@ -133,10 +133,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: 所属地域ID
   ip:
     name: ip
     in: path
     required: true
     type: string
-    description: 公网ip
+    description: 公网IP地址
