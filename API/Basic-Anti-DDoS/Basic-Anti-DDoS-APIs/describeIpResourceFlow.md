@@ -2,7 +2,7 @@
 
 
 ## 描述
-查询公网Ip的监控流量
+查询公网IP的监控流量
 
 ## 请求方式
 GET
@@ -12,8 +12,8 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ip**|String|True||公网ip|
-|**regionId**|String|True||Region ID|
+|**ip**|String|True||公网IP地址|
+|**regionId**|String|True||所属地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
@@ -40,8 +40,8 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 ### <a name="IpResourceFlowDetail">IpResourceFlowDetail</a>
 |名称|类型|描述|
 |---|---|---|
-|**times**|String[]||
-|**used**|Integer[]||
+|**times**|String[]|时间点|
+|**used**|Integer[]|对应时间点的使用值|
 
 ## 返回码
 |返回码|描述|
