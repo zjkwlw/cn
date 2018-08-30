@@ -4,47 +4,50 @@
   - name: 接口概览
     href: overview.md
   - name: 更新历史
+    href: ChangeLog.md
   - name: 接口信息
     items:
       - name: 数据库相关API
         items:
           - name: 创建属于用户实例的数据库
-            href: Database APIs/createDatabase.md
+            href: Database-APIs/createDatabase.md
           - name: 删除用户实例的指定数据库
-            href: Database APIs/deleteDatabase.md
+            href: Database-APIs/deleteDatabase.md
           - name: 查询用户实例的指定数据库信息
-            href: Database APIs/getDatabaseInfo.md
+            href: Database-APIs/getDatabaseInfo.md
           - name: 查询用户实例的所有数据库信息
-            href: Database APIs/listDatabaseInfo.md
+            href: Database-APIs/listDatabaseInfo.md
       - name: 实例相关API
         items:
           - name: 查询用户所属的实例信息
-            href: Instance APIs/listInstanceInfo.md
-      - name: 数据表相关API
+            href: Instance-APIs/listInstanceInfo.md
+      - name: 查询相关API
         items:
           - name: 终止用户PySpark脚本任务
-            href: Table APIs/cancelPySparkJob.md
+            href: Query-APIs/cancelPySparkJob.md
           - name: 终止用户Spark SQL脚本查询
-            href: Table APIs/cancelRasQuery.md
-          - name: 创建用户实例的数据表
-            href: Table APIs/createTable.md
-          - name: 删除用户实例的指定数据表
-            href: Table APIs/deleteTable.md
+            href: Query-APIs/cancelRasQuery.md
           - name: 执行用户编写的PySpark脚本
-            href: Table APIs/executePySparkQuery.md
+            href: Query-APIs/executePySparkQuery.md
           - name: 执行用户编写的Spark SQL脚本
-            href: Table APIs/executeRasQuery.md
+            href: Query-APIs/executeRasQuery.md
           - name: 获取用户PySpark脚本的执行结果
-            href: Table APIs/getPySparkExecuteResult.md
+            href: Query-APIs/getPySparkExecuteResult.md
           - name: 获取用户PySpark脚本的执行状态
-            href: Table APIs/getPySparkExecuteState.md
+            href: Query-APIs/getPySparkExecuteState.md
           - name: 获取用户Spark SQL脚本的查询日志
-            href: Table APIs/getRasQueryLog.md
+            href: Query-APIs/getRasQueryLog.md
           - name: 获取用户Spark SQL脚本的查询结果
-            href: Table APIs/getRasQueryResult.md
+            href: Query-APIs/getRasQueryResult.md
           - name: 获取用户Spark SQL脚本的查询状态
-            href: Table APIs/getRasQueryState.md
+            href: Query-APIs/getRasQueryState.md       
+      - name: 数据表相关API
+        items:
+          - name: 创建用户实例的数据表
+            href: Table-APIs/createTable.md
+          - name: 删除用户实例的指定数据表
+            href: Table-APIs/deleteTable.md
           - name: 查询用户实例的指定数据表信息
-            href: Table APIs/getTableInfo.md
+            href: Table-APIs/getTableInfo.md
           - name: 查询用户实例指定数据库下的所有数据表信息
-            href: Table APIs/listTableInfo.md
+            href: Table-APIs/listTableInfo.md
