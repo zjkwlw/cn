@@ -40,7 +40,8 @@ paths:
     ###################### 删除镜像接口 ######################
     delete:
       description: |
-        删除一个私有镜像，只允许操作您的个人私有镜像。
+        删除一个私有镜像，只允许操作您的个人私有镜像。<br>
+        若镜像已共享给其他用户，需先取消共享才可删除。
       operationId: deleteImage
       responses:
         200:
@@ -203,7 +204,7 @@ paths:
     post:
       description: |
         共享镜像，只允许操作您的个人私有镜像，单个镜像最多可共享给20个京东云帐户。<br>
-        打包镜像目前不支持共享。
+        整机镜像目前不支持共享。
       operationId: shareImage
       parameters:
         - name: pins
