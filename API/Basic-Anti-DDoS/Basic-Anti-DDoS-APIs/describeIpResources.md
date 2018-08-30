@@ -16,7 +16,9 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |**regionId**|String|True||Region ID|
 
 ## 请求参数
-无
+|名称|类型|是否必需|默认值|描述|
+|---|---|---|---|---|
+|**ip**|String|False||IP模糊匹配|
 
 
 ## 返回参数
