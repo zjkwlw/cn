@@ -15,8 +15,8 @@
             href: Elastic-IP/deleteElasticIp.md
           - name: describeElasticIp
             href: Elastic-IP/describeElasticIp.md
-          - name: escribeElasticIps
-            href: Elastic-IP/escribeElasticIps.md
+          - name: describeElasticIps
+            href: Elastic-IP/describeElasticIps.md
       - name: 弹性网卡
         items:
           - name: assignSecondaryIps
