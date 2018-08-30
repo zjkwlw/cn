@@ -11,13 +11,14 @@
     - name: 应用场景 
       herf: Introduction/Application-Scenarios.md    
 - name: 产品定价
+    herf: Pricing/Overview.md   
 - name: 操作指南
   items:
     - name: 创建数据集    
-          herf: Operation-Guide/Instance-Management/Modify-Instance-Spec.md
+          herf: Operation-Guide/createdataset.md
     - name: 创建报告
-          herf: Operation-Guide/Account-Management/Create-MongoDB-Account.md
+          herf: Operation-Guide/createreport.md
     - name: 查看报表仪表盘
 
-          herf: Operation-Guide/Backup/Modify-Backup-Policy.md        
+          herf: Operation-Guide/ViewreportDashBoard.md        
             
