@@ -37,7 +37,7 @@ OSS回调通知包括**配置回调通知**和**消息通知**两部分:
                     </FilterRule>
                     <FilterRule>
                         <Name>suffix</Name>
-                        <Value>prefix-value</Value>
+                        <Value>suffix-value</Value>
                     </FilterRule>
                </S3Key>
             </Filter>
@@ -46,6 +46,7 @@ OSS回调通知包括**配置回调通知**和**消息通知**两部分:
             <Event>event-type</Event>
             ...
         </TopicConfiguration>
+        ...
     </NotificationConfiguration>
 ```
 注：
@@ -79,7 +80,7 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
 ```
 "callBackVar": {
     "callBackVars": {                 
-	"a":["test1"]
+	"a":["test1"],
 	"b":["test2"]
     }
 }
@@ -94,7 +95,7 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
          "eventVersion":"1.0",  //版本号，目前为"1.0"
          "eventSource":"oss",  //事件源，固定为"oss"
          "awsRegion":"cn-north-1",  //Bucket所在region
-         "eventTime":GMT time,  //事件触发时间
+         "eventTime":Mon, 06 Aug 2018 10:19:51 GMT,  //事件触发时间
          "eventName":"event-type",  //事件类型
          "userIdentity":{  
             "principalId":"userId-of-the-user-who-caused-the-event"  //触发事件用户ID
@@ -103,7 +104,7 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
             "sourceIPAddress":"domain-name-where-request-came-from"  //发起事件请求的域名
          },
          "responseElements":{  
-            "x-amz-request-id":"OSS generated request ID",  //发起事件的请求ID
+            "x-amz-request-id":"OSS generated request ID"  //发起事件的请求ID
          },
          "s3":{  
             "s3SchemaVersion":"1.0",  //通知内容版本号，目前为"1.0"
@@ -112,16 +113,16 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
                "name":"bucket-name",  //Bucket名称
                "ownerIdentity":{  
                   "principalId":"userId-of-the-bucket-owner"  //Bucket owner用户ID
-               },
+               }
             },
             "object":{  
                "key":"object-key",  //Object名称
-               "eTag":"object eTag",   //Object的etag，与GetObject请求返回的ETag头的内容相同
+               "eTag":"object eTag"  //Object的etag，与GetObject请求返回的ETag头的内容相同
             }
-         }
+         },
 	"callBackVar": {  //回调通知配置中的自定义参数
 	    "callBackVars": {                 
-		"var1":["value1","value3"]，
+		"var1":["value1","value3"],
 		"var2":["value2"]
 	    }
          }
@@ -133,7 +134,7 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
 ## 回调服务器
 
 ### 验证回调URL
-在配置回调通知请求时，OSS会向回调URL发送验证消息去验证是否可用，回调服务器需要按照要求解析并返回。如果无响应，则返回400。
+在配置回调通知请求时，OSS会向回调URL发送验证消息去验证是否可用，回调服务器需要按照要求解析并返回。如果无响应，则配置回调通知失败，并返回400。 
 
 验证流程：
 
