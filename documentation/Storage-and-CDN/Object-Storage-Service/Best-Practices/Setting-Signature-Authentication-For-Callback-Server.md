@@ -55,7 +55,7 @@ x-jdcloud-version:2015-06-06
 ### 其他
 1.用来签名的字符串为 UTF-8 格式;
 
-2.签名的方法用 RFC 3447 (http://tools.ietf.org/html/rfc3447)中定义的 sha1WithRSAEncryption 方法;
+2.签名的方法用 RFC 3447 ( http://tools.ietf.org/html/rfc3447 )中定义的 sha1WithRSAEncryption 方法;
 
 3.Base64 是指使用 base64 算法转码文本
 
