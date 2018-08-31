@@ -1,4 +1,4 @@
-- name: DevOps
+  name: DevOps
   href: 
   items:
   - name: 产品简介
@@ -80,9 +80,9 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
+    href: API/API-Reference.md
   - name: SDK参考
-    href:
+    href: SDK/SDK-Reference.md
   - name: 用户协议
     items:
     - name: 服务条款

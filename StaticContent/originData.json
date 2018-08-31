@@ -134,5 +134,81 @@
     {
         "name": "每月电子刊物",
         "url": "https://www.jdcloud.com/news/journalMay"
+    },
+    {
+        "name": "jdstack",
+        "url": "https://www.jdcloud.com/products/jdstack"
+    },
+    {
+        "name": "价格计算器-云主机",
+        "url": "https://www.jdcloud.com/calculator/calHost"
+    },
+    {
+        "name": "价格计算器-云硬盘",
+        "url": "https://www.jdcloud.com/calculator/calDisk"
+    },
+    {
+        "name": "价格计算器-负载均衡",
+        "url": "https://www.jdcloud.com/calculator/calLoad"
+    },
+    {
+        "name": "价格计算器-云数据库MySQL",
+        "url": "https://www.jdcloud.com/calculator/calDataBase"
+    },
+    {
+        "name": "价格计算器-云数据库SQLServer",
+        "url": "https://www.jdcloud.com/calculator/calSqlServer"
+    },
+    {
+        "name": "价格计算器-缓存",
+        "url": "https://www.jdcloud.com/calculator/calCache"
+    },
+    {
+        "name": "定价页",
+        "url": "https://www.jdcloud.com/price"
+    },
+    {
+        "name": "关于我们",
+        "url": "https://www.jdcloud.com/aboutus"
+    },
+    {
+        "name": "云端融合解决方案",
+        "url": "https://www.jdcloud.com/solution/resist"
+    },
+    {
+        "name": "intel",
+        "url": "https://www.jdcloud.com/activity/intel"
+    },
+    {
+        "name": "合作伙伴index",
+        "url": "https://www.jdcloud.com/partner/index"
+    },
+    {
+        "name": "合作伙伴reg",
+        "url": "https://www.jdcloud.com/partner/reg"
+    },
+    {
+        "name": "京东云刊6月",
+        "url": "https://www.jdcloud.com/news/journalJun"
+    },
+    {
+        "name": "京东云刊7月",
+        "url": "https://www.jdcloud.com/news/journalJuly"
+    },
+    {
+        "name": "京东云刊订阅申请",
+        "url": "https://www.jdcloud.com/news/subscription"
+    },
+    {
+        "name": "京东云刊订阅申请成功页",
+        "url": "https://www.jdcloud.com/news/subscriptionSuccess"
+    },
+    {
+        "name": "金牌服务",
+        "url": "https://www.jdcloud.com/service/bestService"
+    },
+    {
+        "name": "数据报告Forrester",
+        "url": "https://www.jdcloud.com/service/forrester"
     }
 ]
