@@ -3,6 +3,9 @@
 云物理服务器实例价格主要包括：云物理服务器价格和公网IP价格。
 
 ## 云物理服务器价格
+计算型及存储型：
+
+
 <table>
     <tr>
         <td colspan="2"><B>实例规格类型</B></td> 
@@ -30,6 +33,27 @@
 		<td >标准存储型</td>
 		<td >cps.s.normal</td>
 		<td >4500</td>
+    </tr>
+</table>
+
+GPU型：
+
+<table>
+    <tr>
+        <td colspan="2"><B>实例规格类型</B></td> 
+        <td ><B>实例规格</B></td> 
+		<td ><B>包月价格（元）</B></td>	
+    </tr>
+    <tr>   
+        <td rowspan="2">GPU型</td>
+		<td >标准xxx</td>
+		<td >A12</td>
+		<td >23000</td>
+    </tr>
+	<tr>   
+		<td >标准xxx</td>
+		<td >A13</td>
+		<td >19900</td>
     </tr>
 </table>
 
