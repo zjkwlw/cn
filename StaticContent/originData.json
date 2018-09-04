@@ -8,10 +8,6 @@
         "url": "https://www.jdcloud.com/solution/xiaoyi"
     },
     {
-        "name": "物理资源托管",
-        "url": "https://www.jdcloud.com/solution/tgy"
-    },
-    {
         "name": "中小企业办公",
         "url": "https://www.jdcloud.com/solution/enterprisecloud"
     },
@@ -37,19 +33,11 @@
     },
     {
         "name": "混合部署方案",
-        "url": "https://www.jdcloud.com/solution/hybrnamecloud"
+        "url": "https://www.jdcloud.com/solution/hybridcloud"
     },
     {
         "name": "私有云托管方案",
         "url": "https://www.jdcloud.com/solution/tgy"
-    },
-    {
-        "name": "大数据私有化部署方案",
-        "url": "https://www.jdcloud.com/solution/xdata/JDP"
-    },
-    {
-        "name": "混合云数据共享交换方案",
-        "url": "https://www.jdcloud.com/solution/xdata/oneDXP"
     },
     {
         "name": "大宗商品电商解决方案",
@@ -88,14 +76,6 @@
         "url": "https://www.jdcloud.com/activity/dreamPartner"
     },
     {
-        "name": "合作伙伴",
-        "url": "https://www.jdcloud.com/partner/index"
-    },
-    {
-        "name": "合作伙伴表单",
-        "url": "https://www.jdcloud.com/partner/reg"
-    },
-    {
         "name": "合作伙伴列表",
         "url": "https://www.jdcloud.com/partner/basic"
     },
@@ -104,20 +84,12 @@
         "url": "https://www.jdcloud.com/service/service"
     },
     {
-        "name": "了解京东云",
-        "url": "https://www.jdcloud.com/aboutus"
-    },
-    {
         "name": "免费试用",
         "url": "https://www.jdcloud.com/service/experienceNew"
     },
     {
         "name": "可信中心",
         "url": "https://www.jdcloud.com/service/trustedCenter"
-    },
-    {
-        "name": "京喜云计算",
-        "url": "https://www.jdcloud.com/activity/jd1"
     },
     {
         "name": "表单页",
