@@ -50,6 +50,12 @@
           herf: Service-Related/Image-Help.md
         - name: 建站帮助文档
           herf: Service-Related/Website-Help.md
+        - name: 京东云PLUS企业云盘帮助文档
+          herf: Service-Related/PLUS-Enterprise-Cloud-Box-Document.md
+        - name: 京东云PLUS企业邮箱帮助文档
+          herf: Service-Related/PLUS-Enterprise-Email-Document.md
+        - name: 京东云PLUS云会议帮助文档
+          herf: Service-Related/PLUS-Meeting-Document.md
         - name: 服务商咚咚添加操作指导
           herf: Service-Related/IM-Operation-Manual.md
         - name: 短信服务
