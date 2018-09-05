@@ -49,20 +49,20 @@
             href: Operation-Guide/Operation-Instruction/Operation-Instruction.md
       - name: 资源管理
         items:
-          - name: 机柜
-            href: Operation-Guide/Resources-Management/Cabinet.md
-          - name: 设备
-            href: Operation-Guide/Instance-Management/Device.md
-          - name: 公网IP
-            href: Operation-Guide/Instance-Management/ipAddress.md    
-          - name: 带宽
-            href: Operation-Guide/Instance-Management/Bandwidth.md
+          - name: 查看机柜列表
+            href: Operation-Guide/Resources-Management/View-Cabinet-List.md
+          - name: 查看设备列表
+            href: Operation-Guide/Instance-Management/View-Device-List.md
+          - name: 查看公网IP列表
+            href: Operation-Guide/Instance-Management/View-ipAddress-List.md
+          - name: 查看带宽列表
+            href: Operation-Guide/Instance-Management/View-Bandwidth-List.md
       - name: 工单管理
         items:
           - name: 提交工单
             href: Operation-Guide/Tickets-Management/submitTicket.md
-          - name: 我的工单
-            href: Operation-Guide/Tickets-Management/myTickets.md
+          - name: 查看工单列表
+            href: Operation-Guide/Tickets-Management/View-Tickets-List.md
   - name: 最佳实践
     items:
     status: 0
