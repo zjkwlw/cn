@@ -40,14 +40,14 @@ items:
       herf: Getting-Started/STEP1-Create -APIGroup.md
     - name: 创建API
       herf: Getting-Started/STEP2-Create-API.md
-    - name: 自定义域名
-      herf: Getting-Started/STEP3-1-Create-Domain.md
-    - name: 后端签名
-      herf: Getting-Started/STEP3-2-Create-BackSign.md
-    - name: 流控策略
-      herf: Getting-Started/STEP3-3-Create-Stream.md
     - name: 发布API分组
-      herf: Getting-Started/STEP4-Create-Publish.md  
+      herf: Getting-Started/STEP3-Create-Publish.md  
+    - name: 自定义域名
+      herf: Getting-Started/STEP4-1-Create-Domain.md
+    - name: 后端签名
+      herf: Getting-Started/STEP4-2-Create-BackSign.md
+    - name: 流控策略
+      herf: Getting-Started/STEP4-3-Create-Stream.md
     - name: API的访问授权
       herf: Getting-Started/STEP5-Create-Auth.md
 - name: 操作指南
