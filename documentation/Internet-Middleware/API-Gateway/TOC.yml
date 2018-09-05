@@ -60,10 +60,10 @@ items:
       items:
         - name: 创建API分组
           herf: Create-APIGroup/Create-APIGroup.md
-    - name: API的访问授权
+     - name: 发布API分组
       items:
-        - name: API的访问授权
-          herf: Create-Auth/Create-Auth.md  
+        - name: 发布API分组
+          herf: Create-Publish/Create-Publish.md  
     - name: 后端签名
       items:
         - name: 后端签名
@@ -72,15 +72,14 @@ items:
       items:
         - name: 自定义域名
           herf: Create-Domain/Create-Domain.md  
-    - name: 发布API分组
-      items:
-        - name: 发布API分组
-          herf: Create-Publish/Create-Publish.md  
     - name: 流控策略
       items:
         - name: 流控策略
           herf: Create-Stream/Create-Stream.md  
-    
+    - name: API的访问授权
+      items:
+        - name: API的访问授权
+          herf: Create-Auth/Create-Auth.md  
 - name: 最佳实践
   items:
   - name: 最佳实践
