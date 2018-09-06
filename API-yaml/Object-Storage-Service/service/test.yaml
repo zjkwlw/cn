@@ -13,6 +13,7 @@ paths:
       - developers
       summary: create imgProtected
       operationId: putImgProtected
+      x-jdcloud-internal: true
       description: |
         创建原图保护
       produces:
@@ -49,6 +50,7 @@ paths:
       - developers
       summary: get imgProtected Condition
       operationId: getimgProtectedCondition
+      x-jdcloud-internal: true
       description: |
         获取当前bucket的原图保护配置
       produces:
@@ -84,6 +86,7 @@ paths:
       - developers
       summary: delete imgProtected
       operationId: deleteImgProtected
+      x-jdcloud-internal: true
       description: |
         关闭原图保护
       produces:
