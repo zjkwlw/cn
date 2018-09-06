@@ -2,7 +2,7 @@
 
 
 ## 描述
-设置公网Ip的清洗阈值
+设置公网IP的清洗阈值
 
 ## 请求方式
 POST
@@ -12,8 +12,8 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}:setClean
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ip**|String|True||公网ip|
-|**regionId**|String|True||Region ID|
+|**ip**|String|True||公网IP地址|
+|**regionId**|String|True||所属地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
