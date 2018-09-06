@@ -13,6 +13,7 @@ paths:
       - developers
       summary: update bucket max count
       operationId: updateBucketMaxCount
+      x-jdcloud-internal: true
       description: |
         更新bucket最大数量
       produces:

@@ -132,6 +132,7 @@ paths:
       - developers
       summary: moveObject
       operationId: moveObject
+      x-jdcloud-internal: true
       description: |
         moveobject
       produces:
