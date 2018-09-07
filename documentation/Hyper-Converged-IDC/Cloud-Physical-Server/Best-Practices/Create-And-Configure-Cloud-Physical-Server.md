@@ -50,7 +50,7 @@
 ![配置网络](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS017.png)
 
 **6、 配置服务器基本信息**：
-配置服务器名称、描述、操作系统密码
+配置服务器名称、描述、操作系统密码。
 
 ![配置服务器](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS018.png)
 
