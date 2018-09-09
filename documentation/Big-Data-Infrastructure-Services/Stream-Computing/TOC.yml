@@ -1,41 +1,41 @@
-name: Á÷¼ÆËã
-href: 
-items:
-- name: ²úÆ·¼ò½é
+  name: æµè®¡ç®—
+  href: 
   items:
-    - name: ²úÆ·¸ÅÊö
+  - name: äº§å“ç®€ä»‹
+    items:
+    - name: äº§å“æ¦‚è¿°
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Overview.md
-    - name: Ê²Ã´ÊÇÁ÷¼ÆËã
+    - name: ä»€ä¹ˆæ˜¯æµè®¡ç®—
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/what-is-stream-compute.md
-    - name: Á÷¼ÆËãÓëÅúÁ¿¼ÆËã¶Ô±È
+    - name: æµè®¡ç®—ä¸æ‰¹é‡è®¡ç®—å¯¹æ¯”
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/compare.md
-    - name: ÏµÍ³½á¹¹
+    - name: ç³»ç»Ÿç»“æ„
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Basic-Infrastructure.md
-    - name: ²úÆ·ÓÅÊÆ
+    - name: äº§å“ä¼˜åŠ¿
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Benefits.md
-    - name: ºËĞÄ¹¦ÄÜ
+    - name: æ ¸å¿ƒåŠŸèƒ½
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Functions.md
-    - name: Ó¦ÓÃ³¡¾°
+    - name: åº”ç”¨åœºæ™¯
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Introduction/Application-Scenarios.md
-- name: ÈëÃÅÖ¸ÄÏ
-  items:
-    - name: ÈëÃÅÖ¸ÄÏ
+  - name: å…¥é—¨æŒ‡å—
+    items:
+    - name: å…¥é—¨æŒ‡å—
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Getting-Started/Getting-Started.md
-- name: ²Ù×÷Ö¸ÄÏ
-  items:
-    - name: ´´½¨Ó¦ÓÃ
+  - name: æ“ä½œæŒ‡å—
+    items:
+    - name: åˆ›å»ºåº”ç”¨
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/create.md
-    - name: Êı¾İÊäÈë
+    - name: æ•°æ®è¾“å…¥
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/data-input.md
-    - name: Êı¾İÊä³ö
+    - name: æ•°æ®è¾“å‡º
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/data-output.md
-    - name: ×÷Òµ¿ª·¢
+    - name: ä½œä¸šå¼€å‘
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Operation-Guide/task-develop.md
-- name: ²úÆ·¶¨¼Û
-  items:
-    - name: ¹ºÂòĞëÖª
+  - name: äº§å“å®šä»·
+    items:
+    - name: è´­ä¹°é¡»çŸ¥
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Pricing/Billing-Overview.md
-    - name: Ç··Ñ¹æÔò
+    - name: æ¬ è´¹è§„åˆ™
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Pricing/Billing-Rules.md
-    - name: ¼Û¸ñ×ÜÀÀ
+    - name: ä»·æ ¼æ€»è§ˆ
       href: https://github.com/jdcloudcom/cn/blob/cn-datahub/documentation/Big-Data-Infrastructure-Services/Stream-Computing/Pricing/Price-Overview.md
