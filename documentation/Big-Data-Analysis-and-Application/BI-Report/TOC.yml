@@ -12,7 +12,9 @@
     - name: 应用场景 
       herf: Introduction/Application-Scenarios.md    
   - name: 产品定价
-    herf: Pricing/Overview.md   
+  items:
+    - name: 计费概述
+      herf: Pricing/Overview.md 
   - name: 操作指南
     items:
     - name: 创建数据集    
