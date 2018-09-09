@@ -5,7 +5,7 @@
     items:
       - name: 产品概述
         href: Introduction/Overview.md
-        name: 产品功能
+      - name: 产品功能
         href: Introduction/Functions.md  
   - name: 产品定价
     items:
