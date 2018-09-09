@@ -4,22 +4,22 @@ items:
 - name: 产品简介
   items:
     - name: 产品概述
-      herf: Introduction/What-Is-BI-Report.md
+      href: Introduction/What-Is-BI-Report.md
     - name: 产品优势
-      herf: Introduction/Benefits.md
+      href: Introduction/Benefits.md
     - name: 产品功能
-      herf: Introduction/Functions.md
+      href: Introduction/Functions.md
     - name: 应用场景 
-      herf: Introduction/Application-Scenarios.md    
+      href: Introduction/Application-Scenarios.md    
 - name: 产品定价
   items:
     - name: 计费概述
-      herf: Pricing/Overview.md 
+      href: Pricing/Overview.md 
 - name: 操作指南
   items:
     - name: 创建数据集    
-      herf: Operation-Guide/createdataset.md
+      href: Operation-Guide/createdataset.md
     - name: 创建报告
-      herf: Operation-Guide/createreport.md
+      href: Operation-Guide/createreport.md
     - name: 查看报表仪表盘
-      herf: Operation-Guide/ViewreportDashBoard.md
+      href: Operation-Guide/ViewreportDashBoard.md
