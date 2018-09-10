@@ -35,7 +35,7 @@ git clone https://github.com/s3tools/s3cmd.git
 
 **S3cmd安装**
 ```
-sudo cp -f s3cmd/ /usr/local/
+sudo cp -rf s3cmd/ /usr/local/
 sudo ln -s /usr/local/s3cmd/s3cmd /usr/bin/s3cmd
 ```
 
