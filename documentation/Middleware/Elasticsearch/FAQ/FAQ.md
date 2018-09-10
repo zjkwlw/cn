@@ -4,7 +4,7 @@ Elasticsearch 是分布式、可扩展、实时的搜索与数据分析引擎，
 ### Elasticsearch适用于哪些业务场景
 Elasticsearch 由于在海量数据检索方面的特性，拥有全文检索、准实时搜索、结构化搜索等能力，广泛应用于日志分析、站内搜索等业务场景。
 ### Elasticsearch支持哪个版本
-目前Elasticsearch搜索引擎支持Elasticsearch 5.6.10版本。
+目前Elasticsearch搜索引擎支持Elasticsearch 5.6.9版本。
 ### Elasticsearch存储容量的上限是多少
 创建集群过程中，最少可创建2个节点，最多可创建32个节点，默认为3个节点。2个节点集群有脑裂风险，请谨慎选择。
 
