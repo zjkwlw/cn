@@ -6,6 +6,7 @@
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/监控集群-01.png)
  
 监控指标包括：集群健康状态、集群查询QPS、集群写入QPS、节点CPU使用率、节点磁盘使用率、节点HeapMemory使用率。</br>
+
 | 监控项	| 备注	|
 |:--:|:--:|
 | 集群状态 |周期：60s，聚合状态：Value |
