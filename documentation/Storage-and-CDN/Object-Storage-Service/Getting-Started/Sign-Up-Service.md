@@ -17,3 +17,4 @@
 ![开通成功](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-008.png)
 
 注意：在对象存储服务开通成功后，系统不会为用户自动创建AccessKey和AccessKeySecret，需要用户到个人中心的AccessKey管理处手动创建。
+![开通成功](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-024.png)
