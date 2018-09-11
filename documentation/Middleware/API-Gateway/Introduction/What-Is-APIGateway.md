@@ -18,7 +18,7 @@ API 网关用户可通过多种方式进行管理：通过管理控制台进行�
 - 调用API充分依托于京东云账户安全体系，提供两种调用方式：使用京东云AccessKey和SecretKey（以下简称AK/SK，获取详情可查看：[https://uc.jdcloud.com/account/accessKey](https://uc.jdcloud.com/account/accessKey) ），或者使用API调用者专门分配的访问密钥AccessKey和SecretKey。
 - 可通过访问授权管理、流量控制、后端签名等操作定制化管理API的开放和使用。
 - 数据传输的安全性，支持HTTPS协议，且推荐用户使用HTTPS协议进行请求，推荐使用TLS 1.2以上。
-- 提供了基本的防DDos/CC等安全防护功能，如果需要更高安全性，可以搭配京东云安全产品。
+- 提供了基本的防DDoS/CC等安全防护功能，如果需要更高安全性，可以搭配京东云安全产品。
 
 
  

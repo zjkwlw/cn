@@ -15,8 +15,7 @@ API分组信息创建完成后，需要通过发布才能使用。目前京东�
 
 首先，进入 **API分组管理**页，并找到要发布的分组
 
-![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
-
+![APIgroup列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
 
 
 
