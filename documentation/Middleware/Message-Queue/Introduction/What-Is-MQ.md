@@ -9,7 +9,7 @@
 	- [生产和消费消息](../Getting-Started/Produce-And-Consumer-Message.md)
 - 主题管理
 	- [创建Topic](../Operation-Guide/Topic-Management/Create-Topic.md)
-	- [删除Topic](../Operation-Guide/Topic-Management/Subscribe.md)
+	- [订阅Topic](../Operation-Guide/Topic-Management/Subscribe.md)
 	- [删除Topic](../Operation-Guide/Topic-Management/Delete-And-Manage-Topic.md)
 - 消息订阅
 	- [发送消息](../Operation-Guide/Message-Management/Send-Message.md)
