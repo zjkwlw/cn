@@ -25,7 +25,7 @@ API的访问授权过程，即API提供方给API调用方授权应用的过程�
 
 ### API提供者授权API分组给API调用者使用
 
-#### STEP1: API提供者获取API调用者的访问密钥ID 或者 京东云账户的Access Key。
+#### STEP1: API提供者获取API调用者的访问密钥ID。
 
 API调用者可在访问密钥详情页找到访问密钥ID，并将该ID告诉API提供者。
 
