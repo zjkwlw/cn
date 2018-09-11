@@ -1,5 +1,5 @@
 ## 基础架构
-Elasticsearch提供Elasticsearch + kibana的托管服务，支持用户方便地扩容Elasticsearch集群、集群的监控报警。
+京东云Elasticsearch提供Elasticsearch + kibana的托管服务，支持用户方便地扩容Elasticsearch集群、集群的监控报警。
 
 | 概念 | 解释 |
 | :- | :- |
