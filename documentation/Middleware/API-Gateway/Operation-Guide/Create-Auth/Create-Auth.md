@@ -48,7 +48,7 @@ API调用者可在访问密钥详情页找到访问密钥ID，并将该ID告诉A
 
 密钥创建成功后，点击 **绑定**进行授权分组的绑定关系。
 
-![授权绑定](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-bd.png)
+
 
 
 
