@@ -23,8 +23,8 @@ sudo make install
 ```
 **3.创建密码文件**
 ```
-echo key:sercert > /home/passwd-s3fs
-chmod 600 /home/passwd-s3fs
+echo key:sercert > ~/.passwd-s3fs
+chmod 600 ~/.passwd-s3fs
 ```
 说明
 
@@ -35,7 +35,7 @@ chmod 600：设置密钥文件只能被当前用户访问。
 **4.挂载对象存储到本地目录/new**
 ```
 mkdir /new
-s3fs bucketname /new -o passwd_file=/home/passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
+s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
 ```
 说明
 
