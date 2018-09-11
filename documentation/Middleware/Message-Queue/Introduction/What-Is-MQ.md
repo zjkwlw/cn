@@ -9,7 +9,7 @@
 	- [生产和消费消息](../Getting-Started/Produce-And-Consumer-Message.md)
 - 主题管理
 	- [创建Topic](../Operation-Guide/Topic-Management/Create-Topic.md)
-	- [删除Topic](../Operation-Guide/Topic-Management/Subscribe.md)
+	- [订阅Topic](../Operation-Guide/Topic-Management/Subscribe.md)
 	- [删除Topic](../Operation-Guide/Topic-Management/Delete-And-Manage-Topic.md)
 - 消息订阅
 	- [发送消息](../Operation-Guide/Message-Management/Send-Message.md)
@@ -20,4 +20,4 @@
 	- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## 计费
-消息队列 JCQ支持按流量计费后付费的计费类型。详细说明请参见：[计费说明](https://github.com/jdcloudcom/cn/blob/edit/documentation/Internet-Middleware/Message%20Queue/Pricing/Billing-Rules.md)。
+消息队列 JCQ支持按流量计费后付费的计费类型。详细说明请参见：[计费说明](../Pricing/Billing-Rules.md)。
