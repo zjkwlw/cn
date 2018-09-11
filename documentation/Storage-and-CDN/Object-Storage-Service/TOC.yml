@@ -112,7 +112,7 @@ href:
                 - name: 文字水印
                   href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
                 - name: 获取图片信息
-                  href: Operation-Guide/Image-Service-Guide/Obtein-Image-Information.md
+                  href: Operation-Guide/Image-Service-Guide/Obtain-Image-Information.md
                 - name: 人脸检测
                   href: Operation-Guide/Image-Service-Guide/Face-Recognition.md	
                 - name: 图片鉴黄
