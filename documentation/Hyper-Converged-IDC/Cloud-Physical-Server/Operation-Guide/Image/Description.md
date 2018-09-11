@@ -9,7 +9,9 @@
 
 |操作系统|
 |:--:|
+|CentOS-7.1  64位|
 |CentOS-7.2  64位|
+|CentOS-7.5  64位|
 |CentOS-6.6 64位|
 |Ubuntu-16.04 64位|
 |Ubuntu-14.04 64位|
@@ -21,5 +23,7 @@
 |:--:|:--|
 |CentOS-7.2  64位|Nginx、MySQL、RabbitMQ|
 |CentOS-6.6 64位|Nginx、MySQL、RabbitMQ|
+|CentOS-7.1  64位|N/A|
+|CentOS-7.5  64位|N/A|
 |Ubuntu-16.04 64位|N/A|
 |Ubuntu-14.04 64位|N/A|
