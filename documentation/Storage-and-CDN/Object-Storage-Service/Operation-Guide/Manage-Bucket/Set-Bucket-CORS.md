@@ -34,7 +34,7 @@
 
 ## 在控制台中设置过程如下：
 
-1. 登入控制台->云存储->空间管理->进入某个Bucket->空间设置，命名为“跨域访问设置”：
+1. 登入控制台->对象存储->空间管理->进入某个Bucket->空间设置，命名为“跨域访问设置”：
 
 ![跨域访问设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-037.png)
 
