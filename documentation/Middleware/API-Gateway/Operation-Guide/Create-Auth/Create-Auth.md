@@ -41,9 +41,7 @@ API调用者可在访问密钥详情页找到访问密钥ID，并将该ID告诉A
 
 ![访问授权页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-list.png)
 
-然后点击 **创建授权**，在授权信息中，填入API调用者提供的访问密钥ID或者AK。
-
-![创建授权](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-add.png)
+然后点击 **创建授权**，在授权信息中，填入API调用者提供的访问密钥ID。
 
 
 #### STEP3: API提供者绑定授权给API分组
