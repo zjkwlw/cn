@@ -6,13 +6,13 @@
 
  
 监控指标包括：集群健康状态、集群查询QPS、集群写入QPS、节点CPU使用率、节点磁盘使用率、节点HeapMemory使用率。</br>
-|监控项|备注|
+| 监控项	| 备注	|
 |:--:|:--:|
-|集群状态 |	周期：60s，聚合状态：Value|
-|集群查询QPS（Count/Second）|	周期：60s，聚合状态：Average|
-|集群写入QPS（Count/Second）|	周期：60s，聚合状态：Average|
-|CPU节点利用率（%）|	周期：60s|
-|节点磁盘使用率（%）|	周期：60s|
-|节点HeapMemory使用率（%）	|周期：60s|
+| 集群状态 |周期：60s，聚合状态：Value |
+| 集群查询QPS（Count/Second） | 周期：60s，聚合状态：Average	|
+| 集群写入QPS（Count/Second） | 周期：60s，聚合状态：Average |
+| CPU节点利用率（%） | 周期：60s	|
+| 节点磁盘使用率（%） | 周期：60s	|
+| 节点HeapMemory使用率（%） | 周期：60s	|
 
 
