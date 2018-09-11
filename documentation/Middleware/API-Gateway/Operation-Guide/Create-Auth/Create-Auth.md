@@ -33,10 +33,6 @@ API调用者可在访问密钥详情页找到访问密钥ID，并将该ID告诉A
 ![访问密钥详情页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-xqy.png)
  
  
- API调用者还可用京东云的AK（Access Key）方式，请求授权调用。具体可在Access Key管理页中新定义或者选择一个AK，并将该AK告诉API提供者。
-
-![AK List](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/AK-list.png)
- 
 
  
 #### STEP2: API提供者创建1个授权。
