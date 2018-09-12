@@ -12,9 +12,9 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||实例ID|
-|**regionId**|String|True||所属地域ID|
-|**webRuleId**|String|True||网站规则ID|
+|**instanceId**|String|True||实例 ID|
+|**regionId**|String|True||Region ID|
+|**webRuleId**|String|True||网站规则 ID|
 
 ## 请求参数
 无

@@ -2,7 +2,7 @@
 
 
 ## 描述
-更新某条非网站类规则
+更新非网站类规则
 
 ## 请求方式
 PATCH
@@ -12,19 +12,19 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**forwardRuleId**|String|True||转发规则ID|
-|**instanceId**|String|True||实例ID|
-|**regionId**|String|True||所属地域ID|
+|**forwardRuleId**|String|True||转发规则 ID|
+|**instanceId**|String|True||实例 ID|
+|**regionId**|String|True||Region ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**forwardRuleSpec**|[ForwardRuleSpec](##ForwardRuleSpec)|True||非网站类规则参数|
+|**forwardRuleSpec**|[ForwardRuleSpec](##ForwardRuleSpec)|True||更新非网站类规则请求参数|
 
 ### <a name="ForwardRuleSpec">ForwardRuleSpec</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**algorithm**|String|False||转发规则：wrr->带权重的轮询 wlc->加权最小连接 rr->不带权重的轮询 sh->源地址hash|
+|**algorithm**|String|False||转发规则：wrr->带权重的轮询，wlc->加权最小连接，rr->不带权重的轮询，sh->源地址hash|
 |**onlineAddr**|String[]|False|||
 |**originAddr**|[OriginAddrItem[]](##OriginAddrItem)|False|||
 |**originDomain**|String|False||回源域名|
@@ -35,8 +35,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 ### <a name="OriginAddrItem">OriginAddrItem</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**inJdCloud**|Boolean|False||是否为京东云内公网IP地址|
-|**ip**|String|False||回源IP地址|
+|**inJdCloud**|Boolean|False||是否为京东云内公网ip|
+|**ip**|String|False||回源ip|
 |**weight**|Integer|False||权重|
 
 ## 返回参数

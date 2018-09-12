@@ -2,8 +2,8 @@
 
 
 ## 描述
-查询镜像的规格类型限制。<br>
-通过此接口可以查看镜像不支持的规格类型。只有官方镜像、第三方镜像有规格类型的限制，个人的私有镜像没有此限制。
+查询镜像的实例规格限制。<br>
+通过此接口可以查看镜像不支持的实例规格。只有官方镜像、第三方镜像有实例规格的限制，个人的私有镜像没有此限制。
 
 
 ## 请求方式
@@ -36,12 +36,12 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}/constraints
 |名称|类型|描述|
 |---|---|---|
 |**imageId**|String|镜像ID|
-|**imageInstanceTypeConstraint**|[ImageInstanceTypeConstraint](##ImageInstanceTypeConstraint)|镜像规格类型限制|
+|**imageInstanceTypeConstraint**|[ImageInstanceTypeConstraint](##ImageInstanceTypeConstraint)|使用镜像创建实例的规格限制|
 ### <a name="ImageInstanceTypeConstraint">ImageInstanceTypeConstraint</a>
 |名称|类型|描述|
 |---|---|---|
-|**constraintsType**|String|受限制的规格类型。excludes：排除指定的实例类型；includes：只包含指定的实例类型，暂不支持includes|
-|**instanceTypes**|String[]|规格类型列表|
+|**constraintsType**|String|限制类型。取值：excludes：不支持的实例类型；includes：支持的实例类型。|
+|**instanceTypes**|String[]|实例规格列表|
 
 ## 返回码
 |返回码|描述|
