@@ -4,7 +4,7 @@
   - name: 产品简介
     items:
       - name: 产品概述
-        herf: Introduction/What-Is-RDS.md
+        herf: Introduction/Product-Overview.md
       - name: 核心概念
         herf: Introduction/Core-Concepts.md
       - name: 基础架构
@@ -12,7 +12,7 @@
       - name: 产品优势
         herf: Introduction/Benefits.md
       - name: 产品规格
-        herf: Introduction/Specification.md
+        herf: Introduction/Specifications.md
       - name: 限制说明
         items:
         - name: MySQL 限制说明
@@ -272,7 +272,7 @@
   - name: 问题排查
     items:
     - name: 内存使用率
-      herf: Troubleshooting/Memory-Use-Rate.md.md
+      herf: Troubleshooting/Memory-Use-Rate.md
           
   - name: API参考
     herf:
