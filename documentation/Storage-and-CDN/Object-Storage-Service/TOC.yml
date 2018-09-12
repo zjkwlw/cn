@@ -112,7 +112,7 @@ href:
                 - name: 文字水印
                   href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
                 - name: 获取图片信息
-                  href: Operation-Guide/Image-Service-Guide/Obtein-Image-Information.md
+                  href: Operation-Guide/Image-Service-Guide/Obtain-Image-Information.md
                 - name: 人脸检测
                   href: Operation-Guide/Image-Service-Guide/Face-Recognition.md	
                 - name: 图片鉴黄
@@ -291,5 +291,4 @@ href:
       - name: 回调服务器设置签名认证
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
  - name: 常见问题
-   href:
-    status: 0
+   status: 0
