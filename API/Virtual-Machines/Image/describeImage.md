@@ -34,22 +34,22 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 ### <a name="Image">Image</a>
 |名称|类型|描述|
 |---|---|---|
-|**architecture**|String|镜像架构 i386, x86_64|
+|**architecture**|String|镜像架构。取值：i386,x86_64|
 |**createTime**|String|创建时间|
-|**dataDisks**|[InstanceDiskAttachment[]](##InstanceDiskAttachment)|打包镜像数据盘映射信息|
+|**dataDisks**|[InstanceDiskAttachment[]](##InstanceDiskAttachment)|镜像数据盘映射信息|
 |**desc**|String|镜像描述|
 |**imageId**|String|镜像ID|
-|**imageSource**|String|镜像来源 jcloud：官方镜像 marketplace：镜像市场镜像 self：用户自己的镜像 shared：其他用户分享的镜像|
+|**imageSource**|String|镜像来源。取值：jcloud：官方镜像；marketplace：镜像市场镜像；self：用户自己的镜像；shared：其他用户分享的镜像|
 |**name**|String|镜像名称|
-|**osType**|String|镜像的操作系统类型，[windows, linux]|
-|**osVersion**|String|操作系统版本号|
-|**platform**|String|操作系统发行版，[suse, debian, ubuntu, centos, windows-server]|
-|**progress**|String|镜像复制时的进度，单位为百分比，例如：80|
-|**rootDeviceType**|String|镜像支持的系统盘类型。localDisk：支持本地盘系统盘。cloudDisk：支持云盘系统盘|
-|**sizeMB**|Integer|镜像本身大小|
-|**snapshotId**|String|云硬盘做系统盘的快照id，创建云主机时，默认使用此快照创建系统盘|
+|**osType**|String|镜像的操作系统类型。取值：windows,linux|
+|**osVersion**|String|镜像的操作系统版本。|
+|**platform**|String|镜像的操作系统发行版。取值：Ubuntu,CentOS,Windows Server|
+|**progress**|String|镜像复制和转换时的进度，仅显示数值，单位为百分比|
+|**rootDeviceType**|String|镜像支持的系统盘类型。取值：localDisk：本地盘系统盘；cloudDisk：云盘系统盘。|
+|**sizeMB**|Integer|镜像文件实际大小|
+|**snapshotId**|String|创建云盘系统盘所使用的云硬盘快照ID。系统盘类型为本地盘的镜像，此参数为空。|
 |**status**|String|<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>|
-|**systemDisk**|[InstanceDiskAttachment](##InstanceDiskAttachment)|系统盘配置|
+|**systemDisk**|[InstanceDiskAttachment](##InstanceDiskAttachment)|镜像系统盘配置|
 |**systemDiskSizeGB**|Integer|镜像系统盘大小|
 ### <a name="InstanceDiskAttachment">InstanceDiskAttachment</a>
 |名称|类型|描述|
