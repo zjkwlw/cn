@@ -4,7 +4,7 @@ items:
 - name: 产品简介
   items:
   - name: 产品概述
-    href: Introduction/What-Is-JMR.md
+    href: Introduction/Product-Overview.md
   - name: 核心概念
     href: Introduction/Core-Concepts.md
   - name: 基础架构
@@ -58,7 +58,7 @@ items:
 - name: 问题排查
   items:
   - name: JMR问题排查说明
-    href: Troubleshooting/note.md
+    href: Troubleshooting/Instructions.md
 - name: 常见问题
   href: FAQ/FAQ.md
 - name: API参考

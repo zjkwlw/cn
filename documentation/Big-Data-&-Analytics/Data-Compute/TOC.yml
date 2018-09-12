@@ -4,9 +4,9 @@
   - name: 产品简介
     items:
       - name: 产品概述
-        href: Introduction/What-Is-Data-Computing-Service.md
+        href: Introduction/Product-Overview.md
       - name: 产品功能
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: 应用场景 
         href: Introduction/Application-Scenarios.md    
   - name: 产品定价
@@ -43,10 +43,13 @@
         href: FAQ/JDBC-Connection-FAQ.md
   - name: API参考
     href:
+    Status:0
   - name: SDK参考
     href:
+    Status:0
   - name: 相关资源
     items:
+    Status:0
   - name: 文档历史记录
     href: Related-Resources/Document-History.md     
   - name: 服务条款
