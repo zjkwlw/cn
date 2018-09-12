@@ -4,7 +4,7 @@
   - name: 产品简介
     items:
     - name: 产品概述
-      herf : Introduction/What-Is-Advanced-Anti-DDoS.md
+      herf : Introduction/Product-Overview.md
     - name : 核心概念
       herf: Introduction/Core-Concepts.md
     - name: 基础架构
@@ -12,7 +12,7 @@
     - name: 产品优势
       herf: Introduction/Benefits.md
     - name: 产品功能
-      herf: Introduction/Functions.md
+      herf: Introduction/Features.md
     - name: 产品规格
       herf: Introduction/Specification.md
     - name: 限制说明
@@ -66,11 +66,11 @@
   - name: 最佳实践
     items:
     - name: IP高防结合Web应用防火墙方案说明
-      herf: Best-Practices/Advanced-Anti-DDoS + WAF.md
+      herf: Best-Practices/Advanced-Anti-DDoS+WAF.md
     - name: 本地防护+高防方案说明
-      herf: Best-Practices/Local Basic-Anti-DDoS + Advanced-Anti-DDoS.md
+      herf: Best-Practices/Local-Anti-Basic-DDoS+Anti-DDoS.md
     - name: IP高防结合应用安全网关方案说明
-      herf: Best-Practices/Advanced-Anti-DDoS + Application Security Gateway.md
+      herf: Best-Practices/Scheme-Instructions 
   - name: 教程
     status: 0    
   - name: 常见问题
