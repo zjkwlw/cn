@@ -12,5 +12,5 @@ Kibana可视化分析：提供数据的多维度图表展示。</br>
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/站内搜索场景-02.png)
  
 ### 智能监控
-京东云搜索Elasticsearch集群内置Kibana插件对数据进行可视化展示，支持复杂的过滤和聚合统计功能，通过京东云监控帮助客户对各指标监控和报警，依靠Elasticsearch的地理空间分析找出发生问题的地理区域，以确定根本原因并解决问题。</br>
+京东云搜索Elasticsearch集群内置Kibana插件对数据进行可视化展示，支持复杂的过滤和聚合统计功能，通过京东云监控帮助客户对各指标监控和报警，以确定根本原因并解决问题。</br>
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/智能监控场景-03.png)
