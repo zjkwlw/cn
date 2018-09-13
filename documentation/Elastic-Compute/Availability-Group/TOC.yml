@@ -52,7 +52,7 @@
   - name: 最佳实践
     items:
     - name: 最佳配置
-      href: Best-Practices/Best-configuration -recommendation.md
+      href: Best-Practices/Best-configuration-recommendation.md
     - name: 配置开机自启动
       href: Best-Practices/Auto-Enable-Services-on-Startup.md
     - name: 设置固定出口IP
