@@ -69,8 +69,6 @@
         href: Operation-Guide/URL-Authentication.md        
       - name: 视频拖拽
         href: Operation-Guide/Video-drag.md  
-  - name: FAQ
-    href: FAQ/FAQ.md
   - name: API Reference
     items:
       - name: CDN OPEN API
@@ -159,4 +157,5 @@
             href: API-Refererce/Live-Video-Open-Api/Query-stream-data.md
           - name: 设置禁播
             href: API-Refererce/Live-Video-Open-Api/Set-forbid-stream.md
-      
+  - name: FAQ
+    href: FAQ/FAQ.md
