@@ -3,7 +3,7 @@
 - 请求行
 
 ```http
-GET {自定义url}/v1/messages HTTP/1.1
+GET {Http接入点}/v1/messages HTTP/1.1
 ```
 
 - Request Parameters
