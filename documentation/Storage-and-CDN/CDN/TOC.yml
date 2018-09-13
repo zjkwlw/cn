@@ -71,7 +71,7 @@
         href: Operation-Guide/Video-drag.md  
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: API
+  - name: API Reference
     items:
       - name: CDN OPEN API
         items:
