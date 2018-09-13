@@ -4,4 +4,4 @@
 
 ### Http Response Status Code
 
-[error code](../cn/API/Common-Declaration/Error-Codes.md)
+[error code](https://github.com/jdcloudcom/cn/blob/edit/API/Common-Declaration/Error-Codes.md)
