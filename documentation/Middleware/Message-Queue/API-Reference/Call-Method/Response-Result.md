@@ -4,4 +4,4 @@
 
 ### Http Response Status Code
 
-[error code](https://www.jdcloud.com/help/detail/355/isCatalog/0)
+[error code](../cn/API/Common-Declaration/Error-Codes.md)
