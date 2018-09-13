@@ -19,7 +19,7 @@
 
 	![ALB创建实例设置](../../../../image/Networking/ALB/ALB-067.png)
 
-1. 负载均衡类型选择应用负载均衡。
+1. 选择负载均衡类型为应用负载均衡。
 
       ![负载均衡类型设置](../../../../image/Networking/ALB/ALB-109.png)    
     
