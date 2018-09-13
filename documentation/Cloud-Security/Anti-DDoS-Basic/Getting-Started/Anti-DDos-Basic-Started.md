@@ -17,7 +17,7 @@
 **注意**：基础防护是默认开启的，无法关闭。
 
 # 相关参考
-- [什么是DDoS基础防护](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDos-Basic/Introduction/Product-Overview.md)
-- [功能特性](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDos-Basic/Introduction/Features.md)
-- [应用场景](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDos-Basic/Introduction/Application-Scenarios.md)
-- [基础架构](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDos-Basic/Introduction/Basic-Infrastructure.md)
+- [什么是DDoS基础防护](../Introduction/Product-Overview.md)
+- [功能特性](../Introduction/Features.md)
+- [应用场景](../Introduction/Application-Scenarios.md)
+- [基础架构](../Introduction/Basic-Infrastructure.md)
