@@ -110,15 +110,15 @@ items:
       - name: 视频处理指南
         items:                        
           - name: 概述
-            href:  Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
-          - name: 图片处理访问规则
+            href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
+          - name: 快速使用视频处理
             href: Operation-Guide/Video-Service-Guide/Getting-Started.md
           - name: 视频处理签名认证
             href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
-          - name: 创建视频转码
-            href:  Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md 
+          - name: 创建视频转码任务
+            href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md 
           - name: 获取视频任务列表
-            href:  Operation-Guide/Video-Service-Guide/Get-Video-Task.md 
+            href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md 
           - name: 查询视频任务
             href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
           - name: 删除视频任务
@@ -139,7 +139,6 @@ items:
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
              href: API-Reference-S3-Compatible/Compatibility-API/Post-Object.md        
-        
       - name: 扩展接口
         items:
            - name: Compress Object
@@ -203,7 +202,9 @@ items:
            - name: PutBucketReferer
              href: API-Reference/Bucket-Operations/PutBucketReferer.md 
            - name: GetBucketReferer
-             href: API-Reference/Bucket-Operations/GetBucketReferer.md              
+             href: API-Reference/Bucket-Operations/GetBucketReferer.md 
+           - name: DeleteBucket
+             href: API-Reference/Bucket-Operations/DeleteBucket.md             
       - name: 关于Object的操作
         items:
            - name: PutObject
@@ -263,7 +264,7 @@ items:
            - name: 移动文件
              href: SDK-Reference/Java-SDK/Move-Object.md
            - name: 授权访问
-             href:  SDK-Reference/Java-SDK/User-Signature-Authentication.md                          
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication.md                          
  - name: 最佳实践
    items:
       - name: 使用S3fs在Linux实例上挂载Bucket
