@@ -4,11 +4,11 @@
 
 登录服务商后台发布软件类服务：选择服务管理-->发布服务，选择软件类交付类型，选择完成后点击 “下一步，发布服务”
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B61.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B61.png)
 
 2. 编辑基本信息
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B62.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B62.png)
 
 
 2.1服务名称：请填写服务名称，此名称将在平台展示给客户
@@ -37,4 +37,4 @@
 
 3. 至此，服务已成功发布，进入服务审核流程。可在服务管理-->发布服务查看服务审核状态与修改。审核通过，则服务上线可销售。
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B63.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B63.png)
