@@ -4,12 +4,12 @@
 
 登录服务商后台发布下载类服务：选择服务管理-->发布服务，选择下载类交付类型，选择完成后点击 “下一步，发布服务”。
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E4%B8%8B%E8%BD%BD1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E4%B8%8B%E8%BD%BD1.png)
                                            
 
 2.编辑基本信息
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E4%B8%8B%E8%BD%BD2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E4%B8%8B%E8%BD%BD2.png)
 
 
  
@@ -36,4 +36,4 @@
 
 3. 至此，服务已成功发布，进入服务审核流程。可在服务管理-->发布服务查看服务审核状态与修改。审核通过，则服务上线可销售。
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E4%B8%8B%E8%BD%BD3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E4%B8%8B%E8%BD%BD3.png)
