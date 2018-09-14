@@ -24,7 +24,11 @@
       - name: 欠费说明
         href: Pricing/Arrears.md
   - name: 入门指南
-    href: Getting-Started/Getting-Started.md
+    items:
+      - name: 入门指南概述
+        href: Getting-Started/Getting-Started.md
+      - name: 开通CDN服务
+        href: Getting-Started/Open-CDN-service.md
   - name: 操作指南
     items:
       - name: 视频直播
