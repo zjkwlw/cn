@@ -4,7 +4,7 @@
 
 登录服务商后台发布镜像类服务：选择服务管理-->发布服务，选择镜像类交付类型。选择完成后点击 “下一步，发布服务”。
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F1.png)
+![image]https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F1.png)
 
 2.镜像制作与审核
 
@@ -20,11 +20,11 @@
 
 请填写拥有的镜像ID，点击‘检索’，系统会检测您输入的ID是否正确并获取该ID的名称、操作系统、系统版本，请确认检索结果的准确性。
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F2.png)
 
 4.填写基本信息
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F3.png)
 
 
 4.1服务名称：请填写服务名称，此名称将在平台展示给客户
@@ -49,4 +49,4 @@
 
 5. 至此，服务成功发布，进入服务审核流程。可在服务管理-->发布服务查看服务审核状态与修改。审核通过，则服务上线可销售。
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F4.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F4.png)
