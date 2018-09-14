@@ -79,10 +79,6 @@
       href: Best-Practices/AG-as-backend-server.md
     - name: 公网负载均衡和私网负载均衡转换
       href: Best-Practices/Switch-between-Internal-and-External-ALB.md
-  - name: 问题排查
-    items:
-    - name: 负载均衡业务接入失败
-      href: Troubleshooting/Access-ALB-Service-Failed.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
