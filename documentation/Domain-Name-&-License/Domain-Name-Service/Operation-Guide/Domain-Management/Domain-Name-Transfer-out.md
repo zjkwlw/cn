@@ -1,6 +1,6 @@
 # 域名转出
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/zhuanchu1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/zhuanchu1.png)
 
 用户在域名管理界面，点击域名转出后，勾选服务协议后申请域名转出，系统会将域名转移密码发送至相应邮箱中。
 
