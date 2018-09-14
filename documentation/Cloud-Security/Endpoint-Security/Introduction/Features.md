@@ -2,7 +2,7 @@
 
 ###  主机安全功能
 
-![img](file:///C:\Users\ZHANGZ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![img](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/01-intr-functions.png?raw=true)
 
 #### 防暴力破解
 
