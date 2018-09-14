@@ -4,7 +4,7 @@ items:
  - name: 产品简介
    items:
       - name: OSS概述
-        href: Introduction/Product-Overview.md.md
+        href: Introduction/Product-Overview.md
       - name: 核心概念
         href: Introduction/Core-Concepts.md
       - name: 产品功能
@@ -22,7 +22,7 @@ items:
       - name: 价格总览
         href: Pricing/Price-Overview.md
       - name: 查看账单
-        href: Pricing/Check-Bill.md name
+        href: Pricing/Check-Bill.md
  - name: 入门指南
    items:
       - name: 开通服务
@@ -82,7 +82,7 @@ items:
           - name: 介绍
             href: Operation-Guide/Image-Service-Guide/Introduction.md
           - name: 图片处理访问规则
-            href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.
+            href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
           - name: 快速使用图片服务
             href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
           - name: 图片缩放
