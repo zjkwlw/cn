@@ -4,7 +4,7 @@
 
 登录服务商后台发布镜像类服务：选择服务管理-->发布服务，选择镜像类交付类型。选择完成后点击 “下一步，发布服务”。
 
-![image]https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F1.png)
 
 2.镜像制作与审核
 
