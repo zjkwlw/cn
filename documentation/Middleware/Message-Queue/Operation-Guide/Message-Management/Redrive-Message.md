@@ -17,7 +17,7 @@
 
 ### 2. 重新发送和全部删除
 ![死信队列2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/死信队列-02.png)  
-对于死信可以选择全部重新发送或者全部删除  
+对于死信可以选择全部重新发送或者全部删除
 - 全部重新发送，死信将再次进入topic发送给这条订阅关系的订阅者
 - 全部删除，死信将全部删除，不再发送  
 
