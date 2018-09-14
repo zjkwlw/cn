@@ -4,7 +4,7 @@ items:
  - name: 产品简介
    items:
       - name: OSS概述
-        href: Introduction/Product-Overview.md
+        href: Introduction/Product-Overview.md.md
       - name: 核心概念
         href: Introduction/Core-Concepts.md
       - name: 产品功能
@@ -22,7 +22,7 @@ items:
       - name: 价格总览
         href: Pricing/Price-Overview.md
       - name: 查看账单
-        href: Pricing/Check-Bill.md
+        href: Pricing/Check-Bill.md name
  - name: 入门指南
    items:
       - name: 开通服务
@@ -150,8 +150,6 @@ items:
         items:
            - name: 概述
              href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction.md
-           - name:  SDK-Python
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
            - name: SDK-Java
@@ -162,7 +160,7 @@ items:
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
            - name: SDK-iOS
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md
-           - name: CloudBerry.md
+           - name: CloudBerry
              href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry.md                
  - name: 旧版API
    items:
@@ -185,46 +183,55 @@ items:
            - name: 通用请求头
              href: API-Reference/HTTP-Header/Request-Headers.md
            - name: 公共响应头
-             href: API-Reference/Introduction/Response-Headers.md        
-           - name: 文件管理
-           - name: 访问控制
-             items:
-                - name: 在Header中包含签名
-                  href: API-Reference/Access-Control/Signature-In-Header.md
-                - name: 在URL中包含签名
-                  href:  API-Reference/Access-Control/Signature-In-URL.md
-           - name: 关于Service的操作
-             items:
-                - name: 在Header中包含签名
-                  href: API-Reference/Service-Operations/GetService.md  
-           - name: 关于Object的操作
-             items:
-                - name: GetService
-                  href: API-Reference/API-Reference/Object-Operations/GetObject.md
-                - name: PutService
-                  href: API-Reference/Service-Operations/PutService.md
-                - name: DeleteService
-                  href: API-Reference/Service-Operations/DeleteService.md  
-           - name: 关于MultipartUpload的操作
-             items:
-               - name: InitiateMultipartUpload
-                 href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
-               - name: UploadPart
-                 href: API-Reference/MultipartUpload-Operations/UploadPart.md
-               - name: CompleteMultipartUpload
-                 href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
-               - name: ListMultipartUploads
-                 href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
-               - name: AbortMultipartUpload
-                 href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
-               - name: ListParts
-                 href: API-Reference/MultipartUpload-Operations/ListParts.md
-           - name: 错误响应
-             items:
-               - name: 错误响应列表
-                 href: API-Reference/Response-To-Errors/Error-List.md
-               - name: 错误响应结构
-                 href: API-Reference/Response-To-Errors/Response-Structure.md
+             href: API-Reference/Introduction/Response-Headers.md
+      - name: 访问控制
+        items:             
+           - name: 在Header中包含签名
+             href: API-Reference/Access-Control/Signature-In-Header.md
+           - name: 在URL中包含签名
+             href:  API-Reference/Access-Control/Signature-In-URL.md
+      - name: 关于Service的操作
+        items:
+           - name: GetService
+             href: API-Reference/Service-Operations/GetService.md
+      - name: 关于Bucket的操作
+        items:
+           - name: PutBucket
+             href: API-Reference/Bucket-Operations/PutBucket.md
+           - name: GetBucket
+             href: API-Reference/Bucket-Operations/GetBucket.md             
+           - name: PutBucketReferer
+             href: API-Reference/Bucket-Operations/PutBucketReferer.md 
+           - name: GetBucketReferer
+             href: API-Reference/Bucket-Operations/GetBucketReferer.md              
+      - name: 关于Object的操作
+        items:
+           - name: PutObject
+             href: API-Reference/Object-Operations/PutObject.md
+           - name: GetObject
+             href: API-Reference/Object-Operations/GetObject.md
+           - name: DeleteObject
+             href: API-Reference/Object-Operations/DeleteObject.md
+      - name: 关于MultipartUpload的操作
+        items:
+          - name: InitiateMultipartUpload
+            href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
+          - name: UploadPart
+            href: API-Reference/MultipartUpload-Operations/UploadPart.md
+          - name: CompleteMultipartUpload
+            href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
+          - name: ListMultipartUploads
+            href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
+          - name: AbortMultipartUpload
+            href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
+          - name: ListParts
+            href: API-Reference/MultipartUpload-Operations/ListParts.md
+      - name: 错误响应
+        items:
+          - name: 错误响应列表
+            href: API-Reference/Response-To-Errors/Error-List.md
+          - name: 错误响应结构
+            href: API-Reference/Response-To-Errors/Response-Structure.md
  - name: 旧版SDK
    items:
       - name: Java SDK
@@ -256,8 +263,7 @@ items:
            - name: 移动文件
              href: SDK-Reference/Java-SDK/Move-Object.md
            - name: 授权访问
-             href:  SDK-Reference/Java-SDK/User-Signature-Authentication.md             
-           - name: 文件管理                  
+             href:  SDK-Reference/Java-SDK/User-Signature-Authentication.md                          
  - name: 最佳实践
    items:
       - name: 使用S3fs在Linux实例上挂载Bucket
