@@ -104,7 +104,7 @@ items:
           - name: 图片鉴黄
             href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md  
           - name: 图片原图保护
-            href:  Operation-Guide/Image-Service-Guide/Source-Image-Protection.md
+            href: Operation-Guide/Image-Service-Guide/Source-Image-Protection.md
           - name: 错误响应
             href: Operation-Guide/Image-Service-Guide/Response-To-Errors.md
       - name: 视频处理指南
@@ -132,7 +132,7 @@ items:
       - name: 兼容签名认证
         href: API-Reference-S3-Compatible/User-Signature-Authentication.md  
       - name: 兼容公共头
-        href:  API-Reference-S3-Compatible/Compatibility-Header.md      
+        href: API-Reference-S3-Compatible/Compatibility-Header.md      
       - name: 兼容接口
         items:
            - name: 兼容接口概览
@@ -142,7 +142,7 @@ items:
         
       - name: 扩展接口
         items:
-           - name:  Compress Object
+           - name: Compress Object
              href: API-Reference-S3-Compatible/Extension-API/Compress-Object.md
            - name: ImgProtected
              href: API-Reference-S3-Compatible/Extension-API/ImgProtected.md
@@ -166,18 +166,18 @@ items:
    items:
       - name: 
         href: Operation-Guide/Overview-Page.md
-      - name:  OSS API 简介
+      - name: OSS API 简介
         items:
            - name: 基本概念
-             href:  API-Reference/Introduction/Basic-Concepts.md
+             href: API-Reference/Introduction/Basic-Concepts.md
            - name: 强一致性
              href: API-Reference/Introduction/Strong-Consistency.md
            - name: OSS与文件系统的对比
              href: API-Reference/Introduction/OSS-Compared-With-File-System.md 
-           - name:  OSS术语表
+           - name: OSS术语表
              href: API-Reference/Introduction/OSS-Concepts.md 
       - name: API 概览
-        href:  API-Reference/API-Overview.md
+        href: API-Reference/API-Overview.md
       - name: 通用HTTP头定义
         items:
            - name: 通用请求头
@@ -189,7 +189,7 @@ items:
            - name: 在Header中包含签名
              href: API-Reference/Access-Control/Signature-In-Header.md
            - name: 在URL中包含签名
-             href:  API-Reference/Access-Control/Signature-In-URL.md
+             href: API-Reference/Access-Control/Signature-In-URL.md
       - name: 关于Service的操作
         items:
            - name: GetService
@@ -269,13 +269,15 @@ items:
       - name: 使用S3fs在Linux实例上挂载Bucket
         href: Best-Practices/S3fs.md
       - name: Bucket Policy
-        href: Best-Practices/Anti-leech.md 
+        href: Best-Practices/Bucket-Policy.md
+      - name: 防盗链
+        href: Best-Practices/Anti-leech.md         
       - name: 使用CloudBerry管理OSS
         href: Best-Practices/CloudBerry.md 
       - name: 生成预签名URL
         href: Best-Practices/Signature-In-URL.md
       - name: 跨域访问
-        href:  Best-Practices/CORS.md
+        href: Best-Practices/CORS.md
       - name: 数据迁移工具 
         href: Best-Practices/Data-Migration-Tool.md 
       - name: 使用S3cmd管理OSS
