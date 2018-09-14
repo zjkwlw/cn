@@ -33,9 +33,9 @@
 4.         CSP制作的所有市场推广活动的公关文稿、视频资料等任何形式公关传播素材，均需要经过京东云市场部审核确认后，方能对外发出。
 
 四、活动申请流程及资料提交
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/1.png)
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/2.png)
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/3.png)
 
