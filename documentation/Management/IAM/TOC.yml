@@ -30,5 +30,5 @@
       - name: 第三方应用程序安装及使用指导
         href: Virtual-MFA-Management/Third-Party-Apps.md
       - name: MFA 登录验证常见问题
-        href: Virtual-MFA-Management/FAQs.md
+        href: Virtual-MFA-Management/MFA-FAQs.md
         
