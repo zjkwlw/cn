@@ -14,24 +14,6 @@
 * 空闲连接超时：负载均衡支持基于TCP/HTTP/HTTPS协议的空闲连接超时。
 * 源IP透传：负载均衡支持基于TCP/HTTP/HTTPS协议的客户端IP透传功能。
 
-## 常用操作
-
-- 快速上手
-	- [创建实例](../Getting-Started/Create-Instance.md)
-	- [设置白名单](../Getting-Started/Set-Whitelist.md)
-	- [连接实例](../Getting-Started/Connect-Instance.md)
-- 数据迁移
-	- [将数据导入到云](../Getting-Started/Import-Data.md)
-	- [从云导出数据](../Getting-Started/Export-Data.md)
-- 扩容升级
-	- [变更实例规格](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- 备份与恢复
-	- [设置自动备份策略](../Operation-Guide/Backup/Modify-Backup-Policy.md)
-	- [手动创建备份](../Operation-Guide/Backup/Create-Backup.md)
-	- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
-- 运维管理
-	- [查看监控信息](../Operation-Guide/Monitoring/Monitoring.md)
-	- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## 计费
 目前使用负载均衡产品不收费，如绑定了公网IP资源，需单独支付公网IP费用，详见[公网IP价格](https://www.jdcloud.com/help/detail/1579/isCatalog/1)。
