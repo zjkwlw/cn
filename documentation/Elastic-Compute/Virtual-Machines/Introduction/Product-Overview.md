@@ -10,7 +10,7 @@
 * 您可以使用负载均衡将业务流量自动分发至多个后端实例。详细信息请参见[负载均衡产品文档](../../../Networking/Load-Balancer/Introduction/Product-Overview.md)。
 * 您可以使用云监控对您实例、存储、网络进行实时监控并设置异常报警。详细信息请参见[云监控产品文档](../../../Management/Monitoring/Introduction/Product-Overview.md)。
 * 您可以使用容器服务管理部署在一组云主机的应用生命周期。详细信息请参见[容器服务产品文档](../../Native-Container/Introduction/Product-Overview.md)。
-* 您可以使用云主机搭建数据库服务，也可以使用京东云云数据库服务。详细信息请参见[云数据库](../../Database-and-Cache-Service/RDS/Introduction/Product-Overview.md)。
+* 您可以使用云主机搭建数据库服务，也可以使用京东云云数据库服务。详细信息请参见[云数据库](../../../Database-and-Cache-Service/RDS/Introduction/Product-Overview.md)。
 * 您可以编写代码调用京东云OpenAPI服务访问京东云的产品和服务。详细信息请参见[OpenAPI](https://github.com/jdcloudcom/cn/blob/edit/API/Virtual-Machines/overview.md)。
 
 ## 使用云主机
