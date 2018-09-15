@@ -130,7 +130,7 @@ items:
       - name: 服务器域名
         href: API-Reference-S3-Compatible/Regions-And-Endpoints.md
       - name: 兼容签名认证
-        href: API-Reference-S3-Compatible/User-Signature-Authentication.md  
+        href: API-Reference-S3-Compatible/User-Signature-Authentication-s3.md  
       - name: 兼容公共头
         href: API-Reference-S3-Compatible/Compatibility-Header.md      
       - name: 兼容接口
