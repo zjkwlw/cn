@@ -29,7 +29,7 @@ items:
         href:  Operation-Guide/Video-Snapshot.md
       - name: 回调设置
         href: Operation-Guide/Callback.md      
- - name: API参考
+ - name: 相关资源
    items:
       - name: 视频处理签名认证
         href: Video-Transcoding-API/User-Signature-Authentication.md  
