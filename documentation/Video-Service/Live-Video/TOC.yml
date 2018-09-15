@@ -1,5 +1,6 @@
-- name: 视频直播
-  href: 
+name: 视频直播
+href:
+items:
 - name: 产品简介
   items:
     - name: 产品概述
@@ -18,7 +19,7 @@
       href: Introduction/Application-Scenarios.md    
 - name: 产品定价
   items:
-    - name: 计费概述
+    - name: W计费概述
       href: Pricing/Billing-Overview.md
     - name: 计费规则
       href: Pricing/Billing-Rules.md
@@ -77,10 +78,6 @@
       href: Troubleshooting/Push-connection-failed.md  
 - name: 常见问题
   href: FAQ/FAQ.md
-- name: API参考
-  href:
-- name: SDK参考
-  href:
 - name: 相关资源
   items:
     - name: 文档历史记录
