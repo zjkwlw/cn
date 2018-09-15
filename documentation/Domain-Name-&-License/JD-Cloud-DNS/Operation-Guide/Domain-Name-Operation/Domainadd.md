@@ -4,9 +4,7 @@
 
   1、登录京东云控制台，找到云解析-域名解析，点击添加域名按钮。
 
-  ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
-
-   
+    
 
   添加域名规则：
 
