@@ -71,7 +71,7 @@
             href: Operation-Guide/Living-video/Create-living-domain.md
           - name: 禁播
             href: Operation-Guide/Living-video/Forbidden-Stream.md
-  - name: API Reference
+  - name: API 参考
     items:
       - name: CDN OPEN API
         items:
