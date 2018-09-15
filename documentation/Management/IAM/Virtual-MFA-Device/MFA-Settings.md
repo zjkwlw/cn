@@ -3,8 +3,8 @@
 主账户为自己绑定虚拟MFA设备的流程如下：
 
 选择 账户管理 > 虚拟MFA设备 > 启用， 短信验证后，弹出MFA启用页面。
-<div> <img align=center src= https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/%E4%B8%BA%E4%B8%BB%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%99%9A%E6%8B%9FMFA%E8%AE%BE%E5%A4%87.png>
-</div>
+![]( https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/%E4%B8%BA%E4%B8%BB%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%99%9A%E6%8B%9FMFA%E8%AE%BE%E5%A4%87.png)
+
 
 ## 主账号为子账号绑定虚拟MFA设备
 主账号为IAM子账号绑定虚拟MFA设备的流程如下：
