@@ -22,7 +22,7 @@
   - name: 操作指南
     items:
     - name: 添加网站
-      href: Operation-Guide/Capped-Collections.md
+      href: Operation-Guide/Add-Web.md
     - name: 接入域名
       href: Operation-Guide/MongoDB-Profile.md
     - name: 修改域名
