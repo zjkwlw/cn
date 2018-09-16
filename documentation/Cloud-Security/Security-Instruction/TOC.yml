@@ -10,6 +10,6 @@
   - name: 安全最佳实践
     items:
       - name: 僵尸主机的隔离防护和安全建议
-        href: Isolation-Protection-And-Security-Recommendations-For-Botnets.md
+        href: Security-Best-Practice/Isolation-Protection-And-Security-Recommendations-For-Botnets.md
       - name: 云主机公网TCP 25 端口出方向被限制？
         href: Security-Best-Practice/Why-Is-Port-25-Of-SMTP-Service-Unavailable.md
