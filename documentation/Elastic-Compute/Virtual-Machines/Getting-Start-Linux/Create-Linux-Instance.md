@@ -75,7 +75,7 @@
 
 [设备名分配规则](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md)
 
-[云硬盘价格]
+[云硬盘价格](../../Cloud-Disk-Service/Pricing/Price-Overview.md)
 
 [私有网络](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md)
 
@@ -87,20 +87,3 @@
 
 [SSH密钥](../Operation-Guide/Key-Pair/Overview.md)
 
-
-  [1]: https://cns-console.jdcloud.com/host/compute/list
-  [2]: ./images/Getting-Start-Linux-Create-billing.png "Getting-Start-Linux-Create-billing.png"
-  [3]: ../../../../image/vm/Getting-Start-Linux-Create-Region&AZ.png
-  [4]: ./images/Getting-Start-Linux-Create-billing.png "Getting-Start-Linux-Create-billing.png"
-  [5]: https://cns-console.jdcloud.com/host/compute/list
-  [6]: ./images/Getting-Start-Linux-Create-Region&AZ.png "Getting-Start-Linux-Create-Region&AZ.png"
-  [7]: ./images/Getting-Start-Linux-Create-method.png "Getting-Start-Linux-Create-method.png"
-  [8]: ./images/Getting-Start-Linux-Create-image.png "Getting-Start-Linux-Create-image.png"
-  [9]: ./images/Getting-Start-Linux-Create-type.png "Getting-Start-Linux-Create-type.png"
-  [10]: ./images/Getting-Start-Linux-Create-disk.png "Getting-Start-Linux-Create-disk.png"
-  [11]: ./images/Getting-Start-Linux-Create-network.png "Getting-Start-Linux-Create-network.png"
-  [12]: ./images/Getting-Start-Linux-Create-IP.png "Getting-Start-Linux-Create-IP.png"
-  [13]: ./images/Getting-Start-Linux-Create-information.png "Getting-Start-Linux-Create-information.png"
-  [14]: ./images/Getting-Start-Linux-Create-login.png "Getting-Start-Linux-Create-login.png"
-  [15]: https://cns-console.jdcloud.com/host/compute/list
-  [16]: https://cns-console.jdcloud.com/host/compute/list
