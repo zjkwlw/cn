@@ -10,6 +10,6 @@
 
   3、点击操作下的删除按钮 
 
-  ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/delete-record.png)
 
   4、点击确认后会将该条解析记录删除。
