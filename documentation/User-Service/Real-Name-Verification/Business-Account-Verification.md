@@ -11,7 +11,7 @@
  （1）执照为18位统一社会信用代码，请选择统一社会信用代码入口进行认证；
  （2）执照为三证合一，请选择多证合一（无独立的组织机构代码和税务登记证）入口进行认证；
  （3）执照为普通执照，请选择普通营业执照（存在独立的组织机构代码和税负登记证）入口进行认证。
- <div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E9%80%89%E6%8B%A9%E4%BC%81%E4%B8%9A%E7%B1%BB%E5%9E%8B.png"></div>
+![](../../../image/User/Real%20name%20verification/Business%20account%20verification/%E9%80%89%E6%8B%A9%E4%BC%81%E4%B8%9A%E7%B1%BB%E5%9E%8B.png)
 
  3. 提交证件信息
 
