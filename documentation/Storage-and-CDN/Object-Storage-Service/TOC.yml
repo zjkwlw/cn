@@ -163,8 +163,6 @@ items:
              href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry.md                
  - name: 旧版API
    items:
-      - name: 
-        href: Operation-Guide/Overview-Page.md
       - name: OSS API 简介
         items:
            - name: 基本概念
