@@ -58,7 +58,7 @@
     - name: 泛解析
       href: FAQ/Domai-Overflowing.md       
     - name: 域名生效原理
-      href: FAQ/Authentication.md    
+      href: FAQ/Domain-Effect.md   
     - name: 显性URL和隐性URL
       href: FAQ/Dominance.md    
     - name: 反向解析
