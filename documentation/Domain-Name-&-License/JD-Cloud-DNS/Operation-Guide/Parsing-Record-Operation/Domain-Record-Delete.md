@@ -8,7 +8,7 @@
 
   2、选择您要操作的域名，点击解析，进入到“域名解析控制台”
 
-  3、点击操作下的删除按钮
+  3、点击操作下的删除按钮 
 
   ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
 
