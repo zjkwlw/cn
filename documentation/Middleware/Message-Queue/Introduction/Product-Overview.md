@@ -6,7 +6,7 @@
 
 - 快速上手
 	- [创建资源](../Getting-Started/Create-Resource.md)
-	- [生产和消费消息](../Getting-Started/Produce-And-Consumer-Message.md)
+	- [生产和消费消息](../Getting-Started/Produce-And-Consume-Message.md)
 - 主题管理
 	- [创建Topic](../Operation-Guide/Topic-Management/Create-Topic.md)
 	- [订阅Topic](../Operation-Guide/Topic-Management/Subscribe.md)
