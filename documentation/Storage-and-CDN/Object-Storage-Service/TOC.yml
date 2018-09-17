@@ -74,7 +74,7 @@ items:
           - name: 删除文件
             href: Operation-Guide/Manage-Object/Delete-Object.md
           - name: 表单上传
-            href: Operation-Guide/Manage-Object/Post-Object.md                  
+            href: Operation-Guide/Manage-Object/Post-Object-1.md                  
           - name: 用量监控
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
       - name: 图片处理指南
@@ -138,7 +138,7 @@ items:
            - name: 兼容接口概览
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object.md        
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md        
       - name: 扩展接口
         items:
            - name: Compress Object
