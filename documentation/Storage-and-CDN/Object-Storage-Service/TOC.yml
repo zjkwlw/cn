@@ -42,7 +42,7 @@ items:
       - name: 开通服务
         href: Operation-Guide/Sign-Up-Service-2.md
       - name: 对象存储概览页
-        href: Operation-Guide/Overview-Pag-2.md
+        href: Operation-Guide/Overview-Page-2.md
       - name: 存储空间管理
         items:
            - name: 空间概览
@@ -84,7 +84,7 @@ items:
           - name: 图片处理访问规则
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
           - name: 快速使用图片服务
-            href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
+            href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md  
           - name: 图片缩放
             href: peration-Guide/Image-Service-Guide/Resize-Images.md
           - name: 图片旋转
@@ -112,7 +112,7 @@ items:
           - name: 概述
             href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
           - name: 快速使用视频处理
-            href: Operation-Guide/Video-Service-Guide/Getting-Started.md
+            href: Operation-Guide/Video-Service-Guide/Getting-Started-2.md
           - name: 视频处理签名认证
             href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
           - name: 创建视频转码任务
