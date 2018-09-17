@@ -15,6 +15,7 @@ items:
       herf: Introduction/Functions.md
     - name: 产品规格
       herf: Introduction/Specification.md
+      status: 0 
     - name: 限制说明
       herf: Introduction/Restrictions.md
     - name: 应用场景 
