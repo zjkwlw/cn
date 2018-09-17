@@ -19,13 +19,13 @@
 ![高安全性场景](../../../../image/Networking/ALB/ALB-005.png)
 
 ## 客户真实IP溯源场景
-支持HTTP/HTTPS监听协议下，通过X-Forwarded-For字段传递源IP信息，服务器识别X-Forwarded-For提取客户真实IP地址。也支持TCP监听协议下，通过proxy protocol v1协议支持传递客户真实IP。便于分析客户来源、统计运维数据和实现黑白名单访问控制等。
+支持HTTP/HTTPS监听协议下，通过X-Forwarded-For字段传递源IP信息，服务器识别X-Forwarded-For提取客户真实IP地址。也支持TCP/TLS监听协议下，通过proxy protocol v1协议支持传递客户真实IP。便于分析客户来源、统计运维数据和实现黑白名单访问控制等。
 
 HTTP/HTTPS监听：
 
 ![IP溯源HTTP场景](../../../../image/Networking/ALB/ALB-007.png)
 
-TCP监听：
+TCP/TLS监听：
 
 ![IP溯源TCP场景](../../../../image/Networking/ALB/ALB-004.png)
 
