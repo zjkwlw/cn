@@ -80,7 +80,7 @@ items:
       - name: 图片处理指南
         items:            
           - name: 介绍
-            href: Operation-Guide/Image-Service-Guide/Introduction.md
+            href: Operation-Guide/Image-Service-Guide/Introduction-1.md
           - name: 图片处理访问规则
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
           - name: 快速使用图片服务
@@ -126,7 +126,7 @@ items:
  - name:  新版API（兼容S3）
    items:
       - name: 概述
-        href: API-Reference-S3-Compatible/Introduction.md
+        href: API-Reference-S3-Compatible/Introduction-2.md
       - name: 服务器域名
         href: API-Reference-S3-Compatible/Regions-And-Endpoints.md
       - name: 兼容签名认证
@@ -148,7 +148,7 @@ items:
       - name: 兼容工具
         items:
            - name: 概述
-             href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction.md
+             href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
            - name: SDK-Java
