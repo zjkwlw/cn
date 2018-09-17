@@ -13,14 +13,14 @@ A.进入域名解析设置页
 
 - 京东云【控制台】，进入域名管理列表，后选择要操作的域名点击解析操作，直接进入解析操作页面
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi1.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi1.jpg)
 
 - 点击【添加解析】，选择记录类型为 A 记录；主机记录为空，或填写 www；记录值填写您之前获取的主机 IP 地址；解析线路，TTL 默认即可。点击保存，即可完成域名解析设置。
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi2.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi2.jpg)
 
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi3.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi3.jpg)
 
 B.DNS 检查
 

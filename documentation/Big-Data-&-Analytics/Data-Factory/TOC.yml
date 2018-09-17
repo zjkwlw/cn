@@ -4,15 +4,15 @@ items:
 - name: 产品简介
   items:
     - name: 产品概述
-      href: Introduction/What-Is-Data-Factory.md
+      href: Introduction/Product-Overview.md
     - name: 核心概念
       href: Introduction/Core-Concepts.md
     - name: 核心功能
-      href: Introduction/Functions.md
+      href: Introduction/Features.md
 - name: 产品定价
   items:
     - name: 计费概述
-      href: Pricing/Overview.md
+      href: Pricing/Billing-Overview.md
 - name: 入门指南
   items:
     - name: 概述

@@ -4,15 +4,15 @@
   - name: 产品简介
     items:
       - name: 产品概述
-        herf: Introduction/What-Is-Domain-Name.md
+        herf: Introduction/Product-Overview.md
       - name: 核心概念
         herf: Introduction/Core-Concepts.md
       - name: 产品优势
-        herf: Introduction/Product-Advantage.md
+        herf: Introduction/Benefits.md
       - name: 产品功能
-        herf: Introduction/Product-Functions.md
+        herf: Introduction/Features.md
       - name: 产品规格
-        herf: Introduction/Product-Specifications.md
+        herf: Introduction/Specifications.md
       - name: 应用场景
         herf: Introduction/Application-Scenario.md 
   - name: 入门指南

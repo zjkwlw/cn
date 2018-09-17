@@ -1,27 +1,27 @@
 ﻿
-  name: Kuberenetes 集群
+  name: Kubernetes 集群
   href: 
   items:
   - name: 产品简介
     items:
-      - name: Kubernetes集群概述
-        href: Introduction/What-Is-KubernetesCluster.md
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
       - name: 核心概念
         href: Introduction/Core-Concepts.md
       - name: 产品优势
-        href: Introduction/Advantages.md
+        href: Introduction/Benefits.md
       - name: 产品功能
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: 产品规格
-        href: Introduction/Instance-Type-Family.md
+        href: Introduction/Specifications.md
       - name: 限制说明
-        href: Introduction/Limits.md
+        href: Introduction/Restrictions.md
       - name: 应用场景 
-        href: Introduction/Scenarios.md    
+        href: Introduction/Application-Scenarios.md    
   - name: 产品定价
     items:
       - name: 计费概述
-        href: Pricing/Overview.md
+        href: Pricing/Billing-Overview.md
       - name: 购买流程
         href: Pricing/Purchase-Process.md
   - name: 入门指南
@@ -35,7 +35,7 @@
       - name: 集群
         items:
           - name: 集群概述
-            href: Operation-Guide/Cluster//Overview.md
+            href: Operation-Guide/Cluster/Overview.md
           - name: 创建集群
             href: Operation-Guide/Cluster/Create-Cluster.md
           - name: 连接集群

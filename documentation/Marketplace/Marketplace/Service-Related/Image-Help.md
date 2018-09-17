@@ -38,12 +38,12 @@ b）通过云市场，选择需要的镜像，查看镜像详情，选择立即�
 
 1、进入重置系统页面
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A91.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A91.png)
 
 
 2、从镜像市场选择对应镜像
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A92.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A92.png)
 3、选取好对应镜像后，点击确认变更
 
 镜像与ECS实例的关系？

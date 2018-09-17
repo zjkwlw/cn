@@ -2,10 +2,10 @@
 
  
 
-主账号用户名和密码登录后，在该页面输入账号绑定虚拟MFA设备生成的动态验证码。登录问题请查看链接：[MFA登录验证常见问题](https://www.jdcloud.com/help/detail/3504/isCatalog/1)
+主账号用户名和密码登录后，在该页面输入账号绑定虚拟MFA设备生成的动态验证码。登录问题请查看链接：[MFA登录验证常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management/IAM/Virtual-MFA-Device/MFA-FAQs.md)
 
-<div><img align=center src=https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/MFA%E7%99%BB%E9%99%86%E9%AA%8C%E8%AF%811.png></div>
+![](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/MFA%E7%99%BB%E9%99%86%E9%AA%8C%E8%AF%811.png)
 
-子账号用户名和密码登录后，在该页面输入账号绑定虚拟MFA设备生成的动态验证码。登录问题请查看链接：[MFA登录验证常见问题](https://www.jdcloud.com/help/detail/3504/isCatalog/1)
+子账号用户名和密码登录后，在该页面输入账号绑定虚拟MFA设备生成的动态验证码。登录问题请查看链接：[MFA登录验证常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management/IAM/Virtual-MFA-Device/MFA-FAQs.md)
 
-<div><img align=center src=https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/MFA%E7%99%BB%E5%BD%95%E9%AA%8C%E8%AF%812.png></div>
+![](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/MFA%E7%99%BB%E5%BD%95%E9%AA%8C%E8%AF%812.png)

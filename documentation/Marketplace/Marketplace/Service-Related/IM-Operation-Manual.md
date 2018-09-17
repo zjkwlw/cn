@@ -2,16 +2,16 @@
 
 1.已入驻完成的服务商，服务商（京东账号）登录咚咚系统（http://kf.jd.com），获取咨询组id。路径：服务商管理-咨询组管理-创建咨询组id，创建完成将此id复制
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%92%9A%E5%92%9A1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E5%92%9A%E5%92%9A1.png)
 2.【可选】服务商（京东账号）登录咚咚系统（http://kf.jd.com），
 
 服务商管理-客服总览，点击新增客服
 
 在客服id处 填写想新增客服的pin 即可
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%92%9A%E5%92%9A2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E5%92%9A%E5%92%9A2.png)
 
 3.服务商登录云市场服务商后台，将此id粘贴到服务商基本信息-咨询组id字段，并提交
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E5%92%9A%E5%92%9A3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E5%92%9A%E5%92%9A3.png)
 
 咚咚工作台下载地址：http://im.jd.com/download/pcDownload.action
 
