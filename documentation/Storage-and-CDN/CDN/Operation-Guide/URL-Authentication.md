@@ -1,4 +1,4 @@
-**URL鉴权说明**
+# URL鉴权说明
 
 京东云CDN 支持参数鉴权，用户可以根据自己的业务情况，选择合适的鉴权方式，来实现对源站资源的有效保护。（目前直播只有参数鉴权）
 
@@ -33,23 +33,23 @@ signature =md5sum("**uri-expire-uniqid-rand-private_key**")
 
 **1.4**   **示例说明**
 
-1.     通过请求对象:
++ 通过请求对象:
 
 https://cdn.example.com/video/standard/1K.html?fa=121&jd=121
 
-2. 密钥设为：jdcloud1234 **(由用户自行设置)**
++ 密钥设为：jdcloud1234 **(由用户自行设置)**
 
-3.     鉴权配置文件失效日期为：2020年06月18日00:00:00,计算出来的秒数为1592409600
++ 鉴权配置文件失效日期为：2020年06月18日00:00:00,计算出来的秒数为1592409600
 
-4.     则CDN服务器会构造一个用于计算signature的签名字符
++ 则CDN服务器会构造一个用于计算signature的签名字符
 
 /video/standard/1K.html-1592409600-0-0-jdcloud1234"
 
-5.     CDN服务器会根据该签名字符串计算**signature**:
++ CDN服务器会根据该签名字符串计算**signature**:
 
 **signature** = md5sum("/video/standard/1K.html-1592409600-0-0-jdcloud1234") =06d97bc9e43ded48d991994006cfa127
 
-6.     则请求时url为：
++ 则请求时url为：
 
 https://cdn.example.com/video/standard/1K.html ?fa=121&jd=121&auth_token=1592409600-0-0-06d97bc9e43ded48d991994006cfa127
 
@@ -82,23 +82,23 @@ HashValue = md5sum(sstring)
 
 **2.4**   **示例说明**
 
-1.     通过请求对象:
++ 通过请求对象:
 
 https://cdn.example.com/video/standard/1K.html ?fa=121&cc=121
 
-2.     密钥设为：jcloud1234 **(****由用户自行设置)**
++ 密钥设为：jcloud1234 **(****由用户自行设置)**
 
-3.     鉴权配置文件失效日期为：2020年06月18日00:00:00,计算出来的秒数为1592409600
++ 鉴权配置文件失效日期为：2020年06月18日00:00:00,计算出来的秒数为1592409600
 
-4.  则CDN服务器会构造一个用于计算Hashvalue的签名字符
++ 则CDN服务器会构造一个用于计算Hashvalue的签名字符
 
 /video/standard/1K.html-1592409600-jcloud1234"
 
-5.  CDN服务器会根据该签名字符串计算HashValue:
++ CDN服务器会根据该签名字符串计算HashValue:
 
 HashValue = md5sum("/video/standard/1K.html-1592409600-jcloud1234") = 8afb0900782e14c35214ccda534a3679
 
-6.  则请求时url为：
++ 则请求时url为：
 
 https://cdn.example.com/1592409600/8afb0900782e14c35214ccda534a3679/video/standard/1K.html? fa=121&cc=121
 
