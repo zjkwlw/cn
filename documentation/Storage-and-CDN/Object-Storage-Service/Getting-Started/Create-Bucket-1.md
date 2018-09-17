@@ -2,6 +2,8 @@
 
 开通京东云对象存储服务后，您需要首先创建存储空间以用来存储文件，创建存储空间的步骤如下：
 
+#
+
 1. 登录京东云控制台，选择对象存储->空间管理，进入空间管理页面后，点击新建空间：
 
 ![新建空间](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-010.png)
