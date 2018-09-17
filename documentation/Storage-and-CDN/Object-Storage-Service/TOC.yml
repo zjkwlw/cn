@@ -274,7 +274,7 @@ items:
       - name: 使用CloudBerry管理OSS
         href: Best-Practices/CloudBerry.md 
       - name: 生成预签名URL
-        href: Best-Practices/Signature-In-URL.md
+        href: Best-Practices/Signature-In-URL-1.md
       - name: 跨域访问
         href: Best-Practices/CORS.md
       - name: 数据迁移工具 
