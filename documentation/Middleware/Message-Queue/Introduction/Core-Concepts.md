@@ -12,7 +12,7 @@
 | 取出消息隐藏时长 | Visibility Timeout | 消息被接收后，为了避免其他消费者同时消费此消息，将消息暂时隐藏的时间 |
 | 消息最大长度 | Maximum Message Size | 限制消息主体的大小最大为256KB |
 | 最大接收次数 | Maximum Receives | 服务端向订阅者推送消息，保证至少一次，最多尝试16次 |
-| QPS | Maximum Query rate | 消息队列 JCQ生产和消费消息合计每秒最大的请求次数 |
+| TPS |  Transactions Per Second | 消息队列 JCQ生产和消费消息合计每秒传输的事物处理个数 |
 | 消息堆积 | Message Stacking | 消息还未投递或者订阅者接收消息失败，topic保存着未被消费的消息，该状态即消息堆积 |
 | 延时消息 | Message Delayed | 消息的生产者发送一条消息到服务端但是并不想这条消息马上被投递，而是延迟设定的一段时间后才投递给消费者进行消费，该类消息被称为延时消息 |
 | 顺序消息 | Ordered Message | 消息队列 JCQ提供的一种严格按照顺序进行发布和消费的消息类型。顺序消息由两个部分组成：顺序发布和顺序消费 |
