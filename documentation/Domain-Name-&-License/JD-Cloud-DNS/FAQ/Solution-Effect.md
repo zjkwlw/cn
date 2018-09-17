@@ -1,6 +1,6 @@
 ## **测试域名解析生效的办法**
 
-根据[域名生效原理](http://www.jcloud.com/help/detail/2172/isCateLog/1)可以知道，解析记录生效分为两个步骤:在云解析生效和在Local DNS生效。只有在Local DNS生效之后，客户端才能得到正确的解析结果。如果解析记录在本地没有生效，但是在云解析服务器已经生效，请耐心等待Local DNS刷新自身缓存，理论缓存时长由解析记录中配置的TTL值决定。实际网络中某些Local DNS会修改缓存时长，具体生效时间由Local DNS行为决定。
+根据[域名生效原理](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-%26-License/JD-Cloud-DNS/FAQ/Domain-Effect.md)可以知道，解析记录生效分为两个步骤:在云解析生效和在Local DNS生效。只有在Local DNS生效之后，客户端才能得到正确的解析结果。如果解析记录在本地没有生效，但是在云解析服务器已经生效，请耐心等待Local DNS刷新自身缓存，理论缓存时长由解析记录中配置的TTL值决定。实际网络中某些Local DNS会修改缓存时长，具体生效时间由Local DNS行为决定。
 
 下面以www.jddnstest.com为例，分别在Windows和Linux平台展示对应的测试方法和步骤。已通过云解析控制台添加jddnstest.com解析，NS地址已修改为云解析地址ns1.jdgslb.com/ns2.jdgslb.com，配置好www.jddnstest.com的A记录地址。
 
