@@ -48,7 +48,7 @@ VNC登陆的场景至少包括以下几种：
 ## 本地为Windows，通过远程登录软件使用密码/密钥登录
 您可选择多种远程登录软件登陆京东云Linux实例，如选择使用SSH密钥登录实例，需要在创建实例时选择开启密钥登录功能，并为其绑定一个密钥，请确保已下载所绑定密钥的私钥。有关密钥的创建操作，请参阅[创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)。
 
-同时请您查看实例关联[安全组](../Operation-Guide/Security-Group/Overview.md)及所在子网的[网络ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md)配置，确保实例22端口已开放。
+同时请您查看实例关联[安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)及所在子网的[网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)配置，确保实例22端口已开放。
 
 本例以 CentOS 7.1 64位系统，Xshell远程登录软件为示范，可按照如下步骤完成登录。
 1. 下载并安装远程登录软件
@@ -96,9 +96,9 @@ Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终
 
 [创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)
 
-[安全组](../Operation-Guide/Security-Group/Overview.md)
+[安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
 
-[网络ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md)
+[网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)
 
 
   [1]: ./images/Getting-Start-Linux-Connect-console.png "Getting-Start-Linux-Connect-console.png"

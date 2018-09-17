@@ -13,8 +13,8 @@ items:
         href: Introduction/Benefits.md
       - name: 产品功能
         href: Introduction/Features.md
-      - name: 产品规格
-        href: Introduction/Specifications.md
+      - name: 实例规格类型
+        href: Introduction/Instance-Type-Family.md
       - name: 限制说明
         href: Introduction/Restrictions.md
       - name: 应用场景
@@ -35,7 +35,7 @@ items:
     items:
       - name: 创建前准备
         href: Getting-Start-Linux/Account-Preparation-Linux.md
-      - name: 确定配置
+      - name: 确定配置项
         href: Getting-Start-Linux/Select-Configuration-Linux.md
       - name: 创建Linux实例
         href: Getting-Start-Linux/Create-Linux-Instance.md
@@ -47,7 +47,7 @@ items:
     items:
       - name: 创建前准备
         href: Getting-Start-Windows/Account-Preparation-Windows.md
-      - name: 确定配置
+      - name: 确定配置项
         href: Getting-Start-Windows/Select-Configuration-Windows.md
       - name: 创建Windows实例
         href: Getting-Start-Windows/Create-Windows-Instance.md
@@ -160,7 +160,7 @@ items:
           - name: 配置网卡多队列
             href: Operation-Guide/Network/Configurate-ENI-Multi-Queue.md
           - name: 配置弹性网卡删除属性
-            href: Operation-Guide/Network/Configurate-Delete-Attributes.md
+            href: Operation-Guide/Network/Configurate-ENI-Delete-Attributes.md
       - name: 密钥
         items:
           - name: 密钥概述
@@ -211,14 +211,14 @@ items:
             href: Operation-Guide/Monitoring/Get-Monitor-Data.md
           - name: 设置报警
             href: Operation-Guide/Monitoring/Set-Alarm.md
-      - name: 最佳实践
-        items:
-          - name: 安全
-            href: Best-Practices/Security.md
-          - name: 存储
-            href: Best-Practices/Storage.md
-          - name: 备份与恢复
-            href: Best-Practices/Backup-and-Restore.md
+  - name: 最佳实践
+    items:
+      - name: 安全
+        href: Best-Practices/Security.md
+      - name: 存储
+        href: Best-Practices/Storage.md
+      - name: 备份与恢复
+        href: Best-Practices/Backup-and-Restore.md
       - name: 教程
         status: 0
         items:
