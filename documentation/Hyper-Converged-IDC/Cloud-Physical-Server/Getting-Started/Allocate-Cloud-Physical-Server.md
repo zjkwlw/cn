@@ -3,7 +3,7 @@
 - 配置地域与可用区
 
 - 配置主机规格：
-参考[产品规格](../Introduction/Specification.md)。
+参考[产品规格](../Introduction/Specifications.md)。
 
 - 选取镜像
 
