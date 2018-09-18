@@ -23,16 +23,16 @@ items:
 - name: 产品定价
   items:
     - name: 计费概述
-      href: Pricing/Billing-Overview.md
+      href: Pricing/pricing.md
 - name: 入门指南
   items:
     - name: 入门指南概述
-      href: Getting-Started/Getting-Started.md
+      href: Getting-Started/getting-started-overview.md
     - name: 查看资源监控图表
       href: Getting-Started/view-resource-monitoring-chart.md
     - name: 设置报警规则
       href: Getting-Started/set-alarm-rules.md
-    - name: 使用Dashboard监控面板
+    - name: 使用Dashboard
       href: Getting-Started/use-Dashboard.md
     - name: 使用自定义监控
       href: Getting-Started/use-custom-monitoring.md
@@ -55,9 +55,9 @@ items:
         - name: 资源监控
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
         - name: 查看资源监控图表
-          href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart.md
+          href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: 对资源设置监控报警
-          href: Operation-Guide/resource-monitoring/set-alarm-rules.md     
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md      
     - name: 自定义监控
       href: Getting-Started/custom-monitoring.md  
       items:
@@ -68,49 +68,12 @@ items:
         - name: 删除监控数据
           href: Operation-Guide/custom-monitoring/delete-monitoring-data.md      
         - name: 设置报警规则
-          href: Getting-Started/设置报警规则.md
-        - name: 使用Dashboard监控面板
-          href: Getting-Started/使用Dashboard监控面板.md
-        - name: 使用自定义监控
-          href: Getting-Started/使用自定义监控.md
-    - name: 操作指南
-      items:
-        - name: Dashboard
-          href: Getting-Started/Dashboard.md
-          items:
-            - name: 使用须知
-              href: Operation-Guide/dashboard/terms-and-conditions.md
-            - name: 我关注的面板
-              href: Operation-Guide/dashboard/focus-page.md
-            - name: 管理监控面板
-              href: Operation-Guide/dashboard/dashboard-management.md      
-            - name: 管理监控图表
-              href: Operation-Guide/dashboard/monitoring-chart-management.md
-        - name: 云资源监控
-          href: Getting-Started/云资源监控.md
-          items:
-            - name: 资源监控
-              href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
-            - name: 查看资源监控图表
-              href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart.md
-            - name: 对资源设置监控报警
-              href: Operation-Guide/resource-monitoring/set-alarm-rules.md     
-        - name: 自定义监控
-          href: Getting-Started/自定义监控.md  
-          items:
-            - name: 自定义监控概述
-              href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
-            - name: 查看监控数据
-              href: Operation-Guide/custom-monitoring/view-monitoring-data.md
-            - name: 删除监控数据
-              href: Operation-Guide/custom-monitoring/delete-monitoring-data.md      
-            - name: 设置报警规则
-              href: Operation-Guide/custom-monitoring/set-alarm-rules.md
-            - name: 查看历史报警
-              href: Operation-Guide/custom-monitoring/view-alarm-history.md
+          href: Operation-Guide/custom-monitoring/set-alarm-rules-CustomMetric.md
+        - name: 查看历史报警
+          href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
     - name: 最佳实践
       items:
-        - name: 批量资源监控xa
+        - name: 批量资源监控
           href: Best-Practices/bulk-resource-monitoring.md
         - name: 日常业务监控
           href: Best-Practices/business-monitoring.md
