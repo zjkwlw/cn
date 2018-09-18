@@ -16,17 +16,17 @@ Windows平台可以采用系统命令ping和nslookup，在CMD窗口，执行命�
 
 2.  在CMD窗口中，执行命令 ping www.jddnstest.com
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test1.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test1.png)
 
 可以看到www.jddnstest.com已经获取到正确的解析地址
 
 3.  如果找不到域名的解析地址则会提示找不到
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test2.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test2.png)
 
 4.还可以采用nslookup命令进行测试，执行nslookup www.jddnstest.com
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test3.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test3.png)
 
 可以看到在客户端能够获取到www.jddnstest.com正确的IP地址
 
@@ -34,7 +34,7 @@ Windows平台可以采用系统命令ping和nslookup，在CMD窗口，执行命�
 
 测试域名的解析记录是否在云解析服务器生效，只能采用nslookup命令进行，在CMD窗口，执行nslookup www.jddnstest.com ns1.jdgslb.com，其中ns1.jdgslb.com为域名jddnstest.com所属的云解析地址。
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test4.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test4.png)
 
 可以看到在客户端成功获取到了www.jddnstest.com的地址，且结果是通过云解析的服务器返回的。
 
@@ -46,17 +46,17 @@ Linux平台可以采用ping和dig命令，通过命令行测试。
 
 1、在命令行窗口执行ping www.jddnstest.com
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test5.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test5.png)
 
 可以看到www.jddnstest.com已经获取到正确的解析地址
 
 2、 如果找不到域名的解析地址则会提示" unknown host"
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test6.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test6.png)
 
 3、还可以采用dig命令进行测试，执行dig www.jddnstest.com
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test7.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test7.png)
 
 可以看到在客户端能够获取到www.jddnstest.com正确的IP地址
 
@@ -64,6 +64,6 @@ Linux平台可以采用ping和dig命令，通过命令行测试。
 
 测试域名的解析记录是否在云解析服务器生效，只能采用dig命令进行，在命令行窗口执行dig www.jddnstest.com @ns1.jdgslb.com，其中ns1.jdgslb.com为域名jddnstest.com所属的云解析地址。
 
-[img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test8.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test8.png)
 
 可以看到在客户端成功获取到了www.jddnstest.com的地址，且结果是通过云解析的服务器返回的。
