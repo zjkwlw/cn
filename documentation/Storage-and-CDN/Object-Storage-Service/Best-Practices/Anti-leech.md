@@ -37,7 +37,7 @@ Referer是HTTP请求表头的一个参数，不同场景下HTTP请求表头的Re
 
 假设源站为http://jd.com/ ，盗链网站为http://jd-steal.com/
 
-1.设置Referer白名单，且不允许referer为空，能实现防盗链功能
+#### 1.设置Referer白名单，且不允许referer为空，能实现防盗链功能
 
 ![白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-077.jpg)
 
@@ -49,7 +49,7 @@ Referer是HTTP请求表头的一个参数，不同场景下HTTP请求表头的Re
 |http://jd.com/|请求来自于与源站|访问成功|
 |http://jd-steal.com/|请求来自于盗链网站|返回403|
 
-2.设置Referer白名单，且允许referer为空，能实现防盗链功能
+#### 2.设置Referer白名单，且允许referer为空，能实现防盗链功能
 
 ![白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-078.jpg)
 
@@ -61,4 +61,4 @@ Referer是HTTP请求表头的一个参数，不同场景下HTTP请求表头的Re
 |http://jd.com/ |请求来自于与源站|访问成功|
 |http://jd-steal.com/ |请求来自于盗链网站|返回403|
 
-3.设置Referer白名单为空，若HTTP请求中若带有Referer，OSS将拒绝所有网站发起的请求，包括信任网站，所以不推荐使用该配置。若您需要实现防盗链功能，请使用前两种配置方案。
+#### 3.设置Referer白名单为空，若HTTP请求中若带有Referer，OSS将拒绝所有网站发起的请求，包括信任网站，所以不推荐使用该配置。若您需要实现防盗链功能，请使用前两种配置方案。
