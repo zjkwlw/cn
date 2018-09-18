@@ -8,7 +8,7 @@
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/yunziyuan/SetAlarmRule_Getstart.png)
 
-3. 添加成功后，可在报警规则列表中，可查看到设置的规则信息。
+3.添加成功后，可在报警规则列表中，可查看到设置的规则信息。
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/yunziyuan/AlarmRuleDetails_Getstart.png)
 
