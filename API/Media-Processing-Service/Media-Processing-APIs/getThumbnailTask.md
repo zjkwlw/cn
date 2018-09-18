@@ -22,14 +22,14 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail/{taskId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String|—|
-|**result**|Result|—|
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**thumbnailTask**|ThumbnailTask|—|
+|**thumbnailTask**|ThumbnailTask| |
 ### <a name="ThumbnailTask">ThumbnailTask</a>
 |名称|类型|描述|
 |---|---|---|
