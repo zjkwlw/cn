@@ -19,8 +19,8 @@
 	可选三种创建方式 **自定义创建**、**使用实例模板创建**、**在高可用组内创建**：
    
    * 自定义创建：自定义全部实例配置项。
-   * 使用实例模板创建：基于已建实例模板的预设配置快速创建实例，详见[实例模板](../Operation-Guide/Instance-Template/Overview.md)。
-   * 在高可用组内创建：基于已建高可用组指定的可用区及实例模板快速创建实例，详见[高可用组](../../Availability-Group/Introduction/Overview.md)。
+   * 使用实例模板创建：基于已建实例模板的预设配置快速创建实例，详见[实例模板](../Operation-Guide/Instance-Template/Instance-Template-Overview.md)。
+   * 在高可用组内创建：基于已建高可用组指定的可用区及实例模板快速创建实例，详见[高可用组](../../Availability-Group/Introduction/Product-Overview.md)。
 
 * 镜像：
 
@@ -37,7 +37,7 @@
 
 * 存储：
   
-	京东云提供云硬盘和本地硬盘两种类型。本地盘是云服务器所在的物理机上的存储设备，可以获得较低的时延，但存在单点数据丢失风险。云硬盘采用一盘多备的分布式存储方式，数据可靠性高 。云硬盘提供**SSD云盘**和**高效云盘**两种云硬盘供实例作为系统盘和数据盘，详见[云硬盘类型]。
+	京东云提供云硬盘和本地硬盘两种类型。本地盘是云服务器所在的物理机上的存储设备，可以获得较低的时延，但存在单点数据丢失风险。云硬盘采用一盘多备的分布式存储方式，数据可靠性高 。云硬盘提供**SSD云盘**和**高效云盘**两种云硬盘供实例作为系统盘和数据盘，详见[云硬盘类型](http://docs.jdcloud.com/cn/cloud-disk-service/specifications)。
 	
 	* 系统盘：：支持本地盘及云硬盘，其中本地盘免费40GB，且容量不可变更。云硬盘支持40GB~500GB。
 	* 数据盘：若系统盘为本地盘则支持挂载8块数据盘，若系统盘为云硬盘则支持挂载7块数据盘。支持SSD云盘、高效云盘；容量由您自行设置
@@ -48,9 +48,9 @@
    * SSD云盘做数据盘：20G~1000G。
 
 * 网络：
-    *  私有网络及子网：可先行规划并创建私有网络和子网，如不创建支持使用系统自动创建的默认私有网络和默认子网，详见[私有网络](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md)和[子网](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md)。
+    *  私有网络及子网：可先行规划并创建私有网络和子网，如不创建支持使用系统自动创建的默认私有网络和默认子网，详见[私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)和[子网](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)。
     *  内网IP：为云主机指定主网卡内网IP地址，可在所选子网可用IP地址内任意指定，如无特殊要求可选择由系统自动分配。内网IP一旦分配至云主机将不可更改。
-    *  安全组：可先行在每个私有网络下创建符合访问控制要求的安全组，如不创建支持从系统自动为每个私有网络创建的3个安全组模板中选择一个绑定，详见[安全组概述](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md)。
+    *  安全组：可先行在每个私有网络下创建符合访问控制要求的安全组，如不创建支持从系统自动为每个私有网络创建的3个安全组模板中选择一个绑定，详见[安全组概述](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)。
 
 * 带宽：
    
@@ -79,26 +79,22 @@
 
 [计费规则](../Pricing/Billing-Rules.md)
 
-[地域与可用区]
+[地域与可用区](http://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones)
 
-[实例模板](../Operation-Guide/Instance-Template/Overview.md)
+[实例模板](../Operation-Guide/Instance-Template/Instance-Template-Overview.md)
 
-[高可用组](../../Availability-Group/Introduction/Overview.md)
+[高可用组](../../Availability-Group/Introduction/Product-Overview.md)
 
 [实例规格](../Introduction/Instance-Type-Family.md)
 
-[云硬盘类型]
+[云硬盘类型](http://docs.jdcloud.com/cn/cloud-disk-service/specifications)
 
-[私有网络](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md)
+[私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
 
-[子网](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md)
+[子网](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
 
-[安全组概述](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md)
+[安全组概述](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
 
 [弹性公网IP计费规则](../../../Networking/Elastic-IP/Pricing/Billing-Rules.md)
 
 [创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)
-
-
-
-  [1]: https://ticket.jdcloud.com/myorder/submit

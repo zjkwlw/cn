@@ -1,7 +1,7 @@
 # 网络概述
 ## 网络环境
 
-[私有网络（Virtual Private Cloud,VPC）](../../../../Networking/Virtual-Private-Cloud/Introduction/VPC-Overview.md)为京东云为您提供自定义的逻辑隔离的网络空间，与您在数据中心搭建的传统网络类似，此私有网络空间由用户完全掌控，支持自定义网段划分、路由策略等。用户可以在VPC内创建和管理多种云产品，如云主机实例、负载均衡等，同时可配置网络内的资源连接Internet。另外，您可以通过VPN/专线接入，打通您的IDC内网和京东云网络，实现应用的混合云部署，以及应用的平滑迁移至云上。
+[私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)（Virtual Private Cloud,VPC）为京东云为您提供自定义的逻辑隔离的网络空间，与您在数据中心搭建的传统网络类似，此私有网络空间由用户完全掌控，支持自定义网段划分、路由策略等。用户可以在VPC内创建和管理多种云产品，如云主机实例、负载均衡等，同时可配置网络内的资源连接Internet。另外，您可以通过VPN/专线接入，打通您的IDC内网和京东云网络，实现应用的混合云部署，以及应用的平滑迁移至云上。
 
 ## 弹性公网IP
 
@@ -17,7 +17,7 @@
 
 ## 弹性网卡
 
-[弹性网卡](../../../../Networking/Elastic-Network-Interface/Product-Introduction/What-is-Elastic-Network-Interface.md)是一种虚拟网络接口，您可以在实例上绑定弹性网卡以使实例接入不同网络。弹性网卡可以在构建业务流量分离、多业务承载以及网络高可用等应用场景时提供支持。
+[弹性网卡](http://docs.jdcloud.com/cn/elastic-network-interface/product-overview)是一种虚拟网络接口，您可以在实例上绑定弹性网卡以使实例接入不同网络。弹性网卡可以在构建业务流量分离、多业务承载以及网络高可用等应用场景时提供支持。
 
 京东云提供无可用区属性弹性网卡，弹性网卡可以绑定私有网络内任意一台实例。单台实例可以绑定多块弹性网卡，绑定数量需依据实例规格而定。
 
@@ -33,7 +33,7 @@
 
 ## 相关参考
 
-[私有网络（Virtual Private Cloud,VPC）](../../../../Networking/Virtual-Private-Cloud/Introduction/VPC-Overview.md)
+[私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
 
-[弹性网卡](../../../../Networking/Elastic-Network-Interface/Product-Introduction/What-is-Elastic-Network-Interface.md)
+[弹性网卡](http://docs.jdcloud.com/cn/elastic-network-interface/product-overview)
 

@@ -104,7 +104,7 @@
           - name: 获取所有运营商区域信息
             href: API-Refererce/CDN-Open-API/Get-all-area-isp.md
           - name: 日志下载
-            href: API-Refererce/CDN-Open-API/Log-download.md
+            href: API-Refererce/CDN-Open-API/API-Log-download.md
           - name: 刷新
             href: API-Refererce/CDN-Open-API/Refresh.md
           - name: 预热
@@ -156,7 +156,7 @@
           - name: 查询推流实时帧率码率
             href: API-Refererce/Live-Video-Open-Api/Query-stream-data.md
           - name: 分区域运营商详细数据统计
-            href: API-Refererce/Live-Video-Open-Api/Area-isp-detail-statistics.md
+            href: API-Refererce/Live-Video-Open-Api/Area-isp-statistics.md
           - name: 直播CDN OPEN API
             href: API-Refererce/Live-Video-Open-Api/Live-Video-Open-Api.md
   - name: FAQ
