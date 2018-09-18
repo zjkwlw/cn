@@ -117,14 +117,14 @@
               href: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
             - name: SQL Server 备份下载
               href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
-            - name: 备份覆盖恢复
-              items:
-              - name: MySQL 备份恢复
-                href: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Restore.md
-              - name: Percona 备份恢复
-                href: Operation-Guide/Backup/Restore-Instance/Percona-Backup-Restore.md
-              - name: SQL Server 备份恢复
-                herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
+          - name: 备份覆盖恢复
+            items:
+            - name: MySQL 备份恢复
+              href: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Restore.md
+            - name: Percona 备份恢复
+              href: Operation-Guide/Backup/Restore-Instance/Percona-Backup-Restore.md
+            - name: SQL Server 备份恢复
+              herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
           - name: 删除备份
             href: Operation-Guide/Backup/Delete-Backup.md
             
