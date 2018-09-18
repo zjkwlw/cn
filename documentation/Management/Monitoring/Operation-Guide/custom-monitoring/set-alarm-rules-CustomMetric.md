@@ -6,4 +6,4 @@
 
 点击“新增报警规则”，进入报警规则页面，按照流程引导设置即可，如下图所示：
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9B%91%E6%8E%A7%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
+![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/SetAlarmRule_CusMetric.png)
