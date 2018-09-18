@@ -26,5 +26,3 @@
 
 - [产品优势](Benefits.md)
 - [产品功能](Features.md)
-- [计费规则](../Pricing/Billing-Rules.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
