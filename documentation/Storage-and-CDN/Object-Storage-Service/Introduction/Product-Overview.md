@@ -17,7 +17,7 @@
 
 [计费规则](../Pricing/Billing-Rules.md) 
 
-[存储基本操作](../Operation-Guide/Sign-Up-Service-1.md)
+[存储基本操作](../Operation-Guide/Sign-Up-Service-2.md)
 
 [图片处理](../Operation-Guide/Image-Service-Guide/Introduction-1.md)
 
