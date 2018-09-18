@@ -4,9 +4,9 @@ Elasticsearch数据源提供了读取Elasticsearch的能力，您可以配置同
 
 **操作步骤：**
 
-1.        进入数据工厂，单击‘连接管理’，选择‘添加连接’；
+#### 1. 进入数据工厂，单击‘连接管理’，选择‘添加连接’；
 
-2.        选择数据源类型‘Elasticsearch’；
+#### 2. 选择数据源类型‘Elasticsearch’；
 
 ![es数据源连接](../../../../../image/Data-Integration/es-connection.png)
 
