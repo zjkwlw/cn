@@ -23,14 +23,14 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**buckets**|[Bucket[]](##Bucket)||
-|**owner**|[User](##User)||
+|**buckets**|Bucket[]||
+|**owner**|User||
 ### <a name="Bucket">Bucket</a>
 |名称|类型|描述|
 |---|---|---|

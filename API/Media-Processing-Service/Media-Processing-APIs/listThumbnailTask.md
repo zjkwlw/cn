@@ -28,13 +28,13 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**thumbnailQuery**|[ThumbnailQuery](##ThumbnailQuery)||
+|**thumbnailQuery**|ThumbnailQuery||
 ### <a name="ThumbnailQuery">ThumbnailQuery</a>
 |名称|类型|描述|
 |---|---|---|
@@ -44,7 +44,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**marker**|String|本次请求的marker, 标记查询的起始位置, 此处为taskID|
 |**nextMarker**|String|获取下一页所需要传递的marker值(此处为taskID), 仅当isTruncated为true时(数据未全部返回)出现 (readonly)|
 |**status**|String|状态 (SUCCESS, ERROR, PENDDING, RUNNING)|
-|**taskList**|[ThumbnailTask[]](##ThumbnailTask)|返回的task列表 (readonly)|
+|**taskList**|ThumbnailTask[]|返回的task列表 (readonly)|
 |**truncated**|Boolean|指明返回数据是否被截断. true表示本页后面还有数据, 即数据未全部返回; false表示已是最后一页, 即数据已全部返回 (readonly)|
 ### <a name="ThumbnailTask">ThumbnailTask</a>
 |名称|类型|描述|
@@ -52,10 +52,10 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**createdTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|错误码 (readonly)|
 |**lastUpdatedTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)||
+|**rule**|ThumbnailTaskRule||
+|**source**|ThumbnailTaskSource||
 |**status**|String|状态 (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)||
+|**target**|ThumbnailTaskTarget||
 |**taskID**|String|任务ID (readonly)|
 ### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
 |名称|类型|描述|

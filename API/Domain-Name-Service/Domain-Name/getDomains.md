@@ -26,14 +26,14 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|当前页的域名列表里域名的个数|
-|**dataList**|[Domain[]](##Domain)|域名列表|
+|**dataList**|Domain[]|域名列表|
 |**totalCount**|Integer|所有匹配的域名列表的个数|
 |**totalPage**|Integer|所有匹配的域名列表按照分页参数一共的页数|
 ### <a name="Domain">Domain</a>

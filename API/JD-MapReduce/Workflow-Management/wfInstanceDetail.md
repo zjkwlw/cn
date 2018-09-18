@@ -25,13 +25,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**message**|[Message](##Message)||
+|**message**|Message||
 ### <a name="Message">Message</a>
 |名称|类型|描述|
 |---|---|---|
@@ -39,9 +39,9 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**data**|Object|数据|
 |**instanceId**|String||
 |**jobId**|String|作业ID|
-|**path**|[Path[]](##Path)||
+|**path**|Path[]||
 |**pipeline**|String||
-|**rect**|[Rect[]](##Rect)||
+|**rect**|Rect[]||
 |**result**|String|结果|
 |**source**|String||
 |**sourceParameterList**|String[]||

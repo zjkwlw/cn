@@ -21,13 +21,13 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/flavors
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**flavors**|[Flavor[]](##Flavor)||
+|**flavors**|Flavor[]||
 ### <a name="Flavor">Flavor</a>
 |名称|类型|描述|
 |---|---|---|

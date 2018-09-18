@@ -30,13 +30,13 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**alarmList**|[Alarm[]](##Alarm)|规则列表|
+|**alarmList**|Alarm[]|规则列表|
 |**numberPages**|Number|总页数|
 |**numberRecords**|Number|总记录数|
 |**pageNumber**|Number|页码|

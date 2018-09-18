@@ -16,7 +16,7 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**metricDataList**|[MetricDataCm[]](##MetricDataCm)|False||数据参数|
+|**metricDataList**|MetricDataCm[]|False||数据参数|
 
 ### <a name="MetricDataCm">MetricDataCm</a>
 |名称|类型|是否必需|默认值|描述|
@@ -33,13 +33,13 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 |---|---|---|
 |**error**|Object|错误信息|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**errMetricDataList**|[MetricDataList[]](##MetricDataList)||
+|**errMetricDataList**|MetricDataList[]||
 |**success**|Boolean|全部写入成功为true，否则为false|
 ### <a name="MetricDataList">MetricDataList</a>
 |名称|类型|描述|

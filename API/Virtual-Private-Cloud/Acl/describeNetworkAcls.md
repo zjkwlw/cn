@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False|||
+|**filters**|Filter[]|False|||
 |**pageNumber**|Integer|False|1|页码, 默认为1, 取值范围：[1,∞), 页码超过总页数时, 显示最后一页|
 |**pageSize**|Integer|False|20|分页大小，默认为20，取值范围：[10,100]|
 
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**networkAcls**|[NetworkAcl[]](##NetworkAcl)|networkAcl资源信息列表|
+|**networkAcls**|NetworkAcl[]|networkAcl资源信息列表|
 |**totalCount**|Number|总数量|
 ### <a name="NetworkAcl">NetworkAcl</a>
 |名称|类型|描述|
@@ -47,7 +47,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 |**description**|String|描述,允许输入UTF-8编码下的全部字符，不超过256字符|
 |**networkAclId**|String|networkAcl ID|
 |**networkAclName**|String|networkAcl名称|
-|**networkAclRules**|[NetworkAclRule[]](##NetworkAclRule)|networkAcl规则列表|
+|**networkAclRules**|NetworkAclRule[]|networkAcl规则列表|
 |**subnetIds**|String[]|networkAcl绑定的子网列表|
 |**vpcId**|String|私有网络 ID|
 ### <a name="NetworkAclRule">NetworkAclRule</a>

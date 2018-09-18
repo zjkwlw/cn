@@ -23,13 +23,13 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**permission**|[Permission](##Permission)|权限信息|
+|**permission**|Permission|权限信息|
 ### <a name="Permission">Permission</a>
 |名称|类型|描述|
 |---|---|---|
@@ -38,14 +38,14 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |**description**|String|描述|
 |**id**|Integer|权限id|
 |**name**|String|权限名称|
-|**permissionDetailList**|[PermissionDetail[]](##PermissionDetail)|权限详细信息|
+|**permissionDetailList**|PermissionDetail[]|权限详细信息|
 |**permissionType**|String|权限类型|
 |**version**|String|权限版本号|
 ### <a name="PermissionDetail">PermissionDetail</a>
 |名称|类型|描述|
 |---|---|---|
 |**permission**|String|权限类型，只读-R、删除-D、修改-M|
-|**resource**|[Resource[]](##Resource)|资源信息|
+|**resource**|Resource[]|资源信息|
 ### <a name="Resource">Resource</a>
 |名称|类型|描述|
 |---|---|---|

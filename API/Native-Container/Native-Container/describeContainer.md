@@ -24,38 +24,38 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**container**|[Container](##Container)||
+|**container**|Container||
 ### <a name="Container">Container</a>
 |名称|类型|描述|
 |---|---|---|
 |**args**|String[]|容器执行命令的参数|
 |**az**|String|可用区|
-|**charge**|[Charge](##Charge)|计费配置信息|
+|**charge**|Charge|计费配置信息|
 |**command**|String[]|容器执行命令|
 |**containerId**|String|容器ID|
-|**dataVolumes**|[VolumeMount[]](##VolumeMount)|挂载的数据Volume信息|
+|**dataVolumes**|VolumeMount[]|挂载的数据Volume信息|
 |**description**|String|容器描述|
 |**elasticIpAddress**|String|主网卡主IP绑定弹性IP的地址|
 |**elasticIpId**|String|主网卡主IP绑定弹性IP的ID|
-|**envs**|[EnvVar[]](##EnvVar)|动态指定的容器执行的环境变量|
-|**hostAliases**|[HostAlias[]](##HostAlias)|域名和IP映射的信息|
+|**envs**|EnvVar[]|动态指定的容器执行的环境变量|
+|**hostAliases**|HostAlias[]|域名和IP映射的信息|
 |**hostname**|String|主机名|
 |**image**|String|镜像名称|
 |**instanceType**|String|实例类型|
 |**launchTime**|String|创建时间|
-|**logConfiguration**|[LogConfiguration](##LogConfiguration)|容器日志配置信息|
+|**logConfiguration**|LogConfiguration|容器日志配置信息|
 |**name**|String|容器名称|
-|**primaryNetworkInterface**|[InstanceNetworkInterfaceAttachment](##InstanceNetworkInterfaceAttachment)|主网卡信息|
+|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|主网卡信息|
 |**privateIpAddress**|String|主网卡主IP地址|
 |**reason**|String|容器终止原因|
-|**rootVolume**|[VolumeMount](##VolumeMount)|根Volume信息|
-|**secondaryNetworkInterfaces**|[InstanceNetworkInterfaceAttachment[]](##InstanceNetworkInterfaceAttachment)|弹性网卡信息|
+|**rootVolume**|VolumeMount|根Volume信息|
+|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|弹性网卡信息|
 |**secret**|String|secret引用的名称|
 |**status**|String|容器状态|
 |**subnetId**|String|主网卡所属子网的ID|
@@ -75,7 +75,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 |---|---|---|
 |**autoDelete**|Boolean|自动删除，删除容器时自动删除此volume|
 |**category**|String|环境变量名称|
-|**cloudDisk**|[InstanceCloudDisk](##InstanceCloudDisk)|云硬盘规格|
+|**cloudDisk**|InstanceCloudDisk|云硬盘规格|
 |**fsType**|String|指定volume文件系统类型，目前支持[xfs, ext4]|
 |**mountPath**|String|容器内的挂载目录|
 |**readOnly**|Boolean|只读，默认false；只针对data volume有效，root volume为false|
@@ -104,7 +104,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 |名称|类型|描述|
 |---|---|---|
 |**logDriver**|String|日志Driver名称  default：默认在本地分配10MB的存储空间，自动rotate|
-|**options**|[LogOption](##LogOption)|日志Driver的配置选项|
+|**options**|LogOption|日志Driver的配置选项|
 ### <a name="LogOption">LogOption</a>
 |名称|类型|描述|
 |---|---|---|
@@ -117,17 +117,17 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 |**attachTime**|String|绑定时间|
 |**autoDelete**|Boolean|指明删除实例时是否删除网卡|
 |**deviceIndex**|Integer|设备Index|
-|**networkInterface**|[InstanceNetworkInterface](##InstanceNetworkInterface)|弹性网卡信息|
+|**networkInterface**|InstanceNetworkInterface|弹性网卡信息|
 ### <a name="InstanceNetworkInterface">InstanceNetworkInterface</a>
 |名称|类型|描述|
 |---|---|---|
 |**description**|String|描述|
 |**macAddress**|String|以太网地址|
 |**networkInterfaceId**|String|弹性网卡ID|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|网卡主IP|
+|**primaryIp**|NetworkInterfacePrivateIp|网卡主IP|
 |**sanityCheck**|Boolean|源和目标IP地址校验，取值为0或者1|
-|**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)||
-|**securityGroups**|[SecurityGroupSimple[]](##SecurityGroupSimple)|安全组列表|
+|**secondaryIps**|NetworkInterfacePrivateIp[]||
+|**securityGroups**|SecurityGroupSimple[]|安全组列表|
 |**vpcId**|String|虚拟网络ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>
 |名称|类型|描述|

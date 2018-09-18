@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:add
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**networkAclRuleSpecs**|[AddNetworkAclRuleSpec[]](##AddNetworkAclRuleSpec)|True||networkAcl规则列表|
+|**networkAclRuleSpecs**|AddNetworkAclRuleSpec[]|True||networkAcl规则列表|
 
 ### <a name="AddNetworkAclRuleSpec">AddNetworkAclRuleSpec</a>
 |名称|类型|是否必需|默认值|描述|

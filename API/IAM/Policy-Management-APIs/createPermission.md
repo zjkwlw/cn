@@ -17,19 +17,19 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**createPermissionInfo**|[CreatePermissionInfo](##CreatePermissionInfo)|True||权限信息|
+|**createPermissionInfo**|CreatePermissionInfo|True||权限信息|
 
 ### <a name="CreatePermissionInfo">CreatePermissionInfo</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**content**|[PermissionDetail[]](##PermissionDetail)|True||权限详细信息|
+|**content**|PermissionDetail[]|True||权限详细信息|
 |**description**|String|False||描述，0~256个字符|
 |**name**|String|True||权限名称，1~32位数字、字母、中文、下划线、下划线、中划线|
 ### <a name="PermissionDetail">PermissionDetail</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**permission**|String|True||权限类型，只读-R、删除-D、修改-M|
-|**resource**|[Resource[]](##Resource)|True||资源信息|
+|**resource**|Resource[]|True||资源信息|
 ### <a name="Resource">Resource</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|

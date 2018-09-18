@@ -17,8 +17,8 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|False||付费方式|
-|**instanceSpec**|[DBInstanceSpec](##DBInstanceSpec)|True||实例规格|
+|**chargeSpec**|ChargeSpec|False||付费方式|
+|**instanceSpec**|DBInstanceSpec|True||实例规格|
 
 ### <a name="DBInstanceSpec">DBInstanceSpec</a>
 |名称|类型|是否必需|默认值|描述|
@@ -47,7 +47,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

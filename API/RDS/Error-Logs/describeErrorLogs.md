@@ -22,13 +22,13 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/errorLo
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**errorLogs**|[ErrorLog[]](##ErrorLog)|错误日志文件的集合|
+|**errorLogs**|ErrorLog[]|错误日志文件的集合|
 ### <a name="ErrorLog">ErrorLog</a>
 |名称|类型|描述|
 |---|---|---|

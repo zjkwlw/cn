@@ -20,10 +20,10 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**createdTime**|String|False||任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|False||错误码 (readonly)|
 |**lastUpdatedTime**|String|False||任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)|False|||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)|True|||
+|**rule**|ThumbnailTaskRule|False|||
+|**source**|ThumbnailTaskSource|True|||
 |**status**|String|False||状态 (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)|True|||
+|**target**|ThumbnailTaskTarget|True|||
 |**taskID**|String|False||任务ID (readonly)|
 
 ### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
@@ -53,13 +53,13 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**thumbnailTaskID**|[ThumbnailTaskID](##ThumbnailTaskID)||
+|**thumbnailTaskID**|ThumbnailTaskID||
 ### <a name="ThumbnailTaskID">ThumbnailTaskID</a>
 |名称|类型|描述|
 |---|---|---|

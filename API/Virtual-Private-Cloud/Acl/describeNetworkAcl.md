@@ -23,13 +23,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**networkAcl**|[NetworkAcl](##NetworkAcl)|networkAcl资源信息|
+|**networkAcl**|NetworkAcl|networkAcl资源信息|
 ### <a name="NetworkAcl">NetworkAcl</a>
 |名称|类型|描述|
 |---|---|---|
@@ -37,7 +37,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}
 |**description**|String|描述,允许输入UTF-8编码下的全部字符，不超过256字符|
 |**networkAclId**|String|networkAcl ID|
 |**networkAclName**|String|networkAcl名称|
-|**networkAclRules**|[NetworkAclRule[]](##NetworkAclRule)|networkAcl规则列表|
+|**networkAclRules**|NetworkAclRule[]|networkAcl规则列表|
 |**subnetIds**|String[]|networkAcl绑定的子网列表|
 |**vpcId**|String|私有网络 ID|
 ### <a name="NetworkAclRule">NetworkAclRule</a>

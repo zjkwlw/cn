@@ -17,7 +17,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceSpec**|[InstanceSpec](##InstanceSpec)|True||创建实例请求参数|
+|**instanceSpec**|InstanceSpec|True||创建实例请求参数|
 
 ### <a name="InstanceSpec">InstanceSpec</a>
 |名称|类型|是否必需|默认值|描述|
@@ -36,7 +36,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||networkSecurityGroupIds - 安全组ID列表，支持多个<br>networkSecurityGroupNames - 安全组名称列表，支持多个<br>vpcId	- 安全组所属vpc Id，支持单个<br>|
+|**filters**|Filter[]|False||networkSecurityGroupIds - 安全组ID列表，支持多个<br>networkSecurityGroupNames - 安全组名称列表，支持多个<br>vpcId	- 安全组所属vpc Id，支持单个<br>|
 |**pageNumber**|Integer|False|1|页码, 默认为1, 取值范围：[1,∞), 页码超过总页数时, 显示最后一页|
 |**pageSize**|Integer|False|20|分页大小，默认为20，取值范围：[10,100]|
 
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**networkSecurityGroups**|[NetworkSecurityGroup[]](##NetworkSecurityGroup)|安全组资源信息列表|
+|**networkSecurityGroups**|NetworkSecurityGroup[]|安全组资源信息列表|
 |**totalCount**|Number|总数量|
 ### <a name="NetworkSecurityGroup">NetworkSecurityGroup</a>
 |名称|类型|描述|
@@ -47,7 +47,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |**description**|String|安全组描述信息|
 |**networkSecurityGroupId**|String|安全组ID|
 |**networkSecurityGroupName**|String|安全组名称|
-|**securityGroupRules**|[SecurityGroupRule[]](##SecurityGroupRule)|安全组规则信息|
+|**securityGroupRules**|SecurityGroupRule[]|安全组规则信息|
 |**vpcId**|String|安全组所在vpc的Id|
 ### <a name="SecurityGroupRule">SecurityGroupRule</a>
 |名称|类型|描述|

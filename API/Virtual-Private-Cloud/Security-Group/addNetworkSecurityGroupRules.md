@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**networkSecurityGroupRuleSpecs**|[AddSecurityGroupRules[]](##AddSecurityGroupRules)|True||安全组规则信息|
+|**networkSecurityGroupRuleSpecs**|AddSecurityGroupRules[]|True||安全组规则信息|
 
 ### <a name="AddSecurityGroupRules">AddSecurityGroupRules</a>
 |名称|类型|是否必需|默认值|描述|

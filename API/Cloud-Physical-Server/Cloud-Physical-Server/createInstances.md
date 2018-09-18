@@ -36,14 +36,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clientToken**|String|False||由客户端生成，用于保证请求的幂等性，长度不能超过36个字符；<br/><br>如果多个请求使用了相同的clientToken，只会执行第一个请求，之后的请求直接返回第一个请求的结果<br/><br>|
-|**instanceSpec**|[InstanceSpec](##InstanceSpec)|True||描述云物理服务器配置|
+|**instanceSpec**|InstanceSpec|True||描述云物理服务器配置|
 
 ### <a name="InstanceSpec">InstanceSpec</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|True||可用区, 如 cn-east-1|
 |**bandwidth**|Integer|False||外网带宽, 范围[1,200] 单位Mbps|
-|**charge**|[ChargeSpec](##ChargeSpec)|True||计费配置|
+|**charge**|ChargeSpec|True||计费配置|
 |**cidr**|String|False||网络CIDR|
 |**count**|Integer|True||购买数量|
 |**dataRaidTypeId**|String|True||数据盘RAID类型ID|
@@ -56,7 +56,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**networkType**|String|True||网络类型，目前只支持basic|
 |**osTypeId**|String|True||操作系统类型ID|
 |**password**|String|True||密码|
-|**softwares**|[Software[]](##Software)|False|||
+|**softwares**|Software[]|False|||
 |**subnetId**|String|False||子网编号|
 |**sysRaidTypeId**|String|True||系统盘RAID类型ID|
 ### <a name="ChargeSpec">ChargeSpec</a>
@@ -77,7 +77,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

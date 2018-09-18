@@ -17,10 +17,10 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||cacheInstanceId -缓存实例Id，精确匹配，支持多个<br>cacheInstanceName - 缓存实例名称，模糊匹配，支持单个<br>cacheInstanceStatus - 缓存你实例状态，精确匹配，支持多个(running：运行，error：错误，creating：创建中，changing：变配中，deleting：删除中)<br>|
+|**filters**|Filter[]|False||cacheInstanceId -缓存实例Id，精确匹配，支持多个<br>cacheInstanceName - 缓存实例名称，模糊匹配，支持单个<br>cacheInstanceStatus - 缓存你实例状态，精确匹配，支持多个(running：运行，error：错误，creating：创建中，changing：变配中，deleting：删除中)<br>|
 |**pageNumber**|Integer|False||请求查询缓存实例的页码；默认为1|
 |**pageSize**|Integer|False||请求查询缓存实例的分页大小；默认为20；取值范围[10, 100]|
-|**sorts**|[Sort[]](##Sort)|False||createTime - 创建时间(asc：正序，desc：倒序)<br>|
+|**sorts**|Sort[]|False||createTime - 创建时间(asc：正序，desc：倒序)<br>|
 
 ### <a name="Sort">Sort</a>
 |名称|类型|是否必需|默认值|描述|
@@ -38,25 +38,25 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|本次查询请求的ID|
-|**result**|[Result](##Result)|查询缓存实例列表信息的结果|
+|**result**|Result|查询缓存实例列表信息的结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**cacheInstances**|[CacheInstance[]](##CacheInstance)|要查询目标缓存实例的信息。|
+|**cacheInstances**|CacheInstance[]|要查询目标缓存实例的信息。|
 |**totalCount**|Integer|查询到的缓存实例总个数。|
 ### <a name="CacheInstance">CacheInstance</a>
 |名称|类型|描述|
 |---|---|---|
-|**azId**|[AzId](##AzId)|az信息|
+|**azId**|AzId|az信息|
 |**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
 |**cacheInstanceDescription**|String|实例描述|
 |**cacheInstanceId**|String|实例ID|
 |**cacheInstanceMemoryMB**|Integer|容量，单位MB|
 |**cacheInstanceName**|String|实例名称|
 |**cacheInstanceStatus**|String|实例状态，running：运行，error：错误，creating：创建中，changing：变配中，deleting：删除中|
-|**charge**|[Charge](##Charge)|计费信息|
+|**charge**|Charge|计费信息|
 |**connectionDomain**|String|访问域名|
 |**createTime**|String|创建时间|
 |**instanceVersion**|String|实例版本|

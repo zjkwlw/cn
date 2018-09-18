@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**workflow**|[EmrWorkflow](##EmrWorkflow)|True|||
+|**workflow**|EmrWorkflow|True|||
 
 ### <a name="EmrWorkflow">EmrWorkflow</a>
 |名称|类型|是否必需|默认值|描述|
@@ -38,13 +38,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[Message](##Message)||
+|**data**|Message||
 |**message**|String||
 |**status**|String||
 ### <a name="Message">Message</a>
@@ -54,9 +54,9 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**data**|Object|数据|
 |**instanceId**|String||
 |**jobId**|String|作业ID|
-|**path**|[Path[]](##Path)||
+|**path**|Path[]||
 |**pipeline**|String||
-|**rect**|[Rect[]](##Rect)||
+|**rect**|Rect[]||
 |**result**|String|结果|
 |**source**|String||
 |**sourceParameterList**|String[]||

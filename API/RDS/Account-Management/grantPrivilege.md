@@ -19,7 +19,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**accountPrivileges**|[AccountPrivilege[]](##AccountPrivilege)|True||账号的访问权限|
+|**accountPrivileges**|AccountPrivilege[]|True||账号的访问权限|
 
 ### <a name="AccountPrivilege">AccountPrivilege</a>
 |名称|类型|是否必需|默认值|描述|
