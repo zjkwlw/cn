@@ -6,8 +6,10 @@
 
 设置原图保护的访问规则，如果原规则存在则覆盖原规则，配置了原图保护的访问规则即视为开启原图保护功能。
 
-请求语法
+请求语法:
+
 ```
+
 PUT /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
 Content-Length: ContentLength
@@ -20,6 +22,7 @@ Authorization: <Authorization_String>
   <Extension>extension1</Extension>   
   <Extension>extension2</Extension> 
 </Condition>
+
 ```
 
 请求Header
