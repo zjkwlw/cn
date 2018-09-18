@@ -6,6 +6,7 @@ PostObject使用HTML表单上传文件到指定bucket。
 ，[参见服务器域名](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md)。
 
 请求语法
+
 ```
 POST / HTTP/1.1
 Host: <bucket>.s3.<region>.jcloudcs.com

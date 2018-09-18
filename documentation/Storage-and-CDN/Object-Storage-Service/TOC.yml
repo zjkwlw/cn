@@ -160,7 +160,7 @@ items:
            - name: SDK-iOS
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md
            - name: CloudBerry
-             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry.md                
+             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry-1.md                
  - name: 旧版API
    items:
       - name: OSS API 简介
@@ -272,7 +272,7 @@ items:
       - name: 防盗链
         href: Best-Practices/Anti-leech.md         
       - name: 使用CloudBerry管理OSS
-        href: Best-Practices/CloudBerry.md 
+        href: Best-Practices/CloudBerry-2.md 
       - name: 生成预签名URL
         href: Best-Practices/Signature-In-URL-1.md
       - name: 跨域访问

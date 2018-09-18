@@ -9,7 +9,6 @@
 请求语法:
 
 ```
-
 PUT /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
 Content-Length: ContentLength
@@ -49,6 +48,7 @@ Authorization: <Authorization_String>
 4.如果bucket不存在，返回404，错误码：NoSuchBucket
 
 请求示例：
+
 ```
 PUT /?imgProtected HTTP/1.1
 Host: example-bucket.s3.cn-north-1.jcloudcs.com
@@ -61,6 +61,7 @@ Content-Length: 113
 ```
 
 返回示例：
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -76,6 +77,7 @@ Cache-Control: no-cache
 获取bucket原图保护的配置
 
 请求语法
+
 ```
 GET /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
