@@ -27,7 +27,9 @@ upload-tool.exe -r [区域代码] -f [备份文件本地路径] -k [上传key值
 |区域名称|区域代码|
 |-|-|
 |华北-北京|cn-north-1|
+|华东-宿迁|cn-east-1|
 |华东-上海|cn-east-2|
+|华南-广州|cn-south-1|
 
 **命令示例：** 将“z:/Backup/testdb.bak”这个备份文件上传到华北-北京区域。
 ```
