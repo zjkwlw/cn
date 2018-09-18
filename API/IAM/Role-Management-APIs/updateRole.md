@@ -17,7 +17,7 @@ https://iam.jdcloud-api.com/v1/role/{roleName}
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**updateRoleInfo**|[UpdateRoleInfo](##UpdateRoleInfo)|True||角色信息|
+|**updateRoleInfo**|UpdateRoleInfo|True||角色信息|
 
 ### <a name="UpdateRoleInfo">UpdateRoleInfo</a>
 |名称|类型|是否必需|默认值|描述|

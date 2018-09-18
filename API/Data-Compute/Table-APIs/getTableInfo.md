@@ -26,13 +26,13 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[DwTable](##DwTable)||
+|**data**|DwTable||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwTable">DwTable</a>
@@ -44,7 +44,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**dbName**|String|数据库名|
 |**encryption**|String|是否加密|
 |**hiveFileFormat**|String|文件存储类型|
-|**hiveObjectPrivileges**|[DwHiveObjectPrivileges](##DwHiveObjectPrivileges)|hive表权限信息|
+|**hiveObjectPrivileges**|DwHiveObjectPrivileges|hive表权限信息|
 |**id**|Integer|数据库id|
 |**lastUpdateTime**|String|最新更新时间|
 |**location**|String|位置|

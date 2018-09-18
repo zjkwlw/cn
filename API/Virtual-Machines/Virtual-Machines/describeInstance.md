@@ -24,20 +24,20 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**instance**|[Instance](##Instance)||
+|**instance**|Instance||
 ### <a name="Instance">Instance</a>
 |名称|类型|描述|
 |---|---|---|
-|**ag**|[Ag](##Ag)|高可用组，如果创建云主机使用了高可用组，此处可展示高可用组名称|
+|**ag**|Ag|高可用组，如果创建云主机使用了高可用组，此处可展示高可用组名称|
 |**az**|String|云主机所在可用区|
-|**charge**|[Charge](##Charge)|计费信息|
-|**dataDisks**|[InstanceDiskAttachment[]](##InstanceDiskAttachment)|数据盘配置|
+|**charge**|Charge|计费信息|
+|**dataDisks**|InstanceDiskAttachment[]|数据盘配置|
 |**description**|String|云主机描述|
 |**elasticIpAddress**|String|主网卡主IP绑定弹性IP的地址|
 |**elasticIpId**|String|主网卡主IP绑定弹性IP的ID|
@@ -48,13 +48,13 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**instanceType**|String|实例规格|
 |**keyNames**|String[]|密钥对名称|
 |**launchTime**|String|创建时间|
-|**primaryNetworkInterface**|[InstanceNetworkInterfaceAttachment](##InstanceNetworkInterfaceAttachment)|主网卡配置|
+|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|主网卡配置|
 |**privateIpAddress**|String|主网卡主IP地址|
-|**secondaryNetworkInterfaces**|[InstanceNetworkInterfaceAttachment[]](##InstanceNetworkInterfaceAttachment)|辅助网卡配置|
+|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|辅助网卡配置|
 |**status**|String|云主机状态，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>|
 |**subnetId**|String|主网卡所属子网的ID|
-|**systemDisk**|[InstanceDiskAttachment](##InstanceDiskAttachment)|系统盘配置|
-|**tags**|[Tag[]](##Tag)|Tag信息|
+|**systemDisk**|InstanceDiskAttachment|系统盘配置|
+|**tags**|Tag[]|Tag信息|
 |**vpcId**|String|主网卡所属VPC的ID|
 ### <a name="Ag">Ag</a>
 |名称|类型|描述|
@@ -73,16 +73,16 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |名称|类型|描述|
 |---|---|---|
 |**autoDelete**|Boolean|随云主机一起删除，删除主机时自动删除此磁盘，默认为true，本地盘(local)不能更改此值。<br>如果云主机中的数据盘(cloud)是包年包月计费方式，此参数不生效。<br>如果云主机中的数据盘(cloud)是共享型数据盘，此参数不生效。<br>|
-|**cloudDisk**|[Disk](##Disk)|云硬盘配置|
+|**cloudDisk**|Disk|云硬盘配置|
 |**deviceName**|String|数据盘逻辑挂载点，取值范围：vda,vdb,vdc,vdd,vde,vdf,vdg,vdh,vdi|
 |**diskCategory**|String|磁盘分类，取值为本地盘(local)或者数据盘(cloud)。<br>系统盘支持本地盘(local)或者云硬盘(cloud)。系统盘选择local类型，必须使用localDisk类型的镜像；同理系统盘选择cloud类型，必须使用cloudDisk类型的镜像。<br>数据盘仅支持云硬盘(cloud)。<br>|
-|**localDisk**|[LocalDisk](##LocalDisk)|本地磁盘配置|
+|**localDisk**|LocalDisk|本地磁盘配置|
 ### <a name="Disk">Disk</a>
 |名称|类型|描述|
 |---|---|---|
-|**attachments**|[DiskAttachment[]](##DiskAttachment)|挂载信息|
+|**attachments**|DiskAttachment[]|挂载信息|
 |**az**|String|云硬盘所属AZ|
-|**charge**|[Charge](##Charge)|云硬盘计费配置信息|
+|**charge**|Charge|云硬盘计费配置信息|
 |**createTime**|String|创建云硬盘时间|
 |**description**|String|云硬盘描述，允许输入UTF-8编码下的全部字符，不超过256字符。|
 |**diskId**|String|云硬盘ID|
@@ -92,7 +92,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**name**|String|云硬盘名称，只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符。|
 |**snapshotId**|String|创建该云硬盘的快照ID|
 |**status**|String|云硬盘状态，取值为 creating、available、in-use、extending、restoring、deleting、deleted、error_create、error_delete、error_restore、error_extend 之一|
-|**tags**|[Tag[]](##Tag)|Tag信息|
+|**tags**|Tag[]|Tag信息|
 ### <a name="DiskAttachment">DiskAttachment</a>
 |名称|类型|描述|
 |---|---|---|
@@ -117,16 +117,16 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |---|---|---|
 |**autoDelete**|Boolean|指明删除实例时是否删除网卡，默认true；当前只能是true|
 |**deviceIndex**|Integer|设备Index|
-|**networkInterface**|[InstanceNetworkInterface](##InstanceNetworkInterface)|网卡接口规范|
+|**networkInterface**|InstanceNetworkInterface|网卡接口规范|
 ### <a name="InstanceNetworkInterface">InstanceNetworkInterface</a>
 |名称|类型|描述|
 |---|---|---|
 |**macAddress**|String|以太网地址|
 |**networkInterfaceId**|String|弹性网卡ID|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|网卡主IP|
+|**primaryIp**|NetworkInterfacePrivateIp|网卡主IP|
 |**sanityCheck**|Integer|源和目标IP地址校验，取值为0或者1|
-|**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)|网卡辅IP|
-|**securityGroups**|[SecurityGroupSimple[]](##SecurityGroupSimple)||
+|**secondaryIps**|NetworkInterfacePrivateIp[]|网卡辅IP|
+|**securityGroups**|SecurityGroupSimple[]||
 |**subnetId**|String|子网ID|
 |**vpcId**|String|虚拟网络ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>

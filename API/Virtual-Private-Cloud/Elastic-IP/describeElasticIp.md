@@ -23,18 +23,18 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**elasticIp**|[ElasticIp](##ElasticIp)|elasticIp资源信息|
+|**elasticIp**|ElasticIp|elasticIp资源信息|
 ### <a name="ElasticIp">ElasticIp</a>
 |名称|类型|描述|
 |---|---|---|
 |**bandwidthMbps**|Integer|弹性ip的限速（单位：Mbps)|
-|**charge**|[Charge](##Charge)|计费配置|
+|**charge**|Charge|计费配置|
 |**createdTime**|String|弹性ip创建时间|
 |**elasticIpAddress**|String|弹性IP地址|
 |**elasticIpId**|String|弹性IP的Id|

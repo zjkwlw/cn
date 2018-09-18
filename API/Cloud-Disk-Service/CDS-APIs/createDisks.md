@@ -25,14 +25,14 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clientToken**|String|True||幂等性校验参数|
-|**diskSpec**|[DiskSpec](##DiskSpec)|True||创建云硬盘规格|
+|**diskSpec**|DiskSpec|True||创建云硬盘规格|
 |**maxCount**|Integer|True||购买实例数量；取值范围：[1,100]|
 
 ### <a name="DiskSpec">DiskSpec</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|True||云硬盘所属的可用区|
-|**charge**|[ChargeSpec](##ChargeSpec)|False||计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
+|**charge**|ChargeSpec|False||计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
 |**description**|String|False||云硬盘描述|
 |**diskSizeGB**|Integer|True||云硬盘大小，单位为 GiB，ssd 类型取值范围[20,1000]GB，步长为10G，premium-hdd 类型取值范围[20,3000]GB，步长为10G|
 |**diskType**|String|True||云硬盘类型，取值为ssd、premium-hdd之一|
@@ -50,7 +50,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|结果集|
+|**result**|Result|结果集|
 
 
 ### <a name="Result">Result</a>

@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clusterModel**|[ClusterModel](##ClusterModel)|True|||
+|**clusterModel**|ClusterModel|True|||
 
 ### <a name="ClusterModel">ClusterModel</a>
 |名称|类型|是否必需|默认值|描述|
@@ -46,7 +46,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

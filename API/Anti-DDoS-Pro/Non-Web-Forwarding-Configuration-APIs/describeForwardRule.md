@@ -24,13 +24,13 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[ForwardRule](##ForwardRule)||
+|**data**|ForwardRule||
 ### <a name="ForwardRule">ForwardRule</a>
 |名称|类型|描述|
 |---|---|---|
@@ -39,7 +39,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |**id**|Integer|规则id|
 |**instanceId**|Integer|实例id|
 |**onlineAddr**|String[]||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)||
+|**originAddr**|OriginAddrItem[]||
 |**originDomain**|String|回源域名|
 |**originPort**|Integer|回源端口号|
 |**originType**|String|回源类型：ip或者domain|

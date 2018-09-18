@@ -25,7 +25,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |名称|类型|描述|
 |---|---|---|
 |**regionId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

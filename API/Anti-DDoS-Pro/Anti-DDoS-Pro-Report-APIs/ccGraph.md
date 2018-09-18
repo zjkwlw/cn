@@ -27,7 +27,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:ccGraph
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

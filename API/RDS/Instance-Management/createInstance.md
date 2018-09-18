@@ -17,13 +17,13 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceSpec**|[DBInstanceSpec](##DBInstanceSpec)|True||新建实例规格|
+|**instanceSpec**|DBInstanceSpec|True||新建实例规格|
 
 ### <a name="DBInstanceSpec">DBInstanceSpec</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**azId**|String[]|True||可用区ID， 第一个ID必须为主实例所在的可用区。如两个可用区一样，也需输入两个azId|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|True||计费规格，包括计费类型，计费周期等|
+|**chargeSpec**|ChargeSpec|True||计费规格，包括计费类型，计费周期等|
 |**engine**|String|True||实例引擎类型，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|True||实例引擎版本，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceClass**|String|True||实例规格代码，可以通过[describeInstanceClasses](../instance/describeInstanceClasses.md)接口获取|
@@ -41,7 +41,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

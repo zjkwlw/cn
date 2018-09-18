@@ -18,14 +18,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceSpec**|[RestoredNewDBInstanceSpec](##RestoredNewDBInstanceSpec)|True||新建实例规格|
+|**instanceSpec**|RestoredNewDBInstanceSpec|True||新建实例规格|
 |**restoreTime**|String|True||根据源实例的哪个时间点创建新实例|
 
 ### <a name="RestoredNewDBInstanceSpec">RestoredNewDBInstanceSpec</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**azId**|String[]|True||可用区ID， 第一个ID必须为主实例所在的可用区。如两个可用区一样，也需输入两个azId|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|True||计费规格，包括计费类型，计费周期等|
+|**chargeSpec**|ChargeSpec|True||计费规格，包括计费类型，计费周期等|
 |**instanceClass**|String|True||实例规格代码，可以通过[describeInstanceClasses](../instance/describeInstanceClasses.md)接口获取|
 |**instanceName**|String|False||数据库实例名，名称的限制可参考[帮助中心文档](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instanceStorageGB**|Integer|True||磁盘大小，单位GB|
@@ -41,7 +41,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

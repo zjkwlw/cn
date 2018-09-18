@@ -27,17 +27,17 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**imageStyleQueryResult**|[ImageStyleQueryResult](##ImageStyleQueryResult)||
+|**imageStyleQueryResult**|ImageStyleQueryResult||
 ### <a name="ImageStyleQueryResult">ImageStyleQueryResult</a>
 |名称|类型|描述|
 |---|---|---|
-|**imageStyleList**|[ImageStyle[]](##ImageStyle)|图片样式列表|
+|**imageStyleList**|ImageStyle[]|图片样式列表|
 |**pageNumber**|Integer|数据页码|
 |**pageSize**|Integer|每页数据的条数|
 |**styleName**|String|按样式名称查询|

@@ -21,7 +21,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |---|---|---|---|---|
 |**az**|String|False||可用区，精确匹配|
 |**deviceType**|String|False||实例类型，精确匹配，调用接口（describeDeviceTypes）获取实例类型|
-|**filters**|[Filter[]](##Filter)|False||instanceId - 云物理服务器ID，精确匹配，支持多个<br>|
+|**filters**|Filter[]|False||instanceId - 云物理服务器ID，精确匹配，支持多个<br>|
 |**name**|String|False||云物理服务器名称，支持模糊匹配|
 |**networkType**|String|False||网络类型，精确匹配，目前只支持basic|
 |**pageNumber**|Integer|False|1|页码；默认为1|
@@ -39,13 +39,13 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**instances**|[Instance[]](##Instance)||
+|**instances**|Instance[]||
 |**pageNumber**|Integer|页码；默认为1|
 |**pageSize**|Integer|分页大小；默认为10；取值范围[10, 100]|
 |**totalCount**|Integer|查询结果总数|
@@ -54,7 +54,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |---|---|---|
 |**az**|String|可用区, 如 cn-east-1a|
 |**bandwidth**|Integer|带宽, 单位Mbps|
-|**charge**|[Charge](##Charge)|计费信息|
+|**charge**|Charge|计费信息|
 |**dataRaidType**|String|数据盘RAID类型, 如 NORAID, RAID0, RAID1|
 |**dataRaidTypeId**|String|数据盘RAID类型ID|
 |**description**|String|云物理服务器描述|

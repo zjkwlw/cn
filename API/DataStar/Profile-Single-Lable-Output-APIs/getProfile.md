@@ -26,7 +26,7 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/profile/getPro
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID，每次请求都不一样|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

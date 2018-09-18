@@ -6,7 +6,7 @@
 
 **操作步骤**
 
-1、登录[基础防护 控制台](https://console.jdcloud.com/host/vpc/list),选择网络->私有网络目录下，找到公网IP菜单。请您根据需要，申请购买需要的公网IP。
+1、登录[京东云 控制台](https://console.jdcloud.com/host/vpc/list),选择网络->私有网络目录下，找到公网IP菜单。请您根据需要，申请购买需要的公网IP。
 
 ![创建实例](../../../../image/Basic%20Anti-DDos/Instance01.png)
 

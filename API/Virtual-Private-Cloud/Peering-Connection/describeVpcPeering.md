@@ -23,20 +23,20 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**vpcPeering**|[VpcPeering](##VpcPeering)|VpcPeering资源信息|
+|**vpcPeering**|VpcPeering|VpcPeering资源信息|
 ### <a name="VpcPeering">VpcPeering</a>
 |名称|类型|描述|
 |---|---|---|
 |**createdTime**|String|VpcPeering创建时间|
 |**description**|String|VpcPeering 描述，可为空值，取值范围：0-256个中文、英文大小写的字母、数字和下划线分隔符|
-|**remoteVpcInfo**|[VpcPeeringVpcInfo](##VpcPeeringVpcInfo)|对端的Vpc信息|
-|**vpcInfo**|[VpcPeeringVpcInfo](##VpcPeeringVpcInfo)|发起VpcPeering的Vpc信息|
+|**remoteVpcInfo**|VpcPeeringVpcInfo|对端的Vpc信息|
+|**vpcInfo**|VpcPeeringVpcInfo|发起VpcPeering的Vpc信息|
 |**vpcPeeringId**|String|VpcPeering的Id|
 |**vpcPeeringName**|String|VpcPeering名称，同账号下不允许重名，取值范围：1-32个中文、英文大小写的字母、数字和下划线分隔符|
 |**vpcPeeringState**|String|状态，取值为Connected，Disconnected，Initiated|

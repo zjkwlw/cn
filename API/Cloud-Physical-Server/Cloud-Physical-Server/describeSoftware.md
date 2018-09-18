@@ -25,13 +25,13 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os/{osTypeId}/softwares
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**softwares**|[Software[]](##Software)||
+|**softwares**|Software[]||
 ### <a name="Software">Software</a>
 |名称|类型|描述|
 |---|---|---|

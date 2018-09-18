@@ -20,19 +20,21 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |---|---|---|---|---|
 |**pageNumber**|Integer|False||页码, 默认为1|
 |**pageSize**|Integer|False||分页大小, 默认为10, 取值范围[10, 100]|
+|**searchType**|String|False||查询类型名称, domain:源站域名, ip:源站 IP, port: 转发端口, originPort: 源站端口|
+|**searchValue**|String|False||查询类型值|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**dataList**|[ForwardRule[]](##ForwardRule)||
+|**dataList**|ForwardRule[]||
 |**totalCount**|Integer||
 ### <a name="ForwardRule">ForwardRule</a>
 |名称|类型|描述|
@@ -42,7 +44,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |**id**|Integer|规则id|
 |**instanceId**|Integer|实例id|
 |**onlineAddr**|String[]||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)||
+|**originAddr**|OriginAddrItem[]||
 |**originDomain**|String|回源域名|
 |**originPort**|Integer|回源端口号|
 |**originType**|String|回源类型：ip或者domain|

@@ -23,13 +23,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**subnet**|[Subnet](##Subnet)|子网资源信息|
+|**subnet**|Subnet|子网资源信息|
 ### <a name="Subnet">Subnet</a>
 |名称|类型|描述|
 |---|---|---|

@@ -23,13 +23,13 @@ https://monitor.jdcloud-api.com/v1/metrics
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**metrics**|[MetricDetail[]](##MetricDetail)||
+|**metrics**|MetricDetail[]||
 ### <a name="MetricDetail">MetricDetail</a>
 |名称|类型|描述|
 |---|---|---|

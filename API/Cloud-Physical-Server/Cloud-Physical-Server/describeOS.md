@@ -24,13 +24,13 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**oss**|[Os[]](##Os)||
+|**oss**|Os[]||
 ### <a name="Os">Os</a>
 |名称|类型|描述|
 |---|---|---|

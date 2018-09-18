@@ -23,13 +23,13 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[IpResourceInfo](##IpResourceInfo)||
+|**data**|IpResourceInfo||
 ### <a name="IpResourceInfo">IpResourceInfo</a>
 |名称|类型|描述|
 |---|---|---|

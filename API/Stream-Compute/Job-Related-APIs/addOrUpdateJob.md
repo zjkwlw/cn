@@ -17,7 +17,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**jobStr**|[JobStr](##JobStr)|True||创建作业的详情|
+|**jobStr**|JobStr|True||创建作业的详情|
 
 ### <a name="JobStr">JobStr</a>
 |名称|类型|是否必需|默认值|描述|
@@ -42,13 +42,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**okInfo**|[OkInfo](##OkInfo)|成功结果对象|
+|**okInfo**|OkInfo|成功结果对象|
 ### <a name="OkInfo">OkInfo</a>
 |名称|类型|描述|
 |---|---|---|

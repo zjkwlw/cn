@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**req**|[UpdateRR](##UpdateRR)|True||updateRR参数|
+|**req**|UpdateRR|True||updateRR参数|
 
 ### <a name="UpdateRR">UpdateRR</a>
 |名称|类型|是否必需|默认值|描述|

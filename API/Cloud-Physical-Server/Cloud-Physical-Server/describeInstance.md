@@ -23,19 +23,19 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**instance**|[Instance](##Instance)||
+|**instance**|Instance||
 ### <a name="Instance">Instance</a>
 |名称|类型|描述|
 |---|---|---|
 |**az**|String|可用区, 如 cn-east-1a|
 |**bandwidth**|Integer|带宽, 单位Mbps|
-|**charge**|[Charge](##Charge)|计费信息|
+|**charge**|Charge|计费信息|
 |**dataRaidType**|String|数据盘RAID类型, 如 NORAID, RAID0, RAID1|
 |**dataRaidTypeId**|String|数据盘RAID类型ID|
 |**description**|String|云物理服务器描述|

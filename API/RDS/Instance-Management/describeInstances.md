@@ -24,19 +24,19 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**dbInstances**|[DBInstance[]](##DBInstance)||
+|**dbInstances**|DBInstance[]||
 |**totalCount**|Integer||
 ### <a name="DBInstance">DBInstance</a>
 |名称|类型|描述|
 |---|---|---|
 |**azId**|String[]|可用区ID，第一个为主实例在的可用区，参见[地域及可用区对照表](../Enum-Definitions/Regions-AZ.md)|
-|**charge**|[Charge](##Charge)|计费配置|
+|**charge**|Charge|计费配置|
 |**createTime**|String|实例创建时间|
 |**engine**|String|实例引擎类型，如MySQL或SQL Server等，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|实例引擎版本，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|

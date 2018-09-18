@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**webRuleSpec**|[WebRuleSpec](##WebRuleSpec)|True||添加网站类规则请求参数|
+|**webRuleSpec**|WebRuleSpec|True||添加网站类规则请求参数|
 
 ### <a name="WebRuleSpec">WebRuleSpec</a>
 |名称|类型|是否必需|默认值|描述|
@@ -32,7 +32,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**httpsPort**|String|False||HTTPS协议的端口号，如443,8443，多个端口号使用逗号分隔|
 |**httpsRsaKey**|String|False||证书私钥|
 |**onlineAddr**|String[]|False|||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)|False|||
+|**originAddr**|OriginAddrItem[]|False|||
 |**originDomain**|String|False||回源域名,originType为CNAME时需要指定该字段|
 |**originType**|String|False||回源类型：A或者CNAME|
 |**port**|String|False||HTTP协议的端口号，如80,81，多个端口号使用逗号分隔|

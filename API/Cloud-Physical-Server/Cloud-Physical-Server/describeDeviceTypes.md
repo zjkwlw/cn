@@ -22,13 +22,13 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**deviceTypes**|[DeviceType[]](##DeviceType)||
+|**deviceTypes**|DeviceType[]||
 ### <a name="DeviceType">DeviceType</a>
 |名称|类型|描述|
 |---|---|---|

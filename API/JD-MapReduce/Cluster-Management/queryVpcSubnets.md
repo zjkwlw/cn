@@ -24,13 +24,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/vpcSubnets/{vpcId}:query
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[QueryVpcSubnets[]](##QueryVpcSubnets)|VPC子网信息集合|
+|**data**|QueryVpcSubnets[]|VPC子网信息集合|
 |**message**|String||
 |**status**|String||
 ### <a name="QueryVpcSubnets">QueryVpcSubnets</a>

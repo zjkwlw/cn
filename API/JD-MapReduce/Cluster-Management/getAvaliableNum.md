@@ -22,13 +22,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/avaliableNum
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[AvailableNumData](##AvailableNumData)|剩余可创建资源数|
+|**data**|AvailableNumData|剩余可创建资源数|
 |**message**|String||
 |**status**|String||
 ### <a name="AvailableNumData">AvailableNumData</a>

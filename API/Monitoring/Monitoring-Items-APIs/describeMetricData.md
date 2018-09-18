@@ -22,7 +22,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**resourceId**|String|True||资源的uuid|
 |**serviceCode**|String|True||资源的类型，取值vm, lb, ip, database 等|
 |**startTime**|String|False||查询时间范围的开始时间， UTC时间，格式：yyyy-MM-dd'T'HH:mm:ssZ（默认为当前时间，早于30d时，将被重置为30d）|
-|**tags**|[TagFilter[]](##TagFilter)|False||自定义标签|
+|**tags**|TagFilter[]|False||自定义标签|
 |**timeInterval**|String|False||时间间隔：1h，6h，12h，1d，3d，7d，14d，固定时间间隔，timeInterval 与 endTime 至少填一项|
 
 ### <a name="TagFilter">TagFilter</a>
@@ -35,18 +35,18 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**metricDatas**|[MetricData[]](##MetricData)||
+|**metricDatas**|MetricData[]||
 ### <a name="MetricData">MetricData</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[DataPoint[]](##DataPoint)||
-|**metric**|[Metric](##Metric)||
+|**data**|DataPoint[]||
+|**metric**|Metric||
 ### <a name="DataPoint">DataPoint</a>
 |名称|类型|描述|
 |---|---|---|

@@ -23,13 +23,13 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|查询的快照信息详情|
+|**result**|Result|查询的快照信息详情|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**snapshot**|[Snapshot](##Snapshot)||
+|**snapshot**|Snapshot||
 ### <a name="Snapshot">Snapshot</a>
 |名称|类型|描述|
 |---|---|---|

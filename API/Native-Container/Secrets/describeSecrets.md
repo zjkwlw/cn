@@ -19,7 +19,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||name - secret名称，支持模糊搜索<br>|
+|**filters**|Filter[]|False||name - secret名称，支持模糊搜索<br>|
 |**pageNumber**|Integer|False||页码；默认为1|
 |**pageSize**|Integer|False||分页大小；默认为20；取值范围[10, 100]|
 
@@ -34,19 +34,19 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**secrets**|[Secret[]](##Secret)||
+|**secrets**|Secret[]||
 |**totalCount**|Number||
 ### <a name="Secret">Secret</a>
 |名称|类型|描述|
 |---|---|---|
 |**createdAt**|String|创建时间|
-|**data**|[DockerRegistryData](##DockerRegistryData)|机密的数据|
+|**data**|DockerRegistryData|机密的数据|
 |**name**|String|机密数据名称|
 |**type**|String|私密数据的类型，目前仅支持如下类型：docker-registry：用来和docker registry认证的类型|
 ### <a name="DockerRegistryData">DockerRegistryData</a>

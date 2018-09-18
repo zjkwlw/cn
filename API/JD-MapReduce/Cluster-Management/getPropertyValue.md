@@ -22,13 +22,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/softwareStack
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[SoftStack](##SoftStack)|软件配置信息|
+|**data**|SoftStack|软件配置信息|
 |**message**|String||
 |**status**|String||
 ### <a name="SoftStack">SoftStack</a>
