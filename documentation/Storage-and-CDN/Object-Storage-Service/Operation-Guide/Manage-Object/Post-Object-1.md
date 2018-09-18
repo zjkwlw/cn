@@ -79,7 +79,7 @@
 
 安全及授权
 
-为了防止第三方未经授权向开发者的Bucket上传Object，OSS除了提供存储空间（Bucket）级别的访问权限控制，您也可以对文件和目录级别进行灵活的权限访问配置，详情请参见[访问权限设置](../../Operation-Guide/Manage-Bucket/Set-Bucket-Policy.md)。
+为了防止第三方未经授权向开发者的Bucket上传Object，OSS除了提供存储空间（Bucket）级别的访问权限控制，您也可以对文件和目录级别进行灵活的权限访问配置，详情请参见[访问权限设置](../../Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md)。
 
 为了授权给第三方上传，您可以使用PostPolicy方法，详情请参见[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object.md)。
 
@@ -110,5 +110,5 @@ Post请求的Policy表单域用于验证请求的合法性。例如可以指定�
 
 功能使用参考
 
-API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object.md)
+API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md)
 
