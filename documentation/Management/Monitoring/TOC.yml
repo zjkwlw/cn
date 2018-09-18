@@ -86,7 +86,7 @@ items:
   items:
   status: 0       
 - name: 常见问题
-href: FAQ/FAQ.md
+  href: FAQ/FAQ.md
 - name: API参考
   href:
 - name: SDK参考
@@ -99,7 +99,7 @@ href: FAQ/FAQ.md
   status: 0      
 - name: SLA         
   status: 0       
- - name: 备案         
-   status: 0        
+- name: 备案         
+  status: 0        
 - name: 词汇表          
   status: 0
