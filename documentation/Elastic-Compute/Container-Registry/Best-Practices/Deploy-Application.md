@@ -17,7 +17,7 @@ c、打开控制台，进入弹性计算-容器镜像仓库-镜像列表，点�
 
 二、跟Kubernetes集群集成
 
-      例：注册表为myregistry，镜像仓库为myrepo，镜像版本号为latest，地域选择华北-北京为cn-north-1。用户可根据具体情况修改。
+例：注册表为myregistry，镜像仓库为myrepo，镜像版本号为latest，地域选择华北-北京为cn-north-1。用户可根据具体情况修改。
 
 1.   保存secret，命名为my-secret：
 
@@ -37,32 +37,32 @@ spec:
   replicas: 2
 
   template:
-  	 
-      metadata:
-    
-      name: webapp
-
-      labels:
-
-        app: webapp
+  
+   metadata:
+      
+   name: webapp
+      
+   labels：
+   
+   app: webapp
         
    spec:
+   
+   containers:
+   
+   name: testsecret
+   
+   imagePullPolicy: Always
 
-      containers:
-
-      - name: testsecret
-
-        imagePullPolicy: Always
-
-        image: myregistry-cn-east-2.jcr.service.jdcloud.com/myrepo:latest
-
-        ports:
-
-          - containerPort: 80
-
-      imagePullSecrets:
-
-      - name: my-secret
+   image: myregistry-cn-east-2.jcr.service.jdcloud.com/myrepo:latest
+   
+   ports:
+   
+   containerPort: 80
+   
+   imagePullSecrets:
+   
+   name: my-secret
 
 3.   创建：kubectl create -f registrysecret
 
