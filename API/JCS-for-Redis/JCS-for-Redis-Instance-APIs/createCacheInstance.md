@@ -22,13 +22,13 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**cacheInstance**|[CacheInstanceSpec](##CacheInstanceSpec)|True||创建缓存实例的具体属性，包括所属私有网络ID(vpcId)、子网ID(subnetId)、缓存实例名称、缓存实例规格、缓存实例密码、缓存实例所在区域可用区ID信息和缓存实例描述。|
-|**charge**|[ChargeSpec](##ChargeSpec)|False||计费信息的相关配置。|
+|**cacheInstance**|CacheInstanceSpec|True||创建缓存实例的具体属性，包括所属私有网络ID(vpcId)、子网ID(subnetId)、缓存实例名称、缓存实例规格、缓存实例密码、缓存实例所在区域可用区ID信息和缓存实例描述。|
+|**charge**|ChargeSpec|False||计费信息的相关配置。|
 
 ### <a name="CacheInstanceSpec">CacheInstanceSpec</a>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**azId**|[AzIdSpec](##AzIdSpec)|True||缓存Redis实例所在区域可用区ID信息|
+|**azId**|AzIdSpec|True||缓存Redis实例所在区域可用区ID信息|
 |**cacheInstanceClass**|String|True||缓存redis实例规格代码，参见实例规格代码表<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>。|
 |**cacheInstanceDescription**|String|False||缓存Redis实例描述，不能超过256个字符|
 |**cacheInstanceName**|String|True||缓存redis实例名称，只支持数字、字母、英文下划线、中文，且不少于2字符不超过32字符|
@@ -51,7 +51,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|本次查询请求的ID。|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

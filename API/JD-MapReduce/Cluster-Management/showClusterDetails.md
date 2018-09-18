@@ -24,13 +24,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[ClusterDetailModel](##ClusterDetailModel)|对应集群的详细信息|
+|**data**|ClusterDetailModel|对应集群的详细信息|
 |**message**|String||
 |**status**|String||
 ### <a name="ClusterDetailModel">ClusterDetailModel</a>
@@ -42,7 +42,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**dataCenter**|String|地域，同regionID|
 |**duration**|String|运营时长|
 |**haFlag**|Boolean|是否为高可用模式|
-|**hardware**|[HardwareInfo[]](##HardwareInfo)||
+|**hardware**|HardwareInfo[]||
 |**id**|String|集群ID|
 |**jssFlag**|Boolean|是否关联对象存储|
 |**name**|String|集群名称，长度为6到32个字符，支持中文、数字、大小写字母、英文下划线“_”及中划线“-”|

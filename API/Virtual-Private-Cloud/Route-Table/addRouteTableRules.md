@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:add
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**routeTableRuleSpecs**|[AddRouteTableRules[]](##AddRouteTableRules)|True||安全组规则信息|
+|**routeTableRuleSpecs**|AddRouteTableRules[]|True||安全组规则信息|
 
 ### <a name="AddRouteTableRules">AddRouteTableRules</a>
 |名称|类型|是否必需|默认值|描述|

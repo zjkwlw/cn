@@ -23,13 +23,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**routeTable**|[RouteTable](##RouteTable)|路由表资源信息|
+|**routeTable**|RouteTable|路由表资源信息|
 ### <a name="RouteTable">RouteTable</a>
 |名称|类型|描述|
 |---|---|---|
@@ -37,7 +37,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}
 |**description**|String|路由表描述信息，允许输入UTF-8编码下的全部字符，不超过256字符。|
 |**routeTableId**|String|路由表ID|
 |**routeTableName**|String|路由表名称，只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符。|
-|**routeTableRules**|[RouteTableRule[]](##RouteTableRule)|路由表规则信息|
+|**routeTableRules**|RouteTableRule[]|路由表规则信息|
 |**routeTableType**|String|路由表类型，default：默认路由表，custom：自定义路由表|
 |**subnetIds**|String[]|路由表绑定的子网列表|
 |**vpcId**|String|私有网络ID|

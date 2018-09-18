@@ -19,7 +19,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:modify
 |---|---|---|---|---|
 |**day**|String|True||按照Cron格式的时间参数,占位day|
 |**hour**|String|True|0|按照Cron格式的时间参数,占位hour|
-|**jmrPlanViewModel**|[JmrPlanViewModel](##JmrPlanViewModel)|True||"需要传入字段: planId、jobIds、planName、planType、failurePolicy"<br>|
+|**jmrPlanViewModel**|JmrPlanViewModel|True||"需要传入字段: planId、jobIds、planName、planType、failurePolicy"<br>|
 |**minute**|String|True|0|按照Cron格式的时间参数,占位minute|
 |**month**|String|True||按照Cron格式的时间参数,占位month|
 |**time**|String|True||按照Cron格式的时间参数,占位time|
@@ -51,7 +51,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:modify
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

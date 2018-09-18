@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||networkInterfaceIds - 弹性网卡ID列表，支持多个<br>networkInterfaceNames - 弹性网卡名称列表，支持多个<br>vpcId - 弹性网卡所属vpc Id，支持单个<br>subnetId	- 弹性网卡所属子网Id，支持单个<br>role - 网卡角色，取值范围：Primary（主网卡）、Secondary（辅助网卡），支持单个<br>|
+|**filters**|Filter[]|False||networkInterfaceIds - 弹性网卡ID列表，支持多个<br>networkInterfaceNames - 弹性网卡名称列表，支持多个<br>vpcId - 弹性网卡所属vpc Id，支持单个<br>subnetId	- 弹性网卡所属子网Id，支持单个<br>role - 网卡角色，取值范围：Primary（主网卡）、Secondary（辅助网卡），支持单个<br>|
 |**pageNumber**|Integer|False|1|页码, 默认为1, 取值范围：[1,∞), 页码超过总页数时, 显示最后一页|
 |**pageSize**|Integer|False|20|分页大小，默认为20，取值范围：[10,100]|
 
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**networkInterfaces**|[NetworkInterface[]](##NetworkInterface)|networkInterface资源信息列表|
+|**networkInterfaces**|NetworkInterface[]|networkInterface资源信息列表|
 |**totalCount**|Number|总数量|
 ### <a name="NetworkInterface">NetworkInterface</a>
 |名称|类型|描述|
@@ -54,10 +54,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |**networkInterfaceId**|String|弹性网卡ID|
 |**networkInterfaceName**|String|弹性网卡名称|
 |**networkSecurityGroupIds**|String[]|安全组ID列表|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|网卡主IP|
+|**primaryIp**|NetworkInterfacePrivateIp|网卡主IP|
 |**role**|String|网卡角色，取值范围：Primary（主网卡）、Secondary（辅助网卡）|
 |**sanityCheck**|Integer|源和目标IP地址校验，取值为0或者1|
-|**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)|网卡附属IP列表|
+|**secondaryIps**|NetworkInterfacePrivateIp[]|网卡附属IP列表|
 |**subnetId**|String|子网ID|
 |**vpcId**|String|虚拟网络ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>

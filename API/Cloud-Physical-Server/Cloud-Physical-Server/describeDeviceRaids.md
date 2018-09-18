@@ -25,13 +25,13 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**raids**|[Raid[]](##Raid)||
+|**raids**|Raid[]||
 ### <a name="Raid">Raid</a>
 |名称|类型|描述|
 |---|---|---|

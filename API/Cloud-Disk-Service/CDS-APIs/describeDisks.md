@@ -18,10 +18,10 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||diskId - 云硬盘ID，精确匹配，支持多个<br>diskType - 云硬盘类型，精确匹配，支持多个，取值为 ssd 或 premium-hdd<br>instanceId - 云硬盘所挂载主机的ID，精确匹配，支持多个<br>instanceType - 云硬盘所挂载主机的类型，精确匹配，支持多个<br>status - 可用区，精确匹配，支持多个<br>az - 云硬盘状态，精确匹配，支持多个<br>name - 云硬盘名称，模糊匹配，支持单个<br>multiAttach - 云硬盘是否多点挂载，精确匹配，支持单个<br>|
+|**filters**|Filter[]|False||diskId - 云硬盘ID，精确匹配，支持多个<br>diskType - 云硬盘类型，精确匹配，支持多个，取值为 ssd 或 premium-hdd<br>instanceId - 云硬盘所挂载主机的ID，精确匹配，支持多个<br>instanceType - 云硬盘所挂载主机的类型，精确匹配，支持多个<br>status - 可用区，精确匹配，支持多个<br>az - 云硬盘状态，精确匹配，支持多个<br>name - 云硬盘名称，模糊匹配，支持单个<br>multiAttach - 云硬盘是否多点挂载，精确匹配，支持单个<br>|
 |**pageNumber**|Integer|False|1|页码, 默认为1, 取值范围：[1,∞)|
 |**pageSize**|Integer|False|20|分页大小，默认为20，取值范围：[10,100]|
-|**tags**|[TagFilter[]](##TagFilter)|False||Tag筛选条件|
+|**tags**|TagFilter[]|False||Tag筛选条件|
 
 ### <a name="Filter">Filter</a>
 |名称|类型|是否必需|默认值|描述|
@@ -39,20 +39,20 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|查询结果集|
+|**result**|Result|查询结果集|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**disks**|[Disk[]](##Disk)|查询的云硬盘信息详情列表|
+|**disks**|Disk[]|查询的云硬盘信息详情列表|
 |**totalCount**|Integer|查询的云硬盘数目|
 ### <a name="Disk">Disk</a>
 |名称|类型|描述|
 |---|---|---|
-|**attachments**|[DiskAttachment[]](##DiskAttachment)|挂载信息|
+|**attachments**|DiskAttachment[]|挂载信息|
 |**az**|String|云硬盘所属AZ|
-|**charge**|[Charge](##Charge)|云硬盘计费配置信息|
+|**charge**|Charge|云硬盘计费配置信息|
 |**createTime**|String|创建云硬盘时间|
 |**description**|String|云硬盘描述，允许输入UTF-8编码下的全部字符，不超过256字符。|
 |**diskId**|String|云硬盘ID|
@@ -62,7 +62,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**name**|String|云硬盘名称，只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符。|
 |**snapshotId**|String|创建该云硬盘的快照ID|
 |**status**|String|云硬盘状态，取值为 creating、available、in-use、extending、restoring、deleting、deleted、error_create、error_delete、error_restore、error_extend 之一|
-|**tags**|[Tag[]](##Tag)|Tag信息|
+|**tags**|Tag[]|Tag信息|
 ### <a name="DiskAttachment">DiskAttachment</a>
 |名称|类型|描述|
 |---|---|---|

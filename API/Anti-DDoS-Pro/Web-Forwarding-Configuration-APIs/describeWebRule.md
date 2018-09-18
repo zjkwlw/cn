@@ -24,13 +24,13 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[WebRule](##WebRule)||
+|**data**|WebRule||
 ### <a name="WebRule">WebRule</a>
 |名称|类型|描述|
 |---|---|---|
@@ -48,7 +48,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**id**|Integer|规则id|
 |**instanceId**|Integer|实例id|
 |**onlineAddr**|String[]||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)||
+|**originAddr**|OriginAddrItem[]||
 |**originDomain**|String|回源域名,originType为CNAME时返回该字段|
 |**originType**|String|回源类型：A或者CNAME|
 |**port**|String|HTTP协议的端口号，如80,81，多个端口号使用逗号分隔|

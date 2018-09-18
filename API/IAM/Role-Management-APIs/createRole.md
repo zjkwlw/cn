@@ -16,7 +16,7 @@ https://iam.jdcloud-api.com/v1/role
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**createRoleInfo**|[CreateRoleInfo](##CreateRoleInfo)|True||角色信息|
+|**createRoleInfo**|CreateRoleInfo|True||角色信息|
 
 ### <a name="CreateRoleInfo">CreateRoleInfo</a>
 |名称|类型|是否必需|默认值|描述|
@@ -31,13 +31,13 @@ https://iam.jdcloud-api.com/v1/role
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**roleInfo**|[RoleInfo](##RoleInfo)|角色信息|
+|**roleInfo**|RoleInfo|角色信息|
 
 
 ### <a name="RoleInfo">RoleInfo</a>
 |名称|类型|描述|
 |---|---|---|
-|**roleInfo**|[RoleInfo](##RoleInfo)||
+|**roleInfo**|RoleInfo||
 ### <a name="RoleInfo">RoleInfo</a>
 |名称|类型|描述|
 |---|---|---|

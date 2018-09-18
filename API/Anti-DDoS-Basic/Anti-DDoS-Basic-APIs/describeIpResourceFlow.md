@@ -25,18 +25,18 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[IpResourceFlow](##IpResourceFlow)||
+|**data**|IpResourceFlow||
 ### <a name="IpResourceFlow">IpResourceFlow</a>
 |名称|类型|描述|
 |---|---|---|
-|**bps**|[IpResourceFlowDetail](##IpResourceFlowDetail)||
-|**pps**|[IpResourceFlowDetail](##IpResourceFlowDetail)||
+|**bps**|IpResourceFlowDetail||
+|**pps**|IpResourceFlowDetail||
 ### <a name="IpResourceFlowDetail">IpResourceFlowDetail</a>
 |名称|类型|描述|
 |---|---|---|

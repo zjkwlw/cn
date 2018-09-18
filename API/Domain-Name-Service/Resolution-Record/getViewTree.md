@@ -27,17 +27,17 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[ViewTree[]](##ViewTree)|解析线路的树|
+|**data**|ViewTree[]|解析线路的树|
 ### <a name="ViewTree">ViewTree</a>
 |名称|类型|描述|
 |---|---|---|
-|**children**|[ViewTree[]](##ViewTree)||
+|**children**|ViewTree[]||
 |**disabled**|Boolean|此解析线路是否禁用|
 |**label**|String|解析线路的名称|
 |**leaf**|Boolean|此数据是否是叶子节点|

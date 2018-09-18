@@ -18,7 +18,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clientToken**|String|True||幂等性校验参数，最长32位，值不变则返回值不会变|
-|**createAlarmSpec**|[CreateAlarmSpec](##CreateAlarmSpec)|True|||
+|**createAlarmSpec**|CreateAlarmSpec|True|||
 
 ### <a name="CreateAlarmSpec">CreateAlarmSpec</a>
 |名称|类型|是否必需|默认值|描述|
@@ -40,7 +40,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

@@ -17,7 +17,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**backupSpec**|[BackupSpec](##BackupSpec)|False||备份规格|
+|**backupSpec**|BackupSpec|False||备份规格|
 |**instanceId**|String|False||RDS实例ID，唯一标识一个实例|
 
 ### <a name="BackupSpec">BackupSpec</a>
@@ -29,7 +29,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

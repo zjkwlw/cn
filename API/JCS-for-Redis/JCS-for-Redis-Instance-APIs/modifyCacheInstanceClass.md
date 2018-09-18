@@ -27,7 +27,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|本次变更请求的ID|
-|**result**|[Result](##Result)|本次请求的结果信息。|
+|**result**|Result|本次请求的结果信息。|
 
 
 ### <a name="Result">Result</a>

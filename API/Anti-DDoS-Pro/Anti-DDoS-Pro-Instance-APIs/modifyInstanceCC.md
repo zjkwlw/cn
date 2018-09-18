@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setC
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**cCSpec**|[CCSpec](##CCSpec)|True||CC 参数|
+|**cCSpec**|CCSpec|True||CC 参数|
 
 ### <a name="CCSpec">CCSpec</a>
 |名称|类型|是否必需|默认值|描述|

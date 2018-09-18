@@ -22,13 +22,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/executingJob:list
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[JmrPlanViewModel[]](##JmrPlanViewModel)|执行计划列表|
+|**data**|JmrPlanViewModel[]|执行计划列表|
 |**message**|String||
 |**status**|String||
 ### <a name="JmrPlanViewModel">JmrPlanViewModel</a>

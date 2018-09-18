@@ -23,17 +23,17 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**serviceCodeList**|[ServiceCodeMetrics[]](##ServiceCodeMetrics)||
+|**serviceCodeList**|ServiceCodeMetrics[]||
 ### <a name="ServiceCodeMetrics">ServiceCodeMetrics</a>
 |名称|类型|描述|
 |---|---|---|
-|**metrics**|[MetricDetail[]](##MetricDetail)||
+|**metrics**|MetricDetail[]||
 |**serviceCode**|String||
 ### <a name="MetricDetail">MetricDetail</a>
 |名称|类型|描述|

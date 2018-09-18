@@ -22,13 +22,13 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/instanceClass
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**instanceClasses**|[InstanceClass[]](##InstanceClass)||
+|**instanceClasses**|InstanceClass[]||
 |**totalCount**|Integer||
 ### <a name="InstanceClass">InstanceClass</a>
 |名称|类型|描述|

@@ -17,8 +17,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**jmrPlanViewModel**|[JmrPlanViewModel](##JmrPlanViewModel)|True||需要传入的字段： az、planName、planType、planStatus|
-|**selectParams**|[SelectParams](##SelectParams)|False||搜索条件的可选参数|
+|**jmrPlanViewModel**|JmrPlanViewModel|True||需要传入的字段： az、planName、planType、planStatus|
+|**selectParams**|SelectParams|False||搜索条件的可选参数|
 
 ### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
 |名称|类型|是否必需|默认值|描述|
@@ -53,7 +53,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

@@ -22,13 +22,13 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwInstance
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[DwInstance[]](##DwInstance)||
+|**data**|DwInstance[]||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwInstance">DwInstance</a>

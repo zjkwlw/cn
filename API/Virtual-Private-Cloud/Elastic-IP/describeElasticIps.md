@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||elasticIpIds - elasticip id数组条件，支持多个<br>elasticIpAddress - eip的IP地址，支持单个<br>chargeStatus	- eip的费用支付状态,normal(正常状态) or overdue(预付费已到期) or arrear(欠费状态)，支持单个<br>|
+|**filters**|Filter[]|False||elasticIpIds - elasticip id数组条件，支持多个<br>elasticIpAddress - eip的IP地址，支持单个<br>chargeStatus	- eip的费用支付状态,normal(正常状态) or overdue(预付费已到期) or arrear(欠费状态)，支持单个<br>|
 |**pageNumber**|Integer|False|1|页码, 默认为1, 取值范围：[1,∞), 页码超过总页数时, 显示最后一页|
 |**pageSize**|Integer|False|20|分页大小，默认为20，取值范围：[10,100]|
 
@@ -32,19 +32,19 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**elasticIps**|[ElasticIp[]](##ElasticIp)|elasticIp资源信息列表|
+|**elasticIps**|ElasticIp[]|elasticIp资源信息列表|
 |**totalCount**|Integer|总数量|
 ### <a name="ElasticIp">ElasticIp</a>
 |名称|类型|描述|
 |---|---|---|
 |**bandwidthMbps**|Integer|弹性ip的限速（单位：Mbps)|
-|**charge**|[Charge](##Charge)|计费配置|
+|**charge**|Charge|计费配置|
 |**createdTime**|String|弹性ip创建时间|
 |**elasticIpAddress**|String|弹性IP地址|
 |**elasticIpId**|String|弹性IP的Id|

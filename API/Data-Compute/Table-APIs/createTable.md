@@ -17,7 +17,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dbModelDBTable**|[DwTableDesc](##DwTableDesc)|True||数据表描述信息|
+|**dbModelDBTable**|DwTableDesc|True||数据表描述信息|
 |**instanceName**|String|True||实例名称|
 
 ### <a name="DwTableDesc">DwTableDesc</a>
@@ -33,7 +33,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |**otherSerdeProperties**|Object|False||其他serde属性|
 |**owner**|String|False||所有者（自动生成）|
 |**parameters**|Object|False||参数|
-|**rows**|[DwTableRow[]](##DwTableRow)|False||列信息|
+|**rows**|DwTableRow[]|False||列信息|
 |**tableName**|String|False||表名|
 ### <a name="DwTableRow">DwTableRow</a>
 |名称|类型|是否必需|默认值|描述|
@@ -47,7 +47,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

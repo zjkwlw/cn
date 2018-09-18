@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**updateMonitor**|[UpdateMonitor](##UpdateMonitor)|True||监控项设置信息|
+|**updateMonitor**|UpdateMonitor|True||监控项设置信息|
 
 ### <a name="UpdateMonitor">UpdateMonitor</a>
 |名称|类型|是否必需|默认值|描述|

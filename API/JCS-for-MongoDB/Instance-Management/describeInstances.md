@@ -17,10 +17,10 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||instanceId - 实例ID, 精确匹配<br>instanceName - 实例名称, 模糊匹配<br>instanceStatus - mongodb状态，精确匹配，支持多个.RUNNING：运行, ERROR：错误 ,BUILDING：创建中, DELETING：删除中, RESTORING：恢复中, RESIZING：变配中<br>chargeMode - 计费类型，精确匹配<br>|
+|**filters**|Filter[]|False||instanceId - 实例ID, 精确匹配<br>instanceName - 实例名称, 模糊匹配<br>instanceStatus - mongodb状态，精确匹配，支持多个.RUNNING：运行, ERROR：错误 ,BUILDING：创建中, DELETING：删除中, RESTORING：恢复中, RESIZING：变配中<br>chargeMode - 计费类型，精确匹配<br>|
 |**pageNumber**|Integer|False||页码；默认为1，取值范围：[1,∞)|
 |**pageSize**|Integer|False||分页大小；默认为10；取值范围[1, 100]|
-|**sorts**|[Sort[]](##Sort)|False||createTime - 创建时间,asc（正序），desc（倒序）<br>|
+|**sorts**|Sort[]|False||createTime - 创建时间,asc（正序），desc（倒序）<br>|
 
 ### <a name="Filter">Filter</a>
 |名称|类型|是否必需|默认值|描述|
@@ -38,13 +38,13 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**dbInstances**|[DBInstance[]](##DBInstance)||
+|**dbInstances**|DBInstance[]||
 |**pageNumber**|Integer||
 |**totalCount**|Integer||
 ### <a name="DBInstance">DBInstance</a>
@@ -53,7 +53,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**accountName**|String|默认用户名|
 |**azId**|String[]|可取区ID，依次为主、从、隐藏节点所在可用区|
 |**backupRetentionPeriod**|Integer|自动备份保留时间|
-|**charge**|[Charge](##Charge)|计费信息|
+|**charge**|Charge|计费信息|
 |**createTime**|String|创建时间|
 |**dBName**|String|默认库名|
 |**engine**|String|数据库类型|

@@ -19,7 +19,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dataDisks**|[InstanceDiskAttribute[]](##InstanceDiskAttribute)|False||云硬盘列表|
+|**dataDisks**|InstanceDiskAttribute[]|False||云硬盘列表|
 
 ### <a name="InstanceDiskAttribute">InstanceDiskAttribute</a>
 |名称|类型|是否必需|默认值|描述|

@@ -17,7 +17,7 @@ https://iam.jdcloud-api.com/v1/role/{roleName}/assumeRolePolicy
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**updateAssumeRolePolicyInfo**|[UpdateAssumeRolePolicyInfo](##UpdateAssumeRolePolicyInfo)|True||角色权限信息|
+|**updateAssumeRolePolicyInfo**|UpdateAssumeRolePolicyInfo|True||角色权限信息|
 
 ### <a name="UpdateAssumeRolePolicyInfo">UpdateAssumeRolePolicyInfo</a>
 |名称|类型|是否必需|默认值|描述|

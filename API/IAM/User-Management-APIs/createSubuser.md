@@ -17,7 +17,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**createSubUserInfo**|[CreateSubUserInfo](##CreateSubUserInfo)|True||子账号信息|
+|**createSubUserInfo**|CreateSubUserInfo|True||子账号信息|
 
 ### <a name="CreateSubUserInfo">CreateSubUserInfo</a>
 |名称|类型|是否必需|默认值|描述|

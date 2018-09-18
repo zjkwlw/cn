@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:createAndExecute
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**jmrJobViewModel**|[JmrJobViewModel](##JmrJobViewModel)|True||需要传入clusterId、jobName、jobType、location、jobArgs、retryTimes、isSendMsg|
+|**jmrJobViewModel**|JmrJobViewModel|True||需要传入clusterId、jobName、jobType、location、jobArgs、retryTimes、isSendMsg|
 
 ### <a name="JmrJobViewModel">JmrJobViewModel</a>
 |名称|类型|是否必需|默认值|描述|
@@ -49,7 +49,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:createAndExecute
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

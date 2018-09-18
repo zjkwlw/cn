@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**certInfoDescribeSpec**|[CertInfoDescribeSpec](##CertInfoDescribeSpec)|True||查询证书预览请求参数|
+|**certInfoDescribeSpec**|CertInfoDescribeSpec|True||查询证书预览请求参数|
 
 ### <a name="CertInfoDescribeSpec">CertInfoDescribeSpec</a>
 |名称|类型|是否必需|默认值|描述|
@@ -30,13 +30,13 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[CertInfo](##CertInfo)||
+|**data**|CertInfo||
 ### <a name="CertInfo">CertInfo</a>
 |名称|类型|描述|
 |---|---|---|

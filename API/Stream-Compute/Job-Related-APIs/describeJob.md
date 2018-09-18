@@ -25,13 +25,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**jobStr**|[JobStr](##JobStr)||
+|**jobStr**|JobStr||
 ### <a name="JobStr">JobStr</a>
 |名称|类型|描述|
 |---|---|---|
