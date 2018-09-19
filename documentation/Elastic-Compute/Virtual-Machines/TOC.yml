@@ -14,7 +14,7 @@ items:
       - name: 产品功能
         href: Introduction/Features.md
       - name: 实例规格类型
-        href: Introduction/Application-Scenarios.md
+        href: Introduction/Instance-Type-Family.md
       - name: 限制说明
         href: Introduction/Restrictions.md
       - name: 应用场景
@@ -219,24 +219,21 @@ items:
         href: Best-Practices/Storage.md
       - name: 备份与恢复
         href: Best-Practices/Backup-and-Restore.md
-      - name: 教程
-        status: 0
+      - name: Linux运维指南
         items:
-          - name: Linux运维指南
-            items:
-              - name: Linux环境配置
-                items:
-                  - name: FTP服务的安装与配置
-                    href: Linux-Troubleshooting/Configuration-Class/FTP-service-installation-and-configuration.md
-                  - name: ubuntu系统更换软件安装源
-                    href: Linux-Troubleshooting/Configuration-Class/Ubuntu-system-replacement-software-installation-source.md
-                  - name: Centos安装配置vncserver
-                    href: Linux-Troubleshooting/Configuration-Class/Centos-installation-configuration-vncserver.md
-                  - name: Centos7安装图形界面
-                    href: Linux-Troubleshooting/Configuration-Class/Centos7-installation-graphical-interface.md
-                  - name: 内网NTP服务
-                    href: Linux-Troubleshooting/Configuration-Class/Intranet-NTP-service.md
-                  - name: Linux系统升级时不升内核操作
+         - name: Linux环境配置
+           items:
+              - name: FTP服务的安装与配置
+                href: Linux-Troubleshooting/Configuration-Class/FTP-service-installation-and-configuration.md
+              - name: ubuntu系统更换软件安装源
+                href: Linux-Troubleshooting/Configuration-Class/Ubuntu-system-replacement-software-installation-source.md
+              - name: Centos安装配置vncserver
+                href: Linux-Troubleshooting/Configuration-Class/Centos-installation-configuration-vncserver.md
+              - name: Centos7安装图形界面
+                href: Linux-Troubleshooting/Configuration-Class/Centos7-installation-graphical-interface.md
+              - name: 内网NTP服务
+                href: Linux-Troubleshooting/Configuration-Class/Intranet-NTP-service.md
+              - name: Linux系统升级时不升内核操作
                     href: Linux-Troubleshooting/Configuration-Class/Linux-operation-is-not-upgraded-when-upgrading-Linux-system.md
                   - name: Linux系统配置SNAT
                     href: Linux-Troubleshooting/Configuration-Class/Linux-system-configuration-SNAT.md
@@ -486,12 +483,3 @@ items:
                         href: Windows-Troubleshooting/Fault-Class/Windows2012-ie-browser-can-not-open.md
                       - name: Windows2016安装.net3.5报错
                         href: Windows-Troubleshooting/Fault-Class/Windows2016-installation-net-5-error.md
-                  - name: API参考
-                    href:
-                  - name: SDK参考
-                    href:
-                  - name: FAQ
-                    href:
-                  - name: 相关资源
-                    status: 0
-                    items:

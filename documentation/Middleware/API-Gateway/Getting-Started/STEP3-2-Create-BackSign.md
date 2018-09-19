@@ -10,6 +10,6 @@
 
 ## 操作步骤
 
-- [配置后端签名步骤说明](../Operation-Guide/Create-BackSign/Create-BackSign.md)
+* [配置后端签名步骤说明](../Operation-Guide/Create-BackSign/Create-BackSign.md)
 
   

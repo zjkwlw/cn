@@ -29,7 +29,7 @@ items:
     - name: 入门指南概述
       href: Getting-Started/getting-started-overview.md
     - name: 查看资源监控图表
-      href: Getting-Started/view-resource-monitoring-chart.md
+      href: Getting-Started/view-cloud-resource-monitoring-chart.md
     - name: 设置报警规则
       href: Getting-Started/set-alarm-rules.md
     - name: 使用Dashboard
@@ -57,7 +57,7 @@ items:
         - name: 查看资源监控图表
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: 对资源设置监控报警
-          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md      
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md    
     - name: 自定义监控
       href: Getting-Started/custom-monitoring.md  
       items:
@@ -75,10 +75,10 @@ items:
           href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
 - name: 最佳实践
   items:
-      - name: 批量资源监控
-        href: Best-Practices/bulk-resource-monitoring.md
-      - name: 日常业务监控
-        href: Best-Practices/business-monitoring.md
+    - name: 批量资源监控
+      href: Best-Practices/bulk-resource-monitoring.md
+    - name: 日常业务监控
+      href: Best-Practices/daily-business-monitoring.md
 - name: 教程
   items:
   status: 0

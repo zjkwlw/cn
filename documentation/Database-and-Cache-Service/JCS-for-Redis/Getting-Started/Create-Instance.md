@@ -1,4 +1,4 @@
-﻿# 创建实例
+# 创建实例
 
 您可以在Redis控制台或者API新建Redis实例，关于实例的计费说明请参见“[价格总览](../Pricing/Price-Overview.md)”、“[计费规则](../Pricing/Billing-Rules.md)”。
 
@@ -12,7 +12,7 @@
 1. 登录 [Redis 控制台](https://redis-console.jdcloud.com/redis)。
 
 2. 在“实例列表”页面，点击“创建”按钮，跳转到新建实例页。
-   ![创建实例](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/create-redis-instance.PNG)
+   ![创建实例](https://github.com/jdcloudcom/cn/blob/master/image/Redis/create-redis-instance.PNG)
 
 3. 在新建实例页选择付费方式、地域、规格、网络、部署方案、基本信息、购买量等信息
 
