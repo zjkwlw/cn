@@ -62,7 +62,7 @@ v1
 |**modifyInstanceCC**|POST|设置实例 CC 防护|
 |**modifyInstanceIpBlackList**|POST|设置实例 IP 黑名单|
 |**modifyInstanceIpWhiteList**|POST|设置实例 IP 白名单|
-|**modifyInstanceName**|POST|更新实例名称|
+|**modifyInstanceName**|POST|修改实例名称|
 |**modifyInstanceUrlWhiteList**|POST|设置实例 Url 白名单|
 |**modifyWebRule**|PATCH|更新网站类规则|
 |**setCcIpLimit**|POST|设置实例 CC 防护每 IP 限速|

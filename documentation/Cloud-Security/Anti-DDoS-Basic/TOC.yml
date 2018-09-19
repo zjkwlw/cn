@@ -12,9 +12,10 @@ items:
     - name: 产品优势
       href: Introduction/Benefits.md
     - name: 产品功能
-      href: Introduction/Functions.md
+      href: Introduction/Features.md
     - name: 产品规格
       href: Introduction/Specification.md
+      status: 0
     - name: 限制说明
       href: Introduction/Restrictions.md
     - name: 应用场景 

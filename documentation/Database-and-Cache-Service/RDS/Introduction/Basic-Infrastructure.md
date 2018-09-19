@@ -3,11 +3,11 @@
 
 ## 单可用区部署
 
-![5a9e4356N131f1eb3 (1).png](https://img1.jcloudcs.com/cms/a8b79d24-7f2b-44a5-85ff-178fd000c71320180319132608.png)
+![5a9e4356N131f1eb3.png](https://img1.jcloudcs.com/cms/a8b79d24-7f2b-44a5-85ff-178fd000c71320180319132608.png)
 
 ## 多可用区部署
 
-![5a9e4352N63d77d0d (1).png](https://img1.jcloudcs.com/cms/26880449-0a8f-4d26-a0ab-0fc8da77828420180319132619.png)
+![5a9e4352N63d77d0d.png](https://img1.jcloudcs.com/cms/26880449-0a8f-4d26-a0ab-0fc8da77828420180319132619.png)
 
 ## 架构解析
 * DNS：域名解析服务，在内网我们是通过域名方式访问云数据库 RDS 实例。

@@ -41,15 +41,6 @@
         href: FAQ/Resource-FAQ.md
       - name: JDBC链接常见问题
         href: FAQ/JDBC-Connection-FAQ.md
-  - name: API参考
-    href:
-    Status:0
-  - name: SDK参考
-    href:
-    Status:0
-  - name: 相关资源
-    items:
-    Status:0
   - name: 文档历史记录
     href: Related-Resources/Document-History.md     
   - name: 服务条款
@@ -63,4 +54,4 @@
     status: 0        
   - name: 词汇表
     href: Related-Resources/Glossary.md           
-    status: 0       
+    status: 0  

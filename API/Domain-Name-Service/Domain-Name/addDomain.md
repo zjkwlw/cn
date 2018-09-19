@@ -30,15 +30,15 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[Domain](##Domain)|新添加的的域名结构|
+|**data**|Domain|新添加的的域名结构|
 |**order**|String|添加收费版域名的订单号|
-### <a name="Domain">Domain</a>
+### Domain
 |名称|类型|描述|
 |---|---|---|
 |**createTime**|Integer|创建时间，格式Unix timestamp|

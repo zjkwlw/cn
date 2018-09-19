@@ -12,9 +12,9 @@ items:
   - name: 产品优势
     href: Introduction/Benefits.md
   - name: 产品功能
-    href: Introduction/Functions.md
+    href: Introduction/Features.md
   - name: 产品规格
-    href: Introduction/Specification.md
+    href: Introduction/Specifications.md
   - name: 限制说明
     href: Introduction/Restrictions.md
   - name: 应用场景 
@@ -58,7 +58,7 @@ items:
 - name: 问题排查
   items:
   - name: JMR问题排查说明
-    href: Troubleshooting/Instructions.md
+    href: Troubleshooting/Troubleshooting-Instructions.md
 - name: 常见问题
   href: FAQ/FAQ.md
 - name: API参考

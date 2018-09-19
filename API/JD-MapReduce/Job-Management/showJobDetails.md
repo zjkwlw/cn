@@ -24,16 +24,16 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[JmrJobViewModel](##JmrJobViewModel)||
+|**data**|JmrJobViewModel||
 |**message**|String||
 |**status**|String||
-### <a name="JmrJobViewModel">JmrJobViewModel</a>
+### JmrJobViewModel
 |名称|类型|描述|
 |---|---|---|
 |**clusterId**|String|集群ID|

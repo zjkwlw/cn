@@ -22,10 +22,10 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:getBack
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**backupBinlog**|String|是否备份binlog<br>true:表示备份<br>false:表示不备份<br> - **SQL Server不支持**<br>- **MySQL支持**|

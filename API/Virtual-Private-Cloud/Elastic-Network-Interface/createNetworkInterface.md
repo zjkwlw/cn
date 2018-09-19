@@ -32,10 +32,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**networkInterfaceId**|String|弹性网卡Id|

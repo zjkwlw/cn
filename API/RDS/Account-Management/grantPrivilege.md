@@ -19,9 +19,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**accountPrivileges**|[AccountPrivilege[]](##AccountPrivilege)|True||账号的访问权限|
+|**accountPrivileges**|AccountPrivilege[]|True||账号的访问权限|
 
-### <a name="AccountPrivilege">AccountPrivilege</a>
+### AccountPrivilege
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**dbName**|String|False||数据库名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|

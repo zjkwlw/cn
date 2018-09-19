@@ -13,8 +13,6 @@
         href: Introduction/Benefits.md
       - name: 产品功能
         href: Introduction/Features.md
-      - name: 产品规格
-        href: Introduction/Specifications.md
       - name: 限制说明
         href: Introduction/Restrictions.md
       - name: 应用场景 
@@ -36,7 +34,7 @@
       - name: 创建资源
         href: Getting-Started/Create-Resource.md
       - name: 生产和消费消息
-        href: Getting-Started/Produce-And-Consumer-Message.md
+        href: Getting-Started/Produce-And-Consume-Message.md
       - name: 公网访问方法
         href: Getting-Started/Public-Internet-Access.md
   - name: 操作指南
@@ -73,7 +71,9 @@
     items:
     status: 0     
   - name: 常见问题
-    href: FAQ/FAQ.md
+    items:
+      - name: 计费概述
+        href: FAQ/FAQ.md
   - name: API参考
     href:
   - name: SDK参考

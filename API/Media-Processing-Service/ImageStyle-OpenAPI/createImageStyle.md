@@ -34,14 +34,14 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**imageStyleID**|[ImageStyleID](##ImageStyleID)||
-### <a name="ImageStyleID">ImageStyleID</a>
+|**imageStyleID**|ImageStyleID||
+### ImageStyleID
 |名称|类型|描述|
 |---|---|---|
 |**id**|Integer|图片样式ID|

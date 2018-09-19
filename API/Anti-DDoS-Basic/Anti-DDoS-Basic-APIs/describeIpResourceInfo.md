@@ -23,14 +23,14 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[IpResourceInfo](##IpResourceInfo)||
-### <a name="IpResourceInfo">IpResourceInfo</a>
+|**data**|IpResourceInfo||
+### IpResourceInfo
 |名称|类型|描述|
 |---|---|---|
 |**blackHoleThreshold**|Integer|黑洞阈值，单位bps|

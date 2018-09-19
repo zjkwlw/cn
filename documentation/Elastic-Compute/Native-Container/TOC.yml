@@ -88,11 +88,7 @@
     - name: 容器实例创建失败
       href: Troubleshoot/Fault-Problem.md  
   - name: 常见问题
-    href: Common-Problem.md
-  - name: API参考
-    href: API.md      
-  - name: SDK参考
-    href: SDK.md          
+    href: Common-Problem.md       
   - name: 相关资源
     items:
     - name: 文档历史记录

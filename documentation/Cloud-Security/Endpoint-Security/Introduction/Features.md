@@ -2,7 +2,7 @@
 
 ###  主机安全功能
 
-![img](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/01-intr-functions.png?raw=true)
+![01-intr-functions.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/01-intr-functions.png?raw=true)
 
 #### 防暴力破解
 

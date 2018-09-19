@@ -17,11 +17,11 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceStatus
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||instanceId - 云主机ID，精确匹配，支持多个<br>privateIpAddress - 主网卡内网主IP地址，模糊匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 云主机状态，精确匹配，支持多个，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a><br>name - 云主机名称，模糊匹配，支持单个<br>imageId - 镜像ID，精确匹配，支持多个<br>networkInterfaceId - 弹性网卡ID，精确匹配，支持多个<br>subnetId - 子网ID，精确匹配，支持多个<br>|
+|**filters**|Filter[]|False||instanceId - 云主机ID，精确匹配，支持多个<br>privateIpAddress - 主网卡内网主IP地址，模糊匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 云主机状态，精确匹配，支持多个，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a><br>name - 云主机名称，模糊匹配，支持单个<br>imageId - 镜像ID，精确匹配，支持多个<br>networkInterfaceId - 弹性网卡ID，精确匹配，支持多个<br>subnetId - 子网ID，精确匹配，支持多个<br>|
 |**pageNumber**|Integer|False|1|页码；默认为1|
 |**pageSize**|Integer|False|20|分页大小；默认为20；取值范围[10, 100]|
 
-### <a name="Filter">Filter</a>
+### Filter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True||过滤条件的名称|
@@ -32,15 +32,15 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceStatus
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**instanceStatuses**|[InstanceStatus[]](##InstanceStatus)||
+|**instanceStatuses**|InstanceStatus[]||
 |**totalCount**|Number||
-### <a name="InstanceStatus">InstanceStatus</a>
+### InstanceStatus
 |名称|类型|描述|
 |---|---|---|
 |**instanceId**|String|云主机ID|

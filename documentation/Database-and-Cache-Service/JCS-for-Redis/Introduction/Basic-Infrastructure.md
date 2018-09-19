@@ -3,6 +3,7 @@
 云数据库缓存 Redis 版自动搭建好主备双节点供用户使用。
 
 
+
 ![redis架构图](https://github.com/jdcloudcom/cn/blob/master//image/Redis/redis-basicInfras.png)
 
 

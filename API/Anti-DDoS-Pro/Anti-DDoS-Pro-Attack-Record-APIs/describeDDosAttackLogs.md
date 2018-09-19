@@ -28,17 +28,17 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ddos
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|当前页数量|
-|**dataList**|[DDosAttackLog[]](##DDosAttackLog)||
+|**dataList**|DDosAttackLog[]||
 |**totalCount**|Integer|实例总数|
 |**totalPage**|Integer|总页数|
-### <a name="DDosAttackLog">DDosAttackLog</a>
+### DDosAttackLog
 |名称|类型|描述|
 |---|---|---|
 |**attackTraffic**|Number|攻击流量大小|

@@ -19,8 +19,6 @@
       herf: Introduction/Restrictions.md
     - name: 应用场景 
       herf: Introduction/Application-Scenarios.md        
-  - name: 常见问题
-    href: FAQ/FAQ.md
   - name: API参考
     href: 
     status: 0

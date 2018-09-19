@@ -15,6 +15,7 @@ items:
       herf: Introduction/Features.md
     - name: 产品规格
       herf: Introduction/Specifications.md
+      status: 0
     - name: 限制说明
       herf: Introduction/Restrictions.md
     - name: 应用场景 
@@ -37,7 +38,7 @@ items:
     - name: 概述
       herf: Getting-Started/Getting-Started.md
     - name: 创建API分组
-      herf: Getting-Started/STEP1-Create -APIGroup.md
+      herf: Getting-Started/STEP1-Create-APIGroup.md
     - name: 创建API
       herf: Getting-Started/STEP2-Create-API.md
     - name: 自定义域名

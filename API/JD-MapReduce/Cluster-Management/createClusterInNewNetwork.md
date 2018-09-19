@@ -17,9 +17,9 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clusterModel**|[ClusterModel](##ClusterModel)|True|||
+|**clusterModel**|ClusterModel|True|||
 
-### <a name="ClusterModel">ClusterModel</a>
+### ClusterModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bandwidth**|Integer|False|5|网络带宽上限|
@@ -46,10 +46,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**message**|String||
