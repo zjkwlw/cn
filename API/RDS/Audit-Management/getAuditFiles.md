@@ -22,13 +22,13 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:g
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**auditFiles**|[AuditFile[]](##AuditFile)||
+|**auditFiles**|AuditFile[]||
 ### <a name="AuditFile">AuditFile</a>
 |名称|类型|描述|
 |---|---|---|

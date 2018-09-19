@@ -27,14 +27,14 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|当前页面报警信息的个数|
-|**dataList**|[MonitorAlarmInfo[]](##MonitorAlarmInfo)|当前页面的报警信息的数组|
+|**dataList**|MonitorAlarmInfo[]|当前页面的报警信息的数组|
 |**totalCount**|Integer|所有报警信息的个数|
 |**totalPage**|Integer|所有报警信息的页数|
 ### <a name="MonitorAlarmInfo">MonitorAlarmInfo</a>

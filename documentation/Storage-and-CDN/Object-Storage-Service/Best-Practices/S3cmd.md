@@ -27,7 +27,7 @@ git clone https://github.com/s3tools/s3cmd.git
 ```
 **源码修改**
 
-使用V4签名，不使用V2签名，从https://github.com/s3tools/s3cmd.git下载后进入以下目录。
+使用V4签名，不使用V2签名，从https://github.com/s3tools/s3cmd.git 下载后进入以下目录。
 
 文件目录：s3cmd/S3/S3.py，其中第254行修改为：self.endpoint_requires_signature_v4 = True
 
@@ -211,7 +211,7 @@ Commands：
     <td>Synchronize a directory tree to S3 (checks files freshness using size and md5 checksum, unless overridden by options, see below)<br>s3cmd sync LOCAL_DIR s3://BUCKET[/PREFIX] or s3://BUCKET[/PREFIX] LOCAL_DIR<br>注：不会自动同步，需要自己输入这条命令来同步一个目录。</td>
 </tr>
 <tr>
-    <td>Sign an S3 URL to provide limited public access with expiry s3cmd signurl<br>s3://BUCKET/OBJECT <expiry_epoch|+expiry_offset></td>
+    <td>Sign an S3 URL to provide limited public access with expiry <br>s3cmd signurl s3://BUCKET/OBJECT &lt expiry_epoch|+expiry_offset &gt </td>
 </tr>
 </table>
 

@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**req**|[AddRR](##AddRR)|True||RR参数|
+|**req**|AddRR|True||RR参数|
 
 ### <a name="AddRR">AddRR</a>
 |名称|类型|是否必需|默认值|描述|
@@ -37,13 +37,13 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**dataList**|[RR](##RR)|添加成功后的解析记录结果|
+|**dataList**|RR|添加成功后的解析记录结果|
 ### <a name="RR">RR</a>
 |名称|类型|描述|
 |---|---|---|

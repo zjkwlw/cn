@@ -22,24 +22,24 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail/{taskId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### <a name="Result">Result</a>
 |名称|类型|描述|
 |---|---|---|
-|**thumbnailTask**|[ThumbnailTask](##ThumbnailTask)||
+|**thumbnailTask**|ThumbnailTask| |
 ### <a name="ThumbnailTask">ThumbnailTask</a>
 |名称|类型|描述|
 |---|---|---|
 |**createdTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|错误码 (readonly)|
 |**lastUpdatedTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)||
+|**rule**|ThumbnailTaskRule||
+|**source**|ThumbnailTaskSource||
 |**status**|String|状态 (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)||
+|**target**|ThumbnailTaskTarget||
 |**taskID**|String|任务ID (readonly)|
 ### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
 |名称|类型|描述|

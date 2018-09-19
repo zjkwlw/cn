@@ -1,6 +1,3 @@
----
-title:Core-Concepts
-
 # 核心概念
 
 

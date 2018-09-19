@@ -2,7 +2,7 @@
 
 
 ## 描述
-查看RDS实例备份策略。根据数据库类型的不同，支持的备份策略也略有差异，具体请看返回参数中的详细说明<br>- 仅支持SQL Server
+查看RDS实例备份策略。根据数据库类型的不同，支持的备份策略也略有差异，具体请看返回参数中的详细说明
 
 ## 请求方式
 POST
@@ -22,7 +22,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:getBack
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

@@ -19,7 +19,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/job/{jobId}:l
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**planId**|String|True||定时任务ID|
-|**selectParams**|[SelectParams](##SelectParams)|False||搜索条件，可选参数|
+|**selectParams**|SelectParams|False||搜索条件，可选参数|
 
 ### <a name="SelectParams">SelectParams</a>
 |名称|类型|是否必需|默认值|描述|
@@ -33,7 +33,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/job/{jobId}:l
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

@@ -25,7 +25,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

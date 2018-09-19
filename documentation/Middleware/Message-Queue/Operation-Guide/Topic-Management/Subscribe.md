@@ -19,6 +19,7 @@ I. Consumer Group ID为全局唯一，如果有相同名称的Consumer Group ID�
 II. Consumer Group ID 和topic的关系是多对多关系（N：M），同一个Consumer Group ID可以订阅多个topic，同一个topic可以对应多个Consumer Group ID。  
 III. 选择发送消息的类型，包括SDK和 Http两种方式。  
 IV. 订阅者tag的规则说明：tag是消息订阅者对于消息的筛选，当订阅者设置了tag时，有相同tag的消息才能被订阅者消费，如果没有设置tag，则订阅者对消息不做筛选。单个标签为不超过64个字符的字符串，以‘,’号分割。
+
 - 对于消息1，没有消息tag，订阅者有tag，则该订阅者不匹配，收不消息；
 - 对于消息2， 消息有tag， 订阅者没有tag，投递时消息不用匹配，订阅者都能收到消息；
 - 对于消息3，消息有tag，订阅者也有tag的时候，两者匹配的，才能收到消息；
