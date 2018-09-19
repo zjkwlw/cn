@@ -43,9 +43,8 @@ http://opencdn.jcloud.com/api/live/permitStream
 
 - ###  返回示例
 
-•        json格式
+* json格式
 
-```
 {
   "status": 0,
   "msg": "成功",
