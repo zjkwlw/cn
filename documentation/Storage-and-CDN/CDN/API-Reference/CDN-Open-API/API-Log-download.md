@@ -85,13 +85,13 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
         {
             "domain": "www.a.com",
             "urls": [
-                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/ www.a.com /20171019.zip?Expires=1508753731&AccessKey=ImtdrS1VXMdkph&Signature=2br%2B5KwRY5Nk5YvLp7%2BfAwsQVAM%10D"
+                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/www.a.com/20171019.zip?Expires=1508753731&AccessKey=ImtdrS1VXMdkph&Signature=2br%2B5KwRY5Nk5YvLp7%2BfAwsQVAM%10D"
             ]
         },
         {
             "domain": " www.b.com ",
             "urls": [
-                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/ www.b.com /20171019.zip?Expires=1508753731&AccessKey=ImtsrS1VXMfeikph&Signature=HdM1weVHJbHuS%2FEiZm82o9GrZSY%6D"
+                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/www.b.com/20171019.zip?Expires=1508753731&AccessKey=ImtsrS1VXMfeikph&Signature=HdM1weVHJbHuS%2FEiZm82o9GrZSY%6D"
             ]
         }
     ]
