@@ -28,7 +28,7 @@ items:
   - name: 最佳实践
     items:
     - name: 主机安全最近实践
-      href: Best-Practices/Endpoint Security.md
+      href: Best-Practices/Endpoint-Security.md
   - name: 教程
     items:
     status: 0       
