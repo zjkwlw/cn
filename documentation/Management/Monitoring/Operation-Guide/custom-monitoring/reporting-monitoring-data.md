@@ -77,51 +77,31 @@ errMetricData |string |错误数据
 [
         {
             "namespace":"test",
-
             "metric":"vm.mem.usage1",
-
             "tags":{
-
                 "host":"1.2.3.23",
-
                 "datacenter":"cn-north-1 "
             },
-
              "timestamp":15305424971,
-
              "type":1,
-
              "values":{
-
              "value":"12342213"        
-
             }
         },
 
         {
             "namespace":"test1",
-
             "metric":"vm.cpu.usage",
-
             "dimensions":{
-
                 "host":"1.2.3.19",
-
                 "tag":"bj "
             },
-
              "timestamp":1530542497,
-
              "type":2,
-
              "values":{
-
              "avg":"80",
-
              "max":"32424244120"
-
             }
-
         }
 ]
 ```
@@ -132,69 +112,42 @@ errMetricData |string |错误数据
 success：
 
 {
-
     "requestId": "1111",
-
     "result": {
-
         "success": true,
-
         "metricDataList": []
     }
 }
-
 fail：
-
 {
    "requestId": "1111",
-
     "result": {
-
         "success": false,
-
         "metricDataList": [
-
             {
-
                 "data": {
-
                     "namespace": "test",
-
                     "metric": "vm.mem.usage1",
-
                     "dimensions": {
-
                         "host": "1.2.3.23",
-
                         "tag": "cn-north-1"
-
                     },
 
                     "timestamp": 15305424971,
-
                     "type": 1,
-
                     "values": {
-
                         "value": "12342213"
-
                     }
-
                 },
-
                 "errDetail": "Time value only allowed Secondtimestamps,length is 10"
             }
         ]
     },
 
     "error": {
-
         "code": 400,
-
         "message": "INVALID_ARGUMENT",
-
         "status": "INVALID_ARGUMENT",
-
         "details": null
     }
 }
