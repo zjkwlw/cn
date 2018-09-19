@@ -75,9 +75,7 @@ errMetricData |string |错误数据
 请求示例
 ```
 [
-
         {
-
             "namespace":"test",
 
             "metric":"vm.mem.usage1",
@@ -87,7 +85,6 @@ errMetricData |string |错误数据
                 "host":"1.2.3.23",
 
                 "datacenter":"cn-north-1 "
-
             },
 
              "timestamp":15305424971,
@@ -99,11 +96,9 @@ errMetricData |string |错误数据
              "value":"12342213"        
 
             }
-
         },
 
         {
-
             "namespace":"test1",
 
             "metric":"vm.cpu.usage",
@@ -113,7 +108,6 @@ errMetricData |string |错误数据
                 "host":"1.2.3.19",
 
                 "tag":"bj "
-
             },
 
              "timestamp":1530542497,
@@ -129,11 +123,11 @@ errMetricData |string |错误数据
             }
 
         }
-
 ]
 ```
 
-返回示例
+#### 返回示例
+
 ```
 success：
 
@@ -146,16 +140,13 @@ success：
         "success": true,
 
         "metricDataList": []
-
     }
-
 }
 
 fail：
 
 {
-
-    "requestId": "1111",
+   "requestId": "1111",
 
     "result": {
 
@@ -192,11 +183,8 @@ fail：
                 },
 
                 "errDetail": "Time value only allowed Secondtimestamps,length is 10"
-
             }
-
         ]
-
     },
 
     "error": {
@@ -208,8 +196,6 @@ fail：
         "status": "INVALID_ARGUMENT",
 
         "details": null
-
     }
-
 }
 ```
