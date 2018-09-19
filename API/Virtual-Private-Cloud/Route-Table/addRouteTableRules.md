@@ -20,7 +20,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:add
 |---|---|---|---|---|
 |**routeTableRuleSpecs**|AddRouteTableRules[]|True||安全组规则信息|
 
-### <a name="AddRouteTableRules">AddRouteTableRules</a>
+### AddRouteTableRules
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**addressPrefix**|String|True||匹配地址前缀, internet类型路由跟其他类型的路由，addressPrefix不允许重复|

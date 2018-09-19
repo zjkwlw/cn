@@ -29,7 +29,7 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/profile/getPro
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|String|Map<String, Map<String,String>>序列化后的字符串，需要再次转换并使用。Key为对应的deviceId，value为对应的画像标签内容,value内map的key为画像的标签code，value为画像对应的值|

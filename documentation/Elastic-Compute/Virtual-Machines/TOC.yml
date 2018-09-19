@@ -14,7 +14,7 @@ items:
       - name: 产品功能
         href: Introduction/Features.md
       - name: 实例规格类型
-        href: Introduction/Instance-Type-Family.md
+        href: Introduction/Application-Scenarios.md
       - name: 限制说明
         href: Introduction/Restrictions.md
       - name: 应用场景

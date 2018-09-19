@@ -31,11 +31,11 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**thumbnailQuery**|ThumbnailQuery||
-### <a name="ThumbnailQuery">ThumbnailQuery</a>
+### ThumbnailQuery
 |名称|类型|描述|
 |---|---|---|
 |**begin**|String|查询开始时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’|
@@ -46,7 +46,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**status**|String|状态 (SUCCESS, ERROR, PENDDING, RUNNING)|
 |**taskList**|ThumbnailTask[]|返回的task列表 (readonly)|
 |**truncated**|Boolean|指明返回数据是否被截断. true表示本页后面还有数据, 即数据未全部返回; false表示已是最后一页, 即数据已全部返回 (readonly)|
-### <a name="ThumbnailTask">ThumbnailTask</a>
+### ThumbnailTask
 |名称|类型|描述|
 |---|---|---|
 |**createdTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
@@ -57,7 +57,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**status**|String|状态 (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
 |**target**|ThumbnailTaskTarget||
 |**taskID**|String|任务ID (readonly)|
-### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
+### ThumbnailTaskRule
 |名称|类型|描述|
 |---|---|---|
 |**count**|Integer|截图数量, mode=single时不可选. default:1|
@@ -65,12 +65,12 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**keyFrame**|Boolean|是否开启关键帧截图 default: true|
 |**mode**|String|截图模式 单张: single 多张: multi 平均: average default: single|
 |**startTimeInSecond**|Integer|生成截图的开始时间, mode=average 时不可选. default:0|
-### <a name="ThumbnailTaskSource">ThumbnailTaskSource</a>
+### ThumbnailTaskSource
 |名称|类型|描述|
 |---|---|---|
 |**bucket**|String|输入视频信息的 bucket|
 |**key**|String|输入视频信息的 Key|
-### <a name="ThumbnailTaskTarget">ThumbnailTaskTarget</a>
+### ThumbnailTaskTarget
 |名称|类型|描述|
 |---|---|---|
 |**destBucket**|String|输入存放目标文件的 bucket|

@@ -21,13 +21,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |**elasticIpSpec**|ElasticIpSpec|True||弹性ip规格|
 |**maxCount**|Integer|True||购买弹性ip数量；取值范围：[1,100]|
 
-### <a name="ElasticIpSpec">ElasticIpSpec</a>
+### ElasticIpSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|True||弹性公网IP的限速（单位：Mbps），取值范围为[1-200]|
 |**chargeSpec**|ChargeSpec|False||计费配置|
 |**provider**|String|True||IP服务商，取值为bgp或no_bgp，cn-north-1：bgp；cn-south-1：[bgp，no_bgp]；cn-east-1：[bgp，no_bgp]；cn-east-2：bgp|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||预付费计费时长，预付费必填，当chargeMode取值为prepaid_by_duration时有效。当chargeUnit为month时取值为：1~9，当chargeUnit为year时取值为：1、2、3|
@@ -40,7 +40,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |**result**|Result|返回结果|
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**elasticIpIds**|String[]|弹性IP ID列表|

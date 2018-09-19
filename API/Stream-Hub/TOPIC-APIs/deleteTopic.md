@@ -27,7 +27,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/topic
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**message**|String|状态信息|

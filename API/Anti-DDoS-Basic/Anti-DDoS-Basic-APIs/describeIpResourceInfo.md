@@ -26,11 +26,11 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|IpResourceInfo||
-### <a name="IpResourceInfo">IpResourceInfo</a>
+### IpResourceInfo
 |名称|类型|描述|
 |---|---|---|
 |**blackHoleThreshold**|Integer|黑洞阈值，单位bps|

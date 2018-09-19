@@ -26,17 +26,17 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**buckets**|Bucket[]||
 |**owner**|User||
-### <a name="Bucket">Bucket</a>
+### Bucket
 |名称|类型|描述|
 |---|---|---|
 |**creationDate**|String||
 |**name**|String||
-### <a name="User">User</a>
+### User
 |名称|类型|描述|
 |---|---|---|
 |**displayName**|String||

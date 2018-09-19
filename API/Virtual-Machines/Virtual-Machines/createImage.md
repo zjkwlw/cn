@@ -26,7 +26,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |**description**|String|True||镜像描述，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
 |**name**|String|True||镜像名称，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
 
-### <a name="InstanceDiskAttachmentSpec">InstanceDiskAttachmentSpec</a>
+### InstanceDiskAttachmentSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False||是否随云主机一起删除，即删除主机时是否自动删除此磁盘，默认为true，本地盘(local)不能更改此值。<br>如果云主机中的数据盘(cloud)是包年包月计费方式，此参数不生效。<br>如果云主机中的数据盘(cloud)是共享型数据盘，此参数不生效。<br>|
@@ -34,7 +34,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |**deviceName**|String|False||数据盘逻辑挂载点，取值范围：vda,vdb,vdc,vdd,vde,vdf,vdg,vdh,vdi|
 |**diskCategory**|String|False||磁盘分类，取值为本地盘(local)或者云硬盘(cloud)。<br>系统盘支持本地盘(local)或者云硬盘(cloud)。系统盘选择local类型，必须使用localDisk类型的镜像；同理系统盘选择cloud类型，必须使用cloudDisk类型的镜像。<br>数据盘仅支持云硬盘(cloud)。<br>|
 |**noDevice**|Boolean|False||排除设备，使用此参数noDevice配合deviceName一起使用。<br>创建整机镜像：如deviceName:vdb、noDevice:true，则表示云主机中的数据盘vdb不参与创建镜像。<br>创建模板：如deviceName:vdb、noDevice:true，则表示镜像中的数据盘vdb不参与创建主机。<br>创建主机：如deviceName:vdb、noDevice:true，则表示镜像中的数据盘vdb，或者模板(使用模板创建主机)中的数据盘vdb不参与创建主机。<br>|
-### <a name="DiskSpec">DiskSpec</a>
+### DiskSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|True||云硬盘所属的可用区|
@@ -45,7 +45,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |**multiAttachable**|Boolean|False||云硬盘是否支持一盘多主机挂载，默认为false（不支持）|
 |**name**|String|True||云硬盘名称|
 |**snapshotId**|String|False||用于创建云硬盘的快照ID|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||预付费计费时长，预付费必填，当chargeMode取值为prepaid_by_duration时有效。当chargeUnit为month时取值为：1~9，当chargeUnit为year时取值为：1、2、3|
@@ -59,7 +59,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**imageId**|String|镜像ID|

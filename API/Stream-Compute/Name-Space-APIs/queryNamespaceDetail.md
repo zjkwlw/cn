@@ -27,11 +27,11 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**namespace**|Namespace|查询出的namespace对象|
-### <a name="Namespace">Namespace</a>
+### Namespace
 |名称|类型|描述|
 |---|---|---|
 |**createTime**|String||

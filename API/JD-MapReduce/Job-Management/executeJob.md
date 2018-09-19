@@ -20,7 +20,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 |**clusterId**|String|True||集群ID|
 |**jmrTaskViewModel**|JmrTaskViewModel|True||"需要传入参数: jobId、planId、workflowId、workflowInstanceId"<br>|
 
-### <a name="JmrTaskViewModel">JmrTaskViewModel</a>
+### JmrTaskViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**dataCenter**|String|False||数据中心，即regionId|
@@ -45,7 +45,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|String||

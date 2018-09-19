@@ -19,7 +19,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:modify
 |---|---|---|---|---|
 |**jmrJobViewModel**|JmrJobViewModel|True||需要传入clusterId、jobName、jobType、location、jobArgs、retryTimes、isSendMsg|
 
-### <a name="JmrJobViewModel">JmrJobViewModel</a>
+### JmrJobViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clusterId**|String|False||集群ID|
@@ -52,7 +52,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:modify
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**message**|String||

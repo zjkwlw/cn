@@ -20,7 +20,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rena
 |---|---|---|---|---|
 |**instanceSpec**|InstanceSpec|True||修改实例名称请求参数, 只需提供 InstanceSpec 的 name 字段|
 
-### <a name="InstanceSpec">InstanceSpec</a>
+### InstanceSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bp**|Integer|False||保底带宽：单位Gbps|

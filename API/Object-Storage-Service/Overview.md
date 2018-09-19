@@ -2,7 +2,8 @@
 
 
 ## 简介
-对象存储API，主要包含查询Bucket列表，创建Bucket, 删除Bucket，查询Bucket是否存在
+对象存储API，主要包含查询Bucket列表，创建Bucket, 删除Bucket，查询Bucket是否存在, 更多API见：https://www.jdcloud.com/help/detail/1901/isCatalog/1
+
 
 ### 版本
 v1

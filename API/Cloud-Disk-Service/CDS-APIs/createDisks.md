@@ -28,7 +28,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**diskSpec**|DiskSpec|True||创建云硬盘规格|
 |**maxCount**|Integer|True||购买实例数量；取值范围：[1,100]|
 
-### <a name="DiskSpec">DiskSpec</a>
+### DiskSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|True||云硬盘所属的可用区|
@@ -39,7 +39,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**multiAttachable**|Boolean|False||云硬盘是否支持一盘多主机挂载，默认为false（不支持）|
 |**name**|String|True||云硬盘名称|
 |**snapshotId**|String|False||用于创建云硬盘的快照ID|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||预付费计费时长，预付费必填，当chargeMode取值为prepaid_by_duration时有效。当chargeUnit为month时取值为：1~9，当chargeUnit为year时取值为：1、2、3|
@@ -53,7 +53,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**result**|Result|结果集|
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**diskIds**|String[]|创建的云硬盘ID列表|

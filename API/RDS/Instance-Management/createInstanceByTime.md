@@ -21,7 +21,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |**instanceSpec**|RestoredNewDBInstanceSpec|True||新建实例规格|
 |**restoreTime**|String|True||根据源实例的哪个时间点创建新实例|
 
-### <a name="RestoredNewDBInstanceSpec">RestoredNewDBInstanceSpec</a>
+### RestoredNewDBInstanceSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**azId**|String[]|True||可用区ID， 第一个ID必须为主实例所在的可用区。如两个可用区一样，也需输入两个azId|
@@ -31,7 +31,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |**instanceStorageGB**|Integer|True||磁盘大小，单位GB|
 |**subnetId**|String|True||子网ID|
 |**vpcId**|String|True||VPC的ID|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||预付费计费时长，预付费必填，当chargeMode取值为prepaid_by_duration时有效。当chargeUnit为month时取值为：1~9，当chargeUnit为year时取值为：1、2、3|
@@ -44,7 +44,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**instanceId**|String|新创建的实例ID|

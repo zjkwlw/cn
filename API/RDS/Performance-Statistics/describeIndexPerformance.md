@@ -30,7 +30,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**indexPerformanceResult**|IndexPerformanceResult[]|当queryType为Missing时，该字段为空<br>当queryType为其他值时，返回IndexPerformanceResult|
@@ -38,7 +38,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**pageNumber**|Integer|当前数据的页码|
 |**pageSize**|Integer|每页显示的数据条数|
 |**totalCount**|Integer|总记录条数|
-### <a name="IndexPerformanceResult">IndexPerformanceResult</a>
+### IndexPerformanceResult
 |名称|类型|描述|
 |---|---|---|
 |**db**|String|数据库名|
@@ -51,7 +51,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**userScans**|Integer|服务器启动以来，累计表扫描次数|
 |**userSeeks**|Integer|服务器启动以来，累计索引搜索次数|
 |**userUpdates**|Integer|服务器启动以来，累计索引更新次数|
-### <a name="MissingIndexResult">MissingIndexResult</a>
+### MissingIndexResult
 |名称|类型|描述|
 |---|---|---|
 |**avgUserImpact**|Number|实现此缺失索引后，用户查询可能获得的平均百分比收益。 该值表示如果实现此缺失索引，则查询成本将按此百分比平均下降。|

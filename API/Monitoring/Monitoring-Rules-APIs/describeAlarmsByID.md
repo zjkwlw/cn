@@ -26,11 +26,11 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**alarm**|Alarm||
-### <a name="Alarm">Alarm</a>
+### Alarm
 |名称|类型|描述|
 |---|---|---|
 |**calculation**|String|统计方法：平均值=avg、最大值=max、最小值=min|

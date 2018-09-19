@@ -21,7 +21,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |---|---|---|---|---|
 |**webRuleSpec**|WebRuleSpec|True||更新网站类规则请求参数|
 
-### <a name="WebRuleSpec">WebRuleSpec</a>
+### WebRuleSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**algorithm**|String|False||转发规则：wrr->带权重的轮询，rr->不带权重的轮询|
@@ -39,7 +39,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**port**|String|False||HTTP协议的端口号，如80,81，多个端口号使用逗号分隔|
 |**protocol**|String|False||协议：HTTP、HTTPS、HTTP_HTTPS|
 |**websocketStatus**|Integer|False||是否开启 WebSocket, 0 为不开启, 1 为开启|
-### <a name="OriginAddrItem">OriginAddrItem</a>
+### OriginAddrItem
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**inJdCloud**|Boolean|False||是否为京东云内公网ip|

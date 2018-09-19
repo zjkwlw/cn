@@ -29,11 +29,11 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**dataList**|IpResourceProtectInfo[]||
-### <a name="IpResourceProtectInfo">IpResourceProtectInfo</a>
+### IpResourceProtectInfo
 |名称|类型|描述|
 |---|---|---|
 |**cause**|Integer|触发原因，0->未知 1->四层 2->七层 3->四和7层|

@@ -20,7 +20,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 |---|---|---|---|---|
 |**addPermissionsInfo**|AddPermissionsInfo|True||权限信息|
 
-### <a name="AddPermissionsInfo">AddPermissionsInfo</a>
+### AddPermissionsInfo
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**permissionIds**|Integer[]|True||权限id集合|

@@ -20,7 +20,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setC
 |---|---|---|---|---|
 |**cCSpec**|CCSpec|True||CC 参数|
 
-### <a name="CCSpec">CCSpec</a>
+### CCSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**ccProtectMode**|Integer|False||cc防护模式：0正常 1宽松 2紧急 3自定义|
