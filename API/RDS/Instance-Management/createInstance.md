@@ -27,7 +27,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**engine**|String|True||实例引擎类型，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|True||实例引擎版本，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceClass**|String|True||实例规格代码，可以通过[describeInstanceClasses](../instance/describeInstanceClasses.md)接口获取|
-|**instanceName**|String|False||实例名，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|False||实例名，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instanceStorageGB**|Integer|True||磁盘大小，单位GB|
 |**subnetId**|String|True||子网ID|
 |**vpcId**|String|True||VPC的ID|
