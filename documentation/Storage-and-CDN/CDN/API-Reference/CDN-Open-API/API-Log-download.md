@@ -29,11 +29,11 @@
 
 ## **4、调用示例**
 
-- ### **请求地址**
+ **请求地址**
 
 http://opencdn.jcloud.com/api/downloadUrlInterval
 
-- ### **请求示例**
+ **请求示例**
 
 - curl格式
 
@@ -43,7 +43,7 @@ curl -H "Content-type:application/json" -X POST -d '{"username":"test_user","sig
 
 * json格式
 
-
+```
 http://opencdn.jcloud.com/api/downloadUrlInterval
 {
     "username" :"test_user",
@@ -53,10 +53,11 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
     "end_time" :"2017-10-19 23:59",
     "interval" :"DAY",//按天下载
  }
+```
 
+ **返回说明** 
 
-**返回说明**
-
+```
 * json格式
 
 {
@@ -72,10 +73,11 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 },
 ]
 }
+```
 
 **返回示例**
 
-
+```
 {
     "status": 0,
     "msg": "成功",
@@ -94,4 +96,4 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
         }
     ]
 }
-
+```
