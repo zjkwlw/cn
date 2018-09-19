@@ -30,6 +30,7 @@ http://opencdn.jcloud.com/api/live/permitStream
 - ### 请求示例
 
 http://opencdn.jcloud.com/api/live/permitStream
+
 ```
 {
     "username" :"jd_cdntest",
@@ -43,7 +44,7 @@ http://opencdn.jcloud.com/api/live/permitStream
 - ###  返回示例
 
 * json格式
-```
+
 {
   "status": 0,
   "msg": "成功",

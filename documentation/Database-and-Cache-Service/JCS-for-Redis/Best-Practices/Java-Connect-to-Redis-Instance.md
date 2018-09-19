@@ -57,7 +57,9 @@ public static void main(String[] args) {
 
 ```
 
+
 - step2：配置Spring元素
+
 
 ```xml
 <beans>
@@ -91,7 +93,9 @@ public static void main(String[] args) {
 </beans>
 ```
 
+
 - step3: 通过Properties文件配置redisPool相关参数
+
 
 <pre><code>#IP地址
 redis.pool.host=jcache-online20***59f-aeba-46*0-9fec-2de*****cd4c.jdicts.jcloud.com
@@ -112,7 +116,9 @@ redis.pool.testOnBorrow=true
 redis.pool.timeout=3000
 redis.pool.testWhileIdle=true</code></pre>
 
+
 - step4:定义 redis value对象 这里需实现序列化
+
 
 <pre><code>class JMiss implements Serializable {
 private String time;
@@ -145,7 +151,9 @@ public String toString() {
 }
 }</code></pre>
 
+
 - step5:定义JMiss控制器类
+
 
 <pre><code>public class JMissProcessor {
 
@@ -166,7 +174,9 @@ public JMiss getJMiss(String key){
 }
 }</code></pre>
 
+
 - step6:调用示例代码
+
 
 <pre><code>public class JedisTester {
 

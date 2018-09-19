@@ -161,7 +161,6 @@ http://opencdn.jcloud.com/api/queryTopUrl
                 "bandwidth": 6121.59,
                 "url": "www.a.com/cdn-mon/monitor.jpg?Mon%20Dec%2018%202017%2000:08:48%20GMT+0800%20(CST)0.12802168394632263"
             }
-           
         ]
     }
 }
