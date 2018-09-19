@@ -25,8 +25,8 @@
 
 ## 相关参考
 
-- [产品功能](../Introduction/features.md)
+- [产品功能](features.md)
 - [价格总览](../Pricing/Billing-Overview.md)
 - [计费规则](../Pricing/Billing-Overview.md)
 - [创建实例](../Getting-Started/Basic-Anti-DDos-Started.md)
-- [应用场景](../Introduction/Application-Scenarios.md)
+- [应用场景](Application-Scenarios.md)
