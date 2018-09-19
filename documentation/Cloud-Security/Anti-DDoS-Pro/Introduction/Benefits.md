@@ -18,8 +18,8 @@ IP高防成熟的攻击防御算法，对攻击流量层层过滤清洗，并通
 
 ## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [产品规格](../Product-Introduction/Specification.md)
+- [产品概述](Product-Overview.md)
+- [产品规格](Specification.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
 - [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
