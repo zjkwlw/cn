@@ -27,7 +27,7 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|String|Map<String,String>序列化后的字符串，需要再次转换并使用。Key为deviceId，value为人群包Id|

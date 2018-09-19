@@ -25,23 +25,23 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hardwareStack
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|HardWareStackData|查询的硬件信息|
 |**message**|String||
 |**status**|String||
-### <a name="HardWareStackData">HardWareStackData</a>
+### HardWareStackData
 |名称|类型|描述|
 |---|---|---|
 |**disk**|Disk[]||
 |**scale**|Scale[]||
-### <a name="Disk">Disk</a>
+### Disk
 |名称|类型|描述|
 |---|---|---|
 |**limit**|String|最大磁盘容量|
 |**volumeType**|String|磁盘容量类型|
-### <a name="Scale">Scale</a>
+### Scale
 |名称|类型|描述|
 |---|---|---|
 |**core**|Integer|CPU核数|

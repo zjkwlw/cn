@@ -31,7 +31,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:getLog
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**logs**|Object||

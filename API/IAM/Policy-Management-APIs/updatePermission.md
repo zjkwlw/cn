@@ -20,18 +20,18 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |---|---|---|---|---|
 |**updatePermissionInfo**|UpdatePermissionInfo|True||权限信息|
 
-### <a name="UpdatePermissionInfo">UpdatePermissionInfo</a>
+### UpdatePermissionInfo
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**content**|PermissionDetail[]|True||权限详细信息|
 |**description**|String|False||描述，0~256个字符|
 |**name**|String|True||权限名称，1~32位数字、字符、中文、中划线、下划线|
-### <a name="PermissionDetail">PermissionDetail</a>
+### PermissionDetail
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**permission**|String|True||权限类型，只读-R、删除-D、修改-M|
 |**resource**|Resource[]|True||资源信息|
-### <a name="Resource">Resource</a>
+### Resource
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**ids**|String[]|True||资源id集合，传*表示对所有id生效|

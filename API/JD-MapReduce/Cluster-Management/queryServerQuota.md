@@ -25,13 +25,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/serverQuota:query
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|AvailableNumData|服务的剩余配额|
 |**message**|String||
 |**status**|String||
-### <a name="AvailableNumData">AvailableNumData</a>
+### AvailableNumData
 |名称|类型|描述|
 |---|---|---|
 |**serverNum**|Integer|可用服务数|

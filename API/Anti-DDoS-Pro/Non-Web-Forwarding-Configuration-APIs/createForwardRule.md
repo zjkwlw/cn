@@ -20,7 +20,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |---|---|---|---|---|
 |**forwardRuleSpec**|ForwardRuleSpec|True||添加非网站类规则请求参数|
 
-### <a name="ForwardRuleSpec">ForwardRuleSpec</a>
+### ForwardRuleSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**algorithm**|String|False||转发规则：wrr->带权重的轮询，wlc->加权最小连接，rr->不带权重的轮询，sh->源地址hash|
@@ -31,7 +31,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |**originType**|String|False||回源类型，ip或者domain|
 |**port**|Integer|False||端口号|
 |**protocol**|String|False||协议：TCP或者UDP|
-### <a name="OriginAddrItem">OriginAddrItem</a>
+### OriginAddrItem
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**inJdCloud**|Boolean|False||是否为京东云内公网ip|

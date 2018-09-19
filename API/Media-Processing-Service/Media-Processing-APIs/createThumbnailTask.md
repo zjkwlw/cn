@@ -26,7 +26,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**target**|ThumbnailTaskTarget|True|||
 |**taskID**|String|False||任务ID (readonly)|
 
-### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
+### ThumbnailTaskRule
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**count**|Integer|False||截图数量, mode=single时不可选. default:1|
@@ -34,12 +34,12 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**keyFrame**|Boolean|False||是否开启关键帧截图 default: true|
 |**mode**|String|False||截图模式 单张: single 多张: multi 平均: average default: single|
 |**startTimeInSecond**|Integer|False||生成截图的开始时间, mode=average 时不可选. default:0|
-### <a name="ThumbnailTaskSource">ThumbnailTaskSource</a>
+### ThumbnailTaskSource
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bucket**|String|True||输入视频信息的 bucket|
 |**key**|String|True||输入视频信息的 Key|
-### <a name="ThumbnailTaskTarget">ThumbnailTaskTarget</a>
+### ThumbnailTaskTarget
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**destBucket**|String|True||输入存放目标文件的 bucket|
@@ -56,11 +56,11 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**thumbnailTaskID**|ThumbnailTaskID||
-### <a name="ThumbnailTaskID">ThumbnailTaskID</a>
+### ThumbnailTaskID
 |名称|类型|描述|
 |---|---|---|
 |**taskID**|String||

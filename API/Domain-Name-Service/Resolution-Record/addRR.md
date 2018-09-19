@@ -20,7 +20,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |---|---|---|---|---|
 |**req**|AddRR|True||RR参数|
 
-### <a name="AddRR">AddRR</a>
+### AddRR
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**hostRecord**|String|False||主机记录|
@@ -40,11 +40,11 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**dataList**|RR|添加成功后的解析记录结果|
-### <a name="RR">RR</a>
+### RR
 |名称|类型|描述|
 |---|---|---|
 |**hostRecord**|String|主机记录|

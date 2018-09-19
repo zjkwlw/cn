@@ -20,7 +20,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 |---|---|---|---|---|
 |**networkSecurityGroupRuleSpecs**|AddSecurityGroupRules[]|True||安全组规则信息|
 
-### <a name="AddSecurityGroupRules">AddSecurityGroupRules</a>
+### AddSecurityGroupRules
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**addressPrefix**|String|True||匹配地址前缀|

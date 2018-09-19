@@ -26,11 +26,11 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**permission**|Permission|权限信息|
-### <a name="Permission">Permission</a>
+### Permission
 |名称|类型|描述|
 |---|---|---|
 |**account**|String|主账号pin|
@@ -41,12 +41,12 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |**permissionDetailList**|PermissionDetail[]|权限详细信息|
 |**permissionType**|String|权限类型|
 |**version**|String|权限版本号|
-### <a name="PermissionDetail">PermissionDetail</a>
+### PermissionDetail
 |名称|类型|描述|
 |---|---|---|
 |**permission**|String|权限类型，只读-R、删除-D、修改-M|
 |**resource**|Resource[]|资源信息|
-### <a name="Resource">Resource</a>
+### Resource
 |名称|类型|描述|
 |---|---|---|
 |**ids**|String[]|资源id集合，传*表示对所有id生效|

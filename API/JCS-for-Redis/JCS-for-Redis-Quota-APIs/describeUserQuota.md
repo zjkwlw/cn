@@ -25,11 +25,11 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/quota
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**quota**|Quota||
-### <a name="Quota">Quota</a>
+### Quota
 |名称|类型|描述|
 |---|---|---|
 |**max**|Integer|配额|

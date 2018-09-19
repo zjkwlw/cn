@@ -19,7 +19,7 @@ https://openapi.jke.jdcloud.com/v1/regions/{regionId}/quotas
 |---|---|---|---|---|
 |**filters**|Filter[]|False||resourceTypes - 资源类型，暂时只支持[kubernetes]<br>|
 
-### <a name="Filter">Filter</a>
+### Filter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True||过滤条件的名称|
@@ -33,11 +33,11 @@ https://openapi.jke.jdcloud.com/v1/regions/{regionId}/quotas
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**quotas**|Quota[]|配额列表|
-### <a name="Quota">Quota</a>
+### Quota
 |名称|类型|描述|
 |---|---|---|
 |**limit**|Integer|可用资源上限|

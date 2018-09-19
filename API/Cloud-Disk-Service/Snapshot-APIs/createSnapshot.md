@@ -26,7 +26,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |**clientToken**|String|True||幂等性校验参数|
 |**snapshotSpec**|SnapshotSpec|True||创建快照规格|
 
-### <a name="SnapshotSpec">SnapshotSpec</a>
+### SnapshotSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**description**|String|False||快照描述|
@@ -40,7 +40,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |**result**|Result|结果集|
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**snapshotId**|String|创建的快照ID|

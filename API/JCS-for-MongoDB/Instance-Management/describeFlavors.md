@@ -24,11 +24,11 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/flavors
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**flavors**|Flavor[]||
-### <a name="Flavor">Flavor</a>
+### Flavor
 |名称|类型|描述|
 |---|---|---|
 |**cpu**|Integer|CPU核数|
