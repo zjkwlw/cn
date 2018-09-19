@@ -35,4 +35,4 @@ A：包括并不限于SYN Flood、ACK Flood、TCP Flood、UDP Flood、DNS反射�
 
 - [什么是基础防护？](../Introduction/Product-Overview.md)
 - [基础防护架构](../Introduction/Basic-Infrastructure.md)
-- [快速入门](../Getting-Started/Basic-Anti-DDos-Started.md)
+- [快速入门](../Getting-Started/Anti-DDos-Basic-Started.md)
