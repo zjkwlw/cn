@@ -41,9 +41,9 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 curl -H "Content-type:application/json" -X POST -d '{"username":"test_user","signature":"d847267fc702273abf394dd0c3128d64","domain":"www.a.com,www.b.com","start_time":"2017-10-19 00:00","end_time":"2017-10-19 23:59","interval":"DAY"}' http://opencdn.jcloud.com/api/downloadUrlInterval
 ```
 
-- json格式
+* json格式
 
-```
+
 http://opencdn.jcloud.com/api/downloadUrlInterval
 {
     "username" :"test_user",
@@ -53,13 +53,12 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
     "end_time" :"2017-10-19 23:59",
     "interval" :"DAY",//按天下载
  }
-```
 
-- ### **返回说明**
 
-•        json格式
+**返回说明**
 
-```
+* json格式
+
 {
 "status": 0,//0 表示本次请求成功
 "data": [
@@ -73,11 +72,10 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 },
 ]
 }
-```
 
-- ### **返回示例**
+**返回示例**
 
-```
+
 {
     "status": 0,
     "msg": "成功",
@@ -96,4 +94,4 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
         }
     ]
 }
-```
+
