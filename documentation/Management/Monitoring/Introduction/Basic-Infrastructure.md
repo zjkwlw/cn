@@ -1,3 +1,3 @@
 # 基础架构
 
-![](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/jiagoutu.png)
+![图片](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/jiagoutu.png)
