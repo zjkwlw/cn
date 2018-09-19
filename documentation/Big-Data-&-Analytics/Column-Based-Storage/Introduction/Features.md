@@ -15,12 +15,6 @@ ACL权限控制，多层网络防护机制，抵御90%恶意数据损毁
 
 ## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [产品规格](../Product-Introduction/Specification.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
-- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
-- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
-
+- [产品概述](../Introduction/Product-Overview.md)
+- [产品规格](../Introduction/Specification.md)
 

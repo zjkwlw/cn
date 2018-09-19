@@ -27,7 +27,9 @@
 
 ## 绑定域名操作步骤
 1.登入控制台->对象存储->空间管理->进入某个Bucket->空间设置，点击“自定义域名”。
+
 2.单击添加域名按钮，打开绑定用户域名页面，如下图所示：
+
 ![图片](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-094.jpg)
  
 3.绑定域名

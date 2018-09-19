@@ -49,6 +49,7 @@ OSS回调通知包括**配置回调通知**和**消息通知**两部分:
         ...
     </NotificationConfiguration>
 ```
+
 注：
 * TopicConfiguration：消息通知相关配置规则，支持多个规则。事件触发时，将通过Object和事件类型对TopicConfiguration按序依次匹配，匹配成功则发出消息通知，且匹配终止。
 * Id：TopicConfiguration唯一标识符，如果没有设置，OSS将会随机分配ID
@@ -143,8 +144,9 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
 2.回调服务器需验证x-jdcloud-message-type头是否为"SubscriptionConfiguration"，若符合则返回经base64编码后的message来确认订阅。
 
 您可按照以下示例配置回调服务器：
+
 ```
-//简单格式的消息通知
+    //简单格式的消息通知
     @RequestMapping("/notifications1")
     public String notifications1(@RequestBody String message
             , @RequestHeader HttpHeaders headers) {
@@ -158,5 +160,6 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
         }
     }
 ```
+
 ### 回调签名
 如果您的回调服务器被人恶意攻击了，例如恶意回调您的应用服务器，导致应用服务器收到一些非法的请求，影响正常逻辑，此时您就需要判断回调请求是否来自OSS。验证回调签名请参考文档：[回调签名认证](../../Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md)。

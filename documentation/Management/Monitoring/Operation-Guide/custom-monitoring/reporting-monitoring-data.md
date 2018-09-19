@@ -16,7 +16,7 @@
 
 3. 支持批量上报方式。单次请求最多包含 50 个数据点；数据大小不超过 256k。
 
-注：OpenAPI入门使用请参看<a href="www.jdcloud.com">公共说明</a>
+注：OpenAPI入门使用请参看<a href="http://docs.jdcloud.com/cn/api/common-declaration/introduction">公共说明</a>
 
 ### 请求方式
 

@@ -69,7 +69,7 @@ g.n2.18xlarge|72|288|4
 :---|:---|:---|:---	|:---
 g.n1.medium|1|4|1
 g.n1.large|2|8|2
-g.n1.xlarge_m	|4|12|4|*|
+g.n1.xlarge_m	|4|12|4|*
 g.n1.xlarge|4|16|4	
 g.n1.2xlarge|8|32|4	
 g.n1.4xlarge|16|64|4	
