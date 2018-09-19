@@ -18,4 +18,4 @@
 购买支付以后，即成功创建一个实例。
 
 ## 相关参考
-- [计费规则](../../Pricing/Billing-Rules.md)
+- [计费规则](../Pricing/Billing-Rules.md)
