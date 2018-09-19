@@ -94,11 +94,11 @@ cn-south-1 | 华南-广州
 
 [Go](../../SDK/Go/Go.md)
 
-[Node.js](../../SDK/nodejs/Node.js.md)
+[Node.js](../../SDK/nodejs/Nodejs.md)
 
 [PHP](../../SDK/PHP.md)
 
-[.Net](../../SDK/dotnet/.Net.md)
+[.Net](../../SDK/dotnet/dotnet.md)
 
 [C++](../../SDK/cplusplus/cplusplus.md)
 
