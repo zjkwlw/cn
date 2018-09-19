@@ -2,16 +2,16 @@
 
 
 ## 描述
-创建一台或多台指定配置的云主机，创建模式分为三种：1.普通方式、2.使用高可用组、3.使用启动模板。三种方式创建云主机时参数的必传与非必传是不同的，具体请参考<a href="https://www.jdcloud.com/help/detail/3383/isCatalog/1">参数详细说明</a><br>
+创建一台或多台指定配置的云主机，创建模式分为三种：1.普通方式、2.使用高可用组、3.使用启动模板。三种方式创建云主机时参数的必传与非必传是不同的，具体请参考<a href="http://docs.jdcloud.com/virtual-machines/api/create_vm_sample">参数详细说明</a><br>
 - 创建云主机需要通过实名认证
 - 实例规格
-    - 可查询<a href="https://www.jdcloud.com/help/detail/2901/isCatalog/1">DescribeInstanceTypes</a>接口获得指定地域或可用区的规格信息。
+    - 可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>接口获得指定地域或可用区的规格信息。
     - 不能使用已下线、或已售馨的规格ID
 - 镜像
     - Windows Server 2012 R2标准版 64位 中文版 SQL Server 2014 标准版 SP2内存需大于1GB；
     - Windows Server所有镜像CPU不可选超过64核CPU。
-    - 可查询<a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a>接口获得指定地域的镜像信息。
-    - 选择的镜像必须支持选择的实例规格。可查询<a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a>接口获得指定镜像的实例规格限制信息。<br>
+    - 可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeimages">DescribeImages</a>接口获得指定地域的镜像信息。
+    - 选择的镜像必须支持选择的实例规格。可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints">DescribeImageConstraints</a>接口获得指定镜像的实例规格限制信息。<br>
 - 网络配置
     - 指定主网卡配置信息
         - 必须指定subnetId
@@ -50,7 +50,7 @@
     - maxCount为最大努力，不保证一定能达到maxCount
     - 虚机的az会覆盖磁盘的az属性
 - 密码
-    - <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>
+    - <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">参考公共参数规范</a>
 
 
 ## 请求方式
@@ -77,14 +77,14 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**az**|String|False||云主机所属的可用区。|
 |**charge**|ChargeSpec|False||计费配置<br>云主机不支持按用量方式计费，默认为按配置计费。<br>打包创建数据盘的情况下，数据盘的计费方式只能与云主机保持一致。<br>打包创建弹性公网IP的情况下，若公网IP的计费方式没有指定为按用量计费，那么公网IP计费方式只能与云主机保持一致。<br>|
 |**dataDisks**|InstanceDiskAttachmentSpec[]|False||数据盘配置信息，本地盘(local类型)做系统盘的云主机可挂载8块数据盘，云硬盘(cloud类型)做系统盘的云主机可挂载7块数据盘。|
-|**description**|String|False||主机描述，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
+|**description**|String|False||主机描述，<a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">参考公共参数规范</a>。|
 |**elasticIp**|ElasticIpSpec|False||主网卡主IP关联的弹性IP规格|
-|**imageId**|String|False||镜像ID。可查询<a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a>接口获得指定地域的镜像信息。|
+|**imageId**|String|False||镜像ID。可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeimages">DescribeImages</a>接口获得指定地域的镜像信息。|
 |**instanceTemplateId**|String|False||实例模板id，如果没有使用高可用组，那么对于实例模板中没有的信息，需要使用创建虚机的参数进行补充，或者选择覆盖启动模板中的参数。|
-|**instanceType**|String|False||实例规格。可查询<a href="https://www.jdcloud.com/help/detail/2901/isCatalog/1">DescribeInstanceTypes</a>接口获得指定地域或可用区的规格信息。|
+|**instanceType**|String|False||实例规格。可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>接口获得指定地域或可用区的规格信息。|
 |**keyNames**|String[]|False||密钥对名称，当前只支持传入一个。|
-|**name**|String|True||云主机名称，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
-|**password**|String|False||密码，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
+|**name**|String|True||云主机名称，<a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">参考公共参数规范</a>。|
+|**password**|String|False||密码，<a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">参考公共参数规范</a>。|
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachmentSpec|False||主网卡配置信息|
 |**systemDisk**|InstanceDiskAttachmentSpec|False||系统盘配置信息|
 ### ChargeSpec

@@ -1,4 +1,4 @@
-# describeCcAttackLogDetails
+# describeCCAttackLogDetails
 
 
 ## 描述
@@ -8,7 +8,7 @@
 GET
 
 ## 请求地址
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:CCDetail
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
