@@ -25,11 +25,11 @@ https://iam.jdcloud-api.com/v1/role/{roleName}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**roleInfo**|RoleInfo|角色信息|
-### <a name="RoleInfo">RoleInfo</a>
+### RoleInfo
 |名称|类型|描述|
 |---|---|---|
 |**account**|String|角色所属主账号|

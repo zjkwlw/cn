@@ -27,7 +27,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaces
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**namespaces**|Object[]|namespaces信息|

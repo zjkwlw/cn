@@ -19,7 +19,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |---|---|---|---|---|
 |**namespaceStr**|Namespace|True|||
 
-### <a name="Namespace">Namespace</a>
+### Namespace
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**createTime**|String|False|||
@@ -43,7 +43,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**status**|Boolean|创建成功标志|

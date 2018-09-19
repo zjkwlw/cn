@@ -73,7 +73,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**containerSpec**|ContainerSpec|False||创建容器规格|
 |**maxCount**|Integer|False||购买实例数量；取值范围：[1,100]|
 
-### <a name="ContainerSpec">ContainerSpec</a>
+### ContainerSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**args**|String[]|False||容器执行命令的参数，如果不指定默认是docker镜像的CMD|
@@ -95,13 +95,13 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**secret**|String|False||secret引用名称；使用Docker Hub和京东云CR的镜像不需要secret|
 |**tty**|Boolean|False||容器是否分配tty。默认不分配|
 |**workingDir**|String|False||容器的工作目录。如果不指定，默认是根目录（/）；必须是绝对路径|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||预付费计费时长，预付费必填，当chargeMode取值为prepaid_by_duration时有效。当chargeUnit为month时取值为：1~9，当chargeUnit为year时取值为：1、2、3|
 |**chargeMode**|String|False|postpaid_by_duration|计费模式，取值为：prepaid_by_duration，postpaid_by_usage或postpaid_by_duration，prepaid_by_duration表示预付费，postpaid_by_usage表示按用量后付费，postpaid_by_duration表示按配置后付费，默认为postpaid_by_duration.请参阅具体产品线帮助文档确认该产品线支持的计费类型|
 |**chargeUnit**|String|False||预付费计费单位，预付费必填，当chargeMode为prepaid_by_duration时有效，取值为：month、year，默认为month|
-### <a name="VolumeMountSpec">VolumeMountSpec</a>
+### VolumeMountSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False||自动删除，删除容器时自动删除此volume，默认为True；只支持磁盘是云硬盘的场景|
@@ -112,7 +112,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**fsType**|String|False||指定volume文件系统类型，目前支持[xfs, ext4]；如果新创建的盘，不指定文件系统类型默认格式化成xfs|
 |**mountPath**|String|False||容器内的挂载目录；root volume不需要指定，挂载目录是（/）；data volume必须指定；必须是绝对路径，不能包含(:)|
 |**readOnly**|Boolean|False||只读，默认false；只针对data volume有效；root volume为false，也就是可读可写|
-### <a name="DiskSpec">DiskSpec</a>
+### DiskSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|True||云硬盘所属的可用区|
@@ -123,39 +123,39 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**multiAttachable**|Boolean|False||云硬盘是否支持一盘多主机挂载，默认为false（不支持）|
 |**name**|String|True||云硬盘名称|
 |**snapshotId**|String|False||用于创建云硬盘的快照ID|
-### <a name="ElasticIpSpec">ElasticIpSpec</a>
+### ElasticIpSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|False||弹性公网IP的限速 单位：MB|
 |**chargeSpec**|ChargeSpec|False||计费配置|
 |**provider**|String|False||IP服务商，取值为bgp或no_bg|
-### <a name="EnvVar">EnvVar</a>
+### EnvVar
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True||环境变量名称|
 |**value**|String|False||环境变量的值|
-### <a name="HostAlias">HostAlias</a>
+### HostAlias
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**hostnames**|String[]|True||域名列表|
 |**ip**|String|True||IP地址|
-### <a name="LogConfiguration">LogConfiguration</a>
+### LogConfiguration
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**logDriver**|String|False||日志Driver名称  default：默认在本地分配10MB的存储空间，自动rotate|
 |**options**|LogOption|False||日志Driver的配置选项|
-### <a name="LogOption">LogOption</a>
+### LogOption
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**key**|String|False|||
 |**value**|String|False|||
-### <a name="ContainerNetworkInterfaceAttachmentSpec">ContainerNetworkInterfaceAttachmentSpec</a>
+### ContainerNetworkInterfaceAttachmentSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False||指明删除容器时是否删除网卡，默认True；当前只能是True|
 |**deviceIndex**|Integer|False||设备Index|
 |**networkInterface**|NetworkInterfaceSpec|True||网卡接口规范|
-### <a name="NetworkInterfaceSpec">NetworkInterfaceSpec</a>
+### NetworkInterfaceSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|True||可用区，用户的默认可用区|
@@ -174,7 +174,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**containerIds**|String[]||

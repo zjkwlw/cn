@@ -29,14 +29,14 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|当前页解析记录的个数|
 |**dataList**|RR[]|解析记录列表|
 |**totalCount**|Integer|所有解析记录的个数|
 |**totalPage**|Integer|所有解析记录的页数|
-### <a name="RR">RR</a>
+### RR
 |名称|类型|描述|
 |---|---|---|
 |**hostRecord**|String|主机记录|

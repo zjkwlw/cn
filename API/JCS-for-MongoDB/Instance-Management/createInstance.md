@@ -20,7 +20,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeSpec**|ChargeSpec|False||付费方式|
 |**instanceSpec**|DBInstanceSpec|True||实例规格|
 
-### <a name="DBInstanceSpec">DBInstanceSpec</a>
+### DBInstanceSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**azId**|String[]|True||可用区ID，必填，第一个ID为primary所在可用区ID，第二个为secondary，第三个为hidden。multiAZ选择是，则primary与secondary的可用区ID需相同，且与hidden不同；multiAZ选择否，三个节点写相同的可用区ID。|
@@ -36,7 +36,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**restoreTime**|String|False||用户指定备份保留周期内的任意时间点，如2011-06-11T16:00:00Z，非必填，与backupId互斥。|
 |**subnetId**|String|True||子网ID|
 |**vpcId**|String|True||VPCID|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||预付费计费时长，预付费必填，当chargeMode取值为prepaid_by_duration时有效。当chargeUnit为month时取值为：1~9，当chargeUnit为year时取值为：1、2、3|
@@ -50,7 +50,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**instanceId**|String||

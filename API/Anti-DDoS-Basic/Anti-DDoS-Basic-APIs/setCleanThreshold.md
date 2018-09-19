@@ -20,7 +20,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}:setClean
 |---|---|---|---|---|
 |**cleanThresholdSpec**|CleanThresholdSpec|True||cc参数|
 
-### <a name="CleanThresholdSpec">CleanThresholdSpec</a>
+### CleanThresholdSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**cleanThresholdBps**|Integer|False||触发清洗的流量速率，单位bps，范围是10000000到300000000|

@@ -25,7 +25,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 |**time**|String|True||按照Cron格式的时间参数,占位time|
 |**week**|String|True||按照Cron格式的时间参数,占位week|
 
-### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
+### JmrPlanViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|False|||
@@ -54,7 +54,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**message**|String||

@@ -25,7 +25,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**tags**|TagFilter[]|False||自定义标签|
 |**timeInterval**|String|False||时间间隔：1h，6h，12h，1d，3d，7d，14d，固定时间间隔，timeInterval 与 endTime 至少填一项|
 
-### <a name="TagFilter">TagFilter</a>
+### TagFilter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**key**|String|True||Tag键|
@@ -38,21 +38,21 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**metricDatas**|MetricData[]||
-### <a name="MetricData">MetricData</a>
+### MetricData
 |名称|类型|描述|
 |---|---|---|
 |**data**|DataPoint[]||
 |**metric**|Metric||
-### <a name="DataPoint">DataPoint</a>
+### DataPoint
 |名称|类型|描述|
 |---|---|---|
 |**timestamp**|Integer|时间戳|
 |**value**|String|值|
-### <a name="Metric">Metric</a>
+### Metric
 |名称|类型|描述|
 |---|---|---|
 |**calculateUnit**|String|指标的计算单位，比如bit/s、%、k等|

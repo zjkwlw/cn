@@ -25,11 +25,11 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeCCDefaultT
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|CCDefaultThresholds||
-### <a name="CCDefaultThresholds">CCDefaultThresholds</a>
+### CCDefaultThresholds
 |名称|类型|描述|
 |---|---|---|
 |**hostQps**|Integer|每个 Host 的防护阈值|

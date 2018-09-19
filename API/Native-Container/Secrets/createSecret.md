@@ -22,7 +22,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**name**|String|True||机密数据名称，不能重复<br>|
 |**secretType**|String|True||机密数据的类型，目前仅支持：docker-registry 类型，用来和docker registry认证的类型。<br>|
 
-### <a name="DockerRegistryData">DockerRegistryData</a>
+### DockerRegistryData
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**email**|String|False||邮件地址|
@@ -37,7 +37,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**secretName**|String||

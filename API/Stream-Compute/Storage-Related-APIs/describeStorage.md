@@ -27,11 +27,11 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|Storage||
-### <a name="Storage">Storage</a>
+### Storage
 |名称|类型|描述|
 |---|---|---|
 |**createTime**|String||
@@ -45,7 +45,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |**uid**|String||
 |**updateTime**|String||
 |**userName**|String||
-### <a name="StorageParameter">StorageParameter</a>
+### StorageParameter
 |名称|类型|描述|
 |---|---|---|
 |**createTime**|String||

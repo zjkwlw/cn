@@ -33,7 +33,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**alarmList**|Alarm[]|规则列表|
@@ -41,7 +41,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**numberRecords**|Number|总记录数|
 |**pageNumber**|Number|页码|
 |**pageSize**|Number|分页大小|
-### <a name="Alarm">Alarm</a>
+### Alarm
 |名称|类型|描述|
 |---|---|---|
 |**calculation**|String|统计方法：平均值=avg、最大值=max、最小值=min|

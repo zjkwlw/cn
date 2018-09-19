@@ -19,7 +19,7 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 |---|---|---|---|---|
 |**getSecurityTokenInfo**|GetSecurityTokenInfo|True||获取SecurityToken参数|
 
-### <a name="GetSecurityTokenInfo">GetSecurityTokenInfo</a>
+### GetSecurityTokenInfo
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**action**|String|True||操作action serviceName:actionName|
@@ -34,7 +34,7 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**securityToken**|String|安全令牌|

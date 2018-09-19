@@ -20,7 +20,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |---|---|---|---|---|
 |**filters**|Filter[]|False||instanceTypes - 实例规格，精确匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>|
 
-### <a name="Filter">Filter</a>
+### Filter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True||过滤条件的名称|
@@ -34,13 +34,13 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**instanceTypes**|InstanceType[]|通用的实例规格|
 |**specificInstanceTypes**|InstanceType[]|用户特有的实例规格；需要工单申请|
 |**totalCount**|Integer|总数量|
-### <a name="InstanceType">InstanceType</a>
+### InstanceType
 |名称|类型|描述|
 |---|---|---|
 |**cpu**|Integer|cpu个数|
@@ -50,7 +50,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**memoryMB**|Integer|内存大小|
 |**nicLimit**|Integer|支持弹性网卡的数量|
 |**state**|InstanceTypeState[]|规格状态|
-### <a name="InstanceTypeState">InstanceTypeState</a>
+### InstanceTypeState
 |名称|类型|描述|
 |---|---|---|
 |**az**|String|可用区|

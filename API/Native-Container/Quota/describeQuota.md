@@ -28,11 +28,11 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**quota**|Quota||
-### <a name="Quota">Quota</a>
+### Quota
 |名称|类型|描述|
 |---|---|---|
 |**limit**|Integer|配额|

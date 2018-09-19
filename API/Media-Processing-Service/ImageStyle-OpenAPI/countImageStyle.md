@@ -28,11 +28,11 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**imageStyleCount**|ImageStyleCount||
-### <a name="ImageStyleCount">ImageStyleCount</a>
+### ImageStyleCount
 |名称|类型|描述|
 |---|---|---|
 |**styleCount**|Integer|图片样式总数|

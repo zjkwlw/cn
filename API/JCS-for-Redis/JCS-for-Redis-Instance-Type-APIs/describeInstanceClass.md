@@ -25,12 +25,12 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/instanceClass
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**instanceClasses**|InstanceClass[]||
 |**totalCount**|Integer||
-### <a name="InstanceClass">InstanceClass</a>
+### InstanceClass
 |名称|类型|描述|
 |---|---|---|
 |**bandwidthMbps**|Integer|带宽|
