@@ -11,4 +11,4 @@
 
 ## 相关参考
 
-[实例规格类型](../../../Virtual-Machines/Introduction/Instance-Type-Family.md)
+[实例规格类型](../../../../Virtual-Machines/Introduction/Instance-Type-Family.md)
