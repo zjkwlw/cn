@@ -263,8 +263,8 @@ items:
                 href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-12-04-14-04-system.md
               - name: Ubuntu 16.04系统
                 href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-16-04-system.md
-          - name: Linux故障类
-            items:
+         - name: Linux故障类
+           items:
               - name: 使用centos私有镜像创建云主机后无法获取内网IP解决办法
                 href: Linux-Troubleshooting/Fault-Class/Cannot-obtain-intranet-IP-solution-after-creating-a-cloud-host-using-centos-private-image.md
               - name: Linux系统message日志报错：kernel： TCP： time wait bucket table overflowt
@@ -337,8 +337,8 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-when-the-SSH-service-started-fatal-Cannot-bind-any-address.md
               - name: Ubuntu系统修改DNS重启后自动还原的处理方法
                 href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-to-modify-the-automatic-recovery-method-after-DNS-restart.md
-          - name: Windows运维指南
-            items:
+         - name: Windows运维指南
+           items:
               - name: Windows环境配置
                 items:
               - name: Windows2008 iis服务配置https
@@ -419,8 +419,8 @@ items:
                 href: Windows-Troubleshooting/Configuration-Class/Windows2012-set-remote-desktop-does-not-disconnect.md
               - name: Windows2012系统安装NETFramework3.5安装方法
                 href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-installation-NETFramework3.5-installation-method.md
-          - name: Windows开机自启动
-            items:
+         - name: Windows开机自启动
+           items:
               - name: Windows系统
                 href: Windows-Troubleshooting/Configure-boot-automatically/Windows-system.md
               - name: Windows故障类
