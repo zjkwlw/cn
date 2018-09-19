@@ -39,22 +39,19 @@
 
 
 您需要先在我的京东为该已认证账号设置手机号码：
-![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B52.png></div>
+![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B52.png)
 
 
  - 如果在绑定已认证账号时，弹出如下提示，说明您尝试绑定的实名认证账号，并未进行实名认证。请您再次确认使用您的身份进行个人实名认证的账号信息后，进行重试。
-![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B53.png
-></div>
+![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B53.png)
 
 
  - 如果进行认证账号绑定时，认证失败，弹出如下提示，说明您已经在京东云对另一个账号（即括号所示账号）进行过个人实名认证。每个个人身份信息，在京东云只能认证一个账号，不可以重复认证或绑定。
-![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B54.png
-></div>
+![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B54.png)
 
 假如不是您本人操作，请联系京东云客服 4006151212 或提交工单进行咨询，同时需要提供您的实名认证账号归属证明。
 
 ## 个人认证升级企业认证
 在个人认证通过之后，您可以在如下页面升级成为企业用户。
-![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81%E5%8D%87%E7%BA%A7%E4%BC%81%E4%B8%9A%E8%AE%A4%E8%AF%81.jpg
-></div>
+![](../../../image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81%E5%8D%87%E7%BA%A7%E4%BC%81%E4%B8%9A%E8%AE%A4%E8%AF%81.jpg)
 
