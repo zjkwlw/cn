@@ -7,7 +7,7 @@
 
 - [后付费计费说明](../../../Finance/Billing/Billing-method/Postpay.md)。
 
-- [账单说明](../../../Finance/Billing/Bill/Purchases-overview.md)。	
+- [消费总览](../../../Finance/Billing/Bill/Purchases-overview.md)。	
 
 
 	
