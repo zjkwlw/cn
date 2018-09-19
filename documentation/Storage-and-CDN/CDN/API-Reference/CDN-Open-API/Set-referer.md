@@ -33,7 +33,7 @@ http://opencdn.jcloud.com/api/setReferConfig
 
 - ### **请求示例**
 
-html http://opencdn.jcloud.com/api/setReferConfig
+ http://opencdn.jcloud.com/api/setReferConfig
 
 \* json格式
 
