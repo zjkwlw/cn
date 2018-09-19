@@ -33,6 +33,7 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
 - ### 请求示例
 
 http://opencdn.jcloud.com/api/live/ area_isp_data
+```
 {
     "username" :"test_user",
     "signature" :"d847267fc702273abf394dd0c3128d64",
@@ -40,6 +41,7 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
     "start_time" :"2016-12-14 07:00",
     "end_time" :"2016-12-14 12:59"
  }
+```
 
 - ### 返回说明
 
