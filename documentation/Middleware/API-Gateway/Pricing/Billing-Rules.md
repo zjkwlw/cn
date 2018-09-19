@@ -7,7 +7,7 @@
 
 - [后付费计费说明](../../../Finance/Billing/Billing-method/Postpay.md)。
 
-- [账单说明](https://www.jdcloud.com/help/detail/1397/isCatalog/1)。	
+- [账单说明](../../../Finance/Billing/Bill/Purchases-overview.md)。	
 
 
 	
