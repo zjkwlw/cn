@@ -57,9 +57,9 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 
  **返回说明** 
 
+ **json格式**
+ 
 ```
-* json格式
-
 {
 "status": 0,//0 表示本次请求成功
 "data": [
