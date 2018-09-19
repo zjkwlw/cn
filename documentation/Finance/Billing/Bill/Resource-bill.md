@@ -19,16 +19,16 @@
 当后付费资源发生结算延迟时，上述时间可能不完全准确。
 >- 假设8月31日22:00后的小时结算资源延迟到9月结算，8月的资源账单中，后付费资源展示的是7月31日23:00-8月31日22:00的后付费小时结资源。
 
-##如何查看资源账单？
+## 如何查看资源账单？
 在京东云控制台，点击【费用】-【消费记录】-【资源账单】可查看；
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%956.png)
 
-###如何查看后付费资源账单？
+## 如何查看后付费资源账单？
 您可以在条件中选择后付费及需要查看的账期；
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%957.png)
 点击详情按钮，您可以查看资源在该账期的明细消费情况；
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%954.png)
-###如何查看预付费资源账单
+## 如何查看预付费资源账单
 您可以在条件中选择预付费及需要查看的账期；
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%955.png)
