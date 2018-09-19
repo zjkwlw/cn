@@ -132,7 +132,6 @@ fail：
                         "host": "1.2.3.23",
                         "tag": "cn-north-1"
                     },
-
                     "timestamp": 15305424971,
                     "type": 1,
                     "values": {
