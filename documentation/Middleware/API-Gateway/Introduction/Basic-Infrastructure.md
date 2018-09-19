@@ -20,7 +20,7 @@ API网关提供API定义者服务和API调用者服务。API定义者通过管�
 ## 相关参考
 
 - [产品优势](../Introduction/Benefits.md)
-- [产品功能](../Introduction/Functions.md)
+- [产品功能](../Introduction/Features.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [计费规则](../Pricing/Billing-Rules.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
