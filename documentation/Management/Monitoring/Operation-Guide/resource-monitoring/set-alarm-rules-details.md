@@ -12,7 +12,7 @@
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/cn-cloudmonitor/image/Cloud-Monitor/%E8%AE%BE%E7%BD%AE%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
-4. 添加成功后，可在报警规则列表中，可查看到设置的规则信息。 
+4.添加成功后，可在报警规则列表中，可查看到设置的规则信息。 
 
 ### 修改/删除/禁用报警规则
 1.登录京东云控制台，点击管理->云监控->资源监控菜单，选择待查看的资源类型，在资源列表中点击“报警规则”，进入监控详情的报警规则页面，进入资源的监控列表。

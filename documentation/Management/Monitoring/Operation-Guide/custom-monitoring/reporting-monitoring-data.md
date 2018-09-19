@@ -133,11 +133,7 @@ errMetricData |string |错误数据
 ]
 ```
 
-
-#### 返回示例
-
-#
-
+返回示例
 ```
 success：
 
