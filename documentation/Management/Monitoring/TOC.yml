@@ -57,7 +57,7 @@ items:
         - name: 查看资源监控图表
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: 对资源设置监控报警
-          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md      
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md    
     - name: 自定义监控
       href: Getting-Started/custom-monitoring.md  
       items:
