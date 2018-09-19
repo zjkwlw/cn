@@ -43,8 +43,9 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
 
 - ### 返回说明
 
-•        json格式
+* json格式
 
+```
 {
 "status": 0,//0 表示本次请求成功
 "data": [
@@ -57,11 +58,13 @@ flow,//流量,单位:MB
 ],
 ]
 }
+```
 
 - ### 返回示例
 
-•        json格式
+* json格式
 
+```
 {
     "status": 0,
     "msg": "成功",
@@ -87,3 +90,4 @@ flow,//流量,单位:MB
 ]
 ]
 }
+```
