@@ -32,15 +32,15 @@ http://opencdn.jcloud.com/api/total_data
 
 - ### **请求示例**
 
-```
 http://opencdn.jcloud.com/api/total_data
+
+```
 {
     "username" :"test_user",
     "signature" :"dbc1c1302d0a1baa48a256cbfc840317",
     "domain":"www.a.com,www.b.com",
     "start_time":"2017-12-18 00:00",
-    "end_time":"2017-12-18 23:59"
-   
+    "end_time":"2017-12-18 23:59" 
  }
 ```
 
