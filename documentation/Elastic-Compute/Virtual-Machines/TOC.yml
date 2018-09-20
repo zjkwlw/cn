@@ -87,7 +87,7 @@ items:
             href: Operation-Guide/Instance/Search-Instance.md
           - name: 重启动到期/欠费实例
             href: Operation-Guide/Instance/Restart-Overdue-or-Arrear-Instance.md
-          - name: 导出实例
+          - name: 导出实例信息
             href: Operation-Guide/Instance/Export-Instance.md
           - name: 从按配置转换为包年包月
             href: Operation-Guide/Instance/Switch-from-Postpaid-to-Prepaid.md
@@ -187,7 +187,7 @@ items:
             href: Operation-Guide/Security-Group/Disassociate-Security-Group.md
           - name: 配置安全组入站规则
             href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
-          - name: 配置安全组出战规则
+          - name: 配置安全组出站规则
             href: Operation-Guide/Security-Group/Configurate-Outbound-Rules.md
           - name: 删除安全组
             href: Operation-Guide/Security-Group/Delete-Security-Group.md
