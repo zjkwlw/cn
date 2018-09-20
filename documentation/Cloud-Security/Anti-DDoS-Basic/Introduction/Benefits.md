@@ -24,9 +24,5 @@
 - DDoS基础防护免费为用户开启。只要您是京东云的用户，京东云默认为您免费提供最大2G防护能力的基础DDoS防护。
 
 ## 相关参考
-
-- [产品功能](../Introduction/Functions.md)
-- [价格总览](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Pricing/Billing-Overview.md)
-- [计费规则](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Pricing/Billing-Overview.md)
-- [创建实例](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Getting-Started/Basic-Anti-DDos-Started.md)
-- [应用场景](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
+- [计费概述](../Pricing/Billing-Overview.md)
+- [应用场景](../Introduction/Application-Scenarios.md)
