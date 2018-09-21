@@ -2,4 +2,4 @@
 
 请右键点击核验单“图片另存为”至本地后打印即可
 
-![多域名核验单.jpg](https://img1.jcloudcs.com/cms/8cdcb5f9-e5e9-4d05-bfd9-a0342d72c60220180208160103.jpg)
+![多域名核验单.jpg](https://github.com/joytaobao/jdcloud/blob/master/ICP-Filing-Service/images/12.jpg)
