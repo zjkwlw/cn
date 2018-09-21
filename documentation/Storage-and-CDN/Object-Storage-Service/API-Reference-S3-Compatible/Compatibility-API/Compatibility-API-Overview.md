@@ -1,8 +1,6 @@
 # 兼容接口
  目前支持的API在下表列出，详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
 
-# 兼容接口
-
 |OSS支持的api|api简介|描述|
 |-|-|-|
 |GET Service（List Bucket）|获取一个User下的所有Bucket|兼容 [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
