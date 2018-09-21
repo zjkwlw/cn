@@ -89,7 +89,6 @@ items:
             href: Best-Practices/daily-business-monitoring.md
       - name: 教程
         items:
-            status: 0
           - name: 问题排查
             items:
                 status: 0
