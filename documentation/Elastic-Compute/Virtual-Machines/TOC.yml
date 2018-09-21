@@ -328,7 +328,7 @@ items:
               - name: SSH 连接时出现如下错误：pam_unix(sshdsession) session closed for user
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md
               - name: SSH 登录时出现如下错误：Disconnected：No supported authentication methods available
-                href: Linux-Troubleshooting/Fault-Class/SSH-login-error-auth-method
+                href: Linux-Troubleshooting/Fault-Class/SSH-login-error-auth-method.md
               - name: SSH 登录时出现如下错误：pam_listfile(sshd：auth)： Refused user root for service sshd
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-error-service-sshd.md
               - name: SSH 登录时出现如下错误：requirement "uid >= 1000" not met by user "root"
