@@ -19,7 +19,7 @@
 |Abort MultiPart Upload|终止一次多步上传任务|兼容 [Abort MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadAbort.html)|
 |List Parts|获取指定uploadid已经上传成功的part的信息|兼容 [List Parts](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListParts.html)|
 |List MultiPart Uploads|获取一个Bucket下面正在进行的多步上传任务|兼容 [List MultiPart Uploads](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListMPUpload.html)|
-|POST Object|通过表单上传文件到OSS|参考 [POST Object](../Post-Object-2.md)|
+|POST Object|通过表单上传文件到OSS|参考 [POST Object](../../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md)|
 |GET Bucket policy|获取指定的Bucket上的policy|兼容 [GET Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETpolicy.html)|
 |PUT Bucket policy|为指定的Bucket上添加或编辑policy|兼容 [PUT Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTpolicy.html)|
 |DELETE Bucket policy|删除指定的Bucket上的policy|兼容 [DELETE Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEpolicy.html)|
