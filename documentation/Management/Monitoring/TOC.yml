@@ -91,7 +91,6 @@ items:
         items:
           - name: 问题排查
             items:
-                status: 0
               - name: 常见问题
                 href: FAQ/FAQ.md
               - name: 文档历史记录
