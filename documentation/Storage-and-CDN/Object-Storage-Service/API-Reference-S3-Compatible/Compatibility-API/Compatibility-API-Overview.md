@@ -1,5 +1,5 @@
 # 兼容接口
- 目前支持的API在下表列出，OSS兼容S3 API文档请访问 [https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
+ 目前支持的API在下表列出，详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
 
 <table width="1503"><tbody style="white-space: normal;"><tr class="firstRow"><td style="padding: 0px 7px; border-color: rgb(0, 0, 0);" width="334" valign="top" align="center">
 <p><br/></p><p>云存储支持的 api</p><p><br/></p></td><td rowspan="1" colspan="1" style="padding: 0px 7px; border-color: rgb(0, 0, 0);" width="790" valign="top" align="center"><p>
