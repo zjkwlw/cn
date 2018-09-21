@@ -18,4 +18,4 @@
 - [创建实例](Create-Instance.md)
 - [非网站类规则](Non-Web-Service-Forwarding-Rule.md)
 - [网站类规则](Web-Service-Forwarding-Rule.md)
-- [计费规则](../../Pricing/Billing-Rules.md)
+- [计费规则](../Pricing/Billing-Rules.md)
