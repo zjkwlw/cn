@@ -19,13 +19,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 |---|---|---|---|---|
 |**day**|String|True||按照Cron格式的时间参数,占位day|
 |**hour**|String|True|0|按照Cron格式的时间参数,占位hour|
-|**jmrPlanViewModel**|[JmrPlanViewModel](##JmrPlanViewModel)|True||需要新建或更新的调度配置|
+|**jmrPlanViewModel**|JmrPlanViewModel|True||需要新建或更新的调度配置|
 |**minute**|String|True|0|按照Cron格式的时间参数,占位minute|
 |**month**|String|True||按照Cron格式的时间参数,占位month|
 |**time**|String|True||按照Cron格式的时间参数,占位time|
 |**week**|String|True||按照Cron格式的时间参数,占位week|
 
-### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
+### JmrPlanViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|False|||
@@ -51,10 +51,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**message**|String||

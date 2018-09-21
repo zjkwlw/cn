@@ -24,10 +24,10 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/sensitiveOpSetting
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**extInfo**|String|扩展信息，type=1时为掩码后的手机号码 type=2时为掩码后的邮箱地址|

@@ -22,14 +22,14 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKeys
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**userAccessKeys**|[UserAccessKey[]](##UserAccessKey)|userAccessKey列表|
-### <a name="UserAccessKey">UserAccessKey</a>
+|**userAccessKeys**|UserAccessKey[]|userAccessKey列表|
+### UserAccessKey
 |名称|类型|描述|
 |---|---|---|
 |**accessKey**|String|accessKey|

@@ -24,14 +24,14 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[Storage](##Storage)||
-### <a name="Storage">Storage</a>
+|**data**|Storage||
+### Storage
 |名称|类型|描述|
 |---|---|---|
 |**createTime**|String||
@@ -39,13 +39,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |**id**|Integer||
 |**name**|String||
 |**namespaceId**|String||
-|**storageParameterList**|[StorageParameter[]](##StorageParameter)|Storage的具体参数。<br>1、创建源类型为流式数据输入时，则需要传输source，topicName，duration，format，delimiter，schema 。<br> 2、创建输出如果输出位置为流数据总线，需要传topicName，format，delimiter，ossFlag，bucketName，directory，objectName。<br>3、创建输出如果输出位置为数据计算服务，则需要传输database，table，ossFlag，bucketName，directory，objectName。|
+|**storageParameterList**|StorageParameter[]|Storage的具体参数。<br>1、创建源类型为流式数据输入时，则需要传输source，topicName，duration，format，delimiter，schema 。<br> 2、创建输出如果输出位置为流数据总线，需要传topicName，format，delimiter，ossFlag，bucketName，directory，objectName。<br>3、创建输出如果输出位置为数据计算服务，则需要传输database，table，ossFlag，bucketName，directory，objectName。|
 |**storageType**|String|这个参数有input和ouput两个可选值，取决于创建输入还是输出|
 |**type**|String||
 |**uid**|String||
 |**updateTime**|String||
 |**userName**|String||
-### <a name="StorageParameter">StorageParameter</a>
+### StorageParameter
 |名称|类型|描述|
 |---|---|---|
 |**createTime**|String||

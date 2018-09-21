@@ -16,9 +16,9 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**metricDataList**|[MetricDataCm[]](##MetricDataCm)|False||数据参数|
+|**metricDataList**|MetricDataCm[]|False||数据参数|
 
-### <a name="MetricDataCm">MetricDataCm</a>
+### MetricDataCm
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**dimensions**|Object|True||数据维度，数据类型为map类型，支持最少一个，最多五个标签，总长度不大于255字节，只允许英文、数字、下划线_、点., [0-9][a-z] [A-Z] [. _ ]，  其它会返回err|
@@ -33,15 +33,15 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 |---|---|---|
 |**error**|Object|错误信息|
 |**requestId**|String|请求的标识id|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**errMetricDataList**|[MetricDataList[]](##MetricDataList)||
+|**errMetricDataList**|MetricDataList[]||
 |**success**|Boolean|全部写入成功为true，否则为false|
-### <a name="MetricDataList">MetricDataList</a>
+### MetricDataList
 |名称|类型|描述|
 |---|---|---|
 |**errDetail**|String|错误数据描述|

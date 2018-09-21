@@ -25,15 +25,15 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**dataList**|[IpResource[]](##IpResource)||
+|**dataList**|IpResource[]||
 |**totalCount**|Integer||
-### <a name="IpResource">IpResource</a>
+### IpResource
 |名称|类型|描述|
 |---|---|---|
 |**bandwidth**|Integer|带宽上限，单位Mbps|

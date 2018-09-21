@@ -25,10 +25,10 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job:stop
 |名称|类型|描述|
 |---|---|---|
 |**regionId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**message**|String|成功启动作业返回信息|

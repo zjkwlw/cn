@@ -30,15 +30,15 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**backup**|[Backup[]](##Backup)|备份集合|
+|**backup**|Backup[]|备份集合|
 |**totalCount**|Integer|总记录数|
-### <a name="Backup">Backup</a>
+### Backup
 |名称|类型|描述|
 |---|---|---|
 |**backupEndTime**|String|备份结束时间，格式为：YYYY-MM-DD HH:mm:ss<br>- **SQL Server支持**<br>- **MySQL不支持**|

@@ -18,9 +18,9 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ePBSpec**|[EPBSpec](##EPBSpec)|True||更新弹性防护带宽请求参数|
+|**ePBSpec**|EPBSpec|True||更新弹性防护带宽请求参数|
 
-### <a name="EPBSpec">EPBSpec</a>
+### EPBSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**ePB**|Integer|False||弹性防护带宽|

@@ -21,8 +21,8 @@
 
 ## 相关参考
 
-- [什么是DDoS基础防护](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
-- [核心概念](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Core-Concepts.md)
-- [应用场景](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
-- [基本功能](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Functions.md)
-- [使用限制](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Restrictions.md)
+- [什么是DDoS基础防护](Product-Overview.md)
+- [核心概念](Core-Concepts.md)
+- [应用场景](Application-Scenarios.md)
+- [基本功能](Features.md)
+- [使用限制](Restrictions.md)

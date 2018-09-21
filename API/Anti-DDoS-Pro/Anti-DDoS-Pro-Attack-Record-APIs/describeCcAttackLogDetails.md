@@ -1,4 +1,4 @@
-# describeCcAttackLogDetails
+# describeCCAttackLogDetails
 
 
 ## 描述
@@ -8,7 +8,7 @@
 GET
 
 ## 请求地址
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:CCDetail
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -29,17 +29,17 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|当前页数量|
-|**dataList**|[CCAttackLogDetail[]](##CCAttackLogDetail)||
+|**dataList**|CCAttackLogDetail[]||
 |**totalCount**|Integer|实例总数|
 |**totalPage**|Integer|总页数|
-### <a name="CCAttackLogDetail">CCAttackLogDetail</a>
+### CCAttackLogDetail
 |名称|类型|描述|
 |---|---|---|
 |**key**|String|特征key|

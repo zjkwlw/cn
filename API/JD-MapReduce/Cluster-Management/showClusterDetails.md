@@ -24,16 +24,16 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[ClusterDetailModel](##ClusterDetailModel)|对应集群的详细信息|
+|**data**|ClusterDetailModel|对应集群的详细信息|
 |**message**|String||
 |**status**|String||
-### <a name="ClusterDetailModel">ClusterDetailModel</a>
+### ClusterDetailModel
 |名称|类型|描述|
 |---|---|---|
 |**bandwidthOut**|Integer|网络带宽|
@@ -42,7 +42,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**dataCenter**|String|地域，同regionID|
 |**duration**|String|运营时长|
 |**haFlag**|Boolean|是否为高可用模式|
-|**hardware**|[HardwareInfo[]](##HardwareInfo)||
+|**hardware**|HardwareInfo[]||
 |**id**|String|集群ID|
 |**jssFlag**|Boolean|是否关联对象存储|
 |**name**|String|集群名称，长度为6到32个字符，支持中文、数字、大小写字母、英文下划线“_”及中划线“-”|
@@ -53,7 +53,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**status**|String|集群状态|
 |**vpcName**|String|私有网络名称|
 |**vpcSubnetName**|String|子网名称|
-### <a name="HardwareInfo">HardwareInfo</a>
+### HardwareInfo
 |名称|类型|描述|
 |---|---|---|
 |**firewall**|String|防火墙|

@@ -18,9 +18,9 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:mod
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**modifyNetworkAclRuleSpecs**|[ModifyNetworkAclRuleSpec[]](##ModifyNetworkAclRuleSpec)|True||networkAcl规则列表|
+|**modifyNetworkAclRuleSpecs**|ModifyNetworkAclRuleSpec[]|True||networkAcl规则列表|
 
-### <a name="ModifyNetworkAclRuleSpec">ModifyNetworkAclRuleSpec</a>
+### ModifyNetworkAclRuleSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**addressPrefix**|String|False||匹配地址前缀|

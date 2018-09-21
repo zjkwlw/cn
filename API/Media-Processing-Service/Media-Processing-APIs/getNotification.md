@@ -22,14 +22,14 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/notification
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**notification**|[Notification](##Notification)||
-### <a name="Notification">Notification</a>
+|**notification**|Notification||
+### Notification
 |名称|类型|描述|
 |---|---|---|
 |**enabled**|Boolean|是否启用通知|

@@ -17,10 +17,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**jmrPlanViewModel**|[JmrPlanViewModel](##JmrPlanViewModel)|True||需要传入的字段： az、planName、planType、planStatus|
-|**selectParams**|[SelectParams](##SelectParams)|False||搜索条件的可选参数|
+|**jmrPlanViewModel**|JmrPlanViewModel|True||需要传入的字段： az、planName、planType、planStatus|
+|**selectParams**|SelectParams|False||搜索条件的可选参数|
 
-### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
+### JmrPlanViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**az**|String|False|||
@@ -41,7 +41,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 |**planName**|String|False|||
 |**planStatus**|String|False|||
 |**planType**|String|False|||
-### <a name="SelectParams">SelectParams</a>
+### SelectParams
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**orderBy**|String|False||排序条件，可选|
@@ -53,10 +53,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|Object|"包括JmrPlanViewModel列表 - cronJobs"<br>"以及返回列表大小 - totalNum"<br>|

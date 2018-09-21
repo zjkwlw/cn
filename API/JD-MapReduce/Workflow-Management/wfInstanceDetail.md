@@ -25,23 +25,23 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**message**|[Message](##Message)||
-### <a name="Message">Message</a>
+|**message**|Message||
+### Message
 |名称|类型|描述|
 |---|---|---|
 |**code**|String|编码|
 |**data**|Object|数据|
 |**instanceId**|String||
 |**jobId**|String|作业ID|
-|**path**|[Path[]](##Path)||
+|**path**|Path[]||
 |**pipeline**|String||
-|**rect**|[Rect[]](##Rect)||
+|**rect**|Rect[]||
 |**result**|String|结果|
 |**source**|String||
 |**sourceParameterList**|String[]||
@@ -49,12 +49,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**targetParameterList**|String[]||
 |**taskId**|String||
 |**total**|Integer||
-### <a name="Path">Path</a>
+### Path
 |名称|类型|描述|
 |---|---|---|
 |**child**|Integer||
 |**father**|Integer||
-### <a name="Rect">Rect</a>
+### Rect
 |名称|类型|描述|
 |---|---|---|
 |**instanceId**|Integer||

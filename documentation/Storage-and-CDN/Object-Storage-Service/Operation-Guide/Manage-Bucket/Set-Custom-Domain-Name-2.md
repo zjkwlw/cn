@@ -13,7 +13,7 @@
  3.在域名服务器上，添加CNAME规则，将www.example.com映射成存储空间域名。
  
  4.http://www.example.com/abc.html请求到达OSS后，OSS会找到www.example.com和存储空间域名（example.oss.cn-north-1.jcloudcs.com）的映射，转换变成访问桶的abc.html文件。即对http://www.example.com/abc.html的访问，经过OSS处理后，实际上访问的是http:// example.oss.cn-north-1.jcloudcs.com /abc.html。
-# 控制台：自定义域名 
+## 控制台：自定义域名 
 在OSS Bucket上传对象后，可获取对象的地址，包含两个部分：OSS域名地址+对象文件名，格式为：<BucketName>.<Endpoint>。除了在迁移到OSS中，较少的改动代码之外，还可以避免业务中可能涉及的跨域或者安全问题，建议您将自定义的域名访问绑定在属于自己的Bucket上面。域名绑定成功后，为了使用域名正常访问OSS，还需要添加CNAME记录指向存储空间对应的外网域名。
  说明
 + 每个存储空间最多可以绑定20个域名。
@@ -27,8 +27,10 @@
 
 ## 绑定域名操作步骤
 1.登入控制台->对象存储->空间管理->进入某个Bucket->空间设置，点击“自定义域名”。
+
 2.单击添加域名按钮，打开绑定用户域名页面，如下图所示：
-![图片](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/TimLine%E5%9B%BE%E7%89%8720180731191346.jpg)
+
+![图片](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-094.jpg)
  
 3.绑定域名
     在用户域名框中，输入要绑定的域名名称。
