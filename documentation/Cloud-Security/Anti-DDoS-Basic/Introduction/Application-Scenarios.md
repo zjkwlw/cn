@@ -1,6 +1,6 @@
 # 应用场景
 
-**以下说明京东云DDos基础防护的应用场景：**
+**以下说明京东云DDoS基础防护的应用场景：**
 
 京东云DDoS基础防护仅适用于京东云内的公网IP用户，并且攻击流量最高不超过2G的DDoS攻击防护场景。
 
@@ -13,4 +13,4 @@
 ## 相关参考
 
 - [IP高防介绍](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Introduction/Product-Overview.md)
-- [IP高防定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Billing-Rules.md)
+- [IP高防定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Price-Overview.md)
