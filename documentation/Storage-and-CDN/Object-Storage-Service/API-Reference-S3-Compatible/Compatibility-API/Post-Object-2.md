@@ -63,7 +63,7 @@ Header特别提示:
 |key|字符串|上传的object名字。支持变量${filename}（仅支持变量${filename}），例如指定key为bucket/${filename}，此时您上传了一个名为test.jpg的图片，那么oss保存的key为：bucket/test.jpg,<br>默认值：无|是|
 |policy|字符串|用于限制本次请求为经过UTF-8编码和Base64编码的JSON,<br>默认值：无|对于需要签名的请求来说是必须的|
 |success_action_redirect|字符串|当上传成功时client跳转地址，如果success_action_redirect没有被指定，或者指定了但是OSS没有解析成功，那么OSS将按照success_action_status的设置进行返回（默认返回204）如果上传文件失败，那么OSS将会返回error并不做跳转,<br>默认值：无|否|
-|success_action_status|数值|指定了上传文件成功时返回的状态码，前提是success_action_redirect 没有被指定，如果值为200或204，OSS返回内容为空。如果值为201，则返回的状态码为201，http body 内容为xml格式的object相关信息<br>默认值：204<br>有效值：200，201，204（默认）无|否|
+|success_action_status|字符串|指定了上传文件成功时返回的状态码，前提是success_action_redirect 没有被指定，如果值为200或204，OSS返回内容为空。如果值为201，则返回的状态码为201，http body 内容为xml格式的object相关信息<br>默认值：204<br>有效值：200，201，204（默认）|否|
 |x-amz-algorithm|字符串|签名算法，值为：AWS4-HMAC-SHA256<br>默认值：无<br>仅支持AWS4-HMAC-SHA256|对于需要签名的请求来说是必须的|
 |x-amz-credential|字符串|如果使用S3 API，则格式为：<your-access-key-id>/<date>/<region>/s3/aws4_request例子：AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>默认值：无|对于需要签名的请求来说是必须的|
 |x-amz-date|字符串|ISO8601时间格式，例如：20180601T000000Z，policy中x-amz-date属性的值应该与它相同。注意，此时计算签名的时间为20180601<br>默认值：无|对于需要签名的请求来说是必须的|
@@ -279,36 +279,3 @@ Conditions是一个列表，可以用于指定Post请求的表单域的合法值
 ``` 
 
 说明：您需要替换有效的bucket 名称，dates, credential, policy, 和signature才能成功的上传文件到OSS。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
