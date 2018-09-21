@@ -34,6 +34,8 @@ items:
       href: Getting-Started/set-alarm-rules.md
     - name: 使用Dashboard
       href: Getting-Started/use-Dashboard.md
+    - name: 使用站点监控
+      href: Getting-Started/use-site-monitoring.md 
     - name: 使用自定义监控
       href: Getting-Started/use-custom-monitoring.md
 - name: 操作指南
