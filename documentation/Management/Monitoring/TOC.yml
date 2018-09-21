@@ -59,7 +59,7 @@ items:
           href: Operation-Guide/site-monitoring/site-monitoring-management.md    
         - name: 设置报警规则
           href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
-   - name: 云资源监控
+    - name: 云资源监控
       items:
         - name: 资源监控
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
