@@ -12,5 +12,5 @@
 
 ## 相关参考
 
-- [IP高防介绍](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Introduction/Product-Overview.md)
-- [IP高防定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Price-Overview.md)
+- [IP高防介绍](/documentation/Cloud-Security/Anti-DDoS-Pro/Introduction/Product-Overview.md)
+- [IP高防定价](/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Price-Overview.md)
