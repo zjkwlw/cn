@@ -1,7 +1,8 @@
 # 兼容接口
  目前支持的API在下表列出，详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
 
-|对象存储支持的api|api简介|描述|
+
+|OSS支持的api|api简介|描述|
 |-|-|-|
 |GET Service（List Bucket）|获取一个User下的所有Bucket|兼容 [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
 |PUT Bucket|新建一个Bucket，默认的权限为Private|兼容 [PUT Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUT.html)|
@@ -31,10 +32,10 @@
 |GET Bucket website|获取指定的Bucket的静态网站托管规则（注：接口兼容，但规则细节与S3有出入）|兼容 [GET Bucket website](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEcors.html)|
 |DELETE Bucket website|删除指定的Bucket的静态网站托管规则（注：接口兼容，但规则细节与S3有出入）|兼容 [DELETE Bucket website](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEcors.html)|
 |Put Object Copy|拷贝一个在OSS上已经存在的object成另外一个object|未支持：x-amz-copy-source-if-match，<br>x-amz-copy-source-if-none-match，<br>x-amz-copy-source-if-unmodified-since，<br>x-amz-copy-source-if-modified-since，<br>x-amz-tagging-directive<br>x-amz-storage-class<br>支持STANDARD和REDUCED_REDUNDANCY<br>兼容：[PUT Object - Copy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectCOPY.html)|
-|Upload Part Copy|通过从一个已存在的Object中拷贝数据来上传一个Part。|未支持：x-amz-copy-source-if-match，<br>x-amz-copy-source-if-none-match，<br>x-amz-copy-source-if-unmodified-since，<br>x-amz-copy-source-if-modified-since<br兼容：[Upload Part - Copy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadUploadPartCopy.html)|
+|Upload Part Copy|通过从一个已存在的Object中拷贝数据来上传一个Part。|未支持：x-amz-copy-source-if-match，<br>x-amz-copy-source-if-none-match，<br>x-amz-copy-source-if-unmodified-since，<br>x-amz-copy-source-if-modified-since<br>兼容：[Upload Part - Copy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadUploadPartCopy.html)|
 |Delete Multiple Objects|支持用户通过一个HTTP请求删除同一个Bucket中的多个Object|未支持：version<br>兼容：[Delete Multiple Objects](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/multiobjectdeleteapi.html)|
 |PUT Bucket Replication|创建、修改跨区域复制配置|未支持：Account，Role，Owner AccessControlTranslation SourceSelectionCriteria<br>兼容：[PUT Bucket Replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTreplication.html)|
 |GET Bucket Replication|返回设置在Bucket 上的跨区域复制配置|兼容：[GET Bucket replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETreplication.html)|
 |Delete Bucket Replication|删除已开启的跨区域复制配置，删除后目标Bucket和objcet依然存在|兼容：[Delete Bucket replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEreplication.html)|
-|PUT Bucket notification|指定Bucket添加回调通知配置|未支持：CloudFunction，Queue<br>仅支持：Topic 详见回调通知<br>兼容：[PUT Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEreplication.html)|
+|PUT Bucket notification|指定Bucket添加回调通知配置|未支持：CloudFunction，Queue<br>仅支持：Topic <br>详见回调通知<br>兼容：[PUT Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTnotification.html)|
 |GET Bucket notification|返回设置在Bucket上的回调通知配置|兼容：[GET Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETnotification.html)|

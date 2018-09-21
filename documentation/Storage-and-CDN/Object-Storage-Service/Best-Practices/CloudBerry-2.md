@@ -26,7 +26,7 @@ CloudBerry下载地址：http://www.cloudberrylab.com/download-thanks.aspx?prod=
 
 Display name：显示名称，一般填自己的用户名即可。
 
-Service point：填写京东云兼容S3的服务域名。（兼容S3服务域名详见https://www.jdcloud.com/help/detail/1902/isCatalog/1 ）
+Service point：填写京东云[兼容S3的服务域名]((../../API-Reference-S3-Compatible/Regions-And-Endpoints.md))。
 
 Access key、Secret key：接入 OSS 服务的 AK、SK。
 
