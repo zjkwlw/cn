@@ -16,7 +16,7 @@
 如您希望详细了解计费规则，可参考[云主机计费规则](Billing-Overview.md)；如您想了解不同配置下、不同计费模方式、不同购买时长的具体费用，可以前往[价格计算器](https://www.jdcloud.com/calculator/calHost)进行费用预估。
 
 ## 操作步骤
-根据操作系统平台类型，详细创建实例操作步骤请参见[创建Linux实例](../Getting-Start-Linux/Create-Instance.md)及[创建Windows实例](../Getting-Start-Windows/Create-Instance.md)。
+根据操作系统平台类型，详细创建实例操作步骤请参见[创建Linux实例](../Getting-Start-Linux/Create-Linux-Instance.md)及[创建Windows实例](../Getting-Start-Windows/Create-Windows-Instance.md)。
 
 ## 相关参考
 [使用限制](./Introduction/Restrictions.md)
