@@ -9,7 +9,7 @@
 |HEAD Bucket|确定一个Bucket是否存在且有权利访问<br>如果Bucket存在且有权利访问，则返回200 OK。如果指定的bucket不存在，则返回404 Not Found|兼容 [HEAD Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketHEAD.html)|
 |GET Bucket（List Object）|获取一个Bucket下面Object的信息（兼容Version2）|兼容 [GET Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/v2-RESTBucketGET.html)|
 |DELETE Bucket|删除指定的Bucket|兼容 [DELETE Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETE.html)|
-|PUT Object|上传一个Object到OSS|兼容 [PUT Object]|(https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectPUT.html)
+|PUT Object|上传一个Object到OSS|兼容 [PUT Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectPUT.html)
 |GET Object|获取一个Object的Meta及数据，可以获取全部数据或者使用Range指定获取部分数据|兼容 [GET Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectGET.html)|
 |HEAD Object|获取一个Object的Meta|兼容 [HEAD Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectHEAD.html)|
 |DELETE Object|删除一个Object|兼容 [DELETE Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectDELETE.html)|
@@ -19,7 +19,7 @@
 |Abort MultiPart Upload|终止一次多步上传任务|兼容 [Abort MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadAbort.html)|
 |List Parts|获取指定uploadid已经上传成功的part的信息|兼容 [List Parts](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListParts.html)|
 |List MultiPart Uploads|获取一个Bucket下面正在进行的多步上传任务|兼容 [List MultiPart Uploads](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListMPUpload.html)|
-|POST Object|通过表单上传文件到OSS|参考 [POST Object](../../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md)|
+|POST Object|通过表单上传文件到OSS|兼容 [POST Object](./Post-Object-2.md)|
 |GET Bucket policy|获取指定的Bucket上的policy|兼容 [GET Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETpolicy.html)|
 |PUT Bucket policy|为指定的Bucket上添加或编辑policy|兼容 [PUT Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTpolicy.html)|
 |DELETE Bucket policy|删除指定的Bucket上的policy|兼容 [DELETE Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEpolicy.html)|
