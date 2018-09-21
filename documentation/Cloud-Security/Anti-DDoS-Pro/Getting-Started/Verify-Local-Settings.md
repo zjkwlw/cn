@@ -7,8 +7,8 @@
 - 已成功购买了IP高防，计费状态正常，且已配置好转发规则。
 
 ## 本地测试步骤
-1.登录任意一台Linux服务器
-2.在命令行下输入如下内容：
+1.登录任意一台Linux服务器;</br>
+2.在命令行下输入如下内容：</br>
 curl -x cname:port DomainName
 <Br/>例如：<Br/>
 ![验证配置生效](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Verify-Local-Settings.png)
@@ -20,4 +20,4 @@ curl -x cname:port DomainName
 - [非网站类规则](Non-Web-Service-Forwarding-Rule.md)
 - [网站类规则](Web-Service-Forwarding-Rule.md)
 - [放行回源IP](Whitelist-local-IP-subnet.md)
-- [计费规则](../../Pricing/Billing-Rules.md)
+- [计费规则](../Pricing/Billing-Rules.md)
