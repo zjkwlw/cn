@@ -37,5 +37,5 @@
 |PUT Bucket Replication|创建、修改跨区域复制配置|未支持：Account，Role，Owner AccessControlTranslation SourceSelectionCriteria<br>兼容：[PUT Bucket Replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTreplication.html)|
 |GET Bucket Replication|返回设置在Bucket 上的跨区域复制配置|兼容：[GET Bucket replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETreplication.html)|
 |Delete Bucket Replication|删除已开启的跨区域复制配置，删除后目标Bucket和objcet依然存在|兼容：[Delete Bucket replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEreplication.html)|
-|PUT Bucket notification|指定Bucket添加回调通知配置|未支持：CloudFunction，Queue<br>仅支持：Topic <br>详见回调通知<br>兼容：[PUT Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTnotification.html)|
+|PUT Bucket notification|指定Bucket添加回调通知配置|未支持：CloudFunction，Queue<br>仅支持：Topic <br>详见[回调通知](../../Operation-Guide/Manage-Bucket/Callback-Notification-2.md)<br>兼容：[PUT Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTnotification.html)|
 |GET Bucket notification|返回设置在Bucket上的回调通知配置|兼容：[GET Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETnotification.html)|
