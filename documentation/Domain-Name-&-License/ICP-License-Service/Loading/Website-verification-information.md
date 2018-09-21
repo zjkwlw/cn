@@ -2,7 +2,7 @@
 
 （1）全国核验单下载地址：https://docs.jdcloud.com/cn/icp-license-service/national-verification-checklist-download
 
-（2）北京地区多个域名(≥2)核验单下载地址：https://docs.jdcloud.com/cn/icp-license-service/%20beijing-multi-domain-verification-form
+（2）北京地区多个域名(≥2)核验单下载地址：https://docs.jdcloud.com/cn/icp-license-service/beijing-multi-domain-verification-form
 
 （3）广东省单位核验单下载地址：https://docs.jdcloud.com/cn/icp-license-service/guangdong-province-unit-verification-form-download
 
