@@ -4,5 +4,5 @@
 
 输入正确的代金券券码
 
-![2](https://github.com/joytaobao/jdcloud/blob/master/Finance/Coupon-Manage/images/1.png)
+![2](https://github.com/joytaobao/jdcloud/blob/master/Finance/Coupon-Manage/images/2.png)
 
