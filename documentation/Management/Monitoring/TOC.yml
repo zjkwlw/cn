@@ -1,5 +1,4 @@
 name: 云监控
-href: 
 items:
 - name: 产品简介
   items:
@@ -41,7 +40,6 @@ items:
 - name: 操作指南
   items:
     - name: Dashboard
-      href: Getting-Started/Dashboard.md
       items:
         - name: 使用须知
           href: Operation-Guide/dashboard/terms-and-conditions.md
@@ -51,8 +49,17 @@ items:
           href: Operation-Guide/dashboard/dashboard-management.md      
         - name: 管理监控图表
           href: Operation-Guide/dashboard/monitoring-chart-management.md
-    - name: 云资源监控
-      href: Getting-Started/resource-monitoring.md
+    - name: 站点监控
+      items:
+        - name: 站点监控概述
+          href: Operation-Guide/site-monitoring/site-monitoring-overview.md
+        - name: 站点监控限制与配额
+          href: Operation-Guide/site-monitoring/quota-restrictions.md
+        - name: 站点监控任务管理
+          href: Operation-Guide/site-monitoring/site-monitoring-management.md    
+        - name: 设置报警规则
+          href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
+   - name: 云资源监控
       items:
         - name: 资源监控
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
@@ -60,8 +67,7 @@ items:
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: 对资源设置监控报警
           href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md    
-    - name: 自定义监控
-      href: Getting-Started/custom-monitoring.md  
+    - name: 自定义监控 
       items:
         - name: 自定义监控概述
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
