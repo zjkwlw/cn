@@ -40,3 +40,30 @@
 		    <td align="center">独立管理口1块+<br/>2*10GE网卡</td>
     </tr>
 </table>
+
+<table>
+    <tr>
+        <td align="center"><B>实例规格</B></td> 
+        <td align="center"><B>CPU</B></td> 
+		    <td align="center"><B>内存</B></td>
+		    <td align="center"><B>硬盘</B></td>
+		    <td align="center"><B>网卡</B></td>
+	    	<td align="center"><B>GPU</B></td>
+    </tr>
+    <tr>   
+        <td align="center"><B>GPUⅠ<br/>（cps.gpu.1）<B></td>
+		    <td align="center">2*2683V4<br/>（16核 2.1G）</td>
+		    <td align="center">256G（8*32G）DDR4</td>
+		    <td >2*300GB（SAS）+<br/>6*960GB（SSD）</td>
+		    <td align="center">独立管理口1块+<br/>2*10GE网卡</td>
+		<td align="center">NVIDIA P40*4</td>
+    </tr>
+    <tr>   
+        <td align="center"><B>GPUⅡ<br/>（cps.gpu.2）<B></td>
+		    <td align="center">2*2650V4<br/>（12核 2.2G）</td>
+		    <td align="center">256G（8*32G）DDR4</td>
+		    <td >2*300GB（SAS）+<br/>4*4000GB（SATA）</td>
+		    <td align="center">独立管理口1块+<br/>2*10GE网卡</td>
+		<td align="center">NVIDIA P40*4</td>
+    </tr>
+</table>
