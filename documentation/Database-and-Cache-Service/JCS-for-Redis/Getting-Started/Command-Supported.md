@@ -25,12 +25,12 @@ SORT|INCRBYFLOAT|HSETNX|RPUSH  ||          	ZREVRANGEBYSCORE
 TTL|MGET|HVALS|RPUSHX     ||       	ZREVRANK            
 TYPE|MSET|HSCAN|||       	       	ZSCORE            
 SCAN|PSETEX| |||ZSCAN            
-||SET   ||  |       	|ZRANGEBYLEX            
-||SETBIT      |||   |   	ZLEXCOUNT            
-||SETEX       |||    | 	ZREMRANGEBYLEX            
-||SETNX|||||            	
-||SETRANGE   ||||         	
-||STRLEN    ||||        	
+| |SET   | |  |       	|ZRANGEBYLEX            
+| |SETBIT      | | |   |   	ZLEXCOUNT            
+| |SETEX       | | |    | 	ZREMRANGEBYLEX            
+| |SETNX|||||            	
+| |SETRANGE   | | | |         	
+| |STRLEN    | | | |        	
 
 以及
 
@@ -40,8 +40,8 @@ AUTH|INFO*|EVAL
 PING|CONFIG GET*|SCRIPT EXISTS            
 QUIT|FLUSHDB|EVALSHA            
 ECHO||SCRIPT FLUSH            
-|||SCRIPT KILL            
-|||SCRIPT LOAD  
+| | |SCRIPT KILL            
+| | |SCRIPT LOAD  
 
 说明：
 
@@ -60,24 +60,24 @@ RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE||DBSIZE
 RENAMENX||BRPOPLPUSH  |SINTER|||TIME            
 OBJECT|| RPOPLPUSH|SINTERSTORE|||MONITOR            
 MIGRATE ||| SMOVE ||| SLOWLOG            
-||||SUNION |||BGREWRITEAOF            
-||||SUNIONSTORE|||BGSAVE            
-|||||||CONFIG REWRITE            
-|||||||CONFIG SET            
-|||||||CONFIG RESETSTAT            
-|||||||COMMAND            
-|||||||COMMAND COUNT            
-|||||||COMMAND GETKEYS            
-|||||||COMMAND INFO            
-|||||||DEBUG OBJECT            
-|||||||DEBUG SEGFAULT            
-|||||||LASTSAVE            
-|||||||ROLE            
-|||||||SAVE            
-|||||||SHUTDOWN            
-|||||||SLAVEOF            
-|||||||SYNC            
-|||||||PSYNC  
+| | | |SUNION |||BGREWRITEAOF            
+| | | |SUNIONSTORE|||BGSAVE            
+| | | | | | |CONFIG REWRITE            
+| | | | | | |CONFIG SET            
+| | | | | | |CONFIG RESETSTAT            
+| | | | | | |COMMAND            
+| | | | | | |COMMAND COUNT            
+| | | | | | |COMMAND GETKEYS            
+| | | | | | |COMMAND INFO            
+| | | | | | |DEBUG OBJECT            
+| | | | | | |DEBUG SEGFAULT            
+| | | | | | |LASTSAVE            
+| | | | | | |ROLE            
+| | | | | | |SAVE            
+| | | | | | |SHUTDOWN            
+| | | | | | |SLAVEOF            
+| | | | | | |SYNC            
+| | | | | | |PSYNC  
 
 以及
 
@@ -98,4 +98,4 @@ ECHO|CLIENT KILL|EVALSHA
 ||CLIENT LIST|SCRIPT EXISTS            
 ||CLIENT GETNAME|SCRIPT FLUSH            
 ||CLIENT SETNAME|SCRIPT KILL
-|||SCRIPT LOAD            
+| | |SCRIPT LOAD            
