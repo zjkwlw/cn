@@ -13,7 +13,7 @@
 <table>
 	<thead>
 	<tr>
-		<td colspan="2">地域名称及编码</td>
+		<th colspan="2">地域名称及编码</th>
       	<th>可用区名称及编码</th>
       	<th>所在城市</th>
    	</tr>
