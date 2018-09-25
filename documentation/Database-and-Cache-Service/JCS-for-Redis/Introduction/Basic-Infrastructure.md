@@ -4,7 +4,7 @@
 
 
 
-![redis架构图](https://github.com/jdcloudcom/cn/blob/master//image/Redis/redis-basicInfras.png)
+![redis架构图](https://github.com/jdcloudcom/cn/blob/master/image/Redis/redis-basicInfras.png)
 
 
  - 控制服务：处理来自用户和后端的请求任务，主要有创建、删除、查询、配置变更、failover、扩容缩容、配置修改等任务。

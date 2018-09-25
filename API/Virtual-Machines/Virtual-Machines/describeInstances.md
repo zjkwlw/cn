@@ -19,7 +19,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||instanceId - 云主机ID，精确匹配，支持多个<br>privateIpAddress - 主网卡内网主IP地址，模糊匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 云主机状态，精确匹配，支持多个，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a><br>name - 云主机名称，模糊匹配，支持单个<br>imageId - 镜像ID，精确匹配，支持多个<br>networkInterfaceId - 弹性网卡ID，精确匹配，支持多个<br>subnetId - 子网ID，精确匹配，支持多个<br>agId - 使用可用组id，支持单个<br>faultDomain - 错误域，支持多个<br>|
+|**filters**|Filter[]|False||instanceId - 云主机ID，精确匹配，支持多个<br>privateIpAddress - 主网卡内网主IP地址，模糊匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 云主机状态，精确匹配，支持多个，<a href="http://docs.jdcloud.com/virtual-machines/api/vm_status">参考云主机状态</a><br>name - 云主机名称，模糊匹配，支持单个<br>imageId - 镜像ID，精确匹配，支持多个<br>networkInterfaceId - 弹性网卡ID，精确匹配，支持多个<br>subnetId - 子网ID，精确匹配，支持多个<br>agId - 使用可用组id，支持单个<br>faultDomain - 错误域，支持多个<br>|
 |**pageNumber**|Integer|False|1|页码；默认为1|
 |**pageSize**|Integer|False|20|分页大小；默认为20；取值范围[10, 100]|
 
@@ -62,7 +62,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|主网卡配置|
 |**privateIpAddress**|String|主网卡主IP地址|
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|辅助网卡配置|
-|**status**|String|云主机状态，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>|
+|**status**|String|云主机状态，<a href="http://docs.jdcloud.com/virtual-machines/api/vm_status">参考云主机状态</a>|
 |**subnetId**|String|主网卡所属子网的ID|
 |**systemDisk**|InstanceDiskAttachment|系统盘配置|
 |**tags**|Tag[]|Tag信息|

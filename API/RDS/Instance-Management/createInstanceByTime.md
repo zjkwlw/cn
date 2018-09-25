@@ -27,7 +27,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |**azId**|String[]|True||可用区ID， 第一个ID必须为主实例所在的可用区。如两个可用区一样，也需输入两个azId|
 |**chargeSpec**|ChargeSpec|True||计费规格，包括计费类型，计费周期等|
 |**instanceClass**|String|True||实例规格代码，可以通过[describeInstanceClasses](../instance/describeInstanceClasses.md)接口获取|
-|**instanceName**|String|False||数据库实例名，名称的限制可参考[帮助中心文档](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|False||数据库实例名，名称的限制可参考[帮助中心文档](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instanceStorageGB**|Integer|True||磁盘大小，单位GB|
 |**subnetId**|String|True||子网ID|
 |**vpcId**|String|True||VPC的ID|

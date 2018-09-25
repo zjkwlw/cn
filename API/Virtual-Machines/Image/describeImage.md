@@ -48,7 +48,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 |**rootDeviceType**|String|镜像支持的系统盘类型。取值：localDisk：本地盘系统盘；cloudDisk：云盘系统盘。|
 |**sizeMB**|Integer|镜像文件实际大小|
 |**snapshotId**|String|创建云盘系统盘所使用的云硬盘快照ID。系统盘类型为本地盘的镜像，此参数为空。|
-|**status**|String|<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>|
+|**status**|String|<a href="http://docs.jdcloud.com/virtual-machines/api/image_status">参考镜像状态</a>|
 |**systemDisk**|InstanceDiskAttachment|镜像系统盘配置|
 |**systemDiskSizeGB**|Integer|镜像系统盘大小|
 ### InstanceDiskAttachment
