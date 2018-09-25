@@ -1,4 +1,4 @@
-# enableCcObserverMode
+# enableCCObserverMode
 
 
 ## 描述
@@ -8,7 +8,7 @@
 POST
 
 ## 请求地址
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:enableCcObserverMode
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:enableCCObserverMode
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|

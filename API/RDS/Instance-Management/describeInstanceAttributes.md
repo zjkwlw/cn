@@ -43,7 +43,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**instanceClass**|String|实例规格代码|
 |**instanceId**|String|实例ID|
 |**instanceMemoryMB**|Integer|内存大小，单位MB|
-|**instanceName**|String|实例名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|实例名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instancePort**|String|应用访问端口|
 |**instanceStatus**|String|实例状态，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceStorageGB**|Integer|磁盘，单位GB|

@@ -1,4 +1,4 @@
-# setCcIpLimit
+# setCCIpLimit
 
 
 ## 描述
@@ -8,7 +8,7 @@
 POST
 
 ## 请求地址
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setCcIpLimit
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setCCIpLimit
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|

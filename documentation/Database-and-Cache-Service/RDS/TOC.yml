@@ -163,6 +163,8 @@
            href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
          - name: 删除参数组
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
+         - name: 修改历史 
+           href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
           
       - name: 审计
         items:
@@ -236,15 +238,15 @@
       - name: 导入 MySQL
         items:
         - name: 从本地 MySQL 导入
-          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Database-Instance/Migrate-From-Local-MySQL-Database-to-JDCloud-MySQL-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/VM-to-MySQL.md
         - name: 从云主机 MySQL 导入
-          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Database-Instance/Migrate-From-JDCloud-VM-MySQL-Database-to-JDCloud-MySQL-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/Local-to-MySQL.md
       - name: 导入 Percona
         items:
         - name: 从本地 Percona 导入
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Database-Instance/Migrate-From-Local-Percona-Database-to-JDCloud-Percona-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-Percona.md
         - name: 从云主机 Percona 导入
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Database-Instance/Migrate-From-JDCloud-VM-Percona-Database-to-JDCloud-Percona-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-Percona.md
     - name: 将备份文件恢复到自建数据库
       items:
       - name: 将备份恢复到自建 MySQL
@@ -258,8 +260,7 @@
       - name: 从客户端连接 SQL Server
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: 从云主机连接 SQL Server
-        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md
-  
+        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
   - name: 常见问题
     items:
     - name: FAQ
@@ -268,16 +269,10 @@
       href: FAQ/Storage-Engine.md
     - name: 存储空间
       href: FAQ/Storage-Space.md
-
   - name: 问题排查
     items:
     - name: 内存使用率
-      href: Troubleshooting/Memory-Use-Rate.md
-          
-  - name: API参考
-    href:
-  - name: SDK参考
-    href:
+      href: Troubleshooting/Memory-Use-Rate.md          
   - name: 相关资源
     items:
     - name: 文档历史记录

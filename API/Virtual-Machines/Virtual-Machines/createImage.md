@@ -23,8 +23,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**dataDisks**|InstanceDiskAttachmentSpec[]|False||数据盘列表，可以在实例已挂载数据盘的基础上，额外增加新的快照、空盘、或排除云主机中的数据盘。|
-|**description**|String|True||镜像描述，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
-|**name**|String|True||镜像名称，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。|
+|**description**|String|True||镜像描述，<a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">参考公共参数规范</a>。|
+|**name**|String|True||镜像名称，<a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">参考公共参数规范</a>。|
 
 ### InstanceDiskAttachmentSpec
 |名称|类型|是否必需|默认值|描述|

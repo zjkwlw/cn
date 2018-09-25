@@ -33,6 +33,7 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
 - ### 请求示例
 
 http://opencdn.jcloud.com/api/live/ area_isp_data
+```
 {
     "username" :"test_user",
     "signature" :"d847267fc702273abf394dd0c3128d64",
@@ -40,11 +41,13 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
     "start_time" :"2016-12-14 07:00",
     "end_time" :"2016-12-14 12:59"
  }
+```
 
 - ### 返回说明
 
-•        json格式
+* json格式
 
+```
 {
 "status": 0,//0 表示本次请求成功
 "data": [
@@ -57,11 +60,13 @@ flow,//流量,单位:MB
 ],
 ]
 }
+```
 
 - ### 返回示例
 
-•        json格式
+* json格式
 
+```
 {
     "status": 0,
     "msg": "成功",
@@ -87,3 +92,4 @@ flow,//流量,单位:MB
 ]
 ]
 }
+```
