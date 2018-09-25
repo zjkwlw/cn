@@ -1,8 +1,8 @@
 # Golang连接
 - step1：下载golang的redis客户端
-<code>
- go get github.com/garyburd/redigo/redis
-</code>
+
+<code>go get github.com/garyburd/redigo/redis</code>
+
 
 - step2：编写测试用例
 
