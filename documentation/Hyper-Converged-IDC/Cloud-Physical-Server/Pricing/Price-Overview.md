@@ -33,6 +33,17 @@
 		<td >cps.s.normal</td>
 		<td >4500</td>
     </tr>
+	<tr>   
+		<td rowspan="2">GPU型</td>
+		<td >XXXX型</td>
+		<td >cps.XX.XXXX</td>
+		<td >23000</td>
+    </tr>
+	<tr>   
+		<td >XXXX型</td>
+		<td >cps.XX.XXXX</td>
+		<td >19900</td>
+    </tr>
 </table>
 
 
