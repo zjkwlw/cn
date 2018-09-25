@@ -35,13 +35,13 @@
     </tr>
 	<tr>   
 		<td rowspan="2">GPU型</td>
-		<td >XXXX型</td>
-		<td >cps.XX.XXXX</td>
+		<td >GPUⅠ</td>
+		<td >cps.gpu.1</td>
 		<td >23000</td>
     </tr>
 	<tr>   
-		<td >XXXX型</td>
-		<td >cps.XX.XXXX</td>
+		<td >GPUⅡ</td>
+		<td >cps.gpu.2</td>
 		<td >19900</td>
     </tr>
 </table>
