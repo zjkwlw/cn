@@ -2,9 +2,9 @@
 
 您可通过控制台查看您所拥有的实例：
 
-* [概览页](#user-content-概览页)：可查看当前账号下各地域实例数及配额情况。
-* [实例列表页](#user-content-实例列表页)：可以查看各地域下所有实例的信息，包括ID、名称、可用区、IP地址等。
-* [实例详情页](#user-content-实例详情页)：可以查看指定实例的详细信息。
+* [概览页](Query-Instance-Info#user-content-概览页)：可查看当前账号下各地域实例数及配额情况。
+* [实例列表页](Query-Instance-Info#user-content-实例列表页)：可以查看各地域下所有实例的信息，包括ID、名称、可用区、IP地址等。
+* [实例详情页](Query-Instance-Info#user-content-实例详情页)：可以查看指定实例的详细信息。
 
 ## 概览页
 
