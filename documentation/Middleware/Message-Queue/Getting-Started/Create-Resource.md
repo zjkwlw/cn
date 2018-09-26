@@ -24,9 +24,12 @@
 - 全局顺序消息：消息的生产和消费按照消息的发布顺序进行（FIFO）。
 
 ## 步骤二：添加订阅
+
 1. 在Topic管理页面中，找到想要订阅的topic，在操作中可以选择订阅。
 2. 在添加订阅者中需要新建/绑定已有Consumer Group ID，选择传送类型。
+
 ### 说明：
+
 1. Consumer Group ID为全局唯一，如果有相同名称的Consumer Group ID被创建，则无法创建成功。并且Consumer Group ID只能包含字母、数字、连字符(-)和下划线(_)，长度7-64字符。
 2. Consumer Group ID 和topic的关系是多对多关系（N：M），同一个Consumer Group ID可以订阅多个topic，同一个topic可以对应多个Consumer Group ID。
 3. 选择发送消息的类型，包括SDK和 Http两种方式。
