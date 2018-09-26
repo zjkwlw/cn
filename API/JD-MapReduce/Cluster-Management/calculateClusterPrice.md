@@ -17,9 +17,9 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clusterListViewModel**|[ClusterListViewModel](##ClusterListViewModel)|True||集群信息视图，除userName、dataCenter外均需要传入|
+|**clusterListViewModel**|ClusterListViewModel|True||集群信息视图，除userName、dataCenter外均需要传入|
 
-### <a name="ClusterListViewModel">ClusterListViewModel</a>
+### ClusterListViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bandwidthOut**|Integer|False||网络带宽|
@@ -40,10 +40,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|Integer||

@@ -17,10 +17,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**jmrJobViewModel**|[JmrJobViewModel](##JmrJobViewModel)|True||"需要传入字段: clusterId、az"<br>"可选字段: jobName、jobType、clusterName"<br>|
-|**selectParams**|[SelectParams](##SelectParams)|False|||
+|**jmrJobViewModel**|JmrJobViewModel|True||"需要传入字段: clusterId、az"<br>"可选字段: jobName、jobType、clusterName"<br>|
+|**selectParams**|SelectParams|False|||
 
-### <a name="JmrJobViewModel">JmrJobViewModel</a>
+### JmrJobViewModel
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clusterId**|String|False||集群ID|
@@ -45,7 +45,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 |**retryTimes**|Integer|False||作业重试次数|
 |**taskScheduleType**|Integer|False|||
 |**userpin**|String|False||用户名|
-### <a name="SelectParams">SelectParams</a>
+### SelectParams
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**orderBy**|String|False||排序条件，可选|
@@ -57,10 +57,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|Object|"包括JmrJobViewModel列表 - jmrJobViewModelList"<br>"以及返回的列表大小 - totalNum"<br>|

@@ -1,6 +1,6 @@
 # 设置报警规则
 
-在 消息队列 JCQ 控制台，您可以根据监控项设置报警规则，当监控项达到设置的阈值时，我们会通过短信和邮件的方式向您发送报警信息。
+在消息队列 JCQ 控制台，您可以根据监控项设置报警规则，当监控项达到设置的阈值时，我们会通过短信和邮件的方式向您发送报警信息。
 
 ## 操作步骤
 
@@ -12,5 +12,5 @@
 ![监控1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/监控-01.png)
 
 5. 在“报警规则”页面，点击 **新增报警规则**，进入”设置报警规则“页面，按页面提示添加新规则。
- 
+
 ![监控2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/监控-02.png)

@@ -1,5 +1,5 @@
 # 创建资源
-在消息队列 JCQ中，消息的生产和消费需要通过主题订阅的形式，故用户首先要创建消息主题（topic），发送消息到某个指定的消息主题，而消费者通过订阅该消费主体进行消息消费。
+在消息队列 JCQ中，消息的生产和消费需要通过主题订阅的形式，故用户首先要创建消息主题（topic），发送消息到某个指定的消息主题，而消费者通过订阅该消费主题进行消息消费。
 
 ## 前提条件
 - 已注册京东云账号，并完成实名认证，且保证账户处于正常状态，没有在黑名单中。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)，并 [实名认证](https://uc.jdcloud.com/account/certify)。
@@ -36,5 +36,5 @@
 ## 步骤三：创建 AccessKey和 SecretKey
 在调用消息队列 JCQ的SDK或者openAPI进行消息的发送消费和管理操作时候，还需要验证用户的身份信息，即需要在控制台创建AccessKey和 SecretKey。
 ### 创建方法：
-在京东云用户中心账户管理下的AccessKey管理页面申请AccessKey和SecretKey密钥对（简称AK/SK）。
+在京东云用户中心账户管理下的[AccessKey管理页面](https://uc.jdcloud.com/account/accesskey)申请AccessKey和SecretKey密钥对（简称AK/SK）。
 AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。AK/SK密钥对允许启用、禁用，启用后可用其调用OpenAPI，禁用后不能用其调用OpenAPI。

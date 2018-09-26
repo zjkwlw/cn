@@ -24,16 +24,16 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:d
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[ClusterDetailInfo](##ClusterDetailInfo)||
+|**data**|ClusterDetailInfo||
 |**message**|String||
 |**status**|String||
-### <a name="ClusterDetailInfo">ClusterDetailInfo</a>
+### ClusterDetailInfo
 |名称|类型|描述|
 |---|---|---|
 |**masterCore**|Integer|Master节点CPU|

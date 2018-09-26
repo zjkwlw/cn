@@ -24,16 +24,16 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/softwareInfo/v2
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[SoftwareInfoAndVersion[]](##SoftwareInfoAndVersion)||
+|**data**|SoftwareInfoAndVersion[]||
 |**message**|String||
 |**status**|String||
-### <a name="SoftwareInfoAndVersion">SoftwareInfoAndVersion</a>
+### SoftwareInfoAndVersion
 |名称|类型|描述|
 |---|---|---|
 |**flag**|Boolean|表示获取信息是否正常|
