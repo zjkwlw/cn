@@ -19,7 +19,7 @@
 根据操作系统平台类型，详细创建实例操作步骤请参见[创建Linux实例](../Getting-Start-Linux/Create-Linux-Instance.md)及[创建Windows实例](../Getting-Start-Windows/Create-Windows-Instance.md)。
 
 ## 相关参考
-[使用限制](./Introduction/Restrictions.md)
+[使用限制](./../Introduction/Restrictions.md)
 
 [注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
 
