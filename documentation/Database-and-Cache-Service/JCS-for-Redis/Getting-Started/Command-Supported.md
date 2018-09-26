@@ -39,7 +39,7 @@ Connection（连接）|Server（服务器）|Scripting(脚本)
 AUTH|INFO*|EVAL            
 PING|CONFIG GET*|SCRIPT EXISTS            
 QUIT|FLUSHDB|EVALSHA            
-ECHO||SCRIPT FLUSH            
+ECHO| |SCRIPT FLUSH            
 | | |SCRIPT KILL            
 | | |SCRIPT LOAD  
 
