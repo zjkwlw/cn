@@ -1,5 +1,5 @@
-# 将备份文件恢复到自建数据库 Percona 
-您可以将云数据库 Percona 实例的备份数据恢复到自建数据库中。
+# 将备份文件恢复到自建数据库 MariaDB 
+您可以将云数据库 MariaDB 实例的备份数据恢复到自建数据库中。
 
 ## 注意事项
 * 自建数据库版本需要和备份文件的源数据库版本一致。
@@ -9,14 +9,14 @@
 
 ## 操作说明
 1. 安装环境依赖，见注意事项
-2. 下载备份的解压工具，[点击下载](https://jddb-common-public.oss.cn-north-1.jcloudcs.com/percona_backup_extract_tool.tar.gz)，并解压，工具名 `percona_backup_exztract.py`，使用示例如下
+2. 下载备份的解压工具，[点击下载](http://jddb-common-public.oss.cn-north-1.jcloudcs.com/mariadb_backup_extract_tool.tar.gz)，并解压，工具名 `percona_backup_exztract.py`，使用示例如下
     
     ```
     # 查看帮助手册
-    ./percona_backup_extract.py -h
+    ./mariadb_backup_extract.py -h
      
-     # 解压云数据库 Percona 实例的备份数据
-     ./percona_backup_extract.py  -v 5.7 -f ./backup.xbstream.gz.enc
+     # 解压云数据库 MariaDB 实例的备份数据
+     ./mariadb_backup_extract.py  -v 5.7 -f ./backup.xbstream.gz.enc
     ```
 3. 下载备份文件
 
@@ -66,13 +66,13 @@
     chown -R mysql:mysql $HOME/tmp_snapshot
     ```
 
-8. 启动 Percona 进程
+8. 启动 MariaDB 进程
 
     ```
     mysqld --defaults-file=$HOME/tmp_snapshot/backup-my.cnf --user=mysql --datadir=$HOME/tmp_snapshot --socket=$HOME/tmp_snapshot/mysql.sock &
     ```
 
-9. 登录 Percona 数据库
+9. 登录 MariaDB 数据库
 
     ```
     mysql -uroot -p --socket=$HOME/tmp_snapshot/mysql.sock
