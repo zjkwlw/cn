@@ -30,10 +30,9 @@ public class S3SdkTest{
     public static void main(String[] args)  {
         final String accessKey = "your accesskey";
         final String secretKey = "your secretkey";
-        final String endpoint = "http://s3.cn-north-1.jcloudcs.com";
+        final String endpoint = "https://s3.cn-north-1.jcloudcs.com";
         System.setProperty(SDKGlobalConfiguration.ENABLE_S3_SIGV4_SYSTEM_PROPERTY, "true");
         ClientConfiguration config = new ClientConfiguration();
-        config.setProtocol(Protocol.HTTP);
  
         AwsClientBuilder.EndpointConfiguration endpointConfig =
                 new AwsClientBuilder.EndpointConfiguration(endpoint, "cn-north-1");
