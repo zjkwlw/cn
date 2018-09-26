@@ -50,3 +50,6 @@ public class S3SdkTest{
     }
 }
 ```
+
+## 示例
+更多Java SDK示例请访问[京东云兼容S3 Java SDK示例](https://github.com/jdcloud-cmw/oss/tree/master/s3-java-sdk)
