@@ -70,8 +70,6 @@ df -h
 
 使用s3fs-fuse工具挂载京东云对象存储，通过cp命令拷贝文件时，若遇到文件mime-type被修改的问题，可通过如下方式解决：
 
-1.使用cp命令拷贝文件，s3fs-fuse工具底层进行的操作依赖于/etc/mime.types文件，这个文件决定了cp命令目的文件的mime-type属性。
-
-2.默认情况下，京东云的centos7版本并不包含/etc/mime.types文件，所以需要通过拷贝，或者安装httpd获得，安装命令为yum install httpd
-
-3.对于已经通过s3fs命令挂载的目录，需要先umount，然后再次执行s3fs命令才能生效。
+1. 使用`cp`命令拷贝文件，`s3fs-fuse`工具底层进行的操作依赖于`/etc/mime.types`文件，这个文件决定了`cp`命令目的文件的mime-type属性。
+2. 默认情况下，京东云的centos7版本并不包含`/etc/mime.types`文件，所以需要通过拷贝，或者安装`httpd`获得，安装命令为`yum install httpd`
+3. 对于已经通过`s3fs`命令挂载的目录，需要先`umount`，然后再次执行`s3fs`命令才能生效。
