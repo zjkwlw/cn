@@ -56,10 +56,15 @@
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide5.png)
 
+#
+
 具体来说，新增分组： 
+
+#
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide6.png)
 
+#
 
 需要填写以下信息：
 
