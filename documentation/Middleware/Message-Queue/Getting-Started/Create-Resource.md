@@ -2,7 +2,7 @@
 在消息队列 JCQ中，消息的生产和消费需要通过主题订阅的形式，故用户首先要创建消息主题（topic），发送消息到某个指定的消息主题，而消费者通过订阅该消费主题进行消息消费。
 
 ## 前提条件
-- 已注册京东云账号，并完成实名认证，且保证账户处于正常状态，没有在黑名单中。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)，并 [实名认证](https://uc.jdcloud.com/account/certify)。
+- 已注册京东云账号，并完成实名认证，且保证账户处于正常状态，没有在黑名单中。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)，并 [实名认证](https://uc.jdcloud.com/account/certify)。
 - 因为产品的计费类型为按用量计费，请确认您的账户不能处于欠费状态。
 
 ## 注意事项
@@ -10,10 +10,13 @@
 - 对于某个topic的订阅Consumer Group数量没有限制。
 
 ## 步骤一：创建消费主题
+
 1. 进入京东云控制台，菜单互联网中间件-消息队列 JCQ-Topic管理。
 2. 首先选择想要创建资源的区域（比如华北），然后点击“新建”按钮，创建topic。
 3. 创建topic中需要填写“topic名称”、选择消息类型和填写备注。
+
 ### 说明：
+
 1. topic名称为全局唯一，如果有相同名称的topic被创建，则无法创建成功。并且topic只能包含字母、数字、连字符(-)、下划线(_)、波形符 (~)或加号 (+)，长度 为3-64 个字符。
 2. 消息类型非为无序消息和全局顺序消息。
 

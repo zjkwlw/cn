@@ -23,14 +23,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:desc
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[AlarmConfig](##AlarmConfig)||
-### <a name="AlarmConfig">AlarmConfig</a>
+|**data**|AlarmConfig||
+### AlarmConfig
 |名称|类型|描述|
 |---|---|---|
 |**blackHoleAlarmEmailStatus**|Integer|黑洞告警邮件开关 0 关闭 1 开启|

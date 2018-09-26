@@ -23,14 +23,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**result**|Result|返回结果|
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**vpc**|[Vpc](##Vpc)|Vpc资源信息|
-### <a name="Vpc">Vpc</a>
+|**vpc**|Vpc|Vpc资源信息|
+### Vpc
 |名称|类型|描述|
 |---|---|---|
 |**aclIds**|String[]||
@@ -38,10 +38,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 |**createdTime**|String|vpc创建时间|
 |**description**|String|VPC 描述，取值范围：1~120个字符|
 |**routeTableIds**|String[]||
-|**subnets**|[Subnet[]](##Subnet)|私有网络包含的子网列表|
+|**subnets**|Subnet[]|私有网络包含的子网列表|
 |**vpcId**|String|Vpc的Id|
 |**vpcName**|String|私有网络名称，取值范围：1-60个中文、英文大小写的字母、数字和下划线分隔符|
-### <a name="Subnet">Subnet</a>
+### Subnet
 |名称|类型|描述|
 |---|---|---|
 |**aclId**|String|子网关联的acl Id|

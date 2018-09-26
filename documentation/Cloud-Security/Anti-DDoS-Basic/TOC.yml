@@ -12,9 +12,10 @@ items:
     - name: 产品优势
       href: Introduction/Benefits.md
     - name: 产品功能
-      href: Introduction/Functions.md
+      href: Introduction/Features.md
     - name: 产品规格
       href: Introduction/Specification.md
+      status: 0
     - name: 限制说明
       href: Introduction/Restrictions.md
     - name: 应用场景 
@@ -37,10 +38,6 @@ items:
   items:
     - name: DDoS基础防护+IP高防联动方案
       href: Best-Practices/Linkage-Scheme.md	
-- name: 教程
-  status: 0
-- name: 问题排查
-  href:
 - name: 常见问题
   href: FAQ/FAQ.md
 - name: API参考

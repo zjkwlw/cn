@@ -24,10 +24,10 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**status**|Boolean|删除namespace成功标志|

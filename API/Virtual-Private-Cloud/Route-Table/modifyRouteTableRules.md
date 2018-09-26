@@ -18,9 +18,9 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:mod
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**modifyRouteTableRuleSpecs**|[ModifyRouteTableRules[]](##ModifyRouteTableRules)|True||路由表规则信息|
+|**modifyRouteTableRuleSpecs**|ModifyRouteTableRules[]|True||路由表规则信息|
 
-### <a name="ModifyRouteTableRules">ModifyRouteTableRules</a>
+### ModifyRouteTableRules
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**addressPrefix**|String|False||路由表规则前缀, internet类型路由跟其他类型的路由，addressPrefix不允许重复|

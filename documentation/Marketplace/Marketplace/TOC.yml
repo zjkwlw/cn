@@ -5,17 +5,17 @@ items:
       - name: 服务商入驻
         items:
         - name: 云市场简介
-          herf: ISV-Enter/MarketPlace-Introduction.md
+          herf: ISV/ISV-Enter/MarketPlace-Introduction.md
         - name: 入驻条件及类目介绍
-          herf: ISV-Enter/Enter-condition.md
+          herf: ISV/ISV-Enter/Enter-condition.md
         - name: 入驻流程
-          herf: ISV-Enter/Enter-Flow.md
+          herf: ISV/ISV-Enter/Enter-Flow.md
         - name: 入驻协议
-          herf: ISV-Enter/Enter-Agreement.md
+          herf: ISV/ISV-Enter/Enter-Agreement.md
         - name: 管理规范
-          herf: ISV-Enter/Management-Practices.md
+          herf: ISV/ISV-Enter/Management-Practices.md
         - name: 市场活动合作规范
-          herf: ISV-Enter/Norms-Of-Cooperation.md
+          herf: ISV/ISV-Enter/Norms-Of-Cooperation.md
       - name: 管理后台
         items:
         - name: 修改服务价格

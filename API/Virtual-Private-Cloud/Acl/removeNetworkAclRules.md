@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:rem
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ruleIds**|String[]|True||修改networkAcl属性|
+|**ruleIds**|String[]|True||networkAcl规则ID列表|
 
 
 ## 返回参数

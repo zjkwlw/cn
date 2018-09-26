@@ -20,7 +20,7 @@
 5. 密码：用户名对应的密码。
 
 ## 通过本地数据库管理软件连接实例
-如果需要本地的数据库管理软件连接云数据库 MySQL/Percona，默认云数据库 MySQL/Percona 不支持外网访问，需要手动开启，具体操作请参见 [开启外网访问](待补充)。
+如果需要本地的数据库管理软件连接云数据库 MySQL/Percona，默认云数据库 MySQL/Percona 不支持外网访问，需要手动开启，具体操作请参见 [开启外网访问](../../Operation-Guide/Instance/Internet-Access.md)。
 我们以 Sequel Pro 软件为例，介绍下如何连接云数据库 MySQL/Percona
 
 ### 操作步骤

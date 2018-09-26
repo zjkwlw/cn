@@ -18,9 +18,9 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**alarmConfigSpec**|[AlarmConfigSpec](##AlarmConfigSpec)|True||更新告警配置请求参数|
+|**alarmConfigSpec**|AlarmConfigSpec|True||更新告警配置请求参数|
 
-### <a name="AlarmConfigSpec">AlarmConfigSpec</a>
+### AlarmConfigSpec
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**blackHoleAlarmEmailStatus**|Integer|False||黑洞告警邮件开关 0 关闭 1 开启|

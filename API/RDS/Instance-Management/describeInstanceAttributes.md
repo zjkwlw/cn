@@ -22,19 +22,19 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**dbInstanceAttributes**|[DBInstanceAttribute](##DBInstanceAttribute)||
-### <a name="DBInstanceAttribute">DBInstanceAttribute</a>
+|**dbInstanceAttributes**|DBInstanceAttribute||
+### DBInstanceAttribute
 |名称|类型|描述|
 |---|---|---|
 |**auditStatus**|String|审计状态，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**azId**|String[]|可用区ID，第一个为主实例在的可用区，参见[地域及可用区对照表](../Enum-Definitions/Regions-AZ.md)|
-|**charge**|[Charge](##Charge)|计费配置|
+|**charge**|Charge|计费配置|
 |**connectionMode**|String|访问模式，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|实例创建时间|
 |**engine**|String|实例引擎类型，如MySQL或SQL Server等，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
@@ -43,7 +43,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**instanceClass**|String|实例规格代码|
 |**instanceId**|String|实例ID|
 |**instanceMemoryMB**|Integer|内存大小，单位MB|
-|**instanceName**|String|实例名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|实例名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instancePort**|String|应用访问端口|
 |**instanceStatus**|String|实例状态，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceStorageGB**|Integer|磁盘，单位GB|
@@ -53,7 +53,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**regionId**|String|地域ID，参见[地域及可用区对照表](../Enum-Definitions/Regions-AZ.md)|
 |**subnetId**|String|子网的ID|
 |**vpcId**|String|VPC的ID|
-### <a name="Charge">Charge</a>
+### Charge
 |名称|类型|描述|
 |---|---|---|
 |**chargeExpiredTime**|String|过期时间，预付费资源的到期时间，遵循ISO8601标准，使用UTC时间，格式为：YYYY-MM-DDTHH:mm:ssZ，后付费资源此字段内容为空|

@@ -20,21 +20,23 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |---|---|---|---|---|
 |**pageNumber**|Integer|False||页码, 默认为1|
 |**pageSize**|Integer|False||分页大小, 默认为10, 取值范围[10, 100]|
+|**searchType**|String|False||查询类型名称, domain:源站域名, ip:源站 IP, port: 转发端口, originPort: 源站端口|
+|**searchValue**|String|False||查询类型值|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**dataList**|[ForwardRule[]](##ForwardRule)||
+|**dataList**|ForwardRule[]||
 |**totalCount**|Integer||
-### <a name="ForwardRule">ForwardRule</a>
+### ForwardRule
 |名称|类型|描述|
 |---|---|---|
 |**algorithm**|String|转发规则：wrr->带权重的轮询，wlc->加权最小连接，rr->不带权重的轮询，sh->源地址hash|
@@ -42,14 +44,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |**id**|Integer|规则id|
 |**instanceId**|Integer|实例id|
 |**onlineAddr**|String[]||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)||
+|**originAddr**|OriginAddrItem[]||
 |**originDomain**|String|回源域名|
 |**originPort**|Integer|回源端口号|
 |**originType**|String|回源类型：ip或者domain|
 |**port**|Integer|端口号|
 |**protocol**|String|TCP或UDP|
 |**status**|Integer|0防御状态，1回源状态|
-### <a name="OriginAddrItem">OriginAddrItem</a>
+### OriginAddrItem
 |名称|类型|描述|
 |---|---|---|
 |**inJdCloud**|Boolean|是否为京东云内公网ip|

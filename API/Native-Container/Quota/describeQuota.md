@@ -25,14 +25,14 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**quota**|[Quota](##Quota)||
-### <a name="Quota">Quota</a>
+|**quota**|Quota||
+### Quota
 |名称|类型|描述|
 |---|---|---|
 |**limit**|Integer|配额|

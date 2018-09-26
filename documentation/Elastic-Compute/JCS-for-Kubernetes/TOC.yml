@@ -1,10 +1,10 @@
 ﻿
-  name: Kuberenetes 集群
+  name: Kubernetes 集群
   href: 
   items:
   - name: 产品简介
     items:
-      - name: Kubernetes集群概述
+      - name: 产品概述
         href: Introduction/Product-Overview.md
       - name: 核心概念
         href: Introduction/Core-Concepts.md

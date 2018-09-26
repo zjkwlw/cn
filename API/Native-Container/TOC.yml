@@ -4,30 +4,31 @@
   - name: 接口概览
     href: overview.md
   - name: 更新历史
+    href: ChangeLog.md
   - name: 接口信息
     items:
       - name: 原生容器
         items:
           - name: 原生容器绑定弹性IP
-            href: Native Container/associateElasticIp.md
+            href: Native-Container/associateElasticIp.md
           - name: 创建原生容器
-            href: Native Container/createContainers.md
+            href: Native-Container/createContainers.md
           - name: 删除原生容器
-            href: Native Container/deleteContainer.md
+            href: Native-Container/deleteContainer.md
           - name: 查询原生容器详情
-            href: Native Container/describeContainer.md
+            href: Native-Container/describeContainer.md
           - name: 查询原生容器列表
-            href: Native Container/describeContainers.md
+            href: Native-Container/describeContainers.md
           - name: 原生容器解绑弹性IP
-            href: Native Container/disassociateElasticIp.md
+            href: Native-Container/disassociateElasticIp.md
           - name: 查询原生容器日志
-            href: Native Container/getLogs.md
+            href: Native-Container/getLogs.md
           - name: 修改原生容器属性
-            href: Native Container/modifyContainerAttribute.md
+            href: Native-Container/modifyContainerAttribute.md
           - name: 启动原生容器
-            href: Native Container/startContainer.md
+            href: Native-Container/startContainer.md
           - name: 停止原生容器
-            href: Native Container/stopContainer.md
+            href: Native-Container/stopContainer.md
       - name: 配额
         items:
           - name: 查询原生容器相关配额

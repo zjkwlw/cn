@@ -15,17 +15,17 @@
 
 1.进入后端签名列表页
 
-![后端签名列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-list.png)
+![后端签名列表页](../../../../../image/Internet-Middleware/API-Gateway/hdqm-list.png)
 
 
 2.新增后端签名
 
-![新增后端签名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-add.png)
+![新增后端签名](../../../../../image/Internet-Middleware/API-Gateway/hdqm-add.png)
 
 
 3.给分组绑定签名
 
-![绑定签名](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-bd.png)
+![绑定签名](../../../../../image/Internet-Middleware/API-Gateway/hdqm-bd.png)
 
 
 

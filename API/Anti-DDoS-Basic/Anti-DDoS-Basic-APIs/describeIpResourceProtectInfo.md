@@ -26,14 +26,14 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**dataList**|[IpResourceProtectInfo[]](##IpResourceProtectInfo)||
-### <a name="IpResourceProtectInfo">IpResourceProtectInfo</a>
+|**dataList**|IpResourceProtectInfo[]||
+### IpResourceProtectInfo
 |名称|类型|描述|
 |---|---|---|
 |**cause**|Integer|触发原因，0->未知 1->四层 2->七层 3->四和7层|

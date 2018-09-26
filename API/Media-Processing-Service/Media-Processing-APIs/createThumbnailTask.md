@@ -20,13 +20,13 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**createdTime**|String|False||任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|False||错误码 (readonly)|
 |**lastUpdatedTime**|String|False||任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)|False|||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)|True|||
+|**rule**|ThumbnailTaskRule|False|||
+|**source**|ThumbnailTaskSource|True|||
 |**status**|String|False||状态 (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)|True|||
+|**target**|ThumbnailTaskTarget|True|||
 |**taskID**|String|False||任务ID (readonly)|
 
-### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
+### ThumbnailTaskRule
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**count**|Integer|False||截图数量, mode=single时不可选. default:1|
@@ -34,12 +34,12 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**keyFrame**|Boolean|False||是否开启关键帧截图 default: true|
 |**mode**|String|False||截图模式 单张: single 多张: multi 平均: average default: single|
 |**startTimeInSecond**|Integer|False||生成截图的开始时间, mode=average 时不可选. default:0|
-### <a name="ThumbnailTaskSource">ThumbnailTaskSource</a>
+### ThumbnailTaskSource
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**bucket**|String|True||输入视频信息的 bucket|
 |**key**|String|True||输入视频信息的 Key|
-### <a name="ThumbnailTaskTarget">ThumbnailTaskTarget</a>
+### ThumbnailTaskTarget
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**destBucket**|String|True||输入存放目标文件的 bucket|
@@ -53,14 +53,14 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**thumbnailTaskID**|[ThumbnailTaskID](##ThumbnailTaskID)||
-### <a name="ThumbnailTaskID">ThumbnailTaskID</a>
+|**thumbnailTaskID**|ThumbnailTaskID||
+### ThumbnailTaskID
 |名称|类型|描述|
 |---|---|---|
 |**taskID**|String||

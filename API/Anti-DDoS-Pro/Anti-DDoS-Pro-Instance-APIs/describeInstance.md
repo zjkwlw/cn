@@ -23,14 +23,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[Instance](##Instance)||
-### <a name="Instance">Instance</a>
+|**data**|Instance||
+### Instance
 |名称|类型|描述|
 |---|---|---|
 |**abovePeakCount**|Integer|超峰次数|

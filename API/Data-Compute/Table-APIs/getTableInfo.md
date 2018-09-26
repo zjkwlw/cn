@@ -26,16 +26,16 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[DwTable](##DwTable)||
+|**data**|DwTable||
 |**message**|String||
 |**status**|Boolean||
-### <a name="DwTable">DwTable</a>
+### DwTable
 |名称|类型|描述|
 |---|---|---|
 |**category**|String|类别|
@@ -44,7 +44,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**dbName**|String|数据库名|
 |**encryption**|String|是否加密|
 |**hiveFileFormat**|String|文件存储类型|
-|**hiveObjectPrivileges**|[DwHiveObjectPrivileges](##DwHiveObjectPrivileges)|hive表权限信息|
+|**hiveObjectPrivileges**|DwHiveObjectPrivileges|hive表权限信息|
 |**id**|Integer|数据库id|
 |**lastUpdateTime**|String|最新更新时间|
 |**location**|String|位置|
@@ -54,7 +54,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**source**|String|来源|
 |**tableName**|String|表名|
 |**userName**|String|用户名|
-### <a name="DwHiveObjectPrivileges">DwHiveObjectPrivileges</a>
+### DwHiveObjectPrivileges
 |名称|类型|描述|
 |---|---|---|
 |**alter**|Boolean|alter权限|

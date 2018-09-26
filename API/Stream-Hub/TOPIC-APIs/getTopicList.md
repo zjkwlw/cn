@@ -24,10 +24,10 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/topicList
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
 |**topic**|Object[]||

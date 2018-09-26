@@ -22,16 +22,16 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/key
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|[AppModel](##AppModel)|查询的AK/SK|
+|**data**|AppModel|查询的AK/SK|
 |**message**|String||
 |**status**|String||
-### <a name="AppModel">AppModel</a>
+### AppModel
 |名称|类型|描述|
 |---|---|---|
 |**appKey**|String|AK|
