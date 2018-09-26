@@ -71,8 +71,10 @@ Header特别提示:
 |x-amz-storage-class|字符串|Object的存储类型<br> 默认值：STANDARD（标准存储）<br>有效值：STANDARD（标准存储）和REDUCED_REDUNDANCY（低冗余存储）|否|
 |file|字符串|文件或文本内容，此属性必须放在form最后，否则file后的属性将被忽略，不支持多个文件同时上传<br>默认值：无|是|
  
- #### 响应
- #### 响应元素（Response Elements）
+#### 响应
+ 
+#### 响应元素（Response Elements）
+ 
  当且仅当返回码为201时，有以下返回
  
 |名称|类型|描述|
@@ -168,7 +170,9 @@ policy示例：
 }
 
 ```
+
 Post policy中必须包含expiration和condtions。
+
 ##### expiration
 post请求policy的过期时间，时间格式为ISO8601 GMT。例如：”2018-06-01T12:00:00.000Z”，指定Post请求必须发生在2018年6月1日12点之前。
 
@@ -234,6 +238,7 @@ Conditions是一个列表，可以用于指定Post请求的表单域的合法值
 
 #### 表单上传样例：
 以下例子提供了如何使用POST policy 和表单完成上传一个文件到OSS。
+
 ##### Policy样例
 ```
 {
