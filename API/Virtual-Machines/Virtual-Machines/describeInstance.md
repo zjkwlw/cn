@@ -51,7 +51,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|主网卡配置|
 |**privateIpAddress**|String|主网卡主IP地址|
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|辅助网卡配置|
-|**status**|String|云主机状态，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>|
+|**status**|String|云主机状态，<a href="http://docs.jdcloud.com/virtual-machines/api/vm_status">参考云主机状态</a>|
 |**subnetId**|String|主网卡所属子网的ID|
 |**systemDisk**|InstanceDiskAttachment|系统盘配置|
 |**tags**|Tag[]|Tag信息|

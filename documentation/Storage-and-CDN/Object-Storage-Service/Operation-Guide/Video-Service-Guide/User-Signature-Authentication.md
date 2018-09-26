@@ -127,7 +127,7 @@ String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 ```
 
 签名(Signature)计算结果应该为xvj2Iv7WcSwnN26XYnTq/c2YBQs=，因为
-Authorization = “jingdong “ + AccessKey + “:” + Signature所以最后Authorization为 “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=”然后加上Authorization头来组成最后需要发送的消息：
+Authorization = “jingdong ” + AccessKey + “:” + Signature所以最后Authorization为 “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=”然后加上Authorization头来组成最后需要发送的消息：
 ```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain
@@ -136,7 +136,7 @@ PUT /sign.txt   HTTP/1.1
   Date: Thu, 13 Jul 2017 02:37:31 GMT
   Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=
   Content-Length: 20
-  Host: s-bj.jcloud.com
+  Host: oss.cn-north-1.jcloudcs.com
 ```
 细节分析:
 
