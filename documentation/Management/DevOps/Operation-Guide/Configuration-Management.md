@@ -97,7 +97,8 @@
 之后进入到编辑实例页面，选择分组，可添加控制台中已创建好的云主机。
     
 若选择“根据您实例模块创建主机”，那么：
-  ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide8.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide8.png)
+
 需要填写以下信息：
 
 - 实例模板：选择在菜单栏-配置管理-规格模板 中，定义好的规格模板
