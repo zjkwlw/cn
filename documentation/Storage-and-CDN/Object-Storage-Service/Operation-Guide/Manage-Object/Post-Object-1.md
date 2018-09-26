@@ -1,5 +1,5 @@
-# 表单上传
-## 应用场景
+#  表单上传
+##  应用场景
 
  表单上传指用户使用OSS API中的Post Object请求来完成文件的上传，非常适合嵌入在HTML网页中来上传文件，比较常见的应用场景是网站应用，以社交网站为例，流程对比如下：
 
@@ -62,4 +62,8 @@ Post请求的Policy表单域用于验证请求的合法性。例如可以指定�
 功能使用参考
 
 API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md)
+
+示例 Demo
+
+Web 端表单直传 OSS 示例 Demo，请参见[PostObject-S3-SDK-Demo](https://downloads.s3.cn-north-1.jcloudcs.com/Demo/postObject_S3_SDK_JAVA_Demo.zip)。
 
