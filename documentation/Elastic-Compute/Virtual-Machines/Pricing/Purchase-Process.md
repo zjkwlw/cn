@@ -21,7 +21,7 @@
 ## 相关参考
 [使用限制](./Introduction/Restrictions.md)
 
-[注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
+[注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
 
 [实名认证](../../../User-Service/Real-Name-Verification/Real-Name-Verification.md)
 
