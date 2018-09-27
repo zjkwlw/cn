@@ -14,11 +14,12 @@
 1. 在"实例详情"页面，点击 **监控**，进入"监控信息"页面。
 1. 点击页面右侧 **设置报警规则**，进入"报警规则"页面。
 
-   ![](https://github.com/jdcloudcom/cn/blob/master/image/Redis/set-rule.png)
-
+   ![](https://github.com/jdcloudcom/cn/blob/JCS-for-Redis/image/Redis/set-rule.png)
+   
+   
 1. 在“报警规则”页面，点击 **新增报警规则**，进入”设置报警规则“页面，按页面提示添加新规则。
  
-   ![](https://github.com/jdcloudcom/cn/blob/master/image/Redis/addrule.png)
+   ![](https://github.com/jdcloudcom/cn/blob/JCS-for-Redis/image/Redis/addrule.png)
 
 ## 相关参考
 
