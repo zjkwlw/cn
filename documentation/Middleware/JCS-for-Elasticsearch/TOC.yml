@@ -47,6 +47,8 @@
         href: Getting-Started/Delete-ES.md
   - name: 操作指南
     items:
+      - name: 访问ES
+        href: Operation-Guide/connect-ES.md
       - name: 监控集群
         href: Operation-Guide/Monitoring.md
       - name: 管理集群
