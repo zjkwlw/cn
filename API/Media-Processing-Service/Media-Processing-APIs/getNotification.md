@@ -12,7 +12,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/notification
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||region id|
+|**regionId**|String|True| |region id|
 
 ## 请求参数
 无
@@ -21,14 +21,14 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/notification
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**notification**|Notification||
+|**notification**|Notification| |
 ### Notification
 |名称|类型|描述|
 |---|---|---|

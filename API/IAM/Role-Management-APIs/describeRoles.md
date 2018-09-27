@@ -18,16 +18,16 @@ https://iam.jdcloud-api.com/v1/roles
 |---|---|---|---|---|
 |**pageNumber**|Integer|False|1|页码|
 |**pageSize**|Integer|False|50|每页显示数目[10~100] 默认50条|
-|**pathPrefix**|String|False||path前缀|
-|**roleName**|String|False||角色名称关键词|
-|**sort**|Integer|True||排序策略,0-按创建时间顺序排序  1-按创建时间倒序|
+|**pathPrefix**|String|False| |path前缀|
+|**roleName**|String|False| |角色名称关键词|
+|**sort**|Integer|True| |排序策略,0-按创建时间顺序排序  1-按创建时间倒序|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
