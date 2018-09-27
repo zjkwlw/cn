@@ -260,8 +260,7 @@
       - name: 从客户端连接 SQL Server
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: 从云主机连接 SQL Server
-        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md
-  
+        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
   - name: 常见问题
     items:
     - name: FAQ
@@ -270,16 +269,10 @@
       href: FAQ/Storage-Engine.md
     - name: 存储空间
       href: FAQ/Storage-Space.md
-
   - name: 问题排查
     items:
     - name: 内存使用率
-      href: Troubleshooting/Memory-Use-Rate.md
-          
-  - name: API参考
-    href:
-  - name: SDK参考
-    href:
+      href: Troubleshooting/Memory-Use-Rate.md          
   - name: 相关资源
     items:
     - name: 文档历史记录

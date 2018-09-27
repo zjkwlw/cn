@@ -6,7 +6,7 @@ CloudBerry Explorer 是业界开发的一Windows 下直接通过 CloudBerry Expl
 
 CloudBerry主要功能包括：支持AK/SK登录，管理Bucket、管理Object、上传与下载、外链、同步等。
 
-更多详细操作请下载[《京东云对象存储CloudBerry使用手册》](https://oss.cn-north-1.jcloudcs.com/downloads/%E4%BA%AC%E4%B8%9C%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8CloudBerry%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf)
+更多详细操作请下载[《京东云对象存储CloudBerry使用手册》](http://downloads.oss.cn-north-1.jcloudcs.com/%25E4%25BA%25AC%25E4%25B8%259C%25E4%25BA%2591%25E5%25AF%25B9%25E8%25B1%25A1%25E5%25AD%2598%25E5%2582%25A8CloudBerry%25E4%25BD%25BF%25E7%2594%25A8%25E6%2589%258B%25E5%2586%258C.pdf)
 
 ## 使用CloudBerry接入OSS
 
@@ -26,7 +26,7 @@ CloudBerry下载地址：http://www.cloudberrylab.com/download-thanks.aspx?prod=
 
 Display name：显示名称，一般填自己的用户名即可。
 
-Service point：填写京东云兼容S3的服务域名。（兼容S3服务域名详见https://www.jdcloud.com/help/detail/1902/isCatalog/1 ）
+Service point：填写京东云[兼容S3的服务域名]((../../API-Reference-S3-Compatible/Regions-And-Endpoints.md))。
 
 Access key、Secret key：接入 OSS 服务的 AK、SK。
 

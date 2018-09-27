@@ -1,60 +1,11 @@
-# 表单上传
-## 应用场景
+#  表单上传
+##  应用场景
 
- 表单上传指用户使用OSS API中的Post Object请求来完成文件的上传，非常适合嵌入在HTML网页中来上传文件，比较常见的应用场景是网站应用，以社交网站为例子：
+ 表单上传指用户使用OSS API中的Post Object请求来完成文件的上传，非常适合嵌入在HTML网页中来上传文件，比较常见的应用场景是网站应用，以社交网站为例，流程对比如下：
 
-
-
-<table>
-    <thead>
-        <tr class="firstRow">
-            <td valign="top" style="border:solid #DDDDDD 1px;background:#F0F0F0;padding:7px 15px 7px 10px"></td>
-            <td valign="top" style="border:solid #DDDDDD 1px;border-left:none;background:#F0F0F0;padding:7px 15px 7px 10px">
-                <p>
-                    <strong><span style="font-family:宋体;color:black">不使用表单上传</span></strong>
-                </p>
-            </td>
-            <td valign="top" style="border:solid #DDDDDD 1px;border-left:none;background:#F0F0F0;padding:7px 15px 7px 10px">
-                <p>
-                    <strong><span style="font-family:宋体;color:black">表单上传</span></strong>
-                </p>
-            </td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td valign="top" style="border:solid #DDDDDD 1px;border-top:none;padding:7px 10px 7px 10px">
-                <p>
-                    <span style="font-family:宋体;color:#333333">流程对比</span>
-                </p>
-            </td>
-            <td valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221, 221, 221); padding: 7px 10px; word-break: break-all;">
-                <p>
-                    1.&nbsp;网站用户上传图片
-                </p>
-                <p>
-                    2.&nbsp;网站服务器回应上传页面
-                </p>
-                <p>
-                    3.&nbsp;图片被上传到网站服务器
-                </p>
-                <p>
-                    4. 网站服务器再将图片上传到OSS
-                </p>
-            </td>
-            <td valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221, 221, 221); padding: 7px 10px; word-break: break-all;">
-                <p>
-                    1.&nbsp;网站用户上传图片
-                </p>
-                <p>
-                    2. 图片上传到OSS
-                </p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
- 
+|不使用表单上传|表单上传|
+|-|-|
+|1.网站用户上传图片<br>2.网站服务器回应上传页面<br>3.图片被上传到网站服务器<br>4.网站服务器再将图片上传到OSS|1.网站用户上传图片<br>2.图片上传到OSS|
 
 使用表单上传的优势
 
@@ -111,4 +62,8 @@ Post请求的Policy表单域用于验证请求的合法性。例如可以指定�
 功能使用参考
 
 API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md)
+
+示例 Demo
+
+Web 端表单直传 OSS 示例 Demo，请参见[PostObject-S3-SDK-Demo](https://downloads.s3.cn-north-1.jcloudcs.com/Demo/postObject_S3_SDK_JAVA_Demo.zip)。
 

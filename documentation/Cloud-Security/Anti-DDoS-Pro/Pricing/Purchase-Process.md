@@ -20,4 +20,4 @@
 2. 选择“控制台”，具体见下图。
 ![控制台](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/console-buy.png)
 
-3.登录控制台，具体操作请参考[创建实例](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/Advanced-Anti-DDoS/Getting-Started/Create-Instance.md)。
+3.登录控制台，具体操作请参考[创建实例](../Getting-Started/Create-Instance.md)。

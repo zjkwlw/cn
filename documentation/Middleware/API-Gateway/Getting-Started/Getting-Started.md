@@ -19,11 +19,11 @@
 
 
 ## 前提条件
-- 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud)，或 [实名认证](https://uc.jdcloud.com/account/certify)。
+- 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud)，并[实名认证](https://uc.jdcloud.com/account/certify)。
 
 
 ## 操作步骤
-### STEP1:创建API分组
+### STEP1: 创建API分组
 
 1. 登录 [API网关 控制台](https://apigateway-console.jdcloud.com/apiGroupList)。
 
@@ -34,7 +34,7 @@
 
 
 
-### STEP2:创建分组下的API
+### STEP2: 创建分组下的API
 
 API 分组创建完成您就可以创建 API 了，创建 API 是定义 API 请求的过程。您需要在创建中依次定义以下内容：
 
@@ -53,7 +53,7 @@ API 分组创建完成您就可以创建 API 了，创建 API 是定义 API 请�
 
 
 
-### STEP4:给分组绑定域名、配置流控策略、后端签名
+### STEP4: 给分组绑定域名、配置流控策略、后端签名
 
 1.API网关基于 API分组，来绑定域名。API网关通过域名来定位到一个唯一的 API分组，再通过Path+HTTPMethod 确定唯一的 API。
 

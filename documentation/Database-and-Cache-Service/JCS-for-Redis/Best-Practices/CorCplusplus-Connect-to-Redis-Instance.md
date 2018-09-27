@@ -4,14 +4,18 @@
 
 - step1：下载安装c/c++连接redis的c客户端
 
- <pre><code>git clone https://github.com/redis/hiredis.git 
+```
+ git clone https://github.com/redis/hiredis.git 
  cd hiredis 
  make 
  sudo make install 
- ldconfig</code></pre>
+ ldconfig
+```
+
 - step2：编写测试代码
 
- <pre><code>#include <stdio.h>
+```
+ #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
  #include <hiredis.h>
@@ -93,13 +97,17 @@
      /* Disconnects and frees the context */
      redisFree(c);
      return 0;
- }</code></pre>
+ }
+ ```
+ 
 step3：编译
 
-<pre><code>gcc -o example -g example.c -I /usr/local/include/hiredis –lhiredis</code></pre>
+<code>gcc -o example -g example.c -I /usr/local/include/hiredis –lhiredis</code>
+
 step4：运行测试用例
 
-<pre><code>./example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 B69B341E5C669082EFCF2E405C626379
+```
+./example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 B69B341E5C669082EFCF2E405C626379
 AUTH: OK
 PING: PONG
 SET: OK
@@ -116,4 +124,5 @@ INCR counter: 4
 6) element-3
 7) element-2
 8) element-1
-9) element-0</code></pre>
+9) element-0
+```

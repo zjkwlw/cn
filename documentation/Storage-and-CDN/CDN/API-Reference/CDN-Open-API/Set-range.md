@@ -31,7 +31,7 @@ http://opencdn.jcloud.com/api/setRangeArgs
 
 - ### **请求示例**
 
-html http://opencdn.jcloud.com/api/setRangeArgs
+http://opencdn.jcloud.com/api/setRangeArgs
 
  * json格式
 
