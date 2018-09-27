@@ -33,12 +33,8 @@
     items:
       - name: 创建实例
         href: Getting-Started/Create-Instance.md
-      - name: 连接实例
-        href: Getting-Started/Connect-Instances.md
       - name: 命令支持
         href: Getting-Started/Command-Supported.md
-      - name: 入门指南概述
-        href: Getting-Started/Getting-Started-Overview.md
   - name: 操作指南
     items:
       - name: 实例管理
@@ -48,19 +44,13 @@
           - name: 修改密码
             href: Operation-Guide/Instance-Management/Change-Password.md
           - name: 更改实例名称
-            href: Operation-Guide/Instance-Management/Modify-Instancename.md      
-          - name: 释放实例
+            href: Operation-Guide/Instance-Management/Modify-Instancename.md          
+          - name: 删除实例
             href: Operation-Guide/Instance-Management/Release-Instance.md
       - name: 账号登录
-        items:
-          - name: 登录账号
-            href: Operation-Guide/Login/Login.md
+        href: Operation-Guide/Login/Login.md
       - name: 监控报警
-        items:
-          - name: 查看监控信息
-            href: Operation-Guide/Monitoring/Monitoring.md
-          - name: 设置报警规则
-            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+        href: Operation-Guide/Monitoring/Monitoring.md             
   - name: 最佳实践
     items:
     - name: C++客户端
@@ -83,9 +73,9 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
+    status: 0
   - name: SDK参考
-    href:
+    status: 0
   - name: 用户协议
     status: 0
     items:
