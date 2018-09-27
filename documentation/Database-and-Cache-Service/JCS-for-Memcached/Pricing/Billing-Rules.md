@@ -1,7 +1,7 @@
 # 计费规则
 缓存Memcached提供按配置、包年包月两种计费方式，请参见 计费方式
-- 按配置计费 --请参见 后付费计费说明。
-- 包年包月 --请参见 预付费计费说明。
+- 按配置计费 --请参见  [后付费计费说明](https://docs.jdcloud.com/cn/billing/postpay)
+- 包年包月 --请参见  [预付费计费说明](https://docs.jdcloud.com/cn/billing/prepay)
 
 # 续费规则
 - 按配置计费续费：即更改缓存Memcached的计费方式为包年包月，续费时间段为1个月~9个月、1年、2年、3年。
