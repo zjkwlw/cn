@@ -4,6 +4,7 @@
 
 构建规范语法如下：
 
+```
 envs:
 - name: TEST_ENV
 value: test
@@ -15,3 +16,5 @@ cmd: pwd
 - name: build
 cmd: ./build.sh
 out_dir: output
+```
+
