@@ -7,6 +7,8 @@
         href: Introduction/Product-Overview.md
       - name: 核心概念
         href: Introduction/Core-Concepts.md
+      - name: 应用场景
+        href: Introduction/Application-Scenarios.md
       - name: 公测说明 
         href: Introduction/Public-Beta-Introduction.md
   - name: 产品定价
