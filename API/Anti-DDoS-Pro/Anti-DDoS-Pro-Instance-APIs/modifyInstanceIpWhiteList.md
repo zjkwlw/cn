@@ -12,19 +12,19 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setI
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||实例 ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |实例 ID|
+|**regionId**|String|True| |Region ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ipWhiteList**|String[]|True||ip白名单列表|
+|**ipWhiteList**|String[]|True| |ip白名单列表|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 

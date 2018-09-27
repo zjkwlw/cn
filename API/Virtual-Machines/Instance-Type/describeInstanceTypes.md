@@ -13,25 +13,25 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||instanceTypes - 实例规格，精确匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>|
+|**filters**|Filter[]|False| |instanceTypes - 实例规格，精确匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>|
 
 ### Filter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True||过滤条件的名称|
-|**operator**|String|False||过滤条件的操作符，默认eq|
-|**values**|String[]|True||过滤条件的值|
+|**name**|String|True| |过滤条件的名称|
+|**operator**|String|False| |过滤条件的操作符，默认eq|
+|**values**|String[]|True| |过滤条件的值|
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result

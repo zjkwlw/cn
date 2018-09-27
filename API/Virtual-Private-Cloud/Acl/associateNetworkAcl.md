@@ -12,13 +12,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:ass
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**networkAclId**|String|True||networkAclId ID|
-|**regionId**|String|True||Region ID|
+|**networkAclId**|String|True| |networkAclId ID|
+|**regionId**|String|True| |Region ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**subnetIds**|String[]|True||networkAcl要绑定的子网ID列表, subnet已被其他networkAcl绑定时，自动解绑|
+|**subnetIds**|String[]|True| |networkAcl要绑定的子网ID列表, subnet已被其他networkAcl绑定时，自动解绑|
 
 
 ## 返回参数

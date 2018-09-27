@@ -12,8 +12,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID|
-|**snapshotId**|String|True||快照ID|
+|**regionId**|String|True| |地域ID|
+|**snapshotId**|String|True| |快照ID|
 
 ## 请求参数
 无
@@ -29,7 +29,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**snapshot**|Snapshot||
+|**snapshot**|Snapshot| |
 ### Snapshot
 |名称|类型|描述|
 |---|---|---|

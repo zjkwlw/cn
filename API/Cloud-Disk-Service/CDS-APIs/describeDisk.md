@@ -12,8 +12,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**diskId**|String|True||云硬盘ID|
-|**regionId**|String|True||地域ID|
+|**diskId**|String|True| |云硬盘ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 无
@@ -29,7 +29,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**disk**|Disk||
+|**disk**|Disk| |
 ### Disk
 |名称|类型|描述|
 |---|---|---|
