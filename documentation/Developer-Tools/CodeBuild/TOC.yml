@@ -14,21 +14,21 @@
   - name: 入门指南
     items:
       - name: 新建项目
-        href: Getting-Started/Create project.md
+        href: Getting-Started/Create-Project.md
       - name: 执行构建
         href: Getting-Started/Build.md
       - name: 构建历史
-        href: Getting-Started/Build history.md
+        href: Getting-Started/Build-History.md
   - name: 操作指南
     items:
           - name: 构建类型
-            href: Operation-Guide/Build environment.md
+            href: Operation-Guide/Build-Environment.md
           - name: 源代码配置
-            href: Operation-Guide/Source configuration.md
+            href: Operation-Guide/Source-Configuration.md
           - name: 构建规范
-            href: Operation-Guide/Build spec.md      
+            href: Operation-Guide/Build-Spec.md      
           - name: 构建存放
-            href: Operation-Guide/Build storage.md
+            href: Operation-Guide/Build-Storage.md
           - name: 高级设置
-            href: Operation-Guide/Advanced setting.md
+            href: Operation-Guide/Advanced-Setting.md
     
