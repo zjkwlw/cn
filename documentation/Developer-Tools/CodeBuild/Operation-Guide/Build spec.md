@@ -4,7 +4,7 @@
 
 envs:
 - name: TEST_ENV
-value: testtttt
+value: test
 cmds:
 - name: who
 cmd: id
