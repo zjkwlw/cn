@@ -77,3 +77,5 @@
     href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
   - name: 云搜索 Elasticsearch服务条款
     href: JCS-for-Elasticsearch-Service-Terms.md
+  - name: 缓存 Memcached服务条款
+    href: JCS-for-Memcached-Service-Terms.md
