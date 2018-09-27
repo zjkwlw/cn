@@ -6,14 +6,14 @@
 
 ```
 envs:
-- name: TEST_ENV
+name: TEST_ENV
 value: test
 cmds:
-- name: who
+name: who
 cmd: id
-- name: see
+name: see
 cmd: pwd
-- name: build
+name: build
 cmd: ./build.sh
 out_dir: output
 ```
