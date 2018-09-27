@@ -63,20 +63,17 @@
             href: Operation-Guide/Monitoring/Alarm-Rules.md              
   - name: 最佳实践
     items:
-    - name: C/C++连接Redis实例
-      href: Best-Practices/CorCplusplus-Connect-to-Redis-Instance.md
-    - name: Golang连接Redis实例
-      href: Best-Practices/Golang-Connect-to-Redis-Instance.md
-    - name: Java连接Redis实例
-      href: Best-Practices/Java-Connect-to-Redis-Instance.md
-    - name: Node.js连接Redis实例
-      href: Best-Practices/Node.js-Connect-to-Redis-Instance.md
-    - name: PHP连接Redis实例
-      href: Best-Practices/PHP-Connect-to-Redis-Instance.md
-    - name: Python连接Redis实例
-      href: Best-Practices/Python-Connect-to-Redis-Instance.md
-    - name: 公网连接Redis实例
-      href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md
+    - name: C++客户端
+      href: Best-Practices/Cplusplus-libmemcached.md
+    - name: Go客户端
+      href: Best-Practices/go-gomemcached.md
+    - name: Java客户端
+      href: Best-Practices/java-spymemcached.md
+    - name: PHP客户端
+      href: Best-Practices/php-PECL.md
+    - name: Python客户端
+      href: Best-Practices/Python-bmemcached.md
+
   - name: 教程
     items:
     status: 0
