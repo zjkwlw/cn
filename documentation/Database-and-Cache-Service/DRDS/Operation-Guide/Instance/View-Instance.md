@@ -4,7 +4,7 @@
 
 当前页面会显示当前区域下的各个云数据库实例的概要信息，包括计费信息和过期时间
 
-![image.png](https://img1.jcloudcs.com/cms/28a538fa-a25f-43e7-834b-ebf18e7f3cd420180704173602.png)
+![实例列表](../../../../../image/DRDS/instance_list.png)
 
 **2. 查看实例详情**
 
