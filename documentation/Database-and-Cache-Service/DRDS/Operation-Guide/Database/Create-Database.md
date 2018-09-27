@@ -4,7 +4,7 @@
 
 点击实例名，进入实例页面，选择 **【库管理】** 页面，点击 **【创建库】**
 
-![image.png](https://img1.jcloudcs.com/cms/7ffdb27d-a3a7-4438-a881-96faaf81811620180704173705.png)
+![DB列表](../../../../../image/DRDS/db-list.png)
 
 
 **2. 输入数据库相关信息**
@@ -15,7 +15,7 @@
 
 **类型：** 只支持“拆分”，即该数据库会实际对应到多个MySQL实例上的多个数据库
 
-![image.png](https://img1.jcloudcs.com/cms/8ccc72b6-a9bd-410c-ab2b-e275633001fe20180704173755.png)
+![创建库1](../../../../../image/DRDS/create-db-1.png)
 
 **3. 选择后端MySQL实例**
 
@@ -23,4 +23,4 @@
 
 用户无需手工在MySQL上创建各个分库
 
-![image.png](https://img1.jcloudcs.com/cms/c7418598-05b6-4533-8b1a-fbf44fa2391d20180704173810.png)
+![创建库2](../../../../../image/DRDS/create-db-2.png)
