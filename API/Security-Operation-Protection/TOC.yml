@@ -5,7 +5,7 @@ items:
     href: overview.md
   - name: 更新历史
     href: ChangeLog.md
-  - name: Interface List
+  - name: 接口列表
     items:
       - name:  安全凭证接口
         items:
