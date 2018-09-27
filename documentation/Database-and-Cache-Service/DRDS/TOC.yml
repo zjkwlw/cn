@@ -56,7 +56,5 @@
     - name: FAQ
       href: FAQ/FAQ.md
     - name: 使用限制
-      href: FAQ/Restrictions.md
-    - name: 保留关键字
-      href: FAQ/Reserved-Keywords.md      
+      href: FAQ/Restrictions.md   
   
