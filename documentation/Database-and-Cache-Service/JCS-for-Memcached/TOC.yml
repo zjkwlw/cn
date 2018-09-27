@@ -81,7 +81,7 @@
     items:
     status: 0      
   - name: 常见问题
-    href: FAQ/FQA.md
+    href: FAQ/FAQ.md
   - name: API参考
     href:
   - name: SDK参考
