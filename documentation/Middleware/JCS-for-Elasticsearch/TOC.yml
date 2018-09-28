@@ -1,4 +1,4 @@
-﻿  name: 云搜索 Elasticsearch
+  name: 云搜索 Elasticsearch
   href: 
   items:
   - name: 产品简介
@@ -43,7 +43,7 @@
         href: Getting-Started/View-ES.md
       - name: 变更ES
         href: Getting-Started/Change-ES.md
-       - name: 删除ES
+      - name: 删除ES
         href: Getting-Started/Delete-ES.md
   - name: 操作指南
     items:
