@@ -2,14 +2,15 @@
 
 ![2.png](https://img1.jcloudcs.com/cms/80582ae9-a09c-43a6-85ab-b6b78312bb2e20180906113313.png)
 
-lnamespace：可选择User或者Group
+ - namespace：可选择User或者Group
 
-l权限：
+- 权限：
 
-nPrivate：只有被赋权用户可见
+ - Private：只有被赋权用户可见
 
-nInternal：登录用户可下载
+ - Internal：登录用户可下载
 
-nPublic：所有人可下载
+ - Public：所有人可下载
+ 
 
 点击Create Project
