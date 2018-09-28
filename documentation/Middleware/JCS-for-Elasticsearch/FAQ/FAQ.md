@@ -1,9 +1,9 @@
 ## 常见问题
 ### ELK是什么
-ELK=elasticsearch+Logstash+kibana 
-elasticsearch：后台分布式存储以及全文检索。 
-logstash: 日志加工、“搬运工”。
-kibana：数据可视化展示。 
+ELK=elasticsearch+Logstash+kibana <\br>
+elasticsearch：后台分布式存储以及全文检索。 <\br>
+logstash: 日志加工、“搬运工”。<\br>
+kibana：数据可视化展示。 <\br>
 ELK架构为数据分布式存储、可视化查询和日志解析创建了一个功能强大的管理链，三者相互配合，取长补短，共同完成分布式大数据处理工作。
 ### 如何监控Elasticsearch集群状态
 可以很简单的通过 Kibana 监控 Elasticsearch。你可以实时查看你的集群健康状态和性能，也可以分析过去的集群、索引和节点指标。
