@@ -70,13 +70,13 @@ g.n2.18xlarge|72|288
 
 实例规格|vCPU（核）|内存（GB）|备注
 :---|:---|:---|:---	
-g.n1.medium|1|4|	
-g.n1.large|2|8|	
-g.n1.xlarge_m	|4|12|*|
-g.n1.xlarge|4|16|	
-g.n1.2xlarge|8|32|	
-g.n1.4xlarge|16|64|	
-g.n1.8xlarge|32|128|	
+g.n1.medium|1|4| |	
+g.n1.large|2|8|	|
+g.n1.xlarge_m	|4|12|* 
+g.n1.xlarge|4|16| |	
+g.n1.2xlarge|8|32| |	
+g.n1.4xlarge|16|64| |	
+g.n1.8xlarge|32|128| |	
 
 标*表示不支持以该规格新建云主机，且不支持您将当前云主机调整至该规格，但不影响您现有该规格云主机的使用。
 
@@ -117,15 +117,15 @@ c.n2.18xlarge	|72|144
 
 实例规格|vCPU（核）|内存（GB）|备注
 :---|:---|:---|:---	
-c.n1.large|2|4 | |	
+c.n1.large|2|4 | | |
 c.n1.xlarge_m	|4|4|	*
-c.n1.xlarge|4|8| |	
+c.n1.xlarge|4|8| | |	
 c.n1.2xlarge_s|8|8|*
 c.n1.2xlarge_m|8|12|*
-c.n1.2xlarge|8|16| |	
+c.n1.2xlarge|8|16| | |	
 c.n1.4xlarge_m|16|16|*
-c.n1.4xlarge|16|32| |	
-c.n1.8xlarge|32|64| |	
+c.n1.4xlarge|16|32| | |	
+c.n1.8xlarge|32|64| |	|
 
 标*表示不支持以该规格新建云主机，且不支持您将当前云主机调整至该规格，但不影响您现有该规格云主机的使用。
 
@@ -161,12 +161,12 @@ m.n2.4xlarge|16|128
 
 实例规格|vCPU（核）|内存（GB）|备注
 :---|:---|:---|:---	
-m.n1.small|1|8|*
+m.n1.small|1|8|* | |
 m.n1.medium|2	|12|*
-m.n1.large|2|16	
-m.n1.xlarge|4|32	
-m.n1.2xlarge|8|64	
-m.n1.4xlarge|16|128	
+m.n1.large|2|16	 | |
+m.n1.xlarge|4|32 | |	
+m.n1.2xlarge|8|64 | |	
+m.n1.4xlarge|16|128| |	
 
 标*表示不支持以该规格新建云主机，且不支持您将当前云主机调整至该规格，但不影响您现有该规格云主机的使用。
 
