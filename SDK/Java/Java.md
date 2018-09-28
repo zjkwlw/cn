@@ -88,10 +88,8 @@ Java SDK的调用主要分为4步：
 	                System.out.println(response.getRequestId() + " failed: " + response.getError().getMessage());
 	                return;
 	            }
-
 	            DescribeInstanceResult result = response.getResult();
 	            // 5.正常返回了result，使用返回数据后续处理
-            
  	       }catch (JdcloudSdkException jse) {
 	            //调用API失败，错误处理
  	       }
