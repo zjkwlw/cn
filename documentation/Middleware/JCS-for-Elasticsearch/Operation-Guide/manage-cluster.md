@@ -21,5 +21,5 @@
 | 黄色（yellow） | 所有的主分片已经分片了，但至少还有一个副本是缺失的。高可用性在某种程度上被弱化。	|
 | 红色（red） | 至少有一个主分片（以及它的全部副本）都在缺失中。 |
 ### Kibana 访问设置
-用户可以使用Kibana查询和分析存储在Elastisearch中的数据。由于 Kibana 页面通过公网访问，需要进行一定的安全限制，包括密码和IP黑白名单。
+用户可以使用Kibana查询和分析存储在Elastisearch中的数据。
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana访问设置-01.png)

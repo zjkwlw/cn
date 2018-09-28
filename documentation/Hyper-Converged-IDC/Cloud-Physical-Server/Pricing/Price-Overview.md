@@ -65,7 +65,7 @@
     </tr>
     <tr>   
         <td rowspan="6">单线</td>
-		<td rowspan="6">华北一区<br/>华南一区<br/>华东一区</td>
+		<td rowspan="6">华北-北京<br/>华南-广州<br/>华东-宿迁</td>
 		<td >1Mbps</td>
 		<td >13</td>
 		<td >156</td>
@@ -97,7 +97,7 @@
     </tr>
 	<tr>   
         <td rowspan="6">BGP</td>
-		<td rowspan="6">华北一区<br/>华南一区<br/>华东一区<br/>华东二区</td>
+		<td rowspan="6">华北-北京<br/>华南-广州<br/>华东-宿迁<br/>华东-上海</td>
 		<td >1Mbps</td>
 		<td >23</td>
 		<td >276</td>
