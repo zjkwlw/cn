@@ -56,7 +56,7 @@
     - name: C++客户端
       href: Best-Practices/Cplusplus-libmemcached.md
     - name: Go客户端
-      href: Best-Practices/go-gomemcached.md
+      href: Best-Practices/go-gomemcache.md
     - name: Java客户端
       href: Best-Practices/java-spymemcached.md
     - name: PHP客户端
