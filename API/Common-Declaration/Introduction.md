@@ -24,8 +24,8 @@
 计费模式|含义|说明
 :---|:---|:---
 prepaid_by_duration | 预付费 | 默认值。需要再指定计费单位chargeUnit和计费时长chargeDuration
-postpaid_by_usage | 按用量后付费 | 
-postpaid_by_duration | 按配置后付费 |            
+postpaid_by_usage | 按用量后付费 | |
+postpaid_by_duration | 按配置后付费 | |
 
 
  

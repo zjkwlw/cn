@@ -13,8 +13,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rebootIn
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||云主机ID|
-|**regionId**|String|True||地域ID|
+|**instanceId**|String|True| |云主机ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 无

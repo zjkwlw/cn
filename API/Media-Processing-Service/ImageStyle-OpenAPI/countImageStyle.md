@@ -12,26 +12,26 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**bucketName**|String|True||Bucket名称|
-|**regionId**|String|True||区域ID|
+|**bucketName**|String|True| |Bucket名称|
+|**regionId**|String|True| |区域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**styleName**|String|False||按样式名称查询|
+|**styleName**|String|False| |按样式名称查询|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**imageStyleCount**|ImageStyleCount||
+|**imageStyleCount**|ImageStyleCount| |
 ### ImageStyleCount
 |名称|类型|描述|
 |---|---|---|

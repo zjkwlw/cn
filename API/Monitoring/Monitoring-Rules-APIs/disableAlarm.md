@@ -12,8 +12,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}:disable
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**alarmId**|String|True||规则id|
-|**regionId**|String|True||地域ID|
+|**alarmId**|String|True| |规则id|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 无

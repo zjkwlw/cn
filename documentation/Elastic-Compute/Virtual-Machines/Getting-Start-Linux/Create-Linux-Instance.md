@@ -8,7 +8,7 @@
 ![](../../../../image/vm/Getting-Start-Linux-Create-billing.png)
 
 4. 地域与可用区选择：在此步骤仍可以选择实例对应的地域（华北-北京、华南-广州、华东-宿迁及华东-上海）及可用区，请注意“不同地域资源内网不互通，创建之后不可更改”，如果所选地域限额已满，可以通过[提交工单](https://ticket.jdcloud.com/myorder/submit)提升限额。
-![](../../../../image/vm/Getting-Start-Linux-Create-Region&AZ.png)
+![](../../../../image/vm/Getting-Start-Linux-Create-Region%26AZ.png)
 
 5. 创建方式选择：提供三种创建方式 **自定义创建**、**使用实例模板创建**、**在高可用组内创建**，后两种需要您预先创建好实例模板和高可用组，如果是除此使用保持默认选项“自定义创建”即可。
 ![](../../../../image/vm/Getting-Start-Linux-Create-method.png)

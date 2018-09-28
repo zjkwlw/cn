@@ -13,8 +13,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||云主机ID|
-|**regionId**|String|True||地域ID|
+|**instanceId**|String|True| |云主机ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 无
@@ -23,14 +23,14 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**instance**|Instance||
+|**instance**|Instance| |
 ### Instance
 |名称|类型|描述|
 |---|---|---|
@@ -126,7 +126,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**primaryIp**|NetworkInterfacePrivateIp|网卡主IP|
 |**sanityCheck**|Integer|源和目标IP地址校验，取值为0或者1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]|网卡辅IP|
-|**securityGroups**|SecurityGroupSimple[]||
+|**securityGroups**|SecurityGroupSimple[]| |
 |**subnetId**|String|子网ID|
 |**vpcId**|String|虚拟网络ID|
 ### NetworkInterfacePrivateIp

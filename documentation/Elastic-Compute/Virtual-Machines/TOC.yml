@@ -266,7 +266,7 @@ items:
          - name: Linux故障类
            items:
               - name: 使用centos私有镜像创建云主机后无法获取内网IP解决办法
-                href: Linux-Troubleshooting/Fault-Class/Cannot-obtain-intranet-IP-solution-after-creating-a-cloud-host-using-centos-private-image.md
+                href: Linux-Troubleshooting/Fault-Class/Cannot-creating-a-cloud-host-using-centos-private-image.md
               - name: Linux系统message日志报错：kernel： TCP： time wait bucket table overflowt
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-message-log-error-kernel-TCP-time-wait-bucket-table-overflowt.md
               - name: Linux系统查询时间同步服务器超时
