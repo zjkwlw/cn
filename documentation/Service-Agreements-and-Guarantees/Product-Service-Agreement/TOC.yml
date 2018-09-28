@@ -25,6 +25,8 @@
     href: Caching-Redis-Service-Clause.md
   - name: 缓存Redis服务等级协议（SLA）
     href: Caching-Redis-Service-Level-Agreement-SLA.md
+  - name: 缓存 Memcached服务条款
+    href: JCS-for-Memcached-Service-Terms.md
   - name: CDN服务条款
     href: CDN-Terms-Of-Service.md
   - name: CDN服务等级协议（SLA）
@@ -77,5 +79,3 @@
     href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
   - name: 云搜索 Elasticsearch服务条款
     href: JCS-for-Elasticsearch-Service-Terms.md
-  - name: 缓存 Memcached服务条款
-    href: JCS-for-Memcached-Service-Terms.md
