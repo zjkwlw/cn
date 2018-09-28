@@ -14,4 +14,4 @@ DRDS 支持单个数据库事务，但不支持跨数据库的事务。
 
 **4. 不支持mysqldump**
 
-DRDS不支持mysqldump，用户如果需要导出数据，可以登录到RDS上，对每个数据库执行mysqldump操作
+DRDS自身不支持mysqldump，用户如果需要导出数据，可以直接登录到RDS MySQL上，对每个数据库逐一执行mysqldump操作
