@@ -5,7 +5,7 @@
 * “可用区”：可用区是使用独立电源和网络资源的物理区域。通过内部网络互联，再以物理方式进行隔离，提高了应用程序的可用性。不同可用区不互通，创建后不可更改。</br> 
  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-01.png)
 2. 设置集群基本信息，选择“集群版本”，并输入“集群名称”。</br>
-* “集群版本”：当前仅支持5.6.9。</br>
+* “集群版本”：当前版本仅支持5.6.9。</br>
 * “集群名称”：自定义的集群名称，名称不可为空，只支持中文、数字、大小写字母、英文下划线“_”及中划线“-”，且不能超过32字符。</br>
  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-02.png)
 3. 设置集群的主机规格相关参数。</br>
