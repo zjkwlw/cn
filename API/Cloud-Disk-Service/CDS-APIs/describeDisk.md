@@ -39,8 +39,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |**createTime**|String|创建云硬盘时间|
 |**description**|String|云硬盘描述，允许输入UTF-8编码下的全部字符，不超过256字符。|
 |**diskId**|String|云硬盘ID|
-|**diskSizeGB**|Integer|磁盘大小，单位为 GiB|
-|**diskType**|String|磁盘类型，取值为 ssd 或 premium-hdd|
+|**diskSizeGB**|Integer|云硬盘大小，单位为 GiB|
+|**diskType**|String|云硬盘类型，取值为 ssd 或 premium-hdd|
 |**multiAttachable**|Boolean|云盘是否支持多挂载|
 |**name**|String|云硬盘名称，只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符。|
 |**snapshotId**|String|创建该云硬盘的快照ID|

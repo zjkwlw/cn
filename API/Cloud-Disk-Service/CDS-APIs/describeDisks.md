@@ -2,8 +2,7 @@
 
 
 ## 描述
--   filters多个过滤条件之间是逻辑与(AND)，每个条件内部的多个取值是逻辑或(OR)
-
+-   查询云硬盘详情列表
 
 ## 请求方式
 GET
@@ -18,7 +17,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||diskId - 云硬盘ID，精确匹配，支持多个<br>diskType - 云硬盘类型，精确匹配，支持多个，取值为 ssd 或 premium-hdd<br>instanceId - 云硬盘所挂载主机的ID，精确匹配，支持多个<br>instanceType - 云硬盘所挂载主机的类型，精确匹配，支持多个<br>status - 可用区，精确匹配，支持多个<br>az - 云硬盘状态，精确匹配，支持多个<br>name - 云硬盘名称，模糊匹配，支持单个<br>multiAttach - 云硬盘是否多点挂载，精确匹配，支持单个<br>|
+|**filters**|[Filter[]](##Filter)|False||diskId - 云硬盘ID，精确匹配，支持多个<br>diskType - 云硬盘类型，精确匹配，支持多个，取值为 ssd 或 premium-hdd<br>instanceId - 云硬盘所挂载主机的ID，精确匹配，支持多个<br>instanceType - 云硬盘所挂载主机的类型，精确匹配，支持多个<br>status - 可用区，精确匹配，支持多个<br>az - 云硬盘状态，精确匹配，支持多个<br>name - 云硬盘名称，模糊匹配，支持单个<br>multiAttach - 云硬盘是否多点挂载，精确匹配，支持单个<br>filters多个过滤条件之间是逻辑与(AND)，每个条件内部的多个取值是逻辑或(OR)<br>
+|
 |**pageNumber**|Integer|False|1|页码, 默认为1, 取值范围：[1,∞)|
 |**pageSize**|Integer|False|20|分页大小，默认为20，取值范围：[10,100]|
 |**tags**|[TagFilter[]](##TagFilter)|False||Tag筛选条件|
@@ -56,8 +56,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**createTime**|String|创建云硬盘时间|
 |**description**|String|云硬盘描述，允许输入UTF-8编码下的全部字符，不超过256字符。|
 |**diskId**|String|云硬盘ID|
-|**diskSizeGB**|Integer|磁盘大小，单位为 GiB|
-|**diskType**|String|磁盘类型，取值为 ssd 或 premium-hdd|
+|**diskSizeGB**|Integer|云硬盘大小，单位为 GiB|
+|**diskType**|String|云硬盘类型，取值为 ssd 或 premium-hdd|
 |**multiAttachable**|Boolean|云盘是否支持多挂载|
 |**name**|String|云硬盘名称，只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符。|
 |**snapshotId**|String|创建该云硬盘的快照ID|
