@@ -1,4 +1,4 @@
-  name: 分布式关系数据库 DRDS
+  name: 分布式关系型数据库 DRDS
   href: 
   items:
   - name: 产品简介
@@ -10,7 +10,7 @@
       - name: 应用场景
         href: Introduction/Application-Scenarios.md
       - name: 产品规格
-        href: Introduction/Specifications.md.md        
+        href: Introduction/Specifications.md       
       - name: 公测说明 
         href: Introduction/Public-Beta-Introduction.md
   - name: 产品定价
