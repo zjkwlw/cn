@@ -22,21 +22,21 @@
       - name: 登录京东云-代码托管
         href: Getting-Started/Getting-started.md
       - name: 新建Group
-        href: Getting-Started/Create Group.md
+        href: Getting-Started/Create-Group.md
       - name: 新建Project
-        href: Getting-Started/Create Project.md
+        href: Getting-Started/Create-Project.md
   - name: 操作指南
     items:
        - name: 管理Group
-         href: Operation-Guide/GroupManagement.md
+         href: Operation-Guide/Group-Management.md
        - name: 管理Project
-         href: Operation-Guide/ProjectManagement.md
+         href: Operation-Guide/Project-Management.md
        - name: 权限说明
-         href: Operation-Guide/auth.md      
+         href: Operation-Guide/Auth.md      
        - name: 设置SSH Key
-         href: Operation-Guide/SSH Key.md
+         href: Operation-Guide/SSH-Key.md
        - name: 设置用户信息
-         href: Operation-Guide/UserManagement.md
+         href: Operation-Guide/User-Management.md
   - name: 相关资源
     items:
        - name: 文档历史记录
