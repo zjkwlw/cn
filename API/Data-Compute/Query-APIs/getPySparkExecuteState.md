@@ -27,7 +27,6 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:getPySparkExecuteSta
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

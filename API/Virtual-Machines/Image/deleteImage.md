@@ -22,9 +22,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 
 
 ## 返回参数
-|名称|类型|描述|
-|---|---|---|
-
+无
 
 
 ## 返回码

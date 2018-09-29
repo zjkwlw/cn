@@ -30,7 +30,6 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/notification
 |**requestId**|String| |
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

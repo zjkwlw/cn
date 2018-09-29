@@ -32,7 +32,6 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}:setClean
 |**requestId**|String| |
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

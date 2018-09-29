@@ -25,7 +25,6 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloa
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|
