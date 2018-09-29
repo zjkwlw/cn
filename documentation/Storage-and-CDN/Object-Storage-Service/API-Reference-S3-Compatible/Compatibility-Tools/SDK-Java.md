@@ -3,7 +3,7 @@
 ## 安装
 
 如果您创建了maven项目，只要在pom.xml中添加依赖包就可以了：
-```xml
+```
 <dependency>  
     <groupId>com.amazonaws</groupId>  
     <artifactId>aws-java-sdk</artifactId>  
@@ -14,7 +14,7 @@
 ## 创建client
 
 下面是一个创建client的例子，更多信息请参考：http://docs.aws.amazon.com/zh_cn/sdk-for-java/v1/developer-guide/examples-s3.html   
-```java
+```
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.client.builder.AwsClientBuilder;
