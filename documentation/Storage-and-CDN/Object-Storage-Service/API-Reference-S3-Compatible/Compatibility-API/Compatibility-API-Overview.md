@@ -1,5 +1,5 @@
 # 兼容接口
- 目前支持的API在下表列出，详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
+ 目前支持的API在下表列出，京东云对象存储API文档详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
 
 
 |OSS支持的api|api简介|描述|
