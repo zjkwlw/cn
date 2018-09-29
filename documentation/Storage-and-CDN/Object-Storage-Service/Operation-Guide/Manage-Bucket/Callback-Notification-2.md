@@ -2,19 +2,19 @@
 
 OSS支持回调通知功能，您可以指定某些资源发生相关操作时及时进行回调通知。OSS事件通知是异步进行的，不影响OSS操作。回调通知常见以下应用场景，例如：
 
-* 有新数据从图片内容分享平台、音视频平台上传到OSS。
+- 有新数据从图片内容分享平台、音视频平台上传到OSS。
 
-* OSS上的相关内容发生了更新。
+- OSS上的相关内容发生了更新。
 
-* OSS上的重要文件被删除。
+- OSS上的重要文件被删除。
 
-OSS回调通知包括**配置回调通知**和**消息通知**两部分:
+OSS回调通知包括 **配置回调通知** 和 **消息通知** 两部分:
 
-* 配置回调通知：在某个Bucket中配置回调规则，需要指定启用通知的相关资源、相关事件及回调URL，配置后仅对该Bucket生效。
+- 配置回调通知：在某个Bucket中配置回调规则，需要指定启用通知的相关资源、相关事件及回调URL，配置后仅对该Bucket生效。
 
-* 消息通知：当Bucket中事件通知触发时，会向回调URL发送指定格式的通知内容。通知方式为HTTP(S)。
+- 消息通知：当Bucket中事件通知触发时，会向回调URL发送指定格式的通知内容。通知方式为HTTP(S)。
 
-回调通知流程：<br>
+回调通知流程：
 
 1.指定Bucket设置消息通知规则。
 
@@ -154,6 +154,14 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
 您可按照以下示例配置回调服务器：
 
 ```
+import org.springframework.http.HttpHeaders;
+import org.springframework.util.Base64Utils;
+import org.springframework.web.bind.annotation.*;
+import java.nio.charset.StandardCharsets;
+
+@RestController
+public class SubscriptionTest {
+
     //简单格式的消息通知
     @RequestMapping("/notifications1")
     public String notifications1(@RequestBody String message
@@ -167,6 +175,7 @@ OSS支持在请求URL中携带自定义参数，您可把`x-oss-callback-var=[Ca
             return "";
         }
     }
+}
 ```
 
 ### 回调签名
