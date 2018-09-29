@@ -26,7 +26,6 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}/members
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

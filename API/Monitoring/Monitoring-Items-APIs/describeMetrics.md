@@ -10,8 +10,7 @@ GET
 ## 请求地址
 https://monitor.jdcloud-api.com/v1/metrics
 
-|名称|类型|是否必需|默认值|描述|
-|---|---|---|---|---|
+无
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
@@ -24,7 +23,6 @@ https://monitor.jdcloud-api.com/v1/metrics
 |---|---|---|
 |**requestId**|String|请求的标识id|
 |**result**|Result| |
-
 
 ### Result
 |名称|类型|描述|

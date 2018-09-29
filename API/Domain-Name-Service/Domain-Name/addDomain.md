@@ -32,7 +32,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |**requestId**|String|此次请求的ID|
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

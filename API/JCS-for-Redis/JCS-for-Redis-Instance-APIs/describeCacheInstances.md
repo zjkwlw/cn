@@ -40,7 +40,6 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |**requestId**|String|本次查询请求的ID|
 |**result**|Result|查询缓存实例列表信息的结果|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|
@@ -49,6 +48,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 ### CacheInstance
 |名称|类型|描述|
 |---|---|---|
+|**auth**|Boolean|是否免密|
 |**azId**|AzId|az信息|
 |**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
 |**cacheInstanceDescription**|String|实例描述|

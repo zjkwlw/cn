@@ -26,7 +26,6 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 |**requestId**|String|请求ID，每次请求都不一样|
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

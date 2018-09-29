@@ -42,7 +42,6 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**requestId**|String|请求的标识id|
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

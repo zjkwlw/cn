@@ -27,7 +27,6 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hdfsFile:delete
 |**requestId**|String| |
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|
