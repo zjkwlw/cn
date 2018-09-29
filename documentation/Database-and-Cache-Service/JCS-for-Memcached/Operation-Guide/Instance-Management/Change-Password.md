@@ -2,7 +2,7 @@
 
 如果您需要修改旧密码、或者忘记密码，您可以重新设置实例的密码。
 
-1. 登录[Redis 控制台](https://memcached-console.jdcloud.com/memcached)
+1. 登录Memcached控制台
 
 2. 选择目标实例，点击实例名称进入实例详情页面
 
