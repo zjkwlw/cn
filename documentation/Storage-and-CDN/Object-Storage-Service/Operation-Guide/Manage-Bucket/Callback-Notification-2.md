@@ -18,6 +18,8 @@ OSS回调通知包括**配置回调通知**和**消息通知**两部分:
 
 4.若回调服务器无响应，OSS会重试三次；若仍无响应，则视为回调失败。
 
+**回调通知支持API**：[PUT Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/PUT-Bucket-notification.md)、[GET Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/GET-Bucket-notification.md)
+
 ## 配置回调通知
 
 您可指定Bucket开启回调通知，开启后OSS将会按照回调通知配置(NotificationConfiguration)规则进行消息通知。
