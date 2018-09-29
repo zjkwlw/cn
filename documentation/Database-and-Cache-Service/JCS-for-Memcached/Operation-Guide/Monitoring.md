@@ -1,7 +1,7 @@
 # 实例监控
 缓存Memcached目前提供26个监控指标，查看监控步骤为：
 
-1. 登录 [Memcached 控制台](https://memcached-console.jdcloud.com/redis) ，定位目标实例
+1. 登录Memcached 控制台，定位目标实例
 
 2. 点击实例名称进入实例详情页面
 
