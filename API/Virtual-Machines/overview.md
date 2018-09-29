@@ -34,7 +34,7 @@ v1
 |**describeInstanceVncUrl**|GET|获取云主机vnc，用于连接管理云主机。<br></br>vnc地址的有效期为1个小时，调用接口获取vnc地址后如果1个小时内没有使用，vnc地址自动失效，再次使用需要重新获取。</br>|
 |**describeInstances**|GET|批量查询云主机的详细信息<br></br>此接口支持分页查询，默认每页20条。</br>|
 |**describeKeypairs**|GET|批量查询密钥对。<br></br>此接口支持分页查询，默认每页20条。</br>|
-|**describeQuotas**|GET|查询配额，支持：云主机、镜像、密钥、模板</br>|
+|**describeQuotas**|GET|查询配额，支持：云主机、镜像、密钥、模板、镜像共享</br>|
 |**detachDisk**|POST|云主机缷载数据盘，云主机和云硬盘没有正在进行中的任务时才可缷载。<br></br>|
 |**detachNetworkInterface**|POST|云主机缷载一块弹性网卡。<br></br>云主机状态必须为<b>running</b>或<b>stopped</b>状态，并且没有正在进行中的任务才可操作。<br></br>不能缷载主网卡。</br>|
 |**disassociateElasticIp**|POST|云主机解绑弹性公网IP，解绑的是主网卡、内网主IP对应的弹性公网IP。</br>|

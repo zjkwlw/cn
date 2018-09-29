@@ -29,7 +29,6 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog/describeAttackTyp
 |**result**|Array| |
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

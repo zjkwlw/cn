@@ -28,9 +28,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 |**diskId**|String|False| |云硬盘ID|
 
 ## 返回参数
-|名称|类型|描述|
-|---|---|---|
-
+无
 
 
 ## 返回码

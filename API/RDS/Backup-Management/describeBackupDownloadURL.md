@@ -27,7 +27,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

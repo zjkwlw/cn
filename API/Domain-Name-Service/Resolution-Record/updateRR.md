@@ -41,7 +41,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**requestId**|String|此次请求的ID|
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

@@ -33,7 +33,6 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|
