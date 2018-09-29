@@ -1,15 +1,21 @@
 # 回调通知
 
 OSS支持回调通知功能，您可以指定某些资源发生相关操作时及时进行回调通知。OSS事件通知是异步进行的，不影响OSS操作。回调通知常见以下应用场景，例如：
+
 * 有新数据从图片内容分享平台、音视频平台上传到OSS。
+
 * OSS上的相关内容发生了更新。
+
 * OSS上的重要文件被删除。
 
 OSS回调通知包括**配置回调通知**和**消息通知**两部分:
+
 * 配置回调通知：在某个Bucket中配置回调规则，需要指定启用通知的相关资源、相关事件及回调URL，配置后仅对该Bucket生效。
+
 * 消息通知：当Bucket中事件通知触发时，会向回调URL发送指定格式的通知内容。通知方式为HTTP(S)。
 
 回调通知流程：<br>
+
 1.指定Bucket设置消息通知规则。
 
 2.当事件发生触发消息通知规则时，则会向回调URL发起消息通知。
@@ -17,6 +23,8 @@ OSS回调通知包括**配置回调通知**和**消息通知**两部分:
 3.回调服务器接受消息通知，并返回200。
 
 4.若回调服务器无响应，OSS会重试三次；若仍无响应，则视为回调失败。
+
+**回调通知支持API**：[PUT Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/PUT-Bucket-notification.md)、[GET Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/GET-Bucket-notification.md)
 
 ## 配置回调通知
 
