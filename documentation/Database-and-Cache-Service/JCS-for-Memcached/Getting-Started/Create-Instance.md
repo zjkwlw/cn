@@ -5,11 +5,11 @@
 本文介绍通过Memcached控制台新建Memcached实例。
 
 ## 前提条件
-- 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=https%3a%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttps%3a%2f%2fwww.jdcloud.com)，或 [实名认证](https://uc.jdcloud.com/account/certify)。
+- 已注册京东云账号，并完成实名认证。如果还没有账号请先注册，或实名认证。
 - 如计费类型选择按配置计费，请确认您的账户余额（包括代金券）不小于50元。
 
 ## 操作步骤
-1. 登录 [Memcached 控制台](https://memcached-console.jdcloud.com/memcached)。
+1. 登录Memcached 控制台。
 
 2. 在“实例列表”页面，点击“创建”按钮，跳转到新建实例页。
    ![创建实例](https://github.com/jdcloudcom/cn/blob/JCS-for-Memcached/image/Memcached/create-Memcached-instance.jpg)

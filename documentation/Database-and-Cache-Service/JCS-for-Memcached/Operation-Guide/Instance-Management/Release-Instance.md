@@ -2,7 +2,7 @@
 
 您可以删除不需要的实例：
 
-1. 登录  [Memcached 控制台](https://memcached-console.jdcloud.com/memcached)，定位目标实例
+1. 登录Memcached 控制台，定位目标实例
 
 2. 选择目标实例，或者点击实例名称进入实例详情页面
 
