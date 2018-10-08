@@ -154,6 +154,7 @@ Windows：
 	
 	
 ##使用filters参数查询容器
+
  	jdc nc describe-containers --filters '[{"name":"name", "operator":"eq", "values":["container-name"]}]'
   
 
