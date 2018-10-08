@@ -151,7 +151,11 @@ Windows：
     },
     "request_id": "bcajk4jk2vh52d5u8tgejwpjubqhc68s"
 	}
-   
+	
+	
+##使用filters参数查询容器
+ 	jdc nc describe-containers --filters '[{"name":"name", "operator":"eq", "values":["container-name"]}]'
+  
 
 ##删除容器
 
