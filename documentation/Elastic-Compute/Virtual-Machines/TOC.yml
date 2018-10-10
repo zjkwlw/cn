@@ -93,8 +93,8 @@ items:
             href: Operation-Guide/Instance/Switch-from-Postpaid-to-Prepaid.md
           - name: 删除实例
             href: Operation-Guide/Instance/Delete-Instance.md
-	  - name: GPU云主机
-            href: Operation-Guide/Instance/GPU-VM.md
+	    - name: GPU云主机
+	    href: Operation-Guide/Instance/GPU-VM.md
 
       - name: 实例模板
         items:
