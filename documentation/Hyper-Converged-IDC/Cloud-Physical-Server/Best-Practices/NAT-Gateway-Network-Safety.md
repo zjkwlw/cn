@@ -64,11 +64,15 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，�
 
 <center>默认forward转发规则【图2.0】</center>
 
+```
 iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
+```
 
 允许转发来自内网网段（172.16.0.0/16）来自于内网网卡 eth0 的流量转发。
 
+```
 `iptables -A FORWARD -m state --state RELATED,ESTABLISHED  -j ACCEPT`
+```
 
 允许转发已经建立好链接的流量，不允许来自外网新的请求流量进来。
 
@@ -78,7 +82,9 @@ iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
 
 3、配置SNAT（内部CPS通过NAT网关访问公网）：
 
+```
 iptables -t nat -A POSTROUTING -s 172.16.0.0/16 -o eth1 -j SNAT --to-source 103.37.46.14
+```
 
 .png
 
@@ -94,14 +100,19 @@ service iptables save
 
 允许相应的业务被访问，如SSH 22、NTP 123、http80等TCP、UDP、ICMP服务。
 
+```
 Iptables -A INPUT -i eth1 -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
 iptables -A INPUT -i eth1 –p udp -m state --state NEW -m tcp --dport 123 -j ACCEPT
 iptables -A INPUT -i eth1 -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
-                                   
+```
+
 2、	配置DNAT（公网通过NAT网关访问云物理服务器）
 将TCP 8888端口号，映射到CPS的SSH 22端口。
+
+```
 Iptables –t nat -A PREROUTING -p tcp -m tcp --dport 8888 -j DNAT --to-destination 172.16.0.4:22
- 
+```
+
 .png
 
 <center> DNAT策略规则【2.0】</center>
