@@ -9,7 +9,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如，现阶段支持“标准镜像”和“标准镜像+应用”两种镜像类型。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其中“标准镜像”支持CentOS7.1、7.2、7.5和6.6，Ubuntu16.04和14.04；“标准镜像+应用”支持CentOS7.2和CentOS6.6下的Nginx、MySQL和RabbitMQ三个应用。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其中“标准镜像”支持CentOS6.6、7.1、7.2和7.5，Ubuntu14.04和16.04；“标准镜像+应用”支持CentOS6.6和CentOS7.2下的Nginx、MySQL和RabbitMQ三个应用。
 
 - 配置存储：
 
@@ -21,7 +21,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **内部网络** ：基础网络模式下，用户只有第一次配置网络的时候可以选择内网CIDR地址段。后续创建的云物理服务器将使用第一次配置的内网CIDR地址段。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **防火墙** ：操作系统安装完成后，系统对外网网络只开放IN方向的22端口。操作系统安装成功后，用户可自行登录操作系统更改iptable设置。详情请参考防火墙设置操作指南。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **防火墙** ：操作系统安装完成后，系统对外网网络只开放IN方向的22端口。操作系统安装成功后，用户可自行登录操作系统更改iptable设置。详情请参考[防火墙设置操作指南](../Operation-Guide/Network-And-Security/Steps-Network-And-Security.md)。
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **公网带宽** ：基础网络模式下，用户可选择1-200Mbps的公网带宽速率。公网IP和云物理服务器带宽绑定。
 
