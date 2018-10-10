@@ -29,11 +29,11 @@
 
 ## **4、调用示例**
 
-- ### **请求地址**
+ **请求地址**
 
 http://opencdn.jcloud.com/api/downloadUrlInterval
 
-- ### **请求示例**
+ **请求示例**
 
 - curl格式
 
@@ -41,7 +41,7 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 curl -H "Content-type:application/json" -X POST -d '{"username":"test_user","signature":"d847267fc702273abf394dd0c3128d64","domain":"www.a.com,www.b.com","start_time":"2017-10-19 00:00","end_time":"2017-10-19 23:59","interval":"DAY"}' http://opencdn.jcloud.com/api/downloadUrlInterval
 ```
 
-- json格式
+* json格式
 
 ```
 http://opencdn.jcloud.com/api/downloadUrlInterval
@@ -55,10 +55,10 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
  }
 ```
 
-- ### **返回说明**
+ **返回说明** 
 
-•        json格式
-
+ **json格式**
+ 
 ```
 {
 "status": 0,//0 表示本次请求成功
@@ -75,7 +75,7 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 }
 ```
 
-- ### **返回示例**
+**返回示例**
 
 ```
 {
@@ -85,13 +85,13 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
         {
             "domain": "www.a.com",
             "urls": [
-                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/ www.a.com /20171019.zip?Expires=1508753731&AccessKey=ImtdrS1VXMdkph&Signature=2br%2B5KwRY5Nk5YvLp7%2BfAwsQVAM%10D"
+                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/www.a.com/20171019.zip?Expires=1508753731&AccessKey=ImtdrS1VXMdkph&Signature=2br%2B5KwRY5Nk5YvLp7%2BfAwsQVAM%10D"
             ]
         },
         {
             "domain": " www.b.com ",
             "urls": [
-                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/ www.b.com /20171019.zip?Expires=1508753731&AccessKey=ImtsrS1VXMfeikph&Signature=HdM1weVHJbHuS%2FEiZm82o9GrZSY%6D"
+                "http://oss.cn-north-1.jcloudcs.com/cdnuserlog/www.b.com/20171019.zip?Expires=1508753731&AccessKey=ImtsrS1VXMfeikph&Signature=HdM1weVHJbHuS%2FEiZm82o9GrZSY%6D"
             ]
         }
     ]

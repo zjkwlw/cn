@@ -1,5 +1,4 @@
 name: 云监控
-href: 
 items:
 - name: 产品简介
   items:
@@ -29,17 +28,18 @@ items:
     - name: 入门指南概述
       href: Getting-Started/getting-started-overview.md
     - name: 查看资源监控图表
-      href: Getting-Started/view-resource-monitoring-chart.md
+      href: Getting-Started/view-cloud-resource-monitoring-chart.md
     - name: 设置报警规则
       href: Getting-Started/set-alarm-rules.md
     - name: 使用Dashboard
       href: Getting-Started/use-Dashboard.md
+    - name: 使用站点监控
+      href: Getting-Started/use-site-monitoring.md 
     - name: 使用自定义监控
       href: Getting-Started/use-custom-monitoring.md
 - name: 操作指南
   items:
     - name: Dashboard
-      href: Getting-Started/Dashboard.md
       items:
         - name: 使用须知
           href: Operation-Guide/dashboard/terms-and-conditions.md
@@ -50,16 +50,24 @@ items:
         - name: 管理监控图表
           href: Operation-Guide/dashboard/monitoring-chart-management.md
     - name: 云资源监控
-      href: Getting-Started/resource-monitoring.md
       items:
         - name: 资源监控
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
         - name: 查看资源监控图表
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: 对资源设置监控报警
-          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md      
-    - name: 自定义监控
-      href: Getting-Started/custom-monitoring.md  
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md
+    - name: 站点监控
+      items:
+        - name: 站点监控概述
+          href: Operation-Guide/site-monitoring/site-monitoring-overview.md
+        - name: 站点监控限制与配额
+          href: Operation-Guide/site-monitoring/quota-restrictions.md
+        - name: 站点监控任务管理
+          href: Operation-Guide/site-monitoring/site-monitoring-management.md    
+        - name: 设置报警规则
+          href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
+    - name: 自定义监控 
       items:
         - name: 自定义监控概述
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
@@ -75,10 +83,10 @@ items:
           href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
 - name: 最佳实践
   items:
-      - name: 批量资源监控
-        href: Best-Practices/bulk-resource-monitoring.md
-      - name: 日常业务监控
-        href: Best-Practices/business-monitoring.md
+    - name: 批量资源监控
+      href: Best-Practices/bulk-resource-monitoring.md
+    - name: 日常业务监控
+      href: Best-Practices/daily-business-monitoring.md
 - name: 教程
   items:
   status: 0
@@ -87,12 +95,6 @@ items:
   status: 0       
 - name: 常见问题
   href: FAQ/FAQ.md
-- name: API参考
-  href:
-- name: SDK参考
-  href:
-- name: 相关资源
-  items:
 - name: 文档历史记录
   href: Related-Resources/Document-History.md     
 - name: 服务条款         

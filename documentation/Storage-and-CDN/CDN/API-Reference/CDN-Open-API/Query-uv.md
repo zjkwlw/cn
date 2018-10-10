@@ -89,7 +89,6 @@ http://opencdn.jcloud.com/api/area_isp_uv
                     "time": "1513529100",
                     "uv": 0
                 },
-                
                 {
                     "area": "ningxia",
                     "isp": "ct",

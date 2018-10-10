@@ -8,7 +8,7 @@
 
 https://DomainName/Path/Filename?参数&auth_token=expire-uniqid-rand-signature
 
-signature =md5sum("**uri-expire-uniqid-rand-private_key**")
+signature =md5sum("uri-expire-uniqid-rand-private_key")
 
 **1.2**   **鉴权字段描述**
 
@@ -27,7 +27,7 @@ signature =md5sum("**uri-expire-uniqid-rand-private_key**")
 
 * new_signature  是通过以下字符串计算出来的：
 
-**origin_** **signature** = "**uri-expire-uniqid-rand-private_key** " （uri是用户的请求对象相对地址，不包含参数）
+**origin_signature** = **"uri-expire-uniqid-rand-private_key "**（uri是用户的请求对象相对地址，不包含参数）
 
 **new_signature = md5sum(origin_ signature)**
 
@@ -43,9 +43,9 @@ https://cdn.example.com/video/standard/1K.html?fa=121&jd=121
 
 * 则CDN服务器会构造一个用于计算signature的签名字符
 
-/video/standard/1K.html-1592409600-0-0-jdcloud1234"
+/video/standard/1K.html-1592409600-0-0-jdcloud1234
 
-* CDN服务器会根据该签名字符串计算**signature**:
+* CDN服务器会根据该签名字符串计算signature:
 
 **signature** = md5sum("/video/standard/1K.html-1592409600-0-0-jdcloud1234") =06d97bc9e43ded48d991994006cfa127
 
@@ -53,7 +53,7 @@ https://cdn.example.com/video/standard/1K.html?fa=121&jd=121
 
 https://cdn.example.com/video/standard/1K.html ?fa=121&jd=121&auth_token=1592409600-0-0-06d97bc9e43ded48d991994006cfa127
 
-计算出来的**signature**与用户请求中带的 **signature** =06d97bc9e43ded48d991994006cfa127值一致，于是鉴权通过。
+计算出来的 **signature** 与用户请求中带的 **signature** =06d97bc9e43ded48d991994006cfa127值一致，于是鉴权通过。
 
 **2.路径鉴权法**
 
@@ -86,7 +86,7 @@ HashValue = md5sum(sstring)
 
 https://cdn.example.com/video/standard/1K.html ?fa=121&cc=121
 
-* 密钥设为：jcloud1234 **(****由用户自行设置)**
+* 密钥设为：jcloud1234 **(由用户自行设置)**
 
 * 鉴权配置文件失效日期为：2020年06月18日00:00:00,计算出来的秒数为1592409600
 

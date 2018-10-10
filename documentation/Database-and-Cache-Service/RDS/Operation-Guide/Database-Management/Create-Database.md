@@ -1,6 +1,6 @@
 # 创建库
-## MySQL/Pecona 创建库
-用户可以通过云数据库 MySQL/Percona 管理控制台创建数据库，数据库名实例内唯一，不同实例不受此限制。
+## MySQL/Pecona/MariaDB 创建库
+用户可以通过云数据库 MySQL/Percona/MariaDB 管理控制台创建数据库，数据库名实例内唯一，不同实例不受此限制。
 
 ### 操作步骤
 1. 登录[云数据库 RDS管理控制台](https://rds-console.jdcloud.com/database)。

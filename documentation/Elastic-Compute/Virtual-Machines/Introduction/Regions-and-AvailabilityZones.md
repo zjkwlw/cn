@@ -11,17 +11,21 @@
 
 ## 京东云地域及可用区分布
 <table>
+	<thead>
 	<tr>
-		<td colspan="2">地域名称及编码</td>
-      	<td>可用区名称及编码</td>
-      	<td>所在城市</td>
+		<th colspan="2">地域名称及编码</th>
+      	<th>可用区名称及编码</th>
+      	<th>所在城市</th>
    	</tr>
+		</thead>
+	<tbody>
    	<tr>
       	<td rowspan="6">中国大陆地域</td>
       	<td rowspan="2">华北-北京<br>cn-north-1</td>
      	<td> 可用区A<br>cn-north-1a</td>
 	   	<td> 北京</td>
    </tr>
+		
    <tr>
      	<td> 可用区B<br>cn-north-1b</td>
 	   	<td> 北京</td>
@@ -47,6 +51,7 @@
      	<td>可用区A<br>cn-south-1a</td>
 	   	<td>广州</td>
    </tr>
+   </tbody>
 </table>
 
 ![](../../../../image/vm/region-and-az.png)

@@ -17,8 +17,8 @@
 ## 其他限制
 限制项|限制规则|例外申请方式   
 :---|:---|:---     
-可选择的云主机实例规格|请参见云主机实例规格|工单 
-可选择的官方镜像种类|可参见官方镜像发行版|工单         
+可选择的云主机实例规格|请参见[云主机实例规格](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)|工单 
+可选择的官方镜像种类|可参见[官方镜像发行版](https://docs.jdcloud.com/cn/virtual-machines/image-type)|工单         
 单地域实例限额|20台|工单      
 单地域云硬盘限额|15块|工单       
 单地域云硬盘快照限额|15块|工单   

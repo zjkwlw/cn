@@ -48,4 +48,4 @@
  7. 对公打款验证通过。
 ![](../../../image/User/Real%20name%20verification/Business%20account%20verification/%E5%AF%B9%E5%85%AC%E6%89%93%E6%AC%BE%E9%AA%8C%E8%AF%81%E9%80%9A%E8%BF%87%E3%80%82.png)
 
-注: 对公打款金额连续验证5次失败后，实名认证未通过，账号将会被冻结24小时。
+注: 对公打款金额连续验证5次失败后，实名认证未通过，账号将会被冻结2小时。

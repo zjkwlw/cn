@@ -1,4 +1,4 @@
-﻿  name: 云缓存 Redis
+  name: 云缓存 Redis
   href: 
   items:
   - name: 产品简介
@@ -66,7 +66,7 @@
   - name: 最佳实践
     items:
     - name: C/C++连接Redis实例
-      href: Best-Practices/CorC++-Connect-to-Redis-Instance.md
+      href: Best-Practices/CorCplusplus-Connect-to-Redis-Instance.md
     - name: Golang连接Redis实例
       href: Best-Practices/Golang-Connect-to-Redis-Instance.md
     - name: Java连接Redis实例
@@ -88,9 +88,10 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
+    href: https://docs.jdcloud.com/cn/jcs-for-redis/api/overview
   - name: SDK参考
     href:
+    status: 0   
   - name: 用户协议
     status: 0
     items:
@@ -101,6 +102,7 @@
       href: User-Agreements/SLA.md           
       status: 0       
   - name: 相关资源
+    status: 0       
     items:
     - name: 文档历史记录
       href: Related-Resources/Document-History.md   

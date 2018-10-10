@@ -22,7 +22,7 @@ TiKV 使用了 RocksDB 的 `Column Families` 特性。
 
 ## 参数说明
 
-```toml
+ ``` toml
 # 日志级别，可选值为：trace，debug，info，warn，error，off
 log-level = "info"
 

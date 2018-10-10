@@ -6,8 +6,8 @@ PutBucketReferer操作可以设置一个Bucket的防盗链，referer访问白名
 
 ```
 PUT /  ?bucketReferer
-& Effect=
-& RefererList =
+&Effect=
+&RefererList =
 &IsAllowNull=
 Date: GMT Date
 Authorization: SignatureValue

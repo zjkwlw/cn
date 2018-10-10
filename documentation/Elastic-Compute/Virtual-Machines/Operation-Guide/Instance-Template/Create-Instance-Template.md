@@ -49,7 +49,7 @@
 
 	带宽范围为：1Mbps~200Mbps，支持可以暂不配置公网IP，使用实例模板创建云主机后，再另行购买绑定。
 
-	公网IP带宽费用与实例费用独立。具体价格信息请参加[公网IP价格](http://docs.jdcloud.com/cn/elastic-ip/billing-overview)。
+	公网IP带宽费用与实例费用独立。具体价格信息请参加[公网IP价格](http://docs.jdcloud.com/cn/elastic-ip/price-overview)。
 **请注意实例模板服务免费，以下计费信息为基于实例模板创建云主机时的预估收费信息。**
 	<table>
 	   <tr>
@@ -90,7 +90,7 @@
 
 ## 相关参考
 
-[公网IP价格](http://docs.jdcloud.com/cn/elastic-ip/billing-overview)
+[公网IP价格](http://docs.jdcloud.com/cn/elastic-ip/price-overview)
 
 [实例规格类型](http://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
 

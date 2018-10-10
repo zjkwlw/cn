@@ -194,7 +194,7 @@ items:
       - name: 关于Bucket的操作
         items:
            - name: PutBucket
-             href: API-Reference/Bucket-Operations/PutBucket.md
+             href: API-Reference/Bucket-Operations/PutBucket-1.md
            - name: GetBucket
              href: API-Reference/Bucket-Operations/GetBucket.md             
            - name: PutBucketReferer
@@ -202,7 +202,7 @@ items:
            - name: GetBucketReferer
              href: API-Reference/Bucket-Operations/GetBucketReferer.md 
            - name: DeleteBucket
-             href: API-Reference/Bucket-Operations/DeleteBucket.md             
+             href: API-Reference/Bucket-Operations/DeleteBucket-1.md             
       - name: 关于Object的操作
         items:
            - name: PutObject
@@ -246,7 +246,7 @@ items:
            - name: 列举Bucket
              href: SDK-Reference/Java-SDK/List-Buckets-3.md  
            - name: 删除Bucket
-             href:  SDK-Reference/Java-SDK/Delete-Bucket-3.md 
+             href: SDK-Reference/Java-SDK/Delete-Bucket-3.md 
            - name: 简单上传
              href: SDK-Reference/Java-SDK/Simple-Upload-3.md 
            - name: 分片上传
@@ -283,5 +283,7 @@ items:
         href: Best-Practices/S3cmd.md
       - name: 回调服务器设置签名认证
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
+      - name: OSS线上服务快速验证工具
+        href: Best-Practices/OSS-Verification-Tool.md
  - name: 常见问题
    status: 0
