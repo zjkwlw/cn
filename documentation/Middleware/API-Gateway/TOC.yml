@@ -86,8 +86,8 @@ items:
           - name: 最佳实践
             href: Best-Practices/BestPractices.md
       - name: 教程
-        items:
         status: 0
+        items:
           - name: 常见问题
             href: FAQ/faq.md
           - name: API参考
