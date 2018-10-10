@@ -30,11 +30,11 @@ NAT网关是通过定制安全策略允许到达与其相关联的云物理服�
 
 .png
 
-<center>IP信息【图1.0】</center>
+<p align="center">IP信息【图1.0】</p>
 
 .png
 
-<center>路由信息【图1.1】</center>
+<p align="center">路由信息【图1.1】</p>
 
 3、修改云物理服务器为NAT网关的内网IP（如172.16.0.3）：
 
@@ -42,11 +42,11 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，�
 
 .png
 
-<center>修改默认网关【图2.0】</center>
+<p align="center">修改默认网关【图2.0】</p>
 
 .png
 
-<center>查看默认路由的网关【图2.1】</center>
+<p align="center">查看默认路由的网关【图2.1】</p>
 
 #### 配置NAT网关系统策略
 
@@ -62,7 +62,7 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，�
 
 .png
 
-<center>默认forward转发规则【图2.0】</center>
+<p align="center">默认forward转发规则【图2.0】</p>
 
 ```
 iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
@@ -78,7 +78,7 @@ iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
 
 .png
 
-<center>forward转发规则【图2.1】</center>
+<p align="center">forward转发规则【图2.1】</p>
 
 3、配置SNAT（内部CPS通过NAT网关访问公网）：
 
@@ -88,7 +88,7 @@ iptables -t nat -A POSTROUTING -s 172.16.0.0/16 -o eth1 -j SNAT --to-source 103.
 
 .png
 
-<center>SNAT策略规则【3.0】</center>
+<p align="center">SNAT策略规则【3.0】</p>
 
 4、保存配置
 
@@ -115,7 +115,7 @@ Iptables –t nat -A PREROUTING -p tcp -m tcp --dport 8888 -j DNAT --to-destinat
 
 .png
 
-<center> DNAT策略规则【2.0】</center>
+<p align="center"> DNAT策略规则【2.0】</p>
 
                          
 3、保存配置
