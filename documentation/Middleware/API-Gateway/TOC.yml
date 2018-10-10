@@ -53,11 +53,11 @@ items:
       herf: Getting-Started/STEP5-Create-Auth.md
 - name: 操作指南
   items:
-   - name: 创建API分组
+    - name: 创建API分组
       items:
         - name: 创建API分组
           herf: Create-APIGroup/Create-APIGroup.md
-    - name: 创建API
+     - name: 创建A
       items:
         - name: 创建API
           herf: Create-API/Create-API.md
@@ -86,11 +86,9 @@ items:
   items:
   - name: 最佳实践
     herf: Best-Practices/BestPractices.md
- 
 - name: 教程
   items:
   status: 0
-
 - name: 常见问题
   herf: FAQ/faq.md
 - name: API参考
