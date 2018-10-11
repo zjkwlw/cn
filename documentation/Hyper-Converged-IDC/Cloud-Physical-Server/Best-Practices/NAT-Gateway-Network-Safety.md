@@ -58,7 +58,7 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条`GATEWAY=172.16.0.3`�
 
 2、添加 FORWARD 转发规则
 
-默认的 iptables 的策略是不允许流量的转发，所以我们需要先删除默认的不允许转发的规则；iptables -D FORWARD 1 ，其中 `1` 代表 FORWARD 规则中的第一条规则。因为默认的只有一条 FORWARD 规则，所以只需要删除第一条即可。
+默认的 iptables 的策略是不允许流量的转发，所以我们需要先删除默认的不允许转发的规则；`iptables -D FORWARD 1` ，其中 `1` 代表 FORWARD 规则中的第一条规则。因为默认的只有一条 FORWARD 规则，所以只需要删除第一条即可。
 
 ![默认forward转发规则图2.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS030.png)
 
