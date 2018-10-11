@@ -27,7 +27,7 @@ Linux以 CentOS 7.4 系统为例，操作步骤如下：
 
 ### Windows系统
 
-Windows已 Windows 2008 标准版 系统为例，操作步骤如下：
+Windows以 Windows 2008 标准版 系统为例，操作步骤如下：
 
 1. 访问[云主机控制台](https://cns-console.jdcloud.com/host/compute/list)，即进入实例列表页面。或访问[京东云控制台](https://console.jdcloud.com)点击左侧导航栏【弹性计算】-【云主机】进入实例列表页。
 2. 选择地域。
