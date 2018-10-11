@@ -13,7 +13,8 @@
 ## 通用型
 通用型当前提供通用共享型及通用标准型，为您提供均衡的计算及内存资源，可满足大部分业务场景下的需求。其中通用标准型中每一个vCPU都对应一个Intel Xeon处理器的超线程核，其vCPU与内存比为1:4。
 
-### 通用共享型<div id="user-content-1"></div>
+### 通用共享型
+<div id="user-content-1"></div>
 **规格类型特点：**
 
 * vCPU与内存比为1:1或1:2
@@ -33,7 +34,8 @@
 |g.s1.micro|1|1
 |g.s1.small|1|2
 
-### 通用标准型<div id="user-content-2"></div>
+### 通用标准型
+<div id="user-content-2"></div>
 **规格类型特点:**
 
 * vCPU与内存比为1:4（g.n1.xlarge_m规格除外）
@@ -81,8 +83,8 @@ g.n1.8xlarge|32|128|4 |	 |
 ## 计算优化型
 计算优化型当前提供计算优化标准型，为您提供高性能的计算资源，可满足。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
-### 计算优化标准型<div id="user-content-3"></div>
-
+<div id="user-content-3"></div>
+### 计算优化标准型
 **规格类型特点：**
 
 * vCPU与内存比为1:2（c.n1.xlarge_m	、c.n1.2xlarge_s、c.n1.2xlarge_m及c.n1.4xlarge_m规格除外）
@@ -132,7 +134,8 @@ g.n1.8xlarge|32|128|4 |	 |
 ## 内存优化型
 内存优化型当前提供内存优化标准型，适用于存在大量内存操作、查找和计算的应用。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
-### 内存优化标准型<div id="user-content-4"></div>
+<div id="user-content-4"></div>
+### 内存优化标准型
 
 **规格类型特点：**
 
@@ -179,7 +182,8 @@ g.n1.8xlarge|32|128|4 |	 |
 
 高频计算型当前提供高频计算通用型，为您提供高性能的计算资源。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
-### 高频计算通用型<div id="user-content-5"></div>
+<div id="user-content-5"></div>
+### 高频计算通用型
 
 **规格类型特点：**
 
@@ -222,7 +226,8 @@ g.n1.8xlarge|32|128|4 |	 |
 
 GPU型当前提供GPU标准型，为您提供高性能的一够计算资源。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
-### GPU标准型<div id="user-content-6"></div>
+<div id="user-content-6"></div>
+### GPU标准型
 
 **规格类型特点：**
 
