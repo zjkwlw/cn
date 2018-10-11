@@ -25,7 +25,7 @@ DNLB可完整透传用户源IP地址，便于服务端获取或者统计源端�
 ## 相关参考
 
 - [产品概述](../Introduction/Product-Overview.md)
-- [产品规格](../Introduction/Specification.md)
+- [产品规格](../Introduction/Specifications.md)
 - [产品定价](../Pricing/Billing-Overview.md)
 - [创建DNLB实例](../Operation-Guide/Create-DNLB-Instance.md)
 - [创建虚拟服务器组](../Operation-Guide/TargetGroup-Management.md)
