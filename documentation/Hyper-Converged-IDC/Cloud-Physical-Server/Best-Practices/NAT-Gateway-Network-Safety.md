@@ -52,7 +52,7 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，�
 
 1、开启系统的路由转发功能：
 
-编辑vim vi /etc/sysctl.conf 文件，修改net.ipv4.ip_forward = 1；sysctl –p 不用重启系统，配置生效。
+编辑vim vi /etc/sysctl.conf 文件，修改`net.ipv4.ip_forward = 1；sysctl –p` 不用重启系统，配置生效。
 
 ![开启路由转发功能](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS029.png)
 
@@ -64,15 +64,15 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，�
 
 <p align="center">默认forward转发规则【图2.0】</p>
 
-```
-iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
-```
+
+`iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
+
 
 允许转发来自内网网段（172.16.0.0/16）来自于内网网卡 eth0 的流量转发。
 
-```
+
 `iptables -A FORWARD -m state --state RELATED,ESTABLISHED  -j ACCEPT`
-```
+
 
 允许转发已经建立好链接的流量，不允许来自外网新的请求流量进来。
 
