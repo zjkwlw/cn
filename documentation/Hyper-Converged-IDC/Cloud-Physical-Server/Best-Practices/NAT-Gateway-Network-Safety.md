@@ -12,7 +12,7 @@ NAT网关是通过定制安全策略允许到达与其相关联的云物理服�
 
 ## 网络架构示意图
 
-.png
+![网络架构示意图](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS024.png)
 
 ## 配置方案
 配置命令的IP信息都是模拟的，请以购买的云物理服务器的IP信息替换。
@@ -28,11 +28,11 @@ NAT网关是通过定制安全策略允许到达与其相关联的云物理服�
 
 2、默认IP信息，【图1.0】和路由信息【图1.1】
 
-.png
+![IP信息图1.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS025.png)
 
 <p align="center">IP信息【图1.0】</p>
 
-.png
+![路由信息图1.1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS026.png)
 
 <p align="center">路由信息【图1.1】</p>
 
@@ -40,11 +40,11 @@ NAT网关是通过定制安全策略允许到达与其相关联的云物理服�
 
 vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，保存退出wq，重启服务生效service network restart.
 
-.png
+![修改默认网关图2.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS027.png)
 
 <p align="center">修改默认网关【图2.0】</p>
 
-.png
+![查看默认路由的网关图2.1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS028.png)
 
 <p align="center">查看默认路由的网关【图2.1】</p>
 
@@ -54,13 +54,13 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，�
 
 编辑vim vi /etc/sysctl.conf 文件，修改net.ipv4.ip_forward = 1；sysctl –p 不用重启系统，配置生效。
 
-.png
+![开启路由转发功能](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS029.png)
 
 2、添加 FORWARD 转发规则
 
 默认的 iptables 的策略是不允许流量的转发，所以我们需要先删除默认的不允许转发的规则；iptables -D FORWARD 1 ，其中 `1` 代表 FORWARD 规则中的第一条规则。因为默认的只有一条 FORWARD 规则，所以只需要删除第一条即可。
 
-.png
+![默认forward转发规则图2.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS030.png)
 
 <p align="center">默认forward转发规则【图2.0】</p>
 
@@ -76,7 +76,7 @@ iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
 
 允许转发已经建立好链接的流量，不允许来自外网新的请求流量进来。
 
-.png
+![forward转发规则图2.1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS031.png)
 
 <p align="center">forward转发规则【图2.1】</p>
 
@@ -86,7 +86,7 @@ iptables -A FORWARD -s 172.16.0.0/16 -i eth0 -j ACCEPT`
 iptables -t nat -A POSTROUTING -s 172.16.0.0/16 -o eth1 -j SNAT --to-source 103.37.46.14
 ```
 
-.png
+![SNAT策略规则图3.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS032.png)
 
 <p align="center">SNAT策略规则【3.0】</p>
 
@@ -113,7 +113,7 @@ iptables -A INPUT -i eth1 -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEP
 Iptables –t nat -A PREROUTING -p tcp -m tcp --dport 8888 -j DNAT --to-destination 172.16.0.4:22
 ```
 
-.png
+![DNAT策略规则图2.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS033.png)
 
 <p align="center"> DNAT策略规则【2.0】</p>
 
