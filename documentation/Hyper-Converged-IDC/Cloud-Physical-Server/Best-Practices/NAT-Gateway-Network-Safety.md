@@ -38,7 +38,7 @@ NAT网关是通过定制安全策略允许到达与其相关联的云物理服�
 
 3、修改云物理服务器为NAT网关的内网IP（如172.16.0.3）：
 
-vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条GATEWAY=172.16.0.3，保存退出wq，重启服务生效service network restart.
+vim /etc/sysconfig/network-scripts/ifcfg-eth0,添加一条`GATEWAY=172.16.0.3`，保存退出wq，重启服务生效service network restart.
 
 ![修改默认网关图2.0](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS027.png)
 
