@@ -8,11 +8,11 @@
 
  ![DNLB产品入口](../../../../image/Networking/DNLB/DNLB-007.png)
 
-3.弹出负载均衡的产品介绍页，点击**立即购买**。
+3. 弹出负载均衡的产品介绍页，点击**立即购买**。
 
 ![DNLB产品页](../../../../image/Networking/DNLB/DNLB-008.png)
 
-4.购买的具体操作，请参考[创建DNLB实例](../Operation-Guide/Create-DNLB-Instance.md)。
+4. 购买的具体操作，请参考[创建DNLB实例](../Operation-Guide/Create-DNLB-Instance.md)。
 
 ## 入口2：[负载均衡控制台](https://cns-console.jdcloud.com/host/loadBalance/list)
 
