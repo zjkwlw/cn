@@ -10,7 +10,7 @@
  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-02.png)
 3. 设置集群的主机规格相关参数。</br>
 * “节点规格”：当前支持六种规格，包括：1核2G、2核4G、2核8G、4核16G、8核32G、16核64G。可以根据具体业务情况选择不同云主机规格，其中1核2G只适用于测试，不适用于生产环境。</br>
-* “单点存储规格”：单点存储规格范围20-1000GB，可输入整数。</br>
+* “单点存储规格”：单点存储规格范围20-1000GB，可输入整数，其中1核2G的比较特殊，单点存储规格范围为20-200GB。</br>
 * “节点数量”：单点存储规格范围1-25，默认选择3个节点，输入范围大于或小于规定范围，显示最大节点数和最小节点数。</br>
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-031.png)
 4. 指定集群的网络规格相关参数，包括“私有网络”、“子网”。</br>
