@@ -38,17 +38,20 @@ wget http://cn.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run
 		* 通过wget命令下载上面两个包，然后通过yum install安装。
 		* 需要特别注意下载的kernel-devel，kernel-header版本要与当前运行的kernel版本完全一致，否则gpu驱动无法正常安装使用。
 安装完成后，如下所示：
-``` # uname –r
-3.10.0-693.17.1.el7.x86_6
-# rpm -qa | grep 693.17.1
-kernel-devel-3.10.0-693.17.1.el7.x86_64
-kernel-headers-3.10.0-693.17.1.el7.x86_64
-kernel-3.10.0-693.17.1.el7.x86_64 
+
+```	# uname –r
+	3.10.0-693.17.1.el7.x86_6
+	# rpm -qa | grep 693.17.1
+	kernel-devel-3.10.0-693.17.1.el7.x86_64
+	kernel-headers-3.10.0-693.17.1.el7.x86_64
+	kernel-3.10.0-693.17.1.el7.x86_64 
 ```
 
 * 安装下载的gpu驱动
-``` # Chmod +x NVIDIA-Linux-x86_64-396.44.run
-# ./ NVIDIA-Linux-x86_64-396.44.run
+
+``` 
+	# Chmod +x NVIDIA-Linux-x86_64-396.44.run
+	# ./ NVIDIA-Linux-x86_64-396.44.run
 ```
 正确安装过程如下所示：<br>![](../../../../../image/vm/GPUdriver7.png)<br>![](../../../../../image/vm/GPUdriver8.png)<br>![](../../../../../image/vm/GPUdriver9.png)<br>
 * GPU驱动验证
