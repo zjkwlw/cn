@@ -4,11 +4,11 @@
 
 以下为当前京东云在售的实例规格类型信息，不同地域可售卖实例类型及规格不完全相同，请以实例创建页面所显示为准。具体在售实例规格类型根据不同应用场景可以分为：
 
-* 通用型：[通用共享型](Instance-Tyep-Family#user-content-1)、[通用标准型](Instance-Tyep-Family#user-content-2)
-* 计算优化型：[计算优化标准型](Instance-Tyep-Family#user-content-3)
-* 内存优化型：[内存优化标准型](Instance-Tyep-Family#user-content-4)
-* 高频计算型：[高频计算优化型](Instance-Tyep-Family#user-content-5)
-* GPU型：[GPU标准型](Instance-Tyep-Family#user-content-6)
+* 通用型：[通用共享型](instance-type-family#user-content-1)、[通用标准型](instance-type-family#user-content-2)
+* 计算优化型：[计算优化标准型](instance-type-family#user-content-3)
+* 内存优化型：[内存优化标准型](instance-type-family#user-content-4)
+* 高频计算型：[高频计算优化型](instance-type-family#user-content-5)
+* GPU型：[GPU标准型](instance-type-family#user-content-6)
 
 ## 通用型
 通用型当前提供通用共享型及通用标准型，为您提供均衡的计算及内存资源，可满足大部分业务场景下的需求。其中通用标准型中每一个vCPU都对应一个Intel Xeon处理器的超线程核，其vCPU与内存比为1:4。
