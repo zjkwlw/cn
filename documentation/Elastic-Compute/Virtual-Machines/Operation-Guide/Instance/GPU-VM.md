@@ -45,11 +45,9 @@ kernel-devel-3.10.0-693.17.1.el7.x86_64
 kernel-headers-3.10.0-693.17.1.el7.x86_64
 kernel-3.10.0-693.17.1.el7.x86_64 
 ```
-	
+
 	* 安装下载的gpu驱动
-	
-```
-# Chmod +x NVIDIA-Linux-x86_64-396.44.run
+``` # Chmod +x NVIDIA-Linux-x86_64-396.44.run
 # ./ NVIDIA-Linux-x86_64-396.44.run
 ```
 
