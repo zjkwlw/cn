@@ -18,10 +18,7 @@ Linux以 CentOS 7.4 系统为例，操作步骤如下：
 2. 选择地域。
 3. 在实例列表中选择需要查看本地数据盘的实例，[登录Linux实例](https://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance)
 4. 输入：
-
-	```
-	ll /dev/disk/by-id
-	```
+```ll /dev/disk/by-id```
 	
 5. 如下入所示，其中virtio-Ephemeral\_Disk\_1至virtio-Ephemeral\_Disk\_4即为对应四块本地数据盘<br>![](../../../../../image/vm/localdatadisklinux.png)
 
@@ -33,11 +30,8 @@ Windows以 Windows 2008 标准版 系统为例，操作步骤如下：
 2. 选择地域。
 3. 在实例列表中选择需要查看本地数据盘的实例，[登录Windows实例](https://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)
 4. 输入：
-
-	```
-	wmic
-	diskdrive get PNPDeviceID,SerialNumber
-	```
+```wmic
+   diskdrive get PNPDeviceID,SerialNumber```
 	
 5. 如下入所示，其中序列号Ephemeral\_Disk\_1至Ephemeral\_Disk\_4即为对应四块本地数据盘<br>![](../../../../../image/vm/localdatadiskwin.png)
 
