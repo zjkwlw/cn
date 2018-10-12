@@ -50,8 +50,7 @@ kernel-3.10.0-693.17.1.el7.x86_64
 ``` # Chmod +x NVIDIA-Linux-x86_64-396.44.run
 # ./ NVIDIA-Linux-x86_64-396.44.run
 ```
-
-		正确安装过程如下所示：<br>![](../../../../../image/vm/GPUdriver7.png)<br>![](../../../../../image/vm/GPUdriver8.png)<br>![](../../../../../image/vm/GPUdriver9.png)<br>
+正确安装过程如下所示：<br>![](../../../../../image/vm/GPUdriver7.png)<br>![](../../../../../image/vm/GPUdriver8.png)<br>![](../../../../../image/vm/GPUdriver9.png)<br>
 * GPU驱动验证
 	* 安装完成后，执行：nvidia-smi，显示如下图所示，说明安装成功。![](../../../../../image/vm/GPUdriver10.png)
 	
