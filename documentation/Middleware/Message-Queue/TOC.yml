@@ -75,8 +75,24 @@
       - name: 计费概述
         href: FAQ/FAQ.md
   - name: API参考
-    href:
-  - name: SDK参考
+    items:
+      - name: 调用方式
+        items:
+          - name: 公共参数
+            href: API-Reference/Call-Method/Common-parameters.md
+          - name: 返回结果
+            href: API-Reference/Call-Method/Response-Result.md
+          - name: 签名算法
+            href: API-Reference/Call-Method/Signature-Algorithm.md
+       - name: 接口规范
+        items:
+          - name: 发送消息
+            href: API-Reference/Interface-Specification/Send-Message.md
+          - name: 确认消息
+            href: API-Reference/Interface-Specification/Ack-Message.md
+          - name: 消费消息
+            href: API-Reference/Interface-Specification/Consume-Message.md
+  - name: SDK
     href:
   - name: 用户协议
     status: 0
