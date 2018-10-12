@@ -14,7 +14,6 @@
 如您想了解不同配置下、不同计费模方式、不同购买时长的具体费用，可以前往 [价格计算器](https://www.jdcloud.com/calculator/calHost)进行费用预估。
 
 ## 相关参考
-
 [注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
 
 [实名认证](../../../User-Service/Real-Name-Verification/Real-Name-Verification.md)

@@ -1,4 +1,4 @@
-﻿  name: 云缓存 Redis
+  name: 云缓存 Redis
   href: 
   items:
   - name: 产品简介
@@ -88,9 +88,10 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
+    href: https://docs.jdcloud.com/cn/jcs-for-redis/api/overview
   - name: SDK参考
     href:
+    status: 0   
   - name: 用户协议
     status: 0
     items:

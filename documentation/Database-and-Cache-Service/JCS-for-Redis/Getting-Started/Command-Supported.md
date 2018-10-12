@@ -19,16 +19,16 @@ KEYS*   |               	GET      |      	HINCRBYFLOAT   |         	LPUSHX   |  
 PERSIST    |        	GETBIT        |    	HKEYS         |   	LRANGE       |     	SREM     |ZRANK            
 PEXPIRE   |         	GETRANGE      |      	HLEN        |    	LREM        |    	SSCAN      | ZREM            
 PEXPIREAT         |   	GETSET        |    	HMGET       |     	LSET         |   	|ZREMRANGEBYRANK            
-PTTL|INCR|HMSET|LTRIM ||        	ZREMRANGEBYSCORE            
-RESTORE|INCRBY|HSET|RPOP      ||      	ZREVRANGE            
-SORT|INCRBYFLOAT|HSETNX|RPUSH  ||          	ZREVRANGEBYSCORE            
-TTL|MGET|HVALS|RPUSHX     ||       	ZREVRANK            
-TYPE|MSET|HSCAN|||       	       	ZSCORE            
-SCAN|PSETEX| |||ZSCAN            
+PTTL|INCR|HMSET|LTRIM | |        	ZREMRANGEBYSCORE            
+RESTORE|INCRBY|HSET|RPOP      | |      	ZREVRANGE            
+SORT|INCRBYFLOAT|HSETNX|RPUSH  | |          	ZREVRANGEBYSCORE            
+TTL|MGET|HVALS|RPUSHX     | |       	ZREVRANK            
+TYPE|MSET|HSCAN| | |       	       	ZSCORE            
+SCAN|PSETEX| | | |ZSCAN            
 | |SET   | |  |       	|ZRANGEBYLEX            
 | |SETBIT      | | |   |   	ZLEXCOUNT            
 | |SETEX       | | |    | 	ZREMRANGEBYLEX            
-| |SETNX|||||            	
+| |SETNX| | | | |             	
 | |SETRANGE   | | | |         	
 | |STRLEN    | | | |        	
 
@@ -39,7 +39,7 @@ Connection（连接）|Server（服务器）|Scripting(脚本)
 AUTH|INFO*|EVAL            
 PING|CONFIG GET*|SCRIPT EXISTS            
 QUIT|FLUSHDB|EVALSHA            
-ECHO||SCRIPT FLUSH            
+ECHO| |SCRIPT FLUSH            
 | | |SCRIPT KILL            
 | | |SCRIPT LOAD  
 
@@ -56,12 +56,12 @@ ECHO||SCRIPT FLUSH
 Key(键)|String(字符串)|List（列表）|Set（集合）|SortedSet（有序集合） |Connection（连接）|Server（服务器）
 ---|:--:|:--:|:--:|:--:|:--:|---:
 RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|SELECT|FLUSHALL            
-RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE||DBSIZE
-RENAMENX||BRPOPLPUSH  |SINTER|||TIME            
-OBJECT|| RPOPLPUSH|SINTERSTORE|||MONITOR            
-MIGRATE ||| SMOVE ||| SLOWLOG            
-| | | |SUNION |||BGREWRITEAOF            
-| | | |SUNIONSTORE|||BGSAVE            
+RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE| |DBSIZE
+RENAMENX| |BRPOPLPUSH  |SINTER| | |TIME            
+OBJECT| | RPOPLPUSH|SINTERSTORE| | |MONITOR            
+MIGRATE | | | SMOVE | | | SLOWLOG            
+| | | |SUNION | | |BGREWRITEAOF            
+| | | |SUNIONSTORE| | |BGSAVE            
 | | | | | | |CONFIG REWRITE            
 | | | | | | |CONFIG SET            
 | | | | | | |CONFIG RESETSTAT            
