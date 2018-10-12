@@ -93,9 +93,8 @@ items:
             href: Operation-Guide/Instance/Switch-from-Postpaid-to-Prepaid.md
           - name: 删除实例
             href: Operation-Guide/Instance/Delete-Instance.md
-	    - name: GPU云主机
-	    href: Operation-Guide/Instance/GPU-VM.md
-
+          - name: GPU云主机
+            href: Operation-Guide/Instance/GPU-VM.md
       - name: 实例模板
         items:
           - name: 实例模板概述
@@ -128,7 +127,7 @@ items:
             href: Operation-Guide/Storage/Strorage-Overview.md
           - name: 存储类型
             href: Operation-Guide/Storage/Storage-Type.md
-	  - name: 查看本地数据盘
+          - name: 查看本地数据盘
             href: Operation-Guide/Storage/Identify-Local-Data-Disk.md
           - name: 创建云硬盘
             href: Operation-Guide/Storage/Create-Cloud-Disk.md
