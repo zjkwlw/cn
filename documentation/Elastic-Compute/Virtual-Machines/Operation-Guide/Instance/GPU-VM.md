@@ -47,7 +47,8 @@
 ```
 
 * 安装下载的gpu驱动
-```	# Chmod +x NVIDIA-Linux-x86_64-396.44.run
+```	
+	# Chmod +x NVIDIA-Linux-x86_64-396.44.run
 	# ./ NVIDIA-Linux-x86_64-396.44.run
 ```
 正确安装过程如下所示：<br>![](../../../../../image/vm/GPUdriver7.png)<br>![](../../../../../image/vm/GPUdriver8.png)<br>![](../../../../../image/vm/GPUdriver9.png)<br>
