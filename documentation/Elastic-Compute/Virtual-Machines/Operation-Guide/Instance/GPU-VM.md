@@ -26,9 +26,8 @@
 	* 手动查找适用于实例的驱动程序，并单击【搜索】。筛选信息说明如下图所示。<br>![](../../../../../image/vm/GPUdriver5.png)
 	* 确认无误后，单击【下载】按钮，下图是CentOS7.4的驱动截图。<br>![](../../../../../image/vm/GPUdriver6.png)
 	* 在centos7.4中也可以通过以下命令直接下载上述驱动，其中下载链接可在上图中右键点击下载按钮获取：
-	```
-wget http://cn.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run
-	```
+	
+`wget http://cn.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run`
 	
 * 安装GPU驱动：
 	* 下载并安装kernel对应版本的kernel-devel和kernel-header包:
