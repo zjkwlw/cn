@@ -34,7 +34,7 @@
     <tr>   
         <td rowspan="5"><B>中国大陆境内</B></td>
 		<td rowspan="2">华北-北京</td>
-		<td >可用区A</td>
+		<td >可用区A、可用区C</td>
 		<td >筹备中</td>
     </tr>
     <tr>  
