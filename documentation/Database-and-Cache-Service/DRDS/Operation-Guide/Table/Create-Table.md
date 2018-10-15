@@ -12,7 +12,7 @@
 
 选择【库管理】-> 【表管理】页面，点击 **【创建表】**
 
-![image.png](https://img1.jcloudcs.com/cms/280ac112-2299-41ad-a324-e024cca0066520180704174109.png)
+![表列表](../../../../../image/DRDS/table-list.png)
 
 **2. 创建表路由信息**
 
@@ -26,9 +26,11 @@
 
 **拆分字段：** 按照哪个字段进行数据的拆分
 
+**请注意： 由于数据会被拆分到多个数据库的表中，因此如果Unique Index和拆分字段不一致时，由，Unique约束可能不会生效**
+
 **字段类型：** 选择int或者string，后续会开放更多类型的选择
 
-![image.png](https://img1.jcloudcs.com/cms/b10e8a0c-4207-4f8a-a6b8-77c120ddc5c020180704174237.png)
+![创建表](../../../../../image/DRDS/create-table.png)
 
 **3. 登录到DRDS中执行"CREATE TABLE"语句**
 

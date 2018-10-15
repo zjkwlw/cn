@@ -5,10 +5,10 @@
 **1. 进入实例列表页**
 当前页面会显示当前区域下的各个DRDS实例的概要信息。点击最右边的 **【删除】** 链接
 
-**![image.png](https://img1.jcloudcs.com/cms/48677571-7235-44ce-9234-0f4057fc650220180704173509.png)**
+![实例列表](../../../../../image/DRDS/instance_list.png)
 
 **2. 确认删除**
 
 点击 **【确认】** 进行删除
 
-![image.png](https://img1.jcloudcs.com/cms/cd2b787f-028d-46a9-8282-496c2b3aa8c420180704173540.png)
+![确认删除](../../../../../image/DRDS/delete-instance.png)
