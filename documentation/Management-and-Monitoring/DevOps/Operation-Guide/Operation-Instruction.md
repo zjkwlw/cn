@@ -6,7 +6,7 @@
 
 **登入操作**
 
-地址：devops.jdcloud.com
+地址：请先提出使用申请，待通过审核后，将告知域名
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide2.png)
 
