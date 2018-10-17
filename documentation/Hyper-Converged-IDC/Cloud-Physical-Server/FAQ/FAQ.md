@@ -41,7 +41,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
 &nbsp;- 优先推荐chrome：31.0.1650.57以上。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 其他浏览器的支持程度正在测试中。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 其他浏览器的支持程度正在测试中。
 
 11.Q:云物理服务器是否支持运行虚拟化软件服务应用？
 
