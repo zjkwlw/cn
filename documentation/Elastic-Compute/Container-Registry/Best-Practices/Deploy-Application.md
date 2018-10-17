@@ -20,50 +20,36 @@ c、打开控制台，进入弹性计算-容器镜像仓库-镜像列表，点�
 例：注册表为myregistry，镜像仓库为myrepo，镜像版本号为latest，地域选择华北-北京为cn-north-1。用户可根据具体情况修改。
 
 1.   保存secret，命名为my-secret：
-
+```
 kubectl create secret docker-registry my-secret --docker-server=myregistry-cn-north-1.jcr.service.jdcloud.com --docker-username=jdcloud --docker-password=C********u --docker-email=l****@jd.com
-
+```
 2.   创建yaml文件，文件名称为registrysecret
-
-apiVersion: v1
-
-kind: ReplicationController
-
-metadata:
-
-  name: webapp
-
-spec:
-  replicas: 2
-
-  template:
-  
-   metadata:
-      
-   name: webapp
-      
-   labels：
-   
-   app: webapp
-        
-   spec:
-   
-   containers:
-   
-   name: testsecret
-   
-   imagePullPolicy: Always
-
-   image: myregistry-cn-east-2.jcr.service.jdcloud.com/myrepo:latest
-   
-   ports:
-   
-   containerPort: 80
-   
-   imagePullSecrets:
-   
-   name: my-secret
-
-3.   创建：kubectl create -f registrysecret
-
-4.   查看详情：kubectl describe rc webapp
+```
+ apiVersion: v1
+ kind: ReplicationController
+ metadata:
+    name: webapp
+ spec:
+    replicas: 1
+    selector:
+      name: container-private-repo
+    template:
+      metadata:
+        labels:
+           name: container-private-repo
+      spec:
+        containers:
+          - name:  mycontainer
+            image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
+            imagePullPolicy: Always
+        imagePullSecrets:
+          - name: my-secret
+   ```
+3.   创建：  
+ ```
+ kubectl create -f registrysecret
+ ```
+4.   查看详情：  
+ ```
+ kubectl describe rc webapp
+ ```
