@@ -55,11 +55,11 @@ tar xf  harbor-offline-installer-v1.4.0.tgz
 
 5、申请Https证书  
 
-    可以在https://freessl.org/申请免费的证书。以域名harbortest.jdpoc.com为例，需要该域名指向创建云主机的IP地址114.67.241.169。  
-    如果没有域名，可以在京东云域名服务申请域名。   
-    申请域名  
-    获取证书  
-    CA证书和证书全部内容保存到/data/cert/server.crt；私钥内容保存到/data/cert/server.key  
+   可以在https://freessl.org/申请免费的证书。以域名harbortest.jdpoc.com为例，需要该域名指向创建云主机的IP地址114.67.241.169。  
+   如果没有域名，可以在京东云域名服务申请域名。   
+   申请域名  
+   获取证书  
+   CA证书和证书全部内容保存到/data/cert/server.crt；私钥内容保存到/data/cert/server.key  
 ```
 
 cd ..
@@ -158,4 +158,4 @@ docker push harbortest.jdpoc.com/test/newnginx:latest
 输入http://116.196.76.86/，验证成功。  
 
 关于私有镜像仓库部署说明：  
-1.         在京东云创建的云主机相关问题由京东云负责。关于Harbor的相关问题和更多详情，详见http://vmware.github.io/harbor/。  
+1.   在京东云创建的云主机相关问题由京东云负责。关于Harbor的相关问题和更多详情，详见http://vmware.github.io/harbor/。  
