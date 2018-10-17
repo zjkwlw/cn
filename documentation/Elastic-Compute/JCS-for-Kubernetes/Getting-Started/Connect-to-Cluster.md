@@ -7,18 +7,18 @@ Kubernetes 命令行客户端 kubectl可以让您从客户端计算机连接到 
 
 ## 1.kubectl版本 
 
-关于建议跟集群版本一致，或者+1版本。集群版本为1.8.12时，推荐下载的Kubectl版本为1.9；
+kubectl版本可以集群版本一致，或者集群版本+1。集群版本为1.8.12时，推荐下载的Kubectl版本为1.8.12；
 
 ## 2.安装和设置 kubectl 客户端
 
-打开[Kubernetes 版本页面](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.9.md#client-binaries-1) ，找到client binaries（也就是kubectl），选择对应操作系统的客户端，然后复制链接地址。
+打开[Kubernetes 版本页面](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.8.md) ，找到client binaries（也就是kubectl），选择对应操作系统的客户端，然后复制链接地址。
 
-示例，选择kubectl版本1.9.3，链接地址为https://dl.k8s.io/v1.9.3/kubernetes-client-linux-amd64.tar.gz ：
+示例，选择kubectl版本1.9.3，链接地址为https://dl.k8s.io/v1.8.12/kubernetes-client-linux-amd64.tar.gz ：
 
 Centos 7.4 64位系统下，执行以下命令：
 
 ```
-wget https://dl.k8s.io/v1.9.3/kubernetes-client-linux-amd64.tar.gz
+wget https://dl.k8s.io/v1.8.12/kubernetes-client-linux-amd64.tar.gz
 tar -zxvf kubernetes-client-linux-amd64.tar.gz
 cd kubernetes/client/bin
 chmod +x ./kubectl
