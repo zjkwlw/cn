@@ -82,7 +82,7 @@
     - name: 制作带SSH的镜像
       href: Best-Practices/Create-SSH-Image.md
     - name: 部署私有镜像仓库
-      href: Best-Practices/Create-Repository.md
+      href: Best-Practices/Create-Repository1.md
   - name: 问题排查
     items:
     - name: 容器实例创建失败
