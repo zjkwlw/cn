@@ -37,31 +37,29 @@
 
 **四、上传、下载镜像**
 
- 
-
  1. 安装最新版的京东云CLI或者Docker
  
  2. 例：注册表为myregistry，镜像仓库为myrepo，镜像版本号为latest，地域选择华北-北京为cn-north-1。用户可根据具体情况修改。
  
     使用京东云CLI获取登录指定注册表的临时令牌或在控制台获取临时令牌：
-    
+    ```
     jdc cr get-authorization-token --region-id cn-north-1 --registry-name myregistry
- 
+    ```
  3. 使用临时令牌，登录到京东云的注册表；如您使用京东云CLI获取临时令牌，请输入返回的Docker客户端登录命令：
-    
+    ```
     docker login -u jdcloud -p ********* myregistry-cn-north-1.jcr.service.jdcloud.com 
-    
+    ```
  4. 将镜像推送到京东云镜像仓库，本地镜像例为ubuntu:latest
- 
+    
     标记待推送到京东云镜像仓库中的本地镜像：
-    
+    ```
     docker tag ubuntu:latest myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-    
+    ```
     将已标记的镜像推送到京东云镜像仓库：
-    
+    ```
     docker push myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-    
+    ```
  5. 从京东云镜像仓库拉取镜像：
- 
+    ```
     docker pull myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-
+    ```
