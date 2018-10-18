@@ -1,25 +1,32 @@
-# updateAlarm
+# batchCreateAlarms
 
 
 ## 描述
-修改已创建的报警规则
+批量创建报警规则，可以为多个实例创建多个报警规则。
 
 ## 请求方式
-PATCH
+POST
 
 ## 请求地址
-https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}
+https://monitor.jcloud.com/v1/regions/{regionId}/alarms/batch
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**alarmId**|String|True| |规则id|
 |**regionId**|String|True| |地域 Id|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**contacts**|BaseContact[]|False| |通知联系人|
-|**rule**|BaseRule|True| | |
+|**clientToken**|String|True| |幂等性校验参数，最长36位|
+|**contacts**|BaseContact[]|False| |通知的联系人|
+|**datacenter**|String|False| |地域|
+|**resourceIds**|String[]|True| |报警规则对应实例列表，每次最多100个，例如"['resourceId1','resourceId2']"|
+|**ruleType**|Integer|False| |规则类型, 1表示资源监控，6表示站点监控，默认为1|
+|**rules**|BaseRule[]|True| |要批量创建的规则列表|
+|**saveTemplate**|Boolean|False| |是否保存为模板|
+|**serviceCode**|String|True| |产品线标识，规则对应的serviceCode|
+|**templateName**|String|False| |模板名称，保存模板时，不能为空|
+|**templateServiceCode**|String|False| |产品线标识，保存为模板时，模板对应的serviceCode|
 |**webHookContent**|String|False| |回调content 注：仅webHookUrl和webHookContent均不为空时，才会创建webHook|
 |**webHookProtocol**|String|False| |webHook协议|
 |**webHookSecret**|String|False| |回调secret，用户请求签名，防伪造|
@@ -56,9 +63,14 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|请求的标识id|
+|**result**|Result| |
 
+### Result
+|名称|类型|描述|
+|---|---|---|
+|**alarmIDList**|String[]|创建成功的规则id列表|
 
 ## 返回码
 |返回码|描述|
 |---|---|
-|**200**|OK|
+|**200**|批量创建规则|

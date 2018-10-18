@@ -10,7 +10,6 @@ POST
 ## 请求地址
 https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 
-无
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|

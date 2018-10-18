@@ -1,24 +1,24 @@
-# describeMetricData
+# batchDescribeMetricData
 
 
 ## 描述
-查看某资源的监控数据
+查看某资源多个监控项数据
 
 ## 请求方式
 GET
 
 ## 请求地址
-https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
+https://monitor.jcloud.com/v1/regions/{regionId}/metricsData
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**metric**|String|True| |监控项英文标识(id)|
 |**regionId**|String|True| |地域 Id|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**endTime**|String|False| |查询时间范围的结束时间， UTC时间，格式：2016-12- yyyy-MM-dd'T'HH:mm:ssZ（为空时，将由startTime与timeInterval计算得出）|
+|**filters**|Filter[]|False| |自定义标签|
 |**groupBy**|Boolean|False| |是否对查询的tags分组|
 |**resourceId**|String|True| |资源的uuid|
 |**serviceCode**|String|True| |资源的类型，取值vm, lb, ip, database 等|
@@ -31,6 +31,11 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
 |---|---|---|---|---|
 |**key**|String|False| |Tag键|
 |**values**|String[]|False| |Tag值|
+### Filter
+|名称|类型|是否必需|默认值|描述|
+|---|---|---|---|---|
+|**name**|String|False| | |
+|**values**|String[]|False| | |
 
 ## 返回参数
 |名称|类型|描述|
