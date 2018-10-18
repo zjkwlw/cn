@@ -28,4 +28,3 @@ sudo mv ./kubectl /usr/local/bin/kubectl
 ## 3.配置集群凭据
 
 凭据在Kubernetes集群-集群服务-集群-详情页-kubectl客户端配置，将凭据复制到本机$HOME/.kube/config；配置完成后，您即可以使用 kubectl 从本地计算机访问 Kubernetes 集群。
-
