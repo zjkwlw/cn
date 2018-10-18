@@ -1,22 +1,23 @@
-# disableAlarm
+# batchEnableAlarms
 
 
 ## 描述
-禁用报警规则。报警规则禁用后，将停止探测实例的监控项数据。
+批量启用规则
 
 ## 请求方式
 POST
 
 ## 请求地址
-https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}:disable
+https://monitor.jcloud.com/v1/regions/{regionId}/alarms:enable
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**alarmId**|String|True| |规则id|
 |**regionId**|String|True| |地域 Id|
 
 ## 请求参数
-无
+|名称|类型|是否必需|默认值|描述|
+|---|---|---|---|---|
+|**ids**|String[]|True| |告警规则的ID列表|
 
 
 ## 返回参数
