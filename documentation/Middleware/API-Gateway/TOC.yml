@@ -57,7 +57,7 @@ items:
       items:
         - name: 创建API分组
           herf: Create-APIGroup/Create-APIGroup.md
-     - name: 创建A
+     - name: 创建API
       items:
         - name: 创建API
           herf: Create-API/Create-API.md
