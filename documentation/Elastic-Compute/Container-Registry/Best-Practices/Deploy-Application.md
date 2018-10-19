@@ -40,12 +40,9 @@ subjects:
 roleRef:
   kind: ClusterRole
   name: cluster-admin
-  apiGroup: rbac.authorization.k8s.io
-
-```
+  apiGroup: rbac.authorization.k8s.io`
 创建jcr-credential-cron.yaml文件，设定每一个小时获取临时令牌，请使用时添加JDCLOUD_ACCESS_KEY和JDCLOUD_SECRET_KEY内容，yaml内容如下：
-```
-apiVersion: batch/v1beta1
+`apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: jdcloud-jcr-credential-cron
@@ -96,7 +93,6 @@ spec:
               --docker-password=$DOCKER_PASSWORD \
               --docker-email=**@jd.com
               kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}'
-
 ```
 ```
 kubectl apply  -f  jcr-credential-rbac.yaml
@@ -104,7 +100,7 @@ kubectl apply  -f  jcr-credential-cron.yaml
 ```
 2.   创建yaml文件，文件名称为registrysecret
 ```
- apiVersion: v1
+apiVersion: v1
  kind: ReplicationController
  metadata:
     name: webapp
@@ -123,12 +119,8 @@ kubectl apply  -f  jcr-credential-cron.yaml
             imagePullPolicy: Always
         imagePullSecrets:
           - name: my-secret
-   ```
+```
 3.   创建：  
- ```
- kubectl create -f registrysecret
- ```
+ `kubectl create -f registrysecret`
 4.   查看详情：  
- ```
- kubectl describe rc webapp
- ```
+ `kubectl describe rc webapp`
