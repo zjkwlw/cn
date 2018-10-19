@@ -1,6 +1,6 @@
 # 第三方镜像产品制作规范
 
-更新时间：2018-07-24
+更新时间：2018-10-19
 
 
 
@@ -37,97 +37,6 @@ l  Windows平台：
        如须调整，打开命令行窗口，输入如下命令设置 MTU（最高支持1500）：
 
 c:\> netsh interface ipv4 set subinterface "本地连接" mtu=1500 store=persistent（网络接口名称：2008为“本地连接”，2012为“以太网”）
-
-
-
-系统组件安装
-
-安装 cloud-init 工具
-
-l  Linux 平台 – CentOS系统
-
-A.    卸载官方cloud-init
-
-如果当前系统中安装了官方cloud-init，必须完全卸载，可执行以下指令确保官方版本完全卸载
-
-n  卸载旧的cloud-init：
-
-rpm –e cloud-init
-
-n  删除原有配置和保留文件：
-
-rm –rf /etc/conf/cloud/* 
-
-rm –rf /var/lib/cloud/*
-
-B.    安装京东云cloud-init
-
-n  CentOS 6.X系列请通过以下地址下载
-
-
-http://iaas-cns-download.oss.cn-north-1.jcloudcs.com/cloud-init-0.7.5-20.el6.2.x86_64.rpm
-
-执行以下指令进行安装：
-
-rpm –ivh cloud-init-0.7.5-20.el6.2.x86_64.rpm
-
-n  CentOS 7.X系列请通过以下地址下载
-
-
-http://iaas-cns-download.oss.cn-north-1.jcloudcs.com/cloud-init-0.7.5-20.el7.centos.1.x86_64.rpm
-
-执行以下指令进行安装：
-
-rpm –ivh cloud-init-0.7.5-20.el7.centos.1.x86_64.rpm
-
-l  Linux 平台 – Ubuntu系统
-
-A.    卸载官方cloud-init
-
-如果当前系统中安装了官方cloud-init，必须完全卸载，可执行以下指令确保官方版本完全卸载
-
-n  卸载旧的cloud-init：
-
-apt-get purge cloud-init
-
-n  删除原有配置和保留文件：
-
-rm -rf /var/lib/cloud/*
-
-B.    安装京东云cloud-init
-
-n  Ubuntu 16.04 系列请通过以下地址下载
-
-
-http://iaas-cns-download.oss.cn-north-1.jcloudcs.com/cloud-init_17.2-35-gf576b2a2-0ubuntu1_16.04.2-jd_all.deb
-
-执行以下指令进行安装：
-
-①    dpkg -i cloud-init_17.2-35-gf576b2a2-0ubuntu1_16.04.2-jd_all.deb
-
-②    dpkg-reconfigure cloud-init
-
-如果执行①时不成功，则执行以下③、④两条指令后后再执行②
-
-③    apt-get install -f
-
-④    dpkg -i cloud-init_17.2-35-gf576b2a2-0ubuntu1_16.04.2-jd_all.deb
-
-在随后出现的页面中，取消部分数据源选项，仅保留以下4个选项：
-
-* NoCloud: Reads info from /var/lib/cloud/seed only
-
-* ConfigDrive: Reads data from Openstack Config Drive
-
-* OpenStack: native openstack metadata service
-
-* None: Failsafe datasource
-
-l  Windows 平台
-
-
-不需安装
-
 
 
 操作建议
