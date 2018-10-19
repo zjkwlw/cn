@@ -50,7 +50,7 @@
     标记待推送到京东云镜像仓库中的本地镜像：  
     `
     docker tag ubuntu:latest myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-    `
+    `  
     将已标记的镜像推送到京东云镜像仓库：  
     `
     docker push myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
