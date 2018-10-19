@@ -47,7 +47,9 @@
     `docker login -u jdcloud -p ********* myregistry-cn-north-1.jcr.service.jdcloud.com `
  4. 将镜像推送到京东云镜像仓库，本地镜像例为ubuntu:latest  
     标记待推送到京东云镜像仓库中的本地镜像：  
-    `docker tag ubuntu:latest myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest`
+    `
+    docker tag ubuntu:latest myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
+    `
     将已标记的镜像推送到京东云镜像仓库：  
     `
     docker push myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
