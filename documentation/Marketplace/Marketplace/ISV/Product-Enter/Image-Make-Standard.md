@@ -39,6 +39,8 @@ l  Windows平台：
 c:\> netsh interface ipv4 set subinterface "本地连接" mtu=1500 store=persistent（网络接口名称：2008为“本地连接”，2012为“以太网”）
 
 
+
+
 操作建议
 
 1.     Windows系统检查更新并安装更新。
