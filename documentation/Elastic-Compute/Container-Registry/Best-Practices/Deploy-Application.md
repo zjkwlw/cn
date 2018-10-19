@@ -21,10 +21,13 @@ c、打开控制台，进入弹性计算-容器镜像仓库-镜像列表，点�
 
 1.   
 **第一步：一次性保存secret，有时效性**
-`kubectl create secret docker-registry my-secret --docker-server=myregistry-cn-north-1.jcr.service.jdcloud.com --docker-username=jdcloud --docker-password=C********u --docker-email=l****@jd.com`
+```
+kubectl create secret docker-registry my-secret --docker-server=myregistry-cn-north-1.jcr.service.jdcloud.com --docker-username=jdcloud --docker-password=C********u --docker-email=l****@jd.com
+```
 **第二步：自动定期获取临时令牌，长期有效：**  
 创建jcr-credential-rbac.yaml文件，内容如下：
-`apiVersion: rbac.authorization.k8s.io/v1beta1
+```
+apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRoleBinding
 metadata:
   name: jcr-credential-rbac
@@ -89,11 +92,15 @@ spec:
               --docker-username=$DOCKER_USER \
               --docker-password=$DOCKER_PASSWORD \
               --docker-email=**@jd.com
-              kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}'`
-`kubectl apply  -f  jcr-credential-rbac.yaml
-kubectl apply  -f  jcr-credential-cron.yaml`
+              kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}'
+```
+```
+kubectl apply  -f  jcr-credential-rbac.yaml
+kubectl apply  -f  jcr-credential-cron.yaml
+```
 2.   创建yaml文件，文件名称为registrysecret
-`apiVersion: v1
+```
+apiVersion: v1
  kind: ReplicationController
  metadata:
     name: webapp
@@ -111,7 +118,8 @@ kubectl apply  -f  jcr-credential-cron.yaml`
             image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
             imagePullPolicy: Always
         imagePullSecrets:
-          - name: my-secret`
+          - name: my-secret
+```
 3.   创建：  
  `kubectl create -f registrysecret`
 4.   查看详情：  
