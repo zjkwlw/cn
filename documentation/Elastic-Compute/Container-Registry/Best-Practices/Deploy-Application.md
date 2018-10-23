@@ -5,15 +5,15 @@
 
  进入原生容器的创建页，有以下3种方式：
 
-a、打开控制台，进入弹性计算-原生容器-容器实例，点击创建
+a、打开控制台，进入[弹性计算-原生容器-容器实例](https://cns-console.jdcloud.com/host/container/list)，点击创建
 
-b、打开控制台，进入弹性计算-容器镜像仓库-镜像仓库，点击创建容器
+b、打开控制台，进入[弹性计算-容器镜像仓库-镜像仓库](https://cns-console.jdcloud.com/host/containerrepository/list)，点击创建容器
 
-c、打开控制台，进入弹性计算-容器镜像仓库-镜像列表，点击创建容器
+c、打开控制台，进入[弹性计算-容器镜像仓库-镜像列表](https://cns-console.jdcloud.com/host/containerimage/list)，点击创建容器
 
 在镜像选项中，选择京东云镜像，选择仓库地址、镜像名称。
 
-注：尽量选择同地域下的镜像仓库。
+**注：请选择同地域下的镜像仓库。**
 
 二、跟Kubernetes集群集成
 
