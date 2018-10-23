@@ -42,7 +42,7 @@ SDK使用中的任何问题，欢迎您在[Github SDK使用问题反馈页面](h
 	var NC = require('jdcloud-sdk-js/services/nc');
 
 
-### 配置方法###
+### 配置方法  ###
 
 对JDCloud的配置为通用配置，所有services共享配置:
 
