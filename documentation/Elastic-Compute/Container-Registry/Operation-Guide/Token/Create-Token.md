@@ -1,8 +1,8 @@
 # 创建临时令牌
 
- **两种方式
+ **两种方式**
 
-**一、通过控制台获取
+**一、通过控制台获取**
 
 1. 打开[弹性计算-容器镜像仓库-注册表](https://cns-console.jdcloud.com/host/containerregistry/list)，点击获取临时令牌，您可以使用临时令牌完成Docker客户端的授权认证；一个小时内最多申请5个临时令牌  
  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/获取临时令牌.png)   
@@ -11,7 +11,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/下载临时令牌.png)  
 **注：关闭后，无法再次获取临时令牌的Docker客户端登录命令**
 
-**二、通过京东云CLI获取
+**二、通过京东云CLI获取**
 
  1. 安装最新版的[京东云CLI](https://docs.jdcloud.com/cn/cli/introduction)
  2. 通过以下命令获取临时令牌  
