@@ -9,7 +9,7 @@
 ## 支持的命令操作
 
 Key(键)|String(字符串)|Hash（哈希表）|List（列表）|Set（集合）|SortedSet（有序集合） 
----|:--:|:--:|:--:|:--:|---:
+:--:|:--:|:--:|:--:|:--:|:--:
 DEL|APPEND|HDEL|LINDEX|SADD|ZADD            
 DUMP|BITCOUNT|HEXISTS|LINSERT|SCARD|ZCARD            
 EXISTS|BITPOS|HGET|LLEN|SISMEMBER|ZCOUNT            
@@ -34,14 +34,14 @@ SCAN|PSETEX| | | |ZSCAN
 
 以及
 
-Connection（连接）|Server（服务器）|Scripting(脚本)     
----|:--:|---:
-AUTH|INFO*|EVAL            
-PING|CONFIG GET*|SCRIPT EXISTS            
-QUIT|FLUSHDB|EVALSHA            
-ECHO| |SCRIPT FLUSH            
-| | |SCRIPT KILL            
-| | |SCRIPT LOAD  
+Connection（连接）|Server（服务器）|Scripting(脚本)|Transaction（事务）     
+:--:|:--:|:--:|:--:
+AUTH|INFO*|EVAL|DISCARD            
+PING|CONFIG GET*|SCRIPT EXISTS|EXEC            
+QUIT|FLUSHDB|EVALSHA|MULTI            
+ECHO| |SCRIPT FLUSH|UNWATCH            
+SELECT| |SCRIPT KILL|WATCH            
+ | |SCRIPT LOAD|      
 
 说明：
 
@@ -53,49 +53,49 @@ ECHO| |SCRIPT FLUSH
 
 暂未开放的命令
 
-Key(键)|String(字符串)|List（列表）|Set（集合）|SortedSet（有序集合） |Connection（连接）|Server（服务器）
----|:--:|:--:|:--:|:--:|:--:|---:
-RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|SELECT|FLUSHALL            
-RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE| |DBSIZE
-RENAMENX| |BRPOPLPUSH  |SINTER| | |TIME            
-OBJECT| | RPOPLPUSH|SINTERSTORE| | |MONITOR            
-MIGRATE | | | SMOVE | | | SLOWLOG            
-| | | |SUNION | | |BGREWRITEAOF            
-| | | |SUNIONSTORE| | |BGSAVE            
-| | | | | | |CONFIG REWRITE            
-| | | | | | |CONFIG SET            
-| | | | | | |CONFIG RESETSTAT            
-| | | | | | |COMMAND            
-| | | | | | |COMMAND COUNT            
-| | | | | | |COMMAND GETKEYS            
-| | | | | | |COMMAND INFO            
-| | | | | | |DEBUG OBJECT            
-| | | | | | |DEBUG SEGFAULT            
-| | | | | | |LASTSAVE            
-| | | | | | |ROLE            
-| | | | | | |SAVE            
-| | | | | | |SHUTDOWN            
-| | | | | | |SLAVEOF            
-| | | | | | |SYNC            
-| | | | | | |PSYNC  
+Key(键)|String(字符串)|List（列表）|Set（集合）|SortedSet（有序集合）|Server（服务器）
+:--:|:--:|:--:|:--:|:--:|:--:
+RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|FLUSHALL            
+RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE|  
+RENAMENX| |BRPOPLPUSH  |SINTER| |TIME            
+OBJECT| | RPOPLPUSH|SINTERSTORE| |MONITOR            
+MIGRATE | | | SMOVE | |SLOWLOG            
+| | | |SUNION | |BGREWRITEAOF            
+| | | |SUNIONSTORE| |BGSAVE            
+| | | | | |CONFIG REWRITE            
+| | | | | |CONFIG SET            
+| | | | | |CONFIG RESETSTAT            
+| | | | | |COMMAND            
+| | | | | |COMMAND COUNT            
+| | | | | |COMMAND GETKEYS            
+| | | | | |COMMAND INFO            
+| | | | | |DEBUG OBJECT            
+| | | | | |DEBUG SEGFAULT            
+| | | | | |LASTSAVE            
+| | | | | |ROLE            
+| | | | | |SAVE            
+| | | | | |SHUTDOWN            
+| | | | | |SLAVEOF            
+| | | | | |SYNC            
+| | | | | |PSYNC  
 
 以及
 
-HyperLog|LogPub/Sub（发布/订阅）|Transaction（事务）| Geo(地理位置)      
----|:--:|:--:|---:
-PFADD|PSUBSCRIBE|DISCARD|GEOADD            
-PFCOUNT|PUBLISH|EXEC|GEOHASH            
-PFMERGE|PUBSUB|MULTI|GEOPOS            
-| |PUNSUBSCRIBE|UNWATCH|GEODIST            
-| |SUBSCRIBE|WATCH|GEORADIUS            
-| |UNSUBSCRIBE| |GEORADIUSBYMEMBER  
+HyperLog|LogPub/Sub（发布/订阅）| Geo(地理位置)      
+:--:|:--:|:--:
+PFADD|PSUBSCRIBE|GEOADD            
+PFCOUNT|PUBLISH|GEOHASH            
+PFMERGE|PUBSUB|GEOPOS            
+| |PUNSUBSCRIBE|GEODIST            
+| |SUBSCRIBE|GEORADIUS            
+| |UNSUBSCRIBE|GEORADIUSBYMEMBER  
 
 集群实例不支持的命令
 
-Connection（连接）|Server（服务器）|Scripting(脚本)
----|:--:|---:
-ECHO|CLIENT KILL|EVALSHA            
-| |CLIENT LIST|SCRIPT EXISTS            
-| |CLIENT GETNAME|SCRIPT FLUSH            
-| |CLIENT SETNAME|SCRIPT KILL
-| | |SCRIPT LOAD            
+Connection（连接）|Server（服务器）|Scripting(脚本)|Transaction（事务）
+:--:|:--:|:--:|:--:
+ECHO|CLIENT KILL|EVALSHA|DISCARD            
+| |CLIENT LIST|SCRIPT EXISTS|EXEC            
+| |CLIENT GETNAME|SCRIPT FLUSH|MULTI            
+| |CLIENT SETNAME|SCRIPT KILL|UNWATCH
+| | |SCRIPT LOAD   |WATCH         
