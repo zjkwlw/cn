@@ -71,43 +71,44 @@ SDK使用中的任何问题，欢迎您在[Github SDK使用问题反馈页面](h
 
 ####  引用和配置  ####
 
-	var VM = require('jdcloud-sdk-js/services/vm') 
-	var vm = new VM({ 
-				credentials: { 
-					accessKeyId: global.accessKeyId, 
-					secretAccessKey: global.secretAccessKey 
-				}, 
-				regionId: 'cn-north-1' 
-			})
+    var VM = require('jdcloud-sdk-js/services/vm')
+    var vm = new VM({
+            credentials: {
+        accessKeyId: global.accessKeyId,
+                secretAccessKey: global.secretAccessKey
+    },
+    regionId: 'cn-north-1'
+    })
 
 
 
 #### Promise方式调用 #### 
 
-	vm.createInstances({ 
-				instanceSpec: { 
-						instanceType: 'g.s1.micro', 
-						az: 'cn-north-1a', 
-						imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c', 
-						name: 'node-sdk-test', 
-						elasticIp: { 
-							bandwidthMbps: 2, provider: 'BGP' 
-						}, 
-						primaryNetworkInterface: { 
-							networkInterface: { 
-								subnetId: 'subnet-3dm13k30gh', 
-								az: 'cn-north-1a' 
-							} 
-						}, 
-						systemDisk: { 
-							diskCategory: 'local' 
-						}, 
-						description: 'sdk' 
-				}, 
-				maxCount: 1 
-				}, 
-				'cn-north-1').then(function(data){ // 返回数据处理 data },
-				function(e){ // 调用API失败，错误处理 })
+	vm.createInstances({
+        instanceSpec: {
+            instanceType: 'g.s1.micro',
+                    az: 'cn-north-1a',
+                    imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c',
+                    name: 'node-sdk-test',
+                    elasticIp: {
+                bandwidthMbps: 2, provider: 'BGP'
+            },
+            primaryNetworkInterface: {
+                networkInterface: {
+                    subnetId: 'subnet-3dm13k30gh',
+                            az: 'cn-north-1a'
+                }
+            },
+            systemDisk: {
+                diskCategory: 'local'
+            },
+            description: 'sdk'
+        },
+        maxCount: 1
+    },'cn-north-1').then(function(data){ // 返回数据处理 data 
+    },
+    function(e){ // 调用API失败，错误处理 
+    })
 
 
 
