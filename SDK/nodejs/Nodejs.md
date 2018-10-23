@@ -50,12 +50,18 @@ SDK使用中的任何问题，欢迎您在[Github SDK使用问题反馈页面](h
 
 对某个service的配置会覆盖通用配置：
 
-	var NC = require('jdcloud-sdk-js/services/nc'); var nc = new NC({//*配置项/*/});
+	var NC = require('jdcloud-sdk-js/services/nc'); 
+	var nc = new NC({//*配置项/*/});
 
 
 ### 配置项 ###
 
-	let config = { credentials: { accessKeyId: global.accessKeyId, secretAccessKey: global.secretAccessKey }, regionId: 'cn-north-1' //地域信息，某个api调用可以单独传参regionId，如果不传则会使用此配置中的regionId }
+	let config = { 
+		credentials: { 
+			accessKeyId: global.accessKeyId, secretAccessKey: global.secretAccessKey 
+		},
+		regionId: 'cn-north-1' //地域信息，某个api调用可以单独传参regionId，如果不传则会使用此配置中的regionId 
+	}
 
 
 ### 调用示例 ###
@@ -65,23 +71,84 @@ SDK使用中的任何问题，欢迎您在[Github SDK使用问题反馈页面](h
 
 ####  引用和配置  ####
 
-	var VM = require('jdcloud-sdk-js/services/vm') var vm = new VM({ credentials: { accessKeyId: global.accessKeyId, secretAccessKey: global.secretAccessKey }, regionId: 'cn-north-1' })
+	var VM = require('jdcloud-sdk-js/services/vm') 
+	var vm = new VM({ 
+				credentials: { 
+					accessKeyId: global.accessKeyId, 
+					secretAccessKey: global.secretAccessKey 
+				}, 
+				regionId: 'cn-north-1' 
+			})
 
 
 
 #### Promise方式调用 #### 
 
-	vm.createInstances({ instanceSpec: { instanceType: 'g.s1.micro', az: 'cn-north-1a', imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c', name: 'node-sdk-test', elasticIp: { bandwidthMbps: 2, provider: 'BGP' }, primaryNetworkInterface: { networkInterface: { subnetId: 'subnet-3dm13k30gh', az: 'cn-north-1a' } }, systemDisk: { diskCategory: 'local' }, description: 'sdk' }, maxCount: 1 }, 'cn-north-1').then(function(data){ // 返回数据处理 data },function(e){ // 调用API失败，错误处理 })
+	vm.createInstances({ 
+				instanceSpec: { 
+						instanceType: 'g.s1.micro', 
+						az: 'cn-north-1a', 
+						imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c', 
+						name: 'node-sdk-test', 
+						elasticIp: { 
+							bandwidthMbps: 2, provider: 'BGP' 
+						}, 
+						primaryNetworkInterface: { 
+							networkInterface: { 
+								subnetId: 'subnet-3dm13k30gh', 
+								az: 'cn-north-1a' 
+							} 
+						}, 
+						systemDisk: { 
+							diskCategory: 'local' 
+						}, 
+						description: 'sdk' 
+				}, 
+				maxCount: 1 
+				}, 
+				'cn-north-1').then(function(data){ // 返回数据处理 data },
+				function(e){ // 调用API失败，错误处理 })
 
 
 
 #### callback方式调用 #### 
 
-	vm.createInstances({ instanceSpec: { instanceType: 'g.s1.micro', az: 'cn-north-1a', imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c', name: 'node-sdk-test', elasticIp: { bandwidthMbps: 2, provider: 'BGP' }, primaryNetworkInterface: { networkInterface: { subnetId: 'subnet-3dm13k30gh', az: 'cn-north-1a' } }, systemDisk: { diskCategory: 'local' }, description: 'sdk' }, maxCount: 1 }, 'cn-north-1',function(err, data){ if(err){ // 调用API失败，错误处理 } else { // 返回数据处理 data } })
+	vm.createInstances({ 
+			instanceSpec: { 
+				instanceType: 'g.s1.micro', 
+				az: 'cn-north-1a', 
+				imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c', 
+				name: 'node-sdk-test', 
+				elasticIp: { 
+					bandwidthMbps: 2, 
+					provider: 'BGP' 
+				}, 
+				primaryNetworkInterface: { 
+					networkInterface: { 
+						subnetId: 'subnet-3dm13k30gh',
+						az: 'cn-north-1a' 
+					} 
+				}, 
+				systemDisk: { 
+					diskCategory: 'local' 
+				}, 
+				description: 'sdk' 
+			}, 
+			maxCount: 1 
+			}, 
+			'cn-north-1',
+			function(err, data){ 
+				if(err){ // 调用API失败，错误处理 } 
+				else { // 返回数据处理 data } 
+			})
 
 如果需要设置额外的header，例如要调用开启了MFA操作保护的接口，需要传递x-jdcloud-security-token，则按照如下方式：
 
-	vm.deleteInstances({ instanceId: 'xxx', x-jdcloud-security-token: 'xxx' }, 'cn-north-1')	
+	vm.deleteInstances({ 
+			instanceId: 'xxx', x-jdcloud-security-token: 'xxx' 
+		}, 
+		'cn-north-1'
+	)	
 
 
 
