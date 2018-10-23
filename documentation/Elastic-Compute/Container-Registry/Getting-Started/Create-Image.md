@@ -11,29 +11,31 @@
 **一、创建注册表**
 
  1. 打开控制台，选择[弹性计算-容器镜像仓库-注册表](https://cns-console.jdcloud.com/host/containerregistry/list)，选择创建按钮  
- 
- 2. 选择地域，支持华北-北京、华东-上海、华南-广州
- 3. 填写名称，名称全局唯一且不支持修改；长度大于3个字符，且不能超过32字符；以小写字母数字开始和结尾，支持使用小写字母、数字、中划线(-)
- 4. 描述非必填项，描述不能超过256个字符，不支持修改
- 5. 注册表URI自动生成，规则为：注册表名称-地域缩写.jcr.service.jdcloud.com
- 6. 点击确定
+    ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/创建注册表页面.png)  
+ 2. 选择地域，支持华北-北京、华东-上海、华南-广州  
+ 3. 填写名称，名称全局唯一且不支持修改；长度大于3个字符，且不能超过32字符；以小写字母数字开始和结尾，支持使用小写字母、数字、中划线(-)  
+ 4. 描述非必填项，描述不能超过256个字符，不支持修改  
+ 5. 注册表URI自动生成，规则为：注册表名称-地域缩写.jcr.service.jdcloud.com  
+ 6. 点击确定  
 
 **二、创建镜像仓库**
 
- 1. 打开[弹性计算-容器镜像仓库-镜像仓库](https://cns-console.jdcloud.com/host/containerrepository/list)，选择创建按钮
- 2. 选择地域，支持华北-北京、华东-上海、华南-广州
- 3. 选择所属注册表
- 4. 填写名称，名称大于3个字符且不超过255个字符，同一注册表下名称唯一且不可修改；支持使用多级命名空间，命名空间以/分隔，各级命名空间不可为空，以小写字母数字开始和结尾，支持使用小写字母、数字、中划线(-)，下划线（ _ ）
- 5. 描述非必填项，描述不能超过256个字符，不支持修改
- 6. 镜像仓库URI自动生成，注册表URI/镜像仓库名称
- 7. 点击确定
+ 1. 打开[弹性计算-容器镜像仓库-镜像仓库](https://cns-console.jdcloud.com/host/containerrepository/list)，选择创建按钮  
+ ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/新建镜像仓库.png)  
+ 2. 选择地域，支持华北-北京、华东-上海、华南-广州  
+ 3. 选择所属注册表  
+ 4. 填写名称，名称大于3个字符且不超过255个字符，同一注册表下名称唯一且不可修改；支持使用多级命名空间，命名空间以/分隔，各级命名空间不可为空，以小写字母数字开始和结尾，支持使用小写字母、数字、中划线(-)，下划线（ _ ）  
+ 5. 描述非必填项，描述不能超过256个字符，不支持修改  
+ 6. 镜像仓库URI自动生成，注册表URI/镜像仓库名称  
+ 7. 点击确定  
 
 **三、获取临时令牌**
 
- 1. 打开[弹性计算-容器镜像仓库-注册表](https://cns-console.jdcloud.com/host/containerregistry/list)，点击获取临时令牌，您可以使用临时令牌完成Docker客户端的授权认证；一个小时内最多申请5个临时令牌
- 2. 2. 设置临时令牌的有效期：默认为12小时；范围为1~24小时的整数。点击确定
- 3. 弹窗“下载临时令牌”，单击“下载.xlsx文件”，将临时令牌下载到本地，文件名“registry名称-token.xlsx”。或者复制保存信息。
-
+ 1. 打开[弹性计算-容器镜像仓库-注册表](https://cns-console.jdcloud.com/host/containerregistry/list)，点击获取临时令牌，您可以使用临时令牌完成Docker客户端的授权认证；一个小时内最多申请5个临时令牌  
+ ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/获取临时令牌.png)   
+ 2. 设置临时令牌的有效期：默认为12小时；范围为1~24小时的整数。点击确定  
+ 3. 弹窗“下载临时令牌”，单击“下载.xlsx文件”，将临时令牌下载到本地，文件名“registry名称-token.xlsx”。或者复制保存信息。  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/下载临时令牌.png)  
 **注：关闭后，无法再次获取临时令牌的Docker客户端登录命令**
 
 **四、上传、下载镜像**
