@@ -1,33 +1,31 @@
 
 # 简介 #
-  欢迎使用京东云开发者Node.js工具套件（Node.js SDK）。使用京东云Node.js SDK，您无需复杂编程就可以访问京东云提供的各种服务。 
 
-  为了方便您理解SDK中的一些概念和参数的含义，使用SDK前建议您先查看[京东云OpenAPI使用入门](http://www.jdcloud.com/help/detail/355/isCatalog/0)。要了解每个API的具体参数和含义，请参考程序注释或参考OpenAPI&SDK下具体产品线的API文档。
+欢迎使用京东云开发者Node.js工具套件（Node.js SDK）。使用京东云Node.js SDK，您无需复杂编程就可以访问京东云提供的各种服务。
 
+为了方便您理解SDK中的一些概念和参数的含义，使用SDK前建议您先查看[OpenAPI使用入门](../../API/Common-Declaration/Introduction.md )。要了解每个API的具体参数和含义，请参考程序注释或参考[OpenAPI&SDK](https://www.jdcloud.com/help/faq?act=3)下具体产品线的API文档。
 
 
 # 环境准备 #
- 1.京东云Node.js SDK适用于Node.js 8.6.0及以上，npm 5.6.0及以上。
 
- 2.在开始调用京东云open API之前，需提前在京东云用户中心账户管理下的[AccessKey管理页面](https://uc.jdcloud.com/accesskey/index)申请accesskey和secretKey密钥对（简称AK/SK）。AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。
+1.京东云Node.js SDK适用于Node.js 8.6.0及以上，npm 5.6.0及以上。
 
+2.在开始调用京东云open API之前，需提前在京东云用户中心账户管理下的[AccessKey管理页面](https://uc.jdcloud.com/accesskey/index)申请accesskey和secretKey密钥对（简称AK/SK）。AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。
 
 
 # SDK使用方法 #
-建议使用npm安装京东云Node.js SDK，如下所示： 
 
-`npm install jdcloud-sdk-js`
- 
+建议使用npm安装京东云Node.js SDK，如下所示：
+
+	npm install jdcloud-sdk-js
 
 您还可以下载sdk源代码自行使用，源代码地址为：[Node.js SDK](https://github.com/jdcloud-api/jdcloud-sdk-nodejs)。
 
- 
+SDK使用中的任何问题，欢迎您在[Github SDK使用问题反馈页面](https://github.com/jdcloud-api/jdcloud-sdk-nodejs/issues)交流。
 
-SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页面](https://github.com/jdcloud-api/jdcloud-sdk-nodejs/issues)交流。
+**注意：京东云并没有提供其他下载方式，请务必使用上述官方下载方式！**
 
 
-
-注意：京东云并没有提供其他下载方式，请务必使用上述官方下载方式！
 
  
 
