@@ -114,42 +114,43 @@ SDK使用中的任何问题，欢迎您在[Github SDK使用问题反馈页面](h
 
 #### callback方式调用 #### 
 
-	vm.createInstances({ 
-			instanceSpec: { 
-				instanceType: 'g.s1.micro', 
-				az: 'cn-north-1a', 
-				imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c', 
-				name: 'node-sdk-test', 
-				elasticIp: { 
-					bandwidthMbps: 2, 
-					provider: 'BGP' 
-				}, 
-				primaryNetworkInterface: { 
-					networkInterface: { 
-						subnetId: 'subnet-3dm13k30gh',
-						az: 'cn-north-1a' 
-					} 
-				}, 
-				systemDisk: { 
-					diskCategory: 'local' 
-				}, 
-				description: 'sdk' 
-			}, 
-			maxCount: 1 
-			}, 
-			'cn-north-1',
-			function(err, data){ 
-				if(err){ // 调用API失败，错误处理 } 
-				else { // 返回数据处理 data } 
-			})
+	vm.createInstances({
+        instanceSpec: {
+            instanceType: 'g.s1.micro',
+                    az: 'cn-north-1a',
+                    imageId: '98d44a0f-88c1-451a-8971-f1f769073b6c',
+                    name: 'node-sdk-test',
+                    elasticIp: {
+                bandwidthMbps: 2,
+                        provider: 'BGP'
+            },
+            primaryNetworkInterface: {
+                networkInterface: {
+                    subnetId: 'subnet-3dm13k30gh',
+                            az: 'cn-north-1a'
+                }
+            },
+            systemDisk: {
+                diskCategory: 'local'
+            },
+            description: 'sdk'
+        },
+        maxCount: 1
+    },'cn-north-1',
+    function(err, data){
+        if(err){ // 调用API失败，错误处理 
+        } 
+		else { // 返回数据处理 data 
+        } 
+    })
 
 如果需要设置额外的header，例如要调用开启了MFA操作保护的接口，需要传递x-jdcloud-security-token，则按照如下方式：
 
-	vm.deleteInstances({ 
-			instanceId: 'xxx', x-jdcloud-security-token: 'xxx' 
-		}, 
-		'cn-north-1'
-	)	
+    vm.deleteInstances({ 
+            instanceId: 'xxx', x-jdcloud-security-token: 'xxx' 
+        }, 
+        'cn-north-1'
+    )	
 
 
 
