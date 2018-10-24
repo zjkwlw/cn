@@ -100,4 +100,5 @@ Events:
 NAME          ENDPOINTS                       AGE
 servicetest   172.16.0.10:80,172.16.0.42:80   28m
 ```
-9、在浏览器中输入与service关联的LoadBalance公网IP及端口，看到如下页面，即表明nginx服务正常。
+9、在浏览器中输入与service关联的LoadBalance公网IP及端口，看到如下页面，即表明nginx服务正常。  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/nginx.jpg)
