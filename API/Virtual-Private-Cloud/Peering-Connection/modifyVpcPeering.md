@@ -12,14 +12,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**vpcPeeringId**|String|True||vpcPeeringId ID|
+|**regionId**|String|True| |Region ID|
+|**vpcPeeringId**|String|True| |vpcPeeringId ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**description**|String|False||VpcPeering 描述，取值范围：0-256个中文、英文大小写的字母、数字和下划线分隔符|
-|**vpcPeeringName**|String|False||VpcPeering的名字,不为空。名称取值范围：1-32个中文、英文大小写的字母、数字和下划线分隔符|
+|**description**|String|False| |VpcPeering 描述，取值范围：0-256个中文、英文大小写的字母、数字和下划线分隔符|
+|**vpcPeeringName**|String|False| |VpcPeering的名字,不为空。名称取值范围：1-32个中文、英文大小写的字母、数字和下划线分隔符|
 
 
 ## 返回参数
@@ -28,11 +28,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 |**requestId**|String|请求ID|
 |**vpcPeering**|VpcPeering|VpcPeering资源信息|
 
-
 ### VpcPeering
 |名称|类型|描述|
 |---|---|---|
-|**vpcPeering**|VpcPeering||
+|**vpcPeering**|VpcPeering| |
 ### VpcPeering
 |名称|类型|描述|
 |---|---|---|

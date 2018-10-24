@@ -5,30 +5,29 @@
 根据用户定义的查询条件，获取索引性能的统计信息，并提供缺失索引及索引创建建议。用户可以根据这些信息查找与索引相关的性能瓶颈，并进行优化。<br>- 仅支持SQL Server
 
 ## 请求方式
-POST
+GET
 
 ## 请求地址
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/performance:describeIndexPerformance
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS 实例ID，唯一标识一个RDS实例|
-|**regionId**|String|True||地域代码，取值范围参见[《各地域及可用区对照表》](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS 实例ID，唯一标识一个RDS实例|
+|**regionId**|String|True| |地域代码，取值范围参见[《各地域及可用区对照表》](../Enum-Definitions/Regions-AZ.md)|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**db**|String|False||需要查询的数据库名，多个数据库名之间用英文逗号分隔，默认所有数据库|
-|**pageNumber**|Integer|False||显示数据的页码，默认为1，取值范围：[-1,1000)。pageNumber为-1时，返回所有数据页码；超过总页数时，显示最后一页。|
-|**pageSize**|Integer|False||每页显示的数据条数，默认为50，取值范围：[1,100]，只能为10的倍数，用于查询列表的接口|
-|**queryType**|String|True||查询类型，不同的查询类型按照相应的字段从高到低返回结果。<br>支持如下类型：<br>Missing：缺失索引<br>Size：索引大小，单位KB<br>Updates：索引更新次数<br>Scans：表扫描次数<br>Used：最少使用<br>|
+|**db**|String|False| |需要查询的数据库名，多个数据库名之间用英文逗号分隔，默认所有数据库|
+|**pageNumber**|Integer|False| |显示数据的页码，默认为1，取值范围：[-1,1000)。pageNumber为-1时，返回所有数据页码；超过总页数时，显示最后一页。|
+|**pageSize**|Integer|False| |每页显示的数据条数，默认为50，取值范围：[1,100]，只能为10的倍数，用于查询列表的接口|
+|**queryType**|String|True| |查询类型，不同的查询类型按照相应的字段从高到低返回结果。<br>支持如下类型：<br>Missing：缺失索引<br>Size：索引大小，单位KB<br>Updates：索引更新次数<br>Scans：表扫描次数<br>Used：最少使用<br>|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|

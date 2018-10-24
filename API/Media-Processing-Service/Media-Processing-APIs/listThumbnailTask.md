@@ -12,29 +12,28 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||region id|
+|**regionId**|String|True| |region id|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**begin**|String|False||开始时间 时间格式(GMT): yyyy-MM-dd'T'HH:mm:ss.SSS'Z'|
-|**end**|String|False||结束时间 时间格式(GMT): yyyy-MM-dd'T'HH:mm:ss.SSS'Z'|
+|**begin**|String|False| |开始时间 时间格式(GMT): yyyy-MM-dd'T'HH:mm:ss.SSS'Z'|
+|**end**|String|False| |结束时间 时间格式(GMT): yyyy-MM-dd'T'HH:mm:ss.SSS'Z'|
 |**limit**|Integer|False|1000|查询记录数 [1, 1000]|
-|**marker**|String|False||查询标记|
-|**status**|String|False||task 状态 (PENDING, RUNNING, SUCCESS, FAILED)|
+|**marker**|String|False| |查询标记|
+|**status**|String|False| |task 状态 (PENDING, RUNNING, SUCCESS, FAILED)|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**thumbnailQuery**|ThumbnailQuery||
+|**thumbnailQuery**|ThumbnailQuery| |
 ### ThumbnailQuery
 |名称|类型|描述|
 |---|---|---|
@@ -52,10 +51,10 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**createdTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|错误码 (readonly)|
 |**lastUpdatedTime**|String|任务创建时间 时间格式(GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|ThumbnailTaskRule||
-|**source**|ThumbnailTaskSource||
+|**rule**|ThumbnailTaskRule| |
+|**source**|ThumbnailTaskSource| |
 |**status**|String|状态 (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|ThumbnailTaskTarget||
+|**target**|ThumbnailTaskTarget| |
 |**taskID**|String|任务ID (readonly)|
 ### ThumbnailTaskRule
 |名称|类型|描述|

@@ -15,26 +15,25 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ids**|String[]|False||镜像ID列表，如果指定了此参数，其它参数可为空|
-|**imageSource**|String|False||镜像来源，如果没有指定ids参数，此参数必传；取值范围：public、shared、thirdparty、private|
+|**ids**|String[]|False| |镜像ID列表，如果指定了此参数，其它参数可为空|
+|**imageSource**|String|False| |镜像来源，如果没有指定ids参数，此参数必传；取值范围：public、shared、thirdparty、private|
 |**pageNumber**|Integer|False|1|页码；默认为1|
 |**pageSize**|Integer|False|20|分页大小；默认为20；取值范围[10, 100]|
-|**platform**|String|False||操作系统平台，取值范围：Windows Server、CentOS、Ubuntu|
-|**rootDeviceType**|String|False||镜像支持的系统盘类型，[localDisk,cloudDisk]|
-|**status**|String|False||<a href="http://docs.jdcloud.com/virtual-machines/api/image_status">参考镜像状态</a>|
+|**platform**|String|False| |操作系统平台，取值范围：Windows Server、CentOS、Ubuntu|
+|**rootDeviceType**|String|False| |镜像支持的系统盘类型，[localDisk,cloudDisk]|
+|**status**|String|False| |<a href="http://docs.jdcloud.com/virtual-machines/api/image_status">参考镜像状态</a>|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
@@ -69,6 +68,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images
 |**deviceName**|String|数据盘逻辑挂载点，取值范围：vda,vdb,vdc,vdd,vde,vdf,vdg,vdh,vdi|
 |**diskCategory**|String|磁盘分类，取值为本地盘(local)或者数据盘(cloud)。<br>系统盘支持本地盘(local)或者云硬盘(cloud)。系统盘选择local类型，必须使用localDisk类型的镜像；同理系统盘选择cloud类型，必须使用cloudDisk类型的镜像。<br>数据盘仅支持云硬盘(cloud)。<br>|
 |**localDisk**|LocalDisk|本地磁盘配置|
+|**status**|String|数据盘挂载状态，取值范围：attaching,detaching,attached,detached,error_attach,error_detach|
 ### Disk
 |名称|类型|描述|
 |---|---|---|

@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS 实例ID，唯一标识一个RDS实例|
-|**regionId**|String|True||地域代码，取值范围参见[《各地域及可用区对照表》](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS 实例ID，唯一标识一个RDS实例|
+|**regionId**|String|True| |地域代码，取值范围参见[《各地域及可用区对照表》](../Enum-Definitions/Regions-AZ.md)|
 
 ## 请求参数
 无
@@ -22,13 +22,12 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**dbInstanceAttributes**|DBInstanceAttribute||
+|**dbInstanceAttributes**|DBInstanceAttribute| |
 ### DBInstanceAttribute
 |名称|类型|描述|
 |---|---|---|
@@ -43,7 +42,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**instanceClass**|String|实例规格代码|
 |**instanceId**|String|实例ID|
 |**instanceMemoryMB**|Integer|内存大小，单位MB|
-|**instanceName**|String|实例名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|实例名称，具体规则可参见帮助中心文档:[名称及密码限制](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instancePort**|String|应用访问端口|
 |**instanceStatus**|String|实例状态，参见[枚举参数定义](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceStorageGB**|Integer|磁盘，单位GB|

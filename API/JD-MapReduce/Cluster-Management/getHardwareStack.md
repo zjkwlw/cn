@@ -12,7 +12,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hardwareStack
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 无
@@ -21,21 +21,20 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hardwareStack
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
 |**data**|HardWareStackData|查询的硬件信息|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### HardWareStackData
 |名称|类型|描述|
 |---|---|---|
-|**disk**|Disk[]||
-|**scale**|Scale[]||
+|**disk**|Disk[]| |
+|**scale**|Scale[]| |
 ### Disk
 |名称|类型|描述|
 |---|---|---|

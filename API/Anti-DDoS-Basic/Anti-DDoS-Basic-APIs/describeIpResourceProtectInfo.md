@@ -12,27 +12,26 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ip**|String|True||公网IP地址|
-|**regionId**|String|True||所属地域ID|
+|**ip**|String|True| |公网IP地址|
+|**regionId**|String|True| |所属地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**limit**|Integer|False||限制查询的记录数|
-|**start**|Integer|False||限制查询的开始范围|
+|**limit**|Integer|False| |限制查询的记录数|
+|**start**|Integer|False| |限制查询的开始范围|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**dataList**|IpResourceProtectInfo[]||
+|**dataList**|IpResourceProtectInfo[]| |
 ### IpResourceProtectInfo
 |名称|类型|描述|
 |---|---|---|

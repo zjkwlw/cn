@@ -12,23 +12,22 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permissions
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**keyword**|String|False||关键字|
-|**pageNumber**|Integer|True||页码|
-|**pageSize**|Integer|True||每页显示数目|
-|**queryType**|Integer|True||权限类型,0-全部，1-系统权限，2-自定义权限|
+|**keyword**|String|False| |关键字|
+|**pageNumber**|Integer|True| |页码|
+|**pageSize**|Integer|True| |每页显示数目|
+|**queryType**|Integer|True| |权限类型,0-全部，1-系统权限，2-自定义权限|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|

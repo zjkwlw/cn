@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID，可调用接口（describeRegiones）获取云物理服务器支持的地域|
+|**regionId**|String|True| |地域ID，可调用接口（describeRegiones）获取云物理服务器支持的地域|
 
 ## 请求参数
 无
@@ -21,14 +21,13 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**deviceTypes**|DeviceType[]||
+|**deviceTypes**|DeviceType[]| |
 ### DeviceType
 |名称|类型|描述|
 |---|---|---|

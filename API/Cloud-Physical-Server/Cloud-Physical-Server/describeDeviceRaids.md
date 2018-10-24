@@ -12,26 +12,25 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID，可调用接口（describeRegiones）获取云物理服务器支持的地域|
+|**regionId**|String|True| |地域ID，可调用接口（describeRegiones）获取云物理服务器支持的地域|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**deviceType**|String|True||实例类型，可调用（describeDeviceTypes）接口获取指定地域的实例类型，例如：cps.c.normal|
-|**volumeType**|String|False||磁盘类型，取值范围：system、data|
+|**deviceType**|String|True| |实例类型，可调用（describeDeviceTypes）接口获取指定地域的实例类型，例如：cps.c.normal|
+|**volumeType**|String|False| |磁盘类型，取值范围：system、data|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**raids**|Raid[]||
+|**raids**|Raid[]| |
 ### Raid
 |名称|类型|描述|
 |---|---|---|

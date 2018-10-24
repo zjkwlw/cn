@@ -13,8 +13,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**containerId**|String|True||Container ID|
-|**regionId**|String|True||Region ID|
+|**containerId**|String|True| |Container ID|
+|**regionId**|String|True| |Region ID|
 
 ## 请求参数
 无
@@ -23,14 +23,13 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**container**|Container||
+|**container**|Container| |
 ### Container
 |名称|类型|描述|
 |---|---|---|
@@ -108,8 +107,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 ### LogOption
 |名称|类型|描述|
 |---|---|---|
-|**key**|String||
-|**value**|String||
+|**key**|String| |
+|**value**|String| |
 ### InstanceNetworkInterfaceAttachment
 |名称|类型|描述|
 |---|---|---|
@@ -126,7 +125,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 |**networkInterfaceId**|String|弹性网卡ID|
 |**primaryIp**|NetworkInterfacePrivateIp|网卡主IP|
 |**sanityCheck**|Boolean|源和目标IP地址校验，取值为0或者1|
-|**secondaryIps**|NetworkInterfacePrivateIp[]||
+|**secondaryIps**|NetworkInterfacePrivateIp[]| |
 |**securityGroups**|SecurityGroupSimple[]|安全组列表|
 |**vpcId**|String|虚拟网络ID|
 ### NetworkInterfacePrivateIp

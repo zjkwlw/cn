@@ -12,9 +12,9 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||实例 ID|
-|**regionId**|String|True||Region ID|
-|**webRuleId**|String|True||网站规则 ID|
+|**instanceId**|String|True| |实例 ID|
+|**regionId**|String|True| |Region ID|
+|**webRuleId**|String|True| |网站规则 ID|
 
 ## 请求参数
 无
@@ -23,14 +23,13 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|WebRule||
+|**data**|WebRule| |
 ### WebRule
 |名称|类型|描述|
 |---|---|---|
@@ -47,8 +46,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**httpsRsaKey**|String|证书私钥|
 |**id**|Integer|规则id|
 |**instanceId**|Integer|实例id|
-|**onlineAddr**|String[]||
-|**originAddr**|OriginAddrItem[]||
+|**onlineAddr**|String[]| |
+|**originAddr**|OriginAddrItem[]| |
 |**originDomain**|String|回源域名,originType为CNAME时返回该字段|
 |**originType**|String|回源类型：A或者CNAME|
 |**port**|String|HTTP协议的端口号，如80,81，多个端口号使用逗号分隔|

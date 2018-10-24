@@ -14,34 +14,33 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||instanceId - 云主机ID，精确匹配，支持多个<br>privateIpAddress - 主网卡内网主IP地址，模糊匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 云主机状态，精确匹配，支持多个，<a href="http://docs.jdcloud.com/virtual-machines/api/vm_status">参考云主机状态</a><br>name - 云主机名称，模糊匹配，支持单个<br>imageId - 镜像ID，精确匹配，支持多个<br>networkInterfaceId - 弹性网卡ID，精确匹配，支持多个<br>subnetId - 子网ID，精确匹配，支持多个<br>agId - 使用可用组id，支持单个<br>faultDomain - 错误域，支持多个<br>|
+|**filters**|Filter[]|False| |instanceId - 云主机ID，精确匹配，支持多个<br>privateIpAddress - 主网卡内网主IP地址，模糊匹配，支持多个<br>az - 可用区，精确匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 云主机状态，精确匹配，支持多个，<a href="http://docs.jdcloud.com/virtual-machines/api/vm_status">参考云主机状态</a><br>name - 云主机名称，模糊匹配，支持单个<br>imageId - 镜像ID，精确匹配，支持多个<br>networkInterfaceId - 弹性网卡ID，精确匹配，支持多个<br>subnetId - 子网ID，精确匹配，支持多个<br>agId - 使用可用组id，支持单个<br>faultDomain - 错误域，支持多个<br>|
 |**pageNumber**|Integer|False|1|页码；默认为1|
 |**pageSize**|Integer|False|20|分页大小；默认为20；取值范围[10, 100]|
 
 ### Filter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True||过滤条件的名称|
-|**operator**|String|False||过滤条件的操作符，默认eq|
-|**values**|String[]|True||过滤条件的值|
+|**name**|String|True| |过滤条件的名称|
+|**operator**|String|False| |过滤条件的操作符，默认eq|
+|**values**|String[]|True| |过滤条件的值|
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**instances**|Instance[]||
-|**totalCount**|Number||
+|**instances**|Instance[]| |
+|**totalCount**|Number| |
 ### Instance
 |名称|类型|描述|
 |---|---|---|
@@ -88,6 +87,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**deviceName**|String|数据盘逻辑挂载点，取值范围：vda,vdb,vdc,vdd,vde,vdf,vdg,vdh,vdi|
 |**diskCategory**|String|磁盘分类，取值为本地盘(local)或者数据盘(cloud)。<br>系统盘支持本地盘(local)或者云硬盘(cloud)。系统盘选择local类型，必须使用localDisk类型的镜像；同理系统盘选择cloud类型，必须使用cloudDisk类型的镜像。<br>数据盘仅支持云硬盘(cloud)。<br>|
 |**localDisk**|LocalDisk|本地磁盘配置|
+|**status**|String|数据盘挂载状态，取值范围：attaching,detaching,attached,detached,error_attach,error_detach|
 ### Disk
 |名称|类型|描述|
 |---|---|---|
@@ -137,7 +137,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**primaryIp**|NetworkInterfacePrivateIp|网卡主IP|
 |**sanityCheck**|Integer|源和目标IP地址校验，取值为0或者1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]|网卡辅IP|
-|**securityGroups**|SecurityGroupSimple[]||
+|**securityGroups**|SecurityGroupSimple[]| |
 |**subnetId**|String|子网ID|
 |**vpcId**|String|虚拟网络ID|
 ### NetworkInterfacePrivateIp

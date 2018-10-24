@@ -12,27 +12,25 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:d
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clusterId**|String|True||需要扩容的集群ID|
-|**regionId**|String|True||地域ID|
+|**clusterId**|String|True| |需要扩容的集群ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
-|名称|类型|是否必需|默认值|描述|
-|---|---|---|---|---|
+无
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|ClusterDetailInfo||
-|**message**|String||
-|**status**|String||
+|**data**|ClusterDetailInfo| |
+|**message**|String| |
+|**status**|String| |
 ### ClusterDetailInfo
 |名称|类型|描述|
 |---|---|---|

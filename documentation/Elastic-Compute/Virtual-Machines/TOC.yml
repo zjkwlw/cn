@@ -93,6 +93,8 @@ items:
             href: Operation-Guide/Instance/Switch-from-Postpaid-to-Prepaid.md
           - name: 删除实例
             href: Operation-Guide/Instance/Delete-Instance.md
+          - name: GPU云主机
+            href: Operation-Guide/Instance/GPU-VM.md
       - name: 实例模板
         items:
           - name: 实例模板概述
@@ -125,6 +127,8 @@ items:
             href: Operation-Guide/Storage/Strorage-Overview.md
           - name: 存储类型
             href: Operation-Guide/Storage/Storage-Type.md
+          - name: 查看本地数据盘
+            href: Operation-Guide/Storage/Identify-Local-Data-Disk.md
           - name: 创建云硬盘
             href: Operation-Guide/Storage/Create-Cloud-Disk.md
           - name: 挂载云硬盘
@@ -266,7 +270,7 @@ items:
          - name: Linux故障类
            items:
               - name: 使用centos私有镜像创建云主机后无法获取内网IP解决办法
-                href: Linux-Troubleshooting/Fault-Class/Cannot-obtain-intranet-IP-solution-after-creating-a-cloud-host-using-centos-private-image.md
+                href: Linux-Troubleshooting/Fault-Class/Cannot-creating-a-cloud-host-using-centos-private-image.md
               - name: Linux系统message日志报错：kernel： TCP： time wait bucket table overflowt
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-message-log-error-kernel-TCP-time-wait-bucket-table-overflowt.md
               - name: Linux系统查询时间同步服务器超时

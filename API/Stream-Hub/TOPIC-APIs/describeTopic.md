@@ -12,31 +12,30 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/topic
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||地域ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True|||
+|**name**|String|True| | |
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**topic**|TopicModel||
+|**topic**|TopicModel| |
 ### TopicModel
 |名称|类型|描述|
 |---|---|---|
 |**parameterList**|Object[]|归档相关的具体参数，需要对归档进行新建，更新，删除，修改对应参数值即可。<br>ossFlag，bucketName，directory，objectName 这四个参数值与ossFlag有关，若ossFlag为false，后面三个可为空，若为true，后面三个为异常数据保存位置，按需要填写即可。<br> 1）如果归档到数据计算服务需要传database，table，type，example，delimiter，targetColumn，analysisColumn，partsTargetColumn，partsAnalysisColumn。<br>2）如果归档到JFS需要传bucket，prefix，infix。<br>3）如果归档到京东云 Elasticsearch需要传host，port，indexType，idType，indexName，indexReferField，timestampFieldFormat，timestampIndexFormat，typeName，idReferField，noResolve，username，password。<br> 4）如果归档到mysql，则需要传host，database，table，username，password，type，example，delimiter。 <br>5)如果要归档到京东云数据库则需要传rdsId，database，table，username，password，type，example，delimiter。|
-|**target**|Target||
-|**topic**|Topic||
+|**target**|Target| |
+|**topic**|Topic| |
 ### Target
 |名称|类型|描述|
 |---|---|---|

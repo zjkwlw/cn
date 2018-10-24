@@ -12,8 +12,8 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**cacheInstanceId**|String|True||缓存Redis实例ID，是访问实例的唯一标识。|
-|**regionId**|String|True||缓存Redis实例所在区域的Region ID。目前缓存Redis有华北、华南、华东区域，对应Region ID为cn-north-1、cn-south-1、cn-east-2|
+|**cacheInstanceId**|String|True| |缓存Redis实例ID，是访问实例的唯一标识。|
+|**regionId**|String|True| |缓存Redis实例所在区域的Region ID。目前缓存Redis有华北、华南、华东区域，对应Region ID为cn-north-1、cn-south-1、cn-east-2|
 
 ## 请求参数
 无
@@ -25,7 +25,6 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 |**requestId**|String|本次查询请求的ID|
 |**result**|Result|查询缓存实例列表信息的结果|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|
@@ -33,6 +32,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 ### CacheInstance
 |名称|类型|描述|
 |---|---|---|
+|**auth**|Boolean|是否免密|
 |**azId**|AzId|az信息|
 |**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
 |**cacheInstanceDescription**|String|实例描述|

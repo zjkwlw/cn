@@ -16,8 +16,7 @@
 # SDK使用方法 #
 建议使用npm安装京东云Node.js SDK，如下所示： 
 
-npm install jdcloud-sdk-js
-
+`npm install jdcloud-sdk-js`
  
 
 您还可以下载sdk源代码自行使用，源代码地址为：[Node.js SDK](https://github.com/jdcloud-api/jdcloud-sdk-nodejs)。
@@ -35,31 +34,33 @@ SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页�
 # 调用SDK #
 
 ## 两种引用方式 ##
+```
 	var JDCloud = require('jdcloud-sdk-js');
-
+```
 这种引用方式会加载所有的可用的services
 
 
-
+```
 	var NC = require('jdcloud-sdk-js/services/nc');
-
+```
 这种引用方式只会加载用到的service，此时仍然可以使用var JDCloud = require('jdcloud-sdk-js/global')来引用JDCloud对象
 ## 
 配置方法 ##
 对JDCloud的配置为通用配置，所有services共享配置:
 
-
+```
 	JDCloud.config.update({/*配置项*/});
-
+```
 
 对某个service的配置会覆盖通用配置： 
 
-
+```
 	var NC = require('jdcloud-sdk-js/services/nc');
 	var nc = new NC({/*配置项*/});
-
+```
 
 ## 配置项 ##
+```
 	let config = {
 	    credentials:{
 	        accessKeyId,
@@ -67,11 +68,11 @@ SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页�
 	    },
 	    regionId,   //地域信息，某个api调用可以单独传参regionId，如果调用时不传，则会使用此配置中的regionId
 	}
-
+```
 
 ## 调用示例 ##
 以下是查询单个云主机实例详情的调用示例
-
+```
 	var VM = require('jdcloud-sdk-js/services/vm')
 	
 	var vm = new VM({
@@ -103,3 +104,4 @@ SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页�
 	    },
 	    maxCount: 1
 	  }, 'cn-north-1')
+```

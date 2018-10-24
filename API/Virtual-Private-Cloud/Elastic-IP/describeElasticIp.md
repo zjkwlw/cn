@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**elasticIpId**|String|True||ElasticIp ID|
-|**regionId**|String|True||Region ID|
+|**elasticIpId**|String|True| |ElasticIp ID|
+|**regionId**|String|True| |Region ID|
 
 ## 请求参数
 无
@@ -24,7 +24,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}
 |---|---|---|
 |**requestId**|String|请求ID|
 |**result**|Result|返回结果|
-
 
 ### Result
 |名称|类型|描述|

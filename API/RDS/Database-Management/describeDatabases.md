@@ -12,25 +12,24 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS 实例ID，唯一标识一个RDS实例|
-|**regionId**|String|True||地域代码，取值范围参见[《各地域及可用区对照表》](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS 实例ID，唯一标识一个RDS实例|
+|**regionId**|String|True| |地域代码，取值范围参见[《各地域及可用区对照表》](../Enum-Definitions/Regions-AZ.md)|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dbName**|String|False||数据库名。如果不指定数据库名，则返回所有数据库列表<br>- **MySQL：不支持该字段**<br>- **SQL Server：支持该字段**|
+|**dbName**|String|False| |数据库名。如果不指定数据库名，则返回所有数据库列表<br>- **MySQL：不支持该字段**<br>- **SQL Server：支持该字段**|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**databases**|Database[]||
+|**databases**|Database[]| |
 ### Database
 |名称|类型|描述|
 |---|---|---|

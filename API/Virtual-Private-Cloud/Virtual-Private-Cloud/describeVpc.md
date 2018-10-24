@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**vpcId**|String|True||Vpc ID|
+|**regionId**|String|True| |Region ID|
+|**vpcId**|String|True| |Vpc ID|
 
 ## 请求参数
 无
@@ -25,7 +25,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 |**requestId**|String|请求ID|
 |**result**|Result|返回结果|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|
@@ -33,11 +32,11 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 ### Vpc
 |名称|类型|描述|
 |---|---|---|
-|**aclIds**|String[]||
+|**aclIds**|String[]| |
 |**addressPrefix**|String|如果为空，则不限制网段，如果不为空，10.0.0.0/8、172.16.0.0/12和192.168.0.0/16及它们包含的子网，且子网掩码长度为16-28之间|
 |**createdTime**|String|vpc创建时间|
 |**description**|String|VPC 描述，取值范围：1~120个字符|
-|**routeTableIds**|String[]||
+|**routeTableIds**|String[]| |
 |**subnets**|Subnet[]|私有网络包含的子网列表|
 |**vpcId**|String|Vpc的Id|
 |**vpcName**|String|私有网络名称，取值范围：1-60个中文、英文大小写的字母、数字和下划线分隔符|

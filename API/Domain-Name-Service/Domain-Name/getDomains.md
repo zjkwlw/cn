@@ -12,22 +12,21 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||实例所属的地域ID|
+|**regionId**|String|True| |实例所属的地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**domainName**|String|False||关键字，按照”%domainName%”模式匹配主域名|
-|**pageNumber**|Integer|True||分页查询时查询的每页的序号，起始值为1，默认为1|
-|**pageSize**|Integer|True||分页查询时设置的每页行数，默认为10|
+|**domainName**|String|False| |关键字，按照”%domainName%”模式匹配主域名|
+|**pageNumber**|Integer|True| |分页查询时查询的每页的序号，起始值为1，默认为1|
+|**pageSize**|Integer|True| |分页查询时设置的每页行数，默认为10|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String|此次请求的ID|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
 |名称|类型|描述|

@@ -21,19 +21,17 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:resizeIn
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||云主机ID|
-|**regionId**|String|True||地域ID|
+|**instanceId**|String|True| |云主机ID|
+|**regionId**|String|True| |地域ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceType**|String|True||实例规格，可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>接口获得指定地域或可用区的规格信息。|
+|**instanceType**|String|True| |实例规格，可查询<a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>接口获得指定地域或可用区的规格信息。|
 
 
 ## 返回参数
-|名称|类型|描述|
-|---|---|---|
-
+无
 
 
 ## 返回码
