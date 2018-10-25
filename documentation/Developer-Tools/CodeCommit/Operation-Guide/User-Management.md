@@ -2,4 +2,4 @@
 
 需要注意的是，这里的密码仅为京东云代码托管服务的密码，而非京东云账户密码。
 
-![1.png](https://github.com/jdcloudcom/cn/tree/edit/image/codecommit/UserInfo.png)
+![1.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/UserInfo.png)
