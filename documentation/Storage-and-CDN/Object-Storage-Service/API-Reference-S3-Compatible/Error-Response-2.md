@@ -4,7 +4,7 @@
 
 
 下面是错误响应的消息体例子：
-```angular2html
+```
 <Error>
     <statusCode>404</statusCode>
     <Code>NoSuchBucket</Code>
