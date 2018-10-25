@@ -6,7 +6,7 @@
 
 ![2.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project2.png)
 
- - namespace：可选择Users或者Groups
+ - Namespace：可选择Users或者Groups
 
 - 权限：
 
