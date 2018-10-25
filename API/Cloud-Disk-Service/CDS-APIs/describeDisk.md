@@ -25,7 +25,6 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |**requestId**|String|请求ID|
 |**result**|Result|查询的云硬盘信息详情|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

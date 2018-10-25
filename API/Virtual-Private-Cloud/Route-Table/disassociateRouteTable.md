@@ -27,7 +27,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:dis
 |**requestId**|String|请求ID|
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

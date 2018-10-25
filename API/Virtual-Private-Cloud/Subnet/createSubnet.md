@@ -30,7 +30,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |**requestId**|String|请求ID|
 |**result**|Result|返回结果|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

@@ -42,7 +42,6 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission
 |**requestId**|String| |
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

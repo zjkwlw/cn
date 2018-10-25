@@ -24,7 +24,6 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

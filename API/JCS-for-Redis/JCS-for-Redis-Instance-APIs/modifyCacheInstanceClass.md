@@ -20,7 +20,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**cacheInstanceClass**|String|True| |变更后的缓存Redis规格，详细参见：<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
+|**cacheInstanceClass**|String|True| |变更后的缓存Redis规格，详细参见：<a href="https://docs.jdcloud.com/cn/jcs-for-redis/specifications">实例规格代码</a>|
 
 
 ## 返回参数
@@ -28,7 +28,6 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 |---|---|---|
 |**requestId**|String|本次变更请求的ID|
 |**result**|Result|本次请求的结果信息。|
-
 
 ### Result
 |名称|类型|描述|

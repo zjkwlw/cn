@@ -2,7 +2,7 @@
 
 
 ## 描述
-查询配额，支持：云主机、镜像、密钥、模板
+查询配额，支持：云主机、镜像、密钥、模板、镜像共享
 
 
 ## 请求方式
@@ -18,7 +18,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |resourceTypes - 资源类型，支持多个[instance，keypair，image，instanceTemplate]<br>|
+|**filters**|Filter[]|False| |resourceTypes - 资源类型，支持多个[instance，keypair，image，instanceTemplate，imageShare]<br>|
+|**imageId**|String|False| |私有镜像Id，查询镜像共享(imageShare)配额时，此参数必传|
 
 ### Filter
 |名称|类型|是否必需|默认值|描述|
@@ -32,7 +33,6 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |名称|类型|描述|

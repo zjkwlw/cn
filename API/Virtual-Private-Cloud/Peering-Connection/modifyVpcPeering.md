@@ -28,7 +28,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 |**requestId**|String|请求ID|
 |**vpcPeering**|VpcPeering|VpcPeering资源信息|
 
-
 ### VpcPeering
 |名称|类型|描述|
 |---|---|---|

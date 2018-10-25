@@ -10,8 +10,6 @@ POST
 ## 请求地址
 https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 
-|名称|类型|是否必需|默认值|描述|
-|---|---|---|---|---|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
@@ -34,7 +32,6 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 |**error**|Object|错误信息|
 |**requestId**|String|请求的标识id|
 |**result**|Result| |
-
 
 ### Result
 |名称|类型|描述|

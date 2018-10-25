@@ -39,7 +39,6 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |**requestId**|String|请求ID|
 |**result**|Result|结果集|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

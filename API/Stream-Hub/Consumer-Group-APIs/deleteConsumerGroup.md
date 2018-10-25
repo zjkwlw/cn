@@ -27,7 +27,6 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

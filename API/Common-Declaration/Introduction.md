@@ -88,17 +88,17 @@ cn-south-1 | 华南-广州
 
 推荐直接使用京东云SDK接入京东云OpenAPI，SDK的使用方式请参考。
 
-[Java](../../SDK/Java/Java.md)
+[Java](/SDK/Java/Java.md)
 
-[Python](../../SDK/Python/Python.md)
+[Python](/SDK/Python/Python.md)
 
-[Go](../../SDK/Go/Go.md)
+[Go](/SDK/Go/Go.md)
 
-[Node.js](../../SDK/nodejs/Nodejs.md)
+[Node.js](/SDK/nodejs/Nodejs.md)
 
-[PHP](../../SDK/PHP.md)
+[PHP](/SDK/PHP.md)
 
-[.Net](../../SDK/dotnet/dotnet.md)
+[.Net](/SDK/dotnet/dotnet.md)
 
-[C++](../../SDK/cplusplus/cplusplus.md)
+[C++](/SDK/cplusplus/cplusplus.md)
 

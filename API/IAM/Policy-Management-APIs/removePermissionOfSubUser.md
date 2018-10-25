@@ -26,7 +26,6 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permissions/
 |**requestId**|String| |
 
 
-
 ## 返回码
 |返回码|描述|
 |---|---|

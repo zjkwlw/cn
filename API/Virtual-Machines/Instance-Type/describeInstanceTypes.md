@@ -33,7 +33,6 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|
@@ -46,10 +45,22 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**cpu**|Integer|cpu个数|
 |**desc**|String|描述|
 |**family**|String|实例规格类型|
+|**gpu**|Gpu|Gpu配置|
 |**instanceType**|String|实例规格，比如g.b1.2xlarge|
+|**localDisks**|LocalDisk[]|本地缓存盘配置，目前只有Gpu规格上才有|
 |**memoryMB**|Integer|内存大小|
 |**nicLimit**|Integer|支持弹性网卡的数量|
 |**state**|InstanceTypeState[]|规格状态|
+### Gpu
+|名称|类型|描述|
+|---|---|---|
+|**model**|String|GPU型号|
+|**number**|Integer|GPU数量|
+### LocalDisk
+|名称|类型|描述|
+|---|---|---|
+|**diskSizeGB**|Integer|磁盘大小|
+|**diskType**|String|磁盘类型，取值范围{premium-hdd, ssd}|
 ### InstanceTypeState
 |名称|类型|描述|
 |---|---|---|

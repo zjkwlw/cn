@@ -25,7 +25,6 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

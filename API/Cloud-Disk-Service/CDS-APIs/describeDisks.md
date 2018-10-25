@@ -41,7 +41,6 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**requestId**|String|请求ID|
 |**result**|Result|查询结果集|
 
-
 ### Result
 |名称|类型|描述|
 |---|---|---|

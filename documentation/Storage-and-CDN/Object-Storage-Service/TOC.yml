@@ -138,7 +138,9 @@ items:
            - name: 兼容接口概览
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md        
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md
+      - name: 错误响应
+        href: API-Reference-S3-Compatible/Error-Response-2.md                
       - name: 扩展接口
         items:
            - name: Compress Object
@@ -283,5 +285,7 @@ items:
         href: Best-Practices/S3cmd.md
       - name: 回调服务器设置签名认证
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
+      - name: OSS线上服务快速验证工具
+        href: Best-Practices/OSS-Verification-Tool.md
  - name: 常见问题
    status: 0
