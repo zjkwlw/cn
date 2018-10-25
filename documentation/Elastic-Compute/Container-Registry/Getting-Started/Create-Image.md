@@ -2,7 +2,7 @@
 
 **前提条件**
 
- - 注册京东云账号并激活、认证账号，可分别访问[注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)、登录京东云(https://console.jdcloud.com/overview)、实名认证(https://uc.jdcloud.com/account/verify)进行操作；
+ - 注册京东云账号并激活、认证账号，可分别访问[注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)、[登录京东云](https://console.jdcloud.com/overview)、[实名认证](https://uc.jdcloud.com/account/verify)进行操作；
  - 若您需要创建按配置计费实例，您需要保证您的余额不低于50元，若当前余额不足请进行[充值](https://uc.jdcloud.com/cost/capital/recharge)；
  - 关于地域及可用区的信息，请参考[地域及可用区](https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones)
 
