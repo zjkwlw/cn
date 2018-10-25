@@ -4,7 +4,7 @@
 
 ![1.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project1.png)
 
-填写Namespace、Project名称、描述，并设置权限
+填写Namespace、项目名称、描述，并设置权限
 
 ![2.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project2.png)
 
@@ -22,7 +22,7 @@
 点击Create Project
 
 
-**编辑或删除Project**
+**编辑或删除项目**
 
 进入项目页面，点击“设置”中的“通用”，即可对项目进行编辑或删除
 
@@ -40,7 +40,7 @@
 
 ![5.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project5.png)
 
-同时，可修改Project内成员权限
+同时，可修改项目内成员权限
 
 
 
