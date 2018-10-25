@@ -1,10 +1,10 @@
 进入项目页面，点击“New Project”
 
-![1.png](https://github.com/jdcloudcom/cn/tree/edit/image/codecommit/Project1.png)
+![1.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project1.png)
 
 填写Namespace、Project名称、描述，并设置权限
 
-![2.png](https://github.com/jdcloudcom/cn/tree/edit/image/codecommit/Project2.png)
+![2.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project2.png)
 
  - namespace：可选择Users或者Groups
 
