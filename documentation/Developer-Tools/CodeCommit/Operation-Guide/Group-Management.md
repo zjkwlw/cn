@@ -4,6 +4,8 @@
 
 ![1.png](https://github.com/jdcloudcom/cn/tree/edit/image/codecommit/Group1.png)
 
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/codecommit/Group1.png) 
+
 填写群组名称、描述，并进行权限设置
 
 ![2.png](https://github.com/jdcloudcom/cn/tree/edit/image/codecommit/Group2.png)
