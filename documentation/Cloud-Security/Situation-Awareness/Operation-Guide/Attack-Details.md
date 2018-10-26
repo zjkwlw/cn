@@ -4,7 +4,7 @@
 
 #### 界面
 
-![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/ad-1.png)
+![](../../../../image/Situational-Awareness/ad-1.png)
 
 #### 功能说明
 提供基于账号资产、详情时间段、攻击类型、等级和处理状态的查询，事件详情列表，以及事件处理状态更细。同时提供具体事件详情和修复建议。
