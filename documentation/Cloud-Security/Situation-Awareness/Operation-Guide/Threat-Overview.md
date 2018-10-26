@@ -2,7 +2,8 @@
 
 ### 界面
 
-  ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/to-1.png)
+  ![](https://github.com/jdcloudcom/cn/blob/Situation-Awareness/image/Situational-Awareness/to-1.png)
+  ![](../../../../image/Situational-Awareness/to-1.png)
 
 ### 名词解释
 
