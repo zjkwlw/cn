@@ -1,12 +1,13 @@
-# createRegistry
+# describeRegistries
 
 
 ## 描述
-通过参数创建注册表。
+批量查询指定用户下所有 registry 详情。
+暂不支持 filter.
 
 
 ## 请求方式
-POST
+GET
 
 ## 请求地址
 https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries
@@ -16,10 +17,7 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries
 |**regionId**|String|True| |Region ID|
 
 ## 请求参数
-|名称|类型|是否必需|默认值|描述|
-|---|---|---|---|---|
-|**description**|String|False| |注册表描述，<a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">参考公共参数规范</a>。<br>|
-|**registryName**|String|True| |用户定义的registry名称。<br> DNS兼容registry名称规则如下：<br> <br> 不可为空，且不能超过32字符 <br> 以小写字母开始和结尾，支持使用小写字母、数字、中划线(-)<br>|
+无
 
 
 ## 返回参数
@@ -31,7 +29,7 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**registry**|Registry| |
+|**registries**|Registry[]| |
 ### Registry
 |名称|类型|描述|
 |---|---|---|
