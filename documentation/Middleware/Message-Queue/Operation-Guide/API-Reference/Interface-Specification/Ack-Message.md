@@ -2,7 +2,7 @@
 
 - 请求行
 
-```http
+```
 POST {Http接入点}/v1/ack HTTP/1.1
 ```
 
