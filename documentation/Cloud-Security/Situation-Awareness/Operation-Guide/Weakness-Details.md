@@ -19,7 +19,7 @@ Windows系统可以点击修复操作，Linux给出修复建议，用户自行�
 
 #### 界面
 
-  ![](../../../../image/Situational-Awareness/wz-111.png)
+  ![](../../../../image/Situational-Awareness/wd-111.png)
   ![](../../../../image/Situational-Awareness/wz-22.png)
 
 #### 功能说明
