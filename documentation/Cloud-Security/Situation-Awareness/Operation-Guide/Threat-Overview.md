@@ -2,7 +2,7 @@
 
 ### 界面
 
-  ![](https://github.com/jdcloudcom/cn/tree/edit/image/Situational-Awareness/to-1.png)
+  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Situational-Awareness/to-1.png)
 
 ### 名词解释
 
