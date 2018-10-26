@@ -4,8 +4,8 @@
 
 #### 界面
 
-  ![](../../../wd-1.png)
-  ![](../../../wd-2.png)
+  ![](../../../../image/Situational-Awareness/wd-11.png)
+  ![](../../../../image/Situational-Awareness/wd-2.png)
 
 #### 功能说明
 目前提供基于主机漏洞详情，以漏洞为统计维度想用户展示主机弱点。督促用户修复相关漏洞。
