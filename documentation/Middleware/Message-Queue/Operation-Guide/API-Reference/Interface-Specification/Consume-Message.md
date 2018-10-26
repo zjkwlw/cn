@@ -2,7 +2,7 @@
 
 - 请求行
 
-```http
+```
 GET {Http接入点}/v1/messages HTTP/1.1
 ```
 
