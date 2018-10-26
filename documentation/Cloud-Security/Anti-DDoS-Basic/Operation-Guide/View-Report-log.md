@@ -2,7 +2,7 @@
 
 防护包的监控报表如下
 
-![监控报表](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/report.png)
+![监控报表](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/report.png)
 
 分为三个部分：
 
