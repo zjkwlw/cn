@@ -6,11 +6,18 @@
 
 **操作步骤**
 
-1、登录[京东云 控制台](https://cns-console.jdcloud.com/host/pip/list),选择网络->私有网络目录下，找到公网IP菜单。请您根据需要，申请购买需要的公网IP。
+1、请确认已经拥有了京东云内的公网IP。
 
-![创建实例](../../../../image/Basic%20Anti-DDos/Instance01.png)
+a. 弹性公网IP的确认方式：
 
-2、切换到云安全菜单下的DDos基础防护，刚才您购买的公网IP已经自动加入基础防护。
+请登录京东云[弹性公网IP 控制台](http://cns-console.jdcloud.com/host/pip/list),选择“网络->私有网络->弹性公网IP”目录下，确认已经添加了弹性公网IP。
+
+b. 云物理服务器的确认方式：
+
+请登录京东云[云物理服务器 控制台](http://cps-console.jdcloud.com/list),选择“超融合数据中心->云物理服务器”目录下，确认已经添加了实例。
+
+
+2、切换到云安全菜单下的DDos基础防护，您已购买的弹性公网IP或云物理服务器IP已经自动加入基础防护。
 
 ![创建实例](../../../../image/Basic%20Anti-DDos/Instance02.png)
 
