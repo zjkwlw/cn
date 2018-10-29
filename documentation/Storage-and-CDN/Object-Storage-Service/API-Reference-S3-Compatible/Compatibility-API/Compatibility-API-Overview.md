@@ -1,6 +1,6 @@
 # 兼容接口
 
-京东云OSS兼容S3的API在下表列出，详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)。
+京东云OSS兼容S3的API在下表列出，详见[JD Cloud S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)。
 
 
 |对象存储支持的api|api简介|JD Cloud S3 API参考| AWS S3 API参考 |
