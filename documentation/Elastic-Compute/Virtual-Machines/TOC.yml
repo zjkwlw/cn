@@ -436,7 +436,7 @@ items:
                   - name: 云主机凌晨自动重启怎么办
                     href: Windows-Troubleshooting/Fault-Class/What-should-I-do-if-the-cloud-host-automatically-restarts-in-the-early-morning.md
                   - name: Windows2008 更新补丁报“8000FFFFwindows update 遇到未知错误”
-                    href: Windows-Troubleshooting/Fault-Class/Windows-2008-update-patch-reported-8000FFFF-windows-update-encountered-an-unknown-error.md
+                    href: Windows-Troubleshooting/Fault-Class/windows-update-encountered-an-unknown-error.md
                   - name: Windows2012安装.NET Framework 3.5.1报错找不到源文件
                     href: Windows-Troubleshooting/Fault-Class/Windows-2012-installation-NET-Framework-3-5-1-error-can-not-find-the-source-file.md
                   - name: Windows刷新服务器管理器失败
