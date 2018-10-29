@@ -27,7 +27,7 @@ items:
 - name: 入门指南
   items:
     - name: DDoS基础防护能力获取
-      href: Getting-Started/Anti-DDos-Basic-Started.md
+      href: Getting-Started/Anti-DDoS-Basic-Started.md
 - name: 操作指南
   items:
     - name: 防护阈值设置
