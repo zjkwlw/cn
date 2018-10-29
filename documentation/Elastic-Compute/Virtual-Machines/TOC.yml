@@ -423,8 +423,8 @@ items:
                 href: Windows-Troubleshooting/Configuration-Class/Windows2012-set-remote-desktop-does-not-disconnect.md
               - name: Windows2012系统安装NETFramework3.5安装方法
                 href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-installation-NETFramework3.5-installation-method.md
-         - name: Windows开机自启动
-           items:
+      - name: Windows开机自启动
+        items:
               - name: Windows系统
                 href: Windows-Troubleshooting/Configure-boot-automatically/Windows-system.md
               - name: Windows故障类
