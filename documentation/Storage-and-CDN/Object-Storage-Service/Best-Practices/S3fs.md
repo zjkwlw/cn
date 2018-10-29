@@ -28,13 +28,13 @@ sudo make install
 **3.创建密码文件**
 
 ```
-echo key:sercert > ~/.passwd-s3fs
+echo Access Key ID:Access Key Secret > ~/.passwd-s3fs
 chmod 600 ~/.passwd-s3fs
 ```
 
 说明
 
-key:sercert获取方式：https://uc.jdcloud.com/account/accessKey
+Access Key ID:Access Key Secret获取方式：https://uc.jdcloud.com/account/accessKey
 
 chmod 600：设置密钥文件只能被当前用户访问。
 
