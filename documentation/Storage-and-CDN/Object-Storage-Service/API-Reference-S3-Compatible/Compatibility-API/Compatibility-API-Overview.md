@@ -3,7 +3,7 @@
 京东云OSS兼容S3的API在下表列出，详见[OSS兼容S3 API文档](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)。
 
 
-|OSS支持的api|api简介|OSS兼容S3 API参考| AWS S3 API参考 |
+|对象存储支持的api|api简介|JD Cloud S3 API参考| AWS S3 API参考 |
 |-|-|-|-|
 |GET Service（List Bucket）|获取一个User下的所有Bucket|兼容[GET Service](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-the%20-Service/Get-Service.md)| [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
 |PUT Bucket|新建一个Bucket，默认的权限为Private|兼容[PUT Bucket](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/Put-Bucket.md)| [PUT Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUT.html)|
