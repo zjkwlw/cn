@@ -341,10 +341,10 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-service-start-error-bind-any-address.md
               - name: Ubuntu系统修改DNS重启后自动还原的处理方法
                 href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-recovery-method.md
-         - name: Windows运维指南
-           items:
-              - name: Windows环境配置
-                items:
+      - name: Windows运维指南
+        items:
+           - name: Windows环境配置
+             items:
               - name: Windows2008 iis服务配置https
                 href: Windows-Troubleshooting/Configuration-Class/Windows-2008-iis-service-configuration-https.md
               - name: Windows 2012修改桌面背景
