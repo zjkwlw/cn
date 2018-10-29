@@ -29,7 +29,13 @@ A: 在攻击超过2G的情况下会触发黑洞，屏蔽一段时间外部对该
 
 A：包括并不限于SYN Flood、ACK Flood、TCP Flood、UDP Flood、DNS反射攻击、NTP反射攻击、SSDP反射攻击等常见攻击。
 
-如果上述不能解决您的问题，请咨询产品售后：[售后咨询](https://ticket.jdcloud.com/myorder/form?cateId=2&questionId=13)
+**8、Q: 基础防护2G的防护能力不能满足需求怎么办？**
+
+A：建议您购买DDoS防护包服务，提升防护能力。
+
+目前DDoS防护包仅支持华北-北京和华东-上海最大50G的防护，如更大的防护能力及网站类型的攻击防护，建议购买IP高防。
+
+如果上述不能解决您的问题，请咨询产品售后：[售后咨询](https://ticket.jdcloud.com/myorder/form?cateId=4&questionId=23)
 
 # 相关文档
 
