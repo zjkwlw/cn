@@ -5,6 +5,8 @@
 ## 默认防护规则配置
 1. 登录DDoS基础防护控制台，找到**防护包-->防护包列表**菜单。
 
+![1防护包列表菜单](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包列表菜单.png)
+
 2. 在待配置防护规则的防护包，在操作栏中，单击**防护规则**，进行防护规则配置。
 
 ![1防护包列表-防护设置](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包列表-防护设置.jpg)
