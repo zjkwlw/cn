@@ -23,7 +23,9 @@ A: 触发黑洞状态的公网IP在黑洞中停留时间至少是60分钟，在�
   
 **6、Q: 攻击流量超过2G，会如何处理？**
 
-A: 在攻击超过2G的情况下会触发黑洞，屏蔽一段时间外部对该IP的访问。建议您购买京东云的[IP高防](https://www.jdcloud.com/products/ipanti)服务，获得更大的防御能力。
+A: 在攻击超过2G的情况下会触发黑洞，屏蔽一段时间外部对该IP的访问。
+
+建议您购买京东云的[DDoS防护包](https://www.jdcloud.com/cn/products/anti-ddos-protection-package)服务或[IP高防](https://www.jdcloud.com/products/ipanti)服务，以获得更大的防御能力。
 
 **7、Q: 基础防护支持哪些攻击类型**
 
