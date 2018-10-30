@@ -3,14 +3,14 @@ DDoS防护包提供丰富的安全报表，帮助您了解购买以后的防护�
 
 ## 操作步骤
 ### 方法1
-登录DDoS防护包 [监控报表](https://ip-anti-console.jdcloud.com/charts) 页面。菜单栏位置如下：
+登录DDoS防护包 [监控报表](https://antiddos-console.jdcloud.com/gz/ddos/protection-monitor-list) 页面。菜单栏位置如下：
 
-
+![防护包-监控报表菜单](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包-监控报表菜单.png)
 
 默认将显示第一个防护包的相关报表。
 
 ### 方法2
-1、登录 [DDoS防护包控制台](https://ip-anti-console.jdcloud.com/instancelist)，选择待查看的防护包，在操作栏中单击**防护对象设置**
+1、登录DDoS防护包控制台，选择待查看的防护包，在操作栏中单击**防护对象设置**
 
 ![防护包列表-防护对象设置](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包列表-防护对象设置.jpg)
 
