@@ -81,7 +81,7 @@ yum install automake gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
 
 wget https://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/fuse-2.9.2.tar.gz
 tar -zxvf fuse-2.9.2.tar.gz
-cd fuse-2.9.2.tar.gz
+cd fuse-2.9.2
 ./configure --prefix=/usr
 make
 make install
