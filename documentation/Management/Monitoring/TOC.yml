@@ -37,6 +37,8 @@ items:
       href: Getting-Started/use-site-monitoring.md 
     - name: 使用自定义监控
       href: Getting-Started/use-custom-monitoring.md
+    - name: 监控统计
+      href: Getting-Started/Monitoring-Statistics.md
 - name: 操作指南
   items:
     - name: Dashboard

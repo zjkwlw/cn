@@ -62,21 +62,21 @@
       - name: API参考
         items:
           - name: 调用方式
-            items：
+            items:
             - name: 公共参数
-              href: API-Reference/Call-Method/Common-parameters.md
+              href: Operation-Guide/API-Reference/Call-Method/Common-parameters.md
             - name: 返回结果
-              href: API-Reference/Call-Method/Response-Result.md
+              href: Operation-Guide/API-Reference/Call-Method/Response-Result.md
             - name: 签名算法
-              href: API-Reference/Call-Method/Signature-Algorithm.md
+              href: Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md
           - name: 接口规范
             items:
             - name: 发送消息
-              href: API-Reference/Interface-Specification/Send-Message.md
+              href: Operation-Guide/API-Reference/Interface-Specification/Send-Message-Http.md
             - name: 确认消息
-              href: API-Reference/Interface-Specification/Ack-Message.md
+              href: Operation-Guide/API-Reference/Interface-Specification/Ack-Message.md
             - name: 消费消息
-              href: API-Reference/Interface-Specification/Consume-Message.md
+              href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
   - name: 最佳实践
     items:
     status: 0
@@ -88,7 +88,7 @@
     status: 0     
   - name: 常见问题
     items:
-      - name: 计费概述
+      - name: FAQ
         href: FAQ/FAQ.md
   - name: API参考
     href:
