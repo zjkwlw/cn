@@ -2,7 +2,9 @@
 
 
 ## 描述
-查询用户名下的主域名列表
+查询用户名下的主域名列表。<br>    
+请在调用域名相关的API之前，调用此API获取相关的domainId和domainName。
+
 
 ## 请求方式
 GET
@@ -42,7 +44,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |**domainName**|String|域名字符串|
 |**expirationDate**|Integer|过期时间，格式Unix timestamp|
 |**id**|Integer|域名的唯一ID|
-|**packId**|Integer|套餐类型，0->免费 1->企业版 2->高级版|
+|**packId**|Integer|套餐类型，0->免费 1->企业版 2->企业高级版|
 
 ## 返回码
 |返回码|描述|

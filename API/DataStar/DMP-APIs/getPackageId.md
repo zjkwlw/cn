@@ -2,7 +2,7 @@
 
 
 ## 描述
-根据设备ID查询人群包ID
+根据设备ID获取是否有匹配的人群包
 
 ## 请求方式
 GET
@@ -29,7 +29,7 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**data**|String|Map<String,String>序列化后的字符串，需要再次转换并使用。Key为deviceId，value为人群包Id|
+|**data**|String|Map<String,String>序列化后的字符串，需要再次转换并使用。Key为deviceId，value为品牌编码，表示匹配上，没在返回结果中的设备id，表示没有匹配上|
 |**message**|String|描述信息|
 |**status**|Boolean|true为成功，false为失败|
 

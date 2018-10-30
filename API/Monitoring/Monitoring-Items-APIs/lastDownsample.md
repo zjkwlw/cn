@@ -29,7 +29,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/lastDownsample
 ### TagFilter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**key**|String|False| |Tag键|
+|**key**|String|False| | |
 |**values**|String[]|False| |Tag值|
 
 ## 返回参数

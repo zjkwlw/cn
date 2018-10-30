@@ -38,7 +38,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |**domainName**|String|域名字符串|
 |**expirationDate**|Integer|过期时间，格式Unix timestamp|
 |**id**|Integer|域名的唯一ID|
-|**packId**|Integer|套餐类型，0->免费 1->企业版 2->高级版|
+|**packId**|Integer|套餐类型，0->免费 1->企业版 2->企业高级版|
 
 ## 返回码
 |返回码|描述|
