@@ -1,6 +1,7 @@
 # 创建实例
 
-您可以通过 DDoS基础防护 控制台或 API 快速创建 防护包实例，关于实例的计费说明请参见“[价格总览](../Pricing/Price-Overview.md)”、“[计费规则](../Pricing/Billing-Rules.md)”。
+您可以通过 DDoS基础防护 控制台或 API 快速创建 防护包实例，关于实例的计费说明请参见“[价格总览](../Pricing/Price-Overview.md)”、
+“[计费规则](../Pricing/Billing-Rules.md)”。
 
 本文介绍通过控制台创建DDoS防护包 实例。
 **请注意：公测期间暂不支持购买实例。**
