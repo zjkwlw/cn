@@ -41,6 +41,6 @@
   - name: 查看安全报表
     herf: Operation-Guide/View-The-Security-Report.md     
   - name: 常见问题
-      herf: FAQ/FAQ.md
+    herf: FAQ/FAQ.md
   - name: 文档历史记录
-      href: Related-Resources/Document-History.md
+    href: Related-Resources/Document-History.md
