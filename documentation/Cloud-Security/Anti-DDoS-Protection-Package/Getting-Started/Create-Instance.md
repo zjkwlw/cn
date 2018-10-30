@@ -10,7 +10,7 @@
 - 如需使用弹性防护，请确保您的账户余额（包括代金券）不小于至少支付1天弹性最高套餐费用的金额，以免欠费影响使用
 
 ## 操作步骤
-1. 登录 [DDoS防护包 控制台](https://antiddos-console.jdcloud.com/gz/ddos/protection-package-list)，防护包位于DDoS基础防护的目录下。
+1. 登录 DDoS防护包控制台，其位于DDoS基础防护的目录下。
 
    ![防护包菜单](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包菜单.png) 
 
