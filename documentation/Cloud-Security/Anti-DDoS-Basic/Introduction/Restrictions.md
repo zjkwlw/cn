@@ -9,4 +9,4 @@
 
 
 ## 相关参考
-- [DDoS防护包介绍](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Protection-Package/Introduction/Product-Overview.md)
+- [DDoS防护包介绍](https://www.jdcloud.com/cn/products/anti-ddos-protection-package)
