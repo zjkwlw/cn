@@ -35,7 +35,7 @@ A：包括并不限于SYN Flood、ACK Flood、TCP Flood、UDP Flood、DNS反射�
 
 A：建议您购买DDoS防护包服务，提升防护能力。
 
-目前DDoS防护包仅支持华北-北京和华东-上海最大50G的防护，如更大的防护能力及网站类型的攻击防护，建议购买IP高防。
+目前DDoS防护包仅支持华北-北京和华东-上海最大50G的防护，公测期间暂不支持购买。如更大的防护能力及网站类型的攻击防护，建议购买[IP高防](https://www.jdcloud.com/products/ipanti)。
 
 如果上述不能解决您的问题，请咨询产品售后：[售后咨询](https://ticket.jdcloud.com/myorder/form?cateId=4&questionId=23)
 
