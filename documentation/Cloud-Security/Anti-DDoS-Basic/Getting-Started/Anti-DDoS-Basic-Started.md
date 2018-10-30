@@ -12,7 +12,7 @@ a. 弹性公网IP的确认方式：
 
 请登录京东云[弹性公网IP 控制台](http://cns-console.jdcloud.com/host/pip/list),控制台目录为“网络->私有网络->弹性公网IP”目录下，确认已经添加了弹性公网IP。
 
-![创建弹性公网IP实例](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic+20Anti-DDos/instance%2003.png)
+![创建弹性公网IP实例](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/instance%2003.png)
 
 b. 云物理服务器的确认方式：
 
