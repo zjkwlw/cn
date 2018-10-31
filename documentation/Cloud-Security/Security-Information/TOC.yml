@@ -3,10 +3,8 @@ href:
 items:
 - name: 京东云简介
   href: Introduction/Introduction.md
-	  
 - name: 安全责任共但
   href: Responsibility/Responsibility.md
-  
 - name: 基础架构安全
   items:
     - name: 安全合规和隐私
@@ -19,7 +17,6 @@ items:
       href: Infrastructure/Network-Security.md
     - name: 数据安全
       href: Infrastructure/Data-Security.md
-	  
 - name: 云产品服务安全
   items:
     - name: 计算服务
@@ -38,9 +35,7 @@ items:
       href: Product-Service-Security/Content-Security-Service.md
 	- name: 安全产品服务
       href: Product-Service-Security/Security-Product-Service.md
-	  
 - name: 运营管理安全
   href: Operations-Management/Operations-Management.md
-
 - name: 京东云安全生态
   href: Security-Of-Ecology/Security-Of-Ecology.md	  
