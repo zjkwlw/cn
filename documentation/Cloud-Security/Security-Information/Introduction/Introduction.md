@@ -8,4 +8,4 @@
 
 （图 1）为京东云目前基于多年业务实践形成的云计算整体架构：
 
-![图 1 京东云产品与服务架构](../../../../image/Security-Information/product.jpg)
+![图 1 京东云产品与服务架构](../../../../image/Security-Information/product2.jpg)
