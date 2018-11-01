@@ -71,7 +71,7 @@ kubectl create -f dashboard-lb.yaml --namespace=kube-system
 3）在kube-system命名空间中查询新创建的服务的公网IP
 
 kubectl get services -n kube-system
-4）在浏览器中输入https://****:port/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/，其中****使用LoadBalance服务关联的公网IP替换，port使用service spec中的port替换，本示例为8443，即可访问dashboard。
+4）在浏览器中输入https://****:port，其中****使用LoadBalance服务关联的公网IP替换，port使用service spec中的port替换，本示例为8443，即可访问dashboard。
 
 三、dashboard身份认证
 
