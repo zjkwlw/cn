@@ -148,10 +148,10 @@
         - name: 文件下载
           href: Operation-Guide/Binlog-Management/Binlog-File-Download.md
   
-        - name: 安全管理
-          items:
-          - name: 设置白名单
-            href: Operation-Guide/Security/Set-Whitelist.md
+      - name: 安全管理
+        items:
+        - name: 设置白名单
+          href: Operation-Guide/Security/Set-Whitelist.md
        
       - name: 单库上云
         items:

@@ -19,6 +19,8 @@
       herf: Introduction/Restrictions.md
     - name: 应用场景
       herf: Introduction/Application-Scenarios.md
+    - name: 公测说明
+      herf: Introduction/Public-Beta-Introduction.md      
 
   - name: 入门指南
     items:
