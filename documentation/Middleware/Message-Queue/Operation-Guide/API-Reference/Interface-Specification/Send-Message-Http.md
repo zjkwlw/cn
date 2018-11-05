@@ -2,7 +2,7 @@
 
 - 请求行
 
-```http
+```
 POST {Http接入点}/v1/messages HTTP/1.1
 ```
 
@@ -37,6 +37,6 @@ POST {Http接入点}/v1/messages HTTP/1.1
 2.请求失败
 
 | 字段名    | 字段类型 | 说明                                                         |
-| --------- | -------- | ------------------------------------------------------------ |
+| :-------: | :------: | :---------------------------------------------------------- |
 | requestId | string   | 本次请求的requestId，用于搜索调用链                          |
 | error     | map      | 返回格式为：`{"code":403,"message":"Authentication failed","status":"PERMISSION_DENIED"}` |
