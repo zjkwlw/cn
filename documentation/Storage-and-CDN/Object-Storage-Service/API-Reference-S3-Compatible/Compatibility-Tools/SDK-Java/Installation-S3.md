@@ -3,7 +3,7 @@
 ## 前言
 
 本文档基于[AWS Java SDK](http://docs.aws.amazon.com/zh_cn/sdk-for-java/v1/developer-guide/examples-s3.html) 编写.
-京东云对象存储支持AWS S3接口，具体兼容的接口可在[兼容接口](../../../Object-Storage-Service/API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-Overview.md)查看。
+京东云对象存储支持AWS S3接口，具体兼容的接口可在[兼容接口](../../../API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-Overview.md)查看。
 
 ## 环境准备
 
