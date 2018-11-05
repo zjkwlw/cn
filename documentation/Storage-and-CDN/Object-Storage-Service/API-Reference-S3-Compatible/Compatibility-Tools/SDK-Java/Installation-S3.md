@@ -3,7 +3,7 @@
 ## 前言
 
 本文档基于[AWS Java SDK](http://docs.aws.amazon.com/zh_cn/sdk-for-java/v1/developer-guide/examples-s3.html) 编写.
-京东云对象存储支持AWS S3接口，具体兼容的接口可在[兼容接口](https://docs.jdcloud.com/cn/object-storage-service/compatibility-api-overview)查看。
+京东云对象存储支持AWS S3接口，具体兼容的接口可在[兼容接口](../../../Object-Storage-Service/API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-Overview.md)查看。
 
 ## 环境准备
 
@@ -13,7 +13,8 @@
 
 ### 在Maven项目中加入依赖项（推荐方式）
 在Maven工程中使用S3 Java SDK，只需在pom.xml中加入相应依赖项即可。以```1.11.136```版本为例，在```<dependencies>```内加入如下内容：
-```xml
+
+```
 <dependency>  
     <groupId>com.amazonaws</groupId>  
     <artifactId>aws-java-sdk</artifactId>  
