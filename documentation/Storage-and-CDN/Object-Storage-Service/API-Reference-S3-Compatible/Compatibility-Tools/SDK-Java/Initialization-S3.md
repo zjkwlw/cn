@@ -18,26 +18,41 @@
 
 ## 新建S3Client
 下面为创建client的例子，更多Java SDK示例请访问[京东云兼容S3 Java SDK示例](https://github.com/jdcloud-cmw/oss/tree/master/s3-java-sdk)
-```java
-final String accessKey = "<your accesskey>";
-final String secretKey = "<your secretkey>";
-final String endpoint = "https://s3.cn-north-1.jcloudcs.com";
-System.setProperty(SDKGlobalConfiguration.ENABLE_S3_SIGV4_SYSTEM_PROPERTY, "true");
-ClientConfiguration config = new ClientConfiguration();
+```
+import com.amazonaws.auth.AWSCredentialsProvider;
+import com.amazonaws.auth.AWSStaticCredentialsProvider;
+import com.amazonaws.client.builder.AwsClientBuilder;
+import com.amazonaws.services.s3.AmazonS3;
+import com.amazonaws.services.s3.AmazonS3Client;
+import com.amazonaws.auth.AWSCredentials;
+import com.amazonaws.auth.BasicAWSCredentials;
+import com.amazonaws.ClientConfiguration;
+import com.amazonaws.Protocol;
+import com.amazonaws.SDKGlobalConfiguration;
  
-AwsClientBuilder.EndpointConfiguration endpointConfig =
-        new AwsClientBuilder.EndpointConfiguration(endpoint, "cn-north-1");
+public class S3SdkTest{
+    public static void main(String[] args)  {
+        final String accessKey = "your accesskey";
+        final String secretKey = "your secretkey";
+        final String endpoint = "https://s3.cn-north-1.jcloudcs.com";
+        System.setProperty(SDKGlobalConfiguration.ENABLE_S3_SIGV4_SYSTEM_PROPERTY, "true");
+        ClientConfiguration config = new ClientConfiguration();
  
-AWSCredentials awsCredentials = new BasicAWSCredentials(accessKey,secretKey);
-AWSCredentialsProvider awsCredentialsProvider = new AWSStaticCredentialsProvider(awsCredentials);
+        AwsClientBuilder.EndpointConfiguration endpointConfig =
+                new AwsClientBuilder.EndpointConfiguration(endpoint, "cn-north-1");
  
-AmazonS3 s3  = AmazonS3Client.builder()
-        .withEndpointConfiguration(endpointConfig)
-        .withClientConfiguration(config)
-        .withCredentials(awsCredentialsProvider)
-        .disableChunkedEncoding()
-        .withPathStyleAccessEnabled(true)
-        .build();
+        AWSCredentials awsCredentials = new BasicAWSCredentials(accessKey,secretKey);
+        AWSCredentialsProvider awsCredentialsProvider = new AWSStaticCredentialsProvider(awsCredentials);
+ 
+        AmazonS3 s3 = AmazonS3Client.builder()
+                .withEndpointConfiguration(endpointConfig)
+                .withClientConfiguration(config)
+                .withCredentials(awsCredentialsProvider)
+                .disableChunkedEncoding()
+                .withPathStyleAccessEnabled(true)
+                .build();
+    }
+}
 ```
 
 
