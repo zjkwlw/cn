@@ -1,4 +1,5 @@
- # API的开放和调用
+# API的开放和调用
+
 使用前，您需要已注册京东云账号，并完成实名认证。如果还没有账号请先注册。
 
 申请公测：在API网关产品页点击申请公测，之后经过运营人员审批加入公测名单，用户会收到已开通的通知（邮件或短信），之后可进入控制台开始使用，服务在菜单互联网中间件-API网关。【公测期适用】
@@ -19,11 +20,11 @@
 
 
 ## 前提条件
-- 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud)，或 [实名认证](https://uc.jdcloud.com/account/certify)。
+- 已注册京东云账号，并完成实名认证。如果还没有账号请 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud)，并[实名认证](https://uc.jdcloud.com/account/certify)。
 
 
 ## 操作步骤
-### STEP1:创建API分组
+### STEP1: 创建API分组
 
 1. 登录 [API网关 控制台](https://apigateway-console.jdcloud.com/apiGroupList)。
 
@@ -34,7 +35,7 @@
 
 
 
-### STEP2:创建分组下的API
+### STEP2: 创建分组下的API
 
 API 分组创建完成您就可以创建 API 了，创建 API 是定义 API 请求的过程。您需要在创建中依次定义以下内容：
 
@@ -53,7 +54,7 @@ API 分组创建完成您就可以创建 API 了，创建 API 是定义 API 请�
 
 
 
-### STEP4:给分组绑定域名、配置流控策略、后端签名
+### STEP4: 给分组绑定域名、配置流控策略、后端签名
 
 1.API网关基于 API分组，来绑定域名。API网关通过域名来定位到一个唯一的 API分组，再通过Path+HTTPMethod 确定唯一的 API。
 

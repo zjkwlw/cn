@@ -29,14 +29,20 @@ items:
       href: Getting-Started/getting-started-overview.md
     - name: 查看资源监控图表
       href: Getting-Started/view-cloud-resource-monitoring-chart.md
-    - name: 设置报警规则
-      href: Getting-Started/set-alarm-rules.md
+    - name: 报警管理
+      items:
+        - name: 报警模板
+          href: Getting-Started/Alarm-Management/Rule-Template.md
+        - name: 设置报警规则
+          href: Getting-Started/Alarm-Management/set-alarm-rules.md
     - name: 使用Dashboard
       href: Getting-Started/use-Dashboard.md
     - name: 使用站点监控
       href: Getting-Started/use-site-monitoring.md 
     - name: 使用自定义监控
       href: Getting-Started/use-custom-monitoring.md
+    - name: 监控统计
+      href: Getting-Started/Monitoring-Statistics.md
 - name: 操作指南
   items:
     - name: Dashboard
