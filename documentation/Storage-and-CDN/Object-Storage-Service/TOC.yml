@@ -157,7 +157,7 @@ items:
                   href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
                 - name: 初始化
                   href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
-                - name: 普通上传
+                - name: 简单上传
                   href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
                 - name: 分片上传
                   href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md          
