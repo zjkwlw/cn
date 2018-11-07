@@ -8,4 +8,4 @@ JMR 目前支持以下的云主机规格。
 
 [实例规格类型](https://github.com/jdcloudcom/cn/blob/edit/documentation/Elastic-Compute/Virtual-Machine/Introduction/Instance-Type-Family.md)
 
-[JMR 价格总览](../../Pricing/Price-Overview.md)
+[JMR 价格总览](https://github.com/jdcloudcom/cn/blob/edit/documentation/Big-Data-%26-Analytics/JD-MapReduce/Pricing/Price-Overview.md)
