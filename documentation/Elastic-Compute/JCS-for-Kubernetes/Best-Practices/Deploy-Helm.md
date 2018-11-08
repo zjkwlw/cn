@@ -155,11 +155,11 @@ boisterous-aardwolf-mariadb  1        1        1s
 输入以下命令：  
 `kubectl get pvc`  
 输出以下信息：  
-···
+```
 NAME                                 STATUS    VOLUME    CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 boisterous-aardwolf-wordpress        Pending                                       default        2m
 data-boisterous-aardwolf-mariadb-0   Pending                                       default        2m
-···  
+```   
 创建名称为boisterous-aardwolf-wordpress、data-boisterous-aardwolf-mariadb-0 的PVC：  
 以boisterous-aardwolf-wordpress为例，创建boisterous-aardwolf-wordpress.yaml文件内容分别如下：  
 ```
