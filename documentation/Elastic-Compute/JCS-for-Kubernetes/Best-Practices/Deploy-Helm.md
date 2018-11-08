@@ -12,7 +12,7 @@ Kubernetes所发布的调查报告显示，其中有64%都是利用Helm，管理
 -	将charts打包成tgz文件  
 -	与chart仓库交互  
 -	安装和卸载Kubernetes的应用  
--	管理使用Helm安装的charts的生命周期  
+-	管理使用Helm安装的charts的生命周期    
 **4. Helm组件**  
 在Helm中有两个主要的组件，既Helm客户端和Tiller服务器：  
 Helm客户端：这是一个供终端用户使用的命令行工具，客户端负责如下的工作：  
@@ -151,17 +151,17 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-由于该部署需要云硬盘，需要创建PVC。
-输入以下命令：
-`kubectl get pvc`
-输出以下信息：
+由于该部署需要云硬盘，需要创建PVC。  
+输入以下命令：  
+`kubectl get pvc`  
+输出以下信息：  
 ···
 NAME                                 STATUS    VOLUME    CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 boisterous-aardwolf-wordpress        Pending                                       default        2m
 data-boisterous-aardwolf-mariadb-0   Pending                                       default        2m
-···
-创建名称为boisterous-aardwolf-wordpress、data-boisterous-aardwolf-mariadb-0 的PVC：
-以boisterous-aardwolf-wordpress为例，创建boisterous-aardwolf-wordpress.yaml文件内容分别如下：
+···  
+创建名称为boisterous-aardwolf-wordpress、data-boisterous-aardwolf-mariadb-0 的PVC：  
+以boisterous-aardwolf-wordpress为例，创建boisterous-aardwolf-wordpress.yaml文件内容分别如下：  
 ```
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -175,28 +175,28 @@ spec:
     requests:
       storage: 20Gi
 ```  
-删除原有的boisterous-aardwolf-wordpress：
-`kubectl delete pvc boisterous-aardwolf-wordpress`
-执行创建：
-`kubectl create -f boisterous-aardwolf-wordpress.yaml`
-按照该方式创建命名为data-boisterous-aardwolf-mariadb-0的PVC。
-稍等几分钟，执行以下命令：
-`kubectl get pod`
-输出以下信息，为running状态，表示部署成功。
+删除原有的boisterous-aardwolf-wordpress：  
+`kubectl delete pvc boisterous-aardwolf-wordpress`  
+执行创建：  
+`kubectl create -f boisterous-aardwolf-wordpress.yaml`  
+按照该方式创建命名为data-boisterous-aardwolf-mariadb-0的PVC。  
+稍等几分钟，执行以下命令：  
+`kubectl get pod`  
+输出以下信息，为running状态，表示部署成功。  
 ```
 NAME                                             READY     STATUS    RESTARTS   AGE
 boisterous-aardwolf-mariadb-0                    1/1       Running   0          57m
 boisterous-aardwolf-wordpress-7b94db45db-s4g8f   1/1       Running   0          57m
-```
-执行以下命令
-`kubectl get svc`
-输出以下信息
+```  
+执行以下命令  
+`kubectl get svc`  
+输出以下信息  
 ```
 NAME                            TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)                      AGE
 boisterous-aardwolf-mariadb     ClusterIP      192.168.57.31    <none>         3306/TCP                     1h
 boisterous-aardwolf-wordpress   LoadBalancer   192.168.60.113   114.67.94.77   80:31860/TCP,443:30346/TCP   1h
 kubernetes                      ClusterIP      192.168.56.1     <none>         443/TCP                      2d
-```
+```  
 其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77，显示以下信息：  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress1.png)  
 WordPress Admin URL: http://114.67.94.77/admin  
