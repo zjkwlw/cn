@@ -26,7 +26,7 @@
 	
 		注：当后端协议为tcp时，如开启获取真实源IP，需在后端服务端完成proxy protocol的相关配置。
 
-	- 获取HTTP头字段：支持X-Forwarded-Proto、XForwarded-Por、 X-Forwarded-LBIP 、X-Forwarded-Host多项，用于透传客户端http请求的相关信息；
+	- 获取HTTP头字段：支持X-Forwarded-Proto、X-Forwarded-Port、 X-Forwarded-LBIP 、X-Forwarded-Host多项，用于透传客户端http请求的相关信息；
 
 		![ALB后端服务设置](../../../../image/Networking/ALB/ALB-028.png)
 
