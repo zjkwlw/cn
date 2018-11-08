@@ -2,7 +2,7 @@
 ## 产品简介  
 **1. Helm简介**  
 Helm是一个包管理工具, 把Kubernetes资源(比如deployments、services或 ingress等) 打包到一个chart中，方便将其chart保存到chart仓库用来存储和分享, Helm支持发布应用配置的版本管理, 使发布可配置, 简化了Kubernetes部署应用的版本控制、打包、发布、删除、更新等操作。  
-Kubernetes所发布的调查报告显示，其中有64%都是利用Helm，管理Kubernetes环境中执行的应用。Helm现在独立于Kubernetes，成为CNCF独立项目。    
+Kubernetes所发布的调查报告显示，其中有64%都是利用Helm，管理Kubernetes环境中执行的应用。    
 **2. Helm架构图**  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/Helm架构图.png)  
  Helm架构由Helm客户端、Tiller服务器端和Chart仓库所组成；Tiller部署在Kubernetes中，Helm客户端从Chart仓库中获取Chart安装包，并将其安装部署到Kubernetes集群中。  
@@ -37,7 +37,7 @@ Tiller服务器： Tiller服务部署在Kubernetes集群中，Helm客户端通�
 `wget https://storage.googleapis.com/kubernetes-helm/helm-v2.7.2-linux-amd64.tar.gz`  
 2. 解压缩  
  `tar -zxvf helm-v2.7.2-linux-amd64.tar.gz`  
-3. 在解压后的目录中找到二进制文件，并将其移动到所需的位置
+3. 在解压后的目录中找到二进制文件，并将其移动到所需的位置  
  `mv linux-amd64/helm /usr/local/bin/helm`
 4. 运行以下命令  
  `helm help`  
@@ -197,7 +197,8 @@ boisterous-aardwolf-mariadb     ClusterIP      192.168.57.31    <none>         3
 boisterous-aardwolf-wordpress   LoadBalancer   192.168.60.113   114.67.94.77   80:31860/TCP,443:30346/TCP   1h
 kubernetes                      ClusterIP      192.168.56.1     <none>         443/TCP                      2d
 ```  
-其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77，显示以下信息：  
+其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77  
+显示以下信息：  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress1.png)  
 WordPress Admin URL: http://114.67.94.77/admin  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress2.png)   
