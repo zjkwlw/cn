@@ -12,7 +12,7 @@
 
 ![JMR-buy](https://github.com/jdcloudcom/cn/blob/jmr-mengfei/image/jmr/product-buy.png)
 
-4.购买的具体操作，请参考[创建集群](https://github.com/jdcloudcom/cn/blob/master/documentation/)。
+4.购买的具体操作，请参考[创建集群](https://github.com/jdcloudcom/cn/blob/edit-jmr-20181107/documentation/Big-Data-%26-Analytics/JD-MapReduce/Getting-Started/2-Create-Cluster.md)。
 
 ## 通过控制台的入口
 
@@ -21,4 +21,4 @@
 
 ![控制台](https://github.com/jdcloudcom/cn/blob/jmr-mengfei/image/jmr/console-buy.png)
 
-3.登录控制台，具体操作请参考[创建集群](https://github.com/jdcloudcom/cn/blob/master/documentation)。
+3.登录控制台，具体操作请参考[创建集群](https://github.com/jdcloudcom/cn/blob/edit-jmr-20181107/documentation/Big-Data-%26-Analytics/JD-MapReduce/Getting-Started/2-Create-Cluster.md)。
