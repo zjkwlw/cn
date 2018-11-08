@@ -35,9 +35,9 @@ mkdir -p ~/.kube
 touch ~/.kube/config
 vi ~/.kube/config
 ```
-保存凭据完成，执行以下命令验证：
-`kubectl version`
-出现以下内容，即为配置成功：
+保存凭据完成，执行以下命令验证：  
+`kubectl version`  
+出现以下内容，即为配置成功：  
 ```
 Client Version: version.Info{Major:"1", Minor:"8", GitVersion:"v1.8.12", GitCommit:"5d26aba6949f188fde1af4875661e038f538f2c6", GitTreeState:"clean", BuildDate:"2018-04-23T23:17:12Z", GoVersion:"go1.8.3", Compiler:"gc", Platform:"linux/amd64"}
 Server Version: version.Info{Major:"1", Minor:"8+", GitVersion:"v1.8.12-249.9d2635d", GitCommit:"9d2635d891e745a24d6863cd61b0767575a5e79c", GitTreeState:"", BuildDate:"2018-07-23T10:39:25Z", GoVersion:"go1.8.3", Compiler:"gc", Platform:"linux/amd64"}
