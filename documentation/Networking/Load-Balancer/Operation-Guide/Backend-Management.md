@@ -26,7 +26,7 @@
 
 	- 获取真实IP：后端协议为http时，默认开启不可关闭，此时可通过X-Forwarded-For头字段获取客户端真实IP；后端协议为tcp时，支持proxy protocol协议方式透传客户端IP，注意tcp协议时开启会话保持需要在服务端单独设置；
 
-	- 获取HTTP头字段：支持X-Forwarded-Proto、XForwarded-Por、 X-Forwarded-LBIP 、X-Forwarded-Host多项，用于透传客户端http请求的相关信息；
+	- 获取HTTP头字段：支持X-Forwarded-Proto、X-Forwarded-Port、 X-Forwarded-LBIP 、X-Forwarded-Host多项，用于透传客户端http请求的相关信息；
 
 		![ALB后端服务设置](../../../../image/Networking/ALB/ALB-028.png)
 
