@@ -34,7 +34,7 @@
 	
 	- 获取真实IP：后端协议为http时，默认开启不可关闭，此时可通过X-Forwarded-For头字段获取客户端真实IP；后端协议为tcp时，支持proxy protocol协议方式透传客户端IP；
 	
-		注：当后端协议为tcp时，如开启获取真实源IP，需在后端服务端完成proxy protocol的相关配置；	
+		注：当后端协议为tcp时，如开启获取真实源IP，需在后端服务端完成proxy protocol的相关配置。
 		
 	- 获取http头字段：可选择X-Forwarded-Proto、 X-Forwarded-Port、X-Forwarded-LBIP 、X-Forwarded-Host 多项，用于透传客户端http请求的相关信息；
 
