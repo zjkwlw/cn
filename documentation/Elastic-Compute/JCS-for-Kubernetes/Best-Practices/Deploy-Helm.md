@@ -204,6 +204,7 @@ WordPress Admin URL: http://114.67.94.77/admin
 用户名：user  
 密码：`$(kubectl get secret --namespace default boisterous-aardwolf-wordpress -o jsonpath="{.data.wordpress-password}" | base64 --decode)`  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
+
 ## 参考信息
 1. 关于Helm的详细内容，还请[Helm官网](https://docs.helm.sh/)   
 2. [Kubeapps Hub](https://hub.kubeapps.com)作为公共的chart应用仓库，目前以chart的格式提供Nginx、Jenkins、Redis等常用应用  
