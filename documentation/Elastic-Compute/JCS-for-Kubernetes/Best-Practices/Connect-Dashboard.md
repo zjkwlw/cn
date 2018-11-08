@@ -25,7 +25,7 @@
 5）在浏览器中输入https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/，其中****请使用Kubernetes集群详情页中查询到的服务端点替换，即可访问dashboard；  
 2、通过LoadBalance 服务访问dashboard；  
  1）通过LoadBalance服务访问dashboard，您需要现在集群中创建一个LoadBalance类型的服务，yaml文件如下所示： 
- ```
+```
 kind: Service
 apiVersion: v1
 metadata:
@@ -41,12 +41,16 @@ spec:
   type: LoadBalancer
   selector:
      k8s-app: kubernetes-dashboard
+  ```
+  
 2）执行如下命令，在kube-system命名空间中创建服务：
 
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
+
 3）在kube-system命名空间中查询新创建的服务的公网IP
 
 kubectl get services -n kube-system
+
 4）在浏览器中输入https://****:port，其中****使用LoadBalance服务关联的公网IP替换，port使用service spec中的port替换，本示例为8443，即可访问dashboard。
 
 三、dashboard身份认证
