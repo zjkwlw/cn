@@ -32,11 +32,11 @@
 	
 	- cookie超时时间：输入范围0-86400，默认0代表与浏览器同生命周期；	
 	
-	- 获取真实IP：后端协议为http时默认开启，后端协议为tcp时支持通过proxyprotocol协议透传；
+	- 获取真实IP：后端协议为http时，默认开启不可关闭，此时可通过X-Forwarded-For头字段获取客户端真实IP；后端协议为tcp时，支持proxy protocol协议方式透传客户端IP；
 	
-		注：如开启tcp协议下的源IP获取，需在服务端进行单独配置；	
+		注：当后端协议为tcp时，如开启获取真实源IP，需在后端服务端完成proxy protocol的相关配置；	
 		
-	- 获取http头字段：可选择X-Forwarded-Proto、 XForwarded-Port、X-Forwarded-LBIP 、X-Forwarded-Host 多项，用于透传客户端http请求的相关信息；
+	- 获取http头字段：可选择X-Forwarded-Proto、 X-Forwarded-Port、X-Forwarded-LBIP 、X-Forwarded-Host 多项，用于透传客户端http请求的相关信息；
 
 		![ALB后端转发配置](../../../../image/Networking/ALB/ALB-023.png)	
 
