@@ -6,6 +6,12 @@
 * 如果您修改的参数都是不需要重启的，那么参数修改后会自动应用到关联的数据库实例上。
 * 参数组可以关联到多个不同的实例上。
 
+## 参数说明
+* [MySQL 5.6 参数定义](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html)
+* [MySQL 5.7 参数定义](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
+* [Percona 5.7 参数定义](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
+* [MariaDB 10.2 参数定义](https://mariadb.com/kb/en/library/server-system-variables/)
+
 ## 操作步骤
 1. 登录 [参数组控制台](https://rds-console.jdcloud.com/paramgroup/list)
 2. 选择需要修改参数的目标参数组，点击目标参数组，进入参数组详情页。
