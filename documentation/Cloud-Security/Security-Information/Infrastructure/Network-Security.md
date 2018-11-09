@@ -4,7 +4,7 @@
 
 ## 3.1 安全架构
 
-![图 4 网络安全架构](../../../../image/Security-Information/internet.jpg)
+![图 5 网络安全架构](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/internet2.jpg)
 
 
 在 Internet 与云平台服务、资源组之间的边界区域提供可靠的安全组件，可防止不受信任的网络访问内部网络资源。包括抗拒绝服务 (DDoS)、应用安全网关、Web应用防火墙、以及 VPN 设备，同时实施防火墙策略、访问控制列表 (ACL) 或特定路由等安全策略。
