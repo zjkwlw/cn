@@ -1,9 +1,10 @@
 # 部署Helm  
-## Kubernetes集群应用管理和部署面临的挑战：  
-- 需要管理、编辑与更新大量的Kubernetes配置文件
-- 无法快捷分享和复用Kubernetes配置和应用
+Kubernetes集群大规模应用管理和部署面临的挑战：  
+- 暂无渠道获取大量常用的基础应用模板  
+- 需要管理、编辑与更新大量的Kubernetes配置文件  
+- 无法快捷分享和复用Kubernetes配置和应用  
 - 无法简单管理应用的发布：回滚、查看发布历史  
-Helm作为一个包管理工具，可以很好地解决以上面临的挑战。  
+Helm作为一个包管理工具，可以很好地解决以上面临的挑战。      
 ## 产品简介  
 **1. Helm简介**  
 Helm是一个包管理工具, 把Kubernetes资源(比如deployments、services或 ingress等) 打包到一个chart中，方便将其chart保存到chart仓库用来存储和分享, Helm支持发布应用配置的版本管理, 使发布可配置, 简化了Kubernetes部署应用的版本控制、打包、发布、删除、更新等操作。  
