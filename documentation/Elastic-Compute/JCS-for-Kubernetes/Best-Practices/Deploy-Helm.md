@@ -129,7 +129,7 @@ version: 0.10.2
 ...
 ```  
 2. 安装软件包  
-**- 部署WordPress**  
+**部署WordPress**  
 WordPress简介：  
 WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具;同时也作为一个内容管理系统（CMS）来使用。    
 - 执行以下命令：  
@@ -207,8 +207,8 @@ WordPress Admin URL: http://114.67.94.77/admin
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
 - 删除应用，执行以下命令：  
 `helm delete boisterous-aardwolf`  
-**部署Nginx-ingress** 
--下载chart，并解压缩  
+**部署Nginx-ingress**   
+- 下载chart，并解压缩    
 ```
 helm fetch stable/nginx-ingress
 tar -zxvf nginx-ingress-0.30.0.tgz
@@ -221,9 +221,22 @@ tar -zxvf nginx-ingress-0.30.0.tgz
     tag: "1.4"
     pullPolicy: IfNotPresent
 ```  
-执行以下命名，进行安装：  
+- 执行以下命名，进行安装：  
 `helm install nginx-ingress`  
-检查执行状态：  
+输出以下信息：  
+```
+NAME:   fallacious-lionfish
+LAST DEPLOYED: Fri Nov  9 14:26:00 2018
+NAMESPACE: default
+STATUS: DEPLOYED
+
+RESOURCES:
+==> v1beta1/ClusterRoleBinding
+NAME                               AGE
+fallacious-lionfish-nginx-ingress  1s
+...
+```  
+- 检查执行状态：  
 `helm install nginx-ingress`  
 输出以下信息，状态为running：  
 ```
@@ -231,7 +244,7 @@ NAME                                                              READY     STAT
 fallacious-lionfish-nginx-ingress-controller-6499bbb6c5-76t9v     1/1       Running   0          8m
 fallacious-lionfish-nginx-ingress-default-backend-674cb8879rds9   1/1       Running   0          8m
 ```  
-执行以下命令：  
+- 执行以下命令：  
 `kubectl get service`  
 输出以下信息：  
 ```
