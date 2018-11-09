@@ -6,14 +6,14 @@ Kubernetes所发布的调查报告显示，其中有64%都是利用Helm，管理
 **2. Helm架构图**  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/Helm架构图.png)  
  Helm架构由Helm客户端、Tiller服务器端和Chart仓库所组成；Tiller部署在Kubernetes中，Helm客户端从Chart仓库中获取Chart安装包，并将其安装部署到Kubernetes集群中。  
- **3. 产品功能**  
+**3. 产品功能**  
  Helm是管理Kubernetes包的工具，Helm能提供下面的能力：  
 - 创建新的charts  
 -	将charts打包成tgz文件  
 -	与chart仓库交互  
 -	安装和卸载Kubernetes的应用  
 -	管理使用Helm安装的charts的生命周期    
-**4. Helm组件**  
+ **4. Helm组件**  
 在Helm中有两个主要的组件，既Helm客户端和Tiller服务器：  
 Helm客户端：这是一个供终端用户使用的命令行工具，客户端负责如下的工作：  
 -	本地chart开发  
@@ -132,7 +132,7 @@ version: 0.10.2
 **- 部署WordPress**  
 WordPress简介：  
 WordPress 创建于 2003 年，逐渐发展成为世界上使用最多的自助博客工具。  
-执行以下命令：  
+- 执行以下命令：  
 `helm install stable/wordpress`  
 输出以下信息：  
 ```
@@ -151,10 +151,10 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-由于该部署需要云硬盘，需要创建PVC。  
+- 由于该部署需要云硬盘，需要创建PVC。  
 输入以下命令：  
 `kubectl get pvc`  
-输出以下信息：  
+输出以下信息，显示为pending状态：
 ```
 NAME                                 STATUS    VOLUME    CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 boisterous-aardwolf-wordpress        Pending                                       default        2m
@@ -180,7 +180,7 @@ spec:
 执行创建：  
 `kubectl create -f boisterous-aardwolf-wordpress.yaml`  
 按照该方式创建命名为data-boisterous-aardwolf-mariadb-0的PVC。  
-稍等几分钟，执行以下命令：  
+- 稍等几分钟，执行以下命令：  
 `kubectl get pod`  
 输出以下信息，为running状态，表示部署成功。  
 ```
@@ -188,7 +188,7 @@ NAME                                             READY     STATUS    RESTARTS   
 boisterous-aardwolf-mariadb-0                    1/1       Running   0          57m
 boisterous-aardwolf-wordpress-7b94db45db-s4g8f   1/1       Running   0          57m
 ```  
-执行以下命令  
+- 执行以下命令  
 `kubectl get svc`  
 输出以下信息  
 ```
@@ -197,7 +197,7 @@ boisterous-aardwolf-mariadb     ClusterIP      192.168.57.31    <none>         3
 boisterous-aardwolf-wordpress   LoadBalancer   192.168.60.113   114.67.94.77   80:31860/TCP,443:30346/TCP   1h
 kubernetes                      ClusterIP      192.168.56.1     <none>         443/TCP                      2d
 ```  
-其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77  
+- 其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77  
 显示以下信息：  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress1.png)  
 WordPress Admin URL: http://114.67.94.77/admin  
@@ -205,6 +205,9 @@ WordPress Admin URL: http://114.67.94.77/admin
 用户名：user  
 密码：`$(kubectl get secret --namespace default boisterous-aardwolf-wordpress -o jsonpath="{.data.wordpress-password}" | base64 --decode)`  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
+- 删除应用，执行以下命令：  
+`helm delete boisterous-aardwolf`  
+**部署**  
 
 ## 参考信息
 1. 关于Helm的详细内容，还请[Helm官网](https://docs.helm.sh/)   
