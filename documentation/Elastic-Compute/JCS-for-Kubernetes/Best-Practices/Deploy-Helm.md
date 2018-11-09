@@ -135,7 +135,7 @@ version: 0.10.2
 ...
 ```  
 2. 安装部署应用  
-**以WordPress、Nginx-ingress为例进行演示。**  
+**以WordPress、Nginx-Ingress为例进行演示。**  
   
 **例1：部署WordPress**   
 WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具；同时也作为一个内容管理系统（CMS）来使用。有以下两点优势：  
@@ -218,7 +218,7 @@ WordPress Admin URL: http://114.67.94.77/admin
 - 删除应用，执行以下命令：  
 `helm delete boisterous-aardwolf`  
   
-**例2：部署Nginx-ingress**  
+**例2：部署Nginx-Ingress**  
 Ingress是Kubernetes集群对外暴露服务的方式之一，使用开源的反向代理负载均衡器来实现对外暴漏服务，比如Nginx。  
 - 下载chart，并解压缩    
 ```
