@@ -128,7 +128,8 @@ sources:
 version: 0.10.2
 ...
 ```  
-2. 安装软件包  
+2. 安装部署应用  
+  
 **部署WordPress**  
 WordPress简介：  
 WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具;同时也作为一个内容管理系统（CMS）来使用。    
@@ -207,6 +208,7 @@ WordPress Admin URL: http://114.67.94.77/admin
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
 - 删除应用，执行以下命令：  
 `helm delete boisterous-aardwolf`  
+  
 **部署Nginx-ingress**   
 - 下载chart，并解压缩    
 ```
