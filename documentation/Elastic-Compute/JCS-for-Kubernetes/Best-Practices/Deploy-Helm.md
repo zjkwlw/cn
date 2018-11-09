@@ -1,8 +1,9 @@
 # 部署Helm  
-## Helm应用场景：
-- 应用模板
-- 对多个yaml文件进行管理
-
+## Kubernetes集群应用管理和部署面临的挑战：  
+- 需要管理、编辑与更新大量的Kubernetes配置文件
+- 无法快捷分享和复用Kubernetes配置和应用
+- 无法简单管理应用的发布：回滚、查看发布历史  
+Helm作为一个包管理工具，可以很好地解决以上面临的挑战。  
 ## 产品简介  
 **1. Helm简介**  
 Helm是一个包管理工具, 把Kubernetes资源(比如deployments、services或 ingress等) 打包到一个chart中，方便将其chart保存到chart仓库用来存储和分享, Helm支持发布应用配置的版本管理, 使发布可配置, 简化了Kubernetes部署应用的版本控制、打包、发布、删除、更新等操作。  
@@ -80,7 +81,7 @@ Client: &version.Version{SemVer:"v2.7.2", GitCommit:"8478fb4fc723885b155c924d1c8
 Server: &version.Version{SemVer:"v2.7.2", GitCommit:"8478fb4fc723885b155c924d1c8c410b7a9444e6", GitTreeState:"clean"}
 ```  
 ## 使用Helm
-1. 首次安装Helm时，已预配置为与官方Kubernetes chart 存储库repo。该repo包含许多精心策划和维护的charts。此charts repo默认以stable命名。 
+1. 首次安装Helm时，已预配置为与官方Kubernetes chart存储库repo。该repo包含许多精心策划和维护的charts。此charts repo默认以stable命名。 
 更新chart列表  
 `helm repo update`  
 查找所有可用的chart：  
@@ -135,8 +136,7 @@ version: 0.10.2
 2. 安装部署应用  
 **以WordPress、Nginx-ingress为例进行演示。**  
   
-**部署WordPress**  
-WordPress简介：  
+**部署WordPress**    
 WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具;同时也作为一个内容管理系统（CMS）来使用。    
 - 执行以下命令：  
 `helm install stable/wordpress`  
