@@ -207,7 +207,39 @@ WordPress Admin URL: http://114.67.94.77/admin
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
 - 删除应用，执行以下命令：  
 `helm delete boisterous-aardwolf`  
-**部署**  
+**部署Nginx-ingress** 
+-下载chart，并解压缩  
+```
+helm fetch stable/nginx-ingress
+tar -zxvf nginx-ingress-0.30.0.tgz
+```  
+修改values.yaml的以下内容，repository由k8s.gcr.io/defaultbackend 修改为googlecontainer/defaultbackend-amd64  
+```
+ name: default-backend
+  image:
+    repository: googlecontainer/defaultbackend-amd64
+    tag: "1.4"
+    pullPolicy: IfNotPresent
+```  
+执行以下命名，进行安装：  
+`helm install nginx-ingress`  
+检查执行状态：  
+`helm install nginx-ingress`  
+输出以下信息，状态为running：  
+```
+NAME                                                              READY     STATUS    RESTARTS   AGE
+fallacious-lionfish-nginx-ingress-controller-6499bbb6c5-76t9v     1/1       Running   0          8m
+fallacious-lionfish-nginx-ingress-default-backend-674cb8879rds9   1/1       Running   0          8m
+```  
+执行以下命令：  
+`kubectl get service`  
+输出以下信息：  
+```
+NAME                                                TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)                      AGE
+fallacious-lionfish-nginx-ingress-controller        LoadBalancer   192.168.59.194   114.67.95.42   80:30296/TCP,443:30161/TCP   9m
+fallacious-lionfish-nginx-ingress-default-backend   ClusterIP      192.168.61.72    <none>         80/TCP                       9m
+kubernetes                                          ClusterIP      192.168.56.1     <none>         443/TCP                      2d
+```  
 
 ## 参考信息
 1. 关于Helm的详细内容，还请[Helm官网](https://docs.helm.sh/)   
