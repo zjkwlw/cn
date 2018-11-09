@@ -1,4 +1,8 @@
 # 部署Helm  
+## Helm应用场景：
+- 应用模板
+- 对多个yaml文件进行管理
+
 ## 产品简介  
 **1. Helm简介**  
 Helm是一个包管理工具, 把Kubernetes资源(比如deployments、services或 ingress等) 打包到一个chart中，方便将其chart保存到chart仓库用来存储和分享, Helm支持发布应用配置的版本管理, 使发布可配置, 简化了Kubernetes部署应用的版本控制、打包、发布、删除、更新等操作。  
@@ -129,6 +133,7 @@ version: 0.10.2
 ...
 ```  
 2. 安装部署应用  
+**以WordPress、Nginx-ingress为例进行演示。**  
   
 **部署WordPress**  
 WordPress简介：  
@@ -152,7 +157,7 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-- 由于该部署需要云硬盘，需要创建PVC。  
+- 由于该部署需要云硬盘，需要创建PVC。京东云Kubernetes集群服务集成了京东云云硬盘，您可以在集群中使用京东云云硬盘作为持久化存储，详见[部署持久化存储]（https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv）  
 输入以下命令：  
 `kubectl get pvc`  
 输出以下信息，显示为pending状态：
