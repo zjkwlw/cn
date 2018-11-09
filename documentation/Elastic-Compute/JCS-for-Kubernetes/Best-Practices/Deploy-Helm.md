@@ -137,7 +137,7 @@ version: 0.10.2
 2. 安装部署应用  
 **以WordPress、Nginx-ingress为例进行演示。**  
   
-**部署WordPress**    
+**例1：部署WordPress**    
 WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具;同时也作为一个内容管理系统（CMS）来使用。    
 - 执行以下命令：  
 `helm install stable/wordpress`  
@@ -215,7 +215,7 @@ WordPress Admin URL: http://114.67.94.77/admin
 - 删除应用，执行以下命令：  
 `helm delete boisterous-aardwolf`  
   
-**部署Nginx-ingress**   
+**例2：部署Nginx-ingress**   
 - 下载chart，并解压缩    
 ```
 helm fetch stable/nginx-ingress
