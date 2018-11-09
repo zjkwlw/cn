@@ -16,7 +16,7 @@ Windows平台可以采用系统命令ping和nslookup，在CMD窗口，执行命�
 
 2.  在CMD窗口中，执行命令 ping www.jddnstest.com
 
-![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test1.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-effect1.png)
 
 可以看到www.jddnstest.com已经获取到正确的解析地址
 
