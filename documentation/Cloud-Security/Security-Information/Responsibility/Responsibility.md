@@ -2,7 +2,7 @@
 
 安全性与合规性是京东云和用户共同的责任。京东云负责云平台自身的安全，用户负责云平台上的业务安全。
 
-![图 2 京东云安全责任共担模型](../../../../image/Security-Information/responsibility.jpg)
+![图 3 京东云安全责任共担模型](../../../../image/Security-Information/responsibility.jpg)
 
 
 ## 1. 京东云安全责任
