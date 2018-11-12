@@ -1,4 +1,4 @@
-name: DDoS 基础防护
+name: 京东云桌面
 href: 
 items:
 - name: 产品简介
@@ -33,7 +33,4 @@ items:
     - name: 查看监控日志
       href: Operation-Guide/View-Report-log.md            
 - name: 常见问题
-  href: FAQ/FAQ.md
-- name: API参考
-  href: 
-  status: 0     
+  href: FAQ/FAQ.md   
