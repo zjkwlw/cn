@@ -215,7 +215,7 @@ WordPress Admin URL: http://114.67.94.77/admin
 用户名：user  
 密码：`$(kubectl get secret --namespace default boisterous-aardwolf-wordpress -o jsonpath="{.data.wordpress-password}" | base64 --decode)`  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
-删除应用，执行以下命令：
+- 删除应用，执行以下命令：  
 `helm delete boisterous-aardwolf`  
   
 **例2：部署Nginx-Ingress**  
@@ -266,7 +266,7 @@ fallacious-lionfish-nginx-ingress-controller        LoadBalancer   192.168.59.19
 fallacious-lionfish-nginx-ingress-default-backend   ClusterIP      192.168.61.72    <none>         80/TCP                       9m
 kubernetes                                          ClusterIP      192.168.56.1     <none>         443/TCP                      2d
 ```  
-删除应用，执行以下命令：  
+- 删除应用，执行以下命令：  
 `helm delete fallacious-lionfish`  
 
 ## 参考信息
