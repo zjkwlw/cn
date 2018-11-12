@@ -141,7 +141,7 @@ version: 0.10.2
 WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具；同时也作为一个内容管理系统（CMS）来使用。WordPress有以下两点优势:  
 - 简单易学，无法代码环境、易于理解的工具和功能。  
 - 功能强大，发布网站：如公司官网、创建博客、在线商店、社交网站、帮主论坛、视频网站等。  
-以下讲述如何通过Helm快速创建、管理、维护WordPress。  
+以下讲述如何通过Helm快速创建、管理、维护WordPress：  
 - 执行以下命令：  
 `helm install stable/wordpress`  
 输出以下信息：  
@@ -215,11 +215,12 @@ WordPress Admin URL: http://114.67.94.77/admin
 用户名：user  
 密码：`$(kubectl get secret --namespace default boisterous-aardwolf-wordpress -o jsonpath="{.data.wordpress-password}" | base64 --decode)`  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
-- 删除应用，执行以下命令：  
+删除应用，执行以下命令：
 `helm delete boisterous-aardwolf`  
   
 **例2：部署Nginx-Ingress**  
-Ingress是Kubernetes集群对外暴露服务的方式之一，使用开源的反向代理负载均衡器来实现对外暴漏服务，如Nginx。它可以给 service 提供集群外部访问的 URL、负载均衡、SSL 终止、HTTP 路由等。  
+Ingress是Kubernetes集群对外暴露服务的方式之一，使用开源的反向代理负载均衡器来实现对外暴漏服务，如Nginx。它可以给 service 提供集群外部访问的 URL、负载均衡、SSL 终止、HTTP 路由等。 
+以下讲述如何通过Helm快速创建、管理、维护Nginx-Ingress：  
 - 下载chart，并解压缩    
 ```
 helm fetch stable/nginx-ingress
@@ -265,6 +266,8 @@ fallacious-lionfish-nginx-ingress-controller        LoadBalancer   192.168.59.19
 fallacious-lionfish-nginx-ingress-default-backend   ClusterIP      192.168.61.72    <none>         80/TCP                       9m
 kubernetes                                          ClusterIP      192.168.56.1     <none>         443/TCP                      2d
 ```  
+删除应用，执行以下命令：  
+`helm delete fallacious-lionfish`  
 
 ## 参考信息
 1. 关于Helm的详细内容，还请[Helm官网](https://docs.helm.sh/)   
