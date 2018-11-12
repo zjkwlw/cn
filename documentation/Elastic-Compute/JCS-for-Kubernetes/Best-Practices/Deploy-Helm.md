@@ -1,19 +1,25 @@
 # 部署Helm  
+随着业务容器化与向微服务架构转变，把庞大的单一应用为多个小的单体，使每个单体都可以独立部署和扩展，实现了敏捷开发、快速迭代和部署。微服务带来诸多便利的同时，也导致单体数量大幅增多，带来了诸多挑战。用户希望拥有以下功能，来消除面临的挑战：  
+- 快速获取大量常用的基础应用模板  
+- 方便管理、编辑与更新大量的Kubernetes配置文件  
+- 快捷分享和复用Kubernetes配置和应用  
+- 简单管理应用的发布：回滚、查看发布历史  
+Helm应运而生，作为一个包管理工具，可以完美应对以上Kubernetes做大规模应用编排带来了的挑战。  
 ## 产品简介  
 **1. Helm简介**  
 Helm是一个包管理工具, 把Kubernetes资源(比如deployments、services或 ingress等) 打包到一个chart中，方便将其chart保存到chart仓库用来存储和分享, Helm支持发布应用配置的版本管理, 使发布可配置, 简化了Kubernetes部署应用的版本控制、打包、发布、删除、更新等操作。  
-Kubernetes所发布的调查报告显示，其中有64%都是利用Helm，管理Kubernetes环境中执行的应用。Helm现在独立于Kubernetes，成为CNCF独立项目。    
+Kubernetes所发布的调查报告显示，其中有64%都是利用Helm，管理Kubernetes环境中执行的应用。    
 **2. Helm架构图**  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/Helm架构图.png)  
  Helm架构由Helm客户端、Tiller服务器端和Chart仓库所组成；Tiller部署在Kubernetes中，Helm客户端从Chart仓库中获取Chart安装包，并将其安装部署到Kubernetes集群中。  
- **3. 产品功能**  
+**3. 产品功能**  
  Helm是管理Kubernetes包的工具，Helm能提供下面的能力：  
 - 创建新的charts  
 -	将charts打包成tgz文件  
 -	与chart仓库交互  
 -	安装和卸载Kubernetes的应用  
 -	管理使用Helm安装的charts的生命周期    
-**4. Helm组件**  
+ **4. Helm组件**  
 在Helm中有两个主要的组件，既Helm客户端和Tiller服务器：  
 Helm客户端：这是一个供终端用户使用的命令行工具，客户端负责如下的工作：  
 -	本地chart开发  
@@ -37,7 +43,7 @@ Tiller服务器： Tiller服务部署在Kubernetes集群中，Helm客户端通�
 `wget https://storage.googleapis.com/kubernetes-helm/helm-v2.7.2-linux-amd64.tar.gz`  
 2. 解压缩  
  `tar -zxvf helm-v2.7.2-linux-amd64.tar.gz`  
-3. 在解压后的目录中找到二进制文件，并将其移动到所需的位置
+3. 在解压后的目录中找到二进制文件，并将其移动到所需的位置  
  `mv linux-amd64/helm /usr/local/bin/helm`
 4. 运行以下命令  
  `helm help`  
@@ -76,7 +82,7 @@ Client: &version.Version{SemVer:"v2.7.2", GitCommit:"8478fb4fc723885b155c924d1c8
 Server: &version.Version{SemVer:"v2.7.2", GitCommit:"8478fb4fc723885b155c924d1c8c410b7a9444e6", GitTreeState:"clean"}
 ```  
 ## 使用Helm
-1. 首次安装Helm时，已预配置为与官方Kubernetes chart 存储库repo。该repo包含许多精心策划和维护的charts。此charts repo默认以stable命名。 
+1. 首次安装Helm时，已预配置为与官方Kubernetes chart存储库repo。该repo包含许多精心策划和维护的charts。此charts repo默认以stable命名。 
 更新chart列表  
 `helm repo update`  
 查找所有可用的chart：  
@@ -128,11 +134,15 @@ sources:
 version: 0.10.2
 ...
 ```  
-2. 安装软件包  
-**- 部署WordPress**  
-WordPress简介：  
-WordPress 创建于 2003 年，逐渐发展成为世界上使用最多的自助博客工具。  
-执行以下命令：  
+2. 安装部署应用  
+**以WordPress、Nginx-Ingress为例进行演示。**  
+  
+**例1：部署WordPress**   
+WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具；同时也作为一个内容管理系统（CMS）来使用。WordPress有以下两点优势:  
+- 简单易学，无法代码环境、易于理解的工具和功能。  
+- 功能强大，发布网站：如公司官网、创建博客、在线商店、社交网站、帮主论坛、视频网站等。  
+以下讲述如何通过Helm快速创建WordPress：  
+- 执行以下命令：  
 `helm install stable/wordpress`  
 输出以下信息：  
 ```
@@ -151,15 +161,15 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-由于该部署需要云硬盘，需要创建PVC。  
+- 由于该部署需要云硬盘，需要创建PVC。京东云Kubernetes集群服务集成了京东云云硬盘，您可以在集群中使用京东云云硬盘作为持久化存储，详见[部署持久化存储]（https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv）  
 输入以下命令：  
 `kubectl get pvc`  
-输出以下信息：  
-···
+输出以下信息，显示为pending状态：  
+```
 NAME                                 STATUS    VOLUME    CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 boisterous-aardwolf-wordpress        Pending                                       default        2m
 data-boisterous-aardwolf-mariadb-0   Pending                                       default        2m
-···  
+```   
 创建名称为boisterous-aardwolf-wordpress、data-boisterous-aardwolf-mariadb-0 的PVC：  
 以boisterous-aardwolf-wordpress为例，创建boisterous-aardwolf-wordpress.yaml文件内容分别如下：  
 ```
@@ -180,7 +190,7 @@ spec:
 执行创建：  
 `kubectl create -f boisterous-aardwolf-wordpress.yaml`  
 按照该方式创建命名为data-boisterous-aardwolf-mariadb-0的PVC。  
-稍等几分钟，执行以下命令：  
+- 稍等几分钟，执行以下命令：  
 `kubectl get pod`  
 输出以下信息，为running状态，表示部署成功。  
 ```
@@ -188,7 +198,7 @@ NAME                                             READY     STATUS    RESTARTS   
 boisterous-aardwolf-mariadb-0                    1/1       Running   0          57m
 boisterous-aardwolf-wordpress-7b94db45db-s4g8f   1/1       Running   0          57m
 ```  
-执行以下命令  
+- 执行以下命令  
 `kubectl get svc`  
 输出以下信息  
 ```
@@ -197,14 +207,68 @@ boisterous-aardwolf-mariadb     ClusterIP      192.168.57.31    <none>         3
 boisterous-aardwolf-wordpress   LoadBalancer   192.168.60.113   114.67.94.77   80:31860/TCP,443:30346/TCP   1h
 kubernetes                      ClusterIP      192.168.56.1     <none>         443/TCP                      2d
 ```  
-其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77，显示以下信息：  
+- 其中114.67.94.77为外部访问IP，访问地址为：WordPress URL: http://114.67.94.77  
+显示以下信息：  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress1.png)  
 WordPress Admin URL: http://114.67.94.77/admin  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress2.png)   
 用户名：user  
 密码：`$(kubectl get secret --namespace default boisterous-aardwolf-wordpress -o jsonpath="{.data.wordpress-password}" | base64 --decode)`  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
+- 删除应用，执行以下命令：  
+`helm delete boisterous-aardwolf`  
+  
+**例2：部署Nginx-Ingress**  
+Ingress是Kubernetes集群对外暴露服务的方式之一，使用开源的反向代理负载均衡器来实现对外暴漏服务，如Nginx。它可以给 service 提供集群外部访问的 URL、负载均衡、SSL 终止、HTTP 路由等。  
+以下讲述如何通过Helm快速创建Nginx-Ingress：  
+- 下载chart，并解压缩    
+```
+helm fetch stable/nginx-ingress
+tar -zxvf nginx-ingress-0.30.0.tgz
+```  
+修改values.yaml的以下内容，repository由k8s.gcr.io/defaultbackend 修改为googlecontainer/defaultbackend-amd64  
+```
+ name: default-backend
+  image:
+    repository: googlecontainer/defaultbackend-amd64
+    tag: "1.4"
+    pullPolicy: IfNotPresent
+```  
+- 执行以下命名，进行安装：  
+`helm install nginx-ingress`  
+输出以下信息：  
+```
+NAME:   fallacious-lionfish
+LAST DEPLOYED: Fri Nov  9 14:26:00 2018
+NAMESPACE: default
+STATUS: DEPLOYED
 
-## 参考信息
+RESOURCES:
+==> v1beta1/ClusterRoleBinding
+NAME                               AGE
+fallacious-lionfish-nginx-ingress  1s
+...
+```  
+- 检查执行状态：  
+`helm install nginx-ingress`  
+输出以下信息，状态为running，表示部署成功：    
+```
+NAME                                                              READY     STATUS    RESTARTS   AGE
+fallacious-lionfish-nginx-ingress-controller-6499bbb6c5-76t9v     1/1       Running   0          8m
+fallacious-lionfish-nginx-ingress-default-backend-674cb8879rds9   1/1       Running   0          8m
+```  
+- 执行以下命令：  
+`kubectl get service`  
+输出以下信息：  
+```
+NAME                                                TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)                      AGE
+fallacious-lionfish-nginx-ingress-controller        LoadBalancer   192.168.59.194   114.67.95.42   80:30296/TCP,443:30161/TCP   9m
+fallacious-lionfish-nginx-ingress-default-backend   ClusterIP      192.168.61.72    <none>         80/TCP                       9m
+kubernetes                                          ClusterIP      192.168.56.1     <none>         443/TCP                      2d
+```  
+- 删除应用，执行以下命令：  
+`helm delete fallacious-lionfish`  
+
+## 参考信息  
 1. 关于Helm的详细内容，还请[Helm官网](https://docs.helm.sh/)   
 2. [Kubeapps Hub](https://hub.kubeapps.com)作为公共的chart应用仓库，目前以chart的格式提供Nginx、Jenkins、Redis等常用应用  
