@@ -161,7 +161,7 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-- 由于该部署需要云硬盘，需要创建PVC。京东云Kubernetes集群服务集成了京东云云硬盘，您可以在集群中使用京东云云硬盘作为持久化存储，详见[部署持久化存储]（https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv）  
+- 由于该部署需要云硬盘，需要创建PVC。京东云Kubernetes集群服务集成了京东云云硬盘，您可以在集群中使用京东云云硬盘作为持久化存储，详见[部署持久化存储](https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv)    
 输入以下命令：  
 `kubectl get pvc`  
 输出以下信息，显示为pending状态：  
