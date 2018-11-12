@@ -219,7 +219,7 @@ WordPress Admin URL: http://114.67.94.77/admin
 `helm delete boisterous-aardwolf`  
   
 **例2：部署Nginx-Ingress**  
-Ingress是Kubernetes集群对外暴露服务的方式之一，使用开源的反向代理负载均衡器来实现对外暴漏服务，比如Nginx。  
+Ingress是Kubernetes集群对外暴露服务的方式之一，使用开源的反向代理负载均衡器来实现对外暴漏服务，如Nginx。它可以给 service 提供集群外部访问的 URL、负载均衡、SSL 终止、HTTP 路由等。  
 - 下载chart，并解压缩    
 ```
 helm fetch stable/nginx-ingress
