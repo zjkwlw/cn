@@ -65,9 +65,11 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: 部署Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
-  - name: 常见问题  
-    href: Common-Problem.md    
+     - name: 部署Helm
+       href: Best-Practices/Deploy-Helm.md
+  - name: 常见问题
+    href: Common-Problem.md
   - name: 相关资源
     items:
     - name: 文档历史记录
-      href: Related-Resources/Release-History.md 
+      href: Related-Resources/Release-History.md
