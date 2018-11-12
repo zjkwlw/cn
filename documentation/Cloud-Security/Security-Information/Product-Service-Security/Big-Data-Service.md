@@ -18,7 +18,7 @@
 
 ## 5.2 JMR
 
-JMR (JingDong MapReduce) 是一个管托集群平台，可以在京东云上运行大数据框架（如 Apache Hadoop 和 Apache Spark） 或运行这些框架相关的开源项目（如 Apache Hive 和Apache Pig），您可便捷地使用 MapReduce，Hive，Spark，Presto 等服务低成本开展大规模分布式数据计算服务和海量数据分析。
+JMR (JingDong MapReduce) 是一个管托集群平台，可以在京东云上运行大数据框架（如 Apache Hadoop 和 Apache Spark） 或运行这些框架相关的开源项目（如 Apache Hive 和 Apache Pig），您可便捷地使用 MapReduce，Hive，Spark，Presto 等服务低成本开展大规模分布式数据计算服务和海量数据分析。
 
 JMR 的应用场景非常广泛，可应用于数据仓库、日志分析、ETL处理、临时性处理分析、即席查询分析、流式实时计算、数据对外服务等多个场景，从而为用户提供全面、实用、便捷的服务，能够有效解决企业数据来源和类型较为复杂、工作负载差异较大等问题。
 
