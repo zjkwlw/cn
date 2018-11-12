@@ -1,14 +1,18 @@
 name: 安全信息
 href: 
 items:
-- name: 京东云简介
-  href: Introduction/Introduction.md
+- name: 京东云安全概述
+  items:
+    - name: 京东云简介
+      href: Introduction/Introduction.md
+    - name: 京东云安全战略
+      href: Introduction/Security-Strategy.md
+- name: 安全合规和隐私保护
+  href: Security-and-Privacy/Security-Compliance.md    
 - name: 安全责任共但
   href: Responsibility/Responsibility.md
 - name: 基础架构安全
   items:
-    - name: 安全合规和隐私
-      href: Infrastructure/Security-and-Privacy.md
     - name: 基础设施安全
       href: Infrastructure/Infrastructure-Security.md
     - name: 物理与环境安全
