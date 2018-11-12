@@ -1,5 +1,5 @@
 # 部署Helm  
-随着业务容器化与向微服务架构转变，把庞大的单一应用为多个小的单体，使每个单体都可以独立部署和扩展，实现了敏捷开发、快速迭代和部署。微服务带来诸多便利的同时，也导致单体数量大幅增多，带来了诸多挑战，需要有以下功能的软件，来消除Kubernetes做大规模应用编排带来了的挑战：  
+随着业务容器化与向微服务架构转变，把庞大的单一应用为多个小的单体，使每个单体都可以独立部署和扩展，实现了敏捷开发、快速迭代和部署。微服务带来诸多便利的同时，也导致单体数量大幅增多，带来了诸多挑战，需要满足以下需求，来消除Kubernetes做大规模应用编排带来了的挑战：    
 - 快速获取大量常用的基础应用模板  
 - 方便管理、编辑与更新大量的Kubernetes配置文件  
 - 快捷分享和复用Kubernetes配置和应用  
@@ -138,7 +138,7 @@ version: 0.10.2
 **以WordPress、Nginx-Ingress为例进行演示。**  
   
 **例1：部署WordPress**   
-WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具；同时也作为一个内容管理系统（CMS）来使用。有以下两点优势：  
+WordPress是使用PHP语言开发的博客平台，逐渐发展成为世界上使用最多的自助博客工具；同时也作为一个内容管理系统（CMS）来使用。WordPress有以下两点优势:  
 - 简单易学，无法代码环境、易于理解的工具和功能。  
 - 功能强大，发布网站：如公司官网、创建博客、在线商店、社交网站、帮主论坛、视频网站等。  
 以下讲述如何通过Helm快速创建、管理、维护WordPress。  
@@ -164,7 +164,7 @@ boisterous-aardwolf-mariadb  1        1        1s
 - 由于该部署需要云硬盘，需要创建PVC。京东云Kubernetes集群服务集成了京东云云硬盘，您可以在集群中使用京东云云硬盘作为持久化存储，详见[部署持久化存储]（https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv）  
 输入以下命令：  
 `kubectl get pvc`  
-输出以下信息，显示为pending状态：
+输出以下信息，显示为pending状态：  
 ```
 NAME                                 STATUS    VOLUME    CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 boisterous-aardwolf-wordpress        Pending                                       default        2m
