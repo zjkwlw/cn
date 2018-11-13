@@ -9,7 +9,7 @@
 
 IP 高防，是依托京东云安全团队雄厚的技术力量，在京东商城多年攻击防护的实战经验上，推出的一款抗 DDoS 攻击的安全增值服务。旨在用户遭受大流量的 DDoS 攻击的情况下，保护用户服务器的安全。
 
-![图 8 DDoS 防护示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-5/image/Security-Information/DDoS1.jpg)
+![图 8 DDoS 防护示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-3/image/Security-Information/DDoS11.jpg)
 
 
 根据不同用户的互联网业务需求，可提供以下 DDoS 防御能力：
@@ -100,7 +100,7 @@ Web 应用防火墙 (Web Application Firewall, 简称 WAF) 是京东云推出的
 
 京东云 WAF 服务多地域部署。每个 WAF 接入节点采用 BGP 多线接入，智能选择最优路径，毫秒级响应延迟。能根据源站地址列表智能选择访问体验最优的 WAF 接入节点。站点无须安装任何硬软件，只需修改 DNS 记录，即可对网站开启防护。并且支持配置 WAF 为旁路观察模式，对于攻击请求只记录日志不阻断，便于用户观察 WAF 在实际业务中的工作情况。
 
-![图 9 Web 应用防火墙安全防护示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-5/image/Security-Information/Web1.jpg)
+![图 9 Web 应用防火墙安全防护示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-3/image/Security-Information/Web11.jpg)
 
 WAF 主要功能：
 
