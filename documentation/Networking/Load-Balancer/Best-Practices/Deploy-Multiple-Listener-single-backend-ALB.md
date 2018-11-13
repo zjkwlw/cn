@@ -65,7 +65,7 @@
 
 	![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-084.png)
 
-- 至此，已创建完成基于TCP协议的监听器，可在监听器列表查看。
+- 至此，已创建完成基于HTTP协议的监听器，可在监听器列表查看。
 
 	![ALB监听器列表页](../../../../image/Networking/ALB/ALB-085.png)
 
