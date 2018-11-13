@@ -11,13 +11,13 @@
 · 遍布全球的顶级数据中心
 
 
-![图 4 京东云全球数据中心](https://github.com/jdcloudcom/cn/blob/li131-patch-5/image/Security-Information/global3.jpg)
+![图 4 京东云全球数据中心](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/global.jpg)
 
 
 · 中国大陆地域及可用区
 
 
-![表 1 中国大陆地域及可用区](https://github.com/jdcloudcom/cn/blob/li131-patch-5/image/Security-Information/domestic3.jpg)
+![表 1 中国大陆地域及可用区](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/domestic.jpg)
 
 
 
