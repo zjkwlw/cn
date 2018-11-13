@@ -6,7 +6,7 @@
 
 京东云非常注重内部流程的安全性。所有为用户提供服务的云产品，在开发过程中严格遵循产品的安全开发生命周期 (SDL) 安全开发流程。京东云的安全开发基于业界安全开发的最佳实践，并专门针对其中的几个环节做了优化。在产品开发各个阶段中消除信息安全和隐私问题，确保所有的云产品在其生命周期内均能获得足够的安全管控与评估。
 
-![图 11 京东云安全开发流程示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-5/image/Security-Information/SDL2.jpg)
+![图 11 京东云安全开发流程示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-4/image/Security-Information/SDL11.jpg)
 
 
 如上图所示，整个云产品安全生命周期分为七个阶段：培训阶段、分析阶段、设计阶段、开发阶段、验证阶段、发布阶段、事件响应阶段。
