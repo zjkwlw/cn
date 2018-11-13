@@ -20,7 +20,7 @@ OSS 针对 Bucket 提供防盗链配置功能，为了减少用户存储于 OSS 
 
 京东云 CDN（Content Delivery Network），基于京东优质网络基础设施和智能云计算技术，向用户提供低成本、高性能、可扩展的互联网内容分发服务。利用广泛的节点覆盖和先进的云调度、云存储技术，将海量内容更快、更可靠地投递给互联网终端用户，降低网站运营成本，提升用户互联网应用体验。京东云 CDN 的前身是服务于京东商城的自建 CDN 平台，历经多年 618 和 11.11等大促业务活动考验，京东云 600+ 节点广泛覆盖于全国各区域和运营商，精选全网优质基础设施，边缘节点覆盖全网、全地域，真正实现就近接流、就近推流。
 
-![图 7 京东云内容分发网络节点示意图](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/CDN.jpg)
+![图 7 京东云内容分发网络节点示意图](https://github.com/jdcloudcom/cn/blob/li131-patch-5/image/Security-Information/CDN1.jpg)
 
 
 CDN 在访问控制、安全协议与网络攻击防护方面实现了以下功能：
