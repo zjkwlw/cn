@@ -6,7 +6,7 @@
 
 私有网络 VPC 整体架构如下：
 
-![图 6 私有网络逻辑架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/vpc.jpg)
+![图 6 私有网络逻辑架构图](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/vpc11.jpg)
 
 私有网络 VPC 是用户网络在京东云上的表现形式，包含了一系列的网络及安全功能，与其他的 VPC 逻辑隔离。在实例级别实现安全组一级防护，在子网级别实现网络 ACL 二级防护，在 VPC 间实现网络 100% 安全隔离，达到访问控制的目的。
 
