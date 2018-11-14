@@ -80,3 +80,7 @@ items:
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: DDoS防护包服务等级协议(SLA)
     href: DDoS-Protection-Package-Terms-Of-Service-SLA.md
+  - name: 云搜索Elasticsearch服务条款
+    href: JCS-for-Elasticsearch-Service-Terms.md
+  - name: 云搜索Elasticsearch服务等级协议（SLA）
+    href: JCS-for-Elasticsearch-Service-Terms-SLA.md
