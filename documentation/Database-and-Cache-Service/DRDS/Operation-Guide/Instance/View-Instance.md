@@ -14,4 +14,4 @@
 
 可在实例详情页面查看实例的各种基本信息，包括配置，网络，域名等
 
-![image.png](https://img1.jcloudcs.com/cms/2025d02f-a40f-4e0b-b41b-2c47f042c07b20180704173629.png)
+![实例详情](../../../../../image/DRDS/view-instance.png)

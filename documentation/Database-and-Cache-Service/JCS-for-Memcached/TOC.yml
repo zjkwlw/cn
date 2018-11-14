@@ -4,7 +4,7 @@
   - name: 产品简介
     items:
       - name: 产品概述
-        href: Introduction/Overview.md
+        href: Introduction/Product-Overview.md
       - name: 核心概念
         href: Introduction/Core-Concepts.md
       - name: 基础架构
@@ -12,7 +12,7 @@
       - name: 产品优势
         href: Introduction/Benefits.md
       - name: 产品功能
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: 产品规格
         href: Introduction/Specifications.md
       - name: 应用场景 
@@ -56,7 +56,7 @@
     - name: C++客户端
       href: Best-Practices/Cplusplus-libmemcached.md
     - name: Go客户端
-      href: Best-Practices/go-gomemcached.md
+      href: Best-Practices/go-gomemcache.md
     - name: Java客户端
       href: Best-Practices/java-spymemcached.md
     - name: PHP客户端

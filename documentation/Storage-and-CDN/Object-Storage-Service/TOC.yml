@@ -138,7 +138,9 @@ items:
            - name: 兼容接口概览
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md        
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md
+      - name: 错误响应
+        href: API-Reference-S3-Compatible/Error-Response-2.md                
       - name: 扩展接口
         items:
            - name: Compress Object
@@ -149,10 +151,18 @@ items:
         items:
            - name: 概述
              href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
+           - name: SDK-Java
+             items:
+                - name: 安装
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
+                - name: 初始化
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
+                - name: 简单上传
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
+                - name: 分片上传
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md          
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
-           - name: SDK-Java
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java.md
            - name: SDK-PHP
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
            - name: SDK-Android
@@ -283,5 +293,7 @@ items:
         href: Best-Practices/S3cmd.md
       - name: 回调服务器设置签名认证
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
+      - name: OSS线上服务快速验证工具
+        href: Best-Practices/OSS-Verification-Tool.md
  - name: 常见问题
    status: 0

@@ -495,6 +495,81 @@
       <td>21</td>
       <td></td>
    </tr>
+   <tr>
+      <td rowspan="9">GPU</td>
+      <td rowspan="9">标准</td>
+      <td>p.n1p40.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>4241.5</td>
+      <td>14.73</td>
+      <td></td>
+   </tr>
+   <tr>
+     <td>p.n1p40.7xlarge</td>
+      <td>28</td>
+      <td>110</td>
+      <td>8967.5</td>
+      <td>31.14</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1p40.14xlarge</td>
+      <td>56</td>
+      <td>220</td>
+      <td> 17935</td>
+      <td>62.27</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1p40h.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>4073.5</td>
+      <td>14.14</td>
+      <td></td>
+   </tr>
+   <tr>
+     <td>p.n1p40h.7xlarge</td>
+      <td>28</td>
+      <td>110</td>
+      <td>8631.5</td>
+      <td>29.97</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1p40h.14xlarge</td>
+      <td>56</td>
+      <td>220</td>
+      <td>17263</td>
+      <td>59.94</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1v100.2xlarge</td>
+      <td>8</td>
+      <td>44</td>
+      <td>7569</td>
+      <td>26.203</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1v100.5xlarge</td>
+      <td>20</td>
+      <td>110</td>
+      <td>15622.5</td>
+      <td>54.088</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1v100.10xlarge</td>
+      <td>40</td>
+      <td>220</td>
+      <td>31245</td>
+      <td>108.175</td>
+      <td></td>
+   </tr>
+
 </table>
 
 请注意：

@@ -1,9 +1,11 @@
 ## 访问集群
 ### 基于云服务器访问前提
 京东云搜索Elasticsearch与依赖的云主机必须处于同一个VPC下，因此要先创建相同私有网络和子网的云主机，从该云主机下获取到“公网IP”，才能访问云搜索Elasticsearch服务。
+
 ### curl测试访问内网域名
 1.ssh 用户名@公网IP，输入密码。</br>
 2.通过Linux环境下的curl命令访问云搜索Elasticsearch实例的9200端口。指定账号密码访问示例格式为curl –XGET [实例内网访问域名]/_cat，内网访问域名为ES实例基本信息界面的**内网访问域名**，指令示例如下：
+
 ```
 curl -XGET es-nlb-es-kgqo8zmgcv.jvessel-open-hb.jdcloud.com:9200/_cat
 ```
