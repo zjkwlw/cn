@@ -26,7 +26,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |**refreshTokenValiditySeconds**|Integer|False| |刷新令牌有效期，值的范围为 30x24x3600=2,592,000 秒到 365x24x3600=31,536,000 秒，即30天-365天<br/><br/>注：当 GrantTypes 包含 refresh_token 时，refreshTokenValiditySeconds 为必传参数|
 |**multiTenant**|Boolean|False|false|是否为多租户应用<br/>false：该应用仅支持当前创建应用的租户访问，其他京东云租户无法访问<br/>true：该应用支持其他京东云租户访问，但当前创建应用的租户不能访问|
 |**userType**|String|True| |能访问应用的账号类型，支持以下值：<br/>（1）root：支持主账号访问，子用户无法访问<br/>（2）sub：子用户账号，使用主账号不能访问<br/><br/>注：multiTenant和userType的组合指定了应用的用户人群，典型的应用场景如：<br/>（1）应用向当前租户下的子用户开放（2）应用向京东云其他租户主账号开放|
-|**scope**|String|False| |scope|
+|**scope**|String|False| |OAuth scope范围，支持的值为：<br/>openid：用OpenID Connect协议进行身份认证<br/>指定scope为openid，并在Authorization Endpoint请求该scope，京东云将返回用户的OpenID令牌；如果在创建应用时未指明该值，则应用不能请求OpenID令牌；任何时候应用都可以调用“更新应用”更改该设置|
 |**jwks**|String|False| |jwks|
 |**jwksUri**|String|False| |jwksUri|
 |**logoUri**|String|False| |logoUri|
