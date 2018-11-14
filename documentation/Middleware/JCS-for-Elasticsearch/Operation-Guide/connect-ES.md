@@ -26,21 +26,21 @@ curl -XGET es-nlb-es-kgqo8zmgcv.jvessel-open-hb.jdcloud.com:9200/_cat
 /_cat/count/{index}
 /_cat/recovery
 /_cat/recovery/{index}
-
+}
 ```
 ### 导入数据
-1.下载数据集示例（首次登陆云主机需进行此步骤）</br>
+1. 下载数据集示例（首次登陆云主机需进行此步骤）</br>
 ```
 wget https://download.elastic.co/demos/kibana/gettingstarted/shakespeare.json
 wget https://download.elastic.co/demos/kibana/gettingstarted/accounts.zip
 wget https://download.elastic.co/demos/kibana/gettingstarted/logs.jsonl.gz
 ```
-2.解压数据集示例
+2. 解压数据集示例
 ```
 unzip accounts.zip
 gunzip logs.jsonl.gz
 ```
-3.为Shakespeare数据集创建mapping，格式为curl -X PUT "[实例的内网访问域名]/shakespeare" -H 'Content-Type: application/json' -d'
+3. 为Shakespeare数据集创建mapping，格式为curl -X PUT "[实例的内网访问域名]/shakespeare" -H 'Content-Type: application/json' -d'
  {
   "mappings" : {
    "_default_" : {
@@ -74,7 +74,7 @@ curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" 
 ```
 {"acknowledged":true,"shards_acknowledged":true,"index":"shakespeare"}
 ```
-4.为logstash创建mapping，格式为curl -X PUT "[实例的内网访问域名]/logstash-20181010" -H 'Content-Type: application/json' -d'
+4. 为logstash创建mapping，格式为curl -X PUT "[实例的内网访问域名]/logstash-20181010" -H 'Content-Type: application/json' -d'
 {
   "mappings": {
     "log": {
@@ -110,7 +110,7 @@ curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-2018
 
 ```
 
-5.加载数据集并验证加载是否成功，示例如下：
+5. 加载数据集并验证加载是否成功，示例如下：
 ```
 curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
 
