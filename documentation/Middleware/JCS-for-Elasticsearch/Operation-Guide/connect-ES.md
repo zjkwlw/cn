@@ -39,52 +39,20 @@ wget https://download.elastic.co/demos/kibana/gettingstarted/logs.jsonl.gz
 unzip accounts.zip
 gunzip logs.jsonl.gz
 ```
-3.安装curl，首次登陆云主机没有curl包，需要安装才可以使用curl命令。
-```
-wget https://curl.haxx.se/download/curl-7.54.0.tar.gz
-tar -zxf  curl-7.54.0.tar.gz
-```
-4.为Shakespeare数据集创建mapping，格式为curl -X PUT "[实例的内网访问域名]/shakespeare" -H 'Content-Type: application/json' -d'，示例如下：
+3.为Shakespeare数据集创建mapping，格式为curl -X PUT "[实例的内网访问域名]/shakespeare" -H 'Content-Type: application/json' -d'，示例如下：
 ```
 curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d'
 ```
 响应如下时表示成功：
 ```
- {
-  "mappings" : {
-   "_default_" : {
-    "properties" : {
-     "speaker" : {"type": "keyword" },
-     "play_name" : {"type": "keyword" },
-     "line_id" : { "type" : "integer" },
-     "speech_number" : { "type" : "integer" }
-    }
-   }
- }
-}
 {"acknowledged":true,"shards_acknowledged":true,"index":"shakespeare"}
 ```
-5.为logstash创建mapping，格式为curl -X PUT "[实例的内网访问域名]/logstash-20181010" -H 'Content-Type: application/json' -d'，示例如下：
+4.为logstash创建mapping，格式为curl -X PUT "[实例的内网访问域名]/logstash-20181010" -H 'Content-Type: application/json' -d'，示例如下：
 ```
 curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d'
 ```
-响应如下时表示成功：
-```
- {
-  "mappings" : {
-   "_default_" : {
-    "properties" : {
-     "speaker" : {"type": "keyword" },
-     "play_name" : {"type": "keyword" },
-     "line_id" : { "type" : "integer" },
-     "speech_number" : { "type" : "integer" }
-    }
-   }
- }
-}
-{"acknowledged":true,"shards_acknowledged":true,"index":"shakespeare"}
-```
-6.加载数据集并验证加载是否成功，示例如下：
+
+5.加载数据集并验证加载是否成功，示例如下：
 ```
 curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
 
