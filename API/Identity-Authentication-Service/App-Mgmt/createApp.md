@@ -17,7 +17,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**accessTokenValiditySeconds**|Integer|False| |accessTokenValiditySeconds|
+|**accessTokenValiditySeconds**|Integer|False| |访问令牌有效期，单位：秒，范围：10分钟到6小时（即600秒到21,600秒）|
 |**account**|String|False| |account|
 |**clientName**|String|False| |应用名|
 |**clientUri**|String|False| |clientUri|
