@@ -7,7 +7,6 @@ CC防护规则属于网站类防护的规则，需要先切换网站类转发配
       ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)
 
 ### 操作步骤
-
 1. 单击 **防护规则** ，展开防护规则配置。
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2004.png)
  
