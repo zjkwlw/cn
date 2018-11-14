@@ -1,5 +1,8 @@
 ## 描述
-创建app
+创建应用
+
+## 限制
+每个账户下支持创建最多20个应用
 
 ## 请求方式
 POST
@@ -9,7 +12,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True| | |
+|**regionId**|String|True| |地域编码，参考《公共说明》|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
