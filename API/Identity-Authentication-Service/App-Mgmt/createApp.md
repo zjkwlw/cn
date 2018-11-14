@@ -20,7 +20,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |**clientName**|String|True| |应用名|
 |**redirectUris**|String|True| |回调地址，最多4个，多个url之间用逗号,分隔，每个url长度不超过1000，url不支持#符号|
 |**grantTypes**|String|True| |支持OAuth授权码模式、隐式授权模式和刷新令牌，
-支持以下组合：（1）authorization_code（2）authorization_code,refresh_token（3）authorization_code,implicit（4）authorization_code,implicit refresh_token（5）implicit。
+<br>支持以下组合：（1）authorization_code（2）authorization_code,refresh_token（3）authorization_code,implicit（4）authorization_code,implicit refresh_token（5）implicit。</br>
 
 authorization_code：OAuth2.0授权码模式，参考：https://tools.ietf.org/html/rfc6749#section-1.3.1
 implicit：OAuth2.0隐式授权模式，参考：https://tools.ietf.org/html/rfc6749#section-1.3.2
