@@ -111,7 +111,6 @@ curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-2018
 }'
 
 ```
-
 5. 加载数据集并验证加载是否成功，示例如下：
 ```
 curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
@@ -135,5 +134,3 @@ green  open   .kibana             Wui_-I2FR0eyu2IIvf7SZQ   1   1          1     
 green  open   logstash-2015.05.20 ssOTajNfRsO0FmXMmO2qvA   5   1       4750            0     65.8mb         33.1mb
 
 ```
-
-
