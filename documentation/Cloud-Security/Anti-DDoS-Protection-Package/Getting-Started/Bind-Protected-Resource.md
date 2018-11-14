@@ -2,7 +2,7 @@
 
 创建完实例以后，绑定需要防护的对象，即可进行防护。
 
-1、找到需要防护的防护包，在操作栏，单击**防护对象设置**。
+1、找到需要防护的防护包，在操作栏，单击 **防护对象设置** 。
 
 ![防护包列表-防护对象设置](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/防护包列表-防护对象设置.jpg)
 
