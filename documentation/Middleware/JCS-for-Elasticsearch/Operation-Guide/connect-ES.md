@@ -40,17 +40,74 @@ wget https://download.elastic.co/demos/kibana/gettingstarted/logs.jsonl.gz
 unzip accounts.zip
 gunzip logs.jsonl.gz
 ```
-3.为Shakespeare数据集创建mapping，格式为curl -X PUT "[实例的内网访问域名]/shakespeare" -H 'Content-Type: application/json' -d'，示例如下：
+3.为Shakespeare数据集创建mapping，格式为curl -X PUT "[实例的内网访问域名]/shakespeare" -H 'Content-Type: application/json' -d'
+ {
+  "mappings" : {
+   "_default_" : {
+    "properties" : {
+     "speaker" : {"type": "keyword" },
+     "play_name" : {"type": "keyword" },
+     "line_id" : { "type" : "integer" },
+     "speech_number" : { "type" : "integer" }
+    }
+   }
+ }
+}
+'，示例如下：
 ```
 curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d'
+ {
+  "mappings" : {
+   "_default_" : {
+    "properties" : {
+     "speaker" : {"type": "keyword" },
+     "play_name" : {"type": "keyword" },
+     "line_id" : { "type" : "integer" },
+     "speech_number" : { "type" : "integer" }
+    }
+   }
+ }
+}'
+ 
 ```
 响应如下时表示成功：
 ```
 {"acknowledged":true,"shards_acknowledged":true,"index":"shakespeare"}
 ```
-4.为logstash创建mapping，格式为curl -X PUT "[实例的内网访问域名]/logstash-20181010" -H 'Content-Type: application/json' -d'，示例如下：
+4.为logstash创建mapping，格式为curl -X PUT "[实例的内网访问域名]/logstash-20181010" -H 'Content-Type: application/json' -d'
+{
+  "mappings": {
+    "log": {
+      "properties": {
+        "geo": {
+          "properties": {
+            "coordinates": {
+              "type": "geo_point"
+            }
+          }
+        }
+      }
+    }
+  }
+}' ，示例如下：
 ```
 curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d'
+{
+  "mappings": {
+    "log": {
+      "properties": {
+        "geo": {
+          "properties": {
+            "coordinates": {
+              "type": "geo_point"
+            }
+          }
+        }
+      }
+    }
+  }
+}'
+
 ```
 
 5.加载数据集并验证加载是否成功，示例如下：
