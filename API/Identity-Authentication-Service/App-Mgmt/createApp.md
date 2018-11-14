@@ -19,14 +19,8 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |---|---|---|---|---|
 |**clientName**|String|True| |应用名|
 |**redirectUris**|String|True| |回调地址，最多4个，多个url之间用逗号,分隔，每个url长度不超过1000，url不支持#符号|
-|**grantTypes**|String|True| |支持OAuth授权码模式、隐式授权模式和刷新令牌，
-<br>支持以下组合：（1）authorization_code（2）authorization_code,refresh_token（3）authorization_code,implicit（4）authorization_code,implicit refresh_token（5）implicit。</br>
-
-authorization_code：OAuth2.0授权码模式，参考：https://tools.ietf.org/html/rfc6749#section-1.3.1
-implicit：OAuth2.0隐式授权模式，参考：https://tools.ietf.org/html/rfc6749#section-1.3.2
-refresh_token：在创建应用时指明该值，应用将可以从京东云获得刷新令牌，并用刷新令牌更新用户的访问令牌；如果在创建应用时未指明该值，则应用不能使用刷新令牌；任何时候应用都可以调用“更新应用”OpenAPI更改该设置。参考：https://tools.ietf.org/html/rfc6749#section-1.5
-|
-
+|**grantTypes**|String|True| |支持的OAuth类型：<br>authorization_code：OAuth2授权码模式</br><br>implicit：OAuth2隐式授权模式</br><br>refresh_token：启用刷新令牌，在创建应用时指明该值，应用将可以从京东云获得刷新令牌，并用刷新令牌更新用户的访问令牌；如果在创建应用时未指明该值，则应用不能使用刷新令牌；任何时候应用都可以调用“更新应用”OpenAPI更改该设置</br><br>grantTypes支持以下组合：</br>
+<br>（1）authorization_code（2）authorization_code,refresh_token（3）authorization_code,implicit（4）authorization_code,implicit refresh_token（5）implicit</br>|
 |**accessTokenValiditySeconds**|Integer|False| |访问令牌有效期，单位：秒，范围：10分钟到6小时（即600秒到21,600秒）|
 |**contacts**|String|False| |contacts|
 |**extension**|String|False| |extension|
