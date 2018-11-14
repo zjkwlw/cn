@@ -26,7 +26,7 @@ curl -XGET es-nlb-es-kgqo8zmgcv.jvessel-open-hb.jdcloud.com:9200/_cat
 /_cat/count/{index}
 /_cat/recovery
 /_cat/recovery/{index}
-
+}
 ```
 ### 导入数据
 1. 下载数据集示例（首次登陆云主机需进行此步骤）</br>
