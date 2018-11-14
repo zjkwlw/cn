@@ -19,8 +19,8 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |---|---|---|---|---|
 |**clientName**|String|True| |应用名|
 |**redirectUris**|String|True| |回调地址，最多4个，多个url之间用逗号,分隔，每个url长度不超过1000，url不支持#符号|
-|**grantTypes**|String|True| |支持的OAuth类型：<br>authorization_code：OAuth2授权码模式<br>implicit：OAuth2隐式授权模式<br>refresh_token：启用刷新令牌<br><br>grantTypes支持以下组合：<br>authorization_code<br>authorization_code,refresh_token<br>authorization_code,implicit<br>authorization_code,implicit,refresh_token<br>implicit<br><br>注：如果grantTypes指定了refresh_token，应用将可以使用刷新令牌；如果在创建应用时未指定，则应用不能使用刷新令牌；任何时候应用都可以调用“更新应用”接口更改grantTypes设置|
-|**tokenEndpointAuthMethod**|String|True| |客户端认证方式，支持以下值：<br>none<br>client_secret_post<br>client_secret_basic<br><br>none：不设置客户端密码（不推荐）<br>client_secret_post：客户端必须设置密码，且该密码需要在 OAuth2 Token Endpoint 提供于请求的 body<br>client_secret_basic：客户端必须设置密码，且该密码需要在 OAuth2 Token Endpoint 提供于请求的 header|
+|**grantTypes**|String|True| |支持的OAuth类型：<br>authorization_code：OAuth2授权码模式<br>implicit：OAuth2隐式授权模式<br>refresh_token：启用刷新令牌<br><br>grantTypes支持以下值：<br>（1）authorization_code<br>（2）authorization_code,refresh_token<br>（3）authorization_code,implicit<br>（4）authorization_code,implicit,refresh_token<br>（5）implicit<br><br>注：如果grantTypes指定了refresh_token，应用将可以使用刷新令牌；如果在创建应用时未指定，则应用不能使用刷新令牌；任何时候应用都可以调用“更新应用”接口更改grantTypes设置|
+|**tokenEndpointAuthMethod**|String|True| |客户端认证方式：<br>none：不设置客户端密码（不推荐）<br>client_secret_post：客户端必须设置密码，且该密码需要在 OAuth2 Token Endpoint 提供于请求的 body<br>client_secret_basic：客户端必须设置密码，且该密码需要在 OAuth2 Token Endpoint 提供于请求的 header<br><br>支持以下值：<br>（1）none<br>（2）client_secret_post<br>（3）client_secret_basic|
 |**accessTokenValiditySeconds**|Integer|True| |访问令牌有效期，值的范围为600到21,600，单位为秒，即10分钟到6小时|
 |**contacts**|String|False| |contacts|
 |**extension**|String|False| |extension|
