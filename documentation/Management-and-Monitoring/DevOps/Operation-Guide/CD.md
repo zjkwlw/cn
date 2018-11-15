@@ -72,4 +72,4 @@ b.伸缩策略
 - 日志下载：对于已订阅的日志，可以将日志下载到本地
 - 日志订阅：选择要订阅日志的分组，并提供日志路径，即可创建订阅日志，订阅的日志将全部存储于专门存放日志的ES
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation28.png)
+
