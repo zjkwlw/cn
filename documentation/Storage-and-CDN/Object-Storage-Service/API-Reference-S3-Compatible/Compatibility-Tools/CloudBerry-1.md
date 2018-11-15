@@ -16,7 +16,7 @@ CloudBerry是一个在windows下使用的用来操作云存储的工具，该工
 
 安装完成后选择File->New S3 Compatible Account->S3 Compatible,弹出如下界面：
 
-![S3 Compatible](![](../../../../image/Object-Storage-Service/OSS-080.jpg)
+![S3 Compatible](![](../../../../../image/Object-Storage-Service/OSS-080.jpg)
 
 注意：勾选SSL，签名版本使用4
 
