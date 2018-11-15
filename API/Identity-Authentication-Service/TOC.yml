@@ -1,6 +1,5 @@
 name: 联合认证
 href: 
-status: 0
 items:
   - name: 接口概览
     href: overview.md
