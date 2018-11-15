@@ -17,6 +17,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app/{clientId}
 
 ## 请求参数
 只传需要变更的参数，不传的参数不会更新。
+
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clientName**|String|False| |应用名|
