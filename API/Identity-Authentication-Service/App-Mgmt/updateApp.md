@@ -34,7 +34,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app/{clientId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|Result|更新后返回应用结果，见Result|
+|**result**|Result|返回结果|
 
 ### Result
 |名称|类型|描述|
