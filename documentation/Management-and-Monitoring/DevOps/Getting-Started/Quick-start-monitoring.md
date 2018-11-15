@@ -122,4 +122,4 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 （2）创建完菜单后，点击“dashboard”查看，进入仪表盘配置页，点菜单下的设置按钮，选择“添加趋势图”，即可打开如图所示的趋势图配置页面，产品线及以下节点支持通过表单和JSON两种方式配置。
 页面左侧为ns，监控项，统计值等的选择区域，右侧为图形预览区。配置后可即时查看图形图表。
 
-![image](/https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Getting-Started21.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Getting-Started21.JPG)
