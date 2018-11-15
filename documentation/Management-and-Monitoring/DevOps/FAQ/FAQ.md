@@ -1,9 +1,11 @@
 # FAQ
 
-Q：京东云DevOps的优势在呢？
+**Q**：我的租户叫什么？
 
-A：覆盖DevOps全流程，不仅可为您提供全方位DevOps保障，而且可在降低运维成本的同时，提升服务健壮性和稳定性。
+**A**：登录DevOps后，鼠标悬停右上角的用户名，在下拉菜单中，将显示租户名/用户名
 
-Q：京东云DevOps的高可用是如何保证的？
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/FAQ1.png)
 
-A：DevOps中的基础服务均为HA。并且在此基础之上，各模块也可实现自愈。以Agent为例，Agent具备分级发布的能力，并且可实现自我守护，无需人工干预。
+**Q**：
+
+**A**：
