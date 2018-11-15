@@ -2,7 +2,7 @@
 
 **主界面图**
  
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide3.png) 
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation3.png)
 
 **界面介绍**
 
