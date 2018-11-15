@@ -1,7 +1,3 @@
----
-title: '端口监控'
----
-
 # 端口监控
 ## 监控项说明
 
@@ -22,7 +18,7 @@ http等语义探测为本机模拟发起http请求。
 
 步骤一：菜单选择【智能监控】-【监控配置】，左侧服务树选择产品线或产品线以下节点，在下图所示的采集配置列表页，点击“新建”。
 
-![5端口采集-采集配置1](/images/2kuaisurumen-3caiji1.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide30.JPG)
 步骤二：打开如图所示的采集配置新建窗口。其中，
 
 **监控类型**：选择端口监控
@@ -48,7 +44,7 @@ PS：
 配置动态地址$DEPLOY_PATH$（服务树上实例部署路径）
 ```
 
-![5端口采集-采集配置2](/images/5port-caiji2.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide31.JPG)
 
     HTTP等语义探测方法：由本机模拟发起http等请求进行探测，检查端口状态以及返回的内容是否正确。
     请求方式：支持GET/POST/HEAD
@@ -56,4 +52,4 @@ PS：
     匹配状态码：匹配的http状态码
     匹配内容：填写目标页面所包含的内容。
 
-![5端口采集-采集配置3](/images/5port-caiji3.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide32.JPG)
