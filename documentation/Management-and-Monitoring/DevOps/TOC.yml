@@ -75,14 +75,6 @@
         href: Operation-Guide/File-Distribution.md
       - name: 账户管理
         href: Operation-Guide/Account-management.md
-  - name: 最佳实践
-    items:
-      - name: 持续交付
-        href: Best-Practices/CICD.md
-      - name: 智能监控
-        href: Best-Practices/Monitoring.md
-  - name: 教程
-    items:
   - name: 问题排查
     items:
       - name: 故障类问题
