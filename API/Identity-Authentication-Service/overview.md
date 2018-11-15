@@ -14,6 +14,6 @@ v1
 |---|---|---|
 |**createApp**|POST|创建应用|
 |**deleteApp**|DELETE|删除应用|
-|**getApp**|GET|查看应用详情|
-|**getApps**|GET|获取账号下所有的应用详情|
-|**updateApp**|PUT|更新应用信息|
+|**getApp**|GET|获取应用详情|
+|**getApps**|GET|获取账户下的所有应用|
+|**updateApp**|PUT|更新应用|
