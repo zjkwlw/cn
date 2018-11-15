@@ -21,7 +21,7 @@
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation4.png)
 
-左侧指定应用节点，下面分别说明下5个分页的具体功能
+左侧指定应用节点，下面分别说明下五个分页的具体功能
 
 1.基本设置
 
