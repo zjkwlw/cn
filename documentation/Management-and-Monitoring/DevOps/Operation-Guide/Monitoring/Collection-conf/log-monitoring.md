@@ -1,6 +1,3 @@
----
-title: '日志监控'
----
 # 日志监控
 
 - 日志监控是根据用户配置的日志全路径，去匹配一个采集周期内日志中实时出现的关键字、流量、响应时间等。主要解决服务性能慢的问题，且能初步定位问题边界。
@@ -40,7 +37,7 @@ title: '日志监控'
 
 ​    触发报警时，返回日志现场，是指在报警通知中展示触发报警的日志行。
 
-![3日志采集-采集配置1](/images/3log-caiji1.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide35.JPG)
 
 
 
