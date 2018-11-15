@@ -8,7 +8,6 @@
 
 在初次使用时，会自动创建服务树模板。
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting3.png)
 
 接下来，需要为服务树各层级（体系、部门、产品线、系统、应用）的节点，进行角色设置。
 
@@ -24,4 +23,4 @@
 
 应用：负责人、运维、开发
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting4.png)
+
