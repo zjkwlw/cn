@@ -27,45 +27,37 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |**multiTenant**|Boolean|False|false|是否为多租户应用<br/>false：该应用仅支持当前创建应用的租户访问，其他京东云租户无法访问<br/>true：该应用支持其他京东云租户访问，但当前创建应用的租户不能访问|
 |**userType**|String|True| |能访问应用的账号类型，支持以下值：<br/>（1）root：支持主账号访问，子用户无法访问<br/>（2）sub：子用户账号，使用主账号不能访问<br/><br/>注：multiTenant和userType的组合指定了应用的用户人群，典型的应用场景如：<br/>（1）应用向当前租户下的子用户开放（2）应用向京东云其他租户主账号开放|
 |**scope**|String|False| |OAuth scope范围，支持的值为：<br/>（1）openid：用OpenID Connect协议进行身份认证<br/>指定scope为openid，并在Authorization Endpoint请求该scope，京东云将返回用户的OpenID令牌；如果在创建应用时未指明该值，则应用不能请求OpenID令牌；任何时候应用都可以调用“更新应用”更改该设置|
-|**jwks**|String|False| |应用如果需要使用json web令牌（JWT），用该jwks来进行签名|
-|**jwksUri**|String|False| |jwksUri|
-|**logoUri**|String|False| |应用logo的url，不支持#字符|
-|**tosUri**|String|False| |应用服务条款的url，不支持#字符|
-|**policyUri**|String|False| |应用隐私政策的url，不支持#字符|
-|**clientUri**|String|False| |应用介绍url，不支持#字符|
-|**contacts**|String|False| |应用的联系信息|
-|**extension**|String|False| |应用的扩展信息|
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String| |
-|**result**|Result|创建app返回结果|
+|**result**|Result|创建应用的结果，见Result|
 
 ### Result
 |名称|类型|描述|
 |---|---|---|
-|**accessTokenValiditySeconds**|Integer|accessTokenValiditySeconds|
-|**account**|String|account|
-|**clientId**|String|应用|
-|**clientName**|String|应用名|
+|**account**|String|创建应用的账户用户名|
+|**clientId**|String|应用ID，由京东云分配|
+|**clientName**|String|clientName|
 |**clientUri**|String|clientUri|
-|**contacts**|String|contacts|
-|**extension**|String|extension|
 |**grantTypes**|String|grantTypes|
+|**tokenEndpointAuthMethod**|String|tokenEndpointAuthMethod|
+|**accessTokenValiditySeconds**|Integer|accessTokenValiditySeconds|
+|**refreshTokenValiditySeconds**|Integer|refreshTokenValiditySeconds|
+|**multiTenant**|Boolean|multiTenant|
+|**userType**|String|userType|
 |**jwks**|String|jwks|
 |**jwksUri**|String|jwksUri|
 |**logoUri**|String|logoUri|
-|**multiTenant**|Boolean|multiTenant|
 |**policyUri**|String|policyUri|
 |**redirectUris**|String|redirectUris|
-|**refreshTokenValiditySeconds**|Integer|refreshTokenValiditySeconds|
 |**responseTypes**|String|responseTypes|
 |**scope**|String|scope|
 |**secretUpdateTime**|Integer|secretUpdateTime|
-|**tokenEndpointAuthMethod**|String|tokenEndpointAuthMethod|
 |**tosUri**|String|tosUri|
-|**userType**|String|userType|
+|**contacts**|String|contacts|
+|**extension**|String|extension|
 
 ## 返回码
 |返回码|描述|
