@@ -28,6 +28,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |**userType**|String|True| |能访问应用的账号类型，支持以下值：<br/>（1）root：支持主账号访问，子用户无法访问<br/>（2）sub：子用户账号，使用主账号不能访问<br/><br/>注：multiTenant和userType的组合指定了应用的用户人群，典型的应用场景如：<br/>（1）应用向当前租户下的子用户开放（2）应用向京东云其他租户主账号开放|
 |**scope**|String|False| |OAuth scope范围，支持的值为：<br/>（1）openid：用OpenID Connect协议进行身份认证<br/>指定scope为openid，并在Authorization Endpoint请求该scope，京东云将返回用户的OpenID令牌；如果在创建应用时未指明该值，则应用不能请求OpenID令牌；任何时候应用都可以调用“更新应用”更改该设置|
 
+
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
@@ -40,24 +41,14 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |**account**|String|创建应用的账户用户名|
 |**clientId**|String|应用ID，由京东云分配|
 |**clientName**|String|clientName|
-|**clientUri**|String|clientUri|
+|**redirectUris**|String|redirectUris|
 |**grantTypes**|String|grantTypes|
 |**tokenEndpointAuthMethod**|String|tokenEndpointAuthMethod|
 |**accessTokenValiditySeconds**|Integer|accessTokenValiditySeconds|
 |**refreshTokenValiditySeconds**|Integer|refreshTokenValiditySeconds|
 |**multiTenant**|Boolean|multiTenant|
 |**userType**|String|userType|
-|**jwks**|String|jwks|
-|**jwksUri**|String|jwksUri|
-|**logoUri**|String|logoUri|
-|**policyUri**|String|policyUri|
-|**redirectUris**|String|redirectUris|
-|**responseTypes**|String|responseTypes|
 |**scope**|String|scope|
-|**secretUpdateTime**|Integer|secretUpdateTime|
-|**tosUri**|String|tosUri|
-|**contacts**|String|contacts|
-|**extension**|String|extension|
 
 ## 返回码
 |返回码|描述|
