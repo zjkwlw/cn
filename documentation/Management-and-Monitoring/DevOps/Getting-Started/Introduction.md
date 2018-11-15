@@ -7,3 +7,11 @@
 基本操作流程图如下：
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Getting-Started1.png)
+
+请使用京东云账户登录DevOps，初次登录会引导创建租户
+
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting2.png)
+
+需填写“租户英文名”、“中文名”
+
+京东云账户自动成为该租户的租户管理员，可进行租户内成员的管理
