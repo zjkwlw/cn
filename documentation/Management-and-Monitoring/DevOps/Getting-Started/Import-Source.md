@@ -6,7 +6,7 @@
 
 **操作步骤**
 
-1.选中左侧服务树中的产品线节点****
+1.选中左侧服务树中的应用节点
 
 2.从菜单-->配置管理-->资源池，进入到“京东云主机”分页
 
@@ -20,6 +20,6 @@
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting6.png)
 
-点击“新增实例”，选择“所属分组”为默认创建好的分组“”，点击“选择服务器”，在选择服务器页面，勾选云主机，即将此云主机加入到分组**中
+点击“新增实例”，选择“所属分组”为默认创建好的分组“”，点击“选择服务器”，在选择服务器页面，勾选云主机，即将此云主机加入到分组中
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting7.png)
