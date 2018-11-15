@@ -77,8 +77,6 @@
         href: Operation-Guide/Account-management.md
   - name: 问题排查
     items:
-      - name: 故障类问题
-        href: Troubleshooting/Troubleshooting.md
       - name: 配置类问题
         href: Troubleshooting/Configuration.md
   - name: 常见问题
@@ -96,8 +94,6 @@
   - name: 相关资源
     items:
       - name: 文档历史记录
-        href: Related-Resources/Document-History.md   
-      - name: 备案
-        href: Related-Resources/Filing.md                 
+        href: Related-Resources/Document-History.md                
       - name: 词汇表
         href: Related-Resources/Glossary.md           
