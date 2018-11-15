@@ -1,6 +1,3 @@
----
-title: '域名监控'
----
 # 域名监控
 ## 监控项说明
 域名监控的目的是检测域名的可用性，响应时间等。
@@ -66,4 +63,4 @@ title: '域名监控'
 
 重定向次数：请求允许的最大重定向次数。
 
-![7域名采集-采集配置1](/images/7domain-caiji1.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide36.JPG)
