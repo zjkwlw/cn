@@ -13,7 +13,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app/{clientId}
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clientId**|String|True| |应用ID，创建应用时由京东云分配的16位数字ID|
-|**regionId**|String|True| |地域编码，参考《公共说明》|
+|**regionId**|String|True| |地域编码，参考OpenAPI公共说明|
 
 ## 请求参数
 无
