@@ -34,7 +34,7 @@ wget -c http://devops-sq.oss-internal.cn-east-1.jcloudcs.com/ifrit/ifrit-agent-e
 wget -c http://devops.oss-internal.cn-south-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer /export/servers/ifrit && rm -f installer
 ```
 
-在第三方主机（物理机or虚机）中，请确保主机满足两个条件（能连外网+NTP正常）
+在第三方主机（物理机or虚机）中，请确保主机满足两个条件（联通公网+NTP正常）
 
 安装Agent的方法如下：
 
