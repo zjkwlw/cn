@@ -2,7 +2,7 @@
 
 
 ## 描述
-查看某资源的监控数据
+查看某资源的监控数据，metric介绍：<a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
 ## 请求方式
 GET
@@ -29,7 +29,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
 ### TagFilter
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**key**|String|False| |Tag键|
+|**key**|String|False| | |
 |**values**|String[]|False| |Tag值|
 
 ## 返回参数

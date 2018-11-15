@@ -17,3 +17,4 @@ v1
 |**getApp**|GET|获取应用详情|
 |**getApps**|GET|获取账户下的所有应用|
 |**updateApp**|PUT|更新应用|
+
