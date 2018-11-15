@@ -1,8 +1,5 @@
 # 使用须知
 
-初次登录时，会默认创建示例服务树节点，如下：
-
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation1.png)
 
 **登录操作**
 
