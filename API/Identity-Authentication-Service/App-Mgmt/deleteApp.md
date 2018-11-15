@@ -12,18 +12,17 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app/{clientId}
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clientId**|String|True| | |
-|**regionId**|String|True| | |
+|**clientId**|String|True| |应用ID，创建应用时由京东云分配的16位数字ID|
+|**regionId**|String|True| |地域编码，参考《公共说明》|
 
 ## 请求参数
 无
-
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String| |
-|**result**|Result|创建app返回结果|
+|**result**|Result|删除应用结果，见Result|
 
 ### Result
 |名称|类型|描述|
