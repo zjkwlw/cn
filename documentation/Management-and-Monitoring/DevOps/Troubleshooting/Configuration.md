@@ -9,6 +9,7 @@
 1）构建代码 
 
 2）copy产出包到output目录 
+
 线上部署目录如下：
 ```
 /export/ 
@@ -38,4 +39,3 @@
 
 在代码跟目录下 bin/增加control 脚本，用来启动、停止、服务健康检查 
 
-可参照示例：java-demo中，src/main/scripts/control
