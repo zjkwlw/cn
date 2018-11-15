@@ -1,6 +1,3 @@
----
-title: '进程监控'
----
 # 进程监控
 ## 监控项说明
 进程监控的采集，只需要填入进程路径即可。如下为进程采集获取的监控指标及含义。
@@ -24,7 +21,7 @@ title: '进程监控'
 
 步骤一：菜单选择【智能监控】-【监控配置】，左侧服务树选择产品线或产品线以下节点，在下图所示的采集配置列表页，点击“新建”。
 
-![4进程采集-采集配置1](/images/2kuaisurumen-3caiji1.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide33.JPG)
 
 步骤二：打开如图所示的采集配置新建窗口。其中，
 
@@ -46,4 +43,4 @@ title: '进程监控'
 - 指定某特定java类进程，可填写"进程路径 参数"(中间为空格。方法：ps -elf获取的进程启动参数，空格分割，从中顺序取出1~2个字段，可唯一标识出进程即可）； 
 - jar包名，如"×××.jar", 
 ```
-![4进程采集-采集配置2](/images/4process-caiji2.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide34.JPG)
