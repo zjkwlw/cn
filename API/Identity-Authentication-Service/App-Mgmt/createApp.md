@@ -33,7 +33,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String| |
-|**result**|Result|创建应用的结果，见Result|
+|**result**|Result|返回结果|
 
 ### Result
 |名称|类型|描述|
