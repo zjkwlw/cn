@@ -22,7 +22,7 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app/{clientId}
 |名称|类型|描述|
 |---|---|---|
 |**requestId**|String| |
-|**result**|Result|删除应用结果，见Result|
+|**result**|Result|返回结果|
 
 ### Result
 |名称|类型|描述|
