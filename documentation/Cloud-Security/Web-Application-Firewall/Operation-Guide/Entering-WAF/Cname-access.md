@@ -4,7 +4,7 @@
 
 接入WAF前后的的流量逻辑如下所示。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+![https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-1.png)
 
 **接入前准备**
 
@@ -23,13 +23,13 @@
 
 **接入流程**
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-2.png)
 
 **步骤1：网站配置**
 
 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，前往**网站配置**页面，单击**添加网站**，根据提示结合业务情况进行配置。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-3.png)
 
 配置说明如下：
 
@@ -47,7 +47,7 @@
 如果该网站域名需要支持通过HTTPS协议访问，您还需要参考以下步骤在WAF控制台中为该网站域名上传相应的证书。
 
 1. 准备所需证书信息。 **说明：** 所下载的证书一般包括*.pem（证书文件）和*.key（私钥文件）两个文件。
-2. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，前往**网站配置**页面，选择网站域名，单击**协议状态**下的![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image008.png)（上传证书按钮）上传证书。分别上传**证书文件**和**证书私钥**中的指定内容。
+2. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，前往**网站配置**页面，选择网站域名，单击**协议状态**下的![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-4.png)（上传证书按钮）上传证书。分别上传**证书文件**和**证书私钥**中的指定内容。
 
 ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image009.png)
 
