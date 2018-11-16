@@ -16,7 +16,7 @@ WAF提供安全报表，供您查看和了解WAF的所有防护动作。安全�
 
    展示WAF阻断的所有Web攻击记录。您可以使用域名和攻击时间来筛选您关注的记录。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/%E5%AE%89%E5%85%A8%E6%8A%A5%E8%A1%A8-1.png)
 
 结果以统计和详情的形式展出，统计显示了安全攻击的攻击来源IP TOP5和攻击来源区域 TOP10。 详情显示了攻击IP，所属地区，最后攻击事件，总攻击次数，攻击类型和操作等详情。
 
@@ -24,18 +24,13 @@ WAF提供安全报表，供您查看和了解WAF的所有防护动作。安全�
 
 展示了WAF拦截的针对某个域名的CC攻击记录。您可以选择域名和查询时间，来查看相应记录。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/%E5%AE%89%E5%85%A8%E6%8A%A5%E8%A1%A8-1.png)
 
 页面显示了总QPS和攻击QPS的实时记录。
 
 **访问控制事件**：展示了针对某个域名的访问控制事件记录。您可以选择域名和查询时间，来查看相应记录。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/%E5%AE%89%E5%85%A8%E6%8A%A5%E8%A1%A8-1.png)
 
-**相关参考**
-
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
 
  
