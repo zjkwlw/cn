@@ -21,14 +21,16 @@
         href: Pricing/Package-Details.md
   -name： 快速入门
      items:
-       - name: 购买方式
-        href: Getting-Started/nofe.md
-       - name: 购买流程
-        href: Getting-Started/nofe1.md
-       - name: 套餐详解
-        href: Getting-Started/nofe2.md  
-       - name: 套餐详解
-        href: Getting-Started/nofe3.md  
+       - name: 添加准备
+        href: Getting-Started/Prepare.md
+       - name: 步骤1-添加网站
+        href: Getting-Started/Step1.md
+       - name: 步骤2-放行回源IP
+        href: Getting-Started/Step2.md
+       - name: 步骤3-本地验证
+        href: Getting-Started/Step3.md 
+       - name: 步骤4-修改DNS解析
+        href: Getting-Started/Step4.md
   - name: 操作指南
     items:
        -name: 防护配置
