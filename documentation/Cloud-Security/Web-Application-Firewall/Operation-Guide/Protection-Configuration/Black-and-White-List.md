@@ -14,30 +14,25 @@
 
 3. 选择要操作的域名，单击其操作列下的**防护配置**。
 
-4. 在**精确访问控制**下，开启防护，并单击**前去配置**。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+4. 在**精确访问控制**下，开启防护，并单击**前去配置**。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E9%BB%91%E7%99%BD%E5%90%8D%E5%8D%95-1.png)
 
 5. 单击**新增规则**，新增一条防护规则。
 
 6. - 白名单配置示例：使用下图配置，放行源IP为1.1.1.1的所有访问。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E9%BB%91%E7%99%BD%E5%90%8D%E5%8D%95-2.png)
 
 **说明：** 如果想完全放行这个IP的所有请求，则不要勾选**匹配动作**下方的继续执行其它防护选项。如果勾选，则来自此IP的请求会继续通过相应的规则校验。
 
 1. - 黑名单配置示例：使用下图配置，阻断源IP为1.1.1.1的所有访问。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E9%BB%91%E7%99%BD%E5%90%8D%E5%8D%95-3.png)
 
 **注意事项**
 
 - 多条防护规则之间存在匹配优先级，按照规则列表中从上到下的顺序进行匹配，通过单击右上角的**规则排序**可以调整防护规则之间的优先级。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image008.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E9%BB%91%E7%99%BD%E5%90%8D%E5%8D%95-4.png)
 
-**相关参考**
-
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
 
  
