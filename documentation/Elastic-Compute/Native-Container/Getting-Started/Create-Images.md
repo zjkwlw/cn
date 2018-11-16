@@ -11,7 +11,9 @@ Docker Hub是Docker的官方镜像仓库，拥有大量高质量镜像，可以�
 [root@docker ~]# mkdir nginx-dockerfile
 [root@docker ~]# cd nginx-dockerfile
 [root@docker nginx-dockerfile]# vi Dockerfile
-Dockerfile内容如下：
+```  
+Dockerfile内容如下：  
+```
 FROM nginx
 RUN echo ' <h1> Hello, Docker! </h1> ' > /usr/share/nginx/html/index.html
 ```  
