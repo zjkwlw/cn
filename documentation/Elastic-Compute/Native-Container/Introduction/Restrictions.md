@@ -11,12 +11,12 @@
 |  产品类型  | 原生容器实例| 所有用户|
 |  产品类型  | 原生容器Pod| 申请开通|
 |  创建原生容器用户身份限制  | 用户需完成实名认证| 无例外|
-|  创建原生容器账户金额限制  |创建按配置计费容器，账户余额需大于50元 | 工单  |
-|单地域原生容器实例配额     | 5台    |  工单   |
-|单地域云硬盘配额     |  15块   | 工单     |
-|单地域云硬盘快照配额     | 15个    | 工单    |
-| 单VPC安全组限额    |  50个   |  工单   |
-| 单地域公网IP配额    |  10个   |  工单  |
+|  创建原生容器账户金额限制  |创建按配置计费容器，账户余额需大于50元 | [工单](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)  |
+|单地域原生容器实例配额     | 5台    |  [工单](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)   |
+|单地域云硬盘配额     |  15块   |  [工单](https://ticket.jdcloud.com/myorder/submit?cateId=1&questionId=251)     |
+|单地域云硬盘快照配额     | 15个    | [工单](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)    |
+| 单VPC安全组限额    |  50个   |  [工单](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)   |
+| 单地域公网IP配额    |  10个   |  [工单](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)  |
 |原生容器系统盘类型及容量 | 高效云盘：20-100G；SSD云盘：20-100G | 不可修改 |
 |数据盘类型及容量     |  高效云盘：20-3000G；SSD云盘：20-1000G   | 不可修改    |
 |    单个安全组规则限制 |  出站与入站规则总和不超过100条   |  不可修改    |
