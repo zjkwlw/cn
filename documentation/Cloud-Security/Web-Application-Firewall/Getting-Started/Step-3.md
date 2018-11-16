@@ -22,4 +22,3 @@
 
 5、验证WAF转发正常，确认hosts绑定已经生效（域名已经本地解析为WAF IP）后，打开浏览器，输入该域名进行访问，如果WAF的配置正确，网站能够正常打开。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E6%9C%AC%E5%9C%B0%E9%AA%8C%E8%AF%81-5.png)
