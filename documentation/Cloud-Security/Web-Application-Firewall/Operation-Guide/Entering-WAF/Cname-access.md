@@ -83,7 +83,7 @@
 | **主机记录** | 填写对应的子域名（例如，[www.jdclouddemo.cn的主机记录为](http://www.jdclouddemo.cn的主机记录为)”www”，jdclouddemo.cn的主机记录为”@”）。 |
 | **记录类型** | 修改为CNAME。                                                |
 | **记录值**   | 填写Web应用防火墙已分配的CNAME地址。                           |
-| 00**TTL**    | 即域名缓存时间，可按照您的实际需求填写（一般建议设置为600秒）。   |
+| **TTL**    | 即域名缓存时间，可按照您的实际需求填写（一般建议设置为600秒）。   |
 
 ![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-7.png)
 
