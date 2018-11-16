@@ -53,7 +53,7 @@
 
 **查看域名接入状态**
 
-配置网站后，您可以登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，在**网站配置**页面查看已添加的网站域名的**DNS解析状态**，确认其是否正确接入WAF。如果DNS解析状态为异常，且收到**未检测到CNAME接入**、**无流量**的异常提示，则说明您所配置的网站域名未正确接入WAF。 <https://cloudwaf-console.jdcloud.com> ![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-6.png)
+配置网站后，您可以登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，在**网站配置**页面查看已添加的网站域名的**DNS解析状态**，确认其是否正确接入WAF。如果DNS解析状态为异常，且收到**未检测到CNAME接入**、**无流量**的异常提示，则说明您所配置的网站域名未正确接入WAF。 <https://cloudwaf-console.jdcloud.com> ![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-5.png)
 
 - DNS解析状态自动检测该网站域名的解析是否指向CNAME，并检测最近数分钟内该域名的访问流量是否经过Web应用防火墙。
 - DNS解析状态的CNAME接入检测会定时执行。如果您确认已将网站域名解析正确接入WAF的CNAME，可在一小时后再次查看DNS解析状态。
@@ -72,7 +72,7 @@
 
 **说明：** 单击**复制按钮**可将该CNAME地址复制到剪贴板。
 
-![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-7.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-6.png)
 
 以下操作步骤以京东云云解析DNS为例进行描述。如果网站使用的是其它域名提供商，参考以下操作步骤并结合实际域名管理控制台变更您的网站域名的DNS解析记录。
 
@@ -82,10 +82,10 @@
 | ------------ | ------------------------------------------------------------ |
 | **主机记录** | 填写对应的子域名（例如，[www.jdclouddemo.cn的主机记录为](http://www.jdclouddemo.cn的主机记录为)”www”，jdclouddemo.cn的主机记录为”@”）。 |
 | **记录类型** | 修改为CNAME。                                                |
-| **记录值**   | 填写Web应用防火墙已分配的CNAME地址。                         |
-| 00**TTL**    | 即域名缓存时间，可按照您的实际需求填写（一般建议设置为600秒）。 |
+| **记录值**   | 填写Web应用防火墙已分配的CNAME地址。                           |
+| 00**TTL**    | 即域名缓存时间，可按照您的实际需求填写（一般建议设置为600秒）。   |
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image015.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-7.png)
 
 1. 填写完成后，单击**确定**，完成解析记录的变更。
 
