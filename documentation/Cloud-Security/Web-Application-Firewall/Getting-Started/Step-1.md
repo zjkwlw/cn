@@ -4,7 +4,7 @@
 
 下图介绍了添加过程，具体操作详解见说明表：
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/WAF-tianjiawangzhan.png)
 
  
 
