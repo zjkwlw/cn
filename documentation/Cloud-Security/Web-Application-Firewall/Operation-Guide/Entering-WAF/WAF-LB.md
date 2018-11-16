@@ -10,6 +10,6 @@
 
 否则，配置完成
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/WAF%E6%BA%90%E7%AB%99%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1-1.png)
 
 添加源站IP后，您需要指定负载均衡算法：IP hash、轮询。
