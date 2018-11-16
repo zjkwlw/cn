@@ -59,11 +59,11 @@
             href: Operation-Guide/Instance/Start-Pod.md
           - name: 停止实例
             href: Operation-Guide/Instance/Stop-Instance.md
-          - name: 停止实例
+          - name: 停止Pod
             href: Operation-Guide/Instance/Stop-Pod.md
           - name: 删除实例
             href: Operation-Guide/Instance/Delete-Instance.md
-          - name: 删除实例
+          - name: 删除Pod
             href: Operation-Guide/Instance/Delete-Pod.md
           - name: 日志
             href: Operation-Guide/Instance/Log.md
