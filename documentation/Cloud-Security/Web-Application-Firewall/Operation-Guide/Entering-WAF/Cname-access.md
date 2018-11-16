@@ -4,7 +4,7 @@
 
 接入WAF前后的的流量逻辑如下所示。
 
-![https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-1.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-1.png)
 
 **接入前准备**
 
@@ -49,11 +49,11 @@
 1. 准备所需证书信息。 **说明：** 所下载的证书一般包括*.pem（证书文件）和*.key（私钥文件）两个文件。
 2. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，前往**网站配置**页面，选择网站域名，单击**协议状态**下的![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-4.png)（上传证书按钮）上传证书。分别上传**证书文件**和**证书私钥**中的指定内容。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image009.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-5.png)
 
 **查看域名接入状态**
 
-配置网站后，您可以登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，在**网站配置**页面查看已添加的网站域名的**DNS解析状态**，确认其是否正确接入WAF。如果DNS解析状态为异常，且收到**未检测到CNAME接入**、**无流量**的异常提示，则说明您所配置的网站域名未正确接入WAF。 <https://cloudwaf-console.jdcloud.com> ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image011.png)
+配置网站后，您可以登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)，在**网站配置**页面查看已添加的网站域名的**DNS解析状态**，确认其是否正确接入WAF。如果DNS解析状态为异常，且收到**未检测到CNAME接入**、**无流量**的异常提示，则说明您所配置的网站域名未正确接入WAF。 <https://cloudwaf-console.jdcloud.com> ![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-6.png)
 
 - DNS解析状态自动检测该网站域名的解析是否指向CNAME，并检测最近数分钟内该域名的访问流量是否经过Web应用防火墙。
 - DNS解析状态的CNAME接入检测会定时执行。如果您确认已将网站域名解析正确接入WAF的CNAME，可在一小时后再次查看DNS解析状态。
@@ -72,7 +72,7 @@
 
 **说明：** 单击**复制按钮**可将该CNAME地址复制到剪贴板。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image013.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/cname%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97-7.png)
 
 以下操作步骤以京东云云解析DNS为例进行描述。如果网站使用的是其它域名提供商，参考以下操作步骤并结合实际域名管理控制台变更您的网站域名的DNS解析记录。
 
@@ -103,10 +103,8 @@
 
 **说明：** 如果您采用A记录方式将网站域名接入WAF防护，WAF将无法进行故障集群调度和故障bypass操作。
 
-**相关参考**
 
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
+
+
 
  
