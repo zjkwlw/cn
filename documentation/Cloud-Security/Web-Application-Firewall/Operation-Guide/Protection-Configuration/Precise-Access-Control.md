@@ -1,14 +1,14 @@
 ## **精准访问控制**
 
-精准访问控制支持自定义访问规则，根据客户端IP、请求URL、以及常见的请求头字段过滤访问请求。
+  精准访问控制支持自定义访问规则，根据客户端IP、请求URL、以及常见的请求头字段过滤访问请求。
 
 对常见的http字段进行条件组合，支持业务场景的定制化防护。
 
 ### **功能描述**
 
-精准访问控制允许您设置访问控制规则，对常见的HTTP字段（如IP、URL、Host、参数等）进行条件组合，用来筛选访问请求，并对命中条件的请求设置放行、阻断、或告警操作。精确访问控制支持业务场景定制化的防护策略，可用于盗链防护、网站管理后台保护等。
+  精准访问控制允许您设置访问控制规则，对常见的HTTP字段（如IP、URL、Host、参数等）进行条件组合，用来筛选访问请求，并对命中条件的请求设置放行、阻断、或告警操作。精确访问控制支持业务场景定制化的防护策略，可用于盗链防护、网站管理后台保护等。
 
-精准访问控制规则由匹配条件与匹配动作构成。在创建规则时，您通过设置匹配字段、逻辑符和相应的匹配内容定义匹配条件，并针对符合匹配条件规则的访问请求定义相应的动作。
+  精准访问控制规则由匹配条件与匹配动作构成。在创建规则时，您通过设置匹配字段、逻辑符和相应的匹配内容定义匹配条件，并针对符合匹配条件规则的访问请求定义相应的动作。
 
 ### **匹配条件**
 
@@ -36,8 +36,7 @@
 
 参照以下操作步骤，为已防护的域名配置精准访问控制规则：
 
-**说明：** 执行以下操作前，请确保已将网站接入WAF进行防护。具体操作请参考[CNAME接入指南](file:///E:\WMM\工作总结\WAF文档\云WAF\Introduction\接入WAF\CNAME接入指南.md%23)。
-
+**说明：** 执行以下操作前，请确保已将网站接入WAF进行防护。具体操作请参考CNAME接入指南
 1. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)。
 
 2. 前往**网站配置**页面。
@@ -46,9 +45,9 @@
 
 4. 在**精准访问控制**下，开启防护，并单击**前去配置**。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
 
-5. 单击**新增规则**，设置规则的匹配条件和相应的匹配动作，完成后单击**确定**。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png)
+5. 单击**新增规则**，设置规则的匹配条件和相应的匹配动作，完成后单击**确定**。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-1.png)
 
-6. 成功创建规则后，您可以选择执行以下操作：![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png)
+6. 成功创建规则后，您可以选择执行以下操作：![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-2.png)
 
 7. - **编辑**规则内容或**删除**规则。
    - 如果有多条规则，单击**规则排序**，并操作**上移**、**下移**、**置顶**、**置底**调整规则的匹配顺序。
@@ -65,11 +64,11 @@
 
 - - 通过设置以下精准访问控制规则，阻断来自1.1.1.1的所有访问请求。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image008.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-3.png)
 
 - - 通过设置以下精准访问控制规则，放行来自2.2.2.2的所有访问请求。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image010.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-4.png)
 
 **说明：** 应用此白名单配置规则时，请不要勾选**继续执行Web应用攻击防护**和**继续执行CC应用攻击防护**等选项，不然访问请求仍可能被WAF的其它防护功能拦截。
 
@@ -77,13 +76,13 @@
 
 如果您遇到有大量IP在刷某个特定且不存在的URL，您可以通过配置以下精准访问控制规则直接阻断所有该类请求，降低源站服务器的资源消耗。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image012.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-5.png)
 
 - **防盗链**
 
 通过配置Referer匹配字段的访问控制规则，您可以阻断特定网站的盗链。例如，您发现abc.blog.sina.com大量盗用本站的图片，您可以配置以下精准访问控制规则阻断相关访问请求。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image014.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-6.png)
 
 **支持的匹配字段**
 
@@ -99,10 +98,6 @@
 | Post-Body    | 访问请求的响应内容信息。                                 | - 包含    - 不包含    - 等于    - 不等于                     |
 | Referer      | 访问请求的来源网址，即该访问请求是从哪个页面跳转产生的。 | - 包含    - 不包含    - 等于    - 不等于    - 长度小于    - 长度等于    - 长度大于    - 不存在 |
 
-**相关参考**
 
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
 
  
