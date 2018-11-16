@@ -19,13 +19,13 @@
 
 1. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)。
 2. 前往 **网站配置**页面。
-3. 选择已添加的网站域名，在**日志检索**栏，单击开启日志检索功能。 **说明：** 您也可以在此页面停用日志检索。如果您停用日志检索功能，则停用期间的访问请求日志不会被记录；即使重新开启日志检索功能，您也无法查询到停用期间的访问请求日志。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+3. 选择已添加的网站域名，在**日志检索**栏，单击开启日志检索功能。 **说明：** 您也可以在此页面停用日志检索。如果您停用日志检索功能，则停用期间的访问请求日志不会被记录；即使重新开启日志检索功能，您也无法查询到停用期间的访问请求日志。![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/%E5%85%A8%E9%87%8F%E6%97%A5%E5%BF%97%E6%9F%A5%E8%AF%A2.png)
 4. 前往**全量日志**页面。
 5. 选择**域名**，设置**查询时间**，单击**查询按钮即可完成**。 
 
 **说明：** 全量日志功能最多记录最近一个月内的访问日志，数据具有一定的延迟性。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/%E5%85%A8%E9%87%8F%E6%97%A5%E5%BF%97%E6%9F%A5%E8%AF%A2-2.png)
 
 ### **高级搜索**：
 
@@ -40,7 +40,7 @@
 
 1. 查看日志检索结果。
 
-2. 在**访问日志**列表中，查看符合检索条件的访问请求记录。例如，被Web攻击防护规则拦截的访问请求记录如下图所示。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png)**关于源站响应信息中的参数含义说明**
+2. 在**访问日志**列表中，查看符合检索条件的访问请求记录。例如，被Web攻击防护规则拦截的访问请求记录如下图所示。![img](https://github.com/jdcloudcom/cn/blob/edit/waf-img/%E5%85%A8%E9%87%8F%E6%97%A5%E5%BF%97%E6%9F%A5%E8%AF%A2-3.png)**关于源站响应信息中的参数含义说明**
    - - **Status**：指WAF返回给客户端的响应状态信息，403表示服务器收到请求但拒绝提供服务。
      - **Upstream_ip**：指该请求所对应的源站IP。
      - **Upstream_time**：指源站响应WAF请求的时间。如果返回“-”，代表响应超时。
@@ -64,10 +64,5 @@
 | upstream_time   | 来源IP所属地区      | 访问来源IP所属地区。                                         |
 | req_content     | 请求URI             | 请求URI                                                      |
 
-**相关参考**
-
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
 
  
