@@ -11,12 +11,7 @@
 1. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)。
 2. 前往**网站配置**页面。
 3. 选择要操作的域名，单击其操作列下的**防护配置**。
-4. 在**防爬虫**下，启用防护 **说明：** 如果您不想使用防爬虫功能，您可以在此页面关闭防护。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+4. 在**防爬虫**下，启用防护 **说明：** 如果您不想使用防爬虫功能，您可以在此页面关闭防护。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E9%98%B2%E7%88%AC%E8%99%AB-1.png)
 
-**相关参考**
-
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
 
  
