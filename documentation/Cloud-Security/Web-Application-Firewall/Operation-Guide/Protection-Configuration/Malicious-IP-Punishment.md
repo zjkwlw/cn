@@ -21,16 +21,11 @@
 
 **说明：** 如果使用中出现异常，可以在此页面关闭防护。
 
-![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E6%81%B6%E6%84%8FIP%E6%83%A9%E7%BD%9A-1.png)
 
 **测试示例**
 
 启用恶意IP惩罚后，当您的网站遭受扫描器扫描或黑客持续攻击时，WAF在很短的时间内就会识别并阻断攻击IP的所有访问行为，极大的增加黑客的攻击成本。
 
-**相关参考**
-
-- [产品简介](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [产品定价](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [常见问题](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
 
  
