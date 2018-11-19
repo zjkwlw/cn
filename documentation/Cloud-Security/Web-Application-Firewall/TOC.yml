@@ -1,6 +1,6 @@
-  name: Web 应用防火墙
-  href: 
-  items:
+name: Web 应用防火墙
+href:
+items:
   - name: 产品简介
     items:
       - name: 产品概述
@@ -9,8 +9,8 @@
         href: Introduction/Benefits.md
       - name: 产品功能
         href: Introduction/Functional-Description.md
-      - name: 应用场景 
-        href: Introduction/Scene.md    
+      - name: 应用场景
+        href: Introduction/Scene.md
   - name:  产品定价
     items:
       - name: 购买方式
@@ -81,3 +81,4 @@
     items:
 - name: 文档历史记录
       href: Related-Resources/Document-History.md     
+
