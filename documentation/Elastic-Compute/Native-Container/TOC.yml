@@ -51,7 +51,7 @@
             href: Operation-Guide/Instance/Life-Cycle.md
           - name: 创建实例和Pod
             href: Operation-Guide/Instance/Create-Instance.md
-          - name: 登录实例
+          - name: 登录实例和Pod
             href: Operation-Guide/Instance/Login-Instance.md
           - name: 启动实例
             href: Operation-Guide/Instance/Start-Instance.md
