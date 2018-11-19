@@ -41,13 +41,13 @@
         href: Getting-Started/Create-Pod.md
   - name: 操作指南
     items:
-      - name: 容器实例
+      - name: 原生容器
         items:
-          - name: 容器实例概述
+          - name: 原生容器概述
             href: Operation-Guide/Instance/Container-Instance-Overview.md
-          - name: 实例配置推荐
+          - name: 原生容器推荐
             href: Operation-Guide/Instance/Recommend-Instance.md
-          - name: 实例生命周期
+          - name: 原生容器生命周期
             href: Operation-Guide/Instance/Life-Cycle.md
           - name: 创建实例和Pod
             href: Operation-Guide/Instance/Create-Instance.md
@@ -79,7 +79,7 @@
             href: Operation-Guide/Certified-Repository/Describe-Repository.md
           - name: 删除仓库认证信息
             href: Operation-Guide/Certified-Repository/Delete-Repository.md
-      - name: 监控预报警
+      - name: 监控与报警
         items:
           - name: 监控与报警概述
             href: Operation-Guide/Monitoring-Alarm/Overview.md
