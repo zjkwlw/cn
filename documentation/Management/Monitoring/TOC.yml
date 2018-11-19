@@ -70,7 +70,9 @@ items:
         - name: 站点监控限制与配额
           href: Operation-Guide/site-monitoring/quota-restrictions.md
         - name: 站点监控任务管理
-          href: Operation-Guide/site-monitoring/site-monitoring-management.md    
+          href: Operation-Guide/site-monitoring/site-monitoring-management.md
+        - name: 查看站点监控图
+          href: Operation-Guide/site-monitoring/site-monitoring-view.md
         - name: 设置报警规则
           href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
     - name: 自定义监控 
