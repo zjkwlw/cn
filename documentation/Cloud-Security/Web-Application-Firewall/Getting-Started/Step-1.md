@@ -4,7 +4,7 @@
 
 下图介绍了添加过程，具体操作详解见说明表：
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/image/waf-img/WAF-tianjiawangzhan.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/WAF-tianjiawangzhan.png)
 
  
 
