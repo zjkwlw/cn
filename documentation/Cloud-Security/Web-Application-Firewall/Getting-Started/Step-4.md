@@ -4,6 +4,8 @@
 
 WAF生成的cname值位于图片中的位置：
 
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8-4%E4%BF%AE%E6%94%B9DNS%E8%A7%A3%E6%9E%90.png)
+
 修改解析记录需在购买域名时的域名解析服务商侧进行。
 
  
