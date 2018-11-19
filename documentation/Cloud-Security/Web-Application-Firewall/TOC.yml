@@ -24,13 +24,13 @@
       - name: 添加准备
         href: Getting-Started/Prepare.md
       - name: 步骤1-添加网站
-        href: Getting-Started/Step1.md
+        href: Getting-Started/Step-1.md
       - name: 步骤2-放行回源IP
-        href: Getting-Started/Step2.md
+        href: Getting-Started/Step-2.md
       - name: 步骤3-本地验证
-        href: Getting-Started/Step3.md 
+        href: Getting-Started/Step-3.md 
       - name: 步骤4-修改DNS解析
-        href: Getting-Started/Step4.md
+        href: Getting-Started/Step-4.md
   - name: 操作指南
     items:
       -name: 防护配置
