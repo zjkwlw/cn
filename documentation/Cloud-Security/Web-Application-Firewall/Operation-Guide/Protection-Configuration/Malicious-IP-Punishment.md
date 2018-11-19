@@ -21,7 +21,7 @@
 
 **说明：** 如果使用中出现异常，可以在此页面关闭防护。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E6%81%B6%E6%84%8FIP%E6%83%A9%E7%BD%9A-1.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/%E6%81%B6%E6%84%8FIP%E6%83%A9%E7%BD%9A-1.png)
 
 **测试示例**
 

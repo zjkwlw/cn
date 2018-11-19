@@ -23,7 +23,7 @@ CC安全防护可以拦截机器恶意CC攻击，并提供不同模式的防护�
 3. 选择要操作的域名，单击其操作列下的**防护配置**。
 
 4. 在**CC安全防护**下，开启防护，并选择相应防护模式： 
-         **说明：** 如果您需要关闭防护功能，可在此处关闭防护。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/cc-web1.png)
+         **说明：** 如果您需要关闭防护功能，可在此处关闭防护。![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/cc-web1.png)
 
 5. - **正常**：默认使用正常模式。针对特别异常的请求进行拦截。建议您在网站无明显流量异常时采用此模式。
    - **攻击紧急**：当出现网站响应缓慢，流量、CPU、内存等指标异常时，可以选择攻击紧急模式。
