@@ -6,7 +6,7 @@
 
 参照以下步骤，配置CC安全防护模式：
 
-**说明：** 执行以下操作前，请确保已将网站接入WAF进行防护。具体操作请参考[CNAME接入指南](file:///E:\WMM\工作总结\WAF文档\云WAF\Introduction\接入WAF\CNAME接入指南.md%23)。
+**说明：** 执行以下操作前，请确保已将网站接入WAF进行防护。具体操作请参考CNAME接入指南。
 
 1. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)。
 2. 前往**网站配置**页面。
