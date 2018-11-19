@@ -43,11 +43,11 @@
 
 3. 选择要操作的域名，单击其操作列下的**防护配置**。
 
-4. 在**精准访问控制**下，开启防护，并单击**前去配置**。![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+4. 在**精准访问控制**下，开启防护，并单击**前去配置**。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-1.png)
 
-5. 单击**新增规则**，设置规则的匹配条件和相应的匹配动作，完成后单击**确定**。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-1.png)
+5. 单击**新增规则**，设置规则的匹配条件和相应的匹配动作，完成后单击**确定**。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-2.png)
 
-6. 成功创建规则后，您可以选择执行以下操作：![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-2.png)
+6. 成功创建规则后，您可以选择执行以下操作：![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-3.png)
 
 7. - **编辑**规则内容或**删除**规则。
    - 如果有多条规则，单击**规则排序**，并操作**上移**、**下移**、**置顶**、**置底**调整规则的匹配顺序。
@@ -64,11 +64,11 @@
 
 - - 通过设置以下精准访问控制规则，阻断来自1.1.1.1的所有访问请求。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-3.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-4.png)
 
 - - 通过设置以下精准访问控制规则，放行来自2.2.2.2的所有访问请求。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-4.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-5.png)
 
 **说明：** 应用此白名单配置规则时，请不要勾选**继续执行Web应用攻击防护**和**继续执行CC应用攻击防护**等选项，不然访问请求仍可能被WAF的其它防护功能拦截。
 
@@ -76,13 +76,13 @@
 
 如果您遇到有大量IP在刷某个特定且不存在的URL，您可以通过配置以下精准访问控制规则直接阻断所有该类请求，降低源站服务器的资源消耗。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-5.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-6.png)
 
 - **防盗链**
 
 通过配置Referer匹配字段的访问控制规则，您可以阻断特定网站的盗链。例如，您发现abc.blog.sina.com大量盗用本站的图片，您可以配置以下精准访问控制规则阻断相关访问请求。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-6.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E7%B2%BE%E5%87%86%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-7.png)
 
 **支持的匹配字段**
 
