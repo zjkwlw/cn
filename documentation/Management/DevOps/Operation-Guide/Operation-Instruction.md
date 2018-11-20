@@ -3,7 +3,7 @@
 
 **登录操作**
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation2.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation32.png)
 
 提供两种方式登录方式：
 
