@@ -45,8 +45,8 @@
         href: Getting-Started/Create-Compilejob.md
       - name: 配置线上发布
         href: Getting-Started/Config-Deployment.md
-      - name: 查看基础监控
-        href: Getting-Started/Base-Monitor.md
+      - name: 接入智能监控
+        href: Getting-Started/Quick-start-monitoring.md
   - name: 操作指南
     items:
       - name: 使用须知
