@@ -11,7 +11,7 @@ CC防护规则属于网站类防护的规则，需要先切换网站类转发配
 
 1. 单击 **防护规则** ，展开防护规则配置。
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2004.png)
- 
+
 2. 配置全局CC防护策略。
  ![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/CC%20rules%2001.png)
 以下是规则解释：
@@ -33,4 +33,4 @@ CC防护规则属于网站类防护的规则，需要先切换网站类转发配
 
 5. 配置限速
    - 高防支持对源IP访问速率的限制。单击限速规则中的“编辑”按钮，设置即可。最小时间支持设置到秒。
-
+ 
