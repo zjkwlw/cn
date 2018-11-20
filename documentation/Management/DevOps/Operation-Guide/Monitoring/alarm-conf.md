@@ -1,6 +1,3 @@
----
-title: '报警配置'
----
 # 报警配置
 
 用户不可能时时刻刻关注每一个监控项的数据变化情况，因此需通过配置有效、合理的报警策略，在机器、服务等发生异常、错误时，让系统自动给用户发送报警通知。
@@ -34,7 +31,7 @@ title: '报警配置'
 
 **报警规则**：在此配置报警策略，包括监控项、生效分组，和具体的规则。表单支持配置阈值和无数据报警。可添加多个报警规则，设置且（同时满足才报警）、或（满足其一即报警）的依赖关系。
 
-![11报警配置-1首页](/images/11alarm-1.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide47.jpg)
 
 报警间隔：两次报警通知之间的间隔时间
 
@@ -50,7 +47,7 @@ title: '报警配置'
 
 接收恢复通知：报警事件恢复时，是否发送通知。
 
-![11报警配置-2高级配置](/images/11alarm-2.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide48.jpg)
 
 报警方式：选择报警通知的方式，可多选，其中语音报警默认绑定发送短信。
 
@@ -60,7 +57,7 @@ title: '报警配置'
 
 语音生效时间：配置语音报警的生效时间段。
 
-![11报警配置-3下一步](/images/11alarm-3.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide49.jpg)
 
 ## JSON配置用例
 
