@@ -55,7 +55,7 @@ tag可以理解为标签，或属性，比如微信里给微信好友添加标�
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide56.JPG)
 
-<img src="https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide57.jpg" width="70%" height="70%" />
+<img src="https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide57.jpg" width="50%" height="50%" />
 
 （3）自定义监控，可在脚本中定义输出的监控项及其tag，具体配置方式可参考自定义监控的采集配置。
 
