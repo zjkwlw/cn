@@ -9,7 +9,7 @@ items:
       href: Introduction/Security-Strategy.md
 - name: 安全合规和隐私保护
   href: Security-and-Privacy/Security-Compliance.md    
-- name: 安全责任共但
+- name: 安全责任共担
   href: Responsibility/Responsibility.md
 - name: 基础架构安全
   items:
