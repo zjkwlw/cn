@@ -29,7 +29,7 @@
 
 例如：按应用和分组维度，对该应用下的cpu.idle进行聚合，可以查看该应用下或某一分组下，cpu.idle的最小值。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide37.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide37.jpg)
 
 **（2）二次聚合**
 
@@ -49,4 +49,4 @@ cycle：聚合周期必须与参与计算的监控指标的采集周期完全一
 
 items：以数组的形式填写参与运算的监控指标。ns内需要填写监控指标来自哪个APP。metric内填写监控项，tag不要填在此处。defaultValue是当采集时没有数据，给予一个默认值，默认为0。alias是为此算子命名一个别名，方便下面数学公式计算，t0,t1,t2......即可。useDefaultValue的值为true时，表示使用defaultValue，当为false时，相反。filterTags中填入监控指标的key和value，格式参考模板。nst表示ns的类型，为APP，无需修改。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide38.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide38.JPG)
