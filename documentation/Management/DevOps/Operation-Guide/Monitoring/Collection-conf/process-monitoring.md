@@ -21,7 +21,7 @@
 
 步骤一：菜单选择【智能监控】-【监控配置】，左侧服务树选择产品线或产品线以下节点，在下图所示的采集配置列表页，点击“新建”。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide33.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide33.JPG)
 
 步骤二：打开如图所示的采集配置新建窗口。其中，
 
@@ -43,4 +43,4 @@
 - 指定某特定java类进程，可填写"进程路径 参数"(中间为空格。方法：ps -elf获取的进程启动参数，空格分割，从中顺序取出1~2个字段，可唯一标识出进程即可）； 
 - jar包名，如"×××.jar", 
 ```
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide34.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide34.jpg)
