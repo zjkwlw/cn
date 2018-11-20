@@ -1,6 +1,3 @@
----
-title: '数据可视化'
----
 # 数据可视化
 
 数据可视化的目的是让用户直观地在图表中看到所要监控的数据，我们提供的数据可视化功能包括趋势图、仪表盘和单IP搜图。
@@ -44,19 +41,19 @@ title: '数据可视化'
 
 点击“新建dashboard”菜单，首先创建仪表盘菜单。
 
-![9仪表盘-1首页](/images/9dashboard-1.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide39.JPG)
 
 点击“添加一级菜单”，首先创建一级目录，可理解为主要层级或分类，然后根据需求继续添加二级、三级菜单，仪表盘允许添加最多三级菜单。点击菜单后的☆，可将其设置为默认菜单，展示在当前服务树节点的仪表盘首页。点击编辑（返回图表）按钮，返回图表展示页。
 
-![9仪表盘-2菜单](/images/9dashboard-2.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide40.JPG)
 
 步骤二：点击图中的“设置”按钮，在下拉框中选择“添加图表”-“趋势图”，打开添加趋势图配置窗口。
 
-![9仪表盘-3配置图表](/images/9dashboard-3.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide41.JPG)
 
 产品线和产品线以下节点，支持通过表单和JSON两种方式配置仪表盘。可按如图所示步骤配置想要查看的监控项。
 
-![9仪表盘-4配置图表说明](/images/9dashboard-4.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide42.JPG)
 
 
 **(2) 趋势图**
@@ -71,11 +68,11 @@ title: '数据可视化'
 
 （2）问题排查。
 
-![9趋势图](/images/9qushitu.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide43.JPG)
 
 
 **(3) 单IP搜图**
 
 菜单选择【智能监控】-【数据可视化】-【单IP搜图】，进入如下页面。在搜索框中输入IP，点击搜索按钮，即可查看对应机器、实例的监控项与趋势图。支持切换所属产品线（有些机器可能跨产品线），便于用户根据机器IP查看其各类监控数据，查找定位问题。
 
-![9单IP搜图](/images/9singleIP.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide44.jpg)
