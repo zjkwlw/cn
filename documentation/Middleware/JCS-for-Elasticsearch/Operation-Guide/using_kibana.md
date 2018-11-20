@@ -46,9 +46,9 @@ e)	点击“Apply changes   “
 现在可以看到account holder的age环绕在balance range中
 
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_8.png)
-点击“Save“，输入”Pie Example “进行保存
+点击“Save“，输入”Pie Example “进行保存。
+也可以根据您的需要创建其他类型的可视化，如Coordinate Map,Markdown,Vertical Bar。
 
-     之后，可以尝试创建其他可视化类型。如Coordinate Map，Markdown，Vertical Bar
 ### 结合仪表盘
 点击kibana页面左侧导航栏的“Dashboard”，点击“Add“展示所有已保存的可视化图表，然后分别点击已经保存的可视化数据，然后点击小的向上箭头来合并可视化list
 然后可以进行保存和生成链接share
