@@ -19,7 +19,7 @@
 
 在使用智能监控之前，首先应确保ifrit-agent部署成功 。部署后，可按以下方式查看agent状态：选择服务树产品线及以下节点， 在“主机列表”页，可查看机器的agent状态。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started9.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started9.jpg)
 
 **步骤二：采集配置**
 
@@ -33,7 +33,7 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 
 首先选择监控类型，然后设置采集任务的名称，范围，具体节点，采集周期，及其他监控所必填的内容。此处可根据需求和推荐，添加多个采集任务，逐步完善采集配置。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started11.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started11.jpg)
 
 **步骤三：趋势图查看**
 
@@ -41,14 +41,14 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 
 **入口一**：在步骤二中的采集配置页添加任务后，可在采集配置任务列表的“操作”列，点击“查图”进入如下查图页，即可查看当前采集任务的趋势图。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started12.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started12.jpg)
 
 **入口二**：在左侧服务树选择已添加采集配置任务的节点，菜单选择【智能监控】-【数据可视化】-【趋势图】，进入如下趋势图页面。
 
 在左侧窗口选择要查看趋势图的NS（监控对象），然后在右侧窗口选择监控类型--监控项，勾选后即可在下方看到对应的趋势图。
 在该页面，可切换服务树节点，NS，监控类型及监控项，查看所有采集配置的趋势图。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started13.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started13.jpg)
 
 **步骤四：报警组和值班组配置**
 
@@ -60,11 +60,11 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 
 全局报警组：在当前产品线范围内的任何节点都可见可用。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started14.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started14.jpg)
 
 点击“新建”打开创建报警组窗口，如图，设置报警组名称并添加联系人即可，支持通过erp,手机号，邮箱三种方式添加联系人。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started15.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started15.jpg)
 
 (2) 添加值班组：在系统和产品线节点可创建值班组，且每个节点仅可创建一个值班组。值班组的一般定义是接收语音报警的值班人员，减少对非值班人员的报警影响。
 
@@ -80,7 +80,7 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 
 报警规则：支持添加多个报警规则，并设置且、或的依赖关系。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started16.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started16.jpg)
 
 报警间隔：设置报警通知发送的间隔时间；
 
@@ -95,7 +95,7 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 
 点击“下一步”，添加报警联系人组，即完成报警配置。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started17.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started17.jpg)
 
 **步骤六：报警管理**
 
@@ -109,7 +109,7 @@ PS：在此添加除机器监控外的其他采集任务，机器监控的数据
 
 按规则屏蔽：针对某一屏蔽规则，可设置屏蔽某些NS的报警
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started19.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started19.jpg)
 
 **步骤七：配置仪表盘**
 
