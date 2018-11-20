@@ -29,12 +29,6 @@
      	<td> 可用区B<br>cn-north-1b</td>
 	   	<td> 北京</td>
    </tr>
-   <tr>
-     	<td>华东-宿迁<br>cn-east-1</td>
-     	<td>可用区A<br>cn-east-1a</td>
-	   	<td>宿迁</td>
-   </tr>
-   </tr>
     	<tr>
      	<td rowspan="2">华东-上海<br>cn-east-2</td>
      	<td>可用区A<br>cn-east-2a</td>
