@@ -15,7 +15,7 @@
 单击kibana页面左侧导航栏的“Visualize”，进行数据的可视化。
 首先，单击屏幕中央的“Create a visualization”
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_3.png)
-然后，选择pie
+然后，选择pie。
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_4.png)
 可以从已经保存的搜索结果中创建可视化，也可以重新输入新的检索规则，若要重新输入检索规则，需要指定一个索引模式。例如，选择索引模式为“ba*”，进行数据可视化。
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_5.png)
