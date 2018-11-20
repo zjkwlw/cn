@@ -65,8 +65,32 @@
         href: Operation-Guide/CD.md
       - name: 编排上线
         href: Operation-Guide/Arrange-Online.md
-      - name: 智能监控
-        href: Operation-Guide/Monitoring.md
+      - name: 采集配置
+        items:
+          - name: 机器监控
+            href: Operation-Guide/Operation-Instruction.md
+          - name: 端口监控
+            href: Operation-Guide/Operation-Instruction.md
+          - name: 进程监控
+            href: Operation-Guide/Operation-Instruction.md
+          - name: 日志监控
+            href: Operation-Guide/Operation-Instruction.md
+          - name: 域名监控
+            href: Operation-Guide/Operation-Instruction.md
+          - name: 自定义监控
+            href: Operation-Guide/Operation-Instruction.md
+      - name: 聚合配置
+        href: Operation-Guide/converge.md
+      - name: 数据可视化
+        href: Operation-Guide/data-visualization.md
+      - name: 报警组&值班组
+        href: Operation-Guide/alarm-contacts.md
+      - name: 报警配置
+        href: Operation-Guide/alarm-conf.md
+      - name: 报警管理
+        href: Operation-Guide/alarm-management.md
+      - name: Tags使用说明
+        href: Operation-Guide/tags.md
       - name: 镜像广场
         href: Operation-Guide/Image-Packaging.md
       - name: 脚本管理
