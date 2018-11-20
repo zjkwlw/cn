@@ -5,8 +5,7 @@
 
 **注册京东云账户**
 若您已有京东云账号，可跳过本步骤进行后续设置。
-若您还未注册京东云账号，可在京东云官网进行注册，请参考注册京东云。当您完成账号注册后，需要您激活账号。
-
+若您还未注册京东云账号，可在京东云官网进行注册，请参考[注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)、[登录京东云](https://console.jdcloud.com/overview)。  
 **认证账号**
 
 为了正常使用原生容器，您还需要对您的账号进行认证。

@@ -1,4 +1,4 @@
-name: 安全信息
+name: 云安全白皮书
 href: 
 items:
 - name: 京东云安全概述
@@ -9,7 +9,7 @@ items:
       href: Introduction/Security-Strategy.md
 - name: 安全合规和隐私保护
   href: Security-and-Privacy/Security-Compliance.md    
-- name: 安全责任共但
+- name: 安全责任共担
   href: Responsibility/Responsibility.md
 - name: 基础架构安全
   items:
