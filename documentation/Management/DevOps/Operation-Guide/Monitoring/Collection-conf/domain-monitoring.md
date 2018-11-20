@@ -63,4 +63,4 @@
 
 重定向次数：请求允许的最大重定向次数。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide36.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide36.jpg)
