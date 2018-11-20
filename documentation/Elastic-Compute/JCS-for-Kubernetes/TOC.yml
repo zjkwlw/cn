@@ -13,6 +13,8 @@
         href: Introduction/Features.md
       - name: 产品规格
         href: Introduction/Specifications.md
+      - name: 地域及可用区
+        href: Introduction/Regions-and-AvailabilityZones.md
       - name: 限制说明
         href: Introduction/Restrictions.md
       - name: 应用场景 

@@ -11,6 +11,8 @@
         href: Introduction/Benefits.md
       - name: 产品功能
         href: Introduction/Features.md
+      - name: 地域及可用区
+        href: Introduction/Regions-and-AvailabilityZones.md
       - name: 限制说明
         href: Introduction/Restrictions.md
       - name: 应用场景 
@@ -49,22 +51,30 @@
             href: Operation-Guide/Instance/Recommend-Instance.md
           - name: 原生容器生命周期
             href: Operation-Guide/Instance/Life-Cycle.md
-          - name: 创建实例和Pod
-            href: Operation-Guide/Instance/Create-Instance.md
-          - name: 登录实例和Pod
-            href: Operation-Guide/Instance/Login-Instance.md
-          - name: 启动实例
-            href: Operation-Guide/Instance/Start-Instance.md
-          - name: 启动Pod
-            href: Operation-Guide/Instance/Start-Pod.md
-          - name: 停止实例
-            href: Operation-Guide/Instance/Stop-Instance.md
-          - name: 停止Pod
-            href: Operation-Guide/Instance/Stop-Pod.md
-          - name: 删除实例
-            href: Operation-Guide/Instance/Delete-Instance.md
-          - name: 删除Pod
-            href: Operation-Guide/Instance/Delete-Pod.md
+          - name: 实例
+            items:  
+              - name: 创建实例
+                href: Operation-Guide/Instance/Create-Instance.md
+              - name: 登录实例
+                href: Operation-Guide/Instance/Login-Instance.md
+              - name: 启动实例
+                href: Operation-Guide/Instance/Start-Instance.md
+              - name: 停止实例
+                href: Operation-Guide/Instance/Stop-Instance.md
+              - name: 删除实例
+                href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Pod
+            items:  
+              - name: 创建Pod
+                href: Operation-Guide/Instance/Create-Pod.md
+              - name: 登录Pod
+                href: Operation-Guide/Instance/Login-Pod.md
+              - name: 启动Pod
+                href: Operation-Guide/Instance/Start-Pod.md
+              - name: 停止Pod
+                href: Operation-Guide/Instance/Stop-Pod.md
+              - name: 删除实例
+                href: Operation-Guide/Instance/Delete-Pod.md
           - name: 日志
             href: Operation-Guide/Instance/Log.md
       - name: 网络
