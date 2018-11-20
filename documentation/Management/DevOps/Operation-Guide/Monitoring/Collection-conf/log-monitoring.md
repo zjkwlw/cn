@@ -37,7 +37,7 @@
 
 ​    触发报警时，返回日志现场，是指在报警通知中展示触发报警的日志行。
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide35.JPG)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Operation-Guide35.jpg)
 
 
 
