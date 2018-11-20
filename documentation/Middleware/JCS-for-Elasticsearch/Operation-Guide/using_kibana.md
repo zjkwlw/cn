@@ -9,3 +9,46 @@
 例如：选中“ba*”作为检索条件，在搜索框中输入“account_number:<100 AND balance:>47500”，此搜索条件将返回account_number在【0，99】之间并且balance的值大于47500的结果。</br>
 
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_1.png)
+另外，还可以通过增加过滤属性作为条件筛选搜索结果。在“Available Fields list ”下的某个过滤条件中选择“Add”作为Fileds。例如选择“account_number”作为Fileds时，则搜索结果中只包含account_number列。</br>
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_2.png)
+### 可视化数据
+点击kibana页面左侧导航栏的“Visualize”，进行数据的可视化
+首先，点击屏幕中央的“Create a visualization”
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_3.png)
+选择pie
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_4.png)
+可以从已经保存的搜索结果中创建可视化，也可以重新输入新的检索规则，若要重新输入检索规则，需要指定一个索引模式。例如，选择索引模式为“ba*”，进行数据可视化。
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_5.png)
+默认搜索匹配所有文档
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_6.png)
+定义bucket：
+在样本数据集account.json中，每一个account都包含balance，通过建立一个bucket，可以定义balance的ranges，并且可以查看到有多少account在每个rangs中
+a)	点击“Split Slices” bucket type
+b)	在“Aggregation”的下拉框中选择“Range”
+c)	在“Field“下拉框中选择”balance“
+d)	4次点击“Add Range“，总rangs为6个
+e)	定义以下的ranges
+0             999
+1000         2999
+3000         6999
+7000        14999
+15000       30999
+31000       50000
+		现在可以看到account在每个balance range的比例。
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_7.png)
+定义子bucket：
+	使用account的holder’s age作为度量单位，通过添加另一个bucket，可以看到在每一个balance range中account holder的age
+a)	点击“Add sub-buckets” bucket type
+b)	点击“Split Slices” bucket type
+c)	在“sub Aggregation”的下拉框中选择“Terms”
+d)	在“Field“下拉框中选择”age“
+e)	点击“Apply changes   “
+现在可以看到account holder的age环绕在balance range中
+
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_8.png)
+点击“Save“，输入”Pie Example “进行保存
+
+     之后，可以尝试创建其他可视化类型。如Coordinate Map，Markdown，Vertical Bar
+### 结合仪表盘
+点击kibana页面左侧导航栏的“Dashboard”，点击“Add“展示所有已保存的可视化图表，然后分别点击已经保存的可视化数据，然后点击小的向上箭头来合并可视化list
+然后可以进行保存和生成链接share
