@@ -8,7 +8,7 @@
 
 选中左侧服务树中应用，选择菜单“持续交付-线上发布”，进入“基本设置”分页，点击设置。
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting10.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting12.png)
 
 设置执行账户，将应用与所属模块绑定。
 
