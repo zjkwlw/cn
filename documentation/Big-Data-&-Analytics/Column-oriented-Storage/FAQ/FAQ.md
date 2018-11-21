@@ -5,8 +5,8 @@
 目前列式存储提供了内网及公网访问模式。
 内网访问稳定安全，适合生产使用；公网访问适合开发测试访问，主要是满足开发测试需求。
 
-使用HBase Shell访问
-### 操作步骤
+### 使用HBase Shell访问
+#### 操作步骤
 1. 准备访问用京东云云主机
 访问HBase，建议在相同的VPC网络内准备一台云主机。
 
@@ -38,8 +38,8 @@ export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64
 通过如下命令访问集群
 bin/hbase shell
 
-通过API访问
-### 操作步骤
+### 通过API访问
+#### 操作步骤
 目前列式存储hbase集群支持三种API访问方式，分别为Native Java API、Thrift API、REST API，推荐使用Native Java API。
 
 1. Native Java API
