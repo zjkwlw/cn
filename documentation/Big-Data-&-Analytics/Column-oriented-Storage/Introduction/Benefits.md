@@ -14,4 +14,3 @@ HA实时监控系统，单节点故障迅速转移，保障业务不中断 。
 - [产品概述](../Introduction/Product-Overview.md)
 - [产品规格](../Introduction/Specification.md)
 - [价格总览](../Pricing/Price-Overview.md)
-- [创建实例](../Getting-Started/Create-Cluster.md)
