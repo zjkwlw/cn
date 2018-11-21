@@ -51,16 +51,16 @@ items:
            href: Operation-Guide/Protection-Configuration/Custom-CC.md
          - name: 防爬虫
            href: Operation-Guide/Protection-Configuration/Reptile-protection.md
-       - name: 防护统计
-        items: 
+      - name: 防护统计
+      items: 
          -name: 总览
           href: Operation-Guide/Protection-Statistics/overview.md
          -name: 安全报表
           href: Operation-Guide/Protection-Statistics/Security-Report.md
          -name: 全量日志查询
           href: Operation-Guide/Protection-Statistics/Daily-Record.md
-       - name: 接入WAF
-         items:
+      - name: 接入WAF
+      items:
          - name: cname接入指南
           href: Operation-Guide/Entering-WAF/Cname-access.md
          - name: WAF源站负载均衡
