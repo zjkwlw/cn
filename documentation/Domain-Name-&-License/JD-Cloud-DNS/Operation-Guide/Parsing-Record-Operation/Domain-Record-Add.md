@@ -1,12 +1,11 @@
-- ## **删除域名：**
+## 添加解析
 
-  1、进入控制台界面
-    
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-record1.png)
-  
-  2、点击操作下的更多按钮，选择删除会弹出如下的对话框
+1、进入控制台界面后
+ 
+2、点击此域名或右侧的解析按钮进入域名解析页面
+ 
+3、点击添加解析后弹出窗口
+ 
+4、根据您的域名填写对应的记录
 
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-record2.png)
-  
-  点击确认后即会删除此域名，并将此域名下的所有解析记录删除，请您谨慎操作。
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-record3.png)
+
