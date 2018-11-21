@@ -145,7 +145,7 @@ function main()
 main $@
 ```
 
-2.在代码库根目录 /bin下增加control文件，用来启动、停止、服务健康检查。以下是control脚本模板文件，可在其基础上进行修改/扩展使用。
+2.在output中有 bin/control，用来启动、停止、服务健康检查。以下是control脚本模板文件，可在其基础上进行修改/扩展使用。
 
 部署路径默认为/export/Instances/应用名/实例名/runtime下
 
