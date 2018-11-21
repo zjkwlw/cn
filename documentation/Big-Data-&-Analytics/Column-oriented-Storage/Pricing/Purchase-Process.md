@@ -12,4 +12,3 @@
 1. 登录京东云官网[https://www.jdcloud.com/](https://www.jdcloud.com/)。
 2. 选择“控制台”，具体见下图。
 ![控制台](../../../../image/jmr/console-buy.png)
-3.登录控制台.
