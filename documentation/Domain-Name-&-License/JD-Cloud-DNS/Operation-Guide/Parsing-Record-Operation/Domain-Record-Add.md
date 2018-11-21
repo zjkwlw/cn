@@ -13,6 +13,7 @@
 ![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/image/dns-img/add-record3.png)  
  
 4、根据您的域名填写对应的记录
+
 其中带 * 号的为必填项，不同的记录类型添加的记录值不同
 具体解析记录添加请参考解析记录类型详解。
 
