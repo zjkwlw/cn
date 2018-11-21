@@ -1,14 +1,15 @@
 # 常见问题
 
-## 列式存储产品的内网及公网访问模式？
+## 列式存储产品的访问
 
-目前列式存储提供了内网及公网访问模式。
-内网访问稳定安全，适合生产使用；公网访问适合开发测试访问，主要是满足开发测试需求。
+目前列式存储提供了内网和公网两种访问模式。
+内网访问稳定安全，适合生产使用；
+公网访问适合开发测试访问，主要是满足开发测试需求。
 
 ### 使用HBase Shell访问
 #### 操作步骤
-1. 准备访问用京东云云主机
-访问HBase，建议在相同的VPC网络内准备一台云主机。
+1. 准备云主机
+建议在相同VPC网络内准备一台云主机。
 
 2. 安装jdk
 ```
@@ -26,7 +27,7 @@ tar zxvf hbase-1.3.1-bin.tar.gz
 ```
 
 4. 配置ZK地址
-修改conf/hbase-site.xml文件，添加集群的ZK地址，如下：
+修改conf/hbase-site.xml文件，添加集群的ZK地址
 ```
 <configuration>
      <property>
@@ -35,16 +36,16 @@ tar zxvf hbase-1.3.1-bin.tar.gz
      </property>
 </configuration>
 ```
-其中的$ZK_IP1,$ZK_IP2,$ZK_IP3请查看详情中列式存储地址。
+其中$ZK_IP1，$ZK_IP2，$ZK_IP3，可查看列式存储详情中的地址。
 
 5. 配置JAVA_HOME 
-修改conf/hbase-env.sh文件中JAVA_HOME路径。
+修改conf/hbase-env.sh
 ```
 export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64
 ```
 
 6. 配置hosts
-登录到集群任一节点主机，获取集群hosts信息，并添加到本地hosts。
+登录集群主机，获取集群hosts信息，并添加到本地hosts。
 
 7.访问集群
 通过如下命令访问集群
