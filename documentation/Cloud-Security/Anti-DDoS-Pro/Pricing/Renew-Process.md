@@ -6,13 +6,12 @@
 ## 入口1：[IP高防 控制台](https://ip-anti-console.jdcloud.com/instancelist)
 
 1. 进入京东云控制台。
+
 2. 通过页头导航，依次点击 **产品** >  **IP高防**,打开“实例列表”页面；也可以通过左侧菜单，依次点击 **云安全** > **IP高防** ,打开“实例列表”页面。
 ![](../../../../image/Advanced%20Anti-DDoS/price01.png)
 
-
 3. 在操作项中点击 **续费**，进入“续费页面”，进行续费操作
-
-   ![](../../../../image/Advanced%20Anti-DDoS/price02.png)
+![](../../../../image/Advanced%20Anti-DDoS/price02.png)
    
 
 ## 入口2：[续费管理控制台](https://renewal-console.jdcloud.com/renew/ipanti)
