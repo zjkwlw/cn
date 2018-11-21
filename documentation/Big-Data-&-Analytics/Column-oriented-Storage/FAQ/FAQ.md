@@ -48,7 +48,7 @@ bin/hbase shell
 2. Thrift API
 Thrift API利用Thrift序列化技术，提供多种语言支持，使用方法请参考demo文件ThriftDemo.py。
 
-以下是python通过Thrift API访问集群的步骤
+以下是python通过Thrift API访问集群的步骤:
 安装依赖包:
 tar zxvf pip-18.1.tar.gz
 cd pip-18.1/
@@ -58,11 +58,11 @@ unzip setuptools-40.6.2.zip
 cd setuptools-40.6.2/
 python setup.py install
 
-如果测试机有公网权限使用安装thrift hbase-thrift
+如果测试机有公网权限使用安装thrift hbase-thrift:
 pip install thrift
 pip install hbase-thrift
 
-如果无外网权限，需使用离线安装。
+如果无外网权限，需使用离线安装:
 tar zxvf thrift-0.11.0.tar.gz
 cd thrift-0.11.0
 python setup.py install
