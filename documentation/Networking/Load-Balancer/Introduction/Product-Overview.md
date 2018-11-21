@@ -43,7 +43,7 @@
 
 - 自动调节后端实例数：应用负载均衡后端可以绑定指定的高可用组，通过设置弹性伸缩策略，自动调整后端服务实例数量，合理配置资源。
 
-- 防DDoS攻击：提供基于公网IP的抗DDoS攻击能力，提升了服务的安全性能。
+- 防DDoS攻击：京东云免费为应用负载均衡服务提供基于公网IP的DDoS基础防护，最大支持2G的抗DDoS攻击能力，提升了服务的安全性能，详见[DDoS基础防护](https://docs.jdcloud.com/anti-ddos-basic/product-overview)。如您需要更大流量的攻击防护，请购买[DDoS防护包](https://www.jdcloud.com/products/anti-ddos-protection-package)。
 
 - 会话保持：应用负载均衡支持基于HTTP/HTTPS协议类型的会话保持功能。
 
