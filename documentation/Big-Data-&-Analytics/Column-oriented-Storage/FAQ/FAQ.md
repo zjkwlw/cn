@@ -7,10 +7,10 @@
 
 ### 使用HBase Shell访问
 #### 操作步骤
-- 准备访问用京东云云主机
+1. 准备访问用京东云云主机
 访问HBase，建议在相同的VPC网络内准备一台云主机。
 
-- 安装jdk
+2. 安装jdk
 rpm -ivh jdk-8u171-linux-x64.rpm
 
 3. 安装hbase客户端
