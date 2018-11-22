@@ -64,6 +64,7 @@ bin/hbase shell
 Thrift API利用Thrift序列化技术，提供多种语言支持，使用方法请参考demo文件ThriftDemo.py。
 
 以下是python通过Thrift API访问集群的步骤:
+
 安装依赖包:
 ```
 tar zxvf pip-18.1.tar.gz
@@ -94,7 +95,6 @@ python setup.py install
 ```
 python ThriftDemo.py
 ```
-
 3. REST API 
 REST API解除了语言限制，支持REST风格的HTTP API访问数据库，使用方法请参考demo文件ThriftDemo.py。
 
