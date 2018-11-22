@@ -17,7 +17,7 @@
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-5.png)
 
 6.选择 **This domain only**。选择 **Next**。
-![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-6.png.png)
+![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-6.png)
 
 7.选择 **Forest-wide authentication**。选择 **Next**。
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-7.png)
