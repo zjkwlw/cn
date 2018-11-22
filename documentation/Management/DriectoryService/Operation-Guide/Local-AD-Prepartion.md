@@ -29,7 +29,8 @@
 
 4. 选择 **Account** 选项卡。在 **Account options** 列表中，向下滚动并确保*未* 选中 **Do not require Kerberos preauthentication**。
 
-   ![1](../../../image/DirectoryService/Local-AD-Prepartion-1.png)
+           cn/image/DirectoryService/Local-AD-Prepartion-1.png
+
 
 ## 为本地域配置 DNS 条件转发服务器
 
@@ -59,7 +60,7 @@
 
     输入 DNS 地址之后，可能遇到“超时”或“无法解析”错误。通常可以忽略这些错误。
 
-    ![2](../../../image/DirectoryService/Local-AD-Prepartion-2.png)
+            cn/image/DirectoryService/Local-AD-Prepartion-2.png
 
 11. 选择 **Store this conditional forwarder in Active Directory, and replicate it as follows**。
 
