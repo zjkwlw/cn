@@ -17,6 +17,8 @@
             herf: Account-Management/describeAccounts.md
           - name: grantPrivilege
             herf: Account-Management/grantPrivilege.md
+          - name: resetPassword
+            herf: Account-Management/resetPassword.md
           - name: revokePrivilege
             herf: Account-Management/revokePrivilege.md
 
