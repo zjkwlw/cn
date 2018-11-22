@@ -3,7 +3,7 @@
 
 设置报警规则时选择的统计周期不能小于可用性监控任务的探测周期。
 
-![image]()
+![image](https://raw.githubusercontent.com/jdcloudcom/cn/monitoring/image/Cloud-Monitor/Usability-Monitor/UM-alarm.png)
 
 1. 登录京东云云监控控制台，点击“管理->云监控->可用性监控”，进入监控面板列表页面。
 
