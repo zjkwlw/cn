@@ -4,4 +4,4 @@
 
 [云主机续费流程](https://docs.jdcloud.com/virtual-machines/renew-process)
 
-[弹性公网IP续费流程](https://docs.jdcloud.com/cn/elastic-ip/renew-process)
+[弹性公网IP续费流程](https://docs.jdcloud.com/elastic-ip/renew-process)
