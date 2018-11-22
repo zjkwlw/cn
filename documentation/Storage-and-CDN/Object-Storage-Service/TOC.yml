@@ -272,7 +272,9 @@ items:
            - name: 移动文件
              href: SDK-Reference/Java-SDK/Move-Object-3.md
            - name: 授权访问
-             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md                          
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md
+           - name: 视频转码
+             href: SDK-Reference/Java-SDK/Video-Transcoding.md
  - name: 最佳实践
    items:
       - name: 使用S3fs在Linux实例上挂载Bucket
