@@ -69,14 +69,14 @@ items:
           href: Operation-Guide/Entering-WAF/https-Advantage.md
   - name: 常见问题
     items:
-    - name: 添加网站参数详解？
-      href: FAQ/Add-Website-Details.md
-    - name: 典型问题？
-      href: FAQ/Typical-Problems.md
-    - name: web攻击防护的模式详解？
-      href: FAQ/Web-Aattack-Protection-Detailed-Explanation.md        
-    - name: CC防护模式？
-      href: FAQ/CCprotection.md        
+      - name: 添加网站参数详解？
+        href: FAQ/Add-Website-Details.md
+      - name: 典型问题？
+        href: FAQ/Typical-Problems.md
+      - name: web攻击防护的模式详解？
+        href: FAQ/Web-Aattack-Protection-Detailed-Explanation.md        
+      - name: CC防护模式？
+        href: FAQ/CCprotection.md        
   - name: 相关资源
     items:
   - name: 文档历史记录
