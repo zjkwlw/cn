@@ -35,29 +35,29 @@ items:
     items:
       - name: 防护配置
       items:
-      - name: Web应用防护
+          - name: Web应用防护
            href: Operation-Guide/Protection-Configuration/Web-Attack-Protection.md
-         - name: CC防护
+          - name: CC防护
            href: Operation-Guide/Protection-Configuration/CC-Protection.md
-         - name: 精准访问控制
+          - name: 精准访问控制
            href: Operation-Guide/Protection-Configuration/Precise-Access-Control.md
-         - name: 恶意IP惩罚
+          - name: 恶意IP惩罚
            href: Operation-Guide/Protection-Configuration/Malicious-IP-Punishment.md
-         - name: IP黑白名单配置
+          - name: IP黑白名单配置
            href: Operation-Guide/Protection-Configuration/Black-and-White-List.md
-         - name: 网页防篡改
+          - name: 网页防篡改
            href: Operation-Guide/Protection-Configuration/Tamper.md
-         - name: 自定义CC防护
+          - name: 自定义CC防护
            href: Operation-Guide/Protection-Configuration/Custom-CC.md
-         - name: 防爬虫
+          - name: 防爬虫
            href: Operation-Guide/Protection-Configuration/Reptile-protection.md
       - name: 防护统计
       items: 
-         -name: 总览
+          - name: 总览
           href: Operation-Guide/Protection-Statistics/overview.md
-         -name: 安全报表
+          - name: 安全报表
           href: Operation-Guide/Protection-Statistics/Security-Report.md
-         -name: 全量日志查询
+          - name: 全量日志查询
           href: Operation-Guide/Protection-Statistics/Daily-Record.md
       - name: 接入WAF
       items:
@@ -79,6 +79,6 @@ items:
         href: FAQ/CCprotection.md        
   - name: 相关资源
     items:
-  - name: 文档历史记录
-      href: Related-Resources/Document-History.md     
+      - name: 文档历史记录
+        href: Related-Resources/Document-History.md     
 
