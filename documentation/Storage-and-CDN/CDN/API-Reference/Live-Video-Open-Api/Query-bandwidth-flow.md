@@ -23,8 +23,8 @@
 | status    | 表示接口请求成功与否，成功用0表示，其他表示失败 |
 | msg       | 提示信息，如发送任务失败的原因等                |
 | data      | 域名信息数组                                    |
-| bandwidth | 带宽                                            |
-| flow      | 流量                                            |
+| bandwidth | 带宽，单位是Mbps                                            |
+| flow      | 流量，单位是MB                                           |
 
  
 
