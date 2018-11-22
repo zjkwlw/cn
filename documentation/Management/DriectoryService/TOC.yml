@@ -13,30 +13,30 @@
   - name: 产品定价
     items:
       - name: 计费规格
-        href: FAQ/Problem-summary.md
+        href:Pricing/Pricing.md
   - name: 操作指南
     items:
        - name: 创建目录服务
-         href: Protocol/Assist-in-changing-the-filing-information-service-online-terms-of-service.md
+         href:Operation-Guide/Directory-Service.md
        - name: 开启控制台访问
-         href: Protocol/Information-Security-Management-Protocol.md
+         href:Operation-Guide/Open-Console-Access.md
        - name: 本地域准备工作
-         href: Protocol/Information-Security-Management-Protocol.md
+         href:Operation-Guide/Local-AD-Prepartion.md
        - name: 创建本地目录信任关系
-         href: Protocol/Information-Security-Management-Protocol.md
-       - name: 目录信任关系设置
-         href: Protocol/Information-Security-Management-Protocol.md
+         href:Operation-Guide/Create-Local-AD-Trust.md
+       - name: 目录服务信任关系设置
+         href:Operation-Guide/Directory-Service-Trust-Settings.md
        - name: 添加用户和组
-         href: Protocol/Information-Security-Management-Protocol.md
+         href:Operation-Guide/Add-Users-And-Groups.md
        - name: 删除目录服务
-         href: Protocol/Information-Security-Management-Protocol.md
+         href:Operation-Guide/Delete-Directory-Service.md
   - name: 常见问题
     items:
       - name: 目录服务的VPC设置
-        href: Loading/Website-verification-information.md
+        href:FAQ/VPC-Setting.md
       - name: 目录服务的安全组配置
-        href: Loading/Verification-sample.md
+        href:FAQ/Security-Group-Configuration.md
       - name: 信任类型无法选择林信任
-        href: Loading/Verification-sample.md
+        href:FAQ/Trust-Type-Cannot-Choose-Forest-Trust.md
       - name: 信任关系认证失败
-        href: Loading/Verification-sample.md
+        href:FAQ/Trust-Relationship-Authentication-Failed.md
