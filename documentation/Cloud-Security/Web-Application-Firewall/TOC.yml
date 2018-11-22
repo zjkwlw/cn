@@ -33,9 +33,9 @@ items:
         href: Getting-Started/Step-4.md
   - name: 操作指南
     items:
-      -name: 防护配置
+      - name: 防护配置
       items:
-         - name: Web应用防护
+      - name: Web应用防护
            href: Operation-Guide/Protection-Configuration/Web-Attack-Protection.md
          - name: CC防护
            href: Operation-Guide/Protection-Configuration/CC-Protection.md
@@ -69,13 +69,13 @@ items:
           href: Operation-Guide/Entering-WAF/https-Advantage.md
   - name: 常见问题
     items:
-      - name: 添加网站参数详解？
+      - name: 添加网站参数详解
         href: FAQ/Add-Website-Details.md
-      - name: 典型问题？
+      - name: 典型问题
         href: FAQ/Typical-Problems.md
-      - name: web攻击防护的模式详解？
+      - name: web攻击防护的模式详解
         href: FAQ/Web-Aattack-Protection-Detailed-Explanation.md        
-      - name: CC防护模式？
+      - name: CC防护模式
         href: FAQ/CCprotection.md        
   - name: 相关资源
     items:
