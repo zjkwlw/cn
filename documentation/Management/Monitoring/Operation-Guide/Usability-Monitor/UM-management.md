@@ -33,7 +33,7 @@
 
 （2）选择需要查看监控图的任务,点击操作中的监控表按钮。
 
-
+![](https://raw.githubusercontent.com/jdcloudcom/cn/monitoring/image/Cloud-Monitor/Usability-Monitor/UM-view.png)
 
 
 
