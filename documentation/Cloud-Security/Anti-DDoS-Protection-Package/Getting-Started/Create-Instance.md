@@ -1,6 +1,7 @@
 # 创建实例
 
-您可以通过 DDoS基础防护 控制台或 API 快速创建 防护包实例，关于实例的计费说明请参见“[价格总览](../Pricing/Price-Overview.md)”、“[计费规则](../Pricing/Billing-Rules.md)”。
+您可以通过 DDoS基础防护 控制台或 API 快速创建 防护包实例，关于实例的计费说明请参见“[价格总览](../Pricing/Price-Overview.md)”、
+“[计费规则](../Pricing/Billing-Rules.md)”。
 
 本文介绍通过控制台创建DDoS防护包 实例。
 **请注意：公测期间暂不支持购买实例。**
@@ -10,19 +11,17 @@
 - 如需使用弹性防护，请确保您的账户余额（包括代金券）不小于至少支付1天弹性最高套餐费用的金额，以免欠费影响使用
 
 ## 操作步骤
-1. 登录 [DDoS基础防护 控制台](https://antiddos-console.jdcloud.com/gz/ddos/list)。
+1. 登录 DDoS防护包控制台，其位于DDoS基础防护的目录下。</br>
+   ![防护包菜单](https://github.com/jdcloudcom/cn/blob/edit/image/Anti-DDoS-Protection-Package/防护包菜单.png) 
 
 2. 首次购买，请先在控制台DDoS防护包菜单下，**立即开通** ；
-
-   ![防护包开通页](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包开通页.jpg)
+   ![防护包开通页](https://github.com/jdcloudcom/cn/blob/edit/image/Anti-DDoS-Protection-Package/防护包开通页.jpg)
 
 3. 开通服务后，如果还需购买，请在防护包列表下，选择 **创建** 。
+   ![防护包列表页](https://github.com/jdcloudcom/cn/blob/edit/image/Anti-DDoS-Protection-Package/防护包列表页.jpg)
 
-   ![防护包列表页](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包列表页.jpg)
-
-3. 选择合适的套餐类型，建议购买保底防护+弹性防护的组合方式。
-
-   ![防护包购买页](https://github.com/jdclouddocs/cn/blob/anti-ddos/image/Anti-DDoS-Protection-Package/防护包购买页.jpg)
+4. 选择合适的套餐类型，建议购买保底防护+弹性防护的组合方式。
+   ![防护包购买页](https://github.com/jdcloudcom/cn/blob/edit/image/Anti-DDoS-Protection-Package/防护包购买页.jpg)
 
 购买支付以后，即成功创建一个实例。
 

@@ -1,11 +1,10 @@
-  name: IP 高防
+  name: DDoS 防护包
   href:
   items:
-
   - name: 产品简介
     items:
     - name: 产品概述
-      herf : Introduction/Overview.md
+      herf : Introduction/Product-Overview.md
     - name : 核心概念
       herf: Introduction/Core-Concepts.md
     - name: 基础架构
@@ -34,13 +33,15 @@
       herf: Getting-Started/Bind-Protected-Resource.md
   - name: 操作指南
     items:
-  - name: 防护规则设置
-    herf: Operation-Guide/Protection-Rules-Setting.md
-  - name: 查看操作日志
-    herf: Operation-Guide/View-The-Operation-Log.md
-  - name: 查看安全报表
-    herf: Operation-Guide/View-The-Security-Report.md     
+    - name: 防护规则设置
+      herf: Operation-Guide/Protection-Rules-Setting.md
+    - name: 查看操作日志
+      herf: Operation-Guide/View-The-Operation-Log.md
+    - name: 查看安全报表
+      herf: Operation-Guide/View-The-Security-Report.md
+    - name: 试用活动说明
+      herf: Operation-Guide/Trial-description.md
   - name: 常见问题
-      herf: FAQ/FAQ.md
+    herf: FAQ/FAQ.md
   - name: 文档历史记录
-      href: Related-Resources/Document-History.md
+    href: Related-Resources/Document-History.md

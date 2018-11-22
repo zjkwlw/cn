@@ -1,7 +1,8 @@
 # 防护阈值设置
 
-1、定位到控制台中->DDoS基础防护，找到需要修改的公网IP,进入基本信息页面，如下：
+1、定位到控制台中->DDoS基础防护->公网IP列表，找到需要修改的公网IP,进入基本信息页面，如下：
 
+![公网IP菜单](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/IP-list.png)
 ![创建对象](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/basic%20message.png)
 
 2、单击防护规则旁边的**修改**按钮，即可对基础防护的防护规则进行编辑。
