@@ -50,7 +50,6 @@ try:
     resp = client.send(request)
     if resp.error is not None:
         print resp.error.code, resp.error.message
-        return
     print resp.result
 except Exception, e:
     print e
