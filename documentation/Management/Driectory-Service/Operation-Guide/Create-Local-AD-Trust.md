@@ -7,7 +7,7 @@
 2.打开域的上下文 (右键单击) 菜单，选择 **Properties**。
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-2.png)
 
-3.选择 **Trusts** 选项卡，然后选择 **New trust**。键入 AWS Managed Microsoft AD 的名称，然后选择 **Next** (下一步)。
+3.选择 **Trusts** 选项卡，然后选择 **New trust**。键入京东云目录服务的名称，然后选择 **Next** (下一步)。
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-3.png)
 
 4.选择 **Forest trust**。选择 **Next**。
@@ -26,7 +26,7 @@
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-7.png)
 
-8.键入 **Trust password**。请务必记住此密码，因为在为 AWS Managed Microsoft AD 设置信任时会需要它。
+8.键入 **Trust password**。请务必记住此密码，因为在为目录服务设置信任时会需要它。
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Create-Local-AD-Trust-8.png)
 
