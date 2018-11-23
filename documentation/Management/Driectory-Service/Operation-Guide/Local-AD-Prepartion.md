@@ -4,7 +4,7 @@
 
 ## 配置本地防火墙
 
-必须配置内部防火墙，以便为包含 AWS Managed Microsoft AD 的 VPC 所使用的所有子网，面向 CIDR 打开以下端口。在本教程中，我们在以下端口上允许来自 10.0.0.0/16（目录服务的VPC的CIDR数据块）的传入和传出流量：
+必须配置内部防火墙，以便为包含京东云目录服务的 VPC 所使用的所有子网，面向 CIDR 打开以下端口。在本教程中，我们在以下端口上允许来自 10.0.0.0/16（目录服务的VPC的CIDR数据块）的传入和传出流量：
 
 - TCP/UDP 53 - DNS
 - TCP/UDP 88 - Kerberos 身份验证
@@ -33,7 +33,7 @@
 
 ## 为本地域配置 DNS 条件转发服务器
 
-必须在每个域中都设置 DNS 条件转发服务器。对本地域执行此操作之前，首先要获取有关 AWS Managed Microsoft AD 的一些信息。
+必须在每个域中都设置 DNS 条件转发服务器。对本地域执行此操作之前，首先要获取有关目录服务详情的一些信息。
 
 **在本地域中配置条件转发服务器**
 
@@ -53,9 +53,9 @@
 
 8. 在 **Action** 菜单上，选择 **New conditional forwarder**。
 
-9. 在 **DNS domain (DNS 域)** 中，键入前面记下的 AWS Managed Microsoft AD 完全限定域名 (FQDN)。在此示例中，FQDN 是 [MyManagedAD.example.com](http://mymanagedad.example.com/)。
+9. 在 **DNS domain (DNS 域)** 中，键入前面记下的目录服务的完全限定域名 (FQDN)。在此示例中，FQDN 是 [MyManagedAD.example.com](http://mymanagedad.example.com/)。
 
-10. 选择 **IP addresses of the master servers (主服务器的 IP 地址)**，然后键入前面记下的 AWS Managed Microsoft AD 目录的 DNS 地址。在此示例中，这些是：10.0.10.246、10.0.20.121
+10. 选择 **IP addresses of the master servers (主服务器的 IP 地址)**，然后键入前面记下的京东云目录服务的 DNS 地址。在此示例中，这些是：10.0.10.246、10.0.20.121
 
     输入 DNS 地址之后，可能遇到“超时”或“无法解析”错误。通常可以忽略这些错误。
 
