@@ -15,7 +15,7 @@
 | streamName   | String   | 否           | 流名，流名目前支持查单路流名，查询流名时必须携带appName        |
 | start_time | String   | 是           | 时间格式：yyyy-mm-dd   hh:mi 参考示例：2016-12-14 07:00；    |
 | end_time   | String   | 否           | 不是必填参数，不传默认到当前时间，查询的时间跨度不能超过30天  |
-| time_point  | String   | 否           | 不是必填参数，表示统计的区间取值以开始时间（startTime）计算还是结束时间（endTime）计算，例如统计0点到0点五分的带宽，如time_point：startTime，则0-5分钟的带宽算到0点，如果time_point：endTime，则0-5分钟的带宽算到5分这个点|
+| time_point  | String   | 否           | 不是必填参数，表示统计的区间取值以开始时间（startTime）计算还是结束时间（endTime）计算，例如统计0点到0点五分的带宽，如time_point：startTime，则0-5分钟的带宽算到0点，如果time_point：endTime，则0-5分钟的带宽算到5分这个点;不传time_point默认取值为endTime的时间点计算  |
  
 
 ## 3 返回参数
