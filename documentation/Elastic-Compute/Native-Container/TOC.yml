@@ -77,8 +77,8 @@
                 href: Operation-Guide/Instance/Delete-Pod.md
               - name: 在Kubernetes集群中创建Pod
                 items:
-                  - name: 部署virtual-kubelet
-                    href: Operation-Guide/Instance/Deploy-virtual-kubelet.md
+                  - name: 部署Virtual-Kubelet
+                    href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
                   - name: 在Kubernetes集群中创建Pod
                     href: Operation-Guide/Instance/Create-Pod-InKubernetes.md
           - name: 日志
