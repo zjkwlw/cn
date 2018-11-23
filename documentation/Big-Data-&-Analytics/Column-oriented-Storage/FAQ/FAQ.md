@@ -7,4 +7,4 @@
 公网访问适合开发测试访问，主要是满足开发测试需求。
 
 列式存储的访问方式有使用HBase Shell访问和通过API访问。
-目前列式存储h集群支持三种API访问方式，分别为Native Java API、Thrift API、REST API。
+目前列式存储集群支持三种API访问方式，分别为Native Java API、Thrift API、REST API。
