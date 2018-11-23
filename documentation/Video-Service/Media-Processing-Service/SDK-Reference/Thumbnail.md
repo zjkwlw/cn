@@ -24,7 +24,16 @@
 ## 视频转码
 
 ```
-public static void main(String[] args) {
+package com.jdcloud.mps.client;
+
+import com.jdcloud.sdk.auth.StaticCredentialsProvider;
+import com.jdcloud.sdk.http.HttpRequestConfig;
+import com.jdcloud.sdk.http.Protocol;
+import com.jdcloud.sdk.service.mps.client.MpsClient;
+import com.jdcloud.sdk.service.mps.model.*;
+
+public class MpsClientExample {
+    public static void main(String[] args) {
         // 以下参数均为必填项
         String region = "cn-north-1"; // cn-north-1/cn-south-1/cn-east-1/cn-east-2
         String sourceBucketName = ""; // 源bucket
@@ -59,5 +68,6 @@ public static void main(String[] args) {
         // 任务列表
         ListThumbnailTaskRequest listRequest = new ListThumbnailTaskRequest().regionId(region);
         ListThumbnailTaskResult listResult = client.listThumbnailTask(listRequest).getResult();
+    }
 }
 ```
