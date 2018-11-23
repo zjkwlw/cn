@@ -40,8 +40,8 @@ from jdcloud_sdk.services.vm.client.VmClient import VmClient
 from jdcloud_sdk.services.vm.apis.DescribeInstanceTypesRequest \
     import DescribeInstanceTypesParameters, DescribeInstanceTypesRequest
 
-access_key = '9ED85E22F4383CE1BEF1F4E555EC379C'
-secret_key = '51FC543472DF504EF91D612B60AAB27F'
+access_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+secret_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 credential = Credential(access_key, secret_key)
 client = VmClient(credential)
 
