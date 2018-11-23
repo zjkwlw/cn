@@ -1,9 +1,9 @@
-# virtual-kubelet 部署  
+# Virtual-Kubelet 部署  
 Virtual-Kubetlet是一种开源的Kubernetes Kubelet部署方法，为其他API连接Kubernetes集群提供了虚Kubelet的实现方案。目前京东云基于Virtual-Kubelet V0.5.1版本开发，提供了原生容器Pod连接到Kubernetes集群方案。  
 
-## virtual-kubelet 自动化部署  
+## Virtual-Kubelet 自动化部署  
 
-京东云提供了[Virual kubelet自动化部署脚本][1]，在可以连接到集群的终端下载并执行自动化部署脚本，以CentOS 7.4 64位操作系统为例，执行步骤如下：  
+京东云提供了[Virual Kubelet自动化部署脚本][1]，在可以连接到集群的终端下载并执行自动化部署脚本，以CentOS 7.4 64位操作系统为例，执行步骤如下：  
 1. 下载并解压缩自动化部署脚本到本地：  
 `   
 wget http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz  
@@ -16,14 +16,14 @@ tar -zxvf jdcloud-virtual-kubelet.tar.gz
 sh virtual-kubelet.sh 114.**.**.93:6443 cn-****-2a,cn-****-2b g.n2  
 `   
 脚本运行的参数说明如下：  
-- 集群服务端点：virtual-kubelet连接的Kubernetes集群提供的服务端点，您可在Kubernetes集群详情页查看获取；  
-- virtual-kubelet运行的可用区：与Kubernetes集群支持的可用区一致，或Kubernetes集群支持的可用区的子集；详情参考地域与可用区说明；    
-- 实例规格分类：设置virtual-kubelet创建原生容器Pod时默认选择的实例规格分类，例如：g.n2；更多实例规格类型参考[价格总览][2]；  
-3. 使用Kubectl确认virtual-kubelet的状态：  
+- 集群服务端点：Virtual-Kubelet连接的Kubernetes集群提供的服务端点，您可在Kubernetes集群详情页查看获取；  
+- Virtual-Kubelet运行的可用区：与Kubernetes集群支持的可用区一致，或Kubernetes集群支持的可用区的子集；详情参考地域与可用区说明；    
+- 实例规格分类：设置Virtual-Kubelet创建原生容器Pod时默认选择的实例规格分类，例如：g.n2；更多实例规格类型参考[价格总览][2]；  
+3. 使用Kubectl确认Virtual-Kubelet的状态：  
 `   
 kubectl get pods -n kube-system
 `   
-确定virtual-kubelet虚节点的数量与指定的可用区数量一致确状态为Running即说明virtual-kubelet部署成功；  
+确定Virtual-Kubelet虚节点的数量与指定的可用区数量一致确状态为Running即说明Virtual-Kubelet部署成功；  
 
 ```nodes  
 [root@*** jdcloud-virtual-kubelet]# kubectl get nodes
@@ -35,13 +35,13 @@ virtual-kubelet-cn-****-2a   Ready     agent     3d        v1.8.3
 virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 ```  
 
-## virtual-kubelet 依赖文件说明   
+## Virtual-Kubelet 依赖文件说明   
 
 - nc.toml   
 - virtual-kubelet-serviceaccount.yaml    
 - virtual-kubelet-deployment.yaml    
 
-1. virtual-kubelet 启动配置文件 nc.toml，文件内容及说明如下：  
+1. Virtual-Kubelet 启动配置文件 nc.toml，文件内容及说明如下：  
 
 ```toml  
 [System]
@@ -64,9 +64,9 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 
 ```  
 
-2.  virtual-kubelet的部署文件：  
+2.  Virtual-Kubelet的部署文件：  
 
-- virtual-kubelet-serviceaccount：创建 virtual-kubelet 对应的 serviceaccount，提供访问K8S APIserver、 操作 Pod 等资源的权限。  
+- virtual-kubelet-serviceaccount：创建 Virtual-Kubelet 对应的 serviceaccount，提供访问K8S APIserver、 操作 Pod 等资源的权限。  
 - virtual-kubelet-secret，使用pem格式的X 509证书进行10250 端口访问认证，用于 kubectl logs获取容器日志 以及 Kubectl exec在容器中执行命令。  
 
 ```yaml  
@@ -106,7 +106,7 @@ data:
 
 ```  
 
-3. virtual-kubelet-deployment.yaml 定义Deployment，运行 virtual-kubelet 应用 (Deployment高可用、易维护，也可以直接创建virtual-kubelet的POD)  
+3. virtual-kubelet-deployment.yaml 定义Deployment，运行 Virtual-Kubelet 应用 (Deployment高可用、易维护，也可以直接创建virtual-kubelet的POD)  
 - **说明**：在deployment中，replicas必须为1，即指定期望被创建地virtual-kubelet的Pod数量为1  
 
 

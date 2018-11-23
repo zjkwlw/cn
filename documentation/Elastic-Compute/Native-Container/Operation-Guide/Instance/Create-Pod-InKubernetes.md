@@ -1,7 +1,7 @@
-# 使用virtual-kubelet 在Kubernetes集群中创建原生容器Pod
-在Kubernetes集群中完成virtual-kubetlet部署后，即可使用Kubectl客户端工具创建原生容器Pod。  
+# 使用Virtual-Kubelet 在Kubernetes集群中创建原生容器Pod
+在Kubernetes集群中完成Virtual-Kubetlet部署后，即可使用Kubectl客户端工具创建原生容器Pod。  
 
-## virtual kubelet创建的原生容器Pod使用限制   
+## Virtual Kubelet创建的原生容器Pod使用限制   
 - 原生容器Pod暂不支持关联到Kubernetes的service服务；  
 - 原生容器Pod不支持动态PVC挂载；挂载已有云硬盘或静态PV时，对应的云硬盘要带有文件系统；  
 - 原生容器Pod名称设置规范：不能超过253字符，可以包含多个label，label以“.”分隔。label支持数字、小写字母、英文中划线“ - ”，不支持以“-”作为名称的开始字符和结束字符，且不能超过63字符；  
@@ -90,7 +90,7 @@ spec:
   - key: virtual-kubelet.io/provider
     operator: Exists
 ```    
-- **通过virtual-kubelet创建原生容器pod注意事项：**    
+- **通过Virtual-Kubelet创建原生容器pod注意事项：**    
 
   - 在pod的yaml文件中，必须增加nodeSelector 和 tolerations   
   - 在nodeSelector中，kubernetes. io/hostname: hostname为必填项  
