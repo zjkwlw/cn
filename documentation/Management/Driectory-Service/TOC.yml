@@ -32,11 +32,5 @@
          href:Operation-Guide/Delete-Directory-Service.md
   - name: 常见问题
     items:
-      - name: 目录服务的VPC设置
-        href:FAQ/VPC-Setting.md
-      - name: 目录服务的安全组配置
-        href:FAQ/Security-Group-Configuration.md
-      - name: 信任类型无法选择林信任
-        href:FAQ/Trust-Type-Cannot-Choose-Forest-Trust.md
       - name: 信任关系认证失败
         href:FAQ/Trust-Relationship-Authentication-Failed.md
