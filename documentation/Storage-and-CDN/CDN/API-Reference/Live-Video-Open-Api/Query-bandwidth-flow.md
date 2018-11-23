@@ -11,8 +11,10 @@
 | username   | String   | 是           | 京东用户名pin                                                |
 | signature  | String   | 是           | 用户签名，通过md5的方式校验用户的身份信息，保障信息安全。  md5=日期+username+秘钥SecretKey日期：格式为 yyyymmddusername：京东用户名pin秘钥：双方约定示例：比如当前日期2016-10-23，用户pin: jcloud_00 ,用户秘钥SecretKey   ：e7a31b1c5ea0efa9aa2f29c6559f7d61那签名为MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | 是           | 查询的域名                                                   |
+| appName     | String   |否         | 发布点名称，发布点目前只能单个查询                                                |
+| streamName   | String   | 否           | 流名，流名目前支持查单路流名，查询流名时必须携带appName                                            |
 | start_time | String   | 是           | 时间格式：yyyy-mm-dd   hh:mi 参考示例：2016-12-14 07:00；    |
-| end_time   | String   | 否           | 不是必填参数，不传默认到当前时间                             |
+| end_time   | String   | 否           | 不是必填参数，不传默认到当前时间，查询的时间跨度不能超过30天             |
 
  
 
@@ -32,13 +34,13 @@
 
 - ### 请求地址
 
-http://opencdn.jcloud.com/api/live/ bandwidth_flow
+http://opencdn.jcloud.com/api/live/bandwidth_flow
 
 - ### 请求示例
 
 * json格式
 
-http://opencdn.jcloud.com/api/live/ bandwidth_flow
+http://opencdn.jcloud.com/api/live/bandwidth_flow
 ```
 {
     "username" :" test_user ",
