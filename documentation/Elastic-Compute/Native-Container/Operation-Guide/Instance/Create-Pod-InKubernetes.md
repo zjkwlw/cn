@@ -30,7 +30,6 @@ annotations:
 kubectl get nodes		#确定virtual-kubelet虚节点运行正常  
 `  
 ```
-kubectl get nodes 
 NAME                         STATUS    ROLES     AGE       VERSION
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
@@ -42,7 +41,6 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 kubectl get pods -n kube-system -o wide		#确定virtual-kubelet插件运行正常
 `  
 ```
-kubectl get pods -n kube-system -o wide
 NAME                                          READY     STATUS             RESTARTS   AGE       IP           NODE
 virtual-kubelet-cn-****-2a-7b****f7f-plmnp    1/1       Running            0          6h        10.0.128.5   k8s-node-v****4-90****snb
 virtual-kubelet-cn-****-2b-78****c4b7-mk8nv   1/1       Running            0          6h        10.0.128.3   k8s-node-v****a-90****snb
