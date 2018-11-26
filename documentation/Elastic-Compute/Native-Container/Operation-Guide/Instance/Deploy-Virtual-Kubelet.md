@@ -74,9 +74,7 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 - virtual-kubelet-serviceaccount：创建 Virtual-Kubelet 对应的 serviceaccount，提供访问K8S APIserver、 操作 Pod 等资源的权限。  
 - virtual-kubelet-secret，使用pem格式的X 509证书进行10250 端口访问认证，用于 kubectl logs获取容器日志 以及 Kubectl exec在容器中执行命令。  
 
-```yaml  
-
----
+```
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -112,10 +110,9 @@ data:
 ```  
 
 3. virtual-kubelet-deployment.yaml 定义Deployment，运行 Virtual-Kubelet 应用 (Deployment高可用、易维护，也可以直接创建virtual-kubelet的POD)  
-- **说明**：在deployment中，replicas必须为1，即指定期望被创建地virtual-kubelet的Pod数量为1  
+- **说明**：在deployment中，replicas必须为1，即指定期望被创建地virtual-kubelet的Pod数量为1    
 
-
-```yaml  
+```  
 # virtual-kubelet-deployment.yaml 
 apiVersion: extensions/v1beta1
 kind: Deployment
