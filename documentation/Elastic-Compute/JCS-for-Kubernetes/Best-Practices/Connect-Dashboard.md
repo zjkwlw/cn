@@ -22,7 +22,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/导入证书4.png)  
 完成证书导入  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/导入证书5.png)  
-5）在浏览器中输入https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/，其中****请使用Kubernetes集群详情页中查询到的服务端点替换，即可访问dashboard；  
+5）在浏览器中输入`https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/`，其中`****`请使用Kubernetes集群详情页中查询到的服务端点替换，即可访问dashboard；  
 2、通过LoadBalance 服务访问dashboard；  
  1）通过LoadBalance服务访问dashboard，您需要现在集群中创建一个LoadBalance类型的服务，yaml文件如下所示： 
 ```
