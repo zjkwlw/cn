@@ -19,10 +19,12 @@ OSS目前支持标准存储与低冗余存储。
 | 特点及应用场景|适合数据频繁读取，对数据高可用性，高可靠较低冗余有更高的要求。场景：移动应用、网站视频、数据分析|低冗余存储使客户能够以低于OSS 标准存储<br>的冗余级别来存储非关键性的可再生数据。它提供一种可用性高的解决方案，场景：适用于分发或共享在其他位置持久存储的内容，<br>或用于存储缩略图、转码媒体或其他可轻松复制的经过处理的数据 |
 | 存储价格 | 0.00427元/GB/天（0.128元/GB/月）  |0.00233元/GB/天（0.07元/GB/月） |
 
+注：两种存储类型定价具体请参考[OSS价格总览](https://docs.jdcloud.com/cn/object-storage-service/price-overview)
+
 ### 如何使用低冗余存储类型?
 
-京东云支持通过兼容AWS S3 的 API、各语言SDK 和 CLI 三种方式使用低冗余存储。
+京东云支持通过兼容AWS S3 的 API、各语言SDK 方式使用低冗余存储。
 
-通过京东云OSS兼容AWS S3 的 API、各语言SDK 使用低冗余存储即在上传Object 时请求增加storage-class属性，并设置其值为REDUCED_REDUNDANCY。
+通过京东云OSS兼容AWS S3 的 API、各语言SDK 使用低冗余存储，即在上传Object 时请求增加storage-class属性，并设置其值为REDUCED_REDUNDANCY。
 
 
