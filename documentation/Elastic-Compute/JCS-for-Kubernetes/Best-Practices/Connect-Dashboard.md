@@ -46,25 +46,26 @@ spec:
 `
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
 `  
-3）在kube-system命名空间中查询新创建的服务的公网IP
+3）在kube-system命名空间中查询新创建的服务的公网IP：  
 `
 kubectl get services -n kube-system
 `  
 4）在浏览器中输入https://****:port，其中****使用LoadBalance服务关联的公网IP替换，port使用service spec中的port替换，本示例为8443，即可访问dashboard。  
 三、dashboard身份认证  
 在dashboad中查看集群的资源信息，需要通过用户身份认证；  
-以获取admin服务账户的令牌为例，具体操作方法如下：  
-1、查看kube-system命名空间中的所有secret：
+**以获取admin服务账户的令牌为例，具体操作方法如下：**  
+1、查看kube-system命名空间中的所有secret：  
 `
 kubectl get secret -n kube-system
 `  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/admintoken列表.png)  
-2、查看admin服务账户对应的secret详情，该集群为admin-user-token-b6djq，b6djq部分请根据自身集群进行替换：
+2、查看admin服务账户对应的secret详情，该集群为admin-user-token-b6djq，b6djq部分请根据自身集群进行替换：  
 `
 kubectl describe secret admin-user-token-b6djq -n kube-system
 `  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/查看admintoken.png)  
-3、将Data 项中对应的token信息拷贝到dashboard窗口令牌输入框中，点击确定即可；
+3、将Data 项中对应的token信息拷贝到dashboard窗口令牌输入框中，点击确定即可；  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/输入令牌.png)   
-4、您也可以将token信息添加到config文件user项目中，之后，您即可选择Kubeconfig方式进行身份认证。
+
+您也可以将token信息添加到config文件user项目中，之后，您即可选择Kubeconfig方式进行身份认证。
 
