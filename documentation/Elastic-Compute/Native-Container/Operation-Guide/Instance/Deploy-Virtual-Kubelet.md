@@ -5,27 +5,30 @@ Virtual-Kubetlet是一种开源的Kubernetes Kubelet部署方法，为其他API�
 
 京东云提供了[Virual Kubelet自动化部署脚本][1]，在可以连接到集群的终端下载并执行自动化部署脚本，以CentOS 7.4 64位操作系统为例，执行步骤如下：  
 1. 下载并解压缩自动化部署脚本到本地：  
-`   
-wget http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz  
-`   
-`  
+```
+wget http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz    
 tar -zxvf jdcloud-virtual-kubelet.tar.gz  
-`  
+```  
 2. 进入jdcloud-virtual-kubelet目录并执行自动化部署脚本：   
 `  
 sh virtual-kubelet.sh 114.**.**.93:6443 cn-****-2a,cn-****-2b g.n2  
 `   
 脚本运行的参数说明如下：  
-- 集群服务端点：Virtual-Kubelet连接的Kubernetes集群提供的服务端点，您可在Kubernetes集群详情页查看获取；  
-- Virtual-Kubelet运行的可用区：与Kubernetes集群支持的可用区一致，或Kubernetes集群支持的可用区的子集；详情参考地域与可用区说明；    
-- 实例规格分类：设置Virtual-Kubelet创建原生容器Pod时默认选择的实例规格分类，例如：g.n2；更多实例规格类型参考[价格总览][2]；  
+- 114.**.**.93:6443:为Kubernetes集群服务端点，Virtual-Kubelet连接的Kubernetes集群提供的服务端点，您可在Kubernetes集群详情页查看获取；  
+- cn-****-2a：Virtual-Kubelet运行的可用区：与Kubernetes集群支持的可用区一致，或Kubernetes集群支持的可用区的子集；详情参考[地域与可用区说明](https://docs.jdcloud.com/cn/jcs-for-kubernetes/regions-and-availabilityzones)；    
+- g.n2:实例规格分类：设置Virtual-Kubelet创建原生容器Pod时默认选择的实例规格分类，例如：g.n2、c.n2、m.n2、h.g2；更多实例规格类型参考[价格总览][2]；  
 3. 使用Kubectl确认Virtual-Kubelet的状态：  
 `   
 kubectl get pods -n kube-system
 `   
+```
+NAME                                          READY     STATUS     RESTARTS   AGE
+virtual-kubelet-cn-east-2a-5cd5bcd4b5-rwlrt   1/1       Running    9          2d
+virtual-kubelet-cn-east-2b-7bb6c6f565-zvggm   1/1       Running    3          2d
+```  
 确定Virtual-Kubelet虚节点的数量与指定的可用区数量一致确状态为Running即说明Virtual-Kubelet部署成功；  
 
-```nodes  
+``` 
 [root@*** jdcloud-virtual-kubelet]# kubectl get nodes
 NAME                         STATUS    ROLES     AGE       VERSION
 k8s-node-*******-90****snb   Ready     <none>    10d       v1.8.12-249.9d2635d
@@ -64,7 +67,7 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 
 ```  
 
-2.  Virtual-Kubelet的部署文件：  
+2. Virtual-Kubelet的部署文件：  
 
 - virtual-kubelet-serviceaccount：创建 Virtual-Kubelet 对应的 serviceaccount，提供访问K8S APIserver、 操作 Pod 等资源的权限。  
 - virtual-kubelet-secret，使用pem格式的X 509证书进行10250 端口访问认证，用于 kubectl logs获取容器日志 以及 Kubectl exec在容器中执行命令。  
