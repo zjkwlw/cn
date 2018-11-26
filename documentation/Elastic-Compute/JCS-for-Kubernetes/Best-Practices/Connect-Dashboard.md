@@ -41,7 +41,7 @@ spec:
   type: LoadBalancer
   selector:
      k8s-app: kubernetes-dashboard
-```
+```  
 2）执行如下命令，在kube-system命名空间中创建服务：  
 `
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
