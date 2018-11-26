@@ -75,7 +75,7 @@
                 href: Operation-Guide/Instance/Stop-Pod.md
               - name: 删除实例
                 href: Operation-Guide/Instance/Delete-Pod.md
-          - name: 在Kubernetes集群中创建Pod
+          - name: Kubernetes集群创建Pod
             items:
               - name: 部署Virtual-Kubelet
                 href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
