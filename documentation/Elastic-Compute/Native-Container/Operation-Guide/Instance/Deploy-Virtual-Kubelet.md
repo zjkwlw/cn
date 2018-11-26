@@ -14,9 +14,9 @@ tar -zxvf jdcloud-virtual-kubelet.tar.gz
 sh virtual-kubelet.sh 114.**.**.93:6443 cn-****-2a,cn-****-2b g.n2  
 `   
 脚本运行的参数说明如下：  
-- 114.**.**.93：6443:为Kubernetes集群服务端点；Virtual-Kubelet连接的Kubernetes集群提供的服务端点，您可在Kubernetes集群详情页查看获取；  
-- cn-****-2a：为Virtual-Kubelet运行的可用区；与Kubernetes集群支持的可用区一致，或Kubernetes集群支持的可用区的子集；详情参考[地域与可用区说明](https://docs.jdcloud.com/cn/jcs-for-kubernetes/regions-and-availabilityzones)；    
-- g.n2：为实例规格分类；设置Virtual-Kubelet创建原生容器Pod时默认选择的实例规格分类，例如：g.n2、c.n2、m.n2、h.g2；更多实例规格类型参考[价格总览][2]；  
+- `114.**.**.93`：6443:为Kubernetes集群服务端点；Virtual-Kubelet连接的Kubernetes集群提供的服务端点，您可在Kubernetes集群详情页查看获取；  
+- `cn-****-2a,cn-****-2b`：为Virtual-Kubelet运行的可用区；与Kubernetes集群支持的可用区一致，或Kubernetes集群支持的可用区的子集；详情参考[地域与可用区说明](https://docs.jdcloud.com/cn/jcs-for-kubernetes/regions-and-availabilityzones)；    
+- `g.n2`：为实例规格分类；设置Virtual-Kubelet创建原生容器Pod时默认选择的实例规格分类，例如：g.n2、c.n2、m.n2、h.g2；更多实例规格类型参考[价格总览][2]；  
 3. 使用Kubectl确认Virtual-Kubelet的状态：  
 `   
 kubectl get pods -n kube-system
@@ -48,7 +48,7 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 
 1. Virtual-Kubelet 启动配置文件 nc.toml，文件内容及说明如下：  
 
-```toml  
+```  
 [System]
    OperatingSystem = "Linux"		#Node的操作系统. 默认为Linux
 [Metadata]
@@ -108,11 +108,9 @@ data:
   key.pem: xxxxxxxxxxxxxxxxxxxxxxxxxxxx==   #key.pem的内容
 
 ```  
-
-3. virtual-kubelet-deployment.yaml 定义Deployment，运行 Virtual-Kubelet 应用 (Deployment高可用、易维护，也可以直接创建virtual-kubelet的POD)  
-- **说明**：在deployment中，replicas必须为1，即指定期望被创建地virtual-kubelet的Pod数量为1    
-
-```  
+3. virtual-kubelet-deployment.yaml 定义Deployment，运行 Virtual-Kubelet 应用 (Deployment高可用、易维护，也可以直接创建virtual-kubelet的POD)   
+- **说明**：在deployment中，replicas必须为1，即指定期望被创建地virtual-kubelet的Pod数量为1  
+```
 # virtual-kubelet-deployment.yaml 
 apiVersion: extensions/v1beta1
 kind: Deployment

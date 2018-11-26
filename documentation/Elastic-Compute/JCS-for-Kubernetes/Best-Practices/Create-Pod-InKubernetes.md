@@ -10,7 +10,7 @@
 - 原生容器Pod最多定义8个Container，Container数量受已添加的volume数量限制；  
 - 使用Kubctl exec 在container中执行命令不支持-t参数；  
 - 原生容器Pod默认为已定义的Container创建系统盘，系统盘设置参数如下：  
-```  
+```
 annotations:
     jdcloud.com/NativeContainer.SystemDisk.Name: distTest
     jdcloud.com/NativeContainer.SystemDisk.Type: ssd
@@ -21,38 +21,33 @@ annotations:
 
 ## 使用步骤（以CentOS 7.4 64位操作系统为例）  
 
-1. 登录安装了kubectl并能连接到kubernetes集群服务端点的服务器。kubectl客户端的安装和设置，参考[安装和设置kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)；  
+1. 登录安装了kubectl并能连接到kubernetes集群服务端点的服务器。kubectl客户端的安装和设置，参考[安装和设置kubectl](https://docs.jdcloud.com/cn/jcs-for-kubernetes/connect-to-cluster)；  
 
-2. 下载[jdcloud-virtual-kubelet.tar.gz](http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz)，解压文件并进入解压目录，执行virtual-kubelet.sh脚本。详情参考virtual-kubelet部署；  
+2. 下载[jdcloud-virtual-kubelet.tar.gz](http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz)，解压文件并进入解压目录，执行virtual-kubelet.sh脚本。详情参考[Virtual-Kubelet部署](https://docs.jdcloud.com/cn/native-container/deploy-virtual-kubelet)；  
 
 3. virtual-kubelet部署完成后执行以下命令确定virtual-kubelet运行正常。  
 `  
 kubectl get nodes		#确定virtual-kubelet虚节点运行正常  
 `  
-```bash  
-[root@*** jdcloud-virtual-kubelet]# kubectl get nodes 
+```
 NAME                         STATUS    ROLES     AGE       VERSION
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
 virtual-kubelet-cn-****-2a   Ready     agent     3d        v1.8.3
 virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
-
 ```  
 `  
 kubectl get pods -n kube-system -o wide		#确定virtual-kubelet插件运行正常
 `  
-```bash  
-[root@*** jdcloud-virtual-kubelet]# kubectl get pods -n kube-system -o wide
+```
 NAME                                          READY     STATUS             RESTARTS   AGE       IP           NODE
 virtual-kubelet-cn-****-2a-7b****f7f-plmnp    1/1       Running            0          6h        10.0.128.5   k8s-node-v****4-90****snb
 virtual-kubelet-cn-****-2b-78****c4b7-mk8nv   1/1       Running            0          6h        10.0.128.3   k8s-node-v****a-90****snb
 ```   
-4.  使用virtual-kubelet 创建原生容器pod的Yaml示例如下：    
-`    
-kubectl create -f pod_example.yaml  
-`    
-```pod_example.yaml    
+4.  使用virtual-kubelet 创建原生容器pod的Yaml示例如下：  
+pod_example.yaml内容如下：  
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -90,12 +85,16 @@ spec:
   - key: virtual-kubelet.io/provider
     operator: Exists
 ```    
+`    
+kubectl create -f pod_example.yaml  
+`    
+
 - **通过Virtual-Kubelet创建原生容器pod注意事项：**    
 
   - 在pod的yaml文件中，必须增加nodeSelector 和 tolerations   
   - 在nodeSelector中，kubernetes. io/hostname: hostname为必填项  
 
-```yaml    
+```
 nodeSelector:
     kubernetes.io/role: agent
     beta.kubernetes.io/os: linux

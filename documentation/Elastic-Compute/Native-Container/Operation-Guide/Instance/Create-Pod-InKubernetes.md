@@ -21,16 +21,15 @@ annotations:
 
 ## 使用步骤（以CentOS 7.4 64位操作系统为例）  
 
-1. 登录安装了kubectl并能连接到kubernetes集群服务端点的服务器。kubectl客户端的安装和设置，参考[安装和设置kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)；  
+1. 登录安装了kubectl并能连接到kubernetes集群服务端点的服务器。kubectl客户端的安装和设置，参考[安装和设置kubectl](https://docs.jdcloud.com/cn/jcs-for-kubernetes/connect-to-cluster)；  
 
-2. 下载[jdcloud-virtual-kubelet.tar.gz](http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz)，解压文件并进入解压目录，执行virtual-kubelet.sh脚本。详情参考virtual-kubelet部署；  
+2. 下载[jdcloud-virtual-kubelet.tar.gz](http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz)，解压文件并进入解压目录，执行virtual-kubelet.sh脚本。详情参考[Virtual-Kubelet部署](https://docs.jdcloud.com/cn/native-container/deploy-virtual-kubelet)；  
 
 3. virtual-kubelet部署完成后执行以下命令确定virtual-kubelet运行正常。  
 `  
 kubectl get nodes		#确定virtual-kubelet虚节点运行正常  
 `  
 ```
-kubectl get nodes 
 NAME                         STATUS    ROLES     AGE       VERSION
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
 k8s-node-*******-90lirk7snb   Ready     <none>    10d       v1.8.12-249.9d2635d
@@ -42,7 +41,6 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
 kubectl get pods -n kube-system -o wide		#确定virtual-kubelet插件运行正常
 `  
 ```
-kubectl get pods -n kube-system -o wide
 NAME                                          READY     STATUS             RESTARTS   AGE       IP           NODE
 virtual-kubelet-cn-****-2a-7b****f7f-plmnp    1/1       Running            0          6h        10.0.128.5   k8s-node-v****4-90****snb
 virtual-kubelet-cn-****-2b-78****c4b7-mk8nv   1/1       Running            0          6h        10.0.128.3   k8s-node-v****a-90****snb
