@@ -25,6 +25,6 @@ OSS目前支持标准存储与低冗余存储。
 
 京东云支持通过兼容AWS S3 的 API、各语言SDK 方式使用低冗余存储。
 
-通过京东云OSS兼容AWS S3 的 API、各语言SDK 使用低冗余存储，即在上传Object 时请求增加storage-class属性，并设置其值为REDUCED_REDUNDANCY。
+通过京东云OSS兼容AWS S3 的 API、各语言SDK 使用低冗余存储，即在上传Object 时请求增加x-amz-storage-class属性，并设置其值为REDUCED_REDUNDANCY。具体参考 [PUTObject](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Objects/Put-Object.md）
 
 
