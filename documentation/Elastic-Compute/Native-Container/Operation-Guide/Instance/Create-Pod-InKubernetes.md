@@ -47,7 +47,7 @@ NAME                                          READY     STATUS             RESTA
 virtual-kubelet-cn-****-2a-7b****f7f-plmnp    1/1       Running            0          6h        10.0.128.5   k8s-node-v****4-90****snb
 virtual-kubelet-cn-****-2b-78****c4b7-mk8nv   1/1       Running            0          6h        10.0.128.3   k8s-node-v****a-90****snb
 ```   
-4.  使用virtual-kubelet 创建原生容器pod的Yaml示例如下： 
+4.  使用virtual-kubelet 创建原生容器pod的Yaml示例如下：  
 pod_example.yaml内容如下：  
 ```
 apiVersion: v1
