@@ -67,7 +67,7 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: 部署Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
-     - name: 在Kubernetes集群中创建Pod
+     - name: 创建原生容器Pod
        items:
          - name: 部署Virtual-Kubelet
            href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
