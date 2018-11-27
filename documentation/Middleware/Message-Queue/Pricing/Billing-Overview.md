@@ -1,5 +1,5 @@
 # 计费概述
-说明：消息队列 JCQ 产品已经正式上线，产品收费标准请查看[价格总览](../Pricing/Price-Overview.md)
+说明：消息队列 JCQ 产品已经正式上线，产品收费标准请查看[价格总览](../Pricing/Price-Overview.md)。
 
 ## 收费项目
 
