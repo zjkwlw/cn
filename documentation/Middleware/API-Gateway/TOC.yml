@@ -57,7 +57,7 @@ items:
       items:
         - name: 创建API分组
           herf: Create-APIGroup/Create-APIGroup.md
-     - name: 创建API
+    - name: 创建API
       items:
         - name: 创建API
           herf: Create-API/Create-API.md
@@ -86,32 +86,10 @@ items:
   items:
   - name: 最佳实践
     herf: Best-Practices/BestPractices.md
-- name: 教程
-  items:
-  status: 0
 - name: 常见问题
   herf: FAQ/faq.md
-- name: API参考
-  herf:
-  status: 0 
-- name: SDK参考
-  herf:
-  status: 0 
 - name: 相关资源
   items:
   - name: 文档历史记录
-    herf: Related-Resources/Document-History.md     
-  - name: 服务条款
-    herf: Related-Resources/Service-Terms.md           
-    status: 0      
-  - name: SLA
-    herf: Related-Resources/SLA.md           
-    status: 0       
-  - name: 备案
-    herf: Related-Resources/Filing.md           
-    status: 0        
-  - name: 词汇表
-    herf: Related-Resources/Glossary.md           
-    status: 0          
-          
- 
+    herf: Related-Resources/Document-History.md 
+    

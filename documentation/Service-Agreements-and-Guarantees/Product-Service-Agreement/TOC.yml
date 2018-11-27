@@ -1,6 +1,5 @@
-  name: 产品服务协议
-  href: 
-  items:
+name: 产品服务协议
+items:
   - name: 云主机服务协议
     href: Cloud-Hosting-Service-Terms.md
   - name: 云主机服务等级协议（SLA）
@@ -80,4 +79,6 @@
   - name: DDoS防护包服务条款
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: DDoS防护包服务等级协议(SLA)
-    href: DDoS-Protection-Package-Service-Level-Agreement (SLA).md
+    href: DDoS-Protection-Package-Terms-Of-Service-SLA.md
+  - name: 云搜索Elasticsearch服务条款
+    href: JCS-for-Elasticsearch-Service-Terms.md

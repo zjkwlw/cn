@@ -63,6 +63,8 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: 回调通知
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
+           - name: 默认加密
+             href: Operation-Guide/Manage-Bucket/Default-Encryption-For-Oss-Buckets-2.md             
       - name: 文件管理
         items:
           - name: 新建文件夹
@@ -151,10 +153,18 @@ items:
         items:
            - name: 概述
              href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
+           - name: SDK-Java
+             items:
+                - name: 安装
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
+                - name: 初始化
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
+                - name: 简单上传
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
+                - name: 分片上传
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md          
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
-           - name: SDK-Java
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java.md
            - name: SDK-PHP
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
            - name: SDK-Android
@@ -264,7 +274,9 @@ items:
            - name: 移动文件
              href: SDK-Reference/Java-SDK/Move-Object-3.md
            - name: 授权访问
-             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md                          
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md
+           - name: 视频转码
+             href: SDK-Reference/Java-SDK/Video-Transcoding.md
  - name: 最佳实践
    items:
       - name: 使用S3fs在Linux实例上挂载Bucket
