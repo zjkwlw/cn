@@ -1,37 +1,10 @@
-## **本地验证**
+## 什么是HTTPDNS?
 
-  在把业务流量切到WAF上之前，建议您先通过本地验证确保一切配置正常，WAF转发正常。本地验证需要在本地模拟接入WAF，然后访问被防护网站，验证WAF正常转发。
+  HTTPDNS基于Http协议向京东云的DNS服务器发送域名解析请求，替代了基于DNS协议向运营商LocalDNS发起解析请求的传统方式，有效避免LocalDNS造成的域名劫持和跨网访问问题。
+  HttpDNS面向移动端应用，是移动互联网服务的最优解决方案。
 
-  通过修改本地hosts文件模拟接入WAF，将从本地访问被防护站点的请求导向WAF。
+## HttpDNS的作用?
 
-下面以Windows操作系统为例，详细介绍本地验证的步骤：
-
-1、用记事本或notepad++等文本编辑器打开hosts文件，hosts文件一般位于C:\Windows\System32\drivers\etc\hosts路径。
-
-具体方法：
-
-点击开始按钮，点击运行，在弹出的对话框中输入C:\Windows\System32\drivers\etc\hosts。点击确认后选择用记事本打开
-
-![img](file:///c:\users\zhangjingfeng\documents\jddongdong\jimenterprise\zzjf\temp\jdonline20180929111220.png) 
-
-![img](file:///c:\users\zhangjingfeng\documents\jddongdong\jimenterprise\zzjf\temp\jdonline20180929111306.png) 
-
-2、在最后一行添加如下内容：WAF的IP 被防护的域名。 
-
- ![img](file:///c:\users\zhangjingfeng\documents\jddongdong\jimenterprise\zzjf\temp\jdonline20180929112014.png) 
-
- 3、保存hosts文件，本地ping一下被防护的域名。 
-
-点击开始运行cmd，输入Ping+刚才写入的域名。
-
- 4、查看结果，若显示为刚才绑定的IP地址（WAF IP地址），则验证成功。
-
-![img](file:///c:\users\zhangjingfeng\documents\jddongdong\jimenterprise\zzjf\temp\jdonline20180929113601.png) 
-
-若显示依然是原来的IP地址（源站IP地址），请刷新一下本地DNS缓存（cmd下输入ipconfig/flushdns命令）。
-
-![img](file:///c:\users\zhangjingfeng\documents\jddongdong\jimenterprise\zzjf\temp\jdonline20180929113705.png) 
-
-5、验证转发正常，确认host绑定已经生效（域名已经本地解析为WAF IP）后，打开浏览器，输入该域名进行访问。
-
-WAF的配置正确，网站能够正常打开。
+  HttpDNS目的在于解决移动互联网中DNS解析异常、域名劫持的问题：运营商LocalDNS出口根据权威DNS目标IP地址进行NAT，或将解析请求转发到其他DNS服务器，导致权威DNS无法正确识别运营商的LocalDNS IP，引发域名解析错误、流量跨网。
+  域名被劫持后，会使网站无法访问（无法连接服务器）或访问到钓鱼网站等。
+  解析结果跨域、跨省、跨运营商、国家的后果：网站访问缓慢甚至无法访问。
