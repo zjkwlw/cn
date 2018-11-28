@@ -16,11 +16,10 @@
 ```
 
 ### **3.保存规则**
-
-[root@jd ~]# iptables -L –n    #查看是否设置好， 看到全部 DROP 了
-
-这样的设置好了，我们只是临时的， 重启服务器还是会恢复原来没有设置的状态。还要使用 service iptables save 进行保存。看到信息 firewall rules 防火墙的规则，其实就是保存在 /etc/sysconfig/iptables。可以打开文件查看 vi /etc/sysconfig/iptables
-
+```
+[root@jd ~]# iptables -L –n        #查看是否设置好， 看到全部 DROP 了。这条命令只是临时的， 重启服务器还是会恢复到原有规则。
+[root@jd ~]# service iptables save #将规则保存在 /etc/sysconfig/iptables，使重启后也可生效。
+```
 
 ### **4.添加规则**
 
