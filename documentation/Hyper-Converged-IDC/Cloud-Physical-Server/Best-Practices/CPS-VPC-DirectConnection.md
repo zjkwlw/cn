@@ -191,17 +191,17 @@ I、	描述：可选，可以填写象征性意义的文字描述，如CPS到VPC
  
 * 机房区域—>私有网络（6.1步骤查看的vpc名称和内网段）—>子网名称（自定义）—>CIDR会自动填充已选择的私有网络（确保掩码位与私有网络的掩码位一致）—>默认路由表。
  
-![配置VPC到CPS内网的路由2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-021.png)
+![配置VPC到CPS内网的路由2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-022.png)
  
-![配置VPC到CPS内网的路由3](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-022.png)
+![配置VPC到CPS内网的路由3](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-023.png)
 
 * 网络—>私有网络—>路由表，点击默认路由表（7.2步骤创建的路由名称）
 
-![配置VPC到CPS内网的路由4](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-023.png)
+![配置VPC到CPS内网的路由4](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-024.png)
  
 * 点击路由策略—>点击编辑—>然后在左下方才会显示“新增一条”按钮
 
-![配置VPC到CPS内网的路由5](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-024.png)
+![配置VPC到CPS内网的路由5](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-025.png)
  
 * 点击“新增一条”，输入信息。
 
@@ -211,17 +211,17 @@ I、	描述：可选，可以填写象征性意义的文字描述，如CPS到VPC
 
 下一跳：test_gw(4.3步骤创建的边界网关)
 
-![配置VPC到CPS内网的路由6](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-025.png)
+![配置VPC到CPS内网的路由6](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-026.png)
  
 
 #### 8、验证CPS到VPC之间的专线通信
 
 * 从云主机 ping CPS的内网IP
 
-![从云主机pingCPS的内网IP1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-026.png)
+![从云主机pingCPS的内网IP1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-027.png)
  
 * 从CPS ping 云主机内网IP
 
-![从云主机pingCPS的内网IP2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-027.png)
+![从云主机pingCPS的内网IP2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-028.png)
 
 
