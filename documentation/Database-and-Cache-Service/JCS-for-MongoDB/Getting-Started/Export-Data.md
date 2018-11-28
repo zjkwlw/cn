@@ -22,7 +22,7 @@
 		
 6. 将备份文件导入到本地数据库。
 
-    > mongorestore --host xxx --port=27017 --authenticationDatabase admin --archive=xxx(文件路径)  --gzip -u root -p xxx
+        > mongorestore --host xxx --port=27017 --authenticationDatabase admin --archive=xxx(文件路径)  --gzip -u root -p xxx
 
 ## 相关参考
 
