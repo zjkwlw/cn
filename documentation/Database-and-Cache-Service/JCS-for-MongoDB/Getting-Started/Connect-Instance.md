@@ -39,7 +39,7 @@
 		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
 		或者		
 		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx		
-		>（****部分替换为root密码）
+                >（****部分替换为root密码）
 		
     - 使用Connection String URI连接实例
    
@@ -47,8 +47,8 @@
 		
        命令样式如下：
 
-	        > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
-	        > （****部分替换为root密码）
+                > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
+                > （****部分替换为root密码）
 		
 		
 ## 相关参考
