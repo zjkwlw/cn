@@ -15,7 +15,7 @@
 3. 在“实例详情”页面，依次点击 **备份与恢复** >  **备份策略**，进入“备份策略”页面。
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
 
-4. 在“备份策略”页面，点击 **修改策略**，打开“修改策略弹窗”。
+4. 在“备份策略”页面，点击 **修改策略**，打开“修改策略弹窗”。                         
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-018.png)
 
 5. 在“修改策略弹窗”，重新选择期望的自动备份时间。
