@@ -37,9 +37,7 @@
 	
 		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p		
 		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
-		
-		或者
-		
+		或者		
 		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx		
 		>（****部分替换为root密码）
 		
@@ -48,8 +46,9 @@
        MongoDB服务可以用传统的传参的方式进行连接，同时大部分的驱动程序也支持URI形式进行连接，MongoDB官方推荐使用URI的方式连接MongoDB服务以保证连接高可用。请使用MongoDB 3.2以上版本的driver。
 		
        命令样式如下：
-	    > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
-	    > （****部分替换为root密码）
+
+	        > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
+	        > （****部分替换为root密码）
 		
 		
 ## 相关参考
