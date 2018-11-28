@@ -12,7 +12,7 @@
 
 参照以下步骤，启用恶意IP惩罚功能：
 
-**说明：** 执行以下操作前，请确保已将网站接入WAF进行防护。具体操作请参考[CNAME接入指南](file:///E:\WMM\%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93\WAF%E6%96%87%E6%A1%A3\%E4%BA%91WAF\Introduction\%E9%98%B2%E6%8A%A4%E9%85%8D%E7%BD%AE\cn.zh-CN\%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97\%E6%8E%A5%E5%85%A5WAF\CNAME%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97.md)。
+**说明：** 执行以下操作前，请确保已将网站接入WAF进行防护。具体操作请参考CNAME接入指南。
 
 1. 登录[京东云Web应用防火墙控制台](https://cloudwaf-console.jdcloud.com)。
 2. 前往**网站配置**页面。
@@ -21,7 +21,7 @@
 
 **说明：** 如果使用中出现异常，可以在此页面关闭防护。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E6%81%B6%E6%84%8FIP%E6%83%A9%E7%BD%9A-1.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/%E6%81%B6%E6%84%8FIP%E6%83%A9%E7%BD%9A-1.png)
 
 **测试示例**
 
