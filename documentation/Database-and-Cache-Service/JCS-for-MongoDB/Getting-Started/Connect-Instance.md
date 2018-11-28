@@ -18,28 +18,29 @@
    
         ![查看连接](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-006.png)
 		
-	- 数据库名称，默认为admin 。
-	- 用户名称，默认为root 。
-	- 副本集名称。
-	- 连接地址。
+	    - 数据库名称，默认为admin 。
+	    - 用户名称，默认为root 。
+	    - 副本集名称。
+	    - 连接地址。
 	
-	    默认情况下，节点1为Primary， 节点2为Secondary，	如发生自动容灾切换等情况，Primary、Secondary节点可能发生变化。
+	        默认情况下，节点1为Primary， 节点2为Secondary，	如发生自动容灾切换等情况，Primary、Secondary节点可能发生变化。
+
             客户端请使用Connection String URI连接来保证高可用。
 
 2. 连接 MongoDB 实例。
 
     - 使用Mongo shell 连接        
-	mongo shell是MongoDB自带的一种交互式JavaScript shell。您可以使用mongo shell查询和更新数据或执行管理操作。
-	mongo shell是MongoDB发行版的一部分，您需要先安装MongoDB，然后再使用mongo shell 连接至您的MongoDB实例。
-	MongoDB发行版下载地址请参见：[MongoDB Download Center](https://www.mongodb.com/download-center#community) 。
-	请使用 mongo shell 3.2及以上版本的 client 连接 MongoDB 实例 ，否则可能无法鉴权成功。		
+	    mongo shell是MongoDB自带的一种交互式JavaScript shell。您可以使用mongo shell查询和更新数据或执行管理操作。
+	    mongo shell是MongoDB发行版的一部分，您需要先安装MongoDB，然后再使用mongo shell 连接至您的MongoDB实例。
+	    MongoDB发行版下载地址请参见：[MongoDB Download Center](https://www.mongodb.com/download-center#community) 。
+	    请使用 mongo shell 3.2及以上版本的 client 连接 MongoDB 实例 ，否则可能无法鉴权成功。		
         在云主机上使用 mongo 命令进行连接，命令样例如下：
 	
-		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p		
-		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
+		    > mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p		
+		    > mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
 		或者		
-		> mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx		
-                >（****部分替换为root密码）
+		    > mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx		
+            >（****部分替换为root密码）
 		
     - 使用Connection String URI连接实例
    
@@ -47,8 +48,8 @@
 		
         命令样式如下：
 
-                > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
-                > （****部分替换为root密码）
+            > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
+            > （****部分替换为root密码）
 		
 		
 ## 相关参考
