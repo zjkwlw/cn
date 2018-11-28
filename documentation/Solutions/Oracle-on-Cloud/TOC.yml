@@ -1,7 +1,7 @@
   name: Oracle 上云
   href: 
   items:
-  - name: 解决方案概述
+  - name: Oracle 上云概述
     href: Solution-Overview.md
   - name: 搭建共享存储
     href: Building-Shared-Storages.md
