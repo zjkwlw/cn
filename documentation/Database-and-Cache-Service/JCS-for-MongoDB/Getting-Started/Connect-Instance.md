@@ -27,13 +27,13 @@
             客户端请使用Connection String URI连接来保证高可用。
 
 2. 连接 MongoDB 实例。
-    - 使用Mongo shell 连接
-        
+
+    - 使用Mongo shell 连接        
 	mongo shell是MongoDB自带的一种交互式JavaScript shell。您可以使用mongo shell查询和更新数据或执行管理操作。
 	mongo shell是MongoDB发行版的一部分，您需要先安装MongoDB，然后再使用mongo shell 连接至您的MongoDB实例。
 	MongoDB发行版下载地址请参见：[MongoDB Download Center](https://www.mongodb.com/download-center#community) 。
 	请使用 mongo shell 3.2及以上版本的 client 连接 MongoDB 实例 ，否则可能无法鉴权成功。		
-	在云主机上使用 mongo 命令进行连接，命令样例如下：
+        在云主机上使用 mongo 命令进行连接，命令样例如下：
 	
 		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p		
 		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
@@ -43,9 +43,9 @@
 		
     - 使用Connection String URI连接实例
    
-       MongoDB服务可以用传统的传参的方式进行连接，同时大部分的驱动程序也支持URI形式进行连接，MongoDB官方推荐使用URI的方式连接MongoDB服务以保证连接高可用。请使用MongoDB 3.2以上版本的driver。
+        MongoDB服务可以用传统的传参的方式进行连接，同时大部分的驱动程序也支持URI形式进行连接，MongoDB官方推荐使用URI的方式连接MongoDB服务以保证连接高可用。请使用MongoDB 3.2以上版本的driver。
 		
-       命令样式如下：
+        命令样式如下：
 
                 > mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx	 
                 > （****部分替换为root密码）
