@@ -51,13 +51,13 @@ HTTPS (开启443端口)
 ```
 允许ICMP（允许ping）
 ```
-[root@tp ~]# iptables -A OUTPUT -p icmp -j ACCEPT
-[root@tp ~]# iptables -A INPUT -p icmp -j ACCEPT
+[root@jd ~]# iptables -A OUTPUT -p icmp -j ACCEPT
+[root@jd ~]# iptables -A INPUT -p icmp -j ACCEPT
 ```
 允许loopback(禁止loopback会导致DNS无法正常关闭等问题)
 ```
-IPTABLES -A INPUT -i lo -p all -j ACCEPT
-IPTABLES -A OUTPUT -o lo -p all -j ACCEPT
+[root@jd ~]# iptables -A INPUT -i lo -p all -j ACCEPT
+[root@jd ~]# iptables -A OUTPUT -o lo -p all -j ACCEPT
 ```
 禁止某个IP的tcp访问
 ```
