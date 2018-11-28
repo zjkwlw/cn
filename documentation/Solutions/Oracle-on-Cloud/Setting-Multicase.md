@@ -4,20 +4,10 @@
 
 
 ### 集群IP划分
-#### pub
-- 10.10.10.101 oracle-rac1
-- 10.10.10.102 oracle-rac2
-
-#### vip
-- 10.10.10.103 oracle-rac1-vip
-- 10.10.10.104 oracle-rac2-vip 
-
-#### priv
-- 192.168.100.101 oracle-rac1-priv 
-- 192.168.100.102 oracle-rac2-priv 
-
-#### scan-ip
-- 10.10.10.105 scan-ip
+|主机名|公共IP|私有IP|虚拟IP|scan IP|
+|-|-|-|-|-|
+|oracle-rac1|10.10.10.101|192.168.100.101|10.10.10.103|10.10.10.105 scan-ip|
+|oracle-rac2|10.10.10.102|192.168.100.102|10.10.10.104|10.10.10.105 scan-ip|
 
 ### 1. 安装N2N
 在所有计划安装Oracle RAC的节点上执行
