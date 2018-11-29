@@ -107,7 +107,7 @@ step3：编译
 step4：运行测试用例
 
 ```
-./example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 B69B341E5C669082EFCF2E405C626379
+./example jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com 6379 password
 AUTH: OK
 PING: PONG
 SET: OK
