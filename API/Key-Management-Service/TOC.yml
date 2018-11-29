@@ -56,9 +56,9 @@
           - name: 禁用机密数据
             href: Secret-Management-Service/disableSecret.md
           - name: 更新机密数据描述
-            href: updateSecret.md
+            href: Secret-Management-Service/updateSecret.md
           - name: 获取机密数据列表
-            href: describeSecretList.md
+            href: Secret-Management-Service/describeSecretList.md
           - name: 创建机密数据版本
             href: Secret-Management-Service/createSecretVersion.md
           - name: 删除机密数据版本
