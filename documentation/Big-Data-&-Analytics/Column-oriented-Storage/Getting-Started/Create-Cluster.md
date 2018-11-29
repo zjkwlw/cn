@@ -1,7 +1,7 @@
 # 创建集群
 
 您可以通过 列式存储 控制台快速创建集群。
-关于列式存储的计费说明请参见：[价格总览](../Pricing/Price-Overview.md)、[计费概述](../Pricing/Billing-Overview.md)，本文介绍通过控制台创建列式存储集群。
+关于列式存储的计费说明请参见：[价格总览](../Pricing/Price-Overview.md)、[计费概述](https://docs.jdcloud.com/column-oriented-storage/billing-overview)，本文介绍通过控制台创建列式存储集群。
 
 ## 前提条件
 

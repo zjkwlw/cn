@@ -63,6 +63,8 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: 回调通知
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
+           - name: 默认加密
+             href: Operation-Guide/Manage-Bucket/Default-Encryption-For-Oss-Buckets-2.md             
       - name: 文件管理
         items:
           - name: 新建文件夹
@@ -272,7 +274,9 @@ items:
            - name: 移动文件
              href: SDK-Reference/Java-SDK/Move-Object-3.md
            - name: 授权访问
-             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md                          
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md
+           - name: 视频转码
+             href: SDK-Reference/Java-SDK/Video-Transcoding.md
  - name: 最佳实践
    items:
       - name: 使用S3fs在Linux实例上挂载Bucket
@@ -296,4 +300,6 @@ items:
       - name: OSS线上服务快速验证工具
         href: Best-Practices/OSS-Verification-Tool.md
  - name: 常见问题
-   status: 0
+   items:
+      - name: 一般性问题
+        href: FAQ/General-Problem.md
