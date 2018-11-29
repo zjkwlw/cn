@@ -53,6 +53,16 @@
             href: Operation-Guide/NodeGroup/Telescopic-NodeGroup.md
           - name: 删除工作节点组
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
+      - name: Dashboard
+        items:
+          - name: Deployment
+            href: Operation-Guide/Dashboard/Deployment-Overview.md
+          - name: Pod
+            href: Operation-Guide/Dashboard/Pod-Overview.md
+          - name: Service
+            href: Operation-Guide/Dashboard/Service-Overview.md
+          - name: Configmap
+            href: Operation-Guide/Dashboard/Configmap-Overview.md
   - name: 最佳实践
     items:
      - name: 访问Dashboard
