@@ -141,6 +141,12 @@ items:
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
              href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md
+           - name:Get Bucket Encryption
+             href: API-Reference-S3-Compatible/Compatibility-API/Get-Bucket-Encryption-2.md
+           - name:Put Bucket Encryption
+             href: API-Reference-S3-Compatible/Compatibility-API/Put-Bucket-Encryption-2.md
+           - name:Delete Bucket encryption
+             href: API-Reference-S3-Compatible/Compatibility-API/Delete-Bucket-Encryption-2.md             
       - name: 错误响应
         href: API-Reference-S3-Compatible/Error-Response-2.md                
       - name: 扩展接口
