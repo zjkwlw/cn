@@ -11,7 +11,7 @@
 import redis
 
 #这里替换为连接的实例host和port
-host = 'jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com'
+host = 'jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com'
 port = 6379
 
 #这里配置password
