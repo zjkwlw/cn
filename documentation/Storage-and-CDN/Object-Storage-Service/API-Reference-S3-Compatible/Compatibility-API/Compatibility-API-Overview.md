@@ -42,4 +42,4 @@
 |GET Bucket notification|返回设置在Bucket上的回调通知配置|兼容[GET Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/GET-Bucket-notification.md)|[GET Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETnotification.html)|
 |GET Bucket encryption|返回用户对于OSS存储空间的默认加密配置|兼容[GET Bucket encryption](./Get-Bucket-Encryption-2.md)|[GET Bucket encryption](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETencryption.html)|
 |PUT Bucket encryption|用于设定bucket默认加密方式置|兼容[PUT Bucket encryption](./Put-Bucket-Encryption-2.md)|[PUT Bucket encryption](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTencryption.html)|
-|DELETE Bucket encryption|删除OSS存储空间的默认加密配置|兼容[DELETE Bucket encryption](./Delete-Bucket-encryption.md)|[DELETE Bucket encryption](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEencryption.html)|
+|DELETE Bucket encryption|删除OSS存储空间的默认加密配置|兼容[DELETE Bucket encryption](./Delete-Bucket-Encryption-2.md)|[DELETE Bucket encryption](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEencryption.html)|
