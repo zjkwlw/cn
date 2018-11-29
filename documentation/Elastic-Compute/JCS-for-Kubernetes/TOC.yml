@@ -36,7 +36,7 @@
       - name: 集群
         items:
           - name: 集群概述
-            href: Operation-Guide/Cluster/Overview.md
+            href: Operation-Guide/Cluster/Cluster-Overview.md
           - name: 创建集群
             href: Operation-Guide/Cluster/Create-Cluster.md
           - name: 连接集群
@@ -46,7 +46,7 @@
       - name: 工作节点组
         items:
           - name: 工作节点组概述
-            href: Operation-Guide/NodeGroup/Overview.md
+            href: Operation-Guide/NodeGroup/Nodegroup-Overview.md
           - name: 创建工作节点组
             href: Operation-Guide/NodeGroup/Create-NodeGroup.md
           - name: 工作节点组伸缩
