@@ -2,9 +2,14 @@
 
 ### 如何配置ACL？
 
-目前列式存储提供了内网和公网两种访问模式。
-内网访问稳定安全，适合生产使用；
-公网访问适合开发测试访问，主要是满足开发测试需求。
+1.	创建VPC
+请参考京东云帮助中心文档：
+https://docs.jdcloud.com/cn/virtual-private-cloud/vpc-configuration
+2.	创建子网
+请参考京东云帮助中心文档：
+https://docs.jdcloud.com/cn/virtual-private-cloud/subnet-configuration
+注：创建过程中路由表选择默认即可。
+3.	创建ACL
+请参考京东云帮助中心文档：
+https://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-configuration
 
-列式存储的访问方式有使用HBase Shell访问和通过API访问。
-目前列式存储集群支持三种API访问方式，分别为Native Java API、Thrift API、REST API。
