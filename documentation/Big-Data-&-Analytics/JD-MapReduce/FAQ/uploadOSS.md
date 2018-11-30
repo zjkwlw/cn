@@ -14,13 +14,11 @@
 ```
 {hadoop_home}/bin/hadoop fs -cp hdfs:///{hdfs_directory}/{hdfs-file} s3a://{oss-bucket-name}/{oss-file}
 参数说明：
-{hadoop_home}：hadoop服务根目录
-    JMR集群版本：JMR2.0.0
-    HADOOP服务根目录：/data0/hadoop-2.7.4
-{hdfs_directory}：hdfs文件目录路径
-{hdfs-file}：hdfs文件名
-{oss-bucket-name}：对象存储空间名称
-{oss-file}：对象存储文件名
+    {hadoop_home}：hadoop服务根目录: /data0/hadoop-2.7.4(JMR集群版本：JMR2.0.0)  
+    {hdfs_directory}：hdfs文件目录路径
+    {hdfs-file}：hdfs文件名
+    {oss-bucket-name}：对象存储空间名称
+    {oss-file}：对象存储文件名
 ```
 #### 对象存储文件下载至HDFS
 1.	远程登陆至JMR集群Master节点
@@ -29,10 +27,10 @@
 ```
 {hadoop_home}/bin/hadoop fs -cp s3a://{oss-bucket-name}/{oss-file} hdfs:///{hdfs_directory}/{hdfs-file}
 参数说明：
-{hadoop_home}：hadoop服务根目录，参考表 1
-{oss-bucket-name}：对象存储空间名称
-{oss-file}：对象存储文件名
-{hdfs_directory}：hdfs文件目录路径
-{hdfs-file}：hdfs文件名
+    {hadoop_home}：hadoop服务根目录，参考表 1
+    {oss-bucket-name}：对象存储空间名称
+    {oss-file}：对象存储文件名
+    {hdfs_directory}：hdfs文件目录路径
+    {hdfs-file}：hdfs文件名
 ```
 
