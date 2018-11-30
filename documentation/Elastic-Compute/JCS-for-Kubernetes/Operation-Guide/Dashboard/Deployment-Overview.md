@@ -5,5 +5,4 @@ Deployment 为 Pod 和 ReplicaSet 提供了一个声明式定义方法，用来�
 - 滚动升级和回滚应用  
 - 扩容和缩容  
 - 暂停和继续Deployment  
-# Deployment操作
 
