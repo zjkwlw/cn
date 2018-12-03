@@ -3,7 +3,7 @@ ConfigMap 用于保存配置数据的键值对，可以用来保存单个属性�
 
 **创建Configmap**    
 1. 打出控制台，进入[弹性计算>>Kubernetes集群>>ConfigMap](https://cns-console.jdcloud.com/host/kubernetesconfigmap/list)  
-2. 选择Kubernetes集群，（Kubernetes集群创建完后，还请等几分钟后，打开。否则会出现‘内部错误’的报错）  
+2. 选择Kubernetes集群，（Kubernetes集群创建完后，需要等工作节点组创建完再进行操作）  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/Deployment选择集群.png)  
 3. 点击‘创建’按钮，进入创建页面  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/创建Deployment.png)    
