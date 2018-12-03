@@ -83,6 +83,8 @@
             href: SDK-Rerference/Demo.md
       - name: Java SDK
         items:
+          - name: 版本说明
+            href: SDK-Rerference/Java-SDK/JavaSDK-Versions.md
           - name: 环境准备
             href: SDK-Rerference/Java-SDK/Environment-Preparation.md
           - name: 初始化创建
