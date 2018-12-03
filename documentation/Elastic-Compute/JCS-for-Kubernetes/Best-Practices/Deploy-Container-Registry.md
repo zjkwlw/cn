@@ -1,6 +1,6 @@
 # 集成容器镜像仓库  
 
-例：注册表为myregistry，镜像仓库为myrepo，镜像版本号为latest，地域选择华北-北京为cn-north-1。用户可根据具体情况修改。  
+关于使用容器镜像仓库的方法，请参考[容器镜像仓库帮助文档](https://docs.jdcloud.com/cn/container-registry/create-image)。例：注册表为myregistry，镜像仓库为myrepo，镜像版本号为latest，地域选择华北-北京为cn-north-1。用户可根据具体情况修改。  
 1.   
 **第一步：一次性保存secret，有时效性**
 ```
