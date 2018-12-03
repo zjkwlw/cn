@@ -13,7 +13,7 @@ Deployment 为 Pod 和 ReplicaSet 提供了一个声明式定义方法，用来�
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/创建Deployment.png)    
 4. 支持‘从yaml文件导入’或者在线编辑yaml文件，并支持全屏展示  
 5. 编辑完毕，点击‘确认’按钮，进入[弹性计算>>Kubernetes集群>>Workloads>>Deployment](https://cns-console.jdcloud.com/host/kubernetesdeployment/list)查看  
-点击名称，进入详情页，可以查看基本信息、Pod模板、Condition、Yaml文件、事件  
+6. 点击名称，进入详情页，可以查看基本信息、Pod模板、Condition、Yaml文件、事件  
 # 更新Deployment  
 1. 打出控制台，进入[弹性计算>>Kubernetes集群>>Workloads>>Deployment](https://cns-console.jdcloud.com/host/kubernetesdeployment/list)  
 2. 点击‘更新’按钮，进入编辑页面  
