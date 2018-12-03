@@ -13,7 +13,7 @@ Pod是Kubernetes创建或部署的最小/最简单的基本单位，一个Pod代
 # 更新Pod  
 1. 打出控制台，进入入[弹性计算>>Kubernetes集群>>Workloads>>Pod](https://cns-console.jdcloud.com/host/kubernetespod/list)  
 2. 点击‘更新’按钮，进入编辑页面  
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/更新Deployment.png)  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/更新Pod.png)  
 3. 编辑完成后，点击‘确认’即可  
 # 删除Pod  
 1. 打出控制台，进入入[弹性计算>>Kubernetes集群>>Workloads>>Pod](https://cns-console.jdcloud.com/host/kubernetespod/list)    
