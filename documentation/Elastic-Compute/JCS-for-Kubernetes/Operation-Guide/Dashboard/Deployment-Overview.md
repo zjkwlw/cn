@@ -8,7 +8,7 @@ Deployment 为 Pod 和 ReplicaSet 提供了一个声明式定义方法，用来�
 
 **创建Deployment**  
 1. 打出控制台，进入[弹性计算>>Kubernetes集群>>Workloads>>Deployment](https://cns-console.jdcloud.com/host/kubernetesdeployment/list)  
-2. 选择Kubernetes集群，（Kubernetes集群创建完后，还请等几分钟后，打开。否则会出现‘内部错误’的报错）  
+2. 选择Kubernetes集群，（Kubernetes集群创建完后，需要等工作节点组创建完再进行操作）  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/Deployment选择集群.png)  
 3. 点击‘创建’按钮，进入创建页面  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/创建Deployment.png)    
