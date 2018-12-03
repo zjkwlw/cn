@@ -16,7 +16,7 @@
 
 ##  配置告警通知类型
 
-IP高防支持对单个实例进行DDoS攻击告警、错误码状态告警、黑洞告警三种类型进行配置。如下图所示
+IP高防支持对单个实例进行DDoS攻击告警、错误码状态告警、黑洞告警三种类型进行配置。请在实例详情下，如图所示位置进行配置：
 
 ![告警通知](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Advanced%20Anti-DDoS/alarm.png)
 
