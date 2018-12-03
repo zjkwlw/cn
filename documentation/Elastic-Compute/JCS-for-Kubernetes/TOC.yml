@@ -67,6 +67,8 @@
             href: Operation-Guide/Dashboard/Configmap-Overview.md
   - name: 最佳实践
     items:
+     - name: 集成容器镜像仓库
+       href: Best-Practices/Deploy-Container-Registry.md
      - name: 访问Dashboard
        href: Best-Practices/Connect-Dashboard.md
      - name: 部署应用
