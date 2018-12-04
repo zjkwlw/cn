@@ -53,7 +53,7 @@ HeadObject
 
 2.点击修改，设置该存储空间的默认加密方式。
 
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.png)
+![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.jpg)
 
 细节说明：
 *  若您不设置存储空间默认加密方式则所有的已有或者新建的存储空间都没有开启默认加密，存储空间的默认加密方式仅支持SSE-KMS方式。
@@ -72,3 +72,4 @@ HeadObject
 -  设置存储空间默认加密  [PUT Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/PUT-Bucket-Encryption-2.md)
 -  除存储空间默认加密  [DELETE Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/DELETE-Bucket-Encryption-2.md)
 -  获取存储空间默认加密设置  [GET Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/GET-Bucket-Encryption-2.md)
+
