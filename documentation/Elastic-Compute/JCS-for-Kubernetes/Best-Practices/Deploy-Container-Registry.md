@@ -105,6 +105,6 @@ apiVersion: v1
           - name: my-secret
 ```
 3.   创建：  
- `kubectl create -f registrysecret`
+ `kubectl create -f registrysecret`  
 4.   查看详情：  
- `kubectl describe rc webapp`
+ `kubectl describe rc webapp`  
