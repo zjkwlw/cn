@@ -2,10 +2,10 @@
 
 如果您不想在本地搭建或者维护企业目录，可以完全在云上创建企业自己的活动目录，创建成功后只需要将云上的企业目录和目录服务做信任配置即可，这样完全省去了企业目录的维护工作，以及目录的扩容缩容工作，实现完全相同的功能。
 
-![img](https://cf.jd.com/download/attachments/146007894/%E5%AE%8C%E5%85%A8%E6%89%98%E7%AE%A1%E5%BC%8F%E7%9B%AE%E5%BD%95%E6%9C%8D%E5%8A%A1-01.png?version=1&modificationDate=1543913077980&api=v2)
+![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Deploy-and-Manage-Your-Own-AD-DS-on-JDcloud.png)
 
 ### 将您的本地AD拓展至京东云
 
 如果您已有一个 AD 基础设施并且要在将 AD 感知工作负载迁移至京东云时使用它，那么京东云托管式目录服务可起到帮助作用。您可以使用 AD 信任将京东云目录服务连接到您的现有 AD。这意味着，您的用户可以使用其本地 AD 凭证访问 AD 感知应用程序和京东云应用程序，无需您同步用户、组或密码。
 
-![img](https://cf.jd.com/download/attachments/146007894/11.15%E7%9B%AE%E5%BD%95%E6%9C%8D%E5%8A%A1-01.png?version=1&modificationDate=1543913101822&api=v2)
+![img](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-20181122/image/DirectoryService/Extend-On-Premises-AD-DS-Installation-to-the-JDCloud.png)
