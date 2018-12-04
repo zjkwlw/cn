@@ -53,7 +53,7 @@ HeadObject
 
 2.点击修改，设置该存储空间的默认加密方式。
 
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.jpg)
+![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.png)
 
 细节说明：
 *  若您不设置存储空间默认加密方式则所有的已有或者新建的存储空间都没有开启默认加密，存储空间的默认加密方式仅支持SSE-KMS方式。
