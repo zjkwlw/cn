@@ -1,6 +1,6 @@
 # GET Bucket encryption
  返回用户对于OSS存储空间的默认加密配置。此接口兼容S3,仅支持OSS的兼容S3服务域名。
-参见[服务器域](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)。
+参见[服务器域名](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)。
  
 ## 请求语法
  
@@ -61,7 +61,7 @@ x-amz-request-id: 9DFB131D1820AD65
         <ApplyServerSideEncryptionByDefault>
             <SSEAlgorithm>aws:kms</SSEAlgorithm>
         </ApplyServerSideEncryptionByDefault>
-    </Rule>
+     </Rule>
 </ServerSideEncryptionConfiguration>
 
   ```
