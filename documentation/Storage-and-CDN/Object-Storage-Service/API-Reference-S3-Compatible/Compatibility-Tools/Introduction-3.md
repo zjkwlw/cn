@@ -1,6 +1,6 @@
 # 概述
 
-大多基于AWS S3开发的工具在京东云存储上都可以使用。在使用这些工具的时候，一般来说您都要配置3个内容：accesskey、secretkey、endpoint。
+SDK推荐您使用AWS S3 SDK,  大多基于AWS S3开发的各语言在京东云对象存储上都可以使用。在使用这些工具的时候，一般来说您都要配置3个内容：accesskey、secretkey、endpoint。
 
 ## accesskey和secretkey
 
