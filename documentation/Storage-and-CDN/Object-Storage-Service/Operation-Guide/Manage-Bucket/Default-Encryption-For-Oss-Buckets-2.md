@@ -78,5 +78,5 @@ HeadObject
 **相关API参考**
 
 -  设置存储空间默认加密  [PUT Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/PUT-Bucket-Encryption-2.md)
--  除存储空间默认加密  [DELETE Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/DELETE-Bucket-Encryption-2.md)
+-  删除存储空间默认加密  [DELETE Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/DELETE-Bucket-Encryption-2.md)
 -  获取存储空间默认加密设置  [GET Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/GET-Bucket-Encryption-2.md)
