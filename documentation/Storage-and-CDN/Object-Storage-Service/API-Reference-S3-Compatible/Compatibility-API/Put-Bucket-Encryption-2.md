@@ -1,5 +1,6 @@
 # PUT  Bucket encryption
  该功能用于设定bucket默认加密方式。仅支持SSE-KMS。
+ 参见[服务器域名](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)。
  
 ## 请求语法
  
@@ -73,7 +74,7 @@ Content-Length: length
     <ApplyServerSideEncryptionByDefault>
         <SSEAlgorithm>aws:kms</SSEAlgorithm>
     </ApplyServerSideEncryptionByDefault>
-</Rule>
+  </Rule>
 </ServerSideEncryptionConfiguration>
 
   ```
