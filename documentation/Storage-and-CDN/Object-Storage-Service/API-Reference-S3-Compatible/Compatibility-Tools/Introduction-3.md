@@ -8,6 +8,6 @@
 
 ## endpoint
 
-endpoint是用来指定服务域名的，目前不支持https，所以您只能设置为http。
+endpoint是用来指定服务域名的，支持https/http。
 
-下面我们将介绍一些常用的工具：sdk-python、sdk-java、sdk-php、CloudBerry。我们的介绍将帮助您快速入手，详细信息请参考相关的文档。
+下面我们将介绍一些常用的工具：sdk-python、sdk-java、sdk-php等。我们的介绍将帮助您快速入手，详细信息请参考相关的文档。
