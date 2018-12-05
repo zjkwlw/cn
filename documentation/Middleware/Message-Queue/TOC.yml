@@ -94,7 +94,7 @@
           - name: 生产顺序消息
             href: SDK-Rerference/Java-SDK/Produce-FIFO-Message.md
           - name: 消费消息
-            href: SDK-Rerference/Java-SDK/Consumer-Message-SDK.md
+            href: SDK-Rerference/Java-SDK/Consume-Message-SDK.md
   - name: 最佳实践
     items:
     status: 0
