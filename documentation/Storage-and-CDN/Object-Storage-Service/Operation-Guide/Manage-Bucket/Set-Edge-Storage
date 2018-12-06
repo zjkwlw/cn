@@ -1,0 +1,101 @@
+# 边缘存储
+
+边缘存储（Edge Storage）底层利用IPFS（星际文件系统）搭建的系统，拥有如下特性：
+
+1.天然支持跨区复制，提高数据可靠性。
+2.灵活的副本策略，赋予用户可靠性和成本之间的平衡。
+3.天然的P2P网络分发特性，节约用户带宽成本。
+
+## 使用场景
+
+当您有以下需要时，设置边缘存储可能对您有所帮助： 
+
+* 监控视频存储：城市交通，学校，政府，工业园区，商业楼宇，智能住宅，酒店等有监控需求的场所。以上场景共性是分布着大量的监控设备，由于本地存储受限，无法满足视频数据量日益增大的场景，同时也存在现场部署难度，管理调度策略以及各种复杂的网络问题。
+
+* 物联网边缘存储：物联网的边缘设备增多，边缘节点的存储需求也增大。作为离线存储的应用场景，在边缘节点上部署存储服务，将数据加速存储在边缘节点中，并终将数据持久化到保存用户的数据中心或云端。
+
+* 数据存储：应用于日志文件，图片，音视频，静态网站托管，备份和归档，私有云存储等场景。同时应用于用户极为关注的跨区域同步，异地容灾，异地数据备份等场景。
+
+* 互联网信息安全：近年来，国内社会发生过多次因黑客入侵而导致的规模用户信息泄漏事件，都对用户造成了很大的损失和影响，如果采用的去中心化的存储架构，所有数据都访问都分布在不同的节点，想要入侵就要攻击所有节点，有效的保证了数据的安全，保护了用户的隐私。
+
+* 区块链应用存储：作为链下数据存储的底层支撑。
+
+
+
+## 在控制台中设置和管理过程如下：
+
+
+1.开启边缘存储
+
+1）登入控制台->对象存储->空间管理->进入某个Bucket->空间设置->边缘存储
+
+![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
+
+2）单击“开启”按钮，跳出边缘存储规则确认框。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+2.OSS同步至边缘存储。
+
+1）登入控制台->对象存储->空间管理->进入某个Bucket->Object管理
+
+![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
+
+2）单个文件或批量文件同步。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+3）单击“同步至边缘存储”按钮，跳出所选的文件及同步详情。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+4）单击“确定”按钮，页面右上出现任务数量及查看任务信息。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+3.边缘存储同步至OSS。
+
+1）登入控制台->对象存储->边缘存储->文件管理
+
+![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
+
+2）
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+3）
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+4）
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+4.同步至边缘存储。
+
+1）登入控制台->对象存储->边缘存储->文件管理
+
+![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
+
+2）。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+3）。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+4）。
+
+![配置跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
+
+
+5.边缘存储控制台。
+
+1）登入控制台->对象存储->边缘存储->文件管理
+
+![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
+
+1）登入控制台->对象存储->边缘存储->操作日志
+
+![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
