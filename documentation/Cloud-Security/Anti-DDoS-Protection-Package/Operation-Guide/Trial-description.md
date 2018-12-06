@@ -20,9 +20,12 @@ DDoS防护包正在开展免费试用活动，针对邀请用户，最大提供5
 
 2、开通试用
 
-获得试用资格以后，您还需要在控制台内点击开通试用。操作完成后，即开始1个月的免费试用。
+获得试用资格以后，您还需要在控制台内点击开通试用。
 
 ![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/开通试用.png)
 
+弹窗中需要填写试用的实例名称和选择好绑定的IP信息，操作完成后，即开始1个月的免费试用。
+
+![试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/试用.png)
 
 试用活动最终解释权归京东云所有。

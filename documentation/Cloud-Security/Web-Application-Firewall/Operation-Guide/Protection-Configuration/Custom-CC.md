@@ -12,7 +12,7 @@
 2. 前往**网站配置**页面。
 3. 选择要操作的域名，单击其操作列下的**防护配置**。
 4. 在**CC安全防护**下，选择**正常**防护模式，并单击**前去配置**配置自定义规则。 
-         **说明：** 如果您不想使用该功能，可在此处关闭防护。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E8%87%AA%E5%AE%9A%E4%B9%89CC%E9%98%B2%E6%8A%A4-1.png)
+         **说明：** 如果您不想使用该功能，可在此处关闭防护。![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/%E8%87%AA%E5%AE%9A%E4%B9%89CC%E9%98%B2%E6%8A%A4-1.png)
 5. 单击**新增规则**，添加一条规则。参数描述如下：
 
 |      配置      | 说明                                                         |
@@ -27,7 +27,7 @@
 
 **示例：**
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E8%87%AA%E5%AE%9A%E4%B9%89CC%E9%98%B2%E6%8A%A4-2.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/%E8%87%AA%E5%AE%9A%E4%B9%89CC%E9%98%B2%E6%8A%A4-2.png)
 
 **说明：**以图中的配置为例，其含义为：单个IP访问目标地址（完全匹配）时，一旦在60秒内访问超过100次，就直接阻断该IP的访问，阻断操作持续10分钟。 由于WAF需要将集群中的多台服务器的数据进行汇总来统计单一IP的访问频率，统计过程中可能存在一定延时，因此封禁的实际生效时间可能稍有滞后。
 
@@ -35,6 +35,6 @@
 
 规则添加成功后即时生效，您可以选择**编辑**或者**删除**规则。
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/%E8%87%AA%E5%AE%9A%E4%B9%89CC%E9%98%B2%E6%8A%A4-3.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/%E8%87%AA%E5%AE%9A%E4%B9%89CC%E9%98%B2%E6%8A%A4-3.png)
 
  

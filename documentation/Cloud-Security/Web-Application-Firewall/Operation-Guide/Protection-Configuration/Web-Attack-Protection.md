@@ -19,7 +19,7 @@ Web应用攻击防护可防护SQL注入、XSS跨站等常见Web应用攻击，�
 3. 选择要操作的域名，单击其操作列下的**防护配置**。
 
 4. 在**Web应用攻击防护**下，开启防护，并选择防护**模式**： 
-         **说明：**使用过程中出现流量异常，可在通过拨动按钮关闭防护。![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/web%E9%98%B2%E6%8A%A4-1.png)
+         **说明：**使用过程中出现流量异常，可在通过拨动按钮关闭防护。![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/web%E9%98%B2%E6%8A%A4-1.png)
 
 5. - **防护模式**：发现攻击后对攻击请求进行拦截。
    - **预警模式**：发现攻击后仅发送告警信息，不会对请求进行拦截。 

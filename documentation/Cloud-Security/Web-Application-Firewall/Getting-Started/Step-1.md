@@ -1,10 +1,10 @@
 # 添加网站配置
 
-开通云WAF后登陆京东云开通WAF后，需要登录[Web应用防火墙控制台](https://yundun.console.aliyun.com/?p=waf)，在网站配置页面，点击添加网站按钮来添加想要防护的网站信息，为其启用防护。
+开通云WAF后登陆京东云开通WAF后，需要登录Web应用防火墙控制台，在网站配置页面，点击添加网站按钮来添加想要防护的网站信息，为其启用防护。
 
 下图介绍了添加过程，具体操作详解见说明表：
 
-![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/waf-img/WAF-tianjiawangzhan.png)
+![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/WAF-tianjiawangzhan.png)
 
  
 

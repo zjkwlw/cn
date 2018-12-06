@@ -25,10 +25,10 @@ spec:
 ```     
 **参数说明：**
 
-1、如您需要再京东云Kubernetes集群服务中使用京东云云硬盘作为持久化存储，请在PersistentVolume定义时，指定插件jdcloudElasticBlockStore；  
+1、如您需要在京东云Kubernetes集群服务中使用京东云云硬盘作为持久化存储，请在PersistentVolume定义时，指定插件jdcloudElasticBlockStore；  
 2、volumeID：指定同地域下为Kubernetes集群服务提供持久化存储的云硬盘ID；  
 3、fsType：指定文件系统类型；目前仅支持ext4和xfs两种；  
-4、容量：PV 将具有特定的存储容量。这是使用 PV 的容量属性设置的。  
+4、capacity：PV 将具有特定的存储容量。这是使用 PV 的容量属性设置的。  
 5、PersistentVolume 可以以资源提供者支持的任何方式挂载到主机上。  
 京东云云硬盘目前只支持一种模式ReadWriteOnce——该卷可以被单个节点以读/写模式挂载；  
 访问模式包括：  
@@ -117,11 +117,21 @@ spec:
   resources:
     requests:
       storage: 20Gi
+```  
+查看集群的PVC  
+`kubectl get pvc`  
+输出:  
 ```
-查看集群的PVC
-
-查看集群的PV
-
+NAME                                         STATUS    VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
+pvc1                                         Bound     pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            jdcloud-ssd    18s
+```  
+查看集群的PV  
+`kubectl get pv`  
+输出：  
+```
+NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS    CLAIM                                                STORAGECLASS   REASON    AGE
+pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            Delete           Bound     default/pvc1                                         jdcloud-ssd              2m
+```  
 基于StorageClass jdcloud-ssd，为PVC创建了卷。一旦 PV 和 PVC 绑定后，PersistentVolumeClaim 绑定是排他性的，不管它们是如何绑定的。 PVC 跟 PV 绑定是一对一的映射。
 
  

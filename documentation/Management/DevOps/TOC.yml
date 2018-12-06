@@ -59,7 +59,7 @@
         href: Operation-Guide/Resource-Pool.md
       - name: 规格模板
         href: Operation-Guide/Specification-Templates.md
-      - name: 编辑构建
+      - name: 编译构建
         href: Operation-Guide/CI.md
       - name: 线上发布
         href: Operation-Guide/CD.md
