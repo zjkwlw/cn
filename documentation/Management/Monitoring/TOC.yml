@@ -80,15 +80,17 @@ items:
     - name: 可用性监控
       items:
         - name: 可用性监控概述
-          href: Operation-Guide/site-monitoring/usability-monitor-overview.md
+          href: Operation-Guide/Usability-Monitor/usability-monitor-overview.md
         - name: 可用性监控限制与配额
-          href: Operation-Guide/UM-quota-restrictions.md
+          href: Operation-Guide/Usability-Monitor/UM-quota-restrictions.md
+        - name: 安装可用性监控插件
+          href: Operation-Guide/Usability-Monitor/UM-installAgent.md
         - name: 可用性监控任务管理
-          href: Operation-Guide/site-monitoring/UM-management.md
+          href: Operation-Guide/Usability-Monitor/UM-management.md
         - name: 查看监控图
-          href: Operation-Guide/site-monitoring/UM-view.md
+          href: Operation-Guide/Usability-Monitor/UM-view.md
         - name: 设置报警规则
-          href: Operation-Guide/site-monitoring/UM-alarm.md
+          href: Operation-Guide/Usability-Monitor/UM-alarm.md
     - name: 自定义监控 
       items:
         - name: 自定义监控概述

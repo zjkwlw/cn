@@ -27,12 +27,8 @@ items:
   items:
     - name: 密钥管理
       href: Operation-Guide/Key-Management.md
-    - name: 在线工具加解密小数据
+    - name: 在线工具
       href: Operation-Guide/Online-tool.md
     - name: 机密管理
       href: Operation-Guide/Secret-Management.md  
-- name: API参考
-  items:
-    - name: API使用说明
-      href: API-Reference/Overview.md
       
