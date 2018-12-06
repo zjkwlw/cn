@@ -28,7 +28,7 @@
 
 **云计算服务能力标准复合型证书（ITSS）：** 通过文档审查、功能测试、基本性能测试等测评方式，在人员、流程、资源、过程等几大方面，对京东云进行了全方位评估。京东云私有云和公有云均获得工信部 ITSS 颁布云计算服务能力“增强级”认证，标志着京东云计算在人员配备、技术实力、产品性能、资源储备等方面表现优异。
 
-![图 2 京东云资质认证](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/qualification.jpg)
+![图 2 京东云资质认证](https://github.com/jdcloudcom/cn/blob/li131-patch-9/image/Security-Information/qualification44.png)
 
 ## 2. 隐私保护
 
