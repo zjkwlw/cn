@@ -20,27 +20,23 @@
 
 #### （一）申请带备案信息附件
 1.框架协议生效后，可在控制台费用管理->合同管理，单击【申请合同】，选择带备案信息附件。如需要将多个备案信息放在一份合同中，可勾选多个备案单。
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 2.勾选备案单号，单击【确认并生成合同】，确认信息无误后电子合同生成且具有法律效力。
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 3.返回 合同管理 ，可查看已生成的带附件（备案信息）。合同草稿创建成功后，单击 下载该合同草稿，下载后查看合同信息。
-
-带备案信息附件样式如下图。
-
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 #### （二）申请带订单信息附件
 1.框架协议生效后，可在控制台费用管理->合同管理，单击【申请合同】，选择带订单信息附件。如需要将多个订单信息放在一份合同中，可勾选多个订单。
-
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 2.勾选相应订单，单击【确认并生成合同】，确认信息无误后电子合同生成且具有法律效力。
-
-
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 3.返回 合同管理 ，可查看已生成的带附件（订单信息）。合同草稿创建成功后，单击 下载该合同草稿，下载后查看合同信息。
-
-带订单信息附件样式如下图。
-
- 
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 ### 将草稿合同转为正式合同或作废草稿合同。
 确认合同信息无误后，可单击 立即转为正式合同；或在 合同管理 页面，单击该合同操作栏中 转为正式 按钮，将草稿合同转为正式合同。转为正式合同前需短信验签授予京东云待为生成有效甲方电子签章，并加盖在合同内。转为正式合同后具有法律效力，落款章有效，不可自行作废。请用 Adobe Reader 查看正式合同电子章。 
@@ -50,8 +46,10 @@
 线上申请的合同带有京东云电子红章，具有法律效力，可以直接使用。
 
 框架协议生效后，可进入控制台费用管理->合同管理，选择对应合同的申请线下盖章，根据提示信息进行相应操作。
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 如您备案时，需要盖鲜章的合同。请在申请合同后，再进入 纸质合同申请 页面，按页面提示填写信息。合同编号，请在 合同管理 页面查看。
+![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 
 我们会在收到您的申请后10个工作日内，为您邮寄盖鲜章的纸质合同。
 
