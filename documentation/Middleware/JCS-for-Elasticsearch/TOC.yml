@@ -35,10 +35,8 @@
     items:
       - name: 入门指南概述
         href: Getting-Started/Overview.md
-      - name: 创建ES
+      - name: 创建实例
         href: Getting-Started/Create-ES.md
-      - name: 配置ES
-        href: Getting-Started/Configure-ES.md
       - name: 查看ES
         href: Getting-Started/View-ES.md
       - name: 变更ES
