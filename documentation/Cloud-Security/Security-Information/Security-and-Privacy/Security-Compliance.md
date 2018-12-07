@@ -32,7 +32,7 @@
 
 
 
-![图 2 京东云资质认证](https://github.com/jdcloudcom/cn/blob/li131-patch-9/image/Security-Information/qualification44.png)
+![图 2 京东云资质认证](https://github.com/jdcloudcom/cn/blob/security-information/image/Security-Information/qualification_test.png)
 
 ## 2. 隐私保护
 
