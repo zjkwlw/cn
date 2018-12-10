@@ -7,6 +7,7 @@
 1.	登录[云搜索Elasticsearch 控制台](https://es-console.jdcloud.com/clusters)。</br>
 2.	在实例列表页面单击“创建集群”，进入“创建集群”页面。</br>
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/创建ES-01.png)
+
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/configes_10.png)
 3. 进入“创建集群”页面后，指定集群“地域”和“可用区”。</br>
 * “地域”：目前工作区域支持“华北-北京”、“华南-广州”、“华东-上海”。</br>
