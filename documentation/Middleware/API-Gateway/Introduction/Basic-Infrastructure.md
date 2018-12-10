@@ -3,7 +3,7 @@ API网关提供API定义者服务和API调用者服务。API定义者通过管�
 
 ## 业务架构
 业务架构如下图：
-![](../../../../image/Internet-Middleware/API-Gateway/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84.png)
+![](../../../../image/Internet-Middleware/API-Gateway/API-struct.png)
 
 | 概念 | 解释 |
 | :- | :- |
