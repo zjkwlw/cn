@@ -2,6 +2,8 @@
 
 ### 证书管理
  **SSL证书管理** 菜单下，可对IP高防中的证书进行集中管理。上传完成后，网站类配置中即可对证书进行引用。
+ 
+![证书管理](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Advanced%20Anti-DDoS/ssl-cert3.png)
 
 SSL证书管理的页面如下，包括上传证书、修改证书、删除证书。
 
