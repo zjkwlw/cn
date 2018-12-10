@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 /**
- * 消费者 demo.
+ * 推送型消费者 demo.
  * @date 2018-05-17
  */
 public class ConsumerDemo {
