@@ -37,11 +37,13 @@
         href: Getting-Started/Overview.md
       - name: 创建集群
         href: Getting-Started/Create-ES.md
-      - name: 查看ES
+      - name: 实例管理
+        items:
+      - name: 查看集群
         href: Getting-Started/View-ES.md
-      - name: 变更ES
+      - name: 变更配置
         href: Getting-Started/Change-ES.md
-      - name: 删除ES
+      - name: 删除集群
         href: Getting-Started/Delete-ES.md
   - name: 操作指南
     items:
@@ -50,9 +52,7 @@
       - name: 使用kibana
         href: Operation-Guide/using_kibana.md
       - name: 监控集群
-        href: Operation-Guide/Monitoring.md
-      - name: 管理集群
-        href: Operation-Guide/manage-cluster.md  
+        href: Operation-Guide/Monitoring.md 
   - name: 最佳实践
     href: Best-Practices/performance.md
   - name: 常见问题
