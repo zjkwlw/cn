@@ -52,7 +52,11 @@
       - name: 使用kibana
         href: Operation-Guide/using_kibana.md
       - name: 监控集群
-        href: Operation-Guide/Monitoring.md 
+        items: 
+        - name: 查看监控信息
+          href: Operation-Guide/Monitoring.md 
+        - name: 查看状态信息
+          href: Operation-Guide/status.md
       - name: 标签
         items:
         - name: 标签概述
