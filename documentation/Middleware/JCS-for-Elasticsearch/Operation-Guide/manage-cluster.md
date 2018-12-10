@@ -25,6 +25,7 @@
 | 红色（red） | 至少有一个主分片（以及它的全部副本）都在缺失中。 |
 
 
+
 除此之外，也可以通过列表页的集群状态判断集群是否运行正常。</br>
  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/集群状态-01.png)
 
