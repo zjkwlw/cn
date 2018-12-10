@@ -24,23 +24,23 @@ items:
     - name: 密钥
       items:
         - name: 密钥概念
-          href: Operation-Guide/Key-Management/Concepts.md
+          href: Operation-Guide/Key-Management/Key-Concepts.md
         - name: 创建密钥
-          href: Operation-Guide/Key-Management/Create.md
+          href: Operation-Guide/Key-Management/Key-Create.md
         - name: 轮换密钥
-          href: Operation-Guide/Key-Management/Rotation.md
+          href: Operation-Guide/Key-Management/Key-Rotation.md
         - name: 加解密
-          href: Operation-Guide/Key-Management/Encrypt.md
+          href: Operation-Guide/Key-Management/Key-Encrypt.md
         - name: 删除密钥
-          href: Operation-Guide/Key-Management/Delete.md
+          href: Operation-Guide/Key-Management/Key-Delete.md
         - name: 在线工具
-          href: Operation-Guide/Key-Management/Tools.md
+          href: Operation-Guide/Key-Management/Key-Tools.md
     - name: 机密数据
       items:
         - name: 机密数据概念
-          href: Operation-Guide/Secret-Management/Concepts.md
+          href: Operation-Guide/Secret-Management/Secret-Concepts.md
         - name: 创建机密数据
-          href: Operation-Guide/Secret-Management/Create.md
+          href: Operation-Guide/Secret-Management/Secret-Create.md
         - name: 删除机密数据
-          href: Operation-Guide/Secret-Management/Delete.md
+          href: Operation-Guide/Secret-Management/Secret-Delete.md
 
