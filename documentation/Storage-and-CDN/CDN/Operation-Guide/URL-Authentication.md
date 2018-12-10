@@ -111,6 +111,7 @@ domian***?vhost=vhostname&app=appname&stream=streamname&traceId=376ab86d8c647896
 请求方式：GET
 
 请求样例说明：
+
 domain*** 表示推流远程鉴权接口地址，或者播放远程鉴权地址；推流远程鉴权地址和播放远程鉴权地址可以相同也可以不同，由客户方提供。
 请求参数说明
 
