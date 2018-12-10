@@ -54,7 +54,9 @@
       - name: 监控集群
         href: Operation-Guide/Monitoring.md 
   - name: 最佳实践
-    href: Best-Practices/performance.md
+    items:
+     - name: 性能指标
+       href: Best-Practices/performance.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
