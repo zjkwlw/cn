@@ -8,6 +8,7 @@
 
 2.	在实例列表页面单击“创建集群”，进入“创建集群”页面。</br>
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/创建ES-01.png)
+
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/configes_10.png)
 
 3. 进入“创建集群”页面后，指定集群“地域”和“可用区”。</br>
