@@ -4,4 +4,8 @@
 
 当密钥状态为计划删除时，用户将不能使用该密钥进行加解密任何数据。在计划删除时间未到时，若用户需要重新使用该密钥，可以执行取消删除密钥操作并重新启用该密钥。若超过计划删除时间，则该密钥将被KMS永久删除，使用该密钥加密的数据将无法解密，请用户谨慎操作。
 
-![密钥删除](/image/Key-Management-Service/Key-Management/计划删除密钥弹窗.png)
+![删除密钥](/image/Key-Management-Service/Key-Management/计划删除密钥弹窗.png)
+
+# 相关参考
+- [OpenAPI删除密钥](/API/Key-Management-Service/Key-Management-Service/scheduleKeyDeletion.md)
+- [OpenAPI取消删除密钥](/API/Key-Management-Service/Key-Management-Service/cancelKeyDeletion.md)
