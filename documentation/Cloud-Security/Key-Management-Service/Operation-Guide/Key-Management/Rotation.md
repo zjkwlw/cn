@@ -6,3 +6,4 @@
 
 # 相关参考
 - [OpenAPI轮换密钥](/API/Key-Management-Service/Key-Management-Service/keyRotation.md)
+- [OpenAPI修改密钥轮换周期](/API/Key-Management-Service/Key-Management-Service/updateKeyDescription.md)
