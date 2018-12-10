@@ -39,8 +39,3 @@
 创建中 | 集群创建操作，需要一定的时间进行处理的状态，期间部分服务访问会受到影响，如Kabana、数据存储和查询等。 |
 配置变更中 | 集群配置变更操作，需要一定的时间进行处理的状态，期间部分服务访问会受到影响，如 Kibana、数据存储和查询等。|
 </br>
-
-
-### Kibana 访问设置
-用户可以使用Kibana查询和分析存储在Elastisearch中的数据。
-![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana访问设置-01.png)
