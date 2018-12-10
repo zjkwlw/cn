@@ -19,6 +19,8 @@ items:
       href: Pricing/Billing-Overview.md
 - name: 操作指南
   items:
+    - name: 开通服务
+      href: Operation-Guide/Active.md
     - name: 密钥
       items:
         - name: 密钥概念
