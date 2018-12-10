@@ -1,8 +1,8 @@
 ## 编辑标签
 
 当新创建一集群需要对其绑定标签，或对于已绑定标签的实例，需要更改其绑定标签情况时，您可通过编辑标签实现。</br>
-1.访问[云搜索Elasticsearch控制台](https://es-console.jdcloud.com/clusters)，即进入集群列表页面。或访问[京东云控制台](https://console.jdcloud.com)点击左侧导航栏【互联网中间件】-【云搜索Elasticsearch】进入实例列表页。
-2.选择地域。
+1.访问[云搜索Elasticsearch控制台](https://es-console.jdcloud.com/clusters)，即进入集群列表页面。或访问[京东云控制台](https://console.jdcloud.com)点击左侧导航栏【互联网中间件】-【云搜索Elasticsearch】进入实例列表页。</br>
+2.选择地域。</br>
 3.在实例列表中选择需要进行编辑标签的集群，确认其状态为“运行”状态。</br>
 4.点击【操作】-【更多】-【编辑标签】按钮。</br>
 5.在弹出的“编辑标签”弹窗里，当前标签默认显示云主机当前已绑定的标签，若当前实例当前标签内已有10个标签则不能再添加标签。</br>
