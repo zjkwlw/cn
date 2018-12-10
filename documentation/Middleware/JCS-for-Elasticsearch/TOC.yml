@@ -37,7 +37,7 @@
         href: Getting-Started/Overview.md
       - name: 创建集群
         href: Getting-Started/Create-ES.md
-      - name: 实例管理
+      - name: 管理集群
         items:
         - name: 查看集群
           href: Getting-Started/View-ES.md
