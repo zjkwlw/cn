@@ -13,7 +13,7 @@
 
 ###   第2步：选择您想将资源部署的分区
 注册中心只能在某一分区创建。如图所示，先选择“华北-北京”分区，再点击“新建注册中心”。
- ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-list.png)
+ ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-list.png)
  
  
 ####   说明：
@@ -23,5 +23,5 @@
 
 ###   第3步：点击新建注册中心，填写注册信息。
 您需依次录入集群名称、选择集群网络及子网ID、选择服务实例数量、填写备注。然后点击保存，完成创建过程。
-  ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-xj.png)
+  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-xj.png)
 
