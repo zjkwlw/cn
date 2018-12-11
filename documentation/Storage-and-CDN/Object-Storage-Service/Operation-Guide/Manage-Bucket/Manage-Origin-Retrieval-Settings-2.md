@@ -7,7 +7,7 @@
 
 ## 镜像方式
 
-![镜像回源](../../../../../image/Object-Storage-Service/OSS-97png)
+![镜像回源](../../../../../image/Object-Storage-Service/OSS-97.png)
 如果配置了镜像回写，则对一个不存在的文件进行Get操作时，OSS会向源地址请求这个文件，返回给用户，并同时写入到OSS。
 
 ## 使用场景  
