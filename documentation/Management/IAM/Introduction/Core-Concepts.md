@@ -36,6 +36,10 @@
 - 用户角色必须被当前主账号下的子用户扮演，或者跨账号下的子用户扮演后才能生效。
 - 服务角色需要授予某个云服务（如云主机，数据库）来扮演，服务角色将代替用户对您的京东云资源进行管理和操作。
 
+### 角色扮演者（Principal）
+
+京东云中可以扮演角色的实体用户或者服务。
+
 ### 角色扮演和切换
 
 - 从登录身份切换到用户角色身份（SwitchRole）：子用户登录到控制台后，可以选择**角色切换**，前提是这个子用户已经被授予了扮演该用户角色的权限。子用户每次只能扮演一个用户角色，当子用户从登录身份进入用户角色身份时，用户只能使用用户角色身份上所授予的权限，子用户登录身份上绑定的权限会被屏蔽。如果需要使用登录身份的权限，那么需要从角色身份切换回到登录身份。
@@ -83,37 +87,3 @@ IAM 支持两种类型的策略：京东云预置的系统策略和用户自行�
 ### 资源（Resource）
 
 JDCloud资源名称（JDCloud Resource Name，JRN）是用来唯一标识一个JDCloud资源的，我们可以用JRN在JDCLOUD的全局环境中来明确指定一个资源。
-
-#### JRN的描述方式
-
-所有资源均可采用下述的五段式描述方式：
-
-``` jrn:<service_name>:<region>:<accountId>:<resourceType>/<resourceId><subresouceType>/<subresouceId> ```
-
-#### 格式说明
-
-- jrn是 JDCloud Resource Name 的简称，表示这是京东云的云资源。该字段是必填项。
-- service_name 描述产品简称，该字段是必填项，可用 * 表示全部产品线。service name具体事例，详见支持IAM的云服务。
-- region 描述地域信息。该字段是必填项，可用*表示全部region，现有的地域命名方式定义如下：
-
-|  **Region**  | **JRN中Region标识** |
-| :----------: | :-----------------: |
-|  华北-北京   |     cn-north-1      |
-|  华东-宿迁   |      cn-east-1      |
-|  华东-上海   |      cn-east-2      |
-|  华南-广州   |     cn-south-1      |
-| 公网（华北） |  cn-north-internet  |
-
-- AccountID描述资源拥有者的主账号信息，每个主账号有一个12位数字组成的号码，从用户中心 > 基本资料中可以查看AccountID。
-
-- ```<resourceType>/<resourceId>/<subresouceType>/<subresouceId>```， Resource Type为产品线Open API中的一级资源，Resource ID为产品线Open API中的一级资源ID，Subresource Type为产品线Open API中的二级资源，Subresouce ID为产品线Open API中二级资源ID，如果后续产品线需要支持三级，四级资源时，则用 / 来进行分隔即可。可用 * 来表示全部资源。
-
-  JRN示例：
-
-| **描述**                                             | **JRN示例**                                                  |
-| :--------------------------------------------------- | :----------------------------------------------------------- |
-| 指定用户下，指定产品线中的全部资源                   | jrn:sgw:\*:859150329790:*                                    |
-| 指定用户下，指定产品线中，指定region下的全部资源     | jrn:sgw:cn-north-1:859150329790:*                            |
-| 指定用户下，指定产品线中，指定region下的单个资源     | jrn:sgw:cn-north-1:859150329790:instances/waf-yr9w9sr40      |
-| 指定用户下，指定产品线中，指定region下的单个二级资源 | jrn:sgw:cn-north-1:859150329790:database/mysql-ow3z4pnmm2/table/billing |
-
