@@ -11,3 +11,5 @@
 在确认弹框中，选择服务实例数量，单击确认完成操作。
   ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-yyks.png)
 
+#### 说明:
+非正常运行状态中的注册中心，不能进行扩缩容操作。
