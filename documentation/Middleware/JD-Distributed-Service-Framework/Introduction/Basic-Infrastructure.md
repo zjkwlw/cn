@@ -4,7 +4,7 @@
 
 
 ## 业务架构
-业务架构如下图：
+
 ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsf-struct.png)
 
 
