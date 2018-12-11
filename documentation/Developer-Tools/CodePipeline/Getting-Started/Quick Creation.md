@@ -1,8 +1,9 @@
 # 快速创建
 通过快速创建功能，可根据模板快速创建代码-构建-部署。
 操作步骤
-1、	访问[流水线控制台](https://codepipeline-console.jdcloud.com/list)，或访问[京东云控制台](https://console.jdcloud.com)点击左侧导航栏【开发者工具】-【流水线】进入流水线列表页。
-2、	在“流水线列表”页面，点击 快速创建 ，进入“快速创建”页面。
+1. 访问[流水线控制台](https://codepipeline-console.jdcloud.com/list)，或访问[京东云控制台](https://console.jdcloud.com)点击左侧导航栏【开发者工具】-【流水线】进入流水线列表页。
+
+2. 	在“流水线列表”页面，点击 快速创建 ，进入“快速创建”页面。
 2. 选择创建流水线所属地域，点击【快速创建】按钮，进入云主机购买页面。建议您根据业务情况选择实例所在地域，关于京东云地域详细信息，请参见[地域与可用区](../Introduction/Regions-and-AvailabilityZones.md)。
 ![](../../../../image/vm/Getting-Start-Linux-Create-Region.png) 
 3、	默认流水线包含源代码、构建、部署阶段
