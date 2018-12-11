@@ -6,3 +6,10 @@
 * 构建：支持京东云codebuild
 * 测试：支持京东云codebuild
 * 部署：支持京东云Kubernetes集群部署
+
+
+## 常用操作
+* [手工确认](Check-Action.md)
+* [添加操作](Add-Action.md)
+* [编辑操作](Edit-Action.md)
+* [删除操作](Delete-Action.md)
