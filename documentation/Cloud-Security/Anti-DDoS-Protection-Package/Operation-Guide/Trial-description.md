@@ -12,7 +12,7 @@ DDoS防护包正在开展免费试用活动，针对邀请用户，最大提供5
 
 ## 如何试用
 
-请进入[DDoS防护包 控制台](https://antiddos-console.jdcloud.com/gz/ddos/protection-package-list)，防护包的菜单位于DDoS基础防护的目录下。如果您在DDoS防护包的控制台内，看到如下红色恭喜您获得试用资格的字样，请直接点击 **开通试用** 即可。
+请进入[DDoS防护包 控制台](https://antiddos-console.jdcloud.com/gz/ddos/protection-package-list)，防护包的菜单位于DDoS基础防护的目录下。如果您在DDoS防护包的控制台内，看到如下恭喜您获得试用资格的红色字样，请直接点击 **开通试用** 即可。
 
 ![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/开通试用.png)
 
