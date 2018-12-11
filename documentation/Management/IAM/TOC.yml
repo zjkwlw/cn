@@ -4,13 +4,19 @@
   - name: 产品简介
     items:
       - name: IAM概述
-        href: Product-Overview.md
+        href: Introduction/Product-Overview.md
       - name: 产品优势
-        href: Product-Overview.md
-      - name: IAM概述
-        href: Product-Overview.md
-      - name: IAM概述
-        href: Product-Overview.md
+        href: Introduction/Benefits.md
+      - name: 应用场景
+        href: Introduction/Application-Scenarios.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md
+      - name: 限制说明
+        href: Introduction/Restrictions.md
+      - name: 支持IAM的云产品
+        href: Introduction/Support-Services.md
+      - name: 支持IAM的云产品JRN示例
+        href: Introduction/Jrn-Sample.md
   - name: 身份管理
     items:
       - name: 子用户
