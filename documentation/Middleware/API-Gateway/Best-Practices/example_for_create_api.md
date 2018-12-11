@@ -18,28 +18,28 @@
 
 #### 2.	点击创建分组。
 
-![创建分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_apigroup_1.png)
+![创建分组](../../../../image/Internet-Middleware/API-Gateway/exap_create_apigroup_1.png)
 
 #### 3.	跳转新建API分组页面后，填写API分组信息。
 
-![新建API分组](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_apigroup_2.png)
+![新建API分组](../../../../image/Internet-Middleware/API-Gateway/exap_create_apigroup_2.png)
 
 #### 4. 点击确定，提示创建成功，在弹出窗口中选择“管理API”，跳转到此分组的API列表界面。
 
-![新建API分组成功](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_apigroup_success.png)
+![新建API分组成功](../../../../image/Internet-Middleware/API-Gateway/exap_create_apigroup_success.png)
 
 #### 5.	您可以通过以下两种方式部署API。
 - 新建API：点击新建API，配置API的“名称”、“子路径”、“查询参数”、“请求体格式”和“正常返回格式”后，点击确定.
 
-![新建API1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_api_1.png)
+![新建API1](../../../../image/Internet-Middleware/API-Gateway/exap_create_api_1.png)
 
-![导入API2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_api_2.png)
+![导入API2](../../../../image/Internet-Middleware/API-Gateway/exap_create_api_2.png)
 
 - 导入API：点击导入API，上传符合swagger2.0规范的yaml文件，点击确定，API列表界面会显示yaml文件中设定的API。
 
-![导入API](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_import_api_1.png)
+![导入API](../../../../image/Internet-Middleware/API-Gateway/exap_import_api_1.png)
 
-![导入API2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_import_api_2.png)
+![导入API2](../../../../image/Internet-Middleware/API-Gateway/exap_import_api_2.png)
 
 #### 6.	点击“版本修订列表”标签页，点击发布，配置好如下几项后，点击确定。
 
@@ -48,39 +48,39 @@
 - 后端服务：唯一后端；
 - 后端服务地址：http://petstore-demo-endpoint.execute-api.com 。
 
-![发布](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_deploy_1.png)
+![发布](../../../../image/Internet-Middleware/API-Gateway/exap_deploy_1.png)
 
-![发布2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_deploy_2.png)
+![发布2](../../../../image/Internet-Middleware/API-Gateway/exap_deploy_2.png)
 
 #### 7.	发布成功后，点击“生成SDK和文档”，可下载JavaSDK、PythonSDK和API文档。
 
-![生成SDK和文档](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_generate_SDK_doc.png)
+![生成SDK和文档](../../../../image/Internet-Middleware/API-Gateway/exap_generate_SDK_doc.png)
 
 ### 创建访问密钥-创建访问授权-绑定分组：
 
 #### 1.	打开[访问密钥](https://apigateway-console.jdcloud.com/accessSecretKey)，点击创建访问密钥。
 
-![创建访问密钥](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_access_key_1.png)
+![创建访问密钥](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_key_1.png)
 
 #### 2.	填写名称和描述（选填），点击确定。
 
-![创建访问密钥2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_access_key_2.png)
+![创建访问密钥2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_key_2.png)
 
 #### 3.	点击密钥名，查看此访问密钥的详细信息，拷贝访问密钥ID、APIKey和APISecret。
 
-![密钥详细信息](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_access_key_info.png)
+![密钥详细信息](../../../../image/Internet-Middleware/API-Gateway/exap_access_key_info.png)
 
 #### 4.	打开[访问授权](https://apigateway-console.jdcloud.com/authorizationList)，点击“创建授权”。
 
-![创建授权](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_access_auth_1.png)
+![创建授权](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_1.png)
 
 #### 5.	填写用户标识（访问密钥的访问密钥ID）和描述（选填），点击确定。
 
-![创建授权2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_create_access_auth_2.png)
+![创建授权2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_2.png)
 
 #### 6.	点击“绑定”，将创建的PetStore分组移动到已绑定。
 
-![绑定](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_bind.png)
+![绑定](../../../../image/Internet-Middleware/API-Gateway/exap_bind.png)
 
 至此，在API网关控制台的界面操作已经完成，接下来可以通过SDK进行调用。
 
@@ -142,7 +142,7 @@ public class SDKTest {
 
 #### 3.	运行SDKTest.java，得到返回结果。
 
-![Java返回结果](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_Java_return.png)
+![Java返回结果](../../../../image/Internet-Middleware/API-Gateway/exap_Java_return.png)
 
 ### 通过Python SDK调用：
 
@@ -204,4 +204,4 @@ if __name__ == "__main__":
 
 ### 您可以通过[API网关监控](http://cms-console-north-2a-backup.jdcloud.com/monitor/apigateway)实时获取您的API调用情况：成功数、流量、响应时间、请求异常等信息以及设置异常情况报警。
 
-![监控](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/exap_monitor.png)
+![监控](../../../../image/Internet-Middleware/API-Gateway/exap_monitor.png)
