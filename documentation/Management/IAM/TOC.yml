@@ -17,7 +17,9 @@
         href: Introduction/Support-Services.md
       - name: 支持IAM的云产品JRN示例
         href: Introduction/Jrn-Sample.md
-  - name: 身份管理
+ - name: 操作指南
+ items：
+ - name: 身份管理
     items:
       - name: 子用户
         href: Identity-Management/Sub-User.md
@@ -27,7 +29,7 @@
     items:
       - name: 授权策略管理
         href: Policy-Managemenent/Policy-Management.md
-      - name: 授权策略语法
+      - name: 授权策略语法（v2）
         href: Policy-Managemenent/Policy-Grammar.md
   - name: 虚拟 MFA 设备
     items:
