@@ -6,4 +6,4 @@
    ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/dyl-list.png)
  
 ###  第2步：变更调用日志并发写入数量
-    ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/dyl-up.png)
+   ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/dyl-up.png)
