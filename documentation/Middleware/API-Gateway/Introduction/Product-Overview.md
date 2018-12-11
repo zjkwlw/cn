@@ -9,12 +9,12 @@ API 网关（API Gateway），是API托管服务。 提供API的全生命周期�
 ## 常用操作
 
 - 快速上手
-	- [在API网关中快速构建API](../Best-Practices/example_for_create_api.md)
+	- [快速发布和调用一个API应用](../Best-Practices/example_for_create_api.md)
 
 - 分组管理
 	- [创建API分组](../Operation-Guide/Create-APIGroup/Create-APIGroup.md)
 	- [创建API](../Operation-Guide/Create-API/Create-API.md)
- - [发布API分组](../Operation-Guide/ Create-Publish/Create-Publish.md)
+ 	- [发布API分组](../Operation-Guide/Create-Publish/Create-Publish.md)
 
 - 权限管理
 	- [给API分组绑定前端访问授权](../Operation-Guide/Create-Auth/Create-Auth.md)
