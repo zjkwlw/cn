@@ -1,7 +1,7 @@
 # 支持IAM的产品线JRN示例
 
 | 产品线名称   |                           JRN示例                            |
-| :----------- | :----------------------------------------------------------: |
+| :----------- | :---------------------------------------------------------- |
 | DDoS         |        jrn:baseanti:region:accountid:ipResources/{ip}        |
 | 应用安全网关 |      jrn:vpcwaf:region:accountid:instances/{instanceId}      |
 | 负载均衡     | jrn:lb:region:accountid:loadBalancers/{loadBalancerId}<br>jrn:lb:region:accountid:loadBalancers/{loadBalancerId}/backends/{backendId}<br>jrn:lb:region:accountid:loadBalancers/{loadBalancerId}/listeners/{listenerId}<br>jrn:lb:region:accountid:loadBalancers/{loadBalancerId}/targetGroups/{targetGroupId}<br>jrn:lb:region:accountid:ruleMaps/{ruleMapId} |
