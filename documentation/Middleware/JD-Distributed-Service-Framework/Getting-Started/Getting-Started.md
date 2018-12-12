@@ -26,7 +26,7 @@
 
 ### 第2步：创建私有网络
 创建私有网络和创建子网，请参考以下创建流程： 
-- [创建私有网络](../Networking/Virtual-Private-Cloud/Introduction/Product-Overview.md)
+- [创建私有网络](https://docs.jdcloud.com/cn/virtual-private-cloud/vpc-configuration)
 
 
 ###  第3步：配置实例 
