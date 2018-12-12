@@ -7,15 +7,23 @@
  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-list.png)
  
  
-### 第2步：选择父版本，点击操作中的生成新版本，进入版本编辑页。
+### 第2步：第2步：选择父版本，点击操作中的生成新版本，进入版本编辑页。保存后生成新版本。
+ 
+  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-add.png)
+  
+#### 说明：
+- 默认展示父版本内容
+- 版本号大于父版本号
+- 	当切换父版本时，“配置内容”更换至父版本内容.
+
+### 第3步： 选择要发布的版本。点击发布。
+填写发布信息，进行配置发布。
+  
   ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-add.png)
   
   
-说明：
-1)	默认展示父版本内容
-2)	版本号大于父版本号
-3)	当切换父版本时，“配置内容”更换至父版本内容.
+  
+#### 说明：
+发布后，新版本会替代原有版本作为线上版本。
 
-
-第3步：保存后生成新版本。版本需发布后才能生效。
 
