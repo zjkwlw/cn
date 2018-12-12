@@ -10,6 +10,6 @@
 
 ## 常用操作
 * [手工确认](Check-Action.md)
-* [添加操作](Add-Action.md)
-* [编辑操作](Edit-Action.md)
-* [删除操作](Delete-Action.md)
+* [添加操作](Edit-Pipeline.md)
+* [编辑操作](Edit-Pipeline.md)
+* [删除操作](Edit-Pipeline.md)
