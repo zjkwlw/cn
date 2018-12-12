@@ -19,7 +19,7 @@
 
 用户从右侧列表选择空白屏幕，点击使用大屏，您即可创建一个空白的大屏。
 
-![](cn/image/Data-Visualization/media/0088db48ae4557d914e5be164698cb30.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/0088db48ae4557d914e5be164698cb30.png)
 
 1.  创建空白大屏
 
