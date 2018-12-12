@@ -5,7 +5,11 @@
  
 ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/struct-sylc.png)
 
-**说明：创建微服务组件时会占用用户VPC子网中的IP资源，请保留足够子网资源，建议除云主机外请最少保留10个。**
+**说明：**
+创建微服务组件时会占用用户VPC子网中的IP资源，请保留足够子网资源，建议除云主机外请最少保留10个。
+
+
+
 
 
 ###  第1步：开通服务
