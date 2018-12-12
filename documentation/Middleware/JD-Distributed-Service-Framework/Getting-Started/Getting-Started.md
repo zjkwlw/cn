@@ -14,7 +14,7 @@
 
 ###  第1步：开通服务
 ####  注册账号
-若您已有京东云账号，可跳过本步骤进行后续设置。若您还未注册京东云账号，请参考 [注册京东云](https://accounts.jdcloud.com/p/regPage?source=jdcloud)。
+若您已有京东云账号，可跳过本步骤进行后续设置。若您还未注册京东云账号，请参考 [注册](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1)。
 
 ####  认证账号
 为了正常使用本服务，您还需要对您的账号进行认证。
