@@ -1,13 +1,11 @@
 
-#### *1 我的大屏
+#### 1. 我的大屏
 
-##### 新建空白大屏
+##### 1.1新建空白大屏
 
 用户从右侧列表选择空白屏幕，点击使用大屏，您即可创建一个空白的大屏。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e5f56aea8891862ddb34ca6c39e57be6.png)
-
-1.  创建空白大屏
 
 ##### 通过模板方式创建大屏
 
@@ -15,7 +13,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5e0ecd66970638b3c58f02edd938d482.png)
 
-1.  选择大屏模板
 
 ##### 命名大屏
 
@@ -23,7 +20,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/a0473874d4ade3396b97fd243432162f.png)
 
-1.  命名大屏
 
 ##### 进入编辑大屏的工作台
 
@@ -45,7 +41,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/3c3d13e6e15fdc01f2f861080dac07c6.png)
 
-1.  设置画布
 
 ###### 选择图表组件
 
@@ -53,13 +48,11 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/254f6966808a7620d56be71d2a9cb90d.png)
 
-1.  选择图表组件
 
 当您选择某个基础图表后，您可以采用拖拽的方式，在画布上创建这个图表。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e53910025b7dfc7f09ef916f168cca81.png)
 
-1.  生成图表
 
 ###### 图表管理
 
@@ -67,13 +60,11 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/fbfeed41c7ea5433f2f9bbcd32cde8df.png)
 
-1.  图层管理
 
 对于拖入画布中的组件，您还可以通过鼠标右键或者选中组件进行隐藏、复制及删除操作。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/961aa27801b429002cdbe3dfc69ad5da.png)
 
-1.  组件管理
 
 #### 基础图表组件配置
 
@@ -84,7 +75,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/d703ad879e5a5b4d939078caecbac8b4.png)
 
-1.  基础统计类图表
 
 ##### 柱、折、箱线图
 
@@ -93,13 +83,11 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/95906102ac9c00942c9ebbf37994d14e.png)
 
-1.  柱折图列表
 
 柱折箱线图属于复合图形，它具备两个Y轴，其中折线和箱线共用一个Y轴。在样式设置和数据设置上都具备代表性，其他图表的样式设置您可以参照柱折箱线图。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e1dd4f6f71b9241e709e72ec04c208cd.png)
 
-1.  K线图 样式编辑
 
 ###### 柱折箱线图-全局样式
 
@@ -107,7 +95,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e9056e0fe1d433d6c6245ac437e51397.png)
 
-1.  全局样式设置
 
 ###### 柱折箱线图-X轴
 
@@ -115,7 +102,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/017a51b20cb537fcacfef98b0960cf85.png)
 
-1.  X轴样式设置
 
 ###### 柱折箱线图-Y折线轴
 
@@ -123,7 +109,6 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/2e06e3f55c9a4fb64181fbc2cb82c7fa.png)
 
-1.  Y折线轴样式设置
 
 ###### 柱折箱线图-Y柱轴
 
@@ -131,7 +116,6 @@ Y轴(柱图)为右侧坐标轴配置属性与Y折线设置一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/7fcd785501f0abc39f10063785fc03e4.png)
 
-1.  Y柱轴样式设置
 
 ###### 柱折箱线图-图例
 
@@ -139,7 +123,6 @@ Y轴(柱图)为右侧坐标轴配置属性与Y折线设置一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/85c2e14c7c1b4202da9c41dca5e1d464.png)
 
-1.  图例样式设置
 
 ###### 柱折箱线图-数据标签
 
@@ -147,7 +130,6 @@ Y轴(柱图)为右侧坐标轴配置属性与Y折线设置一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/80a0b7c7302669c047a9766314370716.png)
 
-1.  数据标签样式设置
 
 ###### 柱折箱线图-数据系列
 
@@ -157,26 +139,22 @@ Y轴(柱图)为右侧坐标轴配置属性与Y折线设置一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/6d9e6aa43693a915cef5d51f97aeccc0.png)
 
-1.  数据系列
 
 新增数据系列：对于每一个数据系列都可以绑定K线图（箱线）、折现、柱图
 三种数据。当用户点击增加数据系列按钮后，系统默认顺序增加一个数据系列的配置项，例如当前图表已经存在3个数据系列后，新增的数据系类值，默认为4。只有当用户配置的数据中存在系列值为4的业务数据时，图表才能显示该业务数据，否则不显示。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e2670305307a4cb7f2dfe0ef823ba8c8.png)
 
-1.  添加数据系列
 
 数据系列与数据绑定：用户通过与数据一致的系类值，将数据映射到图表中。如果用户设置的系列值与数据不一致，那么图表将不会显示该数据。同理，如果数据没有在系列中维护，那么图表也不会显示该数据。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/2e12b5eace9739124ec8dbb6df0a2d63.png)
 
-1.  数据系列与数据绑定
 
 图表数据样式设置：用户可以选择是否显示柱图、折线、K线(箱线)，并且对图表的样式细节进行设置，例如：修改柱图的粗细，颜色等。下图为仅显示折线和柱图的效果。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/b6ea92259d9375988bffdf0083500dc5.png)
 
-1.  柱折图效果
 
 ###### 柱折箱线图-图表尺寸和位置
 
@@ -184,7 +162,6 @@ Y轴(柱图)为右侧坐标轴配置属性与Y折线设置一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/648098390e740aa8ff4c9e519ed6dad8.png)
 
-1.  图表位置和大小
 
 ###### 柱折箱线图-数据源设置
 
@@ -194,7 +171,6 @@ Y轴(柱图)为右侧坐标轴配置属性与Y折线设置一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/2053c7923f6ce31af037268241810562.png)
 
-1.  数据源配置
 
 SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,组件数据自动更新。
 
@@ -202,7 +178,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/632a3e3ab7b0c1970d24e70cfb830a98.png)
 
-1.  数据字段映射
 
 ##### 饼图/指标占比图
 
@@ -210,7 +185,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/c82e0f81d8a4b01d8b87ec841de237f4.png)
 
-1.  饼图指标占比图
 
 ###### 水位图
 
@@ -218,13 +192,11 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/b3eb0085dbb117aad1f53a7bdcb8cf9e.png)
 
-1.  水位图样式设置
 
 水位图仅需要您绑定一个变量，系统自动将该值转换为百分比且对末尾进行四舍五入取整。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/bcec775e09ab48672b176c911ef16a2d.png)
 
-1.  水位图数据设置
 
 ###### 百分比条形图
 
@@ -232,13 +204,11 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/2ef2c862b61f41db5fadff435f6234b7.png)
 
-1.  百分比条形图样式设置
 
 百分比条形图需要您绑定3个变量（X，Y，S），其中X为每一个数据条的业务指标，Y为对应的指标值，S用于您将数据绑定到数据系列中。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/a56fdafc32e4ac65fd8351f6540b03dd.png)
 
-1.  百分比条形图数据设置
 
 ###### 指标占比图
 
@@ -246,13 +216,11 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/f257135572e0a830d7cc391bb9172402.png)
 
-1.  指标占比图样式设置
 
 指标占比图您只需要绑定指标值（Y）。如果您还需要设置业务指标名称，那么您可以在样式中设置。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/20593e6699f3c0f60e2ae2286095882c.png)
 
-1.  指标占比图数据设置
 
 ###### 百分比拼图
 
@@ -260,13 +228,11 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5a45edf69b3d372912db6d2c9d91dc76.png)
 
-1.  百分比饼图样式设置
 
 百分比饼图的数据绑定需要您设置（X，Y）,其中X为指标名称，Y为指标值。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/53b5c35905df5d0eb898ca8e98ef7898.png)
 
-1.  百分比饼图数据设置
 
 ###### 仪表盘
 
@@ -274,13 +240,11 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e22d396a17b256df71aae04c1fb368ff.png)
 
-1.  仪表盘样式设置
 
 仪表盘的数据设置包括两个值（name,value），其中name 为指标项，value为指标值。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/0ab9fc0a7a705ce8616216eca8177ce4.png)
 
-1.  仪表盘数据设置
 
 ##### 雷达图
 
@@ -288,31 +252,26 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/db4f588fcff74a1611c17a5607f4d66b.png)
 
-1.  雷达图样式设置
 
 在雷达图的极轴中，您可以调节每个轴的最大刻度值。如果您没有维护最大刻度，那么系统将会根据数据的最大值设置轴的最大刻度。此外，您还可以调节轴线的颜色、粗细，刻度值的字体等。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/408da87d1906473454bbbd136c330f3d.png)
 
-1.  雷达图样式设置-极轴
 
 雷达图的样式设置主要是对分割线及分割区域的设置。您可以通过调节极轴的刻度数来调节分割线及分割区域的数量。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e0aa47ccb0807a30d0e4b30872997ed4.png)
 
-1.  雷达图样式设置-分割线、区域
 
 数据标签和数据系列是业务数据在雷达图上的表现。您可以调整数据区的边线、填充去颜色、标签字段等属性。雷达图也支持多系列数据展示，您可以在数据系列中增加多种业务项。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/44dcf22dbee25f4eae1a90cddeacbae3.png)
 
-1.  雷达图样式设置-数据系列、数据标签
 
 您需要绑定数据系列（S）及统计维度，S是您需要描述的数据系列。指标项是数据系列的统计维度。其中S是一个保留字，您必须在绑定的数据中以固定字符S标记。系统在读取数据时，会将S作为业务描述（系列名称），其他列数据作为统计维度。此外，雷达图还支持统计维度重命名功能。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/78840f3dc63fd57d8ca244b05db6aa35.png)
 
-1.  雷达图数据设置
 
 ##### 榜单/列表图
 
@@ -320,7 +279,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/906db7306fd1a2009ddc95449dde1339.png)
 
-1.  榜单列表
 
 在样式设置中两类榜单均包括：全局样式、边框样式、表头样式设置、行样式设置、序号列样式设置、以及数据列样式设置。
 
@@ -328,31 +286,26 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/6449b5918c93f988705b25bf88295478.png)
 
-1.  榜单列表全局设置
 
 边框和表头都是可选项，您可以通过显示框来控制。您可以修改外边框的线条颜色、宽度，还可以表头的字体。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/399570c612d154bcdc89cf3736be9158.png)
 
-1.  榜单边框和表头配置
 
 行配置主要对每一行的背景色、分割线进行配置。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/58874c01eb7a0565dace5db51126472f.png)
 
-1.  榜单行配置
 
 序号列和数据列配置基本相同，两者都包括列宽和字体的设置。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5e8bdb72d74e3c330273cc01c9ca5c79.png)
 
-1.  榜单列配置
 
 您需要将数据以列表的格式上传。在榜单中列的顺序与您上传的数据一致。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/45bbed7260816cf12128657e1ac01b4c.png)
 
-1.  榜单数据设置
 
 ##### 日期热力图
 
@@ -362,14 +315,12 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/64e68dee5c97efd74f14cbc780995aeb.png)
 
-1.  热力图样式设置
 
 在热力图数据配置中，您需要为每一个数据块提供(X,Y,VALUE),其中X,Y
 轴是业务数据在直角坐标系的位置，Value表示业务数据的热力值。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/b80eb123dd37b606b8f4e1c66dd7b707.png)
 
-1.  热力图数据设置
 
 #### 地图组件配置
 
@@ -378,7 +329,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/0c852ad8a6c245cb666d8b49ae507f0e.png)
 
-1.  地图组件库
 
 每种地图组件都支持多图层数据叠加，您可以在同一份地图上叠加飞线、3D柱图、气泡，轨迹、热力效果。此外每一种数据展示方式都支持多系列业务数据。例如您可以通过散点图的颜色、形状来表示不同类型的农作物种类。
 
@@ -388,7 +338,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/40e68e274f2360952dc2cb32d0c148ef.png)
 
-1.  3D地图
 
 ###### 3D边界地图-全局样式设置
 
@@ -396,7 +345,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/a73e615eaf695e368e5280cb443ba50e.png)
 
-1.  3D地图样式设置-全局设置
 
 ###### 3D边界地图-区域样式设置
 
@@ -404,7 +352,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/9556a61274f0b51ff89fcd395c11d457.png)
 
-1.  3D地图区域设置
 
 ###### 3D边界地图-散点层样式设置
 
@@ -416,7 +363,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/97b637e48005aed910e0ab4547b673a4.png)
 
-1.  3D地图样式-散点层
 
 ###### 3D边界地图-柱图层样式设置
 
@@ -430,7 +376,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/053ceb938f0ef6a96826443869791d7d.png)
 
-1.  3D地图样式-柱图层
 
 ###### 3D边界地图-飞线层样式设置
 
@@ -444,7 +389,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/dc40454ea737d1eb49d1b2498a9e5aae.png)
 
-1.  3D地图样式-飞线层
 
 ###### 3D边界地图-区域热力层样式设置
 
@@ -452,7 +396,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/859c422b1d040c12b255aa2f4b2d379b.png)
 
-1.  3D地图样式-热力层
 
 ###### 3D边界地图-光线和后期特效叠加
 
@@ -460,13 +403,11 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/819b235d2a66db0073409e42b3ac17a4.png)
 
-1.  地图样式设置光影以及后期特效
 
 下图为光源特效的对比图：左测为开启光源的效果，右侧为关闭的效果。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/7555d4bde7e4e9094c40999ae4cab325.png)
 
-1.  光影特效对比
 
 ###### 3D地图数据设置
 
@@ -478,14 +419,12 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/a7a6407c7424291280ee2cced7413558.png)
 
-1.  3D地图数据设置-散点层
 
 在柱图层的数据绑定时，您需要为每一个数据设置（lon,lat,name,value,s）5个值。lon/lat是数据的经纬度、name是业务数据的名称，value用于将柱子的高度映射为业务数值、S用于区分不同的数据系列。其中name
 和S字段为可选字段。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/1c4cf25008724f938758d8d731345146.png)
 
-1.  3D地图数据设置-柱图层
 
 在飞线层的数据绑定时，您需要为每一个数据设置（from,to,value,s）4个值。From/to
 是飞线的起止点,起止点需要您再通过lon/lat绑定、value用于将飞线的颜色映射为业务数值、S用于区分不同的数据系列。其中value
@@ -493,14 +432,12 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/b92e40055d47b6411a7af2fc2fd827f3.png)
 
-1.  3D地图数据设置-飞线层
 
 在热力层的数据绑定时，您需要为每一个数据设置（name,value）2个值。与其他数据图层设置不同，热力层需要您绑定地图区域名称例如北京市、河北省，value用于将飞线的颜色映射为业务数值、S用于区分不同的数据系列。其中value
 和S字段为可选字段。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/baedf6313a387eda4b9f335cb99c2169.png)
 
-1.  3D地图数据设置-热力层
 
 ##### 2D边界地图（中国/世界）
 
@@ -508,7 +445,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/a6e1777695446b8fd260696755f8dd19.png)
 
-1.  2D地图
 
 ###### 2D边界地图-全局样式设置
 
@@ -516,7 +452,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/b6aefc5bc52208c6835b3dbbe536a731.png)
 
-1.  2D地图全局设置
 
 ###### 2D边界地图-交互样式设置
 
@@ -524,7 +459,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/ef6e611498ae8920291cc3653df62fcc.png)
 
-1.  2D地图交互样式
 
 ###### 2D边界地图-区域样式设置
 
@@ -532,7 +466,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/809d9b5d90a235758047737225477720.png)
 
-1.  2D地图区域设置
 
 ###### 2D边界地图-涟漪层样式
 
@@ -543,7 +476,6 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/ec47d4f6fc8d4fe2dc77b605f4d855eb.png)
 
-1.  2D边界地图-涟漪层
 
 ###### 2D边界地图-飞线层样式
 
@@ -554,7 +486,7 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/7d5512108b27900872f52c0c39af230f.png)
 
-1.  2D边界地图-飞线层
+
 
 ###### 2D边界地图-区域热力样式
 
@@ -562,7 +494,7 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/9906bf888b405dad754c76e4860ce6ff.png)
 
-1.  2D边界地图-区域热力层
+
 
 ###### 2D边界地图-点热力层样式
 
@@ -572,7 +504,7 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/32e43dee6505e802eb617335a0b5175b.png)
 
-1.  2D边界地图-点热力层
+
 
 ###### 2D边界地图-数据设置
 
@@ -581,7 +513,7 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/e5db4d4711f36d9afa4ba448dd4e1bec.png)
 
-1.  2D边界地图-涟漪层
+
 
 在飞线层的数据设置中，您需要设置（from,to,value,s），其中from/to是业务数据流向的起止点（此外您还需要设置起止点经纬度），value
 可以用于表示该流向的数据指标（例如：北京发往上海的物流量），S是业务数据类型。S与Value
@@ -589,21 +521,21 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/db4d904ba8066c13bffb98812c61d91d.png)
 
-1.  2D边界地图-飞线层
+
 
 在区域热力的数据设置中，您需要设置（name,value,s）,其中name字段是业务数据区域名称（例如：北京市）,value
 是业务数据的热度值。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/2f2ade52e6dded29812942cf96705d92.png)
 
-1.  2D边界地图-区域热力层
+
 
 在点热力的数据设置，您需要设置为每一个数据的（lon,lat,value,s）,其中lon,lat是业务数据的经纬度,value
 是业务数据的热度值，S是业务数据类型。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/de424d7616e68c58e66f27bf602afe5c.png)
 
-1.  2D边界地图-点热力层
+
 
 ##### 2D/3D边界地图-交互设置
 
@@ -613,17 +545,16 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/de7fcd3bc3d64c8b12f4ee149ba20b45.png)
 
-1.  2D边界地图-数据下钻效果图
+
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5f9ab4d2703fe2243a55172d71aadd2f.png)
 
-1.  2D边界地图-数据下钻
 
 如果您希望地图下钻后其他图表能随之联动，那么您需要将图表中的区域设置为变量，并将其他图表的SQL与这个变量进行绑定。例如：在下图中，如果您希望地图下钻后右侧折线图数据随之联动。那么您需要在折线图SQL中绑定地图区域变量area。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/37cb4b90956177849834ab00e8f0b24f.png)
 
-1.  2D边界地图-数据联动SQL
+
 
 #### 文本组件配置
 
@@ -631,7 +562,7 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/9127d57469c6bbd684f4e2312fe4634e.png)
 
-1.  2D文本类图表
+
 
 ##### 文本框、跑马灯
 
@@ -639,19 +570,19 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/48601001f4c9230ecde99dae595f1fb8.png)
 
-1.  文本标题
+
 
 在跑马灯设置中，您除了可以设置字体外还可以设置跑马灯的动画效果。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/55866aa82734676fff01bfa021242a30.png)
 
-1.  跑马灯样式
+
 
 跑马灯的文本需要您通过数据设置绑定。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/bf3180185a50bf629c7bcfc5c1f7d8cf.png)
 
-1.  跑马灯数据设置
+
 
 ##### 时间器、倒计时器
 
@@ -659,13 +590,13 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5e0a542890ed89b4c3d05dad1b068c13.png)
 
-1.  时间器
+
 
 如果您希望使用倒计时器，那么您需要在数据设置中绑定计时截止时间。数据大屏会根据当前系统时间与截止时间倒计时。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/0088db48ae4557d914e5be164698cb30.png)
 
-1.  倒计时器
+
 
 ##### 数字翻牌器
 
@@ -673,13 +604,13 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/2cd251f561568c40b2fbd763840ff0bd.png)
 
-1.  数字翻牌器样式设置
+
 
 您可以动态绑定翻牌器的标题文本、数值、数值前缀、数值后缀。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/880a969722b08664054b1bde3e63e8cb.png)
 
-1.  数字翻牌器数据设置
+
 
 ##### 词云
 
@@ -687,13 +618,13 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/fe9bf84187940b7837a0aee20213f25b.png)
 
-1.  词云样式设置
+
 
 您需要为词云中每一个词绑定名称和权重（name,value）。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/4431ede56bb95d0f59acf6615170f411.png)
 
-1.  词云数据设置
+
 
 #### 交互组件配置
 
@@ -703,43 +634,43 @@ SQL及API情况下，支持数据定时查询：用户维护数据刷新频率,�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/20dc29e9197ca283bbd154eff9502660.png)
 
-1.  Tab页签样式设置
+
 
 您需要为每一个页签创建一条数据。参见下图。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5686ffb8b1ee8d7032eab2f15aa0771c.png)
 
-1.  Tab页签数据设置
+
 
 TAB页签作为交互操作的控制器，页签在捕获鼠标事件后，需要您首先创建一个变量才能将TAB页签的值传递到其它组件。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5686ffb8b1ee8d7032eab2f15aa0771c.png)
 
-1.  Tab页签交互设置
+
 
 在下图所示的数据大屏中，TAB页签用于切换地图数据图层的切换。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/85e3780f977367476abf68c735522bd5.png)
 
-1.  Tab页签交互示例
+
 
 涟漪层数据绑定如下：
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/c8dd4400d56aacddd50dfd5a958c1aa2.png)
 
-1.  涟漪层数据绑定
+
 
 点热力层的数据绑定如下：
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/8af3db9b22072f4a4e4057109266a29b.png)
 
-1.  点热力层的数据绑定
+
 
 下图为TAB页签切换地图数据图层的效果。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/01b4f7cc706ef95c4003802addcbf61b.png)
 
-1.  Tab页签切换地图数据图层
+
 
 #### 辅助组件配置
 
@@ -747,7 +678,7 @@ TAB页签作为交互操作的控制器，页签在捕获鼠标事件后，需�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5ac9b8eab2e7f2839118230f2ff0644e.png)
 
-1.  辅助组件
+
 
 #### 大屏预览/发布
 
@@ -755,25 +686,25 @@ TAB页签作为交互操作的控制器，页签在捕获鼠标事件后，需�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/a082f3f48a15c524e600aabe3a5979a5.png)
 
-1.  大屏预览和发布
+
 
 当您点击了发布按钮后，系统会弹出发布配置页面。在这个页面，您可以维护加密密码。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5e248bfd8c7d9b5fb6b164fe0361579e.png)
 
-1.  大屏加密发布
+
 
 对于已经发布的大屏，您可以通过URL分享大屏。在加密分享分情况下，用户需要录入密码才能查看数据大屏。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/5d7be174b947d1d73e816ff2793b211f.png)
 
-1.  大屏密码录入
+
 
 用户录入密码后，即可全屏查看数据大屏。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/4ffadbaf3dba6f9002dfa514fc98aae8.png)
 
-1.  全屏查看大屏
+
 
 #### 数据源管理
 
@@ -781,17 +712,17 @@ TAB页签作为交互操作的控制器，页签在捕获鼠标事件后，需�
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/f57a15706b79cab74ad441ed0aa2fd03.png)
 
-1.  添加数据源
+
 
 如果该数据源已经被某个大屏引用。那么系统禁止用户删除该数据源。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/0bd7ec1166749d4fcf633a534687b119.png)
 
-1.  删除数据源
+
 
 您还可以通过点击查询，预览数据源内数据表。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/aa4f013eaaf45f42dc1f354b1b213201.png)
 
-1.  预览数据
+
 
